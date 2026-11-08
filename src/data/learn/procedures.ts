@@ -674,332 +674,405 @@ export const PROCEDURES_CONTENT: LearningModule[] = [
       },
       {
         id: 'procedure-episiotomy-episiorrhaphy',
-        title: 'Episiotomy and Episiorrhaphy',
+        title: 'Episiotomy and Perineal Repair',
         category: 'Procedures',
         subCategory: 'Obstetrics',
         content: `
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-      <meta charset="UTF-8">
-      <title>Episiotomy and Episiorrhaphy (Repair)</title>
-      <script src="https://cdn.tailwindcss.com"></script>
-      <style>
-      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
-      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
-      </style>
-      </head>
-      <body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
-      
-      
-      <!-- Hero -->
-      <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
-      
-      <!-- Top-right glow -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Episiotomy and Perineal Repair</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+      .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+      .quote { border-left-width: 3px; border-left-style: solid; }
+      details > summary::-webkit-details-marker { display: none; }
+    </style>
+    </head>
+    <body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+    <div class="max-w-3xl mx-auto p-4 sm:p-6">
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
       <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
-      
-      <!-- Bottom-left glow -->
       <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
-      
-      <!-- Content -->
       <div class="relative p-6 sm:p-8">
-        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Procedures</span>
-        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Episiotomy and Episiorrhaphy (Repair)</h1>
-        <p class="text-sm text-indigo-200">Episiotomy is far less routinely performed today than in past decades, following evidence that restrictive use produces better outcomes than routine use - less severe trauma overall, less pain, and faster healing. It remains an important skill for specific indications, and the repair is one every doctor conducting deliveries needs to perform confidently and correctly, since a poorly repaired episiotomy or perineal tear carries meaningful long-term consequences.</p>
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; OBSTETRICS</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Episiotomy and Perineal Repair</h1>
+        <p class="text-sm text-indigo-200">Almost every house officer and midwife on a Nigerian labour ward will repair a perineum before they have been taught how. Episiotomy is still given to most first-time mothers in many units, although WHO recommends a restrictive policy. This guide covers when to cut and when not to, the mediolateral technique and angle, how to inspect and classify trauma before suturing, repair of an episiotomy or second-degree tear step by step, the injuries you must not repair alone, aftercare, and the complications that follow poor repair.</p>
       </div>
-      </div>
-      
-      <!-- 1. Indications -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+    </div>
+    
+    <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+      <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+        <li><a href="#perineal-trauma-anatomy-and-classification" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Perineal Trauma: Anatomy and Classification</span></a></li>
+        <li><a href="#episiotomy-when-to-cut-and-when-not-to" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Episiotomy: When to Cut and When Not To</span></a></li>
+        <li><a href="#before-you-cut-consent-analgesia-and-equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Before You Cut: Consent, Analgesia and Equipment</span></a></li>
+        <li><a href="#technique-mediolateral-episiotomy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Technique: Mediolateral Episiotomy</span></a></li>
+        <li><a href="#assess-before-you-suture" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Assess Before You Suture</span></a></li>
+        <li><a href="#repair-of-an-episiotomy-or-second-degree-tear" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Repair of an Episiotomy or Second-Degree Tear</span></a></li>
+        <li><a href="#other-tears-what-to-do" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Other Tears: What to Do</span></a></li>
+        <li><a href="#third--and-fourth-degree-tears-recognise-do-not-repair-alone" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Third- and Fourth-Degree Tears: Recognise, Do Not Repair Alone</span></a></li>
+        <li><a href="#postnatal-care-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Postnatal Care and Counselling</span></a></li>
+        <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Special Situations</span></a></li>
+        <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Complications and When to Escalate</span></a></li>
+        <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Videos and Learning Resources</span></a></li>
+        <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Key Clinical Takeaways</span></a></li></ul>
+    </nav>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
-      Indications
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Episiotomy is not routine.</span> Current evidence and guidance support a restrictive approach - performed only when a specific indication is present, not as a default step in normal delivery.</p>
-      <p class="text-sm font-medium text-slate-800 dark:text-slate-200">Recognised indications:</p>
-      <ul class="list-disc pl-5 space-y-1 text-sm">
-        <li>Impending severe perineal tear where the direction of tearing threatens the anal sphincter (a judgement call based on how the perineum is stretching and the trajectory of an impending tear).</li>
-        <li>Instrumental delivery (vacuum or forceps), where additional room is needed.</li>
-        <li>Shoulder dystocia, to gain additional space for delivery manoeuvres.</li>
-        <li>Fetal distress where expediting delivery is required and the perineum is the limiting factor.</li>
-        <li>Some cases of breech delivery.</li>
-      </ul>
-      <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Not an indication on its own:</span> a large baby, primigravida status, or a slow second stage alone - none of these justify routine episiotomy without one of the specific indications above.</p>
-      </div>
-      
-      <!-- 2. Types -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Why This Procedure Matters in Nigerian Practice
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li><strong>Episiotomy is still routine for first births.</strong> Nigerian hospital series report overall episiotomy rates from about 20 to 55 per cent. In first-time mothers, rates are much higher: 88 per cent in one northern series, 90 per cent in a south-eastern series and 62 per cent in another south-eastern study, where booked women were more likely to be cut (66 per cent) than unbooked women (39 per cent). WHO recommends a restrictive policy of 10 per cent or less.</li>
+      <li><strong>Complications follow.</strong> In a study of women who had been cut, one Nigerian series found asymmetry in 33 per cent, infection in 24 per cent and partial dehiscence in 15 per cent, with every repair done by interrupted transcutaneous chromic catgut stitches. A different cohort, using better technique, reported infection in about 2 per cent. In Aba, high episiotomy use was also linked to major perineal lacerations and a longer hospital stay.</li>
+      <li><strong>Delays and weak supervision.</strong> A northern study measured a mean interval of 60 minutes between delivery and repair, because repair materials were not in the delivery suite. In another study, 56 per cent of repairs were done by house officers and under 2 per cent by consultants. Poor pain relief is also common.</li>
+      <li><strong>Genital cutting changes the picture.</strong> In an Abakaliki cohort, 82 per cent of women with female genital mutilation had type 2, and they had higher odds of episiotomy and perineal trauma.</li>
+      <li><strong>Worth getting right.</strong> A well-done repair restores the perineum, prevents long-term pain and dyspareunia, and prevents the missed sphincter injury that leads to faecal incontinence and sometimes a rectovaginal fistula.</li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="perineal-trauma-anatomy-and-classification" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
-      Types of Episiotomy
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <div class="overflow-x-auto">
-        <table class="w-full text-xs sans border-collapse">
-          <thead>
-            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-              <th class="py-2 pr-3 font-medium">Type</th>
-              <th class="py-2 pr-3 font-medium">Description</th>
-              <th class="py-2 font-medium">Notes</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-            <tr><td class="py-2 pr-3">Mediolateral</td><td class="py-2 pr-3">Incision angled away from the midline (typically 45-60&deg; from vertical) toward the ischial tuberosity</td><td class="py-2">Preferred in most current practice - lower risk of extension into the anal sphincter compared with midline, though slightly more painful during healing and a technically less intuitive repair</td></tr>
-            <tr><td class="py-2 pr-3">Midline</td><td class="py-2 pr-3">Incision directly along the midline toward the anus</td><td class="py-2">Easier to repair and less painful, but carries a higher risk of extension into the anal sphincter/rectum if the tear progresses beyond the incision - largely fallen out of favour for this reason</td></tr>
-          </tbody>
-        </table>
-      </div>
-      </div>
-      
-      <!-- 3. Classification -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Perineal Trauma: Anatomy and Classification
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+    <th class="py-2 pr-3 font-semibold">Degree</th><th class="py-2 pr-3 font-semibold">What is torn</th><th class="py-2 pr-3 font-semibold">Who repairs and where</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3">First</td><td class="py-2 pr-3">Skin or vaginal mucosa only.</td><td class="py-2 pr-3">Often no suture if not bleeding and edges lie together. Suture if bleeding or gaping. Midwife or doctor.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Second (an episiotomy is equivalent)</td><td class="py-2 pr-3">Perineal muscles, not the anal sphincter.</td><td class="py-2 pr-3">Midwife or doctor, in the delivery room, with local anaesthesia.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Third (3a, 3b, 3c)</td><td class="py-2 pr-3">Anal sphincter complex. 3a: less than 50 per cent of external sphincter. 3b: more than 50 per cent. 3c: external and internal sphincters.</td><td class="py-2 pr-3">Trained clinician, in theatre, with regional or general anaesthesia (RCOG).</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Fourth</td><td class="py-2 pr-3">Sphincter complex and anal or rectal mucosa.</td><td class="py-2 pr-3">Trained clinician, in theatre. Antibiotics and an expert repair.</td></tr>
+    </tbody></table></div>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>If there is any doubt about the grade of a third-degree tear, classify it to the higher grade.</li>
+      <li>Other trauma to check for: labial and periclitoral tears, periurethral tears (which may need a catheter and a urological opinion), vaginal sulcus tears and cervical tears. Examine the cervix when there is bleeding with a firm uterus.</li>
+      <li>An episiotomy can extend backwards into a third- or fourth-degree tear, the very injury it is meant to prevent.</li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="episiotomy-when-to-cut-and-when-not-to" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
-      Classification of Perineal Trauma
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-      <p class="text-sm">Applies to both episiotomy extension and spontaneous tears. Correct classification determines the repair approach and the seniority of person who should perform it.</p>
-      <div class="overflow-x-auto">
-        <table class="w-full text-xs sans border-collapse">
-          <thead>
-            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-              <th class="py-2 pr-3 font-medium">Degree</th>
-              <th class="py-2 font-medium">Extent</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-            <tr><td class="py-2 pr-3">First degree</td><td class="py-2">Injury to perineal skin and vaginal mucosa only, muscle not involved</td></tr>
-            <tr><td class="py-2 pr-3">Second degree</td><td class="py-2">Injury to perineal muscles, but not the anal sphincter</td></tr>
-            <tr><td class="py-2 pr-3">Third degree</td><td class="py-2">Injury involving the anal sphincter complex - subdivided into 3a (&lt;50% external sphincter thickness torn), 3b (&gt;50% external sphincter thickness torn), 3c (internal sphincter also torn)</td></tr>
-            <tr><td class="py-2 pr-3">Fourth degree</td><td class="py-2">Injury involving the anal sphincter complex and the rectal mucosa</td></tr>
-          </tbody>
-        </table>
-      </div>
-      </div>
-      
-      <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
-      <p class="text-sm text-rose-900 dark:text-rose-300"><span class="font-medium">Third- and fourth-degree tears (obstetric anal sphincter injuries, OASIS) require repair by an appropriately experienced clinician</span> - typically a senior obstetrician - in an operating theatre setting with adequate anaesthesia and lighting, not at the bedside. Recognising when a tear exceeds a straightforward second-degree repair, and escalating rather than proceeding, is one of the most important judgement calls in this whole topic.</p>
-      </div>
-      
-      <!-- 4. Pre-procedure counselling -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Episiotomy: When to Cut and When Not To
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">The evidence favours a restrictive policy. Cochrane reviews show that restrictive use leads to less posterior perineal trauma, less suturing and fewer healing complications at seven days. The only disadvantage is more anterior perineal trauma. WHO recommends restricting episiotomy to about 10 per cent of vaginal births and not using it routinely.</p>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reasons to consider an episiotomy</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Instrumental vaginal delivery (forceps or vacuum), where RCOG advises that a mediolateral episiotomy should be considered.</li>
+      <li>Fetal compromise (a non-reassuring heart rate pattern) where delivery must be hastened.</li>
+      <li>To create space for manoeuvres in shoulder dystocia.</li>
+      <li>A rigid or scarred perineum, such as after previous perineal reconstruction or type 3 genital cutting (Section 11).</li>
+      <li>Imminent severe tear that cannot otherwise be controlled.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reasons not to cut</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li><strong>Routine cutting in a first-time mother.</strong> Nigerian units cut most primigravidae. The evidence does not support this.</li>
+      <li><strong>A midline cut.</strong> Median episiotomy carries a higher risk of third- and fourth-degree tears. RCOG and WHO-aligned teaching recommend a mediolateral cut where an episiotomy is indicated.</li>
+      <li><strong>Without analgesia.</strong> An episiotomy should be done under adequate analgesia (epidural, pudendal block or local infiltration), except in a genuine emergency.</li>
+      <li><strong>When controlled delivery and perineal protection are enough.</strong> Warm compresses on the perineum in the second stage and hands-on perineal protection at crowning are associated with fewer sphincter injuries.</li>
+    </ul>
+    </div>
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+    <p class="font-brand text-sm font-semibold">Guideline Watch: what is the right rate?</p>
+    <p class="text-sm">WHO&rsquo;s figure of 10 per cent comes from a 1996 recommendation and has been repeated since. Newer authors note that the optimal rate is not known. Some indications (instrumental delivery, fetal compromise, previous reconstruction) lead to a rate above zero. The point is selective use: every episiotomy should have a reason you can write down. In a Nigerian unit that cuts 90 per cent of first births, even halving the rate would avoid thousands of unnecessary wounds.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-cut-consent-analgesia-and-equipment" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
-      Pre-Procedure Counselling (Before Episiotomy, if Indicated)
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <p class="text-sm">Where time and circumstances allow (i.e. not an immediate emergency such as shoulder dystocia), briefly explain to the patient before proceeding.</p>
-      <p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">"I need to make a small cut to create more space to help deliver your baby safely. I'll give you an injection to numb the area first, and once your baby is delivered, I'll close it with stitches that will dissolve on their own."</p>
-      <p class="text-sm">Even in urgent scenarios where full explanation isn't possible beforehand, explain what was done and why immediately afterward, as part of routine debrief following delivery - this matters for the woman's understanding of her own body and recovery, and reduces later distress or confusion about why an incision was made.</p>
-      </div>
-      
-      <!-- 5. Equipment -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Before You Cut: Consent, Analgesia and Equipment
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Consent and communication</strong>
+    <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;The baby&rsquo;s head is stretching the skin around the birth passage and I am worried that it will tear badly. I would like to make a small cut to give more room, and I will numb the area first. Afterwards I will stitch it and give you pain relief. Is that all right?&rdquo;</p>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Obtain verbal consent. If time allows, discuss episiotomy beforehand. Respect refusal, except in a true emergency.</li>
+      <li>Tell the woman what you will do before you do it. Pain relief must be adequate for both the cut and the repair.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Local anaesthetic</strong>
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li>Use 1% lidocaine. Aspirate before injecting, to be sure the needle is not in a vessel. Infiltrate slowly along the planned incision line and the area to be repaired.</li>
+      <li>UK practice guidance limits the dose to about 20 mL of 1% lidocaine (200 mg) in total for cutting and repairing, and some guidelines cap it at 3 mg per kg using a recent weight. The pharmacological ceiling for plain lidocaine is 4.5 mg per kg. Use the lower limit and keep a running total of what you have given for the cut and the repair.</li>
+      <li>If the woman has a working epidural, use it. A pudendal block is an option for an operative delivery.</li>
+      <li>Check that the area is numb before you cut or suture. Test with forceps.</li>
+    </ul>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment</strong>
+    <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+    <th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3">Scissors</td><td class="py-2 pr-3">Sharp, angled or curved episiotomy scissors.</td><td class="py-2 pr-3">Sharp, curved scissors or a scalpel. Blunt scissors crush tissue and cut poorly.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">1% lidocaine, 10 or 20 mL syringe, 21 to 23 G needle.</td><td class="py-2 pr-3">Check the concentration of the vial.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Suture</td><td class="py-2 pr-3">2-0 polyglactin 910 (Vicryl or rapidly absorbed Vicryl Rapide) on a curved needle, 1 or 2 packs. Chromic catgut is used where polyglactin is not available.</td><td class="py-2 pr-3">See Guideline Watch in Section 6.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Instruments</td><td class="py-2 pr-3">Needle holder, toothed forceps, scissors, artery forceps, vaginal retractors.</td><td class="py-2 pr-3">A sterile perineal repair pack kept in the delivery suite.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Swabs and tampon</td><td class="py-2 pr-3">Counted swabs or X-ray detectable swabs, a vaginal tampon with a tape.</td><td class="py-2 pr-3">Count swabs before and after. A forgotten swab is a serious error.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Cleansing</td><td class="py-2 pr-3">Antiseptic that does not contain alcohol.</td><td class="py-2 pr-3">Warm clean water and gauze.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Light</td><td class="py-2 pr-3">A good, adjustable light source.</td><td class="py-2 pr-3">A torch held by an assistant is better than poor light. Poor light is a common cause of missed tears.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Pain relief after</td><td class="py-2 pr-3">Paracetamol, an NSAID such as diclofenac (rectal 100 mg if no contraindication) or ibuprofen.</td><td class="py-2 pr-3">Plan analgesia before the woman leaves the delivery room.</td></tr>
+    </tbody></table></div>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-mediolateral-episiotomy" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
-      Equipment
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <ul class="list-disc pl-5 space-y-1 text-sm">
-        <li>Local anaesthetic (1% lidocaine) with syringe and needle.</li>
-        <li>Episiotomy scissors (blunt-tipped).</li>
-        <li>Needle holder, toothed forceps, suture scissors.</li>
-        <li>Absorbable suture material - polyglactin (Vicryl) is standard; rapid-absorbing versions are associated with less need for later suture removal and comparable outcomes.</li>
-        <li>Adequate lighting and positioning - this is frequently underrated and is one of the most common reasons for a technically poor repair.</li>
-        <li>Sterile gauze, antiseptic solution.</li>
-        <li>A means of adequate analgesia - regional anaesthesia (epidural/spinal) if already in place is often sufficient; otherwise local infiltration, ensuring adequate coverage before proceeding.</li>
-      </ul>
-      </div>
-      
-      <!-- 6. Performing the episiotomy -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Technique: Mediolateral Episiotomy
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <ol class="list-decimal pl-5 space-y-1.5 text-sm">
+      <li><strong>Timing.</strong> Cut when the perineum is thinned and the head is crowning, at the height of a contraction. Cutting too early causes unnecessary blood loss, and cutting too late is too late to prevent a tear.</li>
+      <li><strong>Analgesia.</strong> Make sure the area is numb.</li>
+      <li><strong>Protect the baby.</strong> Place two fingers of your non-dominant hand between the baby&rsquo;s head and the perineum and spread them to guard the head.</li>
+      <li><strong>Choose the side.</strong> A right or left mediolateral incision, whichever suits you. Aim the cut away from the anus.</li>
+      <li><strong>Incise.</strong> Start at the midline of the fourchette. Make one firm, single cut at an angle of about 60 degrees from the midline when the perineum is distended. This reduces to about 45 degrees after delivery. The cut should be 3 to 4 cm long, through skin, subcutaneous tissue, vaginal mucosa and the perineal muscles, in one movement. Do not cut with short, snipping cuts.</li>
+      <li><strong>Cut at the right angle.</strong> Incisions made at an angle of more than 35 degrees from the midline carry a much lower risk of a third-degree tear. In one report the risk of a third-degree tear was about 10 per cent with a 25-degree cut and under 1 per cent above 35 degrees.</li>
+      <li><strong>Control the delivery.</strong> Deliver the head slowly and in control, to avoid extension of the cut or a further tear.</li>
+      <li><strong>Pressure for bleeding.</strong> Apply gauze pressure to the cut between contractions if bleeding is heavy.</li>
+      <li><strong>Deliver the baby and placenta</strong> and manage the third stage as usual before you start suturing. Give the uterotonic and check for excessive bleeding.</li>
+    </ol>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assess-before-you-suture" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
-      Performing the Episiotomy
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <ol class="list-decimal pl-5 space-y-2 text-sm">
-        <li>Time the incision to when the presenting part is visibly distending the perineum (typically a 3-4 cm diameter of fetal head visible), not earlier - an episiotomy performed too early increases blood loss without benefit.</li>
-        <li>Infiltrate local anaesthetic along the planned incision line if regional anaesthesia is not already established, and allow adequate time for effect.</li>
-        <li>Insert two fingers between the fetal presenting part and the perineum to protect the fetus, and make a single, deliberate cut with scissors along the chosen line (mediolateral preferred) during a contraction, when the tissue is maximally stretched and thinned - this produces a cleaner cut requiring less force.</li>
-        <li>Proceed with delivery per standard technique.</li>
-      </ol>
-      </div>
-      
-      <!-- 7. Episiorrhaphy -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Assess Before You Suture
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <ol class="list-decimal pl-5 space-y-1.5 text-sm">
+      <li><strong>Make the woman comfortable.</strong> Place her in lithotomy with good lighting and give adequate analgesia. Explain what you are going to do.</li>
+      <li><strong>Check bleeding and the uterus.</strong> Confirm the uterus is firm and bleeding is controlled before you begin a long repair.</li>
+      <li><strong>Inspect systematically.</strong> Look at the labia, periclitoral area, urethra, vaginal walls, vaginal apex, cervix (if bleeding with a firm uterus) and perineum. Locate the apex of the injury. Use a retractor for visibility.</li>
+      <li><strong>Do a gentle rectal examination</strong> in every woman with a perineal tear or episiotomy to look for damage to the external and internal anal sphincter. If you find a sphincter injury, stop and call for help (Section 9).</li>
+      <li><strong>Classify</strong> the injury and write it down.</li>
+      <li><strong>Insert a vaginal tampon</strong> only if needed to see clearly, placed above the apex with the tail clipped to a drape so it will not be forgotten.</li>
+      <li><strong>Repair promptly</strong> once bleeding is controlled. Delay increases bleeding, infection risk and distress. Do not wait for more than an hour in the Nigerian setting of delayed repair.</li>
+    </ol>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="repair-of-an-episiotomy-or-second-degree-tear" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
-      Episiorrhaphy (Repair) - Technique
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-      <p class="text-sm">Repair should proceed as soon as possible after delivery of the placenta, once haemostasis of the uterus is confirmed and the patient is stable, using a systematic layered approach.</p>
-      
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 1: Assessment Before Repair</strong>
-        <ul class="list-disc pl-5 space-y-1 text-sm">
-          <li>Ensure adequate lighting and positioning.</li>
-          <li>Identify the full extent of the injury before starting - follow the tear or incision to its apex; missing the true apex is a common cause of an incompletely repaired, bleeding wound.</li>
-          <li>Classify the degree of injury (Section 3) and escalate if third- or fourth-degree.</li>
-        </ul>
-      </div>
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 2: Analgesia</strong>
-        <p class="text-sm">Confirm adequate anaesthesia before proceeding - top up local infiltration if the area is not fully numb, rather than proceeding through a painful repair.</p>
-      </div>
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 3: Layered Closure</strong>
-        <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Layer 1 - Vaginal mucosa:</span> close with a continuous (running) suture starting just above the apex of the vaginal tear, to secure any bleeding point at the highest extent of the injury, and continue down to the level of the hymenal remnants.</p>
-        <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Layer 2 - Perineal muscle:</span> close the deeper perineal muscle layer with interrupted or continuous sutures, approximating the muscle bulk to restore perineal body integrity - this layer matters significantly for long-term perineal support and should not be rushed or under-approximated.</p>
-        <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Layer 3 - Perineal skin:</span> close with a continuous subcuticular suture where possible, which is associated with less pain than interrupted skin sutures in trial evidence; interrupted sutures remain acceptable where subcuticular technique is unfamiliar or the wound edges do not lend themselves to it.</p>
-      </div>
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 4: Final Checks</strong>
-        <ul class="list-disc pl-5 space-y-1 text-sm">
-          <li>Perform a rectal examination after completing the repair to confirm no suture material has inadvertently passed through the rectal mucosa, and to confirm sphincter integrity - this is a standard, necessary step, not an optional add-on.</li>
-          <li>Confirm haemostasis along the full repair.</li>
-          <li>Count and confirm all swabs/gauze before finishing.</li>
-        </ul>
-      </div>
-      
-      <div class="mt-3 p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans space-y-2">
-        <p>🔗 <span class="font-medium">Episiotomy and repair (layered technique demonstration):</span><br>
-        <a href="https://www.youtube.com/watch?v=cp5sNRWUaVg" class="text-indigo-600 dark:text-indigo-400 underline">youtube.com/watch?v=cp5sNRWUaVg</a></p>
-        <p>🔗 <span class="font-medium">Perineal laceration and episiotomy repair overview (MSD Manual Professional):</span><br>
-        <a href="https://www.msdmanuals.com/professional/multimedia/video/how-to-repair-an-episiotomy" class="text-indigo-600 dark:text-indigo-400 underline">msdmanuals.com/professional - How to Repair an Episiotomy</a></p>
-      </div>
-      </div>
-      
-      <!-- 8. Complications -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Repair of an Episiotomy or Second-Degree Tear
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <p class="text-sm">Use three layers: the vaginal wall, the perineal muscle and the skin. A continuous, non-locking technique for the vagina and muscle, and a subcuticular (buried) stitch for the skin, is the technique recommended by RCOG and supported by trials and Cochrane reviews. It causes less short-term pain than interrupted stitches.</p>
+    <ol class="list-decimal pl-5 space-y-1.5 text-sm">
+      <li><strong>Prepare.</strong> Wash, glove and drape. Clean the perineum with antiseptic. Confirm anaesthesia works.</li>
+      <li><strong>Vaginal wall: anchor.</strong> Identify the apex of the vaginal wound. Place the first stitch about 1 cm above the apex, so that any retracted bleeding vessels are caught. Tie the knot, leaving the long end uncut.</li>
+      <li><strong>Vaginal wall: close.</strong> Close the vaginal mucosa with a continuous, loose, non-locking stitch, about 0.5 cm between bites, working from the apex to the hymenal remnants. Do not pull the stitches tight; tissues will swell. Do not place stitches into the hymenal remnants.</li>
+      <li><strong>Perineal muscles.</strong> Take the needle deep under the vaginal repair and bring it out into the perineal muscle. Close the muscle in one or two layers with the same continuous stitch, apposing the muscle edges and leaving no dead space. Do not go so deep that you enter the rectum.</li>
+      <li><strong>Skin.</strong> Bring the needle out at the lower end of the wound and close the skin with a continuous subcuticular stitch, with the stitches below the surface and the needle re-entering at the same level on each side. The wound edges should lie flat and meet. Interrupted skin stitches are acceptable if you cannot do a subcuticular repair, but are more painful.</li>
+      <li><strong>Tie off</strong> with a knot that is tight but not bulky, and cut the ends short.</li>
+      <li><strong>Haemostasis.</strong> Check for oozing and for a haematoma. Place an extra stitch if needed.</li>
+      <li><strong>Rectal examination.</strong> Do a final rectal examination to make sure that no stitch has passed through the rectal mucosa. If you feel one, remove and re-do it.</li>
+      <li><strong>Remove the tampon and count the swabs.</strong> Two people should confirm that the swab and instrument count is correct.</li>
+      <li><strong>Clean and dress.</strong> Clean and dry the perineum, apply a pad, and give analgesia before the woman moves.</li>
+      <li><strong>Record</strong> the degree of trauma, the layers repaired, the suture, local anaesthetic dose, the swab count and the rectal examination.</li>
+    </ol>
+    </div>
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+    <p class="font-brand text-sm font-semibold">Guideline Watch: suture material and technique</p>
+    <p class="text-sm">RCOG recommends polyglactin 910 (rapidly absorbed where available) rather than chromic catgut, because chromic catgut is associated with more pain and more suture removal. Where chromic catgut is the only suture, use the continuous non-locking technique and avoid the interrupted transcutaneous skin stitches that were used in the Nigerian series with high rates of infection and dehiscence. Trials comparing continuous non-locking with interrupted suturing, including a large trial of about 1,500 women, found less pain with the continuous technique.</p>
+    <p class="text-sm">The depth of the vaginal stitch matters. A loose continuous suture is acceptable if the tissue is not stretched. A locked stitch is tighter and has been linked to more pain.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-tears-what-to-do" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
-      Complications
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <div class="overflow-x-auto">
-        <table class="w-full text-xs sans border-collapse">
-          <thead>
-            <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-              <th class="py-2 pr-3 font-medium">Complication</th>
-              <th class="py-2 pr-3 font-medium">Recognition</th>
-              <th class="py-2 font-medium">Management</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-            <tr><td class="py-2 pr-3">Haematoma</td><td class="py-2 pr-3">Increasing perineal/vaginal pain out of proportion to the repair, a tense swelling</td><td class="py-2">Evacuate and re-explore for a bleeding point if significant; small, stable haematomas may be managed conservatively with close monitoring</td></tr>
-            <tr><td class="py-2 pr-3">Infection/wound breakdown</td><td class="py-2 pr-3">Increasing pain, discharge, fever, typically several days post-repair</td><td class="py-2">Wound swab where available, antibiotics, and consider partial resuturing only once infection is controlled - resuturing an actively infected wound is generally avoided</td></tr>
-            <tr><td class="py-2 pr-3">Incomplete healing/dehiscence</td><td class="py-2 pr-3">Separation of the repair, often from infection, haematoma, or excessive early strain on the wound</td><td class="py-2">Assess extent; may require formal re-repair once any infection is controlled</td></tr>
-            <tr><td class="py-2 pr-3">Missed rectal buttonhole/sphincter injury</td><td class="py-2 pr-3">Faecal incontinence, flatal incontinence, or rectovaginal fistula presenting later</td><td class="py-2">Underlines the importance of the post-repair rectal exam in Section 7; if identified late, requires specialist referral</td></tr>
-            <tr><td class="py-2 pr-3">Long-term dyspareunia</td><td class="py-2 pr-3">Pain with intercourse, often related to over-tightening of the repair or scarring</td><td class="py-2">Counsel proactively before this becomes a source of distress (Section 9); pelvic floor physiotherapy and, in persistent cases, specialist referral</td></tr>
-          </tbody>
-        </table>
-      </div>
-      </div>
-      
-      <!-- 9. Post-procedure counselling -->
-      <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3">
+      Other Tears: What to Do
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+    <th class="py-2 pr-3 font-semibold">Tear</th><th class="py-2 pr-3 font-semibold">Action</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3">First-degree, not bleeding, edges together</td><td class="py-2 pr-3">No suture. Basic care and advice.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">First-degree, bleeding or gaping</td><td class="py-2 pr-3">A simple continuous or interrupted absorbable stitch.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Labial and periclitoral tears</td><td class="py-2 pr-3">Suture if bleeding or if edges do not meet, using a fine absorbable suture. Take care near the clitoris and urethra.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Periurethral tears</td><td class="py-2 pr-3">Insert a catheter to identify the urethra. Suture carefully. Ask for senior help if the urethra is involved.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Vaginal sulcus tears</td><td class="py-2 pr-3">Good light, retractors and help from an assistant. Place sutures from the apex downward.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Cervical tears with a firm uterus</td><td class="py-2 pr-3">Examine with a speculum in good light. Suture from above the apex of the tear. Large tears may need theatre.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Third- and fourth-degree tears</td><td class="py-2 pr-3">Stop. Call for help. See Section 9.</td></tr>
+    </tbody></table></div>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="third--and-fourth-degree-tears-recognise-do-not-repair-alone" style="scroll-margin-top:1.5rem;">
       <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
-      Post-Procedure Patient Counselling
-      </h2>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-      <p class="text-sm">This is frequently under-delivered relative to its importance - a woman is often given minimal explanation of what to expect from a perineal repair during a period already dominated by newborn care.</p>
-      <p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">"You had a [cut/tear] during delivery, which I've repaired with dissolvable stitches. These will dissolve on their own over the next few weeks and don't need to be removed. Some discomfort and swelling in the area is normal for the next 1-2 weeks."</p>
-      
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Antibiotic Prophylaxis</strong>
-        <p class="text-sm">Not routinely recommended for first- or second-degree tears, or for episiotomy alone. For third- and fourth-degree repairs (OASIS) specifically, RCOG guidance recommends broad-spectrum antibiotic prophylaxis at the time of repair, since this measurably reduces the risk of perineal wound infection and dehiscence - this is one of the clearer, evidence-backed differences in management between a straightforward second-degree repair and an OASIS repair, and worth applying explicitly rather than defaulting to the same antibiotic approach for every degree of tear.</p>
-      </div>
-      
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Pain Management</strong>
-        <ul class="list-disc pl-5 space-y-1 text-sm">
-          <li>Regular paracetamol, with an NSAID added where not contraindicated, generally manages perineal pain adequately.</li>
-          <li>Ice packs in the first 24-48 hours can reduce swelling and discomfort.</li>
-          <li>Sitting on a soft cushion, and briefly avoiding prolonged sitting where possible, can improve comfort in the first days.</li>
-        </ul>
-      </div>
-      
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Wound Hygiene</strong>
-        <ul class="list-disc pl-5 space-y-1 text-sm">
-          <li>Keep the area clean; warm water rinses after using the toilet, rather than wiping directly, reduce irritation.</li>
-          <li>Change sanitary pads frequently.</li>
-          <li>Loose, breathable underwear.</li>
-        </ul>
-      </div>
-      </div>
-      
-      <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
-      <p class="text-sm text-rose-900 dark:text-rose-300 mb-3 italic">"Mild pain, some swelling, and light spotting are expected as the area heals. Please come back or seek help urgently if you notice any of the following."</p>
-      <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Fever</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Increasing (rather than improving) pain after the first few days</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Foul-smelling or worsening vaginal discharge</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>The wound opening up or separating</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Difficulty controlling urine or stool, or a feeling of tissue bulging from the vagina</span></li>
-      </ul>
-      </div>
-      
-      <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Bowel Management</strong>
-        <ul class="list-disc pl-5 space-y-1 text-sm">
-          <li>Encourage adequate fluid intake and dietary fibre to avoid constipation and straining, which places direct strain on a fresh repair.</li>
-          <li>A stool softener/laxative is reasonable to offer proactively in the first week after any repair, and is specifically recommended following a third- or fourth-degree repair - RCOG guidance suggests a regular laxative (e.g. lactulose, roughly 10 mL twice daily) for around 10 days post-repair specifically for OASIS, to reduce the risk of wound dehiscence from straining.</li>
-        </ul>
-      </div>
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Return to Activity and Intercourse</strong>
-        <p class="text-sm border-l-4 border-indigo-300 dark:border-indigo-600 pl-4 italic">"Most women feel comfortable resuming sexual intercourse around 4-6 weeks after delivery, once bleeding has stopped and the area feels comfortable - but there's no fixed timeline, and it's entirely reasonable to wait longer. If you experience persistent pain with intercourse beyond this period, please come back and discuss it rather than assuming it's something you have to live with."</p>
-      </div>
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Pelvic Floor Exercises</strong>
-        <p class="text-sm">Introduce pelvic floor (Kegel) exercises once comfortable, generally from the first days postpartum - these support healing and long-term pelvic floor function, and are worth teaching explicitly rather than assuming the patient already knows the technique.</p>
-      </div>
-      <div>
-        <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-2">Follow-Up</strong>
-        <p class="text-sm">A routine postnatal check (commonly around 6 weeks) should include specific assessment of perineal healing, not just a general wellbeing check. Following a third- or fourth-degree repair specifically, RCOG guidance recommends a dedicated follow-up appointment, usually at 6-12 weeks postpartum, ideally with a clinician who has a specific interest in perineal trauma - assessing continence and wound healing explicitly, given the higher stakes of these repairs, rather than folding this into a standard postnatal visit.</p>
-      </div>
-      </div>
-      
-      <!-- Key Clinical Takeaways -->
-      <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
-      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
-      <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Episiotomy is restrictive, not routine - a specific indication should always be identifiable and documented.</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Third- and fourth-degree tears need theatre-level repair by an experienced clinician - recognising when to escalate is the single most important judgement call in this topic.</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Antibiotics and a scheduled laxative course are specifically indicated after OASIS repair, not after routine episiotomy or lower-degree tears.</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never skip the post-repair rectal exam - it's the step that catches a missed buttonhole or sphincter injury before it becomes a delayed, harder-to-treat problem.</span></li>
-        <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give the woman explicit post-repair counselling, including warning signs and realistic timelines - this is routinely under-delivered relative to its importance.</span></li>
-      </ul>
-      </div>
-      
-      <!-- References -->
-      <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
-      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
-        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
-        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-        </svg>
+      Third- and Fourth-Degree Tears: Recognise, Do Not Repair Alone
+    </h2>
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+    <p class="font-brand text-sm font-semibold mb-3">Obstetric Anal Sphincter Injury (OASI)</p>
+    <ul class="space-y-2">
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>How to recognise:</strong> a rectal examination in every tear. A lax or defective sphincter, a torn rectal mucosa, loss of the normal puckering of the anus, or an injury that extends toward the anus.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>What to do:</strong> stop suturing. Cover the wound, give analgesia and tell the woman what you found. Call the most senior obstetrician.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Where to repair:</strong> in an operating theatre, with spinal or general anaesthesia, with good lighting and the right instruments, by a trained clinician or a trainee under supervision. If you cannot do this safely, arrange transfer after covering the wound.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Antibiotics:</strong> give a single dose of a broad-spectrum antibiotic for a third- or fourth-degree tear. MSF guidelines give cefazolin 2 g IV with metronidazole 500 mg IV for a rectal mucosal tear.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Aftercare:</strong> laxatives and stool softeners, adequate analgesia, and follow-up with a physiotherapist or surgeon. Counsel about the risk of faecal incontinence and tell her to report any soiling or leakage.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Why it matters:</strong> a missed or badly repaired sphincter tear causes lifelong incontinence and can progress to a rectovaginal fistula, a feared condition on Nigerian wards.</span></li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="postnatal-care-and-counselling" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Postnatal Care and Counselling
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <ul class="list-disc pl-5 space-y-1.5 text-sm">
+      <li><strong>Pain relief:</strong> paracetamol regularly, and an NSAID such as diclofenac or ibuprofen if there is no contraindication. A rectal diclofenac dose (100 mg) after suturing is used in some units. Cold packs can help in the first day.</li>
+      <li><strong>Hygiene:</strong> wash the perineum with clean water after passing urine and after opening the bowels, from front to back. Change pads often. Dry the area gently. Do not apply herbs, hot compresses or home preparations to the wound.</li>
+      <li><strong>Antibiotics:</strong> not routinely needed for first- or second-degree repair. Give them for a third- or fourth-degree tear, or if there are signs of infection.</li>
+      <li><strong>Pelvic floor:</strong> teach pelvic floor exercises from the first days.</li>
+      <li><strong>Bowels and bladder:</strong> encourage fluids and fibre. Ask about passing urine. A woman who cannot pass urine after a repair may have a haematoma or urinary retention.</li>
+      <li><strong>Sex:</strong> advise her to wait until the wound is comfortable, usually after several weeks. Use lubrication. Ask about pain at the postnatal visit.</li>
+      <li><strong>Return urgently if:</strong> heavy bleeding, increasing pain or swelling, fever, foul discharge, the wound opening, difficulty passing urine, or leakage of stool or gas.</li>
+      <li><strong>Check the wound</strong> at the postnatal visit and ask directly about pain, wound problems, urinary and bowel symptoms.</li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Special Situations
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+    <th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3">Female genital mutilation</td><td class="py-2 pr-3">Ask and examine antenatally if you can. Type 3 (infibulation) needs deinfibulation: WHO recommends it for preventing and treating obstetric complications, with local anaesthesia and good counselling, and it can be done before or during labour. Type 1 and 2 scarring reduces elasticity and may raise the risk of tears and episiotomy. Never reinfibulate.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Operative vaginal delivery</td><td class="py-2 pr-3">A mediolateral episiotomy should be considered. Inspect carefully for sphincter and cervical injury afterwards.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Previous OASI or previous perineal reconstruction</td><td class="py-2 pr-3">Discuss mode of delivery antenatally. Consider the need for episiotomy. Warn the team and keep the repair for an experienced operator.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Previous episiotomy</td><td class="py-2 pr-3">Not a reason to cut again. Cut only for an indication.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Preterm delivery</td><td class="py-2 pr-3">The head is smaller and often no episiotomy is needed.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">HIV or hepatitis B or C</td><td class="py-2 pr-3">Standard precautions with double gloves and eye protection. The same repair. Good wound care and hygiene.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Booked versus unbooked</td><td class="py-2 pr-3">In Nigerian series, booked women were more likely to be cut. The decision should depend on clinical indication and not booking status.</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3">Low-resource labour ward</td><td class="py-2 pr-3">Keep a sterile perineal repair pack, suture and light in the delivery suite, so that repair is not delayed. Have a plan and a number to call for OASI.</td></tr>
+    </tbody></table></div>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+      Complications and When to Escalate
+    </h2>
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+    <p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+    <ul class="space-y-2">
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Haematoma:</strong> severe pain, a tense swelling of the vulva or perineum, pain on sitting, urinary retention. Needs evacuation and haemostasis, usually in theatre.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Continued bleeding:</strong> a slowly expanding vaginal or perineal haematoma may hide a large blood loss. Check the pulse and blood pressure.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection:</strong> fever, pain, redness, swelling and discharge from the wound. Nigerian series report rates from about 2 to 24 per cent. Clean the wound, give antibiotics, and drain any collection.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Wound dehiscence:</strong> partial or complete breakdown, usually with infection. Clean, treat the infection, and consider secondary suturing after infection has settled.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Necrotising infection:</strong> rapidly worsening pain, dusky skin, crepitus, fever and sepsis. A surgical emergency.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Missed sphincter injury:</strong> faecal or flatus incontinence, urgency, or a rectovaginal fistula. Refer to a surgeon.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Asymmetry, skin tags and tight introitus:</strong> poor alignment. A common result of unrepaired or badly repaired wounds.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Dyspareunia and chronic pain:</strong> associated with suturing too tight. Ask at the postnatal visit and refer.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Retained swab or tampon:</strong> foul discharge and fever. Count swabs.</span></li>
+    </ul>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+      Videos and Learning Resources
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://globalhealthmedia.org/video/repairing-a-perineal-tear/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Repairing a Perineal Tear</a> &ndash; the steps of repairing a second-degree tear, designed for low-resource settings.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=PhDeP8MMuac" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Repairing a Perineal Tear (French)</a> &ndash; the same video in French, useful for francophone West Africa.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://sharinginhealth.ca/treatments/obstetric_repair.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">University of Michigan and University of Ghana: Episiotomy and perineal laceration repair (open-access module)</a> &ndash; step-by-step videos for closing the vaginal mucosa, perineal muscles and skin, with simulation resources.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=m5Vm8ZT24HM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to repair an episiotomy or first- and second-degree perineal tear</a> &ndash; a clinical demonstration of repair.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=39frZ9lQ4f0" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manuals: perineal repair</a> &ndash; perineal repair demonstration, listed in training materials for first- and second-degree repair.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=PR88v5CS07g" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Episiotomy demonstration</a> &ndash; clip of the episiotomy procedure, listed in training materials.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=rchtfZUj7sk" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">First- and second-degree perineal tear repair on a simulator</a> &ndash; repair on a suturing simulator.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=DN9AOXUKe88" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Perineal repair: 3-layer closure</a> &ndash; the traditional three-layer closure with interrupted muscle stitches, for a second-degree tear or midline episiotomy.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=vecE3qV8Si0" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Perineal tears repair (first and second degree)</a> &ndash; explains repair of first- and second-degree tears.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=R4o4KSY4MMY" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Second-degree perineal repair demonstration</a> &ndash; practice repair on a sponge, a low-cost teaching model.</div>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and clinical references</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://mrcog.womanhospital.cn/ueditor/php/upload/file/20190821/1566381441.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">RCOG Green-top Guideline 29: The management of third- and fourth-degree perineal tears (2015)</a> &ndash; mediolateral episiotomy at 60 degrees, warm compresses, repair in theatre, antibiotics.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medicalguidelines.msf.org/en/viewport/ONC/english/5-9-perineal-repair-51417069.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MSF Medical Guidelines: Perineal repair</a> &ndash; first- to fourth-degree tears for resource-limited settings, with drawings.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://rightdecisions.scot.nhs.uk/media/5xjberlw/repair-of-a-second-degree-perineal-tear.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS guideline: Repair of a second-degree perineal tear</a> &ndash; stepwise repair with continuous stitch and final rectal examination.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://rightdecisions.scot.nhs.uk/media/1689/repair-of-perineal-lacerations-december-2020-260821.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS guideline: Repair of perineal lacerations</a> &ndash; equipment, suture and local anaesthetic dose, swab checks.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rightdecisions.scot.nhs.uk/ggc-clinical-guidelines/maternity/common-obstetric-problems-intrapartum-labour-ward/episiotomy-perineal-repair-616" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS guideline: Episiotomy and perineal repair</a> &ndash; analgesia dose limits and post-repair care.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://moh.gov.om/media/4zjlp3pa/protocal-for-episiotomy-and-perineal-repair.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ministry of Health protocol: Episiotomy and perineal repair</a> &ndash; protocol with steps for vagina, muscle and skin.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/publications/i/item/9789241565493" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: Managing complications in pregnancy and childbirth, 2nd edition</a> &ndash; the standard district-hospital manual, with perineal tear and episiotomy repair pages.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://patient.info/doctor/Episiotomy-and-Tears" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Patient.info for professionals: Episiotomy and tears</a> &ndash; classification, rates and routine repair.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mdedge.com/obgyn/article/66301/obstetrics/stop-performing-median-episiotomy/page/0/1" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">OBG Management: Stop performing median episiotomy</a> &ndash; angle of incision and risk of severe lacerations.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.intechopen.com/chapters/80687" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Episiotomy chapter: restrictive policy and mediolateral technique</a> &ndash; WHO and FIGO position and how to cut.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10113503/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Trial: continuous non-locking versus interrupted suturing for episiotomy</a> &ndash; randomised trial comparing pain and healing.</div>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Female genital mutilation</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/books/NBK368490/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO guidelines on the management of health complications from FGM (2016)</a> &ndash; recommendation for deinfibulation with local anaesthesia and counselling.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/publications/i/item/9789240107281" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO guideline on the prevention of FGM and clinical management of complications (revised)</a> &ndash; updated recommendations including timing of deinfibulation.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doaj.org/article/e5042698a7ac4a61a566ec376acd85e7" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">FGM and obstetric outcome in a south-east Nigerian cohort</a> &ndash; perineal trauma and episiotomy in women with FGM.</div>
+    </div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian episiotomy practice</strong>
+    <div class="space-y-2">
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/eamj/article/view/8717" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Episiotomy in northern Nigeria: rate, complications and repair delay</a> &ndash; overall rate and rate in first-time mothers.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/eamj/article/view/9618" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Factors influencing episiotomy in south-eastern Nigeria</a> &ndash; rates, risk factors and complications.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478296237.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Episiotomy in south-eastern Nigeria: full text</a> &ndash; discussion of routine use in primigravidae.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/amhsr/article/view/112407/102160" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Prevalence, predictors and outcomes of episiotomy in first-time mothers, Enugu</a> &ndash; booked versus unbooked rates.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478295336.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Complications of episiotomy and their risk factors</a> &ndash; asymmetry, infection and dehiscence with interrupted catgut.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/tjog/article/view/117293/106857" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Post-episiotomy complications and who performs the repair</a> &ndash; House officers repair most episiotomies.</div>
+    <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/nmj/article/view/225539/212832" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Episiotomy and post-episiotomy complications in a Nigerian hospital</a> &ndash; complications by repair practice.</div>
+    </div>
+    <p class="text-sm">Video quality varies. Start with the Global Health Media Project and University of Michigan and Ghana material, then use the others to see different techniques and models.</p>
+    </div>
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+      Key Clinical Takeaways
+    </h2>
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+    <p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+    <ul class="space-y-2">
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use episiotomy selectively. WHO recommends a rate of about 10 per cent or less. Every cut needs a reason: instrumental delivery, fetal compromise, a rigid or scarred perineum.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cut mediolateral, at about 60 degrees from the midline when the perineum is stretched, in one firm cut, under analgesia. Never midline.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Warm compresses and hands-on perineal protection in the second stage reduce sphincter injuries.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Inspect and do a rectal examination before every repair. Classify. If you find a sphincter or rectal injury, stop and call for help.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Repair in three layers: continuous non-locking stitch for the vagina and muscle, subcuticular skin. Anchor 1 cm above the apex. No dead space.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use 2-0 polyglactin 910 where possible. Chromic catgut and interrupted skin stitches carry more pain and complications.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Limit lidocaine to the lower dose (about 20 mL of 1%, or 3 mg per kg) for the cut and repair together, and aspirate before injecting.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Finish with a rectal examination, remove the tampon and count the swabs with a second person.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Third- and fourth-degree tears need a trained operator in theatre with regional or general anaesthesia, antibiotics, laxatives and follow-up.</span></li>
+      <li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do the repair promptly, keep a repair pack in the delivery suite, and teach house officers: they perform most repairs in Nigerian hospitals.</span></li>
+    </ul>
+    </div>
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+      <summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+        <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+        <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
       </summary>
-      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
-        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists - Third- and Fourth-Degree Perineal Tears, Management (Green-top Guideline No. 29).</li>
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>National Institute for Health and Care Excellence (NICE) - Intrapartum Care Guideline (perineal trauma and repair).</li>
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Recommendations on Episiotomy Policies.</li>
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>MSD Manual Professional - How to Repair an Episiotomy.</li>
-          <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines.</li>
-        </ul>
+      <div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+        <p class="text-[10px] leading-snug text-stone-500">1. Royal College of Obstetricians and Gynaecologists. Green-top Guideline No. 29: The management of third- and fourth-degree perineal tears. June 2015 (earlier editions 2001 and 2007).</p>
+        <p class="text-[10px] leading-snug text-stone-500">2. World Health Organization. WHO recommendations: intrapartum care for a positive childbirth experience. Geneva: WHO; 2018 (restrictive episiotomy policy). World Health Organization 1996: Care in normal birth, a practical guide.</p>
+        <p class="text-[10px] leading-snug text-stone-500">3. World Health Organization, UNFPA, UNICEF. Managing complications in pregnancy and childbirth: a guide for midwives and doctors, 2nd edition. Geneva: WHO; 2017 (episiotomy and perineal repair).</p>
+        <p class="text-[10px] leading-snug text-stone-500">4. Cochrane reviews: episiotomy, restrictive versus routine use; continuous versus interrupted suture techniques for repair of perineal trauma; absorbable synthetic versus catgut sutures.</p>
+        <p class="text-[10px] leading-snug text-stone-500">5. Medecins Sans Frontieres. Obstetrics and neonatology: Section 5.9 Perineal repair. MSF Medical Guidelines.</p>
+        <p class="text-[10px] leading-snug text-stone-500">6. World Health Organization. WHO guidelines on the management of health complications from female genital mutilation. Geneva: WHO; 2016. WHO guideline on the prevention of FGM and clinical management of complications, revised edition.</p>
+        <p class="text-[10px] leading-snug text-stone-500">7. NHS Greater Glasgow and Clyde and NHS Scotland. Clinical guidelines on episiotomy and perineal repair, and repair of a second-degree perineal tear.</p>
+        <p class="text-[10px] leading-snug text-stone-500">8. Obstetrics and Gynaecology management review: stop performing median episiotomy, angle of mediolateral incision and risk of severe laceration. OBG Management.</p>
+        <p class="text-[10px] leading-snug text-stone-500">9. Northern Nigerian cohort study of episiotomy rate, complications and delivery-repair interval. East Afr Med J 2003;80:351-356.</p>
+        <p class="text-[10px] leading-snug text-stone-500">10. Factors influencing the use of episiotomy during vaginal delivery in south-eastern Nigeria (retrospective study 2001 to 2005). East Afr Med J.</p>
+        <p class="text-[10px] leading-snug text-stone-500">11. Prevalence, predictors and outcomes of episiotomy among primigravid women in Enugu, Nigeria. Ann Med Health Sci Res.</p>
+        <p class="text-[10px] leading-snug text-stone-500">12. Epidemiology of episiotomy complications in a Nigerian teaching hospital; complications by repair technique; and trends and determinants of episiotomy at a Nigerian teaching hospital. Trop J Obstet Gynaecol 2014;31; Nigerian Med J.</p>
+        <p class="text-[10px] leading-snug text-stone-500">13. Female genital mutilation and obstetric outcome: a cross-sectional comparative study in south-east Nigeria. Eur J Obstet Gynecol Reprod Biol X 2019;1:100005.</p>
+        <p class="text-[10px] leading-snug text-stone-500">14. University of Michigan and University of Ghana. Open-access video module: episiotomy and perineal laceration repair. Global Health Media Project: Repairing a perineal tear.</p>
       </div>
-      </details>
-      
-      </body>
-      </html>
+    </details>
+    </div>
+    </body>
+    </html>
         `
-      },
+    },
       {
         id: 'procedure-wound-suturing',
         title: 'Wound Suturing',
@@ -3527,5 +3600,1515 @@ Key Clinical Takeaways
 </html>
   `
 },
+
+{
+  id: 'procedure-bimanual-uterine-compression',
+  title: 'Bimanual Uterine Compression for Postpartum Haemorrhage',
+  category: 'Procedures',
+  subCategory: 'Obstetrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bimanual Uterine Compression for Postpartum Haemorrhage</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; OBSTETRICS</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Bimanual Uterine Compression for Postpartum Haemorrhage</h1>
+  <p class="text-sm text-indigo-200">The uterus is soft, blood is pouring, the oxytocin is running and the transfusion is an hour away. Bimanual compression needs no equipment except sterile gloves, and it can hold a woman alive while drugs, blood, a balloon or an operating theatre are prepared. This guide covers where compression sits in the PPH response, how to confirm it is atony before you start, the technique and how long to keep going, aortic compression and the anti-shock garment, what to do while you compress, transfer, and the pitfalls.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#where-compression-fits-in-the-pph-response" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Where Compression Fits in the PPH Response</span></a></li>
+  <li><a href="#when-to-use-it-and-when-not-to" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>When to Use It and When Not To</span></a></li>
+  <li><a href="#before-you-start" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Before You Start</span></a></li>
+  <li><a href="#technique-internal-bimanual-compression" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Technique: Internal Bimanual Compression</span></a></li>
+  <li><a href="#technique-external-aortic-compression" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Technique: External Aortic Compression</span></a></li>
+  <li><a href="#other-temporizing-measures-and-balloon-tamponade" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Other Temporizing Measures and Balloon Tamponade</span></a></li>
+  <li><a href="#while-you-compress-keep-resuscitating" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>While You Compress: Keep Resuscitating</span></a></li>
+  <li><a href="#after-compression-monitoring-and-follow-up" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>After Compression: Monitoring and Follow-up</span></a></li>
+  <li><a href="#transfer-with-compression" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Transfer With Compression</span></a></li>
+  <li><a href="#pitfalls-and-complications" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Pitfalls and Complications</span></a></li>
+  <li><a href="#training-drills-and-low-resource-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Training, Drills and Low-Resource Practice</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>PPH is the leading killer.</strong> Postpartum haemorrhage accounts for nearly a quarter of maternal deaths in Nigeria, and uterine atony is its commonest cause. Retained placenta, genital tract trauma and clotting disorders account for the rest.</li>
+<li><strong>Delay kills.</strong> Many women bleed at home, in a church maternity, with a traditional birth attendant, or at a primary health centre with no blood. Deaths follow delayed detection, delayed treatment and delayed escalation. Compression buys time at each step, including during the journey to a referral centre.</li>
+<li><strong>Nigeria helped prove the bundle.</strong> The E-MOTIVE trial ran in 80 hospitals across Nigeria, Kenya, South Africa and Tanzania, with over 210,000 women. A calibrated drape raised PPH detection from 51 to 93 per cent, delivery of the full treatment bundle rose from 19 to 91 per cent, and severe PPH fell by 60 per cent. Nigeria&rsquo;s federal health ministry has integrated the bundle into its safe motherhood strategy and issued a guideline for health workers. Compression is part of the escalation that follows when the first response fails.</li>
+<li><strong>WHO now treats it as temporizing.</strong> The 2025 WHO consolidated PPH guideline recommends bimanual uterine compression, external aortic compression and the non-pneumatic anti-shock garment as temporizing measures until appropriate care is available, for PPH due to atony after vaginal birth. They are context-specific recommendations, and the guideline stresses training and regular emergency drills.</li>
+<li><strong>It is a skill that fades.</strong> The Ethiopian midwife competency checklist for bimanual compression has five key tasks. Practise them on a model until they are automatic, and run PPH drills on your ward.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="where-compression-fits-in-the-pph-response" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Where Compression Fits in the PPH Response
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">WHO&rsquo;s care bundles describe two layers. Do not skip the first to reach the second.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Layer</th><th class="py-2 pr-3 font-semibold">What it contains</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">First response bundle</td><td class="py-2 pr-3">Uterotonic (oxytocin first), isotonic crystalloid, tranexamic acid and uterine massage. In E-MOTIVE the first response also includes a calibrated drape for early detection, and examination and escalation if bleeding continues.</td><td class="py-2 pr-3">Start all elements at once, in quick succession. Measure blood loss, do not estimate it.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Response to refractory PPH</td><td class="py-2 pr-3">Compressive measures (bimanual uterine compression or aortic compression), the non-pneumatic anti-shock garment, and intrauterine balloon tamponade. Then surgery.</td><td class="py-2 pr-3">Compression and the garment are temporizing. The balloon is conditional (below).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Surgical and definitive care</td><td class="py-2 pr-3">Compression sutures, uterine artery ligation or embolisation, hysterectomy, with blood transfusion.</td><td class="py-2 pr-3">Needs theatre, anaesthesia and a surgeon.</td></tr>
+</tbody></table></div>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: first line or temporizing?</p>
+<p class="text-sm">UK practice, drawn from RCOG guidance, uses bimanual compression as the first mechanical step, applied while drugs are given. WHO frames it as a temporizing measure for bleeding that continues after the first response. In both, compression and uterotonics start together. Never hold back oxytocin or tranexamic acid while you compress.</p>
+<p class="text-sm">WHO 2012 classed compression as a weak recommendation with very low-quality evidence. The 2025 guideline keeps it as a context-specific recommendation and notes that it is physically demanding for the provider and uncomfortable for the woman. A simple, immediate, low-technology measure that anyone trained can use is the reason it survives.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-to-use-it-and-when-not-to" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+When to Use It and When Not To
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Use it when</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Bleeding continues after vaginal birth despite uterine massage and uterotonics, and the uterus is soft or poorly contracted.</li>
+<li>You are waiting for blood, a balloon, a surgeon or transfer, and the woman is bleeding.</li>
+<li>There is brisk bleeding with a boggy uterus and you want a quick diagnostic test and a bridge: if the bleeding slows or stops when you compress, atony is almost certainly the cause. If it keeps coming from the vagina, think of genital tract lacerations.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Check These Before and While You Compress</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Is the placenta out and complete?</strong> A retained placenta or fragments prevents contraction. Remove them (see the guide on manual removal of the placenta) before or as part of the compression.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Genital tract trauma:</strong> bleeding with a firm uterus means tear or haematoma. Examine the cervix, vagina and perineum with light and a speculum, and repair.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uterine inversion:</strong> a mass in the vagina and no fundus on abdominal palpation. Replace the uterus. Do not compress.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uterine rupture:</strong> shock out of proportion, abdominal pain, previous caesarean scar, or the uterus not felt where it should be. This needs laparotomy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Clotting failure:</strong> persistent bleeding from cannula sites or gums, no clot in a bedside test. Replace blood and products.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Scope:</strong> WHO&rsquo;s recommendation covers atony after vaginal birth. After caesarean, the uterus is open and in the operating room.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-start" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Before You Start
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Shout for help.</strong> Send for the senior midwife or doctor, the anaesthetist, theatre and blood bank. Compression is tiring. You will need someone to take over.</li>
+<li><strong>Two large IV lines,</strong> bloods for haemoglobin and crossmatch, a bedside clotting test, and warmed fluids. Give oxygen and keep her warm.</li>
+<li><strong>First response drugs now.</strong> Oxytocin (infusion), tranexamic acid 1 g IV over 10 minutes within 3 hours of birth (repeat after 30 minutes if bleeding continues), and uterine massage. Follow your PPH protocol for the next uterotonics.</li>
+<li><strong>Empty the bladder</strong> with a catheter. A full bladder stops the uterus contracting and gets in the way.</li>
+<li><strong>Measure blood loss</strong> with a calibrated drape or collected and weighed pads. Record the pulse and blood pressure every few minutes.</li>
+<li><strong>Explain and use pain relief.</strong> The procedure is painful. Tell her what you are doing and why. WHO notes that effective communication and analgesia matter, when feasible. If you have an anaesthetist, ask for help with analgesia or ketamine, but do not delay compression for it.</li>
+<li><strong>Protect yourself.</strong> Sterile gloves (long gloves if you have them), apron, and eye protection. Remove any clots from the lower uterus and cervix as you begin.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-internal-bimanual-compression" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Technique: Internal Bimanual Compression
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position.</strong> Lithotomy with the buttocks at the edge of the bed, or on her back with legs flexed and apart. Stand or kneel where you can brace.</li>
+<li><strong>Insert one hand</strong> into the vagina, flattened, gently but firmly. Move into the vagina, not deep into the uterus. If there are clots in the lower uterus or cervix, bring them out.</li>
+<li><strong>Make a fist</strong> with the internal hand and place it in the anterior fornix, pressing against the anterior wall of the uterus. Fold the uterus forward over your fist.</li>
+<li><strong>Place the other hand on the abdomen,</strong> cup it behind the uterus and press deeply, so the posterior wall of the uterus is pushed toward the fist. The uterus is squeezed between your two hands.</li>
+<li><strong>Compress firmly and keep still.</strong> Maintain compression until the bleeding stops and the uterus contracts, and for at least 5 minutes. Watch the vaginal bleeding and the blood pressure while you compress. Do not let go to check.</li>
+<li><strong>Share the work.</strong> One provider working alone can sustain adequate pressure for only about 2 minutes. With an assistant pressing from the abdomen, compression has been maintained for up to 5 minutes. Change operators before pressure drops, and call a second person at once.</li>
+<li><strong>Release slowly.</strong> When the uterus is contracting and the bleeding has stopped, release the fist slowly, remove your hand from the vagina, bringing out any clots, and massage the fundus until you are sure it stays firm.</li>
+<li><strong>If bleeding restarts,</strong> compress again, recheck the uterotonics, and prepare the next step.</li>
+<li><strong>Keep compressing</strong> during transfer if bleeding does not stop and you are waiting for blood, a balloon or theatre. WHO recommends it as a temporizing measure until appropriate care is available.</li>
+</ol>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: how deep to go</p>
+<p class="text-sm">The WHO MCPC manual tells you to insert a hand into the vagina, remove clots from the lower part of the uterus or cervix, and put a fist in the anterior fornix. Global Health Media Project training material says to keep the hand in the vagina and not inside the uterus, and to fold the uterus forward. In practice the fist sits in the anterior fornix, with the uterus folded over it, and you do not push through the cervix.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-external-aortic-compression" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Technique: External Aortic Compression
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Aortic compression slows blood flow to the uterus by pressing the abdominal aorta against the spine. WHO 2025 recommends it as a temporizing measure until appropriate care is available. It needs training, careful monitoring and a rested provider, and it can be uncomfortable.</p>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position.</strong> The woman lies flat. Stand on her right side.</li>
+<li><strong>Find the point.</strong> Place your closed left fist just above and slightly to the left of the umbilicus, over the aorta.</li>
+<li><strong>Press down</strong> firmly toward the spine, using your body weight by leaning over her.</li>
+<li><strong>Check effectiveness.</strong> With your right hand, feel the femoral pulse in the groin. If you can still feel it, reposition and press harder until the femoral pulse disappears. Less bleeding and an absent femoral pulse mean the compression is working.</li>
+<li><strong>Keep going</strong> while the team prepares the next step. It is physically demanding. Change the person who is compressing as often as needed.</li>
+<li><strong>Do both together</strong> if you have enough people: one provider with the internal hand, one person pressing the aorta, and a third resuscitating.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-temporizing-measures-and-balloon-tamponade" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Other Temporizing Measures and Balloon Tamponade
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Non-pneumatic anti-shock garment (NASG).</strong> A stretchy neoprene wrap applied from the ankles to the abdomen that compresses the lower body and abdomen and returns blood to the vital organs. WHO recommends it as a temporizing measure until appropriate care is available, including during transfer and while waiting for blood or surgery. In a pre-post study at four Nigerian referral facilities, the garment was associated with lower mortality in women with severe PPH and shock (odds ratio about 0.3). Training is needed, and discomfort and complications have been reported. Do not remove it until blood is running, the woman is stable and the surgical team is ready.</li>
+<li><strong>Uterine balloon tamponade.</strong> WHO 2025 makes a conditional recommendation. It is suitable for bleeding due to atony when the first response bundle has been delivered reliably, other causes of bleeding have been reasonably excluded, and trained staff are available. A condom catheter balloon is a low-cost option in many African facilities: a Foley catheter, a condom tied on with string, a 60 mL syringe and an IV set; the balloon is filled with sterile fluid, kept in place for 6 to 24 hours, and deflated slowly when she is stable. If bleeding is not controlled 15 minutes after inserting it, keep it in place and transfer for surgical care at once. Do compression while the balloon is prepared.</li>
+<li><strong>Uterine packing</strong> with gauze is not recommended.</li>
+<li><strong>Surgery.</strong> Compression sutures, uterine artery ligation, embolisation and hysterectomy are for the surgeon in theatre.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="while-you-compress-keep-resuscitating" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+While You Compress: Keep Resuscitating
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Oxytocin infusion and further uterotonics</strong> according to your protocol (for example ergometrine if she is not hypertensive, misoprostol if oxytocin is unavailable). Avoid ergometrine in pre-eclampsia and hypertension.</li>
+<li><strong>Tranexamic acid</strong> in the first response, with a second dose if bleeding continues after 30 minutes.</li>
+<li><strong>Fluids and blood.</strong> Crystalloid first, then blood as soon as it is available. Replace clotting factors if she is coagulopathic.</li>
+<li><strong>Monitor</strong> pulse, blood pressure, oxygen saturation, urine output, conscious level and bleeding. Say the numbers aloud so the team can follow.</li>
+<li><strong>Examine the genital tract</strong> once the uterus is firm, and repair tears.</li>
+<li><strong>Arrange the next step</strong> while you compress: theatre, balloon, surgeon, blood bank, or transfer. Compression is a bridge and not a destination.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-compression-monitoring-and-follow-up" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+After Compression: Monitoring and Follow-up
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>A woman who needed uterine compression has lost a lot of blood and may bleed again. Monitor pulse, blood pressure, uterine tone and bleeding every 15 minutes for 2 hours, and then regularly until she is stable.</li>
+<li>Keep the uterus firm. Fundal massage, oxytocin infusion, and teach her or her companion to feel the uterus and call you if it becomes soft.</li>
+<li>Check haemoglobin and transfuse if indicated. Treat anaemia with iron, and plan follow-up.</li>
+<li>If she cannot receive blood at your facility, transport her to a facility that can. Do not wait until she collapses.</li>
+<li>Document the time bleeding was diagnosed, blood loss, drugs, tranexamic acid time, when compression started and stopped, who performed it, and the outcome.</li>
+<li>Debrief the team. Note what delayed detection or treatment, and use it to improve the next response.</li>
+<li>Counsel the woman: PPH makes future PPH more likely. Deliver in a facility with blood, and book for antenatal care.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="transfer-with-compression" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Transfer With Compression
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Stabilise before and during transfer.</strong> IV lines running, oxytocin, tranexamic acid, and a plan for blood at the other end.</li>
+<li><strong>Call ahead,</strong> with a clear message: a woman with PPH, estimated blood loss, vital signs, what has been given, and what you are doing.</li>
+<li><strong>Keep compressing</strong> in the vehicle if bleeding is continuing. Send a trained escort with her. If the road is long or rough, use the anti-shock garment so the compressing person can rest and aortic compression can be kept up.</li>
+<li><strong>Send the placenta</strong> and the records with her, and the woman&rsquo;s companion if possible.</li>
+<li>Do not delay transfer to complete tasks that can be done on the road. Do not transfer an unresuscitated woman without starting the first response bundle.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls-and-complications" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Pitfalls and Complications
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">What Goes Wrong</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Compressing the wrong cause.</strong> If bleeding continues with a firm uterus, you are not dealing with atony. Examine for tears and look for retained fragments or a clotting problem.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Letting go too soon.</strong> Compression that fades after 2 minutes cannot control bleeding. Plan relief for the operator.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Stopping the drugs.</strong> Compression is not a substitute for uterotonics and tranexamic acid.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Forcing through the cervix or deep into the uterus,</strong> which risks trauma. Stay in the vagina with the fist in the anterior fornix.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Pain and distress.</strong> Explain, give analgesia when feasible, and do not hold a woman down against her will.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection:</strong> use sterile gloves and a clean technique. Watch for fever and offensive lochia afterwards.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Provider fatigue and missed deterioration.</strong> The compressor cannot monitor the woman at the same time. Assign a separate person to record observations.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No plan for the next step.</strong> If bleeding continues after compression and drugs, escalate to the balloon, the garment, theatre or transfer. Each minute counts.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="training-drills-and-low-resource-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Training, Drills and Low-Resource Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>WHO&rsquo;s 2025 guideline states that compression requires training in the proper technique and regular emergency drills. Train every midwife, doctor and community health worker who attends births.</li>
+<li>Use a pelvic model or a simulated uterus with a foam ball. Helping Mothers Survive: Bleeding After Birth is a competency-based simulation course whose trial data show gains in knowledge and skills after training. The Global Health Media videos were designed to accompany it.</li>
+<li>Use the Ethiopian midwife checklist: insert the hand and make a fist in the anterior fornix; place the other hand behind the uterus and press deeply; maintain compression until bleeding is controlled and the uterus contracts; monitor bleeding and vital signs; palpate the fundus.</li>
+<li>Appoint PPH champions on the ward, as E-MOTIVE did, and rehearse who calls blood, who gives drugs, who compresses and who records.</li>
+<li>Traditional birth attendants in southwest Nigeria have shown poor PPH knowledge and practice. Training and a clear referral pathway, with referral before bleeding becomes severe, are essential.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://globalhealthmedia.org/video/uterine-compression/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Uterine Compression</a> &ndash; a short video showing uterine compression for bleeding from a relaxed uterus. Filmed in real maternities and made for low-resource settings.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.merckmanuals.com/professional/multimedia/video/v50024075" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: Uterine Compression (video and transcript)</a> &ndash; the Global Health Media video with step-by-step text, timing and monitoring.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://globalhealthmedia.org/?p=28968" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Aortic Compression</a> &ndash; how to compress the aorta between a closed fist and the spine.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://globalhealthmedia.org/videos/using-an-anti-shock-garment/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Using an Anti-Shock Garment</a> &ndash; how to put on and safely remove the garment.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.merckmanuals.com/professional/multimedia/video/uterine-balloon-tamponade" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: Uterine Balloon Tamponade (video and transcript)</a> &ndash; condom-catheter balloon, with compression and aortic compression during preparation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=EXUjDyHjb10" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Bakri balloon for postpartum haemorrhage</a> &ndash; placing a commercial uterine tamponade device when medical resuscitation has failed.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://globalhealthmedia.org/new-videos-on-postpartum-hemorrhage/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: New videos on postpartum haemorrhage</a> &ndash; Bleeding After Birth, Managing Severe Bleeding, Manual Removal of the Placenta, Uterine Balloon Tamponade, Cervical Tears, Uterine Compression, Aortic Compression, Anti-Shock Garment.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://globalhealthmedia.org/videos/childbirth/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Childbirth video collection</a> &ndash; the full childbirth series in many languages.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://hmbs.org/documents/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Helping Mothers Survive: Bleeding After Birth video library</a> &ndash; the Global Health Media videos organised for the course, including Managing Severe Bleeding After Birth.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">WHO guidance</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://app.magicapp.org/summary/guideline_10513.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage (2025)</a> &ndash; the guideline summary, including the compression, garment and balloon recommendations.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://bigg-rec.bvsalud.org/en/recommendations/724a81c0f0d0e61697a6f4a9c00dbd310c98eeb9" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO recommendation: bimanual uterine compression</a> &ndash; the recommendation text and remarks.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://bigg-rec.bvsalud.org/en/recommendations/3860b341a16ef6ca5a0ea1163f5227f510aeb6d4" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO recommendation: external aortic compression</a> &ndash; the recommendation and how to judge effectiveness.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://bigg-rec.epistemonikos.org/en/recommendations/f417e7afc655f72ca182fb38febd1233e87c13d2" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO recommendation: non-pneumatic anti-shock garment</a> &ndash; the recommendation and remarks.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://opus.lib.uts.edu.au/bitstream/10453/193665/2/New%20guidelines%20for%20the%20prevention%2c%20diagnosis%2c%20and%20treatment%20of%20postpartum%20haemorrhage%3a%20ending%20the%20geography%20of%20risk.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Lancet Global Health comment: New PPH guidelines, ending the geography of risk</a> &ndash; how the 2025 guideline treats temporizing measures and balloon tamponade.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7064978/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO technical consultation: PPH care bundles</a> &ndash; defines the first response bundle and the refractory PPH bundle.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/publications/i/item/9789241565493" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: Managing complications in pregnancy and childbirth, 2nd edition</a> &ndash; step-by-step bimanual compression in the bleeding-after-childbirth chapter.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Clinical references and procedure sheets</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.glowm.com/article/id/413083" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">GLOWM: Non-surgical approaches to refractory PPH</a> &ndash; compression, aortic compression, NASG and condom tamponade, with timing data.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aafp.org/pubs/afp/issues/2017/0401/p442.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAFP: Postpartum hemorrhage, prevention and treatment (2017)</a> &ndash; a practical clinical review with illustrations.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ambulance.qld.gov.au/__data/assets/pdf_file/0022/219244/cpp_procedures-for-obstetric-haemorrhage-control.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Queensland Ambulance Service: procedures for obstetric haemorrhage control</a> &ndash; fundal massage, external aortic compression and bimanual compression for non-obstetric clinicians.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://healthproviders.sharedhealthmb.ca/download/924/p-standard-clinical-procedures/42334/p03-1-bimanual-uterine-compression.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Shared Health Manitoba: Bimanual uterine compression procedure</a> &ndash; a ten-step procedure sheet for emergency providers.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.springermedizin.de/resource/supplementary/12884_2017_1441_MOESM2_ESM.pdf/14220084" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Midwife competency checklist: bimanual compression of the uterus</a> &ndash; a five-task checklist for training and assessment.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5293860/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PPH Butterfly: uterine compression as a diagnostic and treatment step</a> &ndash; explains that bleeding which stops with compression is almost certainly atony, and bleeding that continues suggests lacerations.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">E-MOTIVE and the Nigerian context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://mspgh.unimelb.edu.au/research-groups/nossal-institute-for-global-health/gender-and-womens-health/early-detection-and-treatment-of-postpartum-haemorrhage-the-e-motive-project" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">E-MOTIVE project overview</a> &ndash; the calibrated drape and first response bundle, with trial results in Kenya, Nigeria, South Africa and Tanzania.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://jogeca.com/index.php/jogeca/article/view/133" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PPH champions: sustaining gains beyond E-MOTIVE</a> &ndash; trial detection and bundle delivery figures.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://nigeriahealthwatch.com/?p=31617" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Nigeria Health Watch: E-MOTIVE policy dialogue</a> &ndash; how the federal ministry integrated the bundle into policy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://safemotherhood.ucsf.edu/sites/g/files/tkssra10096/f/wysiwyg/GOI.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Non-pneumatic anti-shock garment for PPH in Nigerian referral facilities</a> &ndash; mortality results from four Nigerian referral facilities.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://link.springer.com/10.1038/s41598-023-39296-y" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Traditional birth attendants and PPH management in Osun State</a> &ndash; knowledge and practice among traditional birth attendants.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the Global Health Media Project videos and the Merck Manual transcripts, then use the WHO pages to confirm what is recommended and in which settings.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Start all first-response measures together: oxytocin, tranexamic acid, IV fluids, uterine massage, and a measured blood loss. Do not hold back drugs to compress.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Before compressing, check that the placenta is out and complete and that there is no inversion, rupture or tear. If the bleeding stops with compression, it is atony. If it continues from a firm uterus, look for lacerations.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Internal technique: sterile glove, fist in the anterior fornix, folded uterus, other hand behind the fundus pressing deeply. Keep the hand in the vagina.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Compress for at least 5 minutes and until the uterus contracts and bleeding stops. One person alone tires in about 2 minutes, so get relief.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Release slowly, bring out clots, massage the fundus, and monitor every 15 minutes for 2 hours.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Aortic compression: fist above and left of the umbilicus, lean on it, and check that the femoral pulse disappears.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>WHO 2025 recommends bimanual compression, aortic compression and the anti-shock garment as temporizing measures in specific contexts, with training and drills.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>If bleeding continues, escalate: garment, balloon tamponade, theatre. A condom balloon is a low-cost option. Keep compressing while you prepare.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Send a trained escort and call ahead when transferring. Do not delay transfer, and do not send an unresuscitated woman.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Practise on a model, run drills, and appoint PPH champions. A skill that has not been rehearsed fails when it is needed.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. World Health Organization. Consolidated guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage. Geneva: WHO; 2025 (recommendations on bimanual uterine compression, external aortic compression, non-pneumatic anti-shock garment, uterine balloon tamponade).</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. World Health Organization. WHO recommendations for the prevention and treatment of postpartum haemorrhage. Geneva: WHO; 2012; and WHO recommendations on maternal health, second edition (2025).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. World Health Organization, UNFPA, UNICEF. Managing complications in pregnancy and childbirth: a guide for midwives and doctors, 2nd edition. Geneva: WHO; 2017.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Althabe F, Therrien MNS, et al. WHO technical consultation: postpartum haemorrhage care bundles to improve adherence to guidelines. Int J Gynaecol Obstet 2020;148:290-299.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Lancet Global Health comment: New guidelines for the prevention, diagnosis and treatment of postpartum haemorrhage: ending the geography of risk. 2025.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. E-MOTIVE trial: early detection of postpartum haemorrhage with a calibrated drape and a first-response treatment bundle, in Kenya, Nigeria, South Africa and Tanzania, 2021 to 2023; and the PPH champions follow-up report.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Federal Ministry of Health and Social Welfare, Nigeria. Safe motherhood strategy and PPH guideline for health workers integrating the E-MOTIVE bundle (reported at the 2024 Maternal Health Policy Dialogue).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. GLOWM: Non-surgical approaches to refractory postpartum haemorrhage (Volume 13, Obstetric emergencies), 2021.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. American Family Physician. Postpartum hemorrhage: prevention and treatment. Am Fam Physician 2017;95:442-449.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Global Health Media Project. Uterine compression; Aortic compression; Using an anti-shock garment; Uterine balloon tamponade. Companion to Helping Mothers Survive: Bleeding After Birth (Jhpiego and Laerdal Global Health).</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Midwives competency assessment checklist for bimanual compression of the uterus, health facilities in Ethiopia (supplementary file).</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Non-pneumatic anti-shock garment for postpartum haemorrhage in four Nigerian referral facilities. Gynecol Obstet Invest 2010.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Queensland Ambulance Service Clinical Practice Procedure: obstetric haemorrhage control (2021); Shared Health Manitoba procedure P03.1 bimanual uterine compression (2025).</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. BMJ Innovations 2016: PPH Butterfly, a device to treat postpartum haemorrhage through uterine compression.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-manual-removal-of-placenta',
+  title: 'Manual Removal of Placenta',
+  category: 'Procedures',
+  subCategory: 'Obstetrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manual Removal of Placenta</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; OBSTETRICS</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Manual Removal of Placenta</h1>
+  <p class="text-sm text-indigo-200">A woman is brought in from a church maternity or a traditional birth attendant with a snapped cord, a retained placenta and a pulse of 130. Manual removal of the placenta (MROP) is one of the signal functions of emergency obstetric care and a skill every doctor and midwife in a labour ward must have. This guide covers when a placenta is retained, how to resuscitate first, analgesia, the technique step by step, what to do when the placenta will not separate (accreta), antibiotics, aftercare and the complications that kill.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#when-is-a-placenta-retained-deciding-to-act" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>When Is a Placenta Retained? Deciding to Act</span></a></li>
+  <li><a href="#before-you-act-resuscitate-and-prepare" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Before You Act: Resuscitate and Prepare</span></a></li>
+  <li><a href="#stop-signs-when-not-to-proceed-in-the-labour-room" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Stop Signs: When Not to Proceed in the Labour Room</span></a></li>
+  <li><a href="#equipment-and-team" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Equipment and Team</span></a></li>
+  <li><a href="#analgesia-and-anaesthesia" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Analgesia and Anaesthesia</span></a></li>
+  <li><a href="#step-by-step-technique" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Step-by-Step Technique</span></a></li>
+  <li><a href="#after-the-placenta-is-out" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>After the Placenta Is Out</span></a></li>
+  <li><a href="#when-the-placenta-will-not-come-free" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>When the Placenta Will Not Come Free</span></a></li>
+  <li><a href="#antibiotics-and-infection-prevention" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Antibiotics and Infection Prevention</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#special-situations-and-referral" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Special Situations and Referral</span></a></li>
+  <li><a href="#counselling-and-documentation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Counselling and Documentation</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Retained placenta is a killer.</strong> Postpartum haemorrhage (PPH) is the leading cause of maternal death in Nigeria, and retained placenta is the second commonest cause of PPH. Nigerian hospital series report retained placenta in about 1 to 2 per cent of deliveries and case fatality of about 3 to 6 per cent.</li>
+<li><strong>Who gets it.</strong> In a ten-year review at a southern Nigerian teaching hospital, 71 per cent of women were unbooked and 52 per cent had delivered at home or with a traditional birth attendant. A snapped cord was the commonest presentation (48 per cent), and 81 per cent had PPH. In a five-year north-western series, 88 per cent had delivered at home, half were in hypovolaemic shock on arrival, 77 per cent needed MROP and 6 per cent died. A south-eastern series found 40 per cent had primary PPH and a case fatality of 4 per cent.</li>
+<li><strong>Risk factors to ask about.</strong> Previous retained placenta (27 per cent in the north-western series), previous uterine surgery or caesarean section (11 per cent), grand multiparity, preterm birth, and unsupervised delivery.</li>
+<li><strong>Many arrive late and anaemic.</strong> Postpartum anaemia affected 57 per cent in one series, and about 47 per cent needed blood transfusion in another. Resuscitation and blood availability decide survival as much as the procedure itself.</li>
+<li><strong>Skills gap.</strong> In a study of primary health care maternity centres in Nigeria, health workers faced with a retained placenta did manual removal in about 58 per cent, referred in 28 per cent, and 9 per cent said they did not know what to do. Safe MROP means knowing how to do it and when not to.</li>
+<li><strong>A signal function.</strong> MROP is one of the basic emergency obstetric and newborn care functions that a facility must be able to perform. Without it, women die on the road to a referral centre.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-is-a-placenta-retained-deciding-to-act" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+When Is a Placenta Retained? Deciding to Act
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Definition.</strong> The placenta is retained if it has not been delivered within 30 minutes of birth when the third stage is actively managed (oxytocin and controlled cord traction), or within 60 minutes with physiological management. In one large audit, about 3 per cent of vaginal births met the 30-minute definition.</li>
+<li><strong>Bleeding changes the clock.</strong> If the woman is bleeding heavily, do not wait. A retained placenta with ongoing haemorrhage needs MROP now, once you have started resuscitation.</li>
+<li><strong>If she is not bleeding.</strong> Empty the bladder, try controlled cord traction again once, encourage her to bear down, and consider breastfeeding or nipple stimulation. Insert an IV line. Do not give ergometrine, which causes tetanic uterine contractions and can close the cervix over the placenta. No drug treatment has been shown to deliver a retained placenta.</li>
+<li><strong>Check and examine.</strong> Look at the cord: a snapped cord means you cannot do controlled cord traction, and the placenta is probably still attached. Look at any delivered placenta for missing lobes or a vessel running to the edge that ends nowhere. That points to a retained lobe.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: how long to wait and what drugs to give</p>
+<p class="text-sm"><strong>Timing.</strong> Older WHO guidance and some training videos advise waiting a further 30 minutes (60 minutes in total) before manual removal when the woman is not bleeding. Most current national and UK guidelines treat 30 minutes after active management as the point to prepare for MROP. In a woman who is bleeding, all agree: act without delay.</p>
+<p class="text-sm"><strong>Extra oxytocin.</strong> Some older protocols give a second dose of oxytocin. WHO 2012 and recent UK guidelines advise against additional oxytocin for a retained placenta that is not bleeding, because it may contract the cervix and make removal harder. Cochrane reviews also found no benefit from oxytocin or saline injected into the umbilical vein, nitroglycerin or prostaglandins. NICE guidance from 2007 had recommended the umbilical vein injection, so you may meet it in older protocols.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-act-resuscitate-and-prepare" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Before You Act: Resuscitate and Prepare
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Call for help</strong> and tell the senior obstetrician, anaesthetist, theatre team and laboratory early.</li>
+<li><strong>Two large-bore IV lines,</strong> bloods for haemoglobin, group and crossmatch, and clotting (a bedside clotting test if no laboratory). Give crystalloid, and start blood as soon as it is available. Keep her warm.</li>
+<li><strong>Measure blood loss</strong> (calibrated drape, weighed pads or a graduated container), not guess. PPH is 500 mL or more, severe PPH 1,000 mL or more, and signs of shock matter more than the estimate.</li>
+<li><strong>Uterotonic and tranexamic acid.</strong> If she is bleeding, WHO recommends tranexamic acid 1 g IV over 10 minutes, as early as possible and within 3 hours of birth, with a second dose if bleeding continues after 30 minutes. Give the uterotonic that your PPH protocol sets once the placenta is out.</li>
+<li><strong>Empty the bladder</strong> with a catheter. A full bladder prevents uterine contraction and makes the procedure harder.</li>
+<li><strong>Correct shock first.</strong> If the placenta is still attached, perform manual removal after you have begun correction of hypovolaemia. Sedatives and spinal anaesthesia in an uncorrected hypovolaemic woman can cause collapse.</li>
+<li><strong>Consent and explanation.</strong> Explain what you will do and why. Offer privacy and a companion.</li>
+<li><strong>Move to theatre</strong> or a clean, well-lit room with an operating light. Make sure you can carry out a laparotomy if needed.</li>
+</ol>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;Your placenta has not come out and it is making you bleed. I need to put my hand inside to separate it and take it out. We will give you strong pain relief and some medicine to make you sleepy. It is the safest way to stop the bleeding. After that we will watch you very closely.&rdquo;</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-when-not-to-proceed-in-the-labour-room" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Stop Signs: When Not to Proceed in the Labour Room
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Stop and Escalate If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uncorrected shock</strong> or a woman who is rapidly deteriorating. Resuscitate while you prepare. Do not delay MROP for a long resuscitation if she is bleeding, but do not sedate a collapsing woman.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No analgesia or anaesthesia is available</strong> and the woman cannot tolerate the procedure. Arrange transfer if safe, and give analgesia as best you can.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Suspected placenta accreta spectrum:</strong> previous caesarean section or uterine surgery, placenta praevia, no cleavage plane found. Do not force. Call the consultant, arrange blood, and prepare for laparotomy and possible hysterectomy (Section 9).</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uterine inversion:</strong> a mass in the vagina and no fundus palpable on the abdomen. Treat as an emergency (replace the uterus).</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Ruptured uterus,</strong> or you suspect it: abdominal pain, shock out of proportion, prior caesarean scar. Laparotomy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A contracted cervix or retraction ring</strong> (hour-glass contraction) that stops your hand: this needs theatre and general anaesthesia, not force.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Clotting failure:</strong> bleeding from the cannula or gums, no clot in a bedside test. Correct with blood products and consult a senior.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment-and-team" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Equipment and Team
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Gloves</td><td class="py-2 pr-3">Sterile elbow-length (gauntlet) gloves, or two pairs of gloves over a long-sleeved gown. High-level disinfected gloves are the minimum standard.</td><td class="py-2 pr-3">Double glove with a gown that covers the forearm.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Skin and field</td><td class="py-2 pr-3">Antiseptic for the vulva and perineum, sterile drapes, lithotomy position.</td><td class="py-2 pr-3">Clean sheets, antiseptic wash.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Analgesia and sedation</td><td class="py-2 pr-3">Pethidine, diazepam and ketamine, or spinal anaesthesia, or general anaesthesia, with oxygen, suction, bag and mask.</td><td class="py-2 pr-3">See Section 6. Never use without monitoring.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Resuscitation</td><td class="py-2 pr-3">IV fluids and giving sets, blood, uterotonics, tranexamic acid, oxygen.</td><td class="py-2 pr-3">Know where the nearest blood supply is.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Uterotonics</td><td class="py-2 pr-3">Oxytocin 20 IU in 1 litre. Misoprostol if oxytocin is not available.</td><td class="py-2 pr-3">Avoid ergometrine in hypertension and for the retained placenta itself.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Antibiotics</td><td class="py-2 pr-3">Single IV dose before or during the procedure (Section 10).</td><td class="py-2 pr-3">Oral where IV is not possible, per local protocol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Other</td><td class="py-2 pr-3">Urinary catheter, sponge forceps, suture for tears, speculum, light.</td><td class="py-2 pr-3">Examine the cervix and vagina after the procedure.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">People</td><td class="py-2 pr-3">The operator, an assistant for the abdomen if needed, an anaesthetist or trained person to give sedation and monitor, a nurse to record observations, and a person to examine the baby and the placenta.</td><td class="py-2 pr-3">Never carry out MROP alone while sedating the patient yourself.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="analgesia-and-anaesthesia" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Analgesia and Anaesthesia
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Manual removal is very painful. Women need adequate analgesia or anaesthesia. A Cochrane review found that there is not enough evidence to say which technique is best, so choose according to what is safe, available and what the woman can tolerate.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Option</th><th class="py-2 pr-3 font-semibold">How it is given</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Pethidine plus diazepam</td><td class="py-2 pr-3">Pethidine about 1 mg per kg IM or IV slowly (maximum 100 mg), plus diazepam 10 mg IV slowly, about 1 mg every 2 minutes. Do not mix in the same syringe.</td><td class="py-2 pr-3">WHO-based protocol for short procedures. Watch breathing. Neonatal depression is a risk if the baby is not yet well.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ketamine</td><td class="py-2 pr-3">Per anaesthetist or local protocol.</td><td class="py-2 pr-3">Preserves airway reflexes and blood pressure better than sedatives in the bleeding woman. Do not give alone without monitoring.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Paracervical block</td><td class="py-2 pr-3">Local anaesthetic (lidocaine) around the cervix.</td><td class="py-2 pr-3">Studied in one small trial against pethidine and diazepam. Not enough evidence to prove advantage.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Spinal or epidural</td><td class="py-2 pr-3">By an anaesthetist.</td><td class="py-2 pr-3">Good analgesia if she is haemodynamically stable. Avoid in hypovolaemic shock or coagulopathy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">General anaesthesia</td><td class="py-2 pr-3">By an anaesthetist, with rapid sequence induction.</td><td class="py-2 pr-3">Needed if the cervix is contracted, if the woman is uncooperative, or accreta is suspected.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Monitor oxygen saturation, pulse and blood pressure throughout. Give oxygen.</li>
+<li>If the woman reports inadequate pain relief, stop and deal with it. Never continue an unbearable procedure in an awake woman.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="step-by-step-technique" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Step-by-Step Technique
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position.</strong> Lithotomy position with the buttocks at the edge of the bed. Empty the bladder.</li>
+<li><strong>Scrub and glove.</strong> Wash your hands and forearms. Put on sterile elbow-length gloves. Clean the vulva and perineum with antiseptic and drape.</li>
+<li><strong>Give analgesia</strong> and antibiotics, and wait for the drugs to work.</li>
+<li><strong>Follow the cord.</strong> If the cord is intact, hold it with a clamp and pull gently until it is parallel to the floor. Form your hand into a cone (fingers together, thumb tucked into the palm) and pass it into the vagina, along the cord, through the cervix and into the uterus. Do not push through a tight cervix.</li>
+<li><strong>Support the fundus.</strong> When your hand is in the uterus, let go of the cord and place your other hand on the abdomen over the fundus. Hold the fundus firmly and push it down toward the inside hand, to give counter-traction. This prevents uterine inversion and perforation.</li>
+<li><strong>Find the plane.</strong> With the back of your hand against the uterine wall, move your fingers laterally until you find the edge of the placenta. If the cord was snapped, explore the whole cavity until you find the line of cleavage between placenta and uterine wall.</li>
+<li><strong>Detach the placenta.</strong> Keep your fingers tightly together and use the side of your hand to separate the placenta from the uterine wall in a sawing motion, a little at a time, working across the cavity. Keep the placenta in your palm as it comes away.</li>
+<li><strong>If you find no cleavage plane,</strong> or the placenta cannot be separated, or you are tearing tissue: suspect placenta accreta. Stop, resuscitate, and proceed to laparotomy.</li>
+<li><strong>Remove the placenta.</strong> When it is completely separated, hold it in your hand and slowly withdraw your hand from the uterus, bringing the placenta with it. Twist your wrist gently as you come down the birth canal. Continue counter-traction on the fundus throughout. Do not go in and out of the uterus repeatedly, as this raises the risk of infection.</li>
+<li><strong>Examine and explore.</strong> Hold the placenta in both hands and twist it to bring the membranes together. Check that it is complete, with no missing lobe or torn membranes. Put your hand back in to explore the cavity for retained fragments if anything is missing. The cavity should feel smooth and empty.</li>
+<li><strong>Contract the uterus.</strong> Give oxytocin (20 IU in 1 litre of normal saline or Ringer lactate at 60 drops per minute) and massage the fundus until it is firm. Check for tears of the cervix and vagina, and repair them.</li>
+<li><strong>Record</strong> the indication, analgesia, time, blood loss, completeness of placenta, any complications, and the antibiotic given.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-the-placenta-is-out" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+After the Placenta Is Out
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Keep the uterus contracted.</strong> Massage the fundus, run the oxytocin infusion, and teach the woman or her companion to feel the uterus and to massage it if it becomes soft.</li>
+<li><strong>Examine for tears.</strong> A speculum or good light helps. Repair cervical, vaginal and perineal tears.</li>
+<li><strong>Monitor</strong> pulse, blood pressure, uterine tone and vaginal bleeding every 15 minutes for two hours, then every 30 minutes for the next six hours or until she is stable.</li>
+<li><strong>If she is still bleeding</strong> despite a firm uterus, look for tears, retained fragments and clotting failure. If the uterus is soft, treat atony with uterotonics, bimanual compression, uterine balloon tamponade and, where available, a non-pneumatic anti-shock garment. A Nigerian multicentre study of women with PPH from several causes found the anti-shock garment associated with lower mortality (odds ratio about 0.3).</li>
+<li><strong>Check haemoglobin,</strong> and transfuse if indicated. Treat anaemia with iron after recovery.</li>
+<li><strong>Antibiotics:</strong> a single dose (Section 10). A longer course is not routine, but give treatment doses if she has fever, offensive lochia or signs of infection.</li>
+<li><strong>Pass urine.</strong> Keep the catheter in until she is stable.</li>
+<li><strong>Feeding:</strong> encourage early breastfeeding, which helps the uterus contract.</li>
+<li><strong>Document</strong> everything, including the time of birth, time of removal, blood loss and who was present.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-the-placenta-will-not-come-free" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+When the Placenta Will Not Come Free
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Problem</th><th class="py-2 pr-3 font-semibold">What it means</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">No cleavage plane, placenta feels embedded</td><td class="py-2 pr-3">Placenta accreta, increta or percreta. More likely with previous caesarean section, uterine surgery or praevia. About 75 per cent of morbidly adherent cases are accreta, the mildest form.</td><td class="py-2 pr-3">Stop pulling. Do not remove piece by piece. Resuscitate, get blood, call the consultant and prepare for laparotomy and possible (subtotal) hysterectomy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Part of the placenta separates, part is adherent</td><td class="py-2 pr-3">Partial accreta or a succenturiate lobe.</td><td class="py-2 pr-3">Do not tear through adherent tissue. If bleeding continues, treat as above.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cervix contracted, hand cannot pass</td><td class="py-2 pr-3">Hour-glass contraction or cervical spasm.</td><td class="py-2 pr-3">Move to theatre and give general anaesthesia. Do not force.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Placenta delivered but incomplete</td><td class="py-2 pr-3">Retained lobe or membranes.</td><td class="py-2 pr-3">Re-explore the cavity manually. If the fragment is still not found, use ultrasound where available.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Persistent bleeding after complete removal</td><td class="py-2 pr-3">Atony, tear, clotting failure.</td><td class="py-2 pr-3">Rub up a contraction, uterotonics, examine for tears, check clotting, and use tamponade.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="antibiotics-and-infection-prevention" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Antibiotics and Infection Prevention
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>WHO gives a conditional recommendation (very low certainty of evidence) for a single dose of antibiotic, ampicillin or a first-generation cephalosporin, when manual removal is performed.</li>
+<li>WHO-based protocols commonly use ampicillin 2 g IV plus metronidazole 500 mg IV, or cefazolin 1 g IV plus metronidazole 500 mg IV, given at the time of the procedure.</li>
+<li>Where penicillin allergy is a concern, use a local alternative such as clindamycin with metronidazole.</li>
+<li>Use strict aseptic technique, sterile elbow-length gloves, and do not re-enter the uterus repeatedly.</li>
+<li>Watch for endometritis (fever, tender uterus, offensive lochia) and treat early.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: do prophylactic antibiotics help?</p>
+<p class="text-sm">No randomised trial has tested antibiotic prophylaxis for MROP after vaginal birth. A systematic review of observational studies found no evidence of benefit from routine use. WHO still recommends a single dose because MROP is invasive and infection can be lethal, and the cost and risk of one dose are low. Some UK guidelines give a single dose and some a short course. Use the WHO single-dose recommendation unless your hospital protocol says otherwise.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Haemorrhage and shock:</strong> the commonest complication. Pulse above 100, falling blood pressure, pallor, cold peripheries, restlessness. Two lines, blood, uterotonics, bimanual compression, tamponade, surgery.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uterine atony:</strong> soft, boggy fundus. Massage, oxytocin, misoprostol if needed, balloon tamponade, compression garment, referral.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uterine perforation or rupture:</strong> sudden severe pain, shock, loss of the fundus on palpation, bowel or omentum felt. Laparotomy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Uterine inversion:</strong> mass in the vagina and no fundus on abdominal palpation. Replace the uterus at once, then give uterotonics.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Retained fragments:</strong> persistent or recurrent bleeding, subinvolution, or a later fever. Explore or evacuate.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Sepsis and endometritis:</strong> fever, rigors, offensive lochia, tachycardia. IV antibiotics and review.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Anaesthetic complications:</strong> respiratory depression, aspiration. Oxygen, airway support, reversal where relevant.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Death:</strong> case fatality in Nigerian series ranged from about 3 to 6 per cent, driven by late presentation, shock, unavailability of blood and lack of safe anaesthesia.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations-and-referral" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Special Situations and Referral
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Woman arriving from a traditional birth attendant or church maternity with a snapped cord</td><td class="py-2 pr-3">Assume retained placenta until proved otherwise. Check vital signs, put in IV lines, and resuscitate. Examine the abdomen for the uterus and the cord. Send for blood. Do MROP after resuscitation.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Referral from a primary health centre</td><td class="py-2 pr-3">Before transfer: IV line and fluid, oxytocin, empty bladder, uterine massage, tranexamic acid if bleeding, anti-shock garment if available, escort and call ahead. Do not transfer an unstable woman without resuscitation, but do not delay transfer when MROP is not possible locally.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Previous retained placenta, previous caesarean section, or praevia</td><td class="py-2 pr-3">Give birth at a facility with blood, theatre and a surgeon. Warn the team that accreta is possible.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Primary health centre without theatre</td><td class="py-2 pr-3">Midwives and community health extension workers can perform MROP if trained. Use analgesia that you can monitor, and refer if there is no plane or if the woman is unstable.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">HIV, hepatitis B or C</td><td class="py-2 pr-3">Use standard precautions with double gloves and eye protection. Treat the woman as normal.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Preterm and stillbirth</td><td class="py-2 pr-3">Retained placenta is more common. The same principles apply.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="counselling-and-documentation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Counselling and Documentation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Tell her what happened, that the placenta was retained, that the bleeding has been controlled, and what to watch for.</li>
+<li>Danger signs to report at once: heavy bleeding (soaking a pad in under an hour), fever, foul-smelling discharge, severe abdominal pain, dizziness or fainting, breathlessness, and a baby who feeds poorly.</li>
+<li>Iron and nutrition for anaemia, and follow-up at about one week and six weeks.</li>
+<li>Future pregnancies: she is at higher risk of retained placenta again. She should book for antenatal care and deliver in a facility with skilled attendants and blood.</li>
+<li>Document the times (birth, diagnosis, MROP), estimated blood loss, analgesia, antibiotic, fluids and blood given, placenta completeness, complications, and who performed the procedure.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=1al4Pu1127c" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Manual Removal of the Placenta (English)</a> &ndash; filmed in real maternity settings, with animation inside the body. Made for low-resource facilities.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.msdmanuals.com/professional/multimedia/video/manual-removal-of-the-placenta" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: Manual Removal of the Placenta (video and transcript)</a> &ndash; the Global Health Media video with step-by-step text, including post-procedure monitoring.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=l1V8hi_1aoc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Examining the Placenta</a> &ndash; how to check for missing pieces.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://globalhealthmedia.org/videos/childbirth/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: Childbirth video collection</a> &ndash; the full set, in several languages, including bleeding after birth.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://globalhealthmedia.org/new-videos-on-postpartum-hemorrhage/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: New videos on postpartum haemorrhage</a> &ndash; Bleeding After Birth, Managing Severe Bleeding, Manual Removal of the Placenta, Uterine Balloon Tamponade, Cervical Tears, Uterine Compression, Aortic Compression and Using an Anti-Shock Garment.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">WHO guidance and training</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/publications/i/item/9789241565493" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: Managing complications in pregnancy and childbirth, 2nd edition (2017)</a> &ndash; the standard district-hospital manual, with the MROP procedure page.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://iris.who.int/handle/10665/255760" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO IRIS record: Managing complications in pregnancy and childbirth, 2nd edition</a> &ndash; open-access PDF download.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cdn.who.int/media/docs/default-source/mca-documents/maternal-nb/mcpc-2017-brief.pdf?sfvrsn=a7daa312_1" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: MCPC 2nd edition highlights</a> &ndash; what changed on PPH and MROP.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.glowm.com/pdf/WHO-Managing%20complications%20in%20pregnancy%20and%20childbirth-CustomLicense.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: Original Managing complications manual (MROP at page P-77)</a> &ndash; full text, including paracervical block and MROP procedures.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://apps.who.int/iris/bitstream/handle/10665/75411/9789241548502_eng.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO recommendations for the prevention and treatment of postpartum haemorrhage (2012)</a> &ndash; Box 7: recommendations for the treatment of retained placenta.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://apps.who.int/iris/bitstream/handle/10665/44171/9789241598514_eng.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO guidelines for the management of postpartum haemorrhage and retained placenta (2009)</a> &ndash; background evidence and the MROP section.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://bigg-rec.bvsalud.org/en/recommendations/0b6adbdfc607ad2778da41844c64fbf755a53cd9" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO recommendation: single-dose antibiotics with manual removal</a> &ndash; the recommendation record, with certainty of evidence.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7234376/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Helping Mothers Survive Bleeding After Birth: training in Tanzania</a> &ndash; simulation training that includes removal of retained placenta. The Global Health Media videos are designed for this course.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4548347/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Helping Mothers Survive Bleeding After Birth: skill retention at nine months</a> &ndash; how well trainees retain AMTSL and PPH skills.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Evidence and hospital guidelines</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.cochrane.org/CD013013" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Cochrane review: anaesthesia or analgesia for manual removal of retained placenta</a> &ndash; plain-language summary of the evidence.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4661978/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Systematic review: prophylactic antibiotics for manual removal of placenta</a> &ndash; observational evidence on routine antibiotics.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fhac-archive.frimley.icb.nhs.uk/media/6845/retained-placenta.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Retained placenta guideline (2025 UK trust guideline)</a> &ndash; definition, no umbilical vein injection, theatre, single-dose antibiotic.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.seslhd.health.nsw.gov.au/sites/default/files/documents/retainedplacenta19.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Retained placenta local operating procedure (Australia)</a> &ndash; timing, antibiotic regimen, accreta.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.tewhatuora.govt.nz/assets/Publications/Maternity/Maternity-guidelines-for-Tairawhiti/Retained-Placenta-Management-of.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Retained placenta management guideline (New Zealand)</a> &ndash; definitions and drug evidence.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ajol.info/index.php/kjms/article/view/328537" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ten-year review of retained placenta at a southern Nigerian teaching hospital</a> &ndash; prevalence, risk factors and complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/ojm/article/view/93952" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Five-year review of retained placenta in north-western Nigeria</a> &ndash; case fatality, shock at presentation and home delivery.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/works/122580704" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Retained placenta in south-eastern Nigeria</a> &ndash; incidence, PPH and case fatality.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://journal.oiu.edu.sd/index.php/FMHS/article/view/1410" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Retained placenta in a Nigerian semi-urban population</a> &ndash; transfusion rates and anaesthesia.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://bmchealthservres.biomedcentral.com/articles/10.1186/s12913-018-3819-x/tables/4" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Primary health care maternity centres in Nigeria: what staff do for retained placenta</a> &ndash; the table quoted in Section 1.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://safemotherhood.ucsf.edu/sites/g/files/tkssra10096/f/wysiwyg/GOI.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Non-pneumatic anti-shock garment for PPH in Nigerian referral facilities</a> &ndash; results of a pre-intervention versus intervention study.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://link.springer.com/10.1038/s41598-023-39296-y" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Traditional birth attendants and PPH management in south-west Nigeria</a> &ndash; knowledge and practice of TBAs.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://allafrica.com/stories/202610230354.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Community maternal death reviews in Nigeria</a> &ndash; where and why women die from PPH.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the Global Health Media and Merck Manual video, then use the WHO manual to confirm the steps.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A placenta is retained at 30 minutes after active management (60 minutes with physiological management). If she is bleeding, act now.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Resuscitate first: two lines, blood, empty bladder, tranexamic acid if bleeding. Never sedate an uncorrected shocked woman.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>No ergometrine for a retained placenta. No umbilical vein oxytocin, nitroglycerin or prostaglandins. No additional oxytocin if she is not bleeding. Do MROP.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use pethidine plus diazepam or ketamine, or spinal or general anaesthesia, with monitoring. The woman must be comfortable.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sterile elbow-length gloves. Follow the cord. Support the fundus with the other hand. Find the plane, saw gently with the side of the hand, and bring the placenta out in your palm.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>No cleavage plane means accreta. Stop, resuscitate, call the consultant and prepare for laparotomy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Examine the placenta. Explore the cavity for missing pieces. Give oxytocin 20 IU in 1 litre, massage the uterus and check for tears.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give a single dose of ampicillin or a cephalosporin, with metronidazole.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Monitor every 15 minutes for two hours, then every 30 minutes for six hours. Soft uterus: massage, uterotonics, tamponade, anti-shock garment.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Retained placenta kills in Nigeria. Unbooked women, home delivery, snapped cords and late referral drive the deaths. Resuscitate, remove, and teach her to book.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. World Health Organization. WHO recommendations for the prevention and treatment of postpartum haemorrhage. Geneva: WHO; 2012. WHO guidelines for the management of postpartum haemorrhage and retained placenta. Geneva: WHO; 2009. WHO recommendations on maternal health, second edition, 2025 (single-dose antibiotics with manual removal).</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. World Health Organization, UNFPA, UNICEF. Managing complications in pregnancy and childbirth: a guide for midwives and doctors, 2nd edition. Geneva: WHO; 2017 (procedure: manual removal of placenta).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Global Health Media Project. Manual removal of the placenta; Examining the placenta; and the postpartum haemorrhage video series. Companion to Jhpiego and Laerdal Global Health, Helping Mothers Survive: Bleeding After Birth.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Cochrane Database of Systematic Reviews. Anaesthesia or analgesia for manual removal of retained placenta in women who have just given vaginal birth, CD013013; and Cochrane reviews of umbilical vein injection, nitroglycerin and prostaglandins for retained placenta.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Systematic review and meta-analysis of observational studies: prophylactic antibiotics for manual removal of retained placenta during vaginal birth. BMC Pregnancy Childbirth 2015.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. National Institute for Health and Care Excellence. Intrapartum care (2007 and subsequent updates): third stage of labour and retained placenta. UK NHS trust guidelines on retained placenta, 2018 to 2025.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Ten-year review of burden and outcomes of retained placenta following vaginal delivery at a southern Nigerian university teaching hospital. Kanem J Med Sci.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Five-year review of retained placenta in a north-western Nigerian teaching hospital. Orient Journal of Medicine.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Retained placenta: cause of maternal morbidity and mortality in a Nigerian semi-urban population; and incidence and complications of retained placenta in south-eastern Nigeria (observational cohort, 2005 to 2011).</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Manpower capacity and reasons for staff shortage in primary health care maternity centres in Nigeria: a mixed-methods study. BMC Health Serv Res 2018;18.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Non-pneumatic anti-shock garment for postpartum haemorrhage in four Nigerian referral facilities. Gynecol Obstet Invest 2010.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Knowledge, management and preventive practices regarding postpartum haemorrhage among traditional birth attendants in Osun State, Nigeria. Sci Rep 2023.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Helping Mothers Survive Bleeding After Birth training evaluations in Tanzania. PLoS One 2020; and Hum Resour Health 2015.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-chest-tube-insertion',
+  title: 'Chest Tube Insertion (Tube Thoracostomy)',
+  category: 'Procedures',
+  subCategory: 'Surgery',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chest Tube Insertion (Tube Thoracostomy)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; SURGERY AND CRITICAL CARE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Chest Tube Insertion (Tube Thoracostomy)</h1>
+  <p class="text-sm text-indigo-200">Gunshot and stab wounds, road traffic injuries, empyema after pneumonia, tuberculous and malignant effusions, and tension pneumothorax all end up in the hands of a house officer or surgical resident with a scalpel and a bottle. A chest tube is life-saving and easy to do wrongly: too low, wrong side, wrong organ, a clamped bubbling drain. This guide covers when to act without waiting for an X-ray, landmarks and technique, drainage systems including improvised ones, drain care and removal, children, and complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-and-emergency-priorities" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications and Emergency Priorities</span></a></li>
+  <li><a href="#stop-signs-and-cautions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Stop Signs and Cautions</span></a></li>
+  <li><a href="#choosing-the-tube-and-the-drainage-system" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Choosing the Tube and the Drainage System</span></a></li>
+  <li><a href="#preparation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Preparation</span></a></li>
+  <li><a href="#site-and-landmarks" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Site and Landmarks</span></a></li>
+  <li><a href="#technique-blunt-dissection-open-method" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Technique: Blunt Dissection (Open) Method</span></a></li>
+  <li><a href="#technique-seldinger-guidewire-method" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique: Seldinger (Guidewire) Method</span></a></li>
+  <li><a href="#emergency-techniques-tension-open-pneumothorax-and-the-failing-patient" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Emergency Techniques: Tension, Open Pneumothorax and the Failing Patient</span></a></li>
+  <li><a href="#managing-the-drain" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Managing the Drain</span></a></li>
+  <li><a href="#children-and-infants" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Children and Infants</span></a></li>
+  <li><a href="#removing-the-drain" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Removing the Drain</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>A common, high-stakes procedure.</strong> A Nigerian series of 167 patients drained with improvised underwater seal bottles recorded these indications: malignant or paramalignant effusion 27.5%, trauma 26%, parapneumonic effusion 12%, post-thoracotomy 8%, empyema 7%, heart disease and tuberculous effusion about 7% each, and pneumothorax 5%.</li>
+<li><strong>Many wards improvise.</strong> The same series used a bottled-water container as the underwater seal when proper bottles were unavailable. The overall complication rate was 17%, mainly empyema (about 6%) and pneumothorax (about 4%), and the average drain stayed in for 13 days. A Kenyan series of 57 Heimlich-valve drains reported no complications and an average of 6 days to removal. Improvisation works when the principles are right: a one-way flow, an air-tight system, and a collection chamber below the chest.</li>
+<li><strong>Aftercare is the weak point.</strong> A survey of nurses in a Nigerian university hospital found poor knowledge of chest drain care, including milking tubes, dependent loops in the tubing and drain site care. A perfectly placed drain fails if the ward does not know how to manage it. Teach the team, not just the operator.</li>
+<li><strong>The emergency comes first.</strong> A tension pneumothorax is a clinical diagnosis. You decompress before you get an X-ray. Delay kills.</li>
+<li><strong>Common errors.</strong> Inserting the tube too low (one review found that emergency doctors went below the 5th intercostal space in about two thirds of cases and below the 7th in one fifth), draining the wrong side, using a trocar, and clamping a bubbling drain for transport.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-emergency-priorities" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications and Emergency Priorities
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Indication</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Tension pneumothorax</td><td class="py-2 pr-3">Needle decompression first, then a formal chest tube (Section 9). Do not wait for an X-ray.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pneumothorax: large, symptomatic, persistent, recurrent, bilateral, secondary (for example TB), or any pneumothorax in a patient on positive-pressure ventilation</td><td class="py-2 pr-3">Small-bore tubes (about 14 Fr) are usually enough for spontaneous pneumothorax after needle decompression. Use large-bore tubes for penetrating injury, haemothorax and ventilated patients.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Traumatic haemothorax or haemopneumothorax</td><td class="py-2 pr-3">Large-bore tube (28&ndash;32 Fr). Immediate output above 1,500 mL, or above 200 mL an hour over 2 to 4 hours, usually means thoracotomy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Open pneumothorax (sucking chest wound)</td><td class="py-2 pr-3">A three-sided occlusive dressing, then a chest tube through a separate incision.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Empyema and complicated parapneumonic effusion</td><td class="py-2 pr-3">Thick pus, positive Gram stain, pH below 7.20, high LDH or low glucose are indications for drainage.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Malignant or symptomatic recurrent effusion, chylothorax</td><td class="py-2 pr-3">Drainage with or without pleurodesis.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">After thoracic, oesophageal or cardiac surgery</td><td class="py-2 pr-3">Usually placed by the surgeon.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-and-cautions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Stop Signs and Cautions
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Pause and Think Before You Cut</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Wrong side or wrong organ.</strong> Check the side on the X-ray, ultrasound or clinical exam, and mark it. A &ldquo;white-out&rdquo; can be a collapsed lung, a pleural effusion or a diaphragmatic hernia, and the treatment differs.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A pleural effusion that cannot be aspirated.</strong> If you cannot aspirate fluid or air through a needle at your chosen site, do not proceed with the drain. Rethink, and use ultrasound.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Suspected diaphragmatic hernia, bullae, or dense pleural adhesions</strong> (previous TB, empyema, surgery): get imaging and senior help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Insertion too low.</strong> The diaphragm rises to the 7th intercostal space on expiration. Stay at the 5th space or higher.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bleeding tendency or anticoagulation.</strong> Correct it if time allows. In an emergency, a life-threatening tension pneumothorax or massive haemothorax does not wait.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>There is no absolute contraindication in an emergency.</li>
+<li>Skin infection at the site is a relative contraindication. Choose another site if possible.</li>
+<li>Remember the abdomen. The upper abdominal organs lie high under the diaphragm, and a tube inserted too low can enter the liver, spleen or stomach. About 1 in 100 chest tubes in one review entered the peritoneum.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-the-tube-and-the-drainage-system" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Choosing the Tube and the Drainage System
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tube size</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">Size</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Adult, spontaneous pneumothorax, simple free-flowing effusion</td><td class="py-2 pr-3">Small-bore, about 14 Fr (Seldinger kit), or 24&ndash;28 Fr for simple serous effusion by blunt dissection</td><td class="py-2 pr-3">Easier to insert, less pain. Small tubes block more easily with thick pus or clot.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Adult trauma: haemothorax, penetrating injury, positive-pressure ventilation</td><td class="py-2 pr-3">28&ndash;32 Fr (large-bore)</td><td class="py-2 pr-3">ATLS standard. Larger tubes (32 Fr or more) for haemothorax; older texts used 36&ndash;40 Fr.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Adult empyema</td><td class="py-2 pr-3">Small-bore for thin fluid. 28&ndash;32 Fr when pus is thick.</td><td class="py-2 pr-3">Thick pus blocks small tubes.</td></tr>
+</tbody></table></div>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Child age (years)</th><th class="py-2 pr-3 font-semibold">Chest drain size (Fr)</th><th class="py-2 pr-3 font-semibold">Clearing instrument</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">0 to under 2</td><td class="py-2 pr-3">16</td><td class="py-2 pr-3">Mosquito forceps</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">2 to 4</td><td class="py-2 pr-3">20</td><td class="py-2 pr-3">Mosquito forceps</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">5 to 8</td><td class="py-2 pr-3">24</td><td class="py-2 pr-3">Artery forceps</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">9 to 12</td><td class="py-2 pr-3">28</td><td class="py-2 pr-3">Artery forceps</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">13 to 16</td><td class="py-2 pr-3">32</td><td class="py-2 pr-3">Finger or Roberts forceps</td></tr>
+</tbody></table></div>
+<p class="text-sm">The paediatric sizes above are from a children&rsquo;s trauma guideline for traumatic pneumothorax and haemothorax. For neonates and infants with pneumothorax, ask the neonatal team for smaller tubes.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drainage systems</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Underwater seal bottle:</strong> a tube dipping about 3 cm below the water level in a bottle, with a vent to the air. The bottle must stay below the level of the chest at all times. Replace tubing and bottles every 48 to 72 hours, or when the bottle holds more than 500 to 600 mL.</li>
+<li><strong>Heimlich (one-way) valve:</strong> a small, cheap, portable valve that lets the patient walk. A Kenyan series of 57 patients reported no complications. It suits pneumothorax and simple effusion, not large volumes of bloody fluid.</li>
+<li><strong>Improvised systems:</strong> a single-bottle underwater seal can be made from an infusion bottle or bag, IV tubing, a needle for an air vent, and plasters. In Nigerian practice a 1.5 L bottled-water container with two holes in the cap has been used. A glove finger or a finger stall can serve as a Heimlich valve. These work, but check carefully for leaks, keep the bottle below the chest, and never let the tubing end rise above the water level.</li>
+<li><strong>Suction:</strong> normally not needed. If a persistent air leak or failure of lung re-expansion calls for suction, use a low-pressure, high-volume system according to local guidance, usually 10 to 20 cmH<sub>2</sub>O.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Preparation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Assess and plan</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Confirm the diagnosis, side and indication from examination and imaging. Use ultrasound to find and mark the best site for effusions and loculated collections where available. In tension pneumothorax, treat first.</li>
+<li>Look at the chest X-ray yourself. Check you are on the correct side, and that the image is the right patient.</li>
+<li>Check allergies and bleeding risk. Group and crossmatch in trauma and give oxygen. Get IV access, and consider monitoring.</li>
+<li>Consent: explain what you will do, that it will be uncomfortable even with local anaesthetic, and that the tube may stay in for days. In an emergency treat under the doctrine of necessity and document.</li>
+<li>Plan the drainage system, the person who will manage the drain on the ward, and where the X-ray will be done afterwards.</li>
+</ul>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;You have air (or fluid) around your lung that is stopping you breathing properly. I need to put a thin soft tube through the chest wall to drain it. I will numb the skin and the tissue below it. You will feel pressure and some pain when I push. Once the tube is in, it will be stitched in place and connected to a bottle. Please do not lift the bottle above your chest.&rdquo;</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Chest tube</td><td class="py-2 pr-3">Correct size (Section 4), with holes along the distal end. Radio-opaque stripe.</td><td class="py-2 pr-3">A wide drainage tube. Improvised NG-tube drains have been used in conflict and neonatal settings but are second best.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">1% lidocaine with 10 to 20 mL syringe and a long needle. Do not exceed 4.5 mg per kg (maximum 300 mg).</td><td class="py-2 pr-3">Check concentration on the vial.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Instruments</td><td class="py-2 pr-3">Scalpel (No. 10 blade), two large curved clamps (Kelly), scissors, needle holder, suture (silk or nylon) and forceps.</td><td class="py-2 pr-3">A large artery forceps can serve as a clamp.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drainage</td><td class="py-2 pr-3">Underwater seal bottle with sterile water (to the line) and tubing, or a one-way valve.</td><td class="py-2 pr-3">Improvised bottle (Section 4).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Skin and field</td><td class="py-2 pr-3">Sterile gown, gloves, mask, eye protection, drape, antiseptic.</td><td class="py-2 pr-3">Never skip sterile technique.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Dressing</td><td class="py-2 pr-3">Gauze, tape, transparent dressing.</td><td class="py-2 pr-3">Several layers of gauze with tape.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Analgesia and resuscitation</td><td class="py-2 pr-3">Oxygen, suction, IV access, analgesic and sedation drugs, airway equipment.</td><td class="py-2 pr-3">An assistant who is watching the patient.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="site-and-landmarks" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Site and Landmarks
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Site for most drains:</strong> the 5th intercostal space, between the anterior and mid-axillary lines. This usually lies at the level of the nipple in men and the inframammary fold in women.</li>
+<li><strong>The safe triangle:</strong> bounded by the lateral edge of pectoralis major in front, the anterior border of latissimus dorsi behind, and the line of the 5th intercostal space below, with the apex in the axilla. Insert within the triangle.</li>
+<li><strong>Go over the top of the rib.</strong> The vein, artery and nerve run along the lower border of each rib. Pass the tube over the upper border of the rib below the space, or tunnel up one rib to avoid scars where you can.</li>
+<li><strong>Stay high.</strong> The pleural space extends down to the 7th intercostal space at the front and the 9th at the side. If in doubt, choose a higher space.</li>
+<li><strong>Anterior site (2nd space, mid-clavicular line)</strong> is a second option for pneumothorax in some settings. It leaves a visible scar and risks the internal mammary vessels.</li>
+<li><strong>Arm position:</strong> abduct the arm above the head, or place the hand behind the head, to expose the lateral chest wall.</li>
+<li><strong>Ultrasound:</strong> for effusions, mark the best fluid pocket with the patient in the position they will be in for the procedure.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-blunt-dissection-open-method" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Technique: Blunt Dissection (Open) Method
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">This is the standard method for trauma and for large-bore tubes. <strong>Never use a trocar</strong> (the sharp inner stylet). It causes lung, heart and liver injuries.</p>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position.</strong> Supine or slightly tilted with the affected side up, arm above the head. Pause for the team check: patient, side, indication, tube size, allergies.</li>
+<li><strong>Prepare.</strong> Wash, gown and glove. Clean the lateral chest wall widely, including the nipple, and drape.</li>
+<li><strong>Anaesthetise.</strong> Infiltrate skin, subcutaneous tissue, the intercostal muscle layers and the periosteum of the rib along the planned track. Always aspirate before injecting. Draw back air or fluid from the pleural space to confirm the position with the needle.</li>
+<li><strong>Incise.</strong> Make a 2 to 3 cm (up to 4 to 5 cm for large tubes) incision parallel to the rib, over the rib below the space you plan to enter.</li>
+<li><strong>Dissect.</strong> Use a large curved clamp to spread the subcutaneous tissue and intercostal muscles, in the direction of the muscle fibres, going over the top of the rib. Keep the tip of the clamp closed as you advance and open it as you withdraw.</li>
+<li><strong>Enter the pleura.</strong> Push the closed clamp firmly through the parietal pleura. There is usually a give and a rush of air or fluid. Open the jaws to widen the track.</li>
+<li><strong>Finger sweep.</strong> Insert a gloved finger into the track and sweep it around to confirm you are in the pleural cavity, feel the lung, clear adhesions and clots, and check for the diaphragm and abdominal organs. This is a finger thoracostomy.</li>
+<li><strong>Insert the tube.</strong> Clamp the end of the tube, grasp the tip with a clamp or use your finger as a guide, and advance it into the pleural space. Direct it upward and back toward the apex for pneumothorax, and downward and back for fluid. All holes must be inside the chest. Insert to about 10 to 15 cm in an adult. Remove the clamp.</li>
+<li><strong>Check function.</strong> Look for fogging in the tube during breathing, a bubbling or swinging water column, and air or fluid draining. Connect to the underwater seal before releasing the clamp.</li>
+<li><strong>Secure.</strong> Close the wound edges around the tube loosely, and anchor the tube with a stitch (silk or nylon) and a tape bridge. A purse-string for later closure is optional. Do not tie the stitch so tightly that it cuts or kinks the tube.</li>
+<li><strong>Dress,</strong> and mark the tube at the skin level. Record the size, depth and side.</li>
+<li><strong>X-ray.</strong> Get a chest X-ray to confirm position and lung re-expansion. Look for a tube in the fissure, subcutaneous tube, too-low placement and an undrained collection. Do not use the drain for more than basic drainage until you are sure it is in the correct position.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-seldinger-guidewire-method" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Technique: Seldinger (Guidewire) Method
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Seldinger kits come with 8 to 14 Fr drains. They are quicker and less painful and suit pneumothorax and simple effusions, ideally with ultrasound guidance. They are not ideal for thick pus, clot or trauma.</p>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li>Prepare as in Section 7, and fill the drainage bottle with sterile water.</li>
+<li>Insert the needle on a syringe, advancing while aspirating, over the top of the rib until air or fluid enters the syringe.</li>
+<li>Remove the syringe, pass the guidewire through the needle (not more than the length marked on the wire) and withdraw the needle, leaving the wire.</li>
+<li>Make a small skin nick beside the wire, and pass the dilator over it. Insert the dilator only until the widest tapered part has passed through the skin, to avoid deep injury. Remove it.</li>
+<li>Pass the drain over the wire to the planned depth, remove the wire, and connect the drain to the three-way tap and the underwater seal.</li>
+<li>Secure with the supplied device, apply a transparent dressing, record the length, and get a chest X-ray.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="emergency-techniques-tension-open-pneumothorax-and-the-failing-patient" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Emergency Techniques: Tension, Open Pneumothorax and the Failing Patient
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Needle decompression for tension pneumothorax</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Clinical diagnosis:</strong> severe breathlessness, hypotension, distended neck veins, absent breath sounds on one side, tracheal deviation (a late sign). Decompress without waiting for an X-ray.</li>
+<li><strong>Site:</strong> ATLS (10th edition) recommends the 4th or 5th intercostal space, anterior to the mid-axillary line, with a large-bore cannula (14&ndash;16 G). The older site is the 2nd space in the mid-clavicular line, which fails more often because of a thick chest wall.</li>
+<li><strong>Technique:</strong> insert the needle over the top of the rib. Expect a rush of air. Leave the cannula open. If the first attempt fails, repeat with a longer needle, or go to finger thoracostomy.</li>
+<li><strong>Follow-up:</strong> a formal chest tube must follow every needle decompression.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Finger (simple) thoracostomy</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Needs only a scalpel, a clamp and a gloved finger. Use it in a ventilated patient, in trauma arrest, or when needle decompression fails or is not available.</li>
+<li>Make a 4 to 5 cm incision at the 5th space between the anterior and mid-axillary lines, dissect over the top of the rib, enter the pleura, and sweep a finger around. You get direct confirmation of entry and can decompress haemothorax too. A chest tube follows.</li>
+<li>FINGER mnemonic: Find landmarks, Inject, No infection, Generous incision, Enter pleural space, Reach in with finger and sweep.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Open pneumothorax</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Cover the wound with a three-sided dressing (taped on three sides to act as a flutter valve), then insert a chest tube through a separate incision.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: needle site and chest wall thickness</p>
+<p class="text-sm">Older teaching puts the decompression needle in the 2nd intercostal space in the mid-clavicular line. ATLS now uses the 5th space anterior to the mid-axillary line, because chest wall thickness at the anterior site is a common cause of failure. Whichever site you use, make sure the needle is long enough and the patient is reassessed. Needle and finger thoracostomy have similar outcomes in available studies, and both are followed by a chest tube.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="managing-the-drain" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Managing the Drain
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Swinging:</strong> the water column moves with breathing, so the tube is patent and in the pleural space. A swinging drain does not mean the effusion is fully drained.</li>
+<li><strong>Bubbling:</strong> intermittent bubbling on exhalation or coughing means an air leak from the lung, which is normal after pneumothorax. Continuous bubbling means a large leak or a loose connection. Check the whole system, then the patient.</li>
+<li><strong>Not swinging or bubbling:</strong> blocked, kinked, clamped, dislodged, or the lung has fully re-expanded. Check the patient, the tube and connections, and call for senior help.</li>
+<li><strong>Keep the bottle below chest level,</strong> upright and secured, at all times, including during transport.</li>
+<li><strong>Do not milk or strip the tube.</strong> It produces dangerously high negative pressures.</li>
+<li><strong>Never clamp a bubbling drain.</strong> It can cause a tension pneumothorax. Clamp only to change the bottle or if tubing is disconnected, using finger and thumb so you cannot forget it. Do not clamp for transport.</li>
+<li><strong>Do not push a drain back in</strong> once it has been exposed to air, or after the sterile field is removed. You may withdraw a drain a little to improve function.</li>
+<li><strong>Disconnection:</strong> clamp briefly, reconnect with a sterile connector, and check the system. If the tube falls out, cover the site with a sterile airtight dressing and call for help.</li>
+<li><strong>Monitor</strong> pain, breathing, oxygen saturation, drain output volume and character, and the site. Check daily for infection.</li>
+<li><strong>Chest X-ray</strong> after insertion and once bubbling has stopped, to confirm the lung has re-expanded.</li>
+</ul>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Finding</th><th class="py-2 pr-3 font-semibold">What it means</th><th class="py-2 pr-3 font-semibold">Action</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Sudden large blood loss in the bottle</td><td class="py-2 pr-3">More than 1,500 mL at once, or more than 200 mL an hour for 2 to 4 hours, suggests continuing arterial bleeding.</td><td class="py-2 pr-3">Resuscitate and call the surgeon. This patient may need thoracotomy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Surgical emphysema spreading</td><td class="py-2 pr-3">Tube displaced or a hole outside the pleura, or a large leak.</td><td class="py-2 pr-3">Check position and holes, X-ray, and call for help.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Sudden cough and breathlessness after draining a large effusion</td><td class="py-2 pr-3">Re-expansion pulmonary oedema.</td><td class="py-2 pr-3">Stop drainage, give oxygen, and call for senior help.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drainage stops but lung remains collapsed</td><td class="py-2 pr-3">Blocked or kinked drain, or malposition.</td><td class="py-2 pr-3">Check and flush per protocol. Repeat the X-ray. Replace if needed.</td></tr>
+</tbody></table></div>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: how much to drain from an effusion</p>
+<p class="text-sm">Many hospital protocols limit drainage of a large effusion to about 1.5 L at a time, and some clamp for an hour afterwards, to reduce the risk of re-expansion pulmonary oedema. Evidence for a fixed limit is weak. Stop or slow drainage if the patient develops cough, chest tightness or breathlessness, and follow your local protocol.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="children-and-infants" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Children and Infants
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Sizes:</strong> use the age-based table in Section 4 for trauma. For neonates and infants with pneumothorax, use the smallest drain that works and ask the neonatal or paediatric surgical team.</li>
+<li><strong>Massive haemothorax in a child:</strong> more than 20 mL per kg draining immediately, or more than 3 to 4 mL per kg an hour thereafter, calls for urgent thoracotomy.</li>
+<li><strong>Landmarks:</strong> same triangle of safety, but the chest wall is thin and the diaphragm high. Use a small incision and a gentle blunt technique.</li>
+<li><strong>Sedation and analgesia:</strong> a frightened child needs adequate analgesia, local anaesthetic and a calm, experienced assistant. Do not try to do a chest tube on a restrained, unsedated child.</li>
+<li><strong>Empyema in children</strong> is common after pneumonia. A drain, antibiotics and sometimes fibrinolytics or surgery are used. Follow your paediatric protocol.</li>
+<li><strong>Improvised drains</strong> in neonates have been used in West Africa (Guinea): an infusion-bottle underwater seal and a Heimlich valve made from a finger stall. They are a last resort, but they work.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="removing-the-drain" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Removing the Drain
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>When:</strong> for pneumothorax, no air leak for at least 24 hours and the lung expanded on X-ray. For effusion or empyema, drainage below about 150 to 200 mL per 24 hours, serous fluid, and no ongoing air leak.</li>
+<li><strong>Before:</strong> explain, give analgesia, and have sterile gauze, tape and a suture ready. Remove dressings and stitches first so the skin is not tugged.</li>
+<li><strong>How:</strong> ask the patient to take a breath and hold it, or to breathe out, and withdraw the tube smoothly and quickly in one movement, while an assistant occludes the wound with gauze and an airtight dressing. For an anterior purse-string stitch, tie it as the tube comes out.</li>
+<li><strong>After:</strong> chest X-ray, and watch for breathlessness, a recurrent pneumothorax or fluid reaccumulation.</li>
+<li>Some centres clamp the drain for a few hours and repeat the X-ray before removing it, to check that no air leak remains. Do this only if your protocol advises, and with the patient observed.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Malposition:</strong> subcutaneous, in a fissure, too low in the abdomen, or too far in. Poor drainage and persistent symptoms on X-ray. Reposition or replace.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Intra-abdominal placement:</strong> liver, spleen or stomach. Abdominal pain, blood or gastric contents in the tube. Emergency, call the surgeon.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Intercostal vessel injury and bleeding,</strong> lung laceration, heart or great vessel injury (trocar injuries).</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Re-expansion pulmonary oedema:</strong> cough, breathlessness and chest tightness after draining a large effusion or long-standing pneumothorax. Stop drainage.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Tension pneumothorax from a clamped bubbling drain</strong> or a blocked tube.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Empyema or wound infection:</strong> fever, purulent drainage, redness around the site. Remove or replace the drain and culture the fluid.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Surgical emphysema, persistent air leak, blocked or kinked tube, dislodgement,</strong> and pain.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Retained or deep-lying tube:</strong> any tube that will not come out needs surgical help.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm071974" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Chest-Tube Insertion</a> &ndash; the standard teaching video, with indications, sterile technique and complications. May need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pubmed.ncbi.nlm.nih.gov/27979724" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Randomised trial: the NEJM video as effective as a recorded lecture</a> &ndash; evidence that trainees learn the technique from the video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=3p034wbKhNs" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Thoracostomy Tube Insertion: real case</a> &ndash; emergency and critical care procedures series, performed on a real patient.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=o5HuiD51Su0" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Surgeon Shows How to Place a Chest Tube</a> &ndash; surgical technique for pneumothorax, effusion, haemothorax and empyema.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=HEvZwh4hbxQ" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Chest tube insertion: tube thoracostomy</a> &ndash; overview of draining air, blood, pus or fluid.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=mBI1XE14fDE" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Chest Tube Insertion as an emergency</a> &ndash; older emergency demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=5l6qHVJ_V9Y" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Chest Tubes: insertion and removal (student teaching episode)</a> &ndash; indications, technique and removal.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://litfl.com/own-the-chest-tube/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">LITFL: Own the Chest Tube</a> &ndash; a curated set of videos on needle decompression, finger thoracostomy, intercostal catheter insertion and removal.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/chest-drain-insertion-a-k-a-intercostal-drain-osce-guide/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Chest drain insertion OSCE guide</a> &ndash; step-by-step Seldinger drain with illustrations.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=h1gSi9BX8KU" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Seldinger chest drain demonstration</a> &ndash; insertion of a Seldinger drain.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=3CzxSAY-8rU" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Seldinger chest drain procedure (Bromley Emergency Courses)</a> &ndash; techniques examined in emergency medicine exams.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Emergency decompression</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://first10em.com/videos/thoracics-videos/#NEEDLE-1" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">First10EM: Needle and finger thoracostomy videos</a> &ndash; demonstration of needle and finger thoracostomy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://emergencycarebc.ca/clinical_resource/finger-needle-thoracostomy" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Emergency Care BC: Finger and needle thoracostomy</a> &ndash; steps, tube sizes, and the FINGER mnemonic.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://tccc.org.ua/files/downloads/tccc-cpp-skill-card-29-tube-thoracostomy-en.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">TCCC skill card: tube thoracostomy</a> &ndash; one-page field card.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Low-resource drainage systems</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doaj.org/article/c9796ceb159147a4bde7e2364072272b" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Nigerian Journal of Surgery: Tube thoracostomy with improvised underwater seal bottles</a> &ndash; the Nigerian series of 167 patients quoted in Section 1.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doaj.org/article/395abd78f0c541e98e1a3826ffb0d59f" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Annals of African Surgery: The Heimlich valve for pleural cavity drainage</a> &ndash; a Kenyan series with no complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7986683" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Improvised underwater seal and Heimlich valve for neonatal pneumothorax, Guinea</a> &ndash; step-by-step improvised drains with figures.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://trial.medpath.com/clinical-trial/a83f34621997903f/improvised-chest-tube-drainage-safety-efficacy" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Improvised chest drainage in a conflict-affected setting (trial record)</a> &ndash; NG tube as a chest drain attached to an IV drip set.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and references</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doi.org/10.1016/j.jemermed.2025.07.053" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Tube thoracostomy and pleural catheters: a review for emergency clinicians (J Emerg Med 2025)</a> &ndash; recent review of indications, techniques and complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://brit-thoracic.org.uk/document-library/clinical-statements/pleural-procedures/bts-clinical-statement-on-pleural-procedures" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BTS clinical statement on pleural procedures</a> &ndash; guidance on safe pleural procedures.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://learn.nes.nhs.scot/SCORM/Courses/Module0002353File0002550/chestdrains_29.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS Education for Scotland: Chest drains learning module</a> &ndash; drain management, clamping rules, bottle changes.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://rightdecisions.scot.nhs.uk/media/1656/chest_drain_management.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Chest drain management protocol</a> &ndash; troubleshooting swinging and bubbling, suction and removal.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://aci.health.nsw.gov.au/networks/respiratory/resources/pleural-drains-in-adults/section-2-insertion/seldinger-technique" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NSW Agency for Clinical Innovation: Seldinger technique for pleural drains in adults</a> &ndash; stepwise Seldinger technique.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rch.org.au/uploadedFiles/Main/Content/trauma-service/Management%20of%20traumatic%20pneumothorax%20and%20haemothorax%20thoracostomy%20and%20chest%20drain%20insertion%20NON%20COVID%20and%20COVID%20combined.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Children&rsquo;s Hospital Melbourne: Traumatic pneumothorax and haemothorax, thoracostomy and chest drain insertion</a> &ndash; paediatric sizes by age and indications for thoracotomy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.seslhd.health.nsw.gov.au/sites/default/files/groups/POWHED/docs/Tintinalli_Summary/Respiratory/TubeThoracostomy.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Tube thoracostomy summary (Tintinalli)</a> &ndash; indications, equipment and sites.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fpnotebook.com/Lung/Procedure/ChstTb.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Family Practice Notebook: Chest tube</a> &ndash; sizes, site, indications for operative management, removal criteria.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aats.org/tsra-primer-thoracic-trauma" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AATS Thoracic Surgery Resident Association: Primer on thoracic trauma</a> &ndash; chest tube size selection and thresholds for thoracotomy.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM, LITFL and First10EM resources, then use the others to see different operators and systems.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tension pneumothorax is clinical. Decompress first with a needle (4th or 5th space, anterior to the mid-axillary line), then place a chest tube.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Insert in the safe triangle, usually the 5th intercostal space between the anterior and mid-axillary lines, over the top of the rib. Stay high: the diaphragm reaches the 7th space.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm the side, the indication and the aspirate before you cut. If you cannot aspirate an effusion, do not drain it.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Blunt dissection with a clamp and a finger sweep. Never use a trocar.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Large-bore (28&ndash;32 Fr) for trauma, haemothorax and ventilated patients. Small-bore (about 14 Fr) for spontaneous pneumothorax and thin effusions. Children: size by age.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Connect to an underwater seal below chest level or to a one-way valve. Improvised bottles work if the system is airtight and kept below the chest.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never clamp a bubbling drain. Never milk or strip the tube. Do not push a drain back in.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Massive haemothorax (above 1,500 mL at once, or above 200 mL an hour for several hours) needs a surgeon.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Drain large effusions slowly and stop at the first sign of cough or chest tightness.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Remove the drain when the air leak has stopped for 24 hours or drainage is below about 200 mL a day, smoothly, with an airtight dressing, and check an X-ray.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. American College of Surgeons Committee on Trauma. Advanced Trauma Life Support, 10th edition: thoracic trauma, needle decompression and tube thoracostomy.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. British Thoracic Society. Clinical statement on pleural procedures. Thorax 2023.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. New England Journal of Medicine, Videos in Clinical Medicine. Chest-tube insertion. N Engl J Med 2007;357:e15.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Randomised trial: a peer-reviewed instructional video compared with a recorded didactic lecture for trainees performing chest tube insertion. J Surg Educ 2017.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Review for emergency clinicians: tube thoracostomy and pleural catheters. J Emerg Med 2025;77:100-116.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Nigerian cross-sectional study of tube thoracostomy with improvised underwater seal bottles. Niger J Surg 2014;20:79-82.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Retrospective series of chest drains connected to a Heimlich valve in a resource-constrained setting. Annals of African Surgery 2016;13(2).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Case series: improvised underwater seal drain and Heimlich valve for neonatal tension pneumothorax in Guinea. BMJ Case Reports 2021;14:e235801.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Survey of nurses&rsquo; knowledge of chest drain care in a Nigerian semi-urban university hospital.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Royal Children&rsquo;s Hospital Melbourne trauma service. Management of traumatic pneumothorax and haemothorax: thoracostomy and chest drain insertion.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Emergency Care BC. Clinical resource: finger and needle thoracostomy.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. American Association for Thoracic Surgery, Thoracic Surgery Residents Association. Primer on thoracic trauma.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. NHS Education for Scotland and NHS Borders. Chest drain management guidance.</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. Review of tube thoracostomy placement accuracy in an emergency department (Emerg Med Australas 2014; summarised in Family Practice Notebook).</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-gastric-lavage',
+  title: 'Gastric Lavage (Stomach Washout)',
+  category: 'Procedures',
+  subCategory: 'Emergency',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gastric Lavage (Stomach Washout)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; EMERGENCY AND TOXICOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Gastric Lavage (Stomach Washout)</h1>
+  <p class="text-sm text-indigo-200">Dichlorvos (&ldquo;Sniper&rdquo;), kerosene, drug overdoses and household chemicals fill Nigerian emergency rooms, and a stomach washout is often the first thing ordered. Toxicology societies now say lavage should not be done routinely, if at all: it recovers little poison, can push it onward, and kills some patients by aspiration. This guide helps you decide whether to wash the stomach out at all, lists the kit and doses for each age group, and sets out the technique, the poisons for which it is forbidden, the alternatives, and the complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#the-decision-should-you-wash-the-stomach-out" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>The Decision: Should You Wash the Stomach Out?</span></a></li>
+  <li><a href="#contraindications-and-stop-signs" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Contraindications and Stop Signs</span></a></li>
+  <li><a href="#treat-the-patient-first" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Treat the Patient First</span></a></li>
+  <li><a href="#materials-and-doses-by-age-group" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Materials and Doses by Age Group</span></a></li>
+  <li><a href="#preparation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Preparation</span></a></li>
+  <li><a href="#technique" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Technique</span></a></li>
+  <li><a href="#after-lavage" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>After Lavage</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#common-poisons-lavage-or-not" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Common Poisons: Lavage or Not?</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>The poisons we see.</strong> Organophosphate insecticides are the commonest agent in several Nigerian series. Dichlorvos (DDVP) is sold as &ldquo;Sniper&rdquo; in shops and as &ldquo;Otapiapia&rdquo; on the street, and a published review from one Nigerian city found it behind most reported insecticide exposures. Kerosene is the commonest agent in young children. In one 10-year series from the Niger Delta, organophosphates caused 22 per cent and kerosene 20 per cent of childhood poisonings, 94 per cent happened at home, and mortality was 9 per cent, mostly from kerosene. In a south-west adult series, organophosphate was the commonest agent, 62 per cent received atropine, 28 per cent had gastric lavage, and mortality was 9 per cent. Nigeria has no official poisoning register.</li>
+<li><strong>Lavage is a habit.</strong> A Benin City series of children under 5 years showed that lavage was done in about half of children who swallowed alcohol, drugs or household products, and not in kerosene ingestion. That last point is correct. Many wards still wash out the stomach in every poisoning.</li>
+<li><strong>What the evidence says.</strong> The American Academy of Clinical Toxicology and the European Association of Poisons Centres and Clinical Toxicologists concluded in 2013 that gastric lavage should not be performed routinely, if at all, for poisoned patients. Where it is done, it should be by trained staff.</li>
+<li><strong>Why it matters here.</strong> Delays, crowded wards and poor access to antidotes make teams reach for the one thing they can do. Spend that effort on airway, oxygen, atropine, charcoal and monitoring, which have a much better record.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-decision-should-you-wash-the-stomach-out" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+The Decision: Should You Wash the Stomach Out?
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Work through these questions in order. If you answer no to any of the first three, do not lavage.</p>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Did the patient swallow a potentially life-threatening amount of a poison that can be removed by lavage?</strong> A small or unknown amount of a low-toxicity substance does not justify the risks.</li>
+<li><strong>Is the patient within 60 minutes of ingestion?</strong> The AACT/EAPCCT statements restrict lavage to this window. In studies, recovery of marker or pills was 8 to 32 per cent at one hour and fell afterwards, and lavage can push material into the small bowel. Some toxicology references allow a longer window in selected cases (for example, anticholinergic overdose within 4 hours, large salicylate poisoning within 12 hours), but do these only on advice from a toxicologist.</li>
+<li><strong>Is the airway protected?</strong> A fully awake, cooperative patient with a good gag reflex, or an intubated patient. If the patient is drowsy or convulsing, either intubate first or do not lavage. Do not intubate solely to give activated charcoal.</li>
+<li><strong>Is there a better option?</strong> Activated charcoal within an hour, and a specific antidote, usually do as much with less harm. N-acetylcysteine for paracetamol makes lavage unnecessary. Atropine, oxygen and airway care come first in organophosphate poisoning.</li>
+<li><strong>Is a trained person available?</strong> Lavage should be performed only by individuals with proper training and expertise, with suction and airway equipment at hand.</li>
+</ol>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: &ldquo;if at all&rdquo; versus textbook indications</p>
+<p class="text-sm">Some toxicology references and emergency wikis still list conditions in which lavage may be considered: life-threatening ingestion within 1 hour, anticholinergic drugs within 4 hours, sustained-release preparations of very toxic drugs, large salicylate ingestion, iron or lithium (which charcoal does not bind), and paraquat, which they note is common in the developing world. The 2013 AACT/EAPCCT position paper says the evidence for benefit in special situations is weak, as is the evidence to exclude benefit, and that lavage should not be performed routinely, if at all. Treat the textbook list as the outer limit of what a senior or poison centre might approve, not as a routine order.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="contraindications-and-stop-signs" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Contraindications and Stop Signs
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Do Not Pass a Lavage Tube If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>The airway is not protected.</strong> Drowsy, comatose, convulsing, or vomiting, unless the patient is intubated. Aspiration is the main killer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A hydrocarbon was swallowed.</strong> Kerosene (paraffin), petrol, diesel, turpentine, lighter fluid. The aspiration risk is high. Do not lavage and do not induce vomiting. Kerosene is the commonest cause of fatal childhood poisoning in several Nigerian series.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A corrosive was swallowed.</strong> Caustic soda (used locally for soap), bleach, drain cleaner, acids, batteries. The tube can perforate the oesophagus or stomach.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A volatile substance or detergent</strong> with a high risk of foaming and aspiration.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Seizures are likely or present</strong> and the airway is not secured.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>The patient is at risk of bleeding or perforation</strong> from GI pathology, recent surgery, or oesophageal disease.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>The ingested substance is not toxic, or more than an hour has passed</strong> and no toxicologist advises otherwise.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Cardiotoxic drug ingestion</strong> (propranolol, calcium channel blockers, other drugs affecting conduction): the vagal stimulation of the tube can cause profound bradycardia or asystole. Have atropine ready, and think twice.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>There is no wide-bore tube.</strong> A Ryle&rsquo;s or nasogastric tube is too narrow to remove tablets and capsules.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>The patient refuses</strong> and has capacity. Do not restrain a competent patient to wash out the stomach.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="treat-the-patient-first" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Treat the Patient First
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>ABC.</strong> Open the airway, give oxygen, check breathing, secure IV access, and monitor the pulse, blood pressure, oxygen saturation, ECG and level of consciousness.</li>
+<li><strong>Check the blood glucose</strong> and treat hypoglycaemia. Control seizures.</li>
+<li><strong>Identify the poison.</strong> Ask about what was swallowed, how much and when. Get the container. Ask relatives and look for the bottle. If you have a poison centre or toxicologist, call.</li>
+<li><strong>Skin and clothing.</strong> In organophosphate exposure, remove contaminated clothes and wash the skin. Staff should wear gloves.</li>
+<li><strong>Specific antidotes.</strong> Atropine for organophosphate poisoning (give oxygen first), N-acetylcysteine for paracetamol. Many Nigerian patients with organophosphate poisoning receive atropine, as in the south-west adult series.</li>
+<li><strong>Intubate</strong> if there is a depressed conscious level, airway compromise or you must lavage in an at-risk patient.</li>
+<li><strong>Only then</strong> decide about decontamination (Section 2).</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="materials-and-doses-by-age-group" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Materials and Doses by Age Group
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The values below combine AACT/EAPCCT-aligned toxicology references, the US EPA pesticide poisoning manual and emergency toxicology guidance. Where sources differ, the range is shown. Confirm against your national or poison-centre protocol.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Age group</th><th class="py-2 pr-3 font-semibold">Lavage tube (orogastric)</th><th class="py-2 pr-3 font-semibold">Fluid per aliquot</th><th class="py-2 pr-3 font-semibold">Total wash</th><th class="py-2 pr-3 font-semibold">Activated charcoal after lavage</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Neonates (under 1 month)</td><td class="py-2 pr-3">Not recommended. No evidence base. Get expert advice.</td><td class="py-2 pr-3">Not applicable</td><td class="py-2 pr-3">Not applicable</td><td class="py-2 pr-3">Seek toxicology advice before giving.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Infants (1 to 12 months)</td><td class="py-2 pr-3">Not recommended outside expert advice. Small children are listed as a contraindication in toxicology references.</td><td class="py-2 pr-3">If directed by a toxicologist: 10 mL/kg of warmed normal saline.</td><td class="py-2 pr-3">Until the return is clear, usually under 0.5 L.</td><td class="py-2 pr-3">0.5 to 1 g/kg, or 10 to 25 g.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Young children (1 to 5 years)</td><td class="py-2 pr-3">22 to 28 Fr (24 to 28 Fr in some references). Use the largest that passes easily.</td><td class="py-2 pr-3">10 to 15 mL/kg of warmed normal saline, up to 250 to 300 mL. For example: 10 kg = 100 to 150 mL; 15 kg = 150 to 225 mL.</td><td class="py-2 pr-3">About 0.5 to 1 L, or until the return is clear.</td><td class="py-2 pr-3">0.5 to 1 g/kg, usually 25 g or less in the youngest.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">School-age children (6 to 12 years)</td><td class="py-2 pr-3">24 to 28 Fr.</td><td class="py-2 pr-3">10 to 15 mL/kg, up to 250 to 300 mL. For example: 20 kg = 200 to 300 mL; 30 kg or more = 250 to 300 mL.</td><td class="py-2 pr-3">About 0.5 to 1 L, or until clear.</td><td class="py-2 pr-3">0.5 to 1 g/kg, or 25 to 50 g.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Adolescents (over 12 years)</td><td class="py-2 pr-3">36 to 40 Fr (the adult size is used in large adolescents; 28 to 36 Fr in smaller ones).</td><td class="py-2 pr-3">200 to 300 mL of warmed normal saline.</td><td class="py-2 pr-3">Several litres, or until clear.</td><td class="py-2 pr-3">25 to 100 g, or 1 g/kg (maximum 50 g in some protocols).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Adults</td><td class="py-2 pr-3">36 to 40 Fr (about 12 to 13 mm external diameter).</td><td class="py-2 pr-3">200 to 300 mL of warmed normal saline or water.</td><td class="py-2 pr-3">Several litres, or until the return is clear and free of particles.</td><td class="py-2 pr-3">25 to 100 g (often 50 g).</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Use normal saline, not water, in children.</strong> Tap water has caused hyponatraemia and water intoxication in young children. Give the same volume back as you put in.</li>
+<li><strong>Warm the fluid</strong> to about body temperature (about 38&deg;C). Cold fluid causes hypothermia, especially in children, and very hot fluid burns.</li>
+<li><strong>Narrow nasogastric tubes</strong> (16 to 20 Fr) can drain fluid or blood but cannot remove tablets, so they are not used for lavage after tablet overdose.</li>
+<li><strong>Orogastric, not nasogastric,</strong> for lavage. In adolescents and adults the tube goes through the mouth.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment checklist</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Lavage tube</td><td class="py-2 pr-3">Large-bore orogastric (Ewald) tube in the sizes above, with a funnel or a 50 to 60 mL catheter-tip syringe.</td><td class="py-2 pr-3">Do not substitute a narrow tube. Without a wide-bore tube, use charcoal instead.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Lavage fluid</td><td class="py-2 pr-3">Warmed normal saline at about 38&deg;C, in a measured jug.</td><td class="py-2 pr-3">Boiled and cooled water is acceptable in adults only, never in children.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Collection</td><td class="py-2 pr-3">A bucket or basin, a measuring jug and a sample container for the first aspirate.</td><td class="py-2 pr-3">Keep the first aspirate for the laboratory or the poison centre.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Airway</td><td class="py-2 pr-3">Suction (Yankauer), oxygen, bag-valve-mask, laryngoscope, endotracheal tubes in the right sizes, a mouth guard or bite block.</td><td class="py-2 pr-3">Do not start without working suction.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Monitoring</td><td class="py-2 pr-3">Pulse oximeter, ECG, blood pressure cuff, thermometer.</td><td class="py-2 pr-3">A trained person must watch the patient throughout.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drugs</td><td class="py-2 pr-3">Activated charcoal, atropine (for bradycardia), sedation only if safe, specific antidotes.</td><td class="py-2 pr-3">Have atropine drawn up.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Protection</td><td class="py-2 pr-3">Gloves, apron, eye protection.</td><td class="py-2 pr-3">Vomit and gastric contents may contain pesticide.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Preparation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Explain what you are doing to the patient or relatives, and obtain consent if the patient can give it. Agree a signal to stop. A cooperative patient makes the procedure safer.</li>
+<li>Take baseline vital signs and record the time of ingestion and the time you start.</li>
+<li>If the patient is too agitated, a small anxiolytic dose can help, but only if the airway reflexes remain intact. If a patient needs heavy sedation, the airway must be secured first.</li>
+<li>Place a bite block or mouth gag.</li>
+<li>Position the patient on the left side with the head about 20 degrees down (Trendelenburg), so fluid pools away from the pylorus and vomit runs out of the mouth instead of down the airway. An intubated patient can lie supine.</li>
+<li>Measure the tube against the patient from the lips to the earlobe and then to the xiphisternum, and mark it.</li>
+<li>Check suction is on and within reach. Stand the bucket below the level of the bed.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Technique
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Lubricate</strong> the tube with water-soluble gel.</li>
+<li><strong>Insert gently</strong> through the mouth, over the tongue and into the oesophagus. When the tip reaches the back of the throat, ask the patient to swallow, and put the chin onto the chest. Stop if there is resistance. Never force the tube.</li>
+<li><strong>Advance</strong> to your mark so that the side holes are beyond the lower oesophageal sphincter and in the stomach.</li>
+<li><strong>Confirm the tube is in the stomach</strong> before anything goes in. Aspirate gastric contents with the syringe, and check for gastric fluid. If you obtain nothing, or you are unsure, remove the tube and start again, or use an X-ray. Blowing air and listening over the stomach is commonly taught in toxicology texts, but it is not a reliable proof of position and current tube-safety guidance rejects it.</li>
+<li><strong>Aspirate first</strong> and keep the sample for toxicology.</li>
+<li><strong>Instil one aliquot</strong> of warmed saline (see Section 5 for the age-based volume) through the funnel or syringe, slowly.</li>
+<li><strong>Let it drain</strong> by lowering the funnel below the level of the stomach, or aspirate gently. Note what comes back. Keep a running balance so that input equals output.</li>
+<li><strong>Repeat</strong> aliquot by aliquot until the fluid returns clear with no particles. In an adult this may mean several litres. In a child it is usually about 0.5 to 1 L. Stop sooner if the patient deteriorates.</li>
+<li><strong>Give activated charcoal</strong> through the same tube when the return is clear, if charcoal is indicated for the poison (Section 10). Use the dose for the patient&rsquo;s age.</li>
+<li><strong>Pinch off the tube</strong> and withdraw it smoothly so that fluid in the tube does not run into the airway.</li>
+<li><strong>Record</strong> times, amounts in and out, the appearance of the return, what was given, and any complications.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-lavage" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+After Lavage
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Keep monitoring</strong> oxygen saturation, pulse, blood pressure, ECG and conscious level for several hours. Aspiration pneumonia can appear later.</li>
+<li><strong>Keep giving the antidote</strong> and supportive care. Lavage does not replace atropine, oxygen or N-acetylcysteine.</li>
+<li><strong>Repeat charcoal</strong> only if indicated for a specific poison. Repeat-dose charcoal (starting from 1 g/kg, then 0.5 to 1 g/kg every 2 to 4 hours) is for life-threatening ingestions of drugs such as quinine, dapsone, phenobarbital, carbamazepine and theophylline. If repeat doses are planned, give further doses by a nasogastric tube.</li>
+<li><strong>Admit</strong> every patient who needed lavage, and observe them for the expected time-course of the poison.</li>
+<li><strong>Mental health.</strong> Many adolescent and adult poisonings are deliberate. Assess risk, give counselling, and involve the mental health team before discharge. Keep the means away from the patient.</li>
+<li><strong>Prevention.</strong> Teach safe storage of kerosene, insecticide and household chemicals out of reach of children and not in drink bottles. Report cases to the local health authority.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Aspiration of gastric contents:</strong> occurs in about 3 per cent of patients. Cough, hypoxia, wheeze, fever. Suction, oxygen, intubation if needed.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Laryngospasm and hypoxia:</strong> stop the procedure, remove the tube, and ventilate.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bradycardia, cardiac arrest or asystole:</strong> especially with propranolol, calcium channel blockers or other conduction-affecting drugs. Give atropine and stop.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Oesophageal or gastric perforation:</strong> rare, but fatal. Chest or abdominal pain, subcutaneous air, bloody return. Emergency surgical review.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Fluid and electrolyte disturbance:</strong> from water in children, or unbalanced fluid in and out. Check sodium. Use saline and keep an exact balance.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hypothermia:</strong> keep the patient warm and use warmed fluid.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Gastrointestinal bleeding</strong> and trauma to the mouth and throat.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Pushing tablets into the small bowel,</strong> increasing absorption. This is one of the reasons lavage can do harm.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Incomplete removal:</strong> a negative or poor return does not exclude a serious ingestion. Keep monitoring.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-poisons-lavage-or-not" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Common Poisons: Lavage or Not?
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Poison</th><th class="py-2 pr-3 font-semibold">Lavage?</th><th class="py-2 pr-3 font-semibold">What to do instead or as well</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Kerosene, petrol, paraffin and other hydrocarbons</td><td class="py-2 pr-3">No</td><td class="py-2 pr-3">Oxygen, airway, observe for chemical pneumonitis. Do not induce vomiting. Kerosene is the commonest cause of childhood poisoning deaths in several Nigerian series.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Caustic soda, bleach, acids, drain cleaners, batteries</td><td class="py-2 pr-3">No</td><td class="py-2 pr-3">Do not induce vomiting. Water rinse of the mouth, analgesia, early surgical and endoscopy review.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Organophosphates (dichlorvos, &ldquo;Sniper&rdquo;, &ldquo;Otapiapia&rdquo;) and carbamates</td><td class="py-2 pr-3">Rarely. Only a large, recent, life-threatening ingestion within 1 hour with a secured airway. Never ahead of atropine and airway.</td><td class="py-2 pr-3">Oxygen, atropine until secretions dry, skin decontamination, ventilation and ICU where available. Charcoal may be given where indicated.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Paraquat and diquat</td><td class="py-2 pr-3">Listed by some references as an indication if very early. Not routine.</td><td class="py-2 pr-3">Early activated charcoal, poison-centre advice and referral. Paraquat is very often fatal. Follow toxicology advice on oxygen.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Paracetamol</td><td class="py-2 pr-3">No</td><td class="py-2 pr-3">Activated charcoal if within about 4 hours of a large ingestion, then N-acetylcysteine according to the treatment line.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Iron, lithium</td><td class="py-2 pr-3">May be considered, with a toxicologist, because charcoal does not bind them.</td><td class="py-2 pr-3">Whole bowel irrigation and specific treatment per toxicology advice.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Salicylates</td><td class="py-2 pr-3">Only a large ingestion within 12 hours, with toxicology advice.</td><td class="py-2 pr-3">Charcoal, alkalinisation, haemodialysis.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Beta-blockers, calcium channel blockers</td><td class="py-2 pr-3">Avoid, or only with atropine ready.</td><td class="py-2 pr-3">Resuscitation and specific antidotes.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Alcohol, benzodiazepines, sedatives, household products, unknown tablets</td><td class="py-2 pr-3">Not routine. Often used in Nigerian practice but not supported.</td><td class="py-2 pr-3">Airway, supportive care, charcoal if within an hour and the airway is safe.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Herbal or traditional preparations</td><td class="py-2 pr-3">Not routine.</td><td class="py-2 pr-3">Supportive care, ask what was taken, and call a toxicologist if the plant or product is known.</td></tr>
+</tbody></table></div>
+<p class="text-sm">Syrup of ipecac and cathartics are not recommended for children with acute poisoning.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=7VVCmCkqd9Y" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WikEM video: gastric lavage</a> &ndash; the demonstration linked from the WikEM gastric lavage page. Best used with the contraindications in Section 3.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=M_MsvK5Uepc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Stomach wash (gastric lavage) procedure, step by step</a> &ndash; nursing-style walk-through of the procedure.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=lqRwPr6tuTk" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Gastric lavage: a step-by-step guide</a> &ndash; explains indications and steps of stomach pumping.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=DbQWs2zApF8" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Gastric lavage: forensic medicine lecture</a> &ndash; lecture covering Ewald and Boas tubes and lavage in irritant poisoning.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.jaypeedigital.com/video/9789356969629/28790" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">JaypeeDigital: gastric lavage procedure</a> &ndash; video demonstration from a medical education publisher. May need a subscription.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11960621/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Validated video: insertion of gastric and enteral tubes in children</a> &ndash; open-access article with a link to an expert-validated YouTube video using a paediatric simulation mannequin. Useful for the tube-insertion skill in children.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Position papers and guidelines</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.clintox.org/wp-content/uploads/2016/04/Gastric-Lavage-2013.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AACT/EAPCCT position paper update: gastric lavage (2013)</a> &ndash; the full position paper.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.qxmd.com/r/23418938" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Position paper update: abstract and conclusions</a> &ndash; summary of the 2013 conclusions.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.clintox.org/wp-content/uploads/2016/04/Position-Statement-Gastric-Lacage.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AACT/EAPCCT position statement: gastric lavage (1997)</a> &ndash; the 60-minute window, evidence on recovery, and contraindications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://epa.gov/sites/default/files/documents/rmpp_6thed_ch3_generalprinciples.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">US EPA: Recognition and management of pesticide poisonings, general principles</a> &ndash; tube sizes for adults and children, saline not water in children, charcoal doses by age.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://wikem.org/wiki/Gastric_lavage" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WikEM: Gastric lavage</a> &ndash; indications, technique and complications at a glance.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://litfl.com/gastric-lavage/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">LITFL: Gastric lavage</a> &ndash; critical care compendium: why it should be rarely, if ever, performed.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://iem-student.org/gastric-lavage-and-active-charcoal-application/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Emergency toxicology guideline: gastric lavage and activated charcoal</a> &ndash; steps, lavage volumes by age and charcoal dose by age.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://empendium.com/mcmtextbook/chapter/B31.IV.24.15" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Medical textbook chapter: gastric lavage and activated charcoal</a> &ndash; indications, contraindications, and repeat-dose charcoal.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doi.org/10.1080/15563650.2021.1961144" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Systematic review of activated charcoal for GI decontamination (2021)</a> &ndash; evidence on charcoal, the usual alternative to lavage.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian poisoning data</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doaj.org/article/804d7d82f151495f8598d425823baffe" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Childhood poisoning in a children&rsquo;s emergency department in the Niger Delta (10-year study)</a> &ndash; organophosphate and kerosene, mortality and prevention.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478433036.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Childhood poisoning in North-Central Nigeria</a> &ndash; organophosphate and kerosene as the commonest agents, with age pattern.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/rejhs/article/view/218691/206311" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Acute chemical poisoning in adults in a south-west Nigerian tertiary hospital</a> &ndash; atropine and lavage use, and mortality.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/jmbr/article/view/104619/94672" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Accidental poisoning in children under 5 years in Benin City</a> &ndash; kerosene, and lavage use in non-kerosene poisonings.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/njp/article/view/198385/187061" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Childhood poisoning at a national hospital in Abuja</a> &ndash; kerosene and organophosphate, fatality and risk factors.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478304644.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Childhood poisoning in Sagamu, south-west Nigeria</a> &ndash; hydrocarbon fuels and symptoms.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/jcmphc/article/view/168642/158113" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Teenage organophosphate insecticide poisoning in Enugu</a> &ndash; dichlorvos products (&ldquo;Sniper&rdquo;, &ldquo;Otapiapia&rdquo;), and a deliberate self-poisoning trend.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/jcm/article/view/228978" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Accidental poisoning in under-five children in Umuahia</a> &ndash; kerosene as the commonest ingested agent.</div>
+</div>
+<p class="text-sm">Video quality varies. None of the videos replaces your hospital protocol or a toxicologist&rsquo;s advice. Several show lavage being done in situations where current guidance advises against it, so watch with Sections 2 and 3 in mind.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Gastric lavage should not be performed routinely, if at all. It recovers little poison, can push it into the small bowel, and carries an aspiration risk of about 3 per cent.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consider it only for a potentially life-threatening ingestion, within 60 minutes, in an awake and cooperative patient or one with an intubated airway, and done by a trained person.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never lavage after kerosene, petrol or other hydrocarbons, corrosives such as caustic soda or bleach, or with an unprotected airway.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat first: airway, oxygen, glucose, atropine for organophosphates, N-acetylcysteine for paracetamol. Charcoal within an hour often does more with less risk.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tube: 36 to 40 Fr for adults and large adolescents, 22 to 28 Fr for children. A nasogastric tube is too narrow for tablets. Infants and neonates: do not lavage without expert advice.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fluid: warmed normal saline, 200 to 300 mL per aliquot in adults and 10 to 15 mL/kg in children (maximum 250 to 300 mL). Never plain water in children. Keep input equal to output.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Left lateral, head 20 degrees down, bite block, suction ready, confirm tube position by aspirating gastric contents, and repeat until the return is clear.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Charcoal after lavage: 0.5 to 1 g/kg in infants and children (25 to 50 g in school-age children), 25 to 100 g in adolescents and adults.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Watch for aspiration, laryngospasm, bradycardia and asystole, perforation and electrolyte disturbance. Admit every patient.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Deliberate self-poisoning is common. Involve mental health services, remove access to the poison, and teach safe storage.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. Benson BE, Hoppu K, et al. American Academy of Clinical Toxicology and European Association of Poisons Centres and Clinical Toxicologists. Position paper update: gastric lavage for gastrointestinal decontamination. Clin Toxicol 2013;51:140-146.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. American Academy of Clinical Toxicology and European Association of Poisons Centres and Clinical Toxicologists. Position statement: gastric lavage. J Toxicol Clin Toxicol 1997;35:711-719 (and 2004 update).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. United States Environmental Protection Agency. Recognition and management of pesticide poisonings, 6th edition, chapter 3: general principles.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. WikEM and LITFL clinical toxicology resources on gastric lavage; Emergency toxicology guideline on gastric lavage and activated charcoal application.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Systematic review on the use of activated charcoal for gastrointestinal decontamination following acute oral overdose. Clin Toxicol 2021;59:1196-1227.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Medical Mini-Encyclopedia chapter on gastric lavage and repeat-dose activated charcoal (Empendium).</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Ten-year retrospective study of childhood poisoning presenting to a children&rsquo;s emergency department in the Niger Delta. BMJ Paediatrics Open 2024.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Pattern of childhood poisoning in North-Central Nigeria (five-year retrospective study).</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Review of demographic pattern and outcomes of acute chemical poisoning in a tertiary hospital in south-western Nigeria. Research Journal of Health Sciences.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Accidental poisoning among children aged five years and under in Benin City, Nigeria: ten-year review.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Pattern and outcome of childhood poisoning at a national hospital in Abuja. Niger J Paediatr 2020;47.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Childhood poisoning in Sagamu, south-west Nigeria. Niger J Paediatr 2020;47:1-5.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Teenage organophosphate insecticide poisoning: an ugly trend in Enugu, Nigeria. J Community Med Prim Health Care 2018;30(1).</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. Construction and validation of a video on the insertion of gastric and enteral tubes in children. Rev Bras Enferm 2025.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+
 
 ];

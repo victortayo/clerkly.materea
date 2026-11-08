@@ -2,6 +2,381 @@ import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
   {
+    id: 'ob-88',
+    title: 'Chorioamnionitis Complicating Prolonged PPROM at 33 Weeks',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Maternal-Fetal Medicine / Obstetrics',
+    condition: 'Clinical chorioamnionitis complicating prolonged preterm premature rupture of membranes (PPROM) at 33 weeks + 2 days with established preterm labour, maternal sepsis, and fetal compromise',
+    symptoms: [
+      'Sudden gush then persistent drainage of fluid per vaginam',
+      'Foul-smelling vaginal discharge',
+      'Fever 38.6°C with chills and generalised weakness',
+      'Lower abdominal pain, progressively constant',
+      'Uterine contractions 3–4 in 10 minutes',
+      'Reduced fetal movements',
+      'BP 100/65 mmHg, PR 120 bpm — early septic shock',
+      'Fetal heart rate 170 bpm — fetal tachycardia',
+      'Uterine tenderness on palpation',
+      'Offensive liquor pooling in the posterior fornix on speculum'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-06-24',
+    summary: 'Mrs R.O., a 26-year-old booked G2P1+0 trader from Ibadan presenting at 33 weeks + 2 days with a 2-day history of persistent fluid drainage per vaginam, 1-day history of foul-smelling vaginal discharge, 2-day history of fever, and 12-hour history of progressive constant lower abdominal pain with increasing uterine tightening. Booking PCV 31%, blood group O positive, genotype AA, HIV negative. Ill-looking, febrile (38.6°C), mildly dehydrated, BP 100/65 mmHg, PR 120 bpm. Speculum confirms offensive liquor pooling in the posterior fornix. Uterus is tender. Fetal heart rate 170 bpm. Cervix 4 cm dilated, 60% effaced.',
+    content: `
+  Mrs R.O., a 26-year-old booked G2P1+0 (1 alive) trader, resident in Ibadan, Oyo State, Christian, Yoruba, married in a monogamous setting, secondary level education.
+  
+  Informant: Patient (reliable)
+  
+  OBSTETRIC DATA
+  Gravidity: G2
+  Parity: P1+0 (one term delivery, no miscarriages)
+  Living children: 1 alive
+  LMP: 02/11/2025
+  EDD: 09/08/2026
+  EGA: 33 weeks + 2 days
+  
+  PRESENTING COMPLAINTS
+  Leakage of fluid per vaginam × 2 days
+  Foul-smelling vaginal discharge × 1 day
+  Fever × 2 days
+  Lower abdominal pain × 12 hours
+  
+  HISTORY OF PRESENTING COMPLAINT
+  She was apparently well until 2 days prior to presentation when she noticed a sudden gush of fluid per vaginam while at rest. The fluid was initially clear but has since become foul-smelling, with persistent drainage soaking her clothing and requiring repeated pad changes.
+  
+  One day prior to presentation the vaginal discharge became offensive. She developed fever with chills and generalised body weakness.
+  
+  Twelve hours prior to presentation she developed lower abdominal pain, initially mild, becoming progressively constant and diffuse. Uterine tightening has become more frequent — approximately 3–4 times in 10 minutes, lasting 30–40 seconds.
+  
+  She reports reduced fetal movements.
+  
+  No history of vaginal bleeding. No history of trauma.
+  
+  ANTENATAL HISTORY
+  Pregnancy planned, spontaneously conceived. Booked at 18 weeks, attended irregularly. On antenatal haematinics; received one dose of tetanus toxoid.
+  
+  Booking investigations:
+  PCV: 31%
+  Blood group: O positive
+  Genotype: AA
+  HIV: Negative
+  
+  PAST OBSTETRIC HISTORY
+  2022: Term SVD, live male infant (3.0 kg) — no complications; child alive and well.
+  
+  GYNAECOLOGICAL HISTORY
+  Menarche at 13 years. Regular cycles prior to pregnancy.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  No known chronic illness. No previous surgeries.
+  
+  DRUG AND ALLERGY HISTORY
+  No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  No family history of preterm delivery. Monogamous. Does not smoke or take alcohol. No herbal medications.
+  
+  PHYSICAL EXAMINATION
+  
+  General Examination
+  Young pregnant woman, conscious but ill-looking. Febrile, appearing weak. Mildly dehydrated.
+  
+  Vital Signs
+  BP: 100/65 mmHg
+  PR: 120 bpm
+  RR: 24 cpm
+  Temperature: 38.6°C
+  SpO₂: not yet documented — measure immediately
+  
+  Abdominal (Obstetric) Examination
+  SFH: 31 cm (appropriate for gestation). Lie: longitudinal. Presentation: cephalic.
+  Uterus tender on palpation. Contractions: 3–4 in 10 minutes, lasting 30–40 seconds.
+  FHR: 170 bpm.
+  
+  Pelvic Examination
+  Speculum: offensive foul-smelling liquor pooling in the posterior fornix. No frank vaginal bleeding.
+  Digital (performed once): cervix soft, 60% effaced, 4 cm dilated. Membranes ruptured. No cord felt at the os.
+  
+  ASSESSMENT
+  
+  Clinical chorioamnionitis complicating prolonged preterm premature rupture of membranes (PPROM) at 33 weeks + 2 days.
+  Established preterm labour. Maternal sepsis (early septic shock). Fetal compromise — fetal tachycardia 170 bpm.
+  
+  Gibbs criteria met: fever >38°C (38.6°C), maternal tachycardia >100 bpm (120 bpm), fetal tachycardia >160 bpm (170 bpm), uterine tenderness, offensive amniotic fluid. ≥4 criteria — unambiguous clinical chorioamnionitis.
+  
+  Tocolysis is absolutely contraindicated.
+  
+  Differentials
+  Uncomplicated PPROM without infection (excluded — meets full Gibbs criteria)
+  Preterm labour without chorioamnionitis (excluded — infection features present; tocolysis contraindicated)
+  Pyelonephritis (excluded — offensive liquor and uterine tenderness present; no costovertebral angle tenderness)
+  Placental abruption (excluded — no vaginal bleeding; clinical picture dominated by infection)
+  
+  PLAN
+  
+  OBSTETRIC EMERGENCY. Alert senior obstetrician, anaesthetist, and neonatal team simultaneously. Do not delay antibiotic administration for any investigation.
+  
+  Resuscitation
+  
+  Airway and Breathing
+  Airway patent — patient conscious. High-flow oxygen via face mask 6–10 L/min. Target SpO₂ above 95%. Measure SpO₂ immediately.
+  
+  Circulation
+  Two wide-bore IV cannulae (16G or 18G) — insert immediately.
+  Send blood samples urgently (collect blood cultures and bloods while cannulating — do not delay antibiotics beyond 30 minutes).
+  IV Normal Saline or Ringer's Lactate: 500 ml to 1 litre over 30–60 minutes. Reassess BP and pulse after each bolus. Target systolic BP above 100 mmHg, pulse below 100 bpm. Avoid over-resuscitation.
+  If BP remains below 90 mmHg after 2–3 litres crystalloid: escalate to vasopressors (IV Noradrenaline via central line) and alert ICU immediately.
+  Insert Foley catheter immediately. Target urine output above 0.5 ml/kg/hour. Nil by mouth — patient may require emergency caesarean section.
+  IV Paracetamol 1 g over 15 minutes for fever control. Tepid sponging as adjunct.
+  
+  Investigations
+  Blood cultures × 2 sets (from two different sites, before antibiotics — collect while cannulating)
+  Full blood count with differential
+  Serum electrolytes, urea, and creatinine
+  Liver function tests
+  Coagulation profile (PT, aPTT, INR, fibrinogen, D-dimer) — DIC screen
+  Serum lactate
+  Blood grouping and cross-match (confirm O positive; prepare 2 units packed red cells)
+  High vaginal swab for MCS — swab from posterior fornix before antibiotics
+  Urinalysis and catheter specimen of urine MCS
+  Obstetric ultrasound: confirm fetal cardiac activity, estimate AFI, confirm presentation
+  CRP and procalcitonin if available
+  
+  Antibiotic Therapy — START WITHIN 30 MINUTES OF DIAGNOSIS
+  
+  IV Ampicillin 2 g every 6 hours
+  PLUS IV Gentamicin 5 mg/kg once daily (check serum creatinine before each dose; monitor trough levels; adjust dosing interval if oliguria or rising creatinine)
+  PLUS IV Metronidazole 500 mg every 8 hours
+  
+  If Gentamicin unavailable or renal function significantly impaired: substitute IV Ceftriaxone 2 g once daily for Gentamicin.
+  If penicillin allergy: IV Clindamycin 900 mg every 8 hours plus IV Gentamicin 5 mg/kg once daily.
+  
+  Continue antibiotics intrapartum and postpartum. Switch to oral once afebrile for 48 hours and tolerating oral intake:
+  Oral Amoxicillin-Clavulanate 625 mg every 8 hours to complete 7–10 days total.
+  OR Oral Cefalexin 500 mg every 6 hours plus Oral Metronidazole 400 mg every 8 hours for 7 days.
+  Adjust based on blood culture and HVS sensitivities at 48–72 hours.
+  
+  Corticosteroids
+  Discuss with senior obstetrician. If delivery not expected within 2–3 hours: give single dose IM Dexamethasone 6 mg or IM Betamethasone 12 mg immediately — partial benefit at 33 weeks is clinically meaningful even if the full 48-hour course will not be completed.
+  
+  Delivery — The Definitive Treatment
+  Target delivery within 2–4 hours of diagnosis. Resuscitation and theatre preparation occur simultaneously — not sequentially.
+  
+  Mode of delivery: vaginal delivery preferred (multiparous, cephalic, 4 cm dilated, established labour, no uterine scar).
+  Begin partograph from admission. Commence oxytocin augmentation (10 units in 1 litre Normal Saline, starting at 2 mU/min, increasing every 30 minutes) if labour is not progressing adequately after 1–2 hours.
+  
+  Caesarean section if: non-reassuring fetal status (sustained fetal bradycardia, terminal CTG pattern), failed labour progress despite adequate contractions, malpresentation, cord prolapse, or no delivery anticipated within 4–6 hours of full augmentation.
+  
+  Active Management of Third Stage
+  IM/slow IV Oxytocin 10 units after delivery of anterior shoulder. Controlled cord traction. Inspect and send placenta for histopathological examination. Document completeness of placenta and membranes.
+  Oxytocin infusion 40 units in 1 litre Normal Saline at 125 ml/hour for at least 4 hours after placental delivery.
+  
+  Intrapartum Monitoring
+  Temperature every 30 minutes. BP and PR every 15–30 minutes. SpO₂ and RR every 30 minutes. Urine output hourly. Coagulation screen urgently if oozing from venepuncture sites or mucous membranes.
+  Continuous CTG throughout labour. Document FHR every 15 minutes. If FHR deteriorates (sustained bradycardia <110 bpm, severe variable decelerations): left lateral position, IV fluid bolus, high-flow oxygen, alert senior obstetrician immediately — prepare for emergency delivery.
+  If uterine hyperstimulation on oxytocin: reduce rate immediately; if fetal compromise: IV Salbutamol 100 mcg slow IV push or SC Terbutaline 0.25 mg.
+  
+  Neonatal Team Preparation
+  Alert neonatology before delivery: GA 33+2, clinical chorioamnionitis confirmed, expected birth weight approximately 1.9–2.1 kg.
+  Prepare: pre-warmed radiant warmer, bag-mask ventilation, nasal CPAP, surfactant on standby (Poractant alfa or Beractant), warm dry towels and polyethylene bag for hypothermia prevention.
+  
+  Immediate postnatal steps: Apgar at 1 and 5 minutes. Delayed cord clamping 30–60 seconds if vigorous (clamp immediately if resuscitation required). Nasal CPAP if breathing spontaneously. PPV if apnoeic or FHR below 100 bpm.
+  
+  Neonatal sepsis management (start within 1–2 hours of birth):
+  Blood culture, FBC, CRP, and blood glucose within 1 hour of birth.
+  IV Ampicillin 50 mg/kg every 12 hours plus IV Gentamicin 5 mg/kg once daily.
+  Duration: 48–72 hours if cultures negative and clinically well; 10–14 days if bacteraemia; 21 days if meningitis.
+  If GBS identified on maternal HVS: IV Benzylpenicillin 50,000 units/kg every 12 hours.
+  Caffeine citrate loading dose 20 mg/kg, then 5–10 mg/kg once daily for apnoea prophylaxis.
+  Blood glucose every 2–4 hours for first 24 hours. Target 2.6–8 mmol/L.
+  
+  Postpartum Maternal Care
+  Vital signs every 1–4 hours for the first 24 hours. Serum creatinine at 12 and 24 hours. FBC daily for first 3 days. Review blood culture and HVS sensitivities at 48–72 hours and adjust antibiotics.
+  If fever persists beyond 48 hours of IV antibiotics: assess for resistant organism, wound infection (if CS), endometritis, pelvic abscess, septic pelvic thrombophlebitis, or UTI. Consider CT pelvis if pelvic abscess is suspected.
+  VTE prophylaxis: Enoxaparin 40 mg SC daily from 12–24 hours post-delivery. TED stockings throughout admission. Continue until fully mobile.
+  Haemoglobin check before discharge. Iron supplementation: oral Ferrous sulphate 200 mg twice daily or IV Ferric carboxymaltose 1 g single dose if Hb significantly low.
+  Encourage and support breast milk expression as soon as the mother is stable. Arrange NICU visits.
+  
+  Counselling
+  Explain diagnosis: membranes broke 2 days ago; infection entered the amniotic fluid; the infection is affecting both mother and baby; delivery is the only cure.
+  Antibiotics are running through the drip now to fight the infection but cannot cure it without delivery.
+  Baby will need NICU support — breathing support, warmth, feeding tube, and treatment for infection — most 33-week babies do well with appropriate care.
+  Express breast milk as soon as able — it is protective for this baby.
+  Irregular antenatal attendance may have meant undetected vaginal infection was not treated; emphasise importance of early booking and regular attendance in future.
+  
+  FOLLOW-UP
+  Daily maternal review during admission: temperature, BP, wound, inflammatory markers. Blood culture and HVS sensitivities reviewed at 48–72 hours — adjust antibiotics. Switch to oral antibiotics once afebrile 48 hours. Haemoglobin before discharge; iron supplementation. Postnatal review at day 3 and 6 weeks: wound healing, haemoglobin, psychological wellbeing. NICU daily updates; neonatal sepsis treatment reviewed at 48–72 hours. Neurodevelopmental follow-up at 3, 6, 12, and 24 months corrected age. MRI brain at term corrected age if significant FIRS. Hearing screening before NICU discharge. Future pregnancy: early booking, first-trimester BV screen and treatment, report any vaginal discharge or fluid leaking immediately.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding the Emergency — PPROM, Chorioamnionitis, and Why Delivery Cannot Wait</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">PPROM — The Starting Point</strong>
+          <p>Preterm premature rupture of membranes (PPROM) is defined as rupture of the fetal membranes before 37 completed weeks of gestation and before the onset of labour. It complicates approximately 2 to 3% of pregnancies and is responsible for approximately one-third of all preterm births. The fetal membranes — the amnion and chorion — are a biological barrier between the vaginal bacterial flora and the sterile amniotic cavity. When they rupture, this barrier is lost and ascending bacterial colonisation of the amniotic fluid begins within hours. The longer the interval between membrane rupture and delivery (the latency period), the higher the risk of chorioamnionitis. In uncomplicated PPROM without infection, expectant management with prophylactic antibiotics and corticosteroids is standard practice to prolong the pregnancy and allow fetal maturation — but in this patient, the membranes have been ruptured for 48 hours and the amniotic cavity is already infected. The window for expectant management has closed.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Clinical Chorioamnionitis — The Gibbs Criteria</strong>
+          <p>Clinical chorioamnionitis is diagnosed by the Gibbs criteria: maternal fever above 38°C plus at least two of — maternal tachycardia above 100 beats per minute, fetal tachycardia above 160 beats per minute, uterine tenderness, and offensive or purulent amniotic fluid or vaginal discharge. Maternal leucocytosis above 15 × 10⁹/L is an additional supporting laboratory criterion. This patient meets all five clinical criteria simultaneously — the diagnosis is unambiguous, and no investigation result is needed before initiating antibiotics and expediting delivery. This is worth emphasising because a common delay in Nigerian obstetric wards is waiting for the WBC result before acting: the Gibbs criteria are clinical, not laboratory-dependent, and treatment must begin on clinical grounds immediately.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Tocolysis Is Absolutely Contraindicated</strong>
+          <p>Tocolysis — suppressing uterine contractions to delay delivery — is absolutely contraindicated in the presence of chorioamnionitis, and this is a life-saving principle that must be understood clearly. The infected placenta and membranes are the source of the infection; the fetal inflammatory response syndrome (FIRS) is driven by bacterial toxins in the amniotic fluid bathing the fetus. Every hour that delivery is delayed prolongs fetal exposure to this toxic environment and worsens FIRS-related brain injury, lung injury, and multiorgan compromise. Tocolysis also allows the maternal infection to progress unchecked — septic shock, disseminated intravascular coagulation (DIC), and maternal death are preventable outcomes that become more likely with each hour of delay. Labour contractions in chorioamnionitis are not pathological — they are the uterus's physiological response to infection, attempting to expel the infected contents. Suppressing this response is actively harmful. Delivery is both the treatment for the infection and the intervention most likely to preserve fetal neurological integrity.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">The Fetal Inflammatory Response Syndrome — What Is Happening to the Baby</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Mechanism of Fetal Compromise</strong>
+          <p>When bacteria or their products (lipopolysaccharide, bacterial toxins) enter the amniotic cavity, they stimulate the amnion and chorion to produce pro-inflammatory cytokines — interleukin-1β, interleukin-6, and tumour necrosis factor-alpha. These cytokines enter the fetal circulation and produce a systemic inflammatory response in the fetus that mirrors sepsis in a newborn — fetal tachycardia, fetal vasodilation, and fetal multiorgan compromise. This is the fetal inflammatory response syndrome (FIRS). The fetal tachycardia of 170 beats per minute in this patient is the direct clinical manifestation of FIRS — the fetal heart is accelerating in response to systemic cytokine exposure. FIRS is distinct from the risks of prematurity: a 33-week neonate born from an uncomplicated pregnancy carries a very different neonatal risk profile compared with a 33-week neonate born from a pregnancy complicated by 48 hours of clinical chorioamnionitis. The FIRS neonate faces not only the challenges of prematurity but also a higher risk of periventricular leukomalacia (brain white matter injury), necrotising enterocolitis (gut ischaemia), bronchopulmonary dysplasia, and multiorgan failure driven by the inflammatory cascade.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What Fetal Tachycardia on CTG Means and When to Act</strong>
+          <p>The fetal heart rate of 170 beats per minute at admission is the first warning of FIRS. The expected response to maternal antibiotic therapy and antipyretic treatment is a gradual reduction in the fetal heart rate toward normal (110 to 160 beats per minute) as maternal fever falls and the cytokine burden in the amniotic fluid decreases. If the fetal heart rate falls toward normal over the first 1 to 2 hours: the fetus is responding and labour can progress with appropriate monitoring. If the fetal heart rate does not improve despite maternal temperature control: worsening FIRS, fetal septicaemia, or cord compression should be suspected — the clinical team must reassess and consider expedited delivery. If the fetal heart rate deteriorates to bradycardia (below 100 beats per minute) or develops a terminal fetal heart rate pattern (absent baseline variability, late decelerations, or a sinusoidal pattern): immediate emergency delivery is required regardless of cervical dilatation. No investigation or review wait is appropriate at that point.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Antibiotic Rationale — Polymicrobial Cover in a Time-Critical Setting</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Three Antibiotics</strong>
+          <p>Chorioamnionitis in PPROM is a polymicrobial infection. The 48-hour exposure of the amniotic cavity to ascending vaginal flora means that multiple organisms — Group B Streptococcus, Escherichia coli, Ureaplasma urealyticum, Mycoplasma hominis, Bacteroides, Gardnerella, and Enterococcus — are likely to be present simultaneously. No single antibiotic covers all of these reliably. The Ampicillin-Gentamicin-Metronidazole regimen has been the standard evidence-based triple therapy for chorioamnionitis in the major randomised trials: Ampicillin covers GBS, Listeria, and Enterococcus; Gentamicin provides synergistic gram-negative coverage (E. coli, Klebsiella, Proteus) while achieving concentrations in the amniotic fluid; and Metronidazole provides anaerobic coverage, specifically for Bacteroides fragilis, which is the most important anaerobe in foul-smelling, late-presenting PPROM. The offensive odour of this patient's liquor is a clinical signal that anaerobes are present — Metronidazole is not optional in this case.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why Antibiotics Must Start Before Delivery — Not After</strong>
+          <p>Pre-delivery intravenous antibiotics achieve two clinical goals: they begin to treat the maternal infection and reduce the cytokine-mediated FIRS burden in the fetal circulation before birth, and they reduce the concentration of viable bacteria in the birth canal at the time of delivery, decreasing the bacterial inoculum to which the neonate is exposed during passage. Trials of intrapartum antibiotic therapy in chorioamnionitis show significantly lower rates of neonatal sepsis and neonatal early-onset GBS disease when antibiotics are administered at least 4 hours before delivery — even a single pre-delivery dose reduces the risk compared with starting antibiotics only after delivery. In this patient, the goal is to start antibiotics within 30 minutes of diagnosis and achieve at least partial intrapartum coverage before delivery occurs.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">The Corticosteroid Decision in Established Chorioamnionitis</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Evidence-Based Approach at 33 Weeks with Active Infection</strong>
+          <p>The corticosteroid decision in established chorioamnionitis is one of the more nuanced clinical judgements in preterm obstetric management. The theoretical concern — that corticosteroids, by suppressing the immune response, might worsen infection or delay clearance of bacteria — has been evaluated in multiple studies and has not been confirmed to be clinically significant when antibiotics are given concurrently. The current evidence from RCOG, SOGON, and WHO guidelines supports administering a single dose of corticosteroids in PPROM with chorioamnionitis when delivery is not immediately imminent (within 2 hours), because even a partial corticosteroid benefit (from a single dose or an incomplete course) meaningfully reduces RDS, IVH, and NEC at 33 weeks. The key determining factor is the expected time to delivery: if this multiparous patient at 4 cm dilation with established labour is expected to deliver within 2 hours, there is insufficient time for any neonatal benefit and the dose should not be given; if the clinical assessment suggests delivery in 4 to 6 hours, the first dose should be administered immediately. The senior obstetrician's clinical assessment of the likely delivery timeline is the deciding input — it cannot be reduced to a protocol alone.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Neonatal Management — The FIRS-Exposed Preterm Neonate</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why This Neonate Is Different from an Uncomplicated Preterm Neonate</strong>
+          <p>A 33-week neonate born from an uncomplicated pregnancy has predictable neonatal challenges — primarily respiratory (RDS, TTN), thermal regulation, feeding, and jaundice. A 33-week neonate born after 48 hours of confirmed clinical chorioamnionitis faces all of these challenges plus a substantially elevated risk of early-onset neonatal sepsis (approximately 30 to 40%), FIRS-related brain injury, and multiorgan failure. Empirical neonatal antibiotics are not optional — they are mandated by the confirmed maternal infection regardless of what the neonate looks like at birth. A neonate who looks vigorous at birth from a chorioamnionitis pregnancy may deteriorate rapidly over the first 12 to 24 hours as the systemic inflammatory response progresses. Blood culture must be drawn within 1 hour of birth before antibiotics; the culture identifies the causative organism and allows targeted de-escalation if the culture is positive, or antibiotic cessation at 48 to 72 hours if the culture is negative and the neonate is clinically well.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">GBS — The Most Important Organism for Neonatal Outcome</strong>
+          <p>Group B Streptococcus (GBS) carries the highest neonatal mortality risk of the organisms involved in chorioamnionitis. GBS early-onset neonatal sepsis — presenting within 72 hours of birth with respiratory distress, septicaemia, or meningitis — carries a neonatal case fatality rate of 5 to 10% even with appropriate treatment. The maternal HVS result, sent from the posterior fornix at admission before antibiotics, will identify whether GBS is the maternal causative organism. If GBS is confirmed on the maternal HVS, the neonatal antibiotic regimen should include Benzylpenicillin G as the targeted anti-GBS agent, and the neonatal team should be placed on high alert for early clinical signs of GBS EONS. The intrapartum maternal antibiotics (Ampicillin, which covers GBS) reduce but do not eliminate the risk of neonatal GBS transmission — the duration of intrapartum cover (at least 4 hours is most effective) is important, but in this emergency setting any pre-delivery antibiotics provide partial benefit.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Periventricular Leukomalacia — The Long-Term Neurological Risk</strong>
+          <p>Periventricular leukomalacia (PVL) is the most important FIRS-related brain injury in preterm neonates. The periventricular white matter — the region around the lateral ventricles that contains developing corticospinal tracts and visual radiations — is particularly vulnerable to ischaemic and inflammatory injury in the preterm brain. FIRS cytokines (particularly IL-6 and TNF-alpha) cause oligodendrocyte precursor cell death, disrupting the myelination of white matter tracts. PVL is the most common cause of cerebral palsy in preterm survivors — it presents as spastic diplegia (lower limb predominant motor impairment) or, in more severe cases, spastic quadriplegia. MRI brain at term corrected age (36 to 40 weeks post-menstrual age) identifies white matter injury with greater sensitivity than cranial ultrasound, and is the recommended investigation for surveillance of FIRS-exposed neonates. Abnormal white matter signal on MRI correlates with subsequent motor, cognitive, and behavioural outcomes and guides the intensity of developmental physiotherapy, occupational therapy, and speech and language support.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Prevention — Irregular Antenatal Attendance and Bacterial Vaginosis</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">How This Case Might Have Been Prevented</strong>
+          <p>This patient booked at 18 weeks and attended antenatal clinic irregularly. Bacterial vaginosis (BV) — the overgrowth of vaginal anaerobes replacing the normal Lactobacillus flora — is a recognised and treatable risk factor for PPROM. BV is present in approximately 15 to 20% of pregnant Nigerian women and is often asymptomatic. The anaerobic bacteria of BV produce proteases and phospholipases that degrade the fetal membranes, weakening their tensile strength and predisposing to preterm rupture. Routine screening for BV in the first and second trimester (by Amsel criteria on speculum examination, or by Gram stain scoring) and treatment with oral Metronidazole 400 mg twice daily for 7 days in screen-positive women reduces the risk of late miscarriage and preterm birth — including PPROM — in women with a prior preterm birth history. This patient's prior term delivery and now PPROM at 33 weeks is exactly the clinical profile in which first-trimester BV screening in the next pregnancy would be most impactful. Irregular antenatal attendance means this screening opportunity was missed.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+      <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Tocolysis in clinical chorioamnionitis is absolutely contraindicated — it is not a relative contraindication or a judgment call. Administering a tocolytic to a patient with confirmed chorioamnionitis prolongs the fetal exposure to infected amniotic fluid and allows the maternal infection to progress. It can be fatal. If you recognise chorioamnionitis, the tocolytic must be stopped or never started.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>The Gibbs criteria are clinical — you do not need to wait for the WBC result to diagnose chorioamnionitis and start antibiotics. Fever plus two additional criteria is sufficient for clinical diagnosis and immediate action. Every hour's delay in antibiotic administration in septic shock worsens maternal and neonatal outcome.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Resuscitation and theatre preparation happen simultaneously in chorioamnionitis with septic shock — not sequentially. Starting IV fluids, sending blood cultures, inserting the catheter, and alerting the theatre team should all happen in parallel. "We will stabilise her first then prepare for delivery" is the wrong sequence — it delays the only definitive treatment.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Send blood cultures before antibiotics — but never delay antibiotics to wait for blood cultures. In practice, the cultures should be drawn as the IV cannulae are being inserted. Two minutes to draw blood cultures is acceptable; waiting 30 minutes for the laboratory team to arrive is not.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>A fetal heart rate of 170 bpm that does not fall toward normal within 1 to 2 hours of maternal temperature control is a sign of worsening FIRS or fetal septicaemia — not a reassuring finding. The expected response to effective antibiotics and antipyretics is a reduction in fetal tachycardia as maternal cytokine levels fall. If the rate is not improving, reassess immediately and prepare for emergency delivery.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Irregular antenatal attendance is a preventable cause of undetected bacterial vaginosis, which is a treatable risk factor for PPROM. In Nigeria, where PPROM-related chorioamnionitis is a significant contributor to preterm neonatal mortality and morbidity, first-trimester BV screening and treatment at every antenatal booking visit is a high-impact, low-cost preventive intervention — particularly in women with a prior preterm birth.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Send the placenta for histopathological examination in every confirmed chorioamnionitis case. Histological chorioamnionitis (confirmed inflammation of the amnion and chorion on microscopy) is the gold-standard diagnosis and provides a documented clinical-pathological correlation that guides antibiotic duration, informs future pregnancy risk counselling, and is important for clinical audit and maternal morbidity review.</span>
+        </li>
+      </ul>
+    </div>
+  
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Royal College of Obstetricians and Gynaecologists (RCOG). Preterm Prelabour Rupture of Membranes — Green-top Guideline No. 44.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American College of Obstetricians and Gynecologists (ACOG). Practice Bulletin — Prelabor Rupture of Membranes.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Recommendations on Interventions to Improve Preterm Birth Outcomes — antenatal corticosteroids and PPROM management.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Society of Obstetricians and Gynaecologists of Nigeria (SOGON) — clinical guidance on preterm premature rupture of membranes and intrapartum infection management in Nigerian settings, where locally available.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Guidelines for the Management of Obstetric Emergencies and Sepsis in Pregnancy. Abuja: FMOH Nigeria.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on clinical chorioamnionitis, PPROM management, fetal inflammatory response syndrome, and neonatal early-onset sepsis.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Chorioamnionitis, preterm premature rupture of membranes, neonatal sepsis, and periventricular leukomalacia.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — antibiotics for preterm premature rupture of membranes; antenatal corticosteroids for accelerating fetal lung maturation; interventions for treating chorioamnionitis.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — obstetric emergencies and neonatology chapters.</li>
+        </ul>
+      </div>
+    </details>
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+  {
     id: 'ob-87',
     title: 'Primary Dysmenorrhea in a Young Nulliparous Woman',
     specialty: 'Obstetrics and Gynecology',

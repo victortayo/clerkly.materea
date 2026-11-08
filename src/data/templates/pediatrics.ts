@@ -2,6 +2,370 @@ import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
   {
+    id: 'peds-143',
+    title: 'Neonatal Jaundice Secondary to ABO Incompatibility',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Neonatology',
+    condition: 'Pathological neonatal jaundice secondary to ABO haemolytic disease of the newborn in a 4-day-old term male neonate with active haemolysis and rising unconjugated hyperbilirubinaemia',
+    symptoms: [
+      'Progressive jaundice — eyes, face, trunk, and lower limbs',
+      'Poor feeding and mild irritability',
+      'Total serum bilirubin 18.5 mg/dL at day 4',
+      'Predominantly unconjugated hyperbilirubinaemia',
+      'Positive direct Coombs test',
+      'Elevated reticulocyte count',
+      'PCV 38% (mildly low for age)',
+      'Mother blood group O positive, baby blood group B positive'
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-06-24',
+    summary: 'A 4-day-old term male neonate (38 weeks, birth weight 3.4 kg) delivered by spontaneous vaginal delivery, presenting with a 2-day history of progressive jaundice advancing from eyes to face, trunk, and lower limbs, associated with poor feeding and mild irritability. Mother is blood group O positive; baby is blood group B positive. Investigations show total bilirubin 18.5 mg/dL (predominantly unconjugated), positive direct Coombs test, elevated reticulocyte count, and PCV 38% — confirming ABO haemolytic disease of the newborn. No features of advanced bilirubin encephalopathy at presentation. Admitted to the neonatal unit for intensive phototherapy, serial bilirubin monitoring, crossmatch for exchange transfusion standby, and G6PD enzyme assay.',
+    content: `
+  A 4-day-old male neonate, delivered at a private hospital in Ado-Ekiti, Ekiti State, to a 27-year-old multiparous mother, Christian, Yoruba, trader.
+  
+  DOB: 02/04/2026
+  EGA at birth: 38 weeks
+  Informant: Mother (reliable)
+  
+  Presenting Complaint
+  
+  Yellowness of the eyes and body × 2 days
+  
+  History of Presenting Illness
+  
+  The neonate was apparently well until 2 days prior to presentation when the mother noticed yellowness of the eyes, which progressively spread to the face, trunk, and lower limbs. No jaundice was noted in the first 24 hours of life.
+  
+  Associated poor feeding — the baby sucks less vigorously but still accepts feeds.
+  
+  No fever, excessive crying, convulsions, or abnormal movements. No high-pitched cry. No pale stools or dark urine. No use of icterogenous substances.
+  
+  Pregnancy and Delivery History
+  Pregnancy booked and supervised. Two doses of tetanus toxoid and malaria intermittent preventive therapy received. No maternal fever, rash, or medication use during pregnancy. Delivered at term by spontaneous vaginal delivery. Baby cried immediately. Birth weight: 3.4 kg. No birth asphyxia. No jaundice in the first 24 hours of life.
+  
+  Maternal and Neonatal Blood Group
+  Mother: O positive. Baby: B positive (from referral note).
+  
+  Immunisation History
+  BCG, OPV 0, and Hepatitis B vaccine received at birth.
+  
+  Feeding History
+  Exclusively breastfed since birth.
+  
+  Past Medical History
+  No prior admissions, surgeries, or blood transfusions.
+  
+  Family and Social History
+  Second child in a monogamous family. Older sibling alive and well, no history of neonatal jaundice. Father: 32-year-old artisan. Well-ventilated family apartment. No family history of haemolytic disease or G6PD deficiency.
+  
+  Review of Systems
+  No fever. No bleeding from any orifice. No abdominal distension.
+  
+  Investigations on Admission
+  Serum bilirubin: Total 18.5 mg/dL, Conjugated 1.2 mg/dL, Unconjugated 17.3 mg/dL
+  PCV: 38%
+  Reticulocyte count: Elevated
+  Direct Coombs test (DAT): Positive
+  
+  Examination
+  
+  General Examination
+  Alert neonate, mildly irritable, not in respiratory distress. Moderately icteric. Not pale, not cyanosed. Afebrile (36.8°C). Not dehydrated.
+  
+  Anthropometry
+  Weight: 3.2 kg (birth weight 3.4 kg; weight loss 5.9%)
+  Length: 50 cm
+  OFC: 35 cm
+  
+  CNS
+  Conscious and active. Normal tone. Good suck reflex. Anterior fontanelle normotensive.
+  
+  Respiratory System
+  RR: 42 cpm. Not dyspnoeic. Breath sounds vesicular bilaterally. SpO₂: 98% on room air.
+  
+  Cardiovascular System
+  PR: 140 bpm. S1 and S2, no murmurs.
+  
+  Abdomen
+  Full, moves with respiration. No tenderness. No hepatosplenomegaly.
+  
+  Umbilicus
+  Clean, no discharge, no erythema.
+  
+  Assessment
+  
+  Pathological neonatal jaundice secondary to ABO incompatibility (ABO haemolytic disease of the newborn). Early Phase 1 acute bilirubin encephalopathy features — mild irritability and poor feeding.
+  
+  Differentials
+  Physiological jaundice (excluded — bilirubin above physiological range, positive DAT, elevated reticulocytes)
+  Rh incompatibility (excluded — both mother and baby are Rh positive)
+  G6PD deficiency (cannot exclude — must be tested; may co-exist)
+  Breastfeeding/breast milk jaundice (may be a contributing factor; not the primary driver)
+  Sepsis-related jaundice (exclude with CRP and blood culture)
+  Hereditary spherocytosis (no family history; exclude on blood film)
+  
+  Plan
+  
+  Admit immediately to the neonatal unit. Alert neonatal consultant.
+  
+  Monitoring
+  Temperature, pulse, respiratory rate every 4 hours.
+  Urine output every 4–6 hours (nappy weight).
+  Blood glucose every 6–8 hours.
+  Serial serum bilirubin every 6–8 hours during intensive phototherapy.
+  Serial PCV every 12–24 hours.
+  Neurobehavioural assessment every 2–4 hours: tone, suck reflex, cry character, level of alertness, posture, eye movements.
+  
+  Investigations
+  Blood group confirmation and crossmatch — group O Rh-compatible blood, irradiated, leuco-depleted (prepare now, do not wait for exchange transfusion threshold)
+  Full blood count with differential and peripheral blood film
+  Reticulocyte count (repeat)
+  G6PD enzyme assay (urgent — male, Yoruba)
+  Serum bilirubin (total and fractionated) — every 6–8 hours; plot on AAP nomogram at each result
+  Serum albumin
+  Blood glucose
+  Serum electrolytes and creatinine
+  CRP and blood culture
+  Hearing assessment (OAE or AABR) before discharge
+  
+  Phototherapy
+  Start intensive phototherapy immediately.
+  Remove all clothing except nappy. Apply eye shields before starting.
+  Position LED phototherapy lamp 30 cm above the neonate.
+  Add fibreoptic phototherapy blanket (bili-blanket) underneath simultaneously for intensive phototherapy.
+  Ensure continuous phototherapy — breaks for feeding and essential care only.
+  Remove eye shields during feeds and maternal bonding; reapply immediately after.
+  Check irradiance and eye shield position every 4 hours.
+  Turn neonate every 2–4 hours for even skin exposure.
+  Target: bilirubin fall of at least 1–2 mg/dL within 4–6 hours. If bilirubin fails to fall or continues to rise: proceed to exchange transfusion.
+  Discontinue phototherapy when bilirubin is at least 2 mg/dL below the phototherapy threshold. Rebound bilirubin check 12–24 hours after stopping.
+  
+  Exchange Blood Transfusion — Standby
+  Current bilirubin 18.5 mg/dL — below exchange threshold (approximately 22–23 mg/dL at 38 weeks, 96 hours).
+  Crossmatch and consent discussion to be initiated now.
+  Proceed to double-volume exchange transfusion (160–200 ml/kg = approximately 510–640 ml) if:
+  — Bilirubin reaches exchange threshold, OR
+  — Rate of rise exceeds 0.5 mg/dL/hour despite intensive phototherapy, OR
+  — Phase 2 acute bilirubin encephalopathy develops (moderate stupor, hypertonia, high-pitched cry) — proceed immediately regardless of bilirubin level.
+  Perform via umbilical venous catheter in NNU under continuous monitoring by experienced neonatologist.
+  Resume intensive phototherapy immediately after exchange transfusion.
+  
+  IVIG
+  Consider IV immunoglobulin 0.5–1 g/kg over 2–4 hours if bilirubin continues to rise despite intensive phototherapy and exchange transfusion threshold is approaching.
+  Discuss availability and cost with the unit.
+  
+  Hydration and Feeding
+  Continue exclusive breastfeeding on demand — every 2 hours minimum.
+  If unable to feed adequately at the breast: expressed breast milk by cup or nasogastric tube.
+  Do not supplement with water or dextrose water routinely.
+  If clinically dehydrated or inadequate oral intake: IV 10% Dextrose in 0.225% NaCl at 80–100 ml/kg/day.
+  
+  Anaemia Management
+  Monitor PCV serially.
+  Top-up transfusion with group O Rh-compatible packed red cells 10–20 ml/kg if PCV falls below 20–25%.
+  Monitor for late haemolytic anaemia — PCV at 1, 2, and 4 weeks post-discharge.
+  Iron supplementation from 4 weeks of age.
+  
+  Counselling
+  Explain diagnosis, mechanism of jaundice, and urgency to parents.
+  Explain phototherapy — baby will be under blue lights; eye shields for protection; breastfeeding continues.
+  Explain exchange transfusion as a possibility — compatible blood is being prepared; parents should consent for this in advance.
+  G6PD deficiency test being done — if positive, specific avoidance advice for life.
+  Return immediately post-discharge if: very sleepy, feeds poorly, becomes more yellow, develops arching of back, or turns pale.
+  PCV checks at 1, 2, and 4 weeks post-discharge.
+  In future pregnancies: early blood group testing of newborn and close bilirubin monitoring in first week of life.
+  
+  Follow-Up
+  Rebound bilirubin 12–24 hours after stopping phototherapy. PCV at 1, 2, and 4 weeks post-discharge. G6PD result review — repeat at 3 months if borderline. Neurodevelopmental review at 3, 6, and 12 months. Hearing assessment (OAE/AABR) before discharge and at 3 months. Continue childhood immunisation schedule from 6 weeks.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Understanding the Diagnosis — ABO Haemolytic Disease of the Newborn</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Physiological vs Pathological Jaundice — The First Question</strong>
+          <p>Every jaundiced neonate must first be classified as physiological or pathological. Physiological jaundice is an expected and benign process: it appears after 24 hours of life, peaks at days 3 to 5, resolves by day 14 in term neonates, and total bilirubin rarely exceeds 12 mg/dL. It results from the high red cell mass of the newborn being broken down as fetal haemoglobin is replaced, combined with the immaturity of hepatic bilirubin conjugation in the first days of life. Pathological jaundice is defined by any of the following: onset within 24 hours; bilirubin exceeding the age-specific phototherapy threshold; bilirubin rising faster than 0.2 mg/dL per hour or 5 mg/dL per day; evidence of haemolysis; conjugated hyperbilirubinaemia; or jaundice persisting beyond day 14 in a term neonate. This neonate has pathological jaundice on multiple grounds — a total bilirubin of 18.5 mg/dL at day 4 is substantially above the physiological range, haemolysis is confirmed by positive Coombs test and elevated reticulocytes, and the progression from eyes to lower limbs (Kramer zone 4) is consistent with the measured bilirubin level.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">ABO Incompatibility — Mechanism of Haemolysis</strong>
+          <p>The ABO blood group system is defined by the presence or absence of A and B antigens on red cell surfaces and naturally occurring antibodies in the plasma. Blood group O individuals carry both anti-A and anti-B antibodies. Crucially, unlike Rh antibodies (which require prior sensitisation), ABO antibodies of the IgG class are naturally occurring and can cross the placenta without a prior incompatible pregnancy. When a group O mother carries a group A or group B fetus, maternal anti-A or anti-B IgG antibodies cross the placenta during the third trimester, coat the fetal red cells (which express A or B antigens), and trigger extravascular haemolysis in the fetal spleen and liver via Fc receptor-mediated phagocytosis by macrophages. In this neonate, maternal anti-B IgG antibodies from an O positive mother are coating the B positive red cells, shortening their lifespan and driving unconjugated bilirubin production beyond the immature neonatal liver's conjugation capacity. The resulting unconjugated hyperbilirubinaemia is the primary threat — unconjugated bilirubin is lipid-soluble and crosses the blood-brain barrier, where it is toxic to neurons.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">ABO vs Rh Incompatibility — Why ABO Can Occur in the First Pregnancy</strong>
+          <p>The clinically important difference between ABO and Rh incompatibility is that ABO incompatibility can affect the first pregnancy, while Rh incompatibility (in the absence of prior sensitisation from transfusion) typically spares the firstborn. This is because anti-A and anti-B antibodies are naturally occurring and present from early in life as a result of exposure to environmental antigens (bacteria, food) that share structural similarity with ABO antigens. No prior pregnancy-related sensitisation is required. Rh incompatibility requires the Rh-negative mother to be first exposed to Rh-positive fetal red cells (during delivery, miscarriage, or invasive procedure), which triggers the formation of anti-D IgG antibodies that then cross the placenta in subsequent pregnancies. ABO haemolytic disease is generally milder than Rh disease — the B and A antigens are less densely expressed on neonatal red cells, some of the anti-A and anti-B antibodies are IgM (which cannot cross the placenta), and hydrops foetalis is rare. However, severe cases do occur, and this neonate with a bilirubin of 18.5 mg/dL at day 4 with active haemolysis represents a case requiring urgent intervention.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Reading the Investigations</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Direct Coombs Test — Confirming Immune-Mediated Haemolysis</strong>
+          <p>The direct Coombs test (direct antiglobulin test, DAT) is the key investigation that distinguishes immune-mediated haemolysis from other causes of neonatal jaundice. The test works by adding anti-human globulin (Coombs reagent) to a sample of the neonate's washed red cells. If the neonate's red cells are already coated with immunoglobulin (maternal antibodies in this case), agglutination occurs — a positive result. This confirms that the haemolysis is antibody-mediated. In ABO incompatibility, the DAT is often weakly positive because A and B antigens are less densely expressed on neonatal red cells than Rh antigens, so the antibody coating per cell is lower. A negative DAT does not exclude ABO haemolytic disease — up to 30% of clinically significant ABO incompatibility cases have a negative DAT. In this neonate the DAT is positive, providing direct laboratory confirmation of immune-mediated haemolysis.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Reticulocyte Count and PCV — Quantifying the Haemolytic Burden</strong>
+          <p>Reticulocytes are immature red cells released prematurely from the bone marrow in response to the haemolytic destruction of mature cells. An elevated reticulocyte count in the context of jaundice confirms active haemolysis with a compensatory bone marrow response. In a term neonate at day 4, a reticulocyte count above 6% is elevated. The PCV of 38% in this neonate is below the normal range for a 4-day-old term neonate (45 to 65%), confirming that haemolysis has already reduced the circulating red cell mass. This mild anaemia is currently compensated — the neonate is not pale and is haemodynamically stable. However, haemolysis is ongoing (as indicated by the positive DAT and elevated reticulocytes), and the PCV will continue to fall unless phototherapy reduces bilirubin production or exchange transfusion removes both the bilirubin and the sensitised red cells.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">The Bilirubin Fractionation — Why the Split Matters</strong>
+          <p>Total bilirubin 18.5 mg/dL with conjugated bilirubin of only 1.2 mg/dL means that 17.3 mg/dL (94%) is unconjugated. This fractionation is critical for two reasons. First, it confirms the mechanism is haemolytic or physiological (excess bilirubin production from red cell destruction) rather than hepatic or biliary disease — conjugated hyperbilirubinaemia (conjugated fraction above 2 mg/dL or above 20% of total) would suggest neonatal hepatitis, biliary atresia, or septic cholestasis, all requiring entirely different management. Second, it identifies the form of bilirubin as the toxic lipid-soluble species that crosses the blood-brain barrier. Only unconjugated bilirubin causes bilirubin-induced neurological dysfunction; conjugated bilirubin is water-soluble and does not penetrate the central nervous system.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Kramer Zones — Clinical Estimation of Bilirubin Level</strong>
+          <p>The Kramer scale provides a clinical bedside estimate of bilirubin level based on the cephalocaudal progression of jaundice: zone 1 (head and neck) corresponds to approximately 5 to 6 mg/dL; zone 2 (upper trunk) approximately 8 to 9 mg/dL; zone 3 (lower trunk to umbilicus) approximately 11 to 12 mg/dL; zone 4 (arms and lower legs) approximately 15 mg/dL; zone 5 (palms and soles) approximately 15 to 20 mg/dL or above. In this neonate with jaundice extending to the lower limbs (zone 4), the clinical estimate is approximately 15 mg/dL, which correlates closely with the measured bilirubin of 18.5 mg/dL. The Kramer scale is a screening tool — it is useful for identifying neonates who need urgent serum bilirubin measurement, but it must never be used instead of a measured bilirubin for treatment decisions. Skin pigmentation, oedema, and haemolysis can alter the clinical appearance of jaundice independent of the actual bilirubin level.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Bilirubin Encephalopathy — What You Are Trying to Prevent</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Mechanism of Neurotoxicity</strong>
+          <p>Unconjugated bilirubin is lipid-soluble and, at high concentrations, crosses the blood-brain barrier. It is particularly toxic to neurons in the basal ganglia (globus pallidus, subthalamic nuclei), the hippocampus, the brainstem cochlear nuclei (causing sensorineural hearing loss), the oculomotor nuclei (causing paralysis of upward gaze), and the cerebellum. The toxicity is mediated through mitochondrial dysfunction, disruption of intracellular calcium homeostasis, and oxidative stress. The fraction of bilirubin that crosses the blood-brain barrier is the free, unbound fraction — the portion not bound to albumin. Serum albumin acts as a carrier that effectively sequesters bilirubin in the vascular compartment; low albumin and acidosis both increase the free bilirubin fraction and worsen the neurotoxic risk at any given total bilirubin level.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Stages of Acute Bilirubin Encephalopathy</strong>
+          <p>Acute bilirubin encephalopathy (ABE) progresses through three phases if untreated. Phase 1 (early ABE) is reversible: lethargy, poor feeding, mildly decreased tone, and mild irritability — the features present in this neonate at admission. This phase is a warning that bilirubin is accumulating to neurotoxic levels; it demands urgent intensification of phototherapy, not reassurance. Phase 2 (intermediate ABE) is potentially reversible with emergency exchange transfusion: moderate stupor, hypertonia with retrocollis and opisthotonus (backward arching of the neck and trunk), high-pitched cry, and fever. If Phase 2 develops, exchange transfusion must proceed immediately regardless of the absolute bilirubin level — the clinical signs, not the number, dictate the decision. Phase 3 (advanced ABE) is largely irreversible even with treatment: severe opisthotonus, shrill cry or no cry, apnoea, coma, and seizures. Neonates who survive Phase 3 typically develop the chronic syndrome of kernicterus: choreoathetoid cerebral palsy, sensorineural hearing loss, paralysis of upward gaze, intellectual disability, and dental enamel dysplasia of the deciduous teeth.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Using the AAP Nomogram — Where This Neonate Sits</strong>
+          <p>The AAP 2022 phototherapy and exchange transfusion nomograms are plotted against gestational age (in completed weeks) and postnatal age (in hours). At 38 weeks gestation and 96 hours of age, the phototherapy threshold is approximately 14 to 15 mg/dL and the exchange transfusion threshold is approximately 22 to 23 mg/dL. This neonate at 18.5 mg/dL is well above the phototherapy threshold and is currently 4 to 4.5 mg/dL below the exchange transfusion threshold. With active haemolysis, however, bilirubin can rise at 0.5 to 1 mg/dL per hour — meaning the neonate could reach exchange transfusion threshold within 4 to 8 hours without effective phototherapy. This is why crossmatching blood and initiating the consent discussion for exchange transfusion at admission — not when the threshold is reached — is the correct approach. The exchange transfusion threshold is a cliff edge, not a gradual slope.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">G6PD Deficiency — The Critical Co-Diagnosis to Exclude</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Why G6PD Testing Is Urgent in This Neonate</strong>
+          <p>Glucose-6-phosphate dehydrogenase (G6PD) deficiency is the most common inherited red cell enzyme disorder in the world and is highly prevalent in West Africa — affecting 20 to 25% of Yoruba males. It is inherited in an X-linked recessive pattern, meaning males (one X chromosome) are fully affected while females are typically carriers. This neonate is male and Yoruba — placing him in the highest-risk demographic. G6PD deficiency causes episodic haemolytic crises triggered by oxidant stress (infections, certain drugs, and substances including antimalarials such as primaquine, sulphonamides, dapsone, nitrofurantoin, aspirin at high doses, fava beans, naphthalene in camphor or mothballs, and henna). In neonates, the trigger may be subclinical or absent — neonatal jaundice from G6PD deficiency can occur without an identifiable precipitant. The critical clinical point is that G6PD deficiency and ABO incompatibility can and do coexist — a baby can have both conditions simultaneously, with each contributing independently to haemolysis and together driving the bilirubin to dangerous levels more rapidly than either cause alone. The G6PD enzyme assay must be sent urgently. One important technical caveat: enzyme levels may appear falsely normal or borderline during acute haemolysis because the oldest, most G6PD-deficient cells have already been destroyed, leaving a relatively younger, enzyme-replete red cell population. If the initial result is borderline during active haemolysis, the test should be repeated at 3 months of age when haemolysis has resolved and the red cell population is representative.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">What a Positive G6PD Result Means for This Family</strong>
+          <p>If G6PD deficiency is confirmed, the implications are lifelong and require comprehensive family counselling. The child must never be given oxidant drugs — a specific list should be provided in writing at discharge. All future fevers must be treated promptly to prevent haemolytic crises triggered by infection. The family must be advised to avoid camphor, mothballs, and henna. All future healthcare providers must be informed of the diagnosis. The mother should be offered G6PD carrier testing, and female siblings may also be carriers. Male siblings have a 50% chance of being affected. These instructions must be documented clearly in the child's health records and communicated to the parents in their own language.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">Treatment — Phototherapy, Exchange Transfusion, and IVIG</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">How Phototherapy Works</strong>
+          <p>Phototherapy is the primary treatment for unconjugated hyperbilirubinaemia. Light energy at a wavelength of 460 to 490 nm (blue-green spectrum) is absorbed by unconjugated bilirubin deposited in the skin. The absorbed energy drives photoisomerisation — converting the toxic 4Z,15Z-bilirubin isomer (the form produced by haem catabolism) to water-soluble photoisomers, principally lumirubin and 4Z,15E-bilirubin. These photoisomers can be excreted in bile and urine without requiring hepatic glucuronidation — they bypass the enzymatic bottleneck that causes bilirubin accumulation in neonates. Intensive phototherapy uses multiple light sources simultaneously (overhead LED unit plus a fibreoptic blanket underneath), positions lamps as close as safely possible to the skin surface (approximately 30 cm), maximises skin exposure by removing clothing, and maintains continuous phototherapy with breaks only for feeding. Intensive phototherapy reduces bilirubin by 30 to 40% within 24 hours in most neonates with non-haemolytic jaundice; in haemolytic disease the response may be slower because bilirubin continues to be produced at an accelerated rate from ongoing red cell destruction.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Exchange Blood Transfusion — When and How</strong>
+          <p>Double-volume exchange blood transfusion (EBT) is a high-risk but potentially life-saving procedure for severe hyperbilirubinaemia unresponsive to phototherapy or when bilirubin has reached the exchange threshold. The procedure replaces approximately 85 to 90% of the neonate's blood volume — removing sensitised red cells, free circulating bilirubin, and maternal antibodies — while simultaneously correcting haemolytic anaemia. The blood volume of this neonate is approximately 80 ml/kg, giving a total blood volume of approximately 256 ml; a double volume exchange requires 510 to 640 ml of crossmatched group O Rh-compatible blood. The blood should be irradiated (to prevent graft-versus-host disease), leuco-depleted, and as fresh as possible (less than 5 days old, to optimise oxygen-carrying capacity and minimise hyperkalaemia). The procedure is performed via an umbilical venous catheter, exchanging aliquots of 10 to 20 ml per cycle under continuous cardiorespiratory monitoring. Complications include haemodynamic instability, air embolism, catheter-related sepsis, hypocalcaemia (from citrate in stored blood chelating ionised calcium), hypoglycaemia, thrombocytopaenia, hypothermia, necrotising enterocolitis, cardiac arrhythmias, and death — the procedural mortality is approximately 0.3 to 0.5% in experienced hands. The critical principle is that crossmatch and consent should be initiated at admission, not when the threshold is breached — preparedness prevents panic-driven procedures.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Intravenous Immunoglobulin — Slowing the Haemolysis</strong>
+          <p>High-dose intravenous immunoglobulin (IVIG) at 0.5 to 1 g/kg administered over 2 to 4 hours acts by saturating the Fc receptors on splenic and hepatic macrophages, reducing their capacity to phagocytose the antibody-coated neonatal red cells and slowing the rate of immune-mediated haemolysis. AAP guidelines and Cochrane reviews support the use of IVIG as an adjunct to phototherapy in ABO and Rh haemolytic disease of the newborn when phototherapy is not achieving adequate bilirubin control and the exchange transfusion threshold is approaching. A single dose can reduce the need for exchange transfusion by approximately 50 to 60% in this setting. It should be administered before exchange transfusion if feasible — as a measure to potentially avoid the procedure entirely. One practical consideration in Nigeria: IVIG is expensive and not uniformly stocked in public hospitals; availability and cost should be discussed with the unit and the family.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="space-y-6 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <div class="space-y-4 text-slate-700 dark:text-slate-300">
+        <h3 class="font-brand text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 pb-2 border-b border-slate-200 dark:border-slate-700">After Discharge — Late Anaemia and Long-Term Follow-Up</h3>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Late Haemolytic Anaemia</strong>
+          <p>A common and clinically important complication of ABO haemolytic disease that is frequently missed in Nigerian practice is late haemolytic anaemia. Residual maternal anti-B IgG antibodies persist in the neonate's circulation for 4 to 8 weeks after birth, continuing to destroy red cells at a lower rate even after the acute jaundice has resolved and phototherapy has been discontinued. The neonate may be discharged well, only to present at 4 to 6 weeks of age with pallor, poor feeding, tachycardia, and failure to thrive from a PCV that has fallen to dangerously low levels. PCV checks at 1, 2, and 4 weeks post-discharge are essential for every neonate with confirmed haemolytic disease. Iron supplementation from 4 weeks of age supports the red cell regeneration required to replace the haemolysed cells.</p>
+        </div>
+        <div>
+          <strong class="block font-semibold text-slate-800 dark:text-slate-200 mb-1">Neurodevelopmental Surveillance</strong>
+          <p>Even in neonates who recover from hyperbilirubinaemia without clinical features of advanced encephalopathy, subtle neurodevelopmental sequelae can emerge later. Sensorineural hearing loss is the most sensitive early marker of subclinical bilirubin toxicity — the auditory brainstem cochlear nuclei are among the earliest structures damaged by bilirubin. Hearing assessment by automated auditory brainstem response (AABR) or otoacoustic emissions (OAE) should be performed before discharge and repeated at 3 months regardless of apparent clinical normality. Neurodevelopmental review at 3, 6, and 12 months should assess motor milestones, tone, and hearing to detect emerging cerebral palsy or cognitive delay. The neonatal record and discharge summary should clearly document the diagnosis of ABO haemolytic disease and the peak bilirubin achieved, so that future healthcare providers are aware of the neurodevelopmental surveillance requirements.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700">
+      <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Pearls, Red Flags, and Nigerian Context</h3>
+      <ul class="space-y-2 text-indigo-900 dark:text-indigo-300">
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>G6PD deficiency affects 20 to 25% of Yoruba males. In any male Yoruba neonate presenting with neonatal jaundice, G6PD enzyme assay is not optional — it must be sent on admission. ABO incompatibility and G6PD deficiency can coexist and together drive bilirubin to levels that neither condition alone would achieve.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Crossmatch and parental consent for exchange transfusion should be initiated at admission — not when the exchange threshold is reached. With active haemolysis, bilirubin can rise 0.5 to 1 mg/dL per hour. A neonate who is 4 mg/dL below the threshold may reach it within 4 to 8 hours. Preparedness is the margin of safety.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Phase 2 acute bilirubin encephalopathy — moderate stupor, hypertonia, high-pitched cry — is an indication for immediate exchange transfusion regardless of the absolute bilirubin number. Do not wait for the bilirubin to reach the threshold on paper if the neonate is clinically encephalopathic. The clinical signs override the nomogram.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>A negative direct Coombs test does not exclude ABO haemolytic disease — up to 30% of cases are DAT-negative. If the blood group pairing is incompatible (mother O, baby A or B) and the clinical and laboratory picture is consistent with haemolysis, treat accordingly even if the DAT is negative.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Late haemolytic anaemia at 4 to 6 weeks post-discharge is common and commonly missed. Every neonate discharged with confirmed haemolytic disease must have scheduled PCV checks at 1, 2, and 4 weeks. A pale, poorly feeding, tachycardic infant at 5 weeks of age with a history of neonatal ABO haemolysis needs urgent PCV, not a malaria test.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Kernicterus is largely preventable with timely phototherapy and exchange transfusion. It remains a cause of avoidable childhood disability in Nigeria — primarily from delayed presentation, delayed recognition of pathological jaundice, and lack of intensive phototherapy equipment at secondary facilities. Early education of mothers about jaundice danger signs and early care-seeking is a critical public health intervention.</span>
+        </li>
+        <li class="flex gap-2">
+          <svg class="w-4 h-4 mt-0.5 flex-shrink-0 text-indigo-500 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="9" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.5 12.5l2.5 2.5 4.5-5" />
+          </svg>
+          <span>Eye shields during phototherapy must not cover the nares. This is a preventable cause of neonatal suffocation. Check shield positioning every 4 hours and at every nursing intervention. Remove during breastfeeding and maternal bonding; replace immediately after.</span>
+        </li>
+      </ul>
+    </div>
+  
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
+        <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
+        <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+      <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
+        <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>American Academy of Pediatrics (AAP). Clinical Practice Guideline: Management of Hyperbilirubinemia in the Newborn Infant 35 or More Weeks of Gestation — 2022 Update.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>World Health Organization. Pocket Book of Hospital Care for Children: Guidelines for the Management of Common Childhood Illnesses — neonatal jaundice chapter.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. Essential Newborn Care and Management of Common Neonatal Conditions — National Neonatology Clinical Guidelines.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Paediatric Association of Nigeria (PAN) and Nigerian Society of Neonatal Medicine — clinical guidance on neonatal jaundice, haemolytic disease of the newborn, and G6PD deficiency in Nigerian neonates, where locally available.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>UpToDate, clinical decision-support summaries on neonatal hyperbilirubinemia, ABO haemolytic disease of the newborn, exchange blood transfusion, and G6PD deficiency in neonates.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>StatPearls / NCBI Bookshelf, National Institutes of Health — Neonatal jaundice, haemolytic disease of the newborn, and kernicterus.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Cochrane Database of Systematic Reviews — intravenous immunoglobulin for haemolytic disease of the newborn; phototherapy for neonatal jaundice; exchange transfusion for neonatal hyperbilirubinemia.</li>
+          <li class="pl-4 -indent-4"><span aria-hidden="true">•&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria. National Essential Medicines List (NELEM) and Standard Treatment Guidelines — neonatal and paediatric chapters.</li>
+        </ul>
+      </div>
+    </details>
+  
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+  {
     id: 'peds-142',
     title: 'Meconium Aspiration Syndrome in a Post-Term Neonate',
     specialty: 'Pediatrics',

@@ -1,7 +1,7 @@
 import { Template } from '../../types';
 
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
- 
+
   {
     id: 'im-129',
     title: 'Symptomatic Iron Deficiency Anaemia Secondary to Menorrhagia',

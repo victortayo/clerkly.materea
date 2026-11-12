@@ -5308,4 +5308,2262 @@ Key Takeaways and References
   `
 },
 
+{
+  id: 'procedure-neonatal-resuscitation',
+  title: 'Neonatal Resuscitation',
+  category: 'Procedures',
+  subCategory: 'Obstetrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neonatal Resuscitation</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300 p-4 sm:p-6 max-w-3xl mx-auto">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; OBSTETRICS</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Neonatal Resuscitation</h1>
+  <p class="text-sm text-indigo-200">About 3 to 5% of newborns need help to start breathing, and many have no warning risk factor, so every birth needs someone ready to resuscitate. In Nigeria, asphyxia accounts for roughly 30% of newborn deaths, and many deliveries happen where oxygen, an oximeter and a neonatal unit are not available. This guide covers the 2025 AHA/AAP, ILCOR and RCUK updates alongside the WHO and Helping Babies Breathe approach that works in a room with a bag, a mask and a clock: preparation, the step-by-step sequence, when to stop, care afterwards, and videos and training resources.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#who-needs-resuscitation-and-how-to-be-ready" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Who Needs Resuscitation and How to Be Ready</span></a></li>
+  <li><a href="#preparation-and-equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Preparation and Equipment</span></a></li>
+  <li><a href="#step-by-step-technique" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Step-by-Step Technique</span></a></li>
+  <li><a href="#the-sequence-at-a-glance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>The Sequence at a Glance</span></a></li>
+  <li><a href="#when-to-stop-and-when-not-to-start" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>When to Stop, and When Not to Start</span></a></li>
+  <li><a href="#after-resuscitation-care-and-transfer" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>After Resuscitation: Care and Transfer</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#talking-to-the-mother-and-family" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Talking to the Mother and Family</span></a></li>
+  <li><a href="#videos-and-further-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Videos and Further Resources</span></a></li>
+  <li><a href="#key-takeaways-and-references" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Key Takeaways and References</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="who-needs-resuscitation-and-how-to-be-ready" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Who Needs Resuscitation and How to Be Ready
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The problem</strong><p class="text-sm">Birth asphyxia, the failure to start and sustain breathing at birth, causes about a quarter of newborn deaths worldwide (WHO). Nigeria carries the highest burden in sub-Saharan Africa: one Nigerian review puts asphyxia at about 30% of the roughly 267,000 newborn deaths recorded in 2018, and at 18 to 30% of newborn unit admissions. In a north-central cohort of asphyxiated babies, in-hospital mortality was 14.7%, in a unit with no blood gas analysis, no cooling and no conventional ventilator, so the first minutes in the labour room decide most outcomes.</p><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Anticipate, but do not rely on risk factors</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Risk situations: prolonged or obstructed labour, abnormal fetal heart rate, meconium-stained liquor, instrumental delivery, caesarean section, cord prolapse, shoulder dystocia, breech or twins, pre-eclampsia, prematurity, antepartum haemorrhage, maternal sepsis.</li><li>Many babies who need help have <strong>no</strong> identifiable risk factor. Every birth needs a trained person, a prepared space and working equipment, and no one should leave the baby to help the mother.</li><li>Call for help early when you expect a baby to need resuscitation: extra hands change the outcome, particularly for compressions and access.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Who gets ventilated</strong><p class="text-sm">A baby who is not breathing, or is gasping, after thorough drying and stimulation, or whose heart rate is under 100 per minute despite the initial steps, needs ventilation <strong>within 60 seconds of birth</strong> (the Golden Minute). Do not wait for an Apgar score: Apgar is scored afterwards, not used to decide on resuscitation.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation-and-equipment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Preparation and Equipment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before every delivery</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Warm room (windows and fans off), a clean dry surface under a radiant warmer if available, and at least two warm dry cloths or towels and a hat.</li><li><strong>Self-inflating bag (200 to 320 mL) with a working pressure release and mask sizes 0 and 1</strong> (WHO). Test the bag and check the mask seals on your palm before the birth, not during it.</li><li>Bulb suction, stethoscope, a clock or timer, two cord clamps or ties and sterile scissors.</li><li>Oxygen with a reservoir, and a <strong>pulse oximeter</strong> (probe on the right hand or wrist, which is pre-ductal), if you have them. Both are useful. Neither is required to start effective ventilation.</li><li>For babies under 32 weeks: a polyethylene plastic bag or wrap and a radiant warmer (RCUK).</li><li>Skills beyond basic ventilation (advanced team): laryngeal mask, laryngoscope (video if available), endotracheal tubes (2.5 mm under 1,200 g, 3.0 mm for 1,201 to 2,200 g, 3.5 mm above 2,200 g; depth measured tip to gum), umbilical venous catheter set, epinephrine (check concentration), normal saline, glucose.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Team briefing</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Agree who leads, who manages the airway, who watches the heart rate and clock, and who records. Name who calls for help and how.</li><li>Know your unit&rsquo;s plan for a baby who does not respond: who takes over, and where the baby is transferred.</li></ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="step-by-step-technique" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Step-by-Step Technique
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage A. At birth: start the clock and the cord</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Note the time of birth and start the clock. Ask one question: does the baby look term, and is the baby breathing or crying with good tone?</li><li>If the baby is vigorous, <strong>delay cord clamping for at least 60 seconds</strong> (AHA/AAP 2025, ILCOR, WHO). A vigorous term baby can go skin-to-skin on the mother.</li><li>If the baby needs ventilation, WHO advises clamping and cutting promptly so ventilation can begin. HBB 2nd edition allows starting ventilation with the cord still intact. Evidence for intact-cord resuscitation is still insufficient to recommend it routinely (ILCOR 2025).</li><li>For a non-vigorous baby who stays non-vigorous after stimulation, <strong>cord milking</strong> is now the suggested alternative to immediate clamping in babies at 28 weeks or more (AHA/AAP 2025; ILCOR suggests it for 34 weeks or more). Do not milk the cord below 28 weeks because of the risk of severe intraventricular haemorrhage.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage B. Initial steps (first 30 seconds)</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>Dry thoroughly</strong>, remove the wet cloth, and stimulate by rubbing the back and soles two or three times. Cover the baby and the head. Aim for a temperature of 36.5 to 37.5&deg;C and avoid both under 36&deg;C and over 38&deg;C.</li><li>Position the head <strong>neutral or slightly extended</strong>, with a small roll under the shoulders if needed.</li><li><strong>Do not suction routinely.</strong> The 2025 AHA/AAP update and HBB 2nd edition both limit suction to a visibly obstructed airway (including thick meconium in a baby who does not breathe after drying). If you suction with a bulb, keep it short: no more than 5 seconds and no deeper than 2 cm from the lips (MSF).</li><li>Look again: if the baby is now crying or breathing well, return to skin-to-skin and routine care.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage C. Ventilation: the step that saves the baby</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Start ventilation if the baby is apnoeic or gasping, or the heart rate is below 100 per minute, <strong>by 60 seconds of life</strong>. Ventilation takes priority over everything else, including oxygen and compressions.</li><li>Choose a mask that covers the chin, mouth and nose without covering the eyes. Use a C-grip on the mask and lift the jaw into the mask.</li><li>Squeeze at <strong>30 to 60 breaths per minute</strong>, using the guide &ldquo;breathe, two, three&rdquo;. WHO and HBB teach about 40 per minute. Watch the <strong>chest</strong>: effective ventilation moves the chest gently with each squeeze.</li><li>Use the least pressure that moves the chest. The 2025 AHA/AAP guideline suggests an initial peak pressure of 20 to 30 cm H&#8322;O with an inflation time of 0.5 to 1 second, and warns against sustained inflations over 5 seconds in babies under 28 weeks. Excessive pressure risks pneumothorax.</li><li>After 15 to 30 seconds of ventilation, the <strong>heart rate should be rising</strong>. Check it by listening over the chest with a stethoscope for 6 seconds and multiplying by 10, or with an oximeter or ECG. A rising heart rate is the main sign that ventilation is working.</li><li>Keep ventilating without interruption until the baby breathes spontaneously (HBB). Stop only when there is a good breathing rate (above 30 per minute) and no severe chest in-drawing.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage D. If the chest is not moving: corrective steps (MRSOPA)</strong><ol class="list-decimal pl-5 space-y-1 text-sm"><li><strong>M</strong>ask: reseat it and make a better seal.</li><li><strong>R</strong>eposition the head into the sniffing position.</li><li><strong>S</strong>uction the mouth and nose if secretions are visible.</li><li><strong>O</strong>pen the mouth and lift the jaw forward. Use a two-person, two-handed jaw thrust if you can.</li><li><strong>P</strong>ressure: increase it a little, step by step, until the chest moves.</li><li><strong>A</strong>lternative airway: a laryngeal mask, or an endotracheal tube if someone is trained.</li></ol><p class="text-sm">NRP 9th edition adds that corrective steps start if there is no chest movement and the heart rate is not rising after <strong>15 to 30 seconds</strong> of ventilation (it was 15 seconds before). RCUK teaches <strong>5 initial inflation breaths</strong> at 30 cm H&#8322;O before starting ventilation breaths at 30 per minute, and the same corrective checks if the chest does not rise.</p>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<strong class="block text-sm font-semibold">Guideline Watch: how to start ventilation</strong>
+<p class="text-sm">Sources do not agree on the opening. <strong>RCUK 2025</strong>: five inflation breaths at 30 cm H&#8322;O, then 30 breaths per minute. <strong>AHA/AAP 2025</strong>: 30 to 60 breaths per minute, initial pressure 20 to 30 cm H&#8322;O, inflation time 0.5 to 1 second. <strong>WHO and HBB</strong>: bag and mask, about 40 per minute, no pressure gauge. A self-inflating bag with no manometer cannot be set to 30 cm H&#8322;O, so in most Nigerian delivery rooms the practical rule is to squeeze until the chest moves, then keep a steady rate. Follow the algorithm your unit trains on, and train to it repeatedly.</p>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage E. Oxygen and saturation targets</strong><p class="text-sm">Start with <strong>room air</strong> in term and late-preterm babies. WHO and HBB: room air for all babies born after 32 weeks, and 30% oxygen (if available) at or before 32 weeks, otherwise air. If you have oxygen and an oximeter, titrate to the target.</p><div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3 font-semibold">Gestation</th><th class="py-2 pr-3 font-semibold">Starting oxygen</th><th class="py-2 pr-3 font-semibold">Source</th></tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700"><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">35 weeks or more</td><td class="py-2 pr-3 align-top">21% (air)</td><td class="py-2 pr-3 align-top">AHA/AAP 2025; NRP 9th edition; ILCOR</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">32 to 34 weeks + 6 days</td><td class="py-2 pr-3 align-top">21 to 30%</td><td class="py-2 pr-3 align-top">AHA/AAP 2025; NRP 9th edition</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Under 32 weeks</td><td class="py-2 pr-3 align-top">30% or higher, titrated to saturation (up to 100% may be needed)</td><td class="py-2 pr-3 align-top">AHA/AAP 2025; RCUK; ILCOR (at least 30%)</td></tr></tbody>
+</table></div><div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3 font-semibold">Time after birth</th><th class="py-2 pr-3 font-semibold">Target pre-ductal SpO&#8322;</th></tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700"><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">2 minutes</td><td class="py-2 pr-3 align-top">65 to 70%</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">3 minutes</td><td class="py-2 pr-3 align-top">70 to 75%</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">4 minutes</td><td class="py-2 pr-3 align-top">75 to 80%</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">5 minutes</td><td class="py-2 pr-3 align-top">80 to 85%</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">10 minutes</td><td class="py-2 pr-3 align-top">85 to 95%</td></tr></tbody>
+</table></div><p class="text-sm">The table follows the NRP 9th edition, which dropped the 1-minute target and starts at 2 minutes. RCUK lists 3, 5 and 10 minutes with the same figures. During chest compressions, 100% oxygen is reasonable, then wean back to the target once compressions stop.</p><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage F. Chest compressions</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Start only if the heart rate is <strong>below 60 per minute</strong> after about 30 seconds of ventilation that moves the chest (RCUK; AHA/AAP prefers an advanced airway at this stage where available).</li><li>Use a <strong>3:1 compression to ventilation ratio</strong> (about 90 compressions and 30 breaths per minute), synchronised, with the <strong>two-thumb, hands-encircling technique</strong> over the lower third of the sternum above the xiphoid. Compress about one third of the front-to-back chest depth.</li><li>Reassess the heart rate about every 30 seconds. Rotate the compressor every 2 to 5 minutes, ideally at a heart rate check.</li><li>In HBB-level settings, compressions and drugs are beyond the basic algorithm: keep ventilating, call for the most senior help, and arrange transfer.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage G. Airway and drugs (advanced team only)</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>Laryngeal mask (supraglottic airway):</strong> reasonable when mask ventilation is failing or no one can intubate, mainly at 34 weeks or more. ILCOR 2025 now also supports its use during compressions.</li><li><strong>Intubation:</strong> video laryngoscopy is suggested where available and where the user is competent, with a standard laryngoscope kept as a back-up.</li><li><strong>Vascular access:</strong> umbilical venous catheter, or intraosseous needle if a catheter cannot be placed.</li><li><strong>Epinephrine</strong> if the heart rate stays below 60 per minute after effective ventilation and compressions: <strong>0.01 to 0.03 mg/kg IV or UVC</strong>, followed by a 3 mL saline flush. For a 0.1 mg/mL (1:10,000) solution that is 0.1 to 0.3 mL/kg. A 1 mg/mL ampoule must be diluted first: check the concentration before you draw it up. While access is being obtained, an endotracheal dose of 0.05 to 0.1 mg/kg is acceptable. Repeat every 3 to 5 minutes, intravascular if possible.</li><li><strong>Volume:</strong> if blood loss is known or suspected and the baby does not respond to epinephrine, give isotonic crystalloid or blood by your neonatal protocol.</li></ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-sequence-at-a-glance" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+The Sequence at a Glance
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3 font-semibold">When</th><th class="py-2 pr-3 font-semibold">Check</th><th class="py-2 pr-3 font-semibold">Action</th></tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700"><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Birth</td><td class="py-2 pr-3 align-top">Term? Breathing or crying? Good tone?</td><td class="py-2 pr-3 align-top">Start the clock. If vigorous, delay cord clamping at least 60 s and give skin-to-skin.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">0 to 30 s</td><td class="py-2 pr-3 align-top">Not breathing or poor tone</td><td class="py-2 pr-3 align-top">Dry, stimulate, warm, position the head. Suction only if obstructed.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">By 60 s</td><td class="py-2 pr-3 align-top">Apnoeic, gasping or heart rate under 100</td><td class="py-2 pr-3 align-top">Start ventilation with bag and mask in air. Oximeter on right hand or wrist if available.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">15 to 30 s of ventilation</td><td class="py-2 pr-3 align-top">Chest moving? Heart rate rising?</td><td class="py-2 pr-3 align-top">If not, MRSOPA corrective steps. Call for help.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">After 30 s of effective ventilation</td><td class="py-2 pr-3 align-top">Heart rate 100 or more</td><td class="py-2 pr-3 align-top">Continue ventilation until breathing, then wean and observe.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200"></td><td class="py-2 pr-3 align-top">Heart rate 60 to 99</td><td class="py-2 pr-3 align-top">Keep ventilating, optimise, and consider advanced airway if no improvement.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200"></td><td class="py-2 pr-3 align-top">Heart rate under 60</td><td class="py-2 pr-3 align-top">Compressions 3:1 with ventilation. Raise oxygen to 100% if available. Call for the advanced team.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Compressions plus ventilation continuing</td><td class="py-2 pr-3 align-top">Heart rate still under 60</td><td class="py-2 pr-3 align-top">Epinephrine IV or UVC. Establish access. Consider volume.</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Each step</td><td class="py-2 pr-3 align-top">Reassess every 30 s</td><td class="py-2 pr-3 align-top">Heart rate and chest movement decide the next step. Do not move on until the previous step is effective.</td></tr></tbody>
+</table></div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-to-stop-and-when-not-to-start" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+When to Stop, and When Not to Start
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Stopping is a team decision made with the parents where possible. Do not stop while the heart rate is detectable and the team has not completed effective ventilation.</p><ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>WHO and MSF:</strong> stop if there is no detectable heart rate after 10 minutes of effective ventilation. Also stop if the heart rate stays below 60 per minute with no spontaneous breathing after 20 minutes of resuscitation. Where advanced care is available and a heart rate is detectable, the team may continue. Seek and support the parents&rsquo; views.</li><li><strong>AHA/AAP 2025 and ILCOR:</strong> if there is no heart rate and all steps have been completed effectively, discuss redirecting care with the team and family at about <strong>20 minutes</strong> after birth. This is a discussion point, not a fixed rule. No duration reliably predicts survival without severe impairment.</li><li>Not starting and stopping are ethically equivalent (AHA/AAP 2025). Not starting may be reasonable in conditions likely to cause early death or severe illness after consultation, such as extreme prematurity or certain severe malformations. Definitions of periviability differ between 22 and 24 weeks, so follow your unit protocol.</li></ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<strong class="block text-sm font-semibold">Guideline Watch: 10 minutes or 20 minutes?</strong>
+<p class="text-sm">WHO and MSF give 10 minutes without a heart rate, and 20 minutes if the heart rate stays under 60 with no breathing. AHA/AAP and ILCOR frame the point for discussion at about 20 minutes. The difference matters in a facility that cannot provide advanced care. Where advanced support and transport exist, use the 20-minute discussion. Where they do not, the WHO rule is the safer default. Record the times, the steps taken, who was present, and that the parents were informed.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-resuscitation-care-and-transfer" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+After Resuscitation: Care and Transfer
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First hour</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Keep the baby warm (36.5 to 37.5&deg;C), skin-to-skin if stable. Rewarm if under 36&deg;C. Avoid overheating above 38&deg;C.</li><li>Monitor breathing effort, colour, heart rate, oxygen saturation, temperature and <strong>blood glucose</strong>. Hypoglycaemia is common after prolonged or advanced resuscitation and is linked with poor outcomes. Check early and keep checking until it is stable, treating it by your neonatal protocol.</li><li>Record an Apgar score retrospectively, and note the times and steps of resuscitation.</li><li>Reassess danger signs and vital signs, and start breastfeeding as soon as the baby is stable and able to suck.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Transfer to a neonatal unit if</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>The baby needed mask ventilation for 2 minutes or more.</li><li>Apgar is 4 or less at 1 minute, or 6 or less at 5 minutes.</li><li>Any danger sign is present, including grunting, rapid or laboured breathing, convulsions, poor feeding, floppiness or a temperature outside the normal range.</li><li>If transfer is needed but impossible: keep mother and baby together, observe for at least 24 hours, check danger signs and vital signs every 2 hours, and manage as a sick newborn (MSF).</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Preterm babies</strong><p class="text-sm">Babies who breathe spontaneously but have respiratory distress benefit from CPAP (AHA/AAP 2025). Many Nigerian units use improvised bubble CPAP. Keep preterm babies under 32 weeks wrapped in a plastic bag under a warmer until they are warm and stable.</p>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<strong class="block text-sm font-semibold">Guideline Watch: therapeutic hypothermia (cooling) for HIE</strong>
+<p class="text-sm"><strong>AHA/AAP 2025</strong> recommends therapeutic hypothermia for babies over 36 weeks with moderate-to-severe hypoxic-ischaemic encephalopathy, but only under defined protocols in centres capable of multidisciplinary care and long-term follow-up. It may be harmful below 36 weeks. In low- and middle-income countries, the <strong>HELIX trial</strong> found cooled infants had higher mortality, with no reduction in death or disability at 18 months, and its authors concluded that cooling should not be offered to infants with neonatal encephalopathy in these settings. Improvised cooling (ice, fans, wet cloths) is not safe. What every unit can do is supportive care: a normal temperature, glucose, treating seizures, oxygenation and early referral.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<strong class="block font-brand text-sm font-semibold text-rose-900 dark:text-rose-300 mb-3">Findings That Must Not Be Missed</strong>
+<ul class="space-y-2 text-sm text-rose-900 dark:text-rose-200" style="list-style:none;padding-left:0;margin:0;"><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Chest not moving despite corrective steps:</strong> check the mask seal, head position, jaw lift and bag first, then increase pressure, then call for a second operator or alternative airway. A poor mask seal is the commonest cause.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Heart rate below 60 after 30 seconds of effective ventilation:</strong> start compressions and call for the advanced team at once.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Stopping ventilation too early:</strong> keep ventilating without interruption until the baby breathes on their own with a good rate.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Hypothermia and hyperthermia:</strong> a cold baby is harder to resuscitate and does worse. Check the temperature after stabilisation and avoid overheating.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Hypoglycaemia</strong> after resuscitation, especially in small or preterm babies. Check the glucose early.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Sudden deterioration or persistent respiratory distress:</strong> think pneumothorax (excess pressure), blocked or displaced airway, or sepsis. Respiratory distress at admission was linked with higher odds of death in a Nigerian cohort of asphyxiated newborns.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Seizures, floppiness or poor feeding</strong> within the first hours or days: moderate-to-severe encephalopathy. Treat seizures, check glucose and calcium if you can, and refer.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Delayed transfer:</strong> about a third of deaths in a Nigerian asphyxia cohort occurred within 24 hours of admission. Do not wait for a baby to deteriorate before you refer.</span></li></ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="talking-to-the-mother-and-family" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Talking to the Mother and Family
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Talk to the mother as soon as you can, even if the baby is still being helped. Use plain words and avoid blame, and ask a trusted relative to sit with her if she wishes.</p><p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Your baby did not start breathing by herself at first, so we helped her breathe with a small mask and bag. She is responding now and we are watching her closely."</p><p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"We cannot yet say how she will do. The next hours and days will tell us more, and we will keep you informed."</p><ul class="list-disc pl-5 space-y-1 text-sm"><li>Explain what was done and why, and say plainly if the baby needs transfer. Explain what the family can do: keep the baby warm, skin-to-skin if allowed, and breastfeeding when the baby can suck.</li><li>If the baby does not survive, give culturally appropriate, compassionate care: hold the baby if the family wishes, let them name and say goodbye in their own way, and give honest and gentle information. Do not describe the death as a failure of the mother.</li><li>Document everything and complete the registers. Hold a short debrief with the team the same day: what worked, what was missing (equipment, staff, time), and what to change.</li><li>Counsel the mother on warning signs after discharge: not feeding, fits, fast or laboured breathing, yellow skin, fever or a cold baby. Plan follow-up and developmental review.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Teach-back</strong><p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"To check I explained clearly, can you tell me what you will watch for in the next days, and when you would bring her back?"</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-further-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Videos and Further Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Every link below was confirmed in this session. Where access terms or language were not stated on the page, the note says so. Some videos pre-date the 2025 update, so use them for technique and check numbers against the 2025 guidance above. Practise on a simulator, with a partner, before you rely on any video.</p>
+</div>
+<strong class="block font-brand font-semibold mb-2 text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Video demonstrations</strong><div class="grid gap-2 sm:grid-cols-2 mb-4"><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.aap.org/en/aap-global/helping-babies-survive/trainer-tools/instructional-videos/helping-babies-breathe-instructional-videos/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAP Helping Babies Breathe instructional videos</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Seven training chapters (practising with the simulator, ventilation with bag and mask, evaluation), ten skills videos (drying, positioning, stimulation, ventilating, improving ventilation, evaluating heart rate), two Golden Minute exercise videos and two OSCE videos. The skills and exercise videos have no audio; a narration script is available from the page. Language and cost not stated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://globalhealthmedia.org/portfolio-items/helping-babies-breathe-at-birth/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media: Helping Babies Breathe at Birth</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Live-action demonstration of the basic steps for a baby who does not breathe at birth, following HBB. Run time and languages not stated on the page.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://globalhealthmedia.org/video/helping-babies-breathe-at-birth/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media: Helping Babies Breathe at Birth (video page)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Same film on the project&rsquo;s video page.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=r7SXyNQ1OBM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Helping Babies Breathe (YouTube)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Second copy of the HBB teaching film.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://aap.org/en/pedialink/neonatal-resuscitation-program/nrp-skills-videos" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAP NRP skills videos (11 clips)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Face mask ventilation and MR SOPA, pulse oximetry, CPAP and free-flow oxygen, laryngeal mask, intubation, chest compressions, umbilical vein catheter, epinephrine and volume expanders, intraosseous needle, cord management. Whether a login is needed is not stated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://emergencymedicinecases.com/video/nrp-p1/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EM Cases Rapid Review: Neonatal Resuscitation Part 1 (about 3 min)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Short video on the algorithm, preparation and ventilation. Posted in 2020, so it pre-dates the 2025 update. A written and podcast summary is linked from the page.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://geekymedics.com/category/osce/clinical-skills/emergency-skills/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: emergency skills OSCE guides (includes Newborn Life Support)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">The Newborn Life Support OSCE guide is listed in this category. Check the date on the guide: UK algorithm, which changed in 2025.</span></div></div><strong class="block font-brand font-semibold mb-2 text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Training and simulation</strong><div class="grid gap-2 sm:grid-cols-2 mb-4"><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://aap.org/en/aap-global/helping-babies-survive/trainer-tools/course-materials" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAP Helping Babies Breathe course materials</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Provider guide, action plan and flip chart in English, Spanish and French (the Africa edition is listed in French). The page says approved translations are available free from the AAP international resources site; the direct links are not described as free, so check before you order.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/tools/essential-newborn-care-course/materials" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO Essential Newborn Care course: basic resuscitation of the newborn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Interactive slides, clinical practice card, quality-improvement template and simulation practice cards (ENC 1 covers immediate care and Helping Babies Breathe at birth).</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://laerdal.com/us/products/simulation-training/obstetrics-pediatrics/neonatalie" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Laerdal NeoNatalie newborn manikin</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Low-cost simulator used with HBB for practising bag-mask ventilation. Product page, not a free resource.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aap.org/en/aap-global/helping-babies-survive/our-programs/helping-babies-breathe/helping-babies-breathe-2nd-edition/helping-babies-breathe-2nd-edition-summary-of-changes/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">HBB 2nd edition: summary of changes</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Suction, cord options, uninterrupted ventilation, simplified red zone, and low-dose high-frequency practice.</span></div></div><strong class="block font-brand font-semibold mb-2 text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and written references</strong><div class="grid gap-2 sm:grid-cols-2 mb-4"><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/neonatal-resuscitation" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">2025 AHA/AAP guideline, Part 5: Neonatal Resuscitation</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Ventilation, oxygen, compressions, epinephrine, temperature, post-resuscitation care and stopping.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aap.org/en/pedialink/neonatal-resuscitation-program/neonatal-resuscitation-guidelines/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAP: neonatal resuscitation guidelines</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Release page for the 2025 guidelines with the link to the full Part 5 text.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cps.ca/uploads/nrp/NRP_9Ed_CDN_Practice_Changes_2026_07_EN.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NRP 9th edition: key practice changes (Canadian Paediatric Society)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Oxygen by gestation, SpO&#8322; targets, cord management, ventilation rate and laryngeal mask changes.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ilcor.org/uploads/Executive-Summary-2025-COSTR.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ILCOR 2025 Consensus on Science: executive summary</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Oxygen, supraglottic airways, video laryngoscopy and cord management.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ilcor.org/uploads/NLS-2025-COSTR-Full-Chapter.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ILCOR 2025: neonatal life support full chapter</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Full evidence review behind the 2025 recommendations.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.resus.org.uk/sites/default/files/2026-02/RCUK%20G2025%20NEO%20NLS%20Feb%20V4.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Resuscitation Council UK 2025: newborn life support algorithm</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Five inflation breaths, SpO&#8322; targets, 3:1 compressions and the preterm plastic bag.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mcsprogram.org/wp-content/uploads/2017/06/WHO-MCSP-NewbornResuscitationBrief.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO and MCSP: newborn resuscitation brief</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Who to ventilate, bag and mask, room air versus oxygen, stopping rules and cord clamping.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medicalguidelines.msf.org/en/node/617" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MSF Medical Guidelines 10.2: neonatal resuscitation</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Step-by-step protocol for low-resource settings with transfer criteria and observation after resuscitation.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fn.bmj.com/content/108/1/83" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">HELIX trial commentary: cooling in low- and middle-income countries</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Why therapeutic hypothermia should not be offered for neonatal encephalopathy in these settings.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7304451/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Asphyxiated newborns in a low-resource Nigerian setting (open access)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Burden, mortality and risk factors in a north-central Nigerian cohort.</span></div></div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-takeaways-and-references" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Key Takeaways and References
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<strong class="block font-brand text-sm font-semibold text-indigo-950 dark:text-indigo-200 mb-3">Key Clinical Takeaways</strong>
+<ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300" style="list-style:none;padding-left:0;margin:0;"><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>About 3 to 5% of newborns need help to breathe, often without any warning. Prepare the room, test the bag and mask, and brief the team before every birth.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Dry, stimulate and keep warm. <strong>Do not suction routinely.</strong> Delay cord clamping at least 60 seconds in a vigorous baby.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span><strong>Ventilate within 60 seconds</strong> of birth if the baby is not breathing or the heart rate is under 100. Effective ventilation, shown by chest movement and a rising heart rate, is the intervention that saves most babies.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Start with <strong>room air</strong> at term and 35 weeks or more. Use 30% or more under 32 weeks if you have a blender or oxygen. Titrate to the SpO&#8322; target when you have an oximeter.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>If the chest is not moving, fix the <strong>mask, head position, jaw and pressure</strong> (MRSOPA) before escalating.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Compressions start only if the heart rate is under 60 after about 30 seconds of effective ventilation: <strong>3:1, two thumbs, lower third of the sternum</strong>. Epinephrine 0.01 to 0.03 mg/kg IV or UVC is the next step for the advanced team.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stopping is a team and family decision: WHO says 10 minutes with no heart rate; AHA/AAP and ILCOR say discuss at about 20 minutes. Know which your unit follows and document.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>After resuscitation: temperature 36.5 to 37.5&deg;C, early glucose, transfer criteria, and honest talk with the mother. <strong>Do not cool improvised</strong> for HIE in a low-resource setting.</span></li></ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+<div class="px-4 sm:px-5 pb-4 space-y-1.5">
+<p class="text-[10px] leading-snug text-stone-500">1. American Heart Association and American Academy of Pediatrics. 2025 Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care, Part 5: Neonatal Resuscitation (October 2025).</p>
+<p class="text-[10px] leading-snug text-stone-500">2. International Liaison Committee on Resuscitation. 2025 Consensus on Science with Treatment Recommendations: Neonatal Life Support.</p>
+<p class="text-[10px] leading-snug text-stone-500">3. Resuscitation Council UK. Guidelines 2025: Newborn Life Support (updated February 2026).</p>
+<p class="text-[10px] leading-snug text-stone-500">4. American Academy of Pediatrics. Neonatal Resuscitation Program, 9th edition; Canadian Paediatric Society summary of 9th edition practice changes.</p>
+<p class="text-[10px] leading-snug text-stone-500">5. World Health Organization and MCSP. Basic newborn resuscitation brief; WHO Essential Newborn Care course materials.</p>
+<p class="text-[10px] leading-snug text-stone-500">6. American Academy of Pediatrics. Helping Babies Breathe, 2nd edition, summary of changes and instructional videos.</p>
+<p class="text-[10px] leading-snug text-stone-500">7. M&eacute;decins Sans Fronti&egrave;res. Medical Guidelines, section 10.2 Neonatal resuscitation.</p>
+<p class="text-[10px] leading-snug text-stone-500">8. Global Health Media Project. Helping Babies Breathe at Birth (video).</p>
+<p class="text-[10px] leading-snug text-stone-500">9. HELIX trial (Hypothermia for Encephalopathy in Low and Middle-Income Countries), as discussed in Archives of Disease in Childhood, Fetal and Neonatal Edition, volume 108, issue 1.</p>
+<p class="text-[10px] leading-snug text-stone-500">10. Open-access cohort of asphyxiated newborns in a low-resource north-central Nigerian setting (burden, mortality and risk factors).</p>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-pelvic-speculum-examination',
+  title: 'Pelvic Examination and Speculum Examination',
+  category: 'Procedures',
+  subCategory: 'Gynecology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pelvic Examination and Speculum Examination</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; GYNAECOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Pelvic Examination and Speculum Examination</h1>
+  <p class="text-sm text-indigo-200">Vaginal discharge, abnormal bleeding, lower abdominal pain, a leaking membrane, and cervical cancer screening all lead to the same examination, and many Nigerian women dread it. A good examination is gentle, explained, chaperoned and done for a reason; a bad one is painful, rushed and puts women off screening for years. This guide covers when the examination is needed and when it is not, consent and chaperones, equipment and instrument reprocessing, external inspection, speculum and bimanual technique, specimens and VIA, reading the cervix, and the situations in pregnancy where a speculum or a finger can do harm.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#when-to-examine-and-when-not-to" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>When to Examine and When Not To</span></a></li>
+  <li><a href="#consent-chaperone-and-communication" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Consent, Chaperone and Communication</span></a></li>
+  <li><a href="#equipment-and-instrument-reprocessing" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Equipment and Instrument Reprocessing</span></a></li>
+  <li><a href="#positioning-and-external-inspection" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Positioning and External Inspection</span></a></li>
+  <li><a href="#speculum-examination-technique" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Speculum Examination: Technique</span></a></li>
+  <li><a href="#specimens-and-via-what-to-collect-and-in-what-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Specimens and VIA: What to Collect and in What Order</span></a></li>
+  <li><a href="#reading-the-cervix-and-vagina" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Reading the Cervix and Vagina</span></a></li>
+  <li><a href="#bimanual-and-rectovaginal-examination" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Bimanual and Rectovaginal Examination</span></a></li>
+  <li><a href="#cervical-cancer-screening-where-the-speculum-fits" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Cervical Cancer Screening: Where the Speculum Fits</span></a></li>
+  <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Special Situations</span></a></li>
+  <li><a href="#after-the-examination-explaining-documenting-and-following-up" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>After the Examination: Explaining, Documenting and Following Up</span></a></li>
+  <li><a href="#complications-and-warning-signs" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Complications and Warning Signs</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>It is the front door to cervical cancer prevention.</strong> Cervical cancer is a leading cause of cancer deaths in Nigerian women, and most are detected late. Visual inspection with acetic acid (VIA) followed by treatment, done by nurses and doctors with a speculum, is a feasible &ldquo;see and treat&rdquo; strategy in low-resource settings, although uptake remains low. HPV DNA testing is the method WHO now prefers, but cost keeps VIA the main method in many Nigerian facilities.</li>
+<li><strong>Barriers are knowledge, cost and fear.</strong> A systematic review of Nigerian studies named lack of information, financial cost and health service factors as barriers to screening. In a Badagry study of rural women, awareness of cervical cancer was 56 per cent and knowledge of HPV only 21 per cent. Four in five preferred VIA by a provider, and about half found HPV self-sampling feasible. How you examine a woman decides whether she comes back.</li>
+<li><strong>HIV raises the stakes.</strong> Women living with HIV have a much higher risk of cervical cancer. WHO recommends that screening starts at 25 and is repeated more often.</li>
+<li><strong>The examination answers common emergencies:</strong> pelvic inflammatory disease, ectopic pregnancy, bleeding in pregnancy, rupture of membranes, retained products, genital tract injury and fistula, and cervical cancer in a woman with postcoital bleeding.</li>
+<li><strong>It is also overused and under-explained.</strong> A speculum and bimanual examination are not needed for every gynaecological complaint. Knowing when to use ultrasound, a swab, or a simple external examination instead protects women and saves time.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-to-examine-and-when-not-to" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+When to Examine and When Not To
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reasons to do a pelvic examination</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Vulval or vaginal symptoms: pain, discharge, itching, abnormal bleeding, or a mass. Suspected pregnancy complications, and women exposed to sexually transmitted infections.</li>
+<li>Cervical cancer screening, triage after a positive HPV test, and assessment for treatment of cervical precancer.</li>
+<li>Pelvic pain, suspected pelvic inflammatory disease, and suspected ectopic or other early pregnancy problem (with ultrasound where available).</li>
+<li>Contraception services such as IUD insertion, assessment of prolapse and incontinence, and management of known gynaecological disease or cancer.</li>
+<li>Antepartum assessment when indicated (see Section 11 for the cautions).</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Not every woman needs every part</strong>
+<p class="text-sm">The pelvic examination has three parts: external inspection, speculum examination, and bimanual examination, with a rectovaginal examination in selected women. ACOG advises that a pelvic examination is performed for symptoms, for cervical dysplasia screening, or in management of gynaecological disease, using shared decision-making. The US Preventive Services Task Force has found the evidence insufficient to recommend a screening pelvic examination in asymptomatic, non-pregnant women, and the American College of Physicians recommends against it. Cervical screening and STI testing are separate indications.</p>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Children and adolescents who are not sexually active:</strong> start with external inspection and ultrasound or a swab where possible. Internal examination is rarely needed and must be gentle and by an experienced clinician.</li>
+<li><strong>Ask what you are looking for.</strong> If a swab, an ultrasound scan or a urine test answers the question, do that first.</li>
+<li><strong>Patient refusal or inability to relax:</strong> stop, explain, and reschedule if safe.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="consent-chaperone-and-communication" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Consent, Chaperone and Communication
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Explain before you touch.</strong> Say what you will examine, why, and what each step will feel like. Tell the woman she can ask you to stop at any point, and mean it.</li>
+<li><strong>Consent is hers alone.</strong> An adult woman consents for herself. A husband, partner or relative is not required to agree. If she wants someone present, allow it.</li>
+<li><strong>Offer a chaperone.</strong> The patient should be offered a chaperone or support person. A male examiner should always have a female chaperone present. Record who was present.</li>
+<li><strong>Privacy:</strong> a closed room, a curtain, a sheet over the lap, and no interruptions. Allow her to undress alone.</li>
+<li><strong>Adolescents:</strong> use age-appropriate language and involve a parent or guardian as the young person wishes, within local law.</li>
+<li><strong>Past trauma, genital cutting or sexual violence:</strong> ask gently, go slowly, offer to stop, and refer to a trained clinician when needed. A forensic examination after rape follows its own protocol.</li>
+<li><strong>Vaginismus or fear:</strong> do not push. Teach her to relax the pelvic floor, use a smaller speculum, extra lubrication, and consider another visit.</li>
+</ul>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;I would like to examine you inside to find out why you have this problem. I will first look from the outside. Then I will gently place a small plastic instrument in the vagina so I can see the neck of the womb. After that I will feel inside with two fingers while pressing on your tummy. You can tell me to stop at any time. A nurse will stay with us.&rdquo;</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment-and-instrument-reprocessing" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Equipment and Instrument Reprocessing
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Speculum</td><td class="py-2 pr-3">Bivalve (Cusco, Graves or Pederson), in a size to suit the woman: small for virginal, postmenopausal or young women, medium for most, large for multiparous or obese women. Single-use plastic where possible.</td><td class="py-2 pr-3">A reusable metal speculum that has been properly reprocessed. Warm a metal speculum in warm water.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Light</td><td class="py-2 pr-3">Bright adjustable lamp or headlamp. A good light is the commonest thing missing.</td><td class="py-2 pr-3">A focused torch held by a chaperone.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gloves</td><td class="py-2 pr-3">Sterile gloves for speculum, bimanual and specimen collection (for VIA programmes, sterile gloves on both hands).</td><td class="py-2 pr-3">Clean gloves for external examination only.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Lubricant</td><td class="py-2 pr-3">Water or a water-based gel in a small amount on the outside of the blades only.</td><td class="py-2 pr-3">Warm water. Do not use gel if collecting wet preparations or cultures.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Specimens</td><td class="py-2 pr-3">High vaginal swab, endocervical swab or HPV sampler, cytology brush and container, slides if used, pH paper, saline and KOH.</td><td class="py-2 pr-3">Collect before lubricant if you can.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">VIA kit</td><td class="py-2 pr-3">Cotton swabs, freshly prepared 3&ndash;5% acetic acid (check the strength of vinegar), Lugol&rsquo;s iodine for VILI, ring forceps, light.</td><td class="py-2 pr-3">Fresh dilute vinegar of known strength.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drape and couch</td><td class="py-2 pr-3">Sheet, couch with leg supports or stirrups, pillow.</td><td class="py-2 pr-3">A flat couch with the woman&rsquo;s knees bent and heels together.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Waste and decontamination</td><td class="py-2 pr-3">A bucket of 0.5% chlorine, a bin for swabs, a bucket for gloves.</td><td class="py-2 pr-3">Never reuse a speculum without processing.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reprocessing reusable instruments</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Decontaminate:</strong> immerse used speculums in 0.5% chlorine solution for 10 minutes. Do not leave them longer, because chlorine corrodes metal.</li>
+<li><strong>Clean:</strong> wash with water and detergent using a soft brush to remove blood and tissue, then rinse well.</li>
+<li><strong>Sterilise or high-level disinfect (HLD):</strong> autoclave if you can. Otherwise boil in a covered pot for 20 minutes from a rolling boil, without adding new instruments, or soak in 0.1% chlorine or 2% glutaraldehyde for 20 minutes and rinse with sterile or boiled water.</li>
+<li><strong>Gloves and surfaces:</strong> decontaminate used gloves in 0.5% chlorine for 10 minutes. Wipe the couch and the lamp with 60 to 90 per cent alcohol or 0.5% chlorine between women.</li>
+<li><strong>Make 0.5% chlorine</strong> from 5% household bleach by adding one part bleach to nine parts water.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="positioning-and-external-inspection" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Positioning and External Inspection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Wash hands</strong> and put on gloves. Ask the woman to empty her bladder first.</li>
+<li><strong>Position</strong> her supine with knees bent, hips flexed and abducted (lithotomy). In late pregnancy, tilt her to the left. Obese women or those who cannot flex their hips can be examined in the left lateral position.</li>
+<li><strong>Drape</strong> her so that only what you are examining is exposed.</li>
+<li><strong>Inspect the vulva and perineum</strong> with good light. Look at pubic hair and skin, the labia, clitoris, urethral meatus, introitus and anus. Look for ulcers, warts, rashes, scratching marks, swelling or Bartholin&rsquo;s gland masses, lacerations or scars, discharge, blood, and signs of female genital cutting.</li>
+<li><strong>Look for leakage.</strong> A woman who has been wet with urine since a difficult delivery may have a fistula. Note continuous leakage and refer.</li>
+<li><strong>Ask her to bear down or cough.</strong> This shows prolapse of the vaginal walls or uterus, and stress incontinence.</li>
+<li><strong>Palpate</strong> any lump or area of tenderness gently with a gloved finger.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="speculum-examination-technique" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Speculum Examination: Technique
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Choose and prepare the speculum.</strong> Check it works. Warm a metal speculum with warm water, and moisten the outside of the blades with warm water or a little water-based gel. Avoid gel if you are collecting wet preparations or cultures.</li>
+<li><strong>Check the cervix position</strong> with one lubricated finger if you can. This tells you the angle to aim for.</li>
+<li><strong>Separate the labia</strong> with the fingers of your non-dominant hand, and expose the introitus. Hold the speculum in your dominant hand with the blades closed.</li>
+<li><strong>Insert gently,</strong> with the blades closed, horizontal or slightly oblique, at about 45 degrees, pressing down toward the posterior vaginal wall to avoid the urethra and the sensitive anterior wall. Avoid catching pubic hair or labia.</li>
+<li><strong>Advance along the vaginal axis,</strong> which points slightly backward toward the sacrum, and rotate the speculum so the blades are horizontal as you reach full insertion.</li>
+<li><strong>Open the blades slowly.</strong> Adjust the angle and the light until the cervix comes into view between the blades. Open only as far as needed.</li>
+<li><strong>Lock</strong> the speculum open with the thumbscrew, if you have a self-retaining one.</li>
+<li><strong>Inspect the cervix:</strong> size, shape, colour, the external os, squamocolumnar junction, any lesion, discharge or bleeding.</li>
+<li><strong>Collect specimens</strong> (Section 7) before touching the cervix with anything else.</li>
+<li><strong>Release and remove.</strong> Loosen the thumbscrew while holding the blades slightly open to avoid pinching the cervix. Withdraw the speculum about 2 to 3 cm, then let the blades close slowly. Rotate and inspect the vaginal walls on withdrawal. Remove the closed speculum gently, being careful not to pinch the vaginal walls or labia.</li>
+<li><strong>Place the speculum</strong> in 0.5% chlorine (or dispose of it if single use).</li>
+</ol>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Problem</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">You cannot see the cervix</td><td class="py-2 pr-3">Withdraw a few centimetres, close the blades, and re-angle upward or downward. Ask the woman to cough or lift her pelvis. Use a longer speculum or the left lateral position. A bimanual examination first can show where the cervix lies.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">The cervix is displaced (retroverted uterus, fibroid, pregnancy)</td><td class="py-2 pr-3">Locate it with a finger, then re-insert and tilt the speculum accordingly.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pain or the woman tenses</td><td class="py-2 pr-3">Stop. Ask her to breathe slowly and relax her buttocks. Use a smaller speculum and more lubricant. Rest and try again.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Vaginismus</td><td class="py-2 pr-3">Do not force. Explain, allow her to guide your hand, use a smaller speculum or reschedule.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">The speculum keeps slipping or the vaginal walls fall in between the blades</td><td class="py-2 pr-3">Use a larger speculum or a lateral wall retractor, or put a sterile glove finger over the blades.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Heavy bleeding</td><td class="py-2 pr-3">Stop and remove any clots. Resuscitate if needed, and call for help. If pregnant, see Section 11.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Fainting</td><td class="py-2 pr-3">Remove the speculum, lie the woman flat with her legs raised, and wait for recovery.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="specimens-and-via-what-to-collect-and-in-what-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Specimens and VIA: What to Collect and in What Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Order:</strong> collect specimens before lubricant if possible, then before applying acetic acid or iodine. Gel can interfere with wet preparations and cultures.</li>
+<li><strong>High vaginal swab or wet preparation:</strong> take a swab from the posterior fornix for culture, pH, saline wet mount and potassium hydroxide test. Use a sterile swab.</li>
+<li><strong>Endocervical swab:</strong> insert into the endocervical canal, rotate and leave for a few seconds, for gonorrhoea and chlamydia testing where available.</li>
+<li><strong>HPV sample or cytology:</strong> use the cervical brush or broom, rotating it five times through 360 degrees around the os, and place it in the transport medium. If you are using liquid-based cytology, a small amount of water-based lubricant is acceptable.</li>
+<li><strong>VIA:</strong> after taking other samples, wipe away secretions, apply freshly prepared 3&ndash;5% acetic acid to the cervix with a swab, wait about 1 to 2 minutes, and re-inspect the cervix with a good light. An acetowhite lesion that touches the squamocolumnar junction is significant. Acetowhite change far from the junction is not. VIA is read as negative, positive or suspicious for cancer.</li>
+<li><strong>VILI:</strong> apply Lugol&rsquo;s iodine and look for yellow, mustard-coloured, iodine-negative areas.</li>
+<li><strong>If invasive cancer is suspected</strong> (an ulceroproliferative growth, a friable cervix bleeding on touch, a grossly enlarged irregular cervix), do not treat in the screening clinic: refer to a cancer diagnosis and treatment facility.</li>
+<li><strong>Label</strong> every sample with the woman&rsquo;s name and number, and record which samples were taken.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-the-cervix-and-vagina" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Reading the Cervix and Vagina
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Finding</th><th class="py-2 pr-3 font-semibold">What it looks like</th><th class="py-2 pr-3 font-semibold">What it suggests and what to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Normal cervix</td><td class="py-2 pr-3">Pink, smooth, round os in a nulliparous woman, slit-like or irregular in a parous woman.</td><td class="py-2 pr-3">No action beyond screening schedule.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ectropion (ectopy)</td><td class="py-2 pr-3">Red, velvety ring around the os.</td><td class="py-2 pr-3">Normal variant, common in young women and pregnancy. May bleed on touch.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Nabothian cysts</td><td class="py-2 pr-3">Smooth, yellowish or white bumps.</td><td class="py-2 pr-3">Benign.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cervical polyp</td><td class="py-2 pr-3">Smooth finger-like mass from the canal, red or pink-white.</td><td class="py-2 pr-3">Usually benign. Remove or refer. A necrotic polyp may look like cancer.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cervicitis</td><td class="py-2 pr-3">Mucopurulent discharge from the os, redness, friability.</td><td class="py-2 pr-3">Chlamydia, gonorrhoea. Test and treat according to your STI protocol, including partners.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Vaginal candidiasis</td><td class="py-2 pr-3">Thick white curd-like discharge, red vaginal walls.</td><td class="py-2 pr-3">Treat according to local protocol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Bacterial vaginosis</td><td class="py-2 pr-3">Thin grey-white homogeneous discharge, fishy smell.</td><td class="py-2 pr-3">Treat according to local protocol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Trichomoniasis</td><td class="py-2 pr-3">Frothy yellow-green discharge, strawberry-red cervix.</td><td class="py-2 pr-3">Treat the woman and her partner.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Warts</td><td class="py-2 pr-3">Raised grey-white areas, may be multiple, on the cervix, vagina or vulva.</td><td class="py-2 pr-3">Associated with HPV. Refer or treat.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ulcers, blisters</td><td class="py-2 pr-3">Small blisters or multiple small ulcers on the cervix.</td><td class="py-2 pr-3">Herpes or other infection. Send swabs.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Acetowhite lesion at the squamocolumnar junction</td><td class="py-2 pr-3">White area after acetic acid.</td><td class="py-2 pr-3">VIA positive. Treat or refer according to protocol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cancer</td><td class="py-2 pr-3">Ulceroproliferative growth, rough red granular area, bleeding on touch, necrosis, foul discharge, grossly enlarged irregular cervix.</td><td class="py-2 pr-3">Refer urgently for biopsy and staging.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Blood from the os</td><td class="py-2 pr-3">Fresh or old blood.</td><td class="py-2 pr-3">Consider pregnancy complications, cervical lesions, retained products. Do not ignore.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="bimanual-and-rectovaginal-examination" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Bimanual and Rectovaginal Examination
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Prepare.</strong> Remove the speculum first. Lubricate the index and middle fingers of your examining hand with water-based gel. Change gloves if you have taken specimens and are contaminated.</li>
+<li><strong>Insert one finger,</strong> then the second if the vagina allows, with the palm up, while your other hand rests on the lower abdomen. Advance slowly. Ask the woman to relax.</li>
+<li><strong>Cervix:</strong> feel its position, size, consistency and mobility. Move it gently from side to side. Severe tenderness on movement (cervical motion tenderness) suggests pelvic inflammatory disease, but it can be present with ectopic pregnancy and other causes.</li>
+<li><strong>Uterus:</strong> lift the cervix and press down with the abdominal hand to feel the uterus between your hands. Note size (in weeks of gestation), position (anteverted or retroverted), shape, consistency, mobility and tenderness.</li>
+<li><strong>Adnexa:</strong> sweep the fingers into each lateral fornix while the abdominal hand presses down from above the iliac fossa. Feel for masses and tenderness.</li>
+<li><strong>Pouch of Douglas:</strong> feel the posterior fornix for nodularity or fullness.</li>
+<li><strong>Rectovaginal examination</strong> (selected women): insert the index finger into the vagina and the middle finger into the rectum, to feel the posterior uterus, the uterosacral ligaments and the pouch of Douglas, and the rectal wall.</li>
+<li><strong>Finish</strong> gently, remove your fingers, offer tissues, and help the woman to sit up.</li>
+</ol>
+<p class="text-sm">A bimanual examination is a limited test. It is not reliable for detecting early ovarian disease and is poor at sizing pelvic masses. Use ultrasound when you find or suspect a mass, an ectopic pregnancy or an inflammatory mass.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cervical-cancer-screening-where-the-speculum-fits" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Cervical Cancer Screening: Where the Speculum Fits
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>WHO 2021 guidelines</strong> prefer an HPV DNA-based test as the primary screening method over VIA or cytology. For the general population, WHO suggests HPV DNA detection in a screen, triage and treat approach starting at age 30, repeated every 5 to 10 years.</li>
+<li><strong>Women living with HIV:</strong> WHO suggests HPV DNA screening from age 25, repeated every 3 to 5 years, with shorter retest intervals after a positive result or after treatment.</li>
+<li><strong>Self-collection</strong> of the HPV sample is an accepted option. Women often feel more comfortable collecting their own sample, but they need support to do so correctly. Nigerian studies show many rural women still prefer provider-collected VIA, so offer both.</li>
+<li><strong>Where HPV testing is not available,</strong> VIA and treatment (cryotherapy or thermal ablation) remain a recommended strategy. Train staff using standardised materials and supervise quality.</li>
+<li><strong>A speculum is still needed</strong> for provider-collected samples, VIA and triage, and for assessment before treatment.</li>
+<li><strong>Link to treatment.</strong> Screening that is not followed by treatment does not save lives. Have a clear pathway before you start screening.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: HPV testing versus VIA in Nigerian practice</p>
+<p class="text-sm">WHO now favours HPV DNA testing, with VIA as a lower-cost alternative or triage tool. A 2026 Nigerian study of women with HIV noted that HPV DNA testing is the standard of care but that its cost limits use, so VIA remains the main method in practice, although VIA is subjective and less accurate. Follow your national programme, and aim to move toward HPV testing as it becomes available.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Bleeding in late pregnancy (possible placenta praevia)</td><td class="py-2 pr-3">Do not carry out a digital vaginal or speculum examination until a placenta praevia has been excluded by ultrasound. Check the scan report first. Stop at once if the vault fills with blood.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected rupture of membranes or preterm labour</td><td class="py-2 pr-3">Use a sterile speculum with sterile gloves, with sterile water or the lubricant your test allows. Do not use gel when a diagnostic test such as fetal fibronectin or some rupture tests is planned. Avoid a digital examination until you have decided that labour is not in progress. Stop if the membranes are seen hour-glassing into the vagina.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pregnancy, routine</td><td class="py-2 pr-3">A speculum examination is safe. Be gentle, use the left lateral tilt, and expect increased vascularity and bleeding on touch.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Postmenopausal women</td><td class="py-2 pr-3">The vagina is atrophic and dry. Use the smallest speculum, plenty of lubricant, and extra time.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Adolescents and virginal women</td><td class="py-2 pr-3">A very small speculum or none at all. Use external inspection and ultrasound if internal examination is not essential. Explain and reassure.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Female genital cutting</td><td class="py-2 pr-3">Inspect the vulva and describe the type. Type 3 (infibulation) may block speculum insertion and needs deinfibulation by a trained clinician with local anaesthesia. Do not attempt blind force.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected vesicovaginal or rectovaginal fistula</td><td class="py-2 pr-3">Look for continuous leakage and examine gently. Refer to a fistula centre for dye testing and repair.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Possible ectopic pregnancy</td><td class="py-2 pr-3">Be gentle. Do not delay ultrasound and resuscitation. A bimanual finding of a mass does not exclude or confirm the diagnosis.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected pelvic inflammatory disease</td><td class="py-2 pr-3">Look for purulent cervical discharge and cervical motion tenderness. Take endocervical swabs and treat empirically according to your protocol while awaiting results.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">After rape or sexual assault</td><td class="py-2 pr-3">Use a forensic protocol, trained staff and consent for each step. Collect samples in the right order and keep a chain of custody.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">HIV</td><td class="py-2 pr-3">Same technique. Offer screening from 25, and shorter intervals between tests.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Obesity or limited mobility</td><td class="py-2 pr-3">Larger speculum, left lateral position, extra assistance and good light.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-the-examination-explaining-documenting-and-following-up" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+After the Examination: Explaining, Documenting and Following Up
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Help her sit up,</strong> offer tissues and privacy to dress, and wash your hands.</li>
+<li><strong>Explain what you found</strong> in simple words, and what comes next. Say when and how she will get results.</li>
+<li><strong>Give a result pathway:</strong> who contacts the woman, and what happens if the VIA is positive, the HPV test positive, or the cytology abnormal. Make sure she leaves with an appointment and a contact.</li>
+<li><strong>Documentation:</strong> the indication, consent, chaperone, position, findings of the external inspection, cervix, vaginal walls, bimanual findings, specimens taken and sent, tests applied (such as VIA result), plan, and counselling.</li>
+<li><strong>Decontaminate</strong> instruments, surfaces and gloves as in Section 4.</li>
+<li><strong>Ask for feedback.</strong> Ask how the examination felt and whether anything could be done better.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-warning-signs" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Complications and Warning Signs
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Problems to Recognise Early</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Vasovagal fainting:</strong> pallor, sweating, slow pulse. Stop, lay her flat and raise her legs.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Heavy bleeding during examination:</strong> in pregnancy, suspect placenta praevia or abruption. Stop, resuscitate, and get help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Unexplained severe pain with tenderness and fainting:</strong> consider ectopic pregnancy or a ruptured ovarian cyst. IV access, resuscitation and urgent senior review.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Genital tract injury</strong> from forceful insertion: especially in virginal, postmenopausal and cut women. Stop and treat.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Missed pathology:</strong> a lesion that was not looked for because of poor light, or a cervix that was never seen. If you could not see the cervix, say so and arrange a repeat or another test.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection:</strong> from inadequately reprocessed instruments. A single breach of infection control can expose many women to HIV, hepatitis B and other infections.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Emotional harm:</strong> loss of trust, panic or flashbacks, especially after previous trauma. Stop, reassure and provide support.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Failure to follow up an abnormal result:</strong> a screening visit with no treatment pathway is a missed opportunity to prevent cancer.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm061320" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Pelvic Examination</a> &ndash; external genitalia, Pap test, bimanual and rectovaginal examination, with indications. The full video may need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=i5VxSZ9w4EY" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Pelvic Examination (NEJM) on YouTube</a> &ndash; a copy of the NEJM video online.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=CCHPclA9Vmk" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Pelvic Examination (NEJM), second online copy</a> &ndash; the YouTube address cited in the APGO curriculum for the NEJM video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=NEVyzP82T1U" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Speculum Examination, video demonstration</a> &ndash; a step-by-step OSCE demonstration.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/speculum-examination-osce-guide/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Speculum examination OSCE guide</a> &ndash; step-by-step images, checklist, and cervical findings.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/bimanual-vaginal-examination/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Bimanual vaginal examination OSCE guide</a> &ndash; checklist with palpation of cervix and adnexa.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/cervical-smear-test/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Cervical screening test OSCE guide</a> &ndash; sampling technique with video and lubricant advice.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://libguides.pcom.edu/obgyn/physical_exam" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Bates&rsquo; Visual Guide: pelvic exam videos (library listing)</a> &ndash; pointers to external genitalia, speculum and internal palpation videos. May need institutional access.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">VIA and cervical screening training</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://videos.iarc.fr/channels/SCR/media/MEDIA160302170145998" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IARC WebTV: A Training Course in Visual Inspection using 4% Acetic Acid (VIA)</a> &ndash; a 53-minute training course covering the VIA procedure, equipment, results and preparing dilute acetic acid.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://videos.iarc.fr/channels/SCR/media/MEDIA160302170512596" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IARC WebTV: A Training Course in Visual Inspection using Lugol&rsquo;s Iodine (VILI)</a> &ndash; the equivalent course for iodine.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://screening.iarc.fr/atlasvia.php" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IARC: Atlas of visual inspection of the cervix with acetic acid</a> &ndash; image atlas for screening, triage and assessment for treatment.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://screening.iarc.fr/viavilichap2.php" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IARC practical manual on visual screening: how to do VIA</a> &ndash; equipment, procedure, findings and reporting.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://screening.iarc.fr/atlasHPVdetail.php?Index=61" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IARC: Infection prevention in a cervical cancer screening clinic</a> &ndash; decontamination, cleaning and sterilisation steps with pictures.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://screening.iarc.fr/viaviliappendix4.php" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IARC: Cleaning of instruments and materials, appendix 4</a> &ndash; how to make 0.5% chlorine and process speculums.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://screening.iarc.fr/doc/RH_via_evidence.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Alliance for Cervical Cancer Prevention: VIA evidence slides</a> &ndash; VIA test results categories and management options.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/news/item/06-07-2021-new-recommendations-for-screening-and-treatment-to-prevent-cervical-cancer" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: New recommendations for screening and treatment to prevent cervical cancer (2021)</a> &ndash; HPV DNA testing, self-collection and women living with HIV.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guides, checklists and teaching models</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://tools.apgo.org/wp-content/uploads/2017/05/BCSPelvicExam.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">APGO Basic Clinical Skills curriculum: pelvic exam</a> &ndash; learning objectives and an assessment checklist for external, speculum and bimanual examination.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://med.stanford.edu/e4c/benchmarks/_jcr_content/main/panel_builder_0/panel_1/download_9/file.res/Female%20GU%20Pelvic%20Benchmarks%20(updated%20August%202018).pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Stanford: Female GU and pelvic examination benchmarks</a> &ndash; step-by-step benchmarks for the whole examination.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.schulich.uwo.ca/obsgyn/education/undergraduate/docs/pelvic_model_demo.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Pelvic model demonstration guide</a> &ndash; steps for practising speculum and bimanual examination on a model.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.dph.ncdhhs.gov/chronic-disease-and-injury/cancer-prevention-and-control/808-health-assessment-skills-check-female-pelvic/open" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Health assessment skills checklist: female pelvic examination</a> &ndash; a performance checklist.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://storage.imrpress.com/IMR/hmed/application/10.12968/hmed.2014.75.sup11.c169.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Examination of the cervix: technique and findings</a> &ndash; speculum technique, locating a difficult cervix, and common cervical conditions.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.qpercom.com/?p=6282" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Inspection of the external genitals, speculum and bimanual examination (illustrated)</a> &ndash; illustrated stepwise guide with the 45-degree approach.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mdedge.com/obgyn/article/143600/gynecology/pelvic-exam-revisited/page/0/2" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">The pelvic examination revisited (OBG Management)</a> &ndash; when parts of the pelvic examination are indicated.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://en.wikipedia.org/wiki/Pelvic_examination" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Pelvic examination overview</a> &ndash; summary of indications, ACOG, USPSTF and chaperones.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Speculum examination in pregnancy</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rightdecisions.scot.nhs.uk/nhs-borders-clinical-guidelines/obstetrics-gynaecology/maternity/antenatal/assisted-birth-practitioner-abp-midwife-speculum-examination-and-vaginal-assessment-between-34-and-36plus6-weeks-gestation/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Midwife speculum examination between 34 and 36+6 weeks</a> &ndash; indications, contraindication in suspected placenta praevia, and technique.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://wisdom.nhs.wales/health-board-guidelines/aneurin-bevan-file/midwives-performing-premature-speculum-examinations-20-weeks-gestation-to/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Midwives performing speculum examinations from 20 weeks</a> &ndash; speculum use for suspected preterm rupture of membranes, with lubricant advice.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/ahs/article/view/228970/216146" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Barriers to uptake of cervical cancer screening among women in Nigeria: systematic review</a> &ndash; knowledge, financial and health service barriers, and the VIA and cryotherapy see-and-treat approach.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9652621/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Barriers to cervical cancer screening in Nigeria (full text)</a> &ndash; open-access full text.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://aseestant.ceon.rs/index.php/aoo/article/download/59783/30613/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">HPV self-sampling knowledge and acceptance among rural women in Badagry</a> &ndash; awareness, knowledge and preference for VIA versus self-sampling.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.medrxiv.org/content/10.64898/2026.08.05.26359761.full.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">VIA diagnostic accuracy among women living with HIV in Osogbo, Nigeria</a> &ndash; VIA compared with HPV DNA testing in Nigerian women with HIV.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4478664/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">VIA screening programme by trained female health workers (7-year experience)</a> &ndash; training of non-physician health workers with the IARC manual.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM and Geeky Medics videos for technique and the IARC courses for VIA, then use the others to see different operators and settings.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Examine for a reason. Indications: symptoms, cervical screening and triage, management of known disease. A screening pelvic examination in an asymptomatic woman has no proven benefit.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Consent is the woman&rsquo;s. Explain each step, offer a chaperone (always for a male examiner), protect privacy, and stop when she asks.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Good light and the right speculum size solve most problems. Warm the speculum and lubricate the outside of the blades only. Avoid gel when collecting wet preparations or cultures.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Insert closed, at about 45 degrees, pressing down, rotate to horizontal, open slowly, and lock. Loosen and withdraw slightly before closing to avoid pinching the cervix.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Collect specimens in order, before acetic acid and before touching the cervix with anything else. VIA: 3&ndash;5% acetic acid, wait 1 to 2 minutes, an acetowhite lesion at the squamocolumnar junction is significant.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Suspected invasive cancer (friable, ulceroproliferative, bleeding on touch) is referred, not treated in the screening clinic.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>No speculum or digital examination in third-trimester bleeding until placenta praevia has been excluded by ultrasound. In suspected PPROM, use a sterile speculum.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Reprocess every reusable speculum: 0.5% chlorine for 10 minutes, clean with detergent, then boil 20 minutes or autoclave.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>WHO prefers HPV DNA testing from age 30 (25 in women with HIV), with self-collection accepted. VIA and treatment remain valid where HPV testing is not available.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>End every examination with an explanation, a documented plan and a result pathway. Screening without a treatment pathway does not prevent cancer.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. American College of Obstetricians and Gynecologists. Committee Opinion: The utility of and indications for routine pelvic examination; and Well-woman visit. Obstet Gynecol 2018.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. US Preventive Services Task Force. Screening for gynecologic conditions with pelvic examination: recommendation statement. JAMA 2017;317:947-953, and 2020 update.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. American College of Physicians. Screening pelvic examination in adult women: a clinical practice guideline. Ann Intern Med 2014;161:67-72.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. World Health Organization. WHO guideline for screening and treatment of cervical pre-cancer lesions for cervical cancer prevention, second edition. Geneva: WHO; 2021.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. International Agency for Research on Cancer. A practical manual on visual screening for cervical neoplasia; Atlas of visual inspection of the cervix with acetic acid; Using HPV tests for cervical cancer screening and managing HPV-positive women: a practical online guide (infection prevention and instrument processing).</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. New England Journal of Medicine, Videos in Clinical Medicine. Pelvic examination. N Engl J Med 2007;356:e26.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Association of Professors of Gynecology and Obstetrics. Basic Clinical Skills Curriculum: Pelvic examination.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. NHS Borders and NHS Wales health board guidelines on speculum examination in pregnancy and for suspected preterm prelabour rupture of membranes; RCOG Green-top Guideline on preterm prelabour rupture of membranes.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Barriers to uptake of cervical cancer screening among women in Nigeria: a systematic review. Afr Health Sci 2022;22(2).</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Knowledge and acceptance of HPV self-testing among rural women in Badagry, Lagos State, Nigeria. Acta Oncol Fenn.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Diagnostic accuracy of visual inspection with acetic acid for cervical cancer screening among women living with HIV in Osogbo, Nigeria. medRxiv 2026.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Visual inspection with acetic acid screening programme: seven years of experience in early detection in rural south India (training with the IARC manual). Indian J Med Paediatr Oncol.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Moore M. Examination of the cervix: technique and common findings. Br J Hosp Med 2014;75(Suppl 11).</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. University of Western Ontario Schulich School of Medicine: Pelvic model demonstration; Stanford Medicine e4c: Female GU and pelvic examination benchmarks; North Carolina Division of Public Health: Health assessment skills check, female pelvic.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-skin-biopsy',
+  title: 'Skin Biopsy',
+  category: 'Procedures',
+  subCategory: 'Dermatology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skin Biopsy</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; DERMATOLOGY AND SURGERY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Skin Biopsy</h1>
+  <p class="text-sm text-indigo-200">Kaposi sarcoma in a young man with HIV, a non-healing plantar lesion that turns out to be acral melanoma, a squamous cell carcinoma on the face of a person with albinism, a leprosy patch, a Buruli ulcer: in each of these a small piece of skin sent to the right laboratory in the right fixative makes the diagnosis. Most Nigerian hospitals have few dermatologists and few pathologists, so the house officer or surgeon often takes the biopsy. This guide covers which technique to choose, the pitfalls in suspected melanoma, anaesthesia and haemostasis, punch, shave and excisional technique, specimen handling, suture removal and complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#when-to-biopsy-and-what-you-hope-to-learn" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>When to Biopsy and What You Hope to Learn</span></a></li>
+  <li><a href="#choosing-the-technique-and-the-melanoma-rule" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Choosing the Technique, and the Melanoma Rule</span></a></li>
+  <li><a href="#stop-signs-and-cautions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Stop Signs and Cautions</span></a></li>
+  <li><a href="#consent-and-preparation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Consent and Preparation</span></a></li>
+  <li><a href="#equipment-and-specimen-containers" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Equipment and Specimen Containers</span></a></li>
+  <li><a href="#anaesthesia-and-haemostasis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Anaesthesia and Haemostasis</span></a></li>
+  <li><a href="#technique-punch-biopsy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique: Punch Biopsy</span></a></li>
+  <li><a href="#technique-shave-and-saucerization" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Technique: Shave and Saucerization</span></a></li>
+  <li><a href="#technique-incisional-and-excisional-biopsy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Technique: Incisional and Excisional Biopsy</span></a></li>
+  <li><a href="#specimen-handling-and-the-request-form" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Specimen Handling and the Request Form</span></a></li>
+  <li><a href="#aftercare-and-suture-removal" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Aftercare and Suture Removal</span></a></li>
+  <li><a href="#complications-and-what-to-do" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Complications and What to Do</span></a></li>
+  <li><a href="#special-situations-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Special Situations in Nigerian Practice</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">16</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Skin cancers are common and often late.</strong> Nigerian histopathology series show a pattern very different from white populations. A review of malignant skin tumours at a Nnewi teaching hospital found 28 per cent of 387 skin biopsies were malignant, with squamous cell carcinoma the commonest. A 25-year Benin City series found malignant melanoma, Kaposi sarcoma (30 per cent), squamous cell carcinoma (24 per cent) and basal cell carcinoma (10 per cent), with the leg and foot the commonest site, and 85 per cent of melanomas on the leg and foot. In a Makurdi review, Kaposi sarcoma was the commonest skin malignancy (52 per cent), followed by squamous cell carcinoma (20 per cent), melanoma (15 per cent) and dermatofibrosarcoma protuberans (11 per cent). A 2026 Makurdi review found squamous cell carcinoma (33 per cent) and melanoma (28 per cent) predominating and noted that late presentation is common.</li>
+<li><strong>Albinism.</strong> A high proportion of skin cancers in Nigeria occur in people with oculocutaneous albinism. In an Anambra study, 20 per cent of people with albinism examined had a skin cancer, and basal cell carcinoma was commoner than squamous cell carcinoma. A review of 22 Nigerian albinos with skin cancers found most presented with advanced lesions needing wide excision and disfigurement.</li>
+<li><strong>HIV and Kaposi sarcoma.</strong> Kaposi sarcoma is a leading skin malignancy wherever HIV prevalence is high. Biopsy confirms the diagnosis and separates it from other violaceous lesions and infections.</li>
+<li><strong>Acral melanoma.</strong> In dark skin, melanoma is mostly acral (palms, soles, nails). Dermoscopy helps, but histology decides. Do not dismiss a chronic plantar &ldquo;ulcer&rdquo; or a dark nail streak.</li>
+<li><strong>Infections and inflammatory disease.</strong> Cutaneous TB, leprosy, Buruli ulcer, mycetoma, deep fungal infections, cutaneous lupus, sarcoidosis, vasculitis and autoimmune blistering disease are all diagnosed by biopsy.</li>
+<li><strong>The system is thin.</strong> Many pathology departments have only a few pathologists, and tests such as direct immunofluorescence or PCR are available only at a few centres. A poor biopsy or a poorly handled specimen wastes the one chance you have, so plan the technique, the container and the transport before you start.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-to-biopsy-and-what-you-hope-to-learn" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+When to Biopsy and What You Hope to Learn
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Any lesion that is suspicious for skin cancer: a changing pigmented lesion, a persistent nodule or ulcer, a non-healing wound, a scaly or crusted plaque on sun-exposed skin, a firm violaceous plaque or nodule.</li>
+<li>A rash or dermatosis that has not responded to adequate treatment, or whose diagnosis is unclear.</li>
+<li>Suspected infection that needs histology or culture: a chronic ulcer, granuloma, nodules along a limb, or a patch with loss of sensation.</li>
+<li>Blistering diseases, vasculitis, panniculitis, connective tissue disease, and suspected cutaneous lymphoma.</li>
+<li>Before you treat. Topical steroids, antibiotics and herbal applications can change the histology, so biopsy early where you can.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Which lesion to sample and how</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Clinical situation</th><th class="py-2 pr-3 font-semibold">Best site and technique</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Macular or papular rash</td><td class="py-2 pr-3">Punch biopsy from the centre of an established lesion. Avoid excoriated or old lesions.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Annular rash</td><td class="py-2 pr-3">Punch biopsy of the advancing edge or raised border. Consider scrapings for fungal culture.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Vesicles and bullae</td><td class="py-2 pr-3">Punch biopsy of a small early intact vesicle for H&amp;E. For a large lesion, sample the edge and keep the roof intact. Take a second perilesional punch within 1 cm of a blister for direct immunofluorescence (DIF).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ulcer</td><td class="py-2 pr-3">Incisional biopsy of the junction of ulcer and adjacent normal skin. The ulcer bed alone is often non-specific.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Vasculitis (palpable purpura, petechiae)</td><td class="py-2 pr-3">Punch biopsy of an early lesion, deep to include small vessels. A second sample for DIF.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cutaneous lupus or connective tissue disease</td><td class="py-2 pr-3">Deep elliptical or punch biopsy of an established active lesion.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Panniculitis and deep lesions</td><td class="py-2 pr-3">Deep elliptical incisional biopsy that includes subcutaneous fat. A punch may be too small.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected basal or squamous cell carcinoma</td><td class="py-2 pr-3">Shave, saucerization or punch that includes the thickest part, deep enough to show invasion.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected melanoma</td><td class="py-2 pr-3">Excisional biopsy with a 1 to 3 mm margin, or a deep saucerization. See Section 3.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected Kaposi sarcoma</td><td class="py-2 pr-3">Punch biopsy through the full thickness of the nodule or plaque for histology.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected infection (TB, fungus, Buruli ulcer, mycetoma)</td><td class="py-2 pr-3">Biopsy of the active edge, and send tissue for culture or PCR in sterile saline as well as formalin.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-the-technique-and-the-melanoma-rule" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Choosing the Technique, and the Melanoma Rule
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Technique</th><th class="py-2 pr-3 font-semibold">What it gives</th><th class="py-2 pr-3 font-semibold">Best for</th><th class="py-2 pr-3 font-semibold">Cautions</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Shave (tangential)</td><td class="py-2 pr-3">A thin flat specimen of epidermis and upper dermis (under about 1 mm).</td><td class="py-2 pr-3">Raised lesions, seborrhoeic keratoses, superficial BCC and SCC, warts.</td><td class="py-2 pr-3">Cannot show deep invasion. Not for suspected melanoma if shallow.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Saucerization (deep shave, scoop)</td><td class="py-2 pr-3">A wider and deeper specimen, extending into the deep dermis.</td><td class="py-2 pr-3">Pigmented lesions where depth matters, larger BCC or SCC.</td><td class="py-2 pr-3">Needs training. Leaves a round shallow wound that heals by second intention.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Punch (2 to 8 mm)</td><td class="py-2 pr-3">A full-thickness cylinder of skin, sometimes with fat.</td><td class="py-2 pr-3">Inflammatory skin disease, infection, small lesions, rashes, lesions needing dermal or subcutaneous tissue.</td><td class="py-2 pr-3">The standard punch is 4 mm. Do not use under 4 mm for a pigmented lesion. A partial punch of a melanoma can miss the thickest part.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Incisional (wedge, elliptical)</td><td class="py-2 pr-3">A strip of lesion with adjacent normal skin.</td><td class="py-2 pr-3">Large lesions, ulcers, deep disease, panniculitis.</td><td class="py-2 pr-3">Needs suturing and care with orientation.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Excisional (elliptical)</td><td class="py-2 pr-3">The whole lesion with a margin.</td><td class="py-2 pr-3">Small lesions, suspected melanoma, benign lesions needing removal.</td><td class="py-2 pr-3">More infection risk than a shave. Needs surgical skill and a closure plan.</td></tr>
+</tbody></table></div>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: how to biopsy a suspected melanoma</p>
+<p class="text-sm">Both the AAD and NCCN guidance state that an excisional biopsy with a 1 to 3 mm margin is preferred for a suspected melanoma, by an elliptical excision, a punch that includes the whole lesion, or a saucerization. A deep saucerization is acceptable and in some series was accurate in 97 per cent. A shallow shave and a partial punch biopsy carry a higher risk of transecting the tumour and misdiagnosis. In one study, partial punch biopsy of a melanoma raised the odds of misdiagnosis many times, and a tumour depth over 1 mm changes management. Do not use a punch under 4 mm. If pigment remains in the base after a shave, take more tissue from the base.</p>
+<p class="text-sm">In Nigeria most melanomas are acral and on the leg or foot, where a full excisional biopsy may be difficult. If the lesion is on the sole, palm or nail, or is too large to excise, take a full-thickness incisional biopsy of the thickest or most suspicious part, and refer early to a surgical oncologist rather than delay.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-and-cautions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Stop Signs and Cautions
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Pause and Think If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A suspected melanoma:</strong> do not do a shallow shave or a small partial punch. Choose excision or a deep saucerization, or refer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A lesion on the face, digits, genitalia, ear or lip:</strong> plan carefully, as scarring and functional loss are costly. Ask a more experienced operator.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Danger zones for nerves and vessels:</strong> the temple (temporal branch of the facial nerve), the lateral neck and posterior triangle (spinal accessory nerve), the digits (digital nerves) and areas with large pulsatile vessels in the trunk, head and neck.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Keloid-prone skin:</strong> keloids are common in dark skin and occur on the chest, shoulders, upper back and earlobes. Use the smallest effective biopsy, plan incisions along relaxed skin tension lines, close with minimal tension, and warn the patient.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Lower leg:</strong> healing is slow and infection common, especially with venous disease or in sickle cell disease.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Local infection or cellulitis at the site:</strong> treat first unless the biopsy is for the infection.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A known allergy to lidocaine</strong> (rare). An allergy to procaine does not rule out lidocaine.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A patient on warfarin, clopidogrel or aspirin:</strong> do not stop them for a simple punch biopsy. Apply good pressure.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Wrong-site risk:</strong> lesions can look different after anaesthesia blanches them. Mark and photograph before you inject, and double-check the site with the chart.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="consent-and-preparation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Consent and Preparation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Explain</strong> what you will do, why, and how long the result takes. Say that you will take a small piece, that the area will be numbed, that there will be a scar, and that stitches may be needed.</li>
+<li><strong>Counsel on scarring.</strong> Ask about keloids or raised scars in the patient or family. Explain that a keloid may form even after a small biopsy.</li>
+<li><strong>Check allergies,</strong> bleeding history, drugs (anticoagulants), pregnancy, pacemaker (if you plan electrocautery) and diabetes.</li>
+<li><strong>Document the lesion:</strong> site, size, colour and shape, and take a photograph with a ruler if you can. Mark the lesion with a skin marker before injecting.</li>
+<li><strong>Time-out.</strong> Confirm patient identity, site, laterality and the container with a second person.</li>
+<li><strong>Request form:</strong> fill it in before the biopsy so that the specimen leaves with all the information.</li>
+</ul>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;I would like to take a small piece of the skin to look at under the microscope. I will numb the area first, so you will feel a sting and then pressure but no pain. It will leave a small scar. I will stitch it if needed. The result takes about two weeks, and I will see you again to explain it.&rdquo;</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment-and-specimen-containers" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Equipment and Specimen Containers
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Antiseptic</td><td class="py-2 pr-3">Chlorhexidine, povidone-iodine or isopropyl alcohol.</td><td class="py-2 pr-3">Alcohol swab. Do not wash away the marker.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gloves and drapes</td><td class="py-2 pr-3">Non-sterile gloves are sufficient for shave and punch biopsy. Sterile gloves and a drape for excisions.</td><td class="py-2 pr-3">Clean gloves for shave or punch.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">1% lidocaine with 1:100,000 epinephrine, 3 mL syringe, 27 to 30 G needle. Sodium bicarbonate 8.4% to buffer.</td><td class="py-2 pr-3">Plain 1% lidocaine. Do not use epinephrine at digits, penis, ear or nose.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Punch</td><td class="py-2 pr-3">Disposable circular punch blades 3, 4, 5 and 6 mm (2 to 8 mm available).</td><td class="py-2 pr-3">A scalpel (No. 15) for an elliptical incision.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Blade</td><td class="py-2 pr-3">Flexible razor blade (DermaBlade) for shave, or No. 15 scalpel blade for saucerization.</td><td class="py-2 pr-3">A sterile single-edge razor blade.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Instruments</td><td class="py-2 pr-3">Fine toothed forceps (used on the edge, never the centre of the specimen), iris scissors, needle holder.</td><td class="py-2 pr-3">A basic minor surgery set.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Haemostasis</td><td class="py-2 pr-3">20% aluminium chloride on cotton swabs, electrocautery, Gelfoam, sutures.</td><td class="py-2 pr-3">Pressure, suture, or a heated instrument. Avoid Monsel&rsquo;s (ferric subsulfate) near pigmented lesions because it stains tissue and confuses the pathologist.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suture</td><td class="py-2 pr-3">4-0 or 5-0 nylon or polypropylene for skin, 5-0 or 6-0 on the face, 4-0 absorbable for deep layers.</td><td class="py-2 pr-3">Any non-absorbable skin suture of the right size.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Specimen containers</td><td class="py-2 pr-3">10% neutral buffered formalin in a container 10 to 20 times the tissue volume. Michel&rsquo;s medium for DIF. Sterile pot with a little saline for culture or PCR.</td><td class="py-2 pr-3">Saline-soaked gauze in a sealed sterile pot for DIF or culture, and send quickly. Do not put tissue for DIF in formalin.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Dressing</td><td class="py-2 pr-3">Petroleum jelly and a non-stick dressing.</td><td class="py-2 pr-3">Clean gauze and tape.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="anaesthesia-and-haemostasis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Anaesthesia and Haemostasis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Drug:</strong> 1% or 2% lidocaine with epinephrine 1:100,000 gives good anaesthesia and haemostasis. A skin biopsy needs 1 to 3 mL. Plain lidocaine maximum is 4.5 mg/kg (300 mg), with epinephrine 7 mg/kg (500 mg).</li>
+<li><strong>Buffer it.</strong> Mixing 1 mL of 8.4% sodium bicarbonate with 9 mL of lidocaine reduces the sting. Use a small needle (27 to 30 G), inject slowly, and start in the dermis.</li>
+<li><strong>Outline the lesion first.</strong> Epinephrine blanches the skin and can hide the margin. Mark the lesion and the planned site before injecting.</li>
+<li><strong>Wait.</strong> Allow at least 10 minutes after injection for the epinephrine to take full effect, which also helps a deep shave.</li>
+<li><strong>Avoid epinephrine</strong> on fingers, toes, penis, ear and nose, as is traditional practice.</li>
+<li><strong>Allergy:</strong> a procaine allergy is not a contraindication to lidocaine.</li>
+<li><strong>Haemostasis:</strong> for shave and saucerization, 20% aluminium chloride on a cotton swab, or electrocautery. Do not use Monsel&rsquo;s solution on pigmented lesions. For punch sites, a suture, or Gelfoam, or firm pressure. Do not stop anticoagulants for a punch biopsy.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-punch-biopsy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Technique: Punch Biopsy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Choose the site</strong> (Section 2) and mark it. Clean the skin.</li>
+<li><strong>Anaesthetise</strong> and wait.</li>
+<li><strong>Orient the punch.</strong> Stretch the skin at right angles to the relaxed skin tension lines (the lines of natural wrinkles) with your free hand, so that the round defect becomes an oval that closes along the tension lines.</li>
+<li><strong>Punch.</strong> Hold the punch perpendicular to the skin. Apply downward pressure and rotate it in one direction (or back and forth) until you feel a give as the blade passes through the dermis into the subcutaneous fat. Do not go deeper than the fat.</li>
+<li><strong>Lift out the core.</strong> Release the skin tension. Gently lift the core with a needle tip, or the edge of the forceps, taking care not to crush the specimen. Snip it at its base with iris scissors, in the fat.</li>
+<li><strong>Place the specimen</strong> straight into the correct container (Section 11).</li>
+<li><strong>Stop the bleeding</strong> with pressure, aluminium chloride, or a suture. A 4 mm or larger punch is usually closed with one or two simple interrupted sutures. Smaller punches can heal by second intention on non-facial skin.</li>
+<li><strong>Close.</strong> Use 4-0 or 5-0 nylon (5-0 or 6-0 on the face), taking the needle in at right angles through the epidermis and dermis, and tie without tension.</li>
+<li><strong>Dress,</strong> label the container and form, and give the patient written aftercare and suture removal dates.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-shave-and-saucerization" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Technique: Shave and Saucerization
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Prepare and anaesthetise.</strong> Inject so that the lesion rises on a wheal, which makes it easier to shave. Wait for the epinephrine to work.</li>
+<li><strong>Hold the blade.</strong> Flex a flexible razor blade between thumb and finger so that it bows, and keep the blade nearly parallel to the skin surface. For a scalpel, hold it flat.</li>
+<li><strong>Shave.</strong> Slide the blade horizontally through the dermis beneath the lesion in a smooth sawing motion. For a plain shave, go to the mid-dermis. For a saucerization (scoop), curve the blade to include the full breadth of the lesion, and go deep enough to include the base.</li>
+<li><strong>Check the base.</strong> Halfway through, look at the base. If you see pigment or tumour below the blade, angle the blade deeper for the rest of the cut. Aluminium chloride can clear the field.</li>
+<li><strong>Lift off the specimen,</strong> and place it flat in formalin.</li>
+<li><strong>Haemostasis.</strong> Apply 20% aluminium chloride to the base with a cotton swab, or electrocautery. The wound will heal by second intention as a flat round scar.</li>
+<li><strong>Dress</strong> with petroleum jelly and a non-stick dressing.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-incisional-and-excisional-biopsy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Technique: Incisional and Excisional Biopsy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Plan the ellipse.</strong> Mark the lesion with a margin (1 to 3 mm for a suspected melanoma, wider only for a known cancer and by a surgeon). Draw an ellipse with a length about three times its width and tapering ends at about 30 degrees, with the long axis along the relaxed skin tension lines, so the wound closes flat.</li>
+<li><strong>Anaesthetise</strong> around and under the planned ellipse. Wait for the epinephrine.</li>
+<li><strong>Incise.</strong> Cut with a No. 15 blade, held vertically (perpendicular to the skin), through the full thickness of the dermis into the fat. Make the cut in one stroke on each side and at the apices.</li>
+<li><strong>Undermine and remove.</strong> Lift one end with forceps (touching only the edge) and cut the specimen free beneath the lesion in the fat plane. Avoid crushing.</li>
+<li><strong>Mark orientation.</strong> Place a stitch at one end (for example the 12 o&rsquo;clock end) and note this on the form, so the pathologist can orient the specimen if margins matter.</li>
+<li><strong>Haemostasis.</strong> Pressure, ligature or cautery.</li>
+<li><strong>Close.</strong> For tension, place deep absorbable stitches, then close the skin from the ends toward the centre with interrupted or running non-absorbable sutures, which reduces tension on the wound.</li>
+<li><strong>For an incisional biopsy</strong> of a large lesion or ulcer, take an ellipse or wedge from the junction of lesion and normal tissue, including normal skin, and close in the same way.</li>
+<li><strong>Dress,</strong> record, and book follow-up and suture removal.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="specimen-handling-and-the-request-form" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Specimen Handling and the Request Form
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Test wanted</th><th class="py-2 pr-3 font-semibold">Container</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Routine histology (H&amp;E)</td><td class="py-2 pr-3">10% neutral buffered formalin, 10 to 20 times the volume of the tissue.</td><td class="py-2 pr-3">Place the specimen in formalin at once. Never let it dry. The specimen must float freely. Minimum fixation time is 24 hours before processing.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Direct immunofluorescence (blistering disease, vasculitis, lupus)</td><td class="py-2 pr-3">Michel&rsquo;s transport medium, or saline-moistened gauze in a sealed pot if Michel&rsquo;s medium is not available.</td><td class="py-2 pr-3">Not formalin. Specimens in Michel&rsquo;s medium must reach the laboratory within 5 days. Take perilesional skin (within 1 cm of a blister, or normal-looking skin 0.5 to 1 cm from the lesion in dermatitis herpetiformis).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Culture (bacteria, mycobacteria, fungi)</td><td class="py-2 pr-3">A sterile pot with a little sterile saline.</td><td class="py-2 pr-3">Do not use formalin. Take a separate sample from the same lesion. Send quickly.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Buruli ulcer PCR and AFB</td><td class="py-2 pr-3">Punch biopsy in a sterile tube for PCR, with a further sample in formalin for histology.</td><td class="py-2 pr-3">Biopsy of the undermined edge of an ulcer. Follow the national programme&rsquo;s instructions for storage and transport.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Frozen section or Mohs</td><td class="py-2 pr-3">Fresh, no fixative.</td><td class="py-2 pr-3">Arrange with the laboratory in advance.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Label</strong> the container with the patient&rsquo;s name and number, the site of the biopsy (for example left upper arm) and the date. The container label and the request form must match. If you take several samples, put them in separate, labelled containers.</li>
+<li><strong>The request form</strong> should include: patient details, site and laterality, the type of biopsy (shave, punch, excision, incisional), whether the whole lesion was removed, the clinical description and duration, the differential diagnosis, relevant tests (HIV status, TB, leprosy), drugs and treatments applied.</li>
+<li><strong>Give the pathologist the story.</strong> A request that says only &ldquo;skin lesion&rdquo; gets a poor answer.</li>
+<li><strong>Track the result.</strong> Write down the date sent, the expected date of the result, and who will chase it. Tell the patient when to return. A biopsy result that is never collected is a failed biopsy.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="aftercare-and-suture-removal" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Aftercare and Suture Removal
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Site</th><th class="py-2 pr-3 font-semibold">Suture</th><th class="py-2 pr-3 font-semibold">Remove after (days)</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Face</td><td class="py-2 pr-3">5-0 or 6-0</td><td class="py-2 pr-3">3 to 5</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Scalp</td><td class="py-2 pr-3">4-0</td><td class="py-2 pr-3">7 to 10</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Arms</td><td class="py-2 pr-3">4-0</td><td class="py-2 pr-3">7 to 10</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Trunk</td><td class="py-2 pr-3">3-0 or 4-0</td><td class="py-2 pr-3">10 to 14</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Legs</td><td class="py-2 pr-3">4-0</td><td class="py-2 pr-3">10 to 14</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Hands and feet</td><td class="py-2 pr-3">4-0 or 5-0</td><td class="py-2 pr-3">10 to 14</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Palms and soles</td><td class="py-2 pr-3">3-0 or 4-0</td><td class="py-2 pr-3">14 to 21</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Keep the dressing on for 24 to 48 hours, then wash gently with clean water and soap. Apply petroleum jelly and a clean dressing daily until healed.</li>
+<li>Shave and saucerization wounds take a couple of weeks or more to heal as a flat scar. Punch sites heal in one to two weeks, longer on the lower leg.</li>
+<li>Take paracetamol for pain. Avoid aspirin unless prescribed.</li>
+<li>Do not apply herbs, powders or traditional preparations to the wound.</li>
+<li>Advise on keloid risk. Review the wound at suture removal and at the visit for the result.</li>
+<li><strong>Return urgently for:</strong> bleeding that does not stop with 10 minutes of pressure, increasing pain, redness, swelling, pus, fever, wound opening, or numbness.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-what-to-do" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Complications and What to Do
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bleeding:</strong> firm pressure for 10 minutes, then aluminium chloride, a stitch or cautery. Check for a bleeding disorder or anticoagulant.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection:</strong> redness, swelling, pus and fever. Clean, give antibiotics according to local protocol, and drain any collection.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Dehiscence:</strong> wound opening, common on tension sites and the lower leg. Clean and dress, and consider resuturing only if clean.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Keloid and hypertrophic scarring:</strong> raised, itchy, enlarging scar. Early steroid injections or referral.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Nerve injury:</strong> numbness or weakness after biopsy near the temple, the neck or digits. Document and refer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Non-diagnostic or inadequate specimen:</strong> crushed, too superficial, from the wrong part of the lesion. Repeat the biopsy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Wrong site or wrong patient:</strong> a serious error. Prevent with marking, photographs and a time-out.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Local anaesthetic reaction:</strong> vasovagal faint (the commonest), palpitations from epinephrine, or true allergy (rare). Lay the patient flat and observe.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Missed melanoma:</strong> a shallow shave or partial punch that did not capture the lesion. Re-excise with the pathologist and surgeon.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Lost result:</strong> a specimen that never reached the laboratory or a result that was not followed up.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Special Situations in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Person with albinism and a suspicious lesion</td><td class="py-2 pr-3">Biopsy every non-healing, ulcerated, crusted or rapidly growing lesion on sun-exposed skin. Expect SCC and BCC. Excise with the surgeon. Counsel on sun protection and regular skin checks.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">HIV and a violaceous plaque or nodule</td><td class="py-2 pr-3">Punch biopsy through the full thickness for histology to confirm Kaposi sarcoma. Ask about HIV status, and link to HIV care.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pigmented lesion on the sole, palm or nail</td><td class="py-2 pr-3">Suspect acral melanoma. Examine with dermoscopy if you can. Excisional or full-thickness incisional biopsy including the nail matrix for subungual lesions, and early referral.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Chronic leg ulcer, including a sickle cell ulcer</td><td class="py-2 pr-3">A non-healing ulcer of long duration can contain a squamous cell carcinoma. Take an incisional biopsy from the edge, including the junction with normal skin.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected leprosy</td><td class="py-2 pr-3">Look for hypopigmented or erythematous patches with loss of sensation and thickened nerves. A biopsy from the active edge is used where diagnosis is uncertain. Follow the national leprosy programme, which also uses slit-skin smears.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Buruli ulcer</td><td class="py-2 pr-3">Biopsy or swab from the undermined edge for PCR and histology. In a field setting PCR on punch biopsy was 98 per cent sensitive in one Ghanaian study.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Mycetoma and deep fungal infection</td><td class="py-2 pr-3">Deep incisional biopsy to reach grains or organisms, with part in formalin and part sterile for culture.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Onchocerciasis</td><td class="py-2 pr-3">Diagnosis in programmes uses a superficial skin snip examined in saline. This follows the onchocerciasis programme protocol and is not a standard biopsy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Children</td><td class="py-2 pr-3">Use topical anaesthesia where safe, a calm assistant, and general anaesthesia for extensive or facial biopsies. Choose a punch for most.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Keloid-prone patient</td><td class="py-2 pr-3">Biopsy only if needed. Use the smallest punch, avoid the chest, shoulders and upper back where possible, and warn of scarring.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Patient on anticoagulants</td><td class="py-2 pr-3">Do not stop them for a simple punch. Use sutures and pressure.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm1105849" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: How to Perform a Punch Biopsy of the Skin</a> &ndash; techniques and equipment for punch biopsy. The full video may need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.stjohnsdermacademy.com/healthcare-professionals-videos" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">St John&rsquo;s Dermatology Academy: Educational videos for clinicians</a> &ndash; consent, shave, punch, incisional and excisional biopsy videos.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://learning.aad.org/AssetListing/Basic-Dermatology-Curriculum-Videos-5520/How-to-Perform-a-Punch-Biopsy-18849" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAD Basic Dermatology Curriculum: How to Perform a Punch Biopsy</a> &ndash; equipment, lidocaine with epinephrine, crush artefact and haemostasis.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=QQhK5l6Psf0" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Skin biopsy explained: 3D visualisation of punch, shave and excision</a> &ndash; animation of the three main techniques.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.acponline.org/sites/default/files/documents/about_acp/chapters/co/19mtg/lemon.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Skin biopsy lecture notes with embedded shave and punch videos (ACP)</a> &ndash; which biopsy to choose, with practical tips on punch and elliptical closure.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Written guides and guidelines</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aafp.org/pubs/afp/issues/2011/1101/p995.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAFP: Shave and punch biopsy for skin lesions</a> &ndash; indications, techniques, suture and removal tables, and high-risk lesion features.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mja.com.au/journal/2020/212/4/how-perform-skin-biopsy" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to perform a skin biopsy (Medical Journal of Australia)</a> &ndash; technique, transport media and DIF sampling.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.racgp.org.au/AJGP/2018/April/Skin-biopsies" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Skin biopsies (Australian Journal of General Practice)</a> &ndash; which biopsy for which presentation, anaesthesia and equipment.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.statpearls.com/point-of-care/29089" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">StatPearls: Skin biopsy</a> &ndash; biopsy types, equipment, haemostasis and complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mdedge.com/content/biopsies-skin-cancer-detection-dispelling-myths/page/0/3" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Biopsies for skin cancer detection: dispelling the myths (J Fam Pract)</a> &ndash; suspected melanoma, saucerization, and margins.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://dermnetnz.org/cme/lesions/processing-skin-biopsies" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">DermNet: Processing skin biopsies</a> &ndash; fixation, formalin volume and what to put on the request form.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://kdlpathology.com/skin-specimen-prep" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Skin specimen preparation guide (pathology laboratory)</a> &ndash; formalin ratio, Michel&rsquo;s medium for DIF and perilesional sites.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://labce.com/spg2715625_overview_of_collection_procedures.aspx" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Overview of skin specimen collection procedures</a> &ndash; avoiding mix-ups and using the right container.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian skin cancer and biopsy context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://katalog.lib.cas.cz/KNAV/EdsRecord/edsdoj,edsdoj.1bcd8d3c63954093a56c4280cd977e79" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Malignant skin tumours in a Nigerian teaching hospital: a 10-year review</a> &ndash; 387 skin biopsies, 28 per cent malignant, site and type.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3769122" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Malignant skin tumours in Benin City: a 25-year review</a> &ndash; melanoma, Kaposi sarcoma and SCC with sites; most melanomas on the leg and foot.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/atp/article/view/274506" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Histopathological review of dermatological malignancies in Makurdi</a> &ndash; Kaposi sarcoma predominant, with SCC, melanoma and DFSP.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.msjonline.org/index.php/ijrms/article/download/16224/10247/80705" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Skin cancers in Makurdi, 2026 review</a> &ndash; SCC and melanoma predominance, late presentation, and small pathology services.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7105334" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Cutaneous malignancies in albinos in Anambra State</a> &ndash; biopsy and dermoscopy in albinism.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://elsa.ecancer.org/en/journal/article/1013-histopathologic-patterns-of-cutaneous-malignancies-in-individuals-with-oculocutaneous-albinism-in-anambra-state-nigeria-a-paradigm-swing/abstract" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Histopathologic patterns of skin cancer in albinism: ecancer abstract</a> &ndash; BCC to SCC ratio and absence of melanoma in the cohort.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/njs/article/view/170006" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Cutaneous cancers in Nigerian albinos: review of 22 cases</a> &ndash; late presentation and excision biopsy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.nigjdermatology.com/index.php/NJD/article/download/73/46/236" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Nigerian Association of Dermatologists conference abstracts</a> &ndash; dermoscopy for acral lentiginous melanoma in dark skin.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ir.knust.edu.gh/bitstreams/162e7a8b-20f6-4515-b84c-60c44be1f234/download" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PCR on punch biopsy for Buruli ulcer, field study in Ghana</a> &ndash; sampling and processing for histology, culture and PCR.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM and AAD videos for punch technique and the St John&rsquo;s academy for shave and excision, and use the written guides to choose the technique. None replaces supervised training.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Choose the technique for the question: punch for inflammatory disease, infection and small lesions; shave or saucerization for raised superficial or pigmented lesions; incisional for ulcers and deep disease; excisional for suspected melanoma.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Suspected melanoma: excisional biopsy with a 1 to 3 mm margin, or a deep saucerization. Never a shallow shave or a partial or small punch. In Nigeria, think acral melanoma on the sole, palm or nail.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sample the right place: centre of an established lesion for rashes, advancing edge for annular lesions, an early intact vesicle plus perilesional skin for blisters, and the junction of ulcer and normal skin for ulcers.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Mark and photograph the lesion before injecting, and do a time-out. Epinephrine blanches the skin and hides the margin.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Lidocaine 1% with 1:100,000 epinephrine, buffered 9:1 with bicarbonate, 30 G needle, wait 10 minutes. No epinephrine on digits, penis, ear or nose. Do not stop anticoagulants for a punch.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Punch: 4 mm for most, stretch perpendicular to skin tension lines, rotate until the give, lift gently with a needle, snip in the fat, and suture.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Formalin 10 to 20 times the tissue volume for histology. Michel&rsquo;s medium or saline gauze (not formalin) for DIF. Sterile saline for culture and PCR.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fill in the request form with site, biopsy type, history and differential, and whether the whole lesion was removed. Chase the result.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Suture removal: face 3 to 5 days, scalp and arms 7 to 10, trunk, legs and hands 10 to 14, palms and soles 14 to 21.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Plan for keloids in dark skin, nerve danger zones, and slow healing on the lower leg. Biopsy chronic leg ulcers at the edge for carcinoma.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. American Academy of Family Physicians. Shave and punch biopsy for skin lesions. Am Fam Physician 2011;84:995-1002.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. American Academy of Dermatology Guidelines of care for the management of primary cutaneous melanoma; National Comprehensive Cancer Network Clinical Practice Guidelines in Oncology: Melanoma (biopsy recommendations).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Journal of Family Practice. Biopsies for skin cancer detection: dispelling the myths. J Fam Pract 2018;67:270-274.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Medical Journal of Australia. How to perform a skin biopsy. Med J Aust 2020;212:196-200 (practice guidance).</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Australian Journal of General Practice. Skin biopsies. Aust J Gen Pract 2018;47(4).</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. StatPearls. Skin biopsy. Treasure Island: StatPearls Publishing.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. DermNet NZ. Processing skin biopsies (CME).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. New England Journal of Medicine, Videos in Clinical Medicine. How to perform a punch biopsy of the skin. N Engl J Med 2013;369:e13.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Malignant skin tumours seen at a Nigerian teaching hospital: a 10-year review (2008 to 2017), classified using the 2021 WHO skin tumour classification.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Malignant skin tumours in Benin City, Nigeria: a 25-year histopathological review (1982 to 2007).</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Histopathological review of dermatological malignancies in Makurdi, North Central Nigeria; and review of skin cancers in Makurdi, Int J Res Med Sci 2026;14:419-426.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Pattern of cutaneous malignancies in persons with oculocutaneous albinism in Anambra State, Nigeria; and cutaneous cancers in Nigerian albinos: a review of 22 cases. Niger J Surg.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Sensitivity of PCR targeting the IS2404 insertion sequence of Mycobacterium ulcerans in an assay using punch biopsy specimens for diagnosis of Buruli ulcer. J Clin Microbiol.</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. Pathology laboratory specimen collection guides: skin specimen preparation (formalin ratio, Michel&rsquo;s medium, perilesional sites for DIF).</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+
+{
+  id: 'procedure-circumcision',
+  title: 'Circumcision: Neonates, Infants and Older Children',
+  category: 'Procedures',
+  subCategory: 'Paediatric Surgery',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Circumcision: Neonates, Infants and Older Children</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; PAEDIATRIC SURGERY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Circumcision: Neonates, Infants and Older Children</h1>
+  <p class="text-sm text-indigo-200">Almost every Nigerian baby boy is circumcised in the first weeks of life, usually by a nurse, a traditional birth attendant or a junior doctor, and most of it goes well. Yet a clinic series in Ibadan found one in five boys with a complication, and paediatric surgery units see retained Plastibell rings, fistulas, skin bridges and amputated glans every month. This guide covers who should and should not be circumcised, consent, anaesthesia, the Plastibell, Gomco and Mogen methods in babies, dorsal slit and sleeve techniques in older children, aftercare, and how to recognise and manage complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-and-timing" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications and Timing</span></a></li>
+  <li><a href="#stop-signs-who-must-not-be-circumcised-in-the-clinic" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Stop Signs: Who Must Not Be Circumcised in the Clinic</span></a></li>
+  <li><a href="#consent-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Consent and Counselling</span></a></li>
+  <li><a href="#choosing-a-method-and-equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Choosing a Method and Equipment</span></a></li>
+  <li><a href="#anaesthesia-and-analgesia" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Anaesthesia and Analgesia</span></a></li>
+  <li><a href="#preparation-checklist" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Preparation Checklist</span></a></li>
+  <li><a href="#technique-plastibell" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique: Plastibell</span></a></li>
+  <li><a href="#technique-gomco-and-mogen-clamps" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Technique: Gomco and Mogen Clamps</span></a></li>
+  <li><a href="#technique-older-child-dorsal-slit-and-sleeve" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Technique: Older Child (Dorsal Slit and Sleeve)</span></a></li>
+  <li><a href="#aftercare-and-what-to-tell-parents" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Aftercare and What to Tell Parents</span></a></li>
+  <li><a href="#complications-and-their-management" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Complications and Their Management</span></a></li>
+  <li><a href="#training-safety-and-quality" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Training, Safety and Quality</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>It is almost universal.</strong> In a 2006 survey of 370 male infants at an infant welfare clinic in Ibadan, 87 per cent were circumcised, 84 per cent of them in the neonatal period and 81 per cent in hospital. The operation was done by nurses in 56 per cent, doctors in 35 per cent and traditional circumcisers in 9 per cent.</li>
+<li><strong>Complications are common and sometimes severe.</strong> In that survey, 20 per cent of circumcised boys had a complication: redundant foreskin (54 per cent of complications), excessive loss of skin (25 per cent) and skin bridges (17 per cent). Two boys had the glans amputated, and one of them also had a severe haemorrhage needing blood. Other series report lower rates: 5 per cent in an Enugu neonatal series (urethrocutaneous fistula was the commonest complication) and 7.5 per cent among 1,794 Plastibell circumcisions (retained Plastibell was commonest). Most complications followed circumcisions by nurses who were not formally trained or registered, and by traditional providers.</li>
+<li><strong>Who does it.</strong> In one southern series, registered nurses performed 67 per cent of neonatal circumcisions, traditional birth attendants 23 per cent and doctors 10 per cent. Training and supervision of non-doctors is the main safety lever.</li>
+<li><strong>The Plastibell is the commonest device.</strong> Nigerian paediatric surgery units describe it as the well-known and preferred method, listed by WHO as well proven for results and complications. Training matters: correct size, correct ligature, and parental education prevent most mishaps.</li>
+<li><strong>Why you must screen.</strong> G6PD deficiency and neonatal jaundice are common, haemophilia and other bleeding disorders occur, and hypospadias is easy to miss until the foreskin has gone. Cultural and religious expectations push families to circumcise early; your job is to make it safe.</li>
+<li><strong>Medical indications.</strong> Pathological phimosis, recurrent balanoposthitis or urinary tract infection, paraphimosis and balanitis xerotica obliterans (BXO) in older boys. WHO, UNAIDS and Jhpiego also support voluntary male circumcision as part of HIV prevention in high-prevalence settings, with manuals for infants and for adolescents and adults.</li>
+<li><strong>Not the same as female genital cutting.</strong> FGM is a harmful practice with no health benefit and is prohibited by Nigerian law. It is not covered here.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-timing" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications and Timing
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Group</th><th class="py-2 pr-3 font-semibold">Reasons</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Neonates and young infants</td><td class="py-2 pr-3">Cultural, religious or family choice. Public health benefit (HIV, urinary tract infection, penile infections) is cited, but the operation is elective.</td><td class="py-2 pr-3">Technically easier in the first three months, often without general anaesthesia. Performed under local anaesthesia. Choose a trained provider and a clean, planned setting.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Older children (toddlers to adolescents)</td><td class="py-2 pr-3">Pathological phimosis, recurrent balanoposthitis, recurrent UTI with a tight foreskin, paraphimosis, balanitis xerotica obliterans, trauma, or religious or cultural choice.</td><td class="py-2 pr-3">Under 10 years, a short general anaesthetic is usually best. Cooperative children of 5 years and above may manage with a local block and sedation.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Adolescents and adults (VMMC)</td><td class="py-2 pr-3">HIV prevention, medical indications, personal choice.</td><td class="py-2 pr-3">See the WHO manual for male circumcision under local anaesthesia. Devices such as ShangRing and PrePex are used in some programmes.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Timing in the newborn</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Not in the first 12 to 24 hours of life, and only when the baby is well, feeding, has passed urine, is not significantly jaundiced and has been given vitamin K.</li>
+<li>Many Nigerian units book the operation for a set day in the first weeks of life rather than the first day, so there is time to screen. A Nigerian paediatric surgery series had a mean age of about 18 days.</li>
+<li>Weight at least 2.5 kg. Premature or small babies are not suitable, because the glans may be too small for the device.</li>
+<li>For a neonate with jaundice, wait until the bilirubin is back to normal and there is no haemolytic cause such as G6PD deficiency or ABO incompatibility.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-who-must-not-be-circumcised-in-the-clinic" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Stop Signs: Who Must Not Be Circumcised in the Clinic
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Do Not Circumcise (Refer to a Paediatric Surgeon) If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Any abnormality of the penis:</strong> hypospadias, epispadias, chordee, penile torsion, webbed penis, buried (concealed) penis, urethral hypoplasia, micropenis or ambiguous genitalia. The foreskin may be needed for reconstruction. Do not start if the penis looks abnormal.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A small glans</strong> that does not fit comfortably within the clamp or Plastibell, and premature infants under 2.5 kg.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A bleeding tendency:</strong> a family history of haemophilia or easy bruising, or a known disorder such as thrombocytopenia. Test before you cut.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A sick baby:</strong> any illness that needs monitoring, sepsis, significant jaundice, respiratory distress, or unstable vital signs. Wait.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Age under 12 to 24 hours</strong> or no voiding.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Skin or connective tissue disease</strong> that impairs healing, or local infection (balanitis, nappy rash, skin infection).</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Unknown immunisation status or no vitamin K</strong> in a neonate. Give vitamin K first and wait.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No sterile equipment, no analgesia or no trained operator.</strong> Do not proceed with a razor or a contaminated instrument.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Examine the whole genital area before you consent the family. Retract the foreskin gently only if it retracts easily, and look for the urethral opening, the shape of the glans, and the position of the meatus. Check the testes.</li>
+<li>A <strong>dorsal hood</strong> (foreskin that is incomplete ventrally) is a warning sign of hypospadias. Stop and refer.</li>
+<li>In older children, a pathological phimosis with BXO, or a very scarred foreskin, may need an experienced surgeon and general anaesthesia.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="consent-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Consent and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Obtain written informed consent from the parent or legal guardian, with the child&rsquo;s assent in an older child. The mother alone consented in several African infant programmes; follow your hospital policy on whether both parents must agree.</li>
+<li>Explain the reasons, the risks, the pain relief and the aftercare. Offer a chance to ask questions. Make sure the parents understand that this is an elective procedure for a healthy baby, and that you will stop if you find an abnormality.</li>
+<li>Explain who will do it, with what device, and what to expect afterwards.</li>
+<li>Use plain, respectful language. Do not pressure families.</li>
+</ul>
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;We will first examine your baby to be sure he is well and that the penis is normal. We will numb the area so he does not feel pain, and then remove the foreskin using a clean, single-use device and sterile instruments. Afterwards you will look after the wound for about a week. There is a small chance of bleeding, infection or a poor cosmetic result, and we will teach you what to watch for.&rdquo;</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Risks to tell parents about</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Bleeding, infection, and swelling.</li>
+<li>A retained or slipped Plastibell ring.</li>
+<li>Too much or too little skin removed, skin bridges and adhesions.</li>
+<li>Narrowing of the urethral opening (meatal stenosis), a fistula, and in rare cases injury to or loss of the glans.</li>
+<li>The need for further treatment or surgery.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-a-method-and-equipment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Choosing a Method and Equipment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Method</th><th class="py-2 pr-3 font-semibold">How it works</th><th class="py-2 pr-3 font-semibold">Best for</th><th class="py-2 pr-3 font-semibold">Cautions</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Plastibell</td><td class="py-2 pr-3">A plastic ring is placed between the glans and the foreskin, a ligature crushes the skin onto the groove, and the distal foreskin falls off with the ring in 3 to 10 days.</td><td class="py-2 pr-3">Neonates and young infants. The common method in Nigerian units.</td><td class="py-2 pr-3">Retained or slipped ring, bleeding, infection. Right size and correct ligature are crucial.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gomco clamp</td><td class="py-2 pr-3">The foreskin is drawn through a bell and clamped, then cut along the crush line.</td><td class="py-2 pr-3">Neonates and infants.</td><td class="py-2 pr-3">Needs assembly and the right bell size. Keep the clamp on for at least 5 minutes.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Mogen clamp</td><td class="py-2 pr-3">The foreskin is pulled through a narrow clamp and cut. No bell protects the glans.</td><td class="py-2 pr-3">Neonates in experienced hands. Used in many African infant programmes.</td><td class="py-2 pr-3">Higher risk of glans injury or amputation. Be certain only the foreskin is in the clamp.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Dorsal slit and sleeve (open techniques)</td><td class="py-2 pr-3">The foreskin is slit dorsally and excised by free-hand or sleeve incisions, with ligation of vessels and absorbable sutures.</td><td class="py-2 pr-3">Older children and adults. Used when a device does not fit.</td><td class="py-2 pr-3">Needs surgical skill, haemostasis and suturing. Usually under local anaesthesia in cooperative children or general anaesthesia in younger ones.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Forceps-guided</td><td class="py-2 pr-3">The foreskin is held in a forceps, the glans is protected, and the skin is cut at a safe level.</td><td class="py-2 pr-3">Adolescents and adults (WHO manual).</td><td class="py-2 pr-3">Needs training.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Devices for adolescents and adults</td><td class="py-2 pr-3">ShangRing, PrePex.</td><td class="py-2 pr-3">Adolescent and adult VMMC.</td><td class="py-2 pr-3">Not suitable for babies. Follow national guidance.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment checklist</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Sterile pack</td><td class="py-2 pr-3">Drapes, gloves, antiseptic, gauze, artery forceps (mosquito forceps), scissors, probe, needle holder, scalpel.</td><td class="py-2 pr-3">No operation without sterile instruments. Instruments must not be reused between babies without sterilisation.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Device</td><td class="py-2 pr-3">Plastibell of the right size, or Gomco clamp with the right bell, or Mogen clamp. Checked before use.</td><td class="py-2 pr-3">Do not improvise a device. Refer.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">1% lidocaine without adrenaline, a 1 mL syringe and a 27 G needle.</td><td class="py-2 pr-3">Plain lidocaine only. Never use adrenaline on the penis.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suture</td><td class="py-2 pr-3">5/0 absorbable (chromic catgut or polyglactin) for open techniques, silk or the Plastibell ligature as supplied.</td><td class="py-2 pr-3">Fine absorbable suture.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Haemostasis</td><td class="py-2 pr-3">Fine ligatures, diathermy if available, haemostatic gauze.</td><td class="py-2 pr-3">Pressure and ligatures.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Dressing</td><td class="py-2 pr-3">Petroleum jelly gauze (for Gomco and open methods), topical antibiotic if your protocol uses it.</td><td class="py-2 pr-3">A clean non-adherent dressing.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Monitoring</td><td class="py-2 pr-3">Pulse oximeter, warmth, a person watching the baby.</td><td class="py-2 pr-3">A trained assistant is essential.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Resuscitation</td><td class="py-2 pr-3">Bag and mask, suction, oxygen, adrenaline.</td><td class="py-2 pr-3">Know who to call.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="anaesthesia-and-analgesia" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Anaesthesia and Analgesia
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Local anaesthesia is mandatory</strong> in the newborn. Both a dorsal penile nerve block (DPNB) and a ring block with plain lidocaine are safe and effective. The DPNB is the most common technique and is more effective than topical lidocaine-prilocaine cream.</li>
+<li><strong>Drug and dose:</strong> 1% lidocaine (10 mg per mL) without adrenaline. A common total dose is about 3 to 3.3 mg per kg. A rule of thumb for DPNB is 0.8 mL for babies of 2.5 to 3 kg and 1.0 mL for babies over 3 kg. A hospital guideline gives 0.5 to 1 mL for the dorsal nerve block and the same for a ring block. Some units dilute 2% lidocaine to 1% and give 3 mg per kg. Never add adrenaline: the penile arteries are end arteries.</li>
+<li><strong>Technique:</strong> after cleaning the skin, inject at the base of the penis at about 10 and 2 o&rsquo;clock positions, just under the pubic symphysis, and add a subcutaneous ring of anaesthetic if your protocol includes a ring block. Aspirate before injecting. Wait 3 to 5 minutes before starting.</li>
+<li><strong>Non-drug measures:</strong> swaddle the upper body, give oral sucrose on a pacifier, and allow a calm, quiet room.</li>
+<li><strong>Older children:</strong> under 10 years, general anaesthesia is usually the best choice for a short operation. Toddlers (2 to 5 years) and uncooperative children need it. Cooperative children of 5 years and older may manage with local anaesthesia. Combine a penile block with general anaesthesia to give pain relief afterwards.</li>
+<li><strong>After the procedure:</strong> paracetamol (acetaminophen) at 15 mg per kg per dose on demand.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: EMLA cream is not a safe default here</p>
+<p class="text-sm">Some Nigerian units apply 5% lidocaine-prilocaine cream (EMLA) about 90 minutes before the operation. It is less effective than a dorsal penile or ring block. Prilocaine can cause methaemoglobinaemia, and G6PD-deficient babies are more susceptible, which matters in a population with a G6PD deficiency prevalence of at least 15 per cent. EMLA is also not recommended in infants under 3 months and is contraindicated in infants under 12 months taking drugs that cause methaemoglobinaemia. Prefer a dorsal penile nerve block with plain lidocaine.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation-checklist" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Preparation Checklist
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Confirm identity and consent.</strong> Check the baby&rsquo;s name and the consent form.</li>
+<li><strong>Check eligibility:</strong> weight at least 2.5 kg, age at least 24 hours, feeding, passed urine, no jaundice, vitamin K given, no family history of bleeding, and normal examination of the penis.</li>
+<li><strong>Examine the penis</strong> in good light: complete foreskin, straight penis, normal meatal position, adequate glans size.</li>
+<li><strong>Prepare the room:</strong> warm, clean, with a sterile pack and the device checked and assembled. Keep the baby warm.</li>
+<li><strong>Fasting:</strong> in a neonate, do not fast for long. Feed shortly before so the baby is settled and has a normal glucose.</li>
+<li><strong>Time-out:</strong> operator and assistant confirm the baby, the procedure, the device size, the drug and the dose.</li>
+<li><strong>Position</strong> the baby supine, restrained gently with the legs secured, and place the pulse oximeter.</li>
+<li><strong>Clean and drape</strong> with antiseptic, taking care not to let it pool under the baby, which can burn the skin.</li>
+<li><strong>Give anaesthesia</strong> (Section 6) and wait for it to work.</li>
+<li><strong>Free adhesions</strong> between the foreskin and the glans gently with a probe, until the coronal sulcus is fully exposed. Look at the glans and the meatus once more. If anything abnormal appears, stop.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-plastibell" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Technique: Plastibell
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Prepare</strong> as in Section 7. Apply two artery (mosquito) forceps to the foreskin at 3 and 9 o&rsquo;clock and lift gently.</li>
+<li><strong>Dorsal slit.</strong> Place a straight artery forceps along the dorsal foreskin up to just short of the corona, and crush for about a minute. Remove it and cut along the crush line with scissors, to expose the glans. Take care not to cut into the glans or to extend beyond the coronal sulcus.</li>
+<li><strong>Select the size.</strong> Choose the Plastibell that fits snugly over the glans, with the rim sitting just behind it. The size is chosen by fitting, not by age. If the bell is too small it will constrict the glans, and if too big it will slip off.</li>
+<li><strong>Place the bell.</strong> Slide the Plastibell over the glans so that the groove lies about 2 to 3 mm behind the corona. Pull the foreskin forward over the bell so that the dorsal slit lies at 12 o&rsquo;clock.</li>
+<li><strong>Tie the ligature.</strong> Tie the supplied string tightly in the groove of the ring, over the foreskin, with a double knot. This crushes the skin and stops the blood supply to the distal foreskin. Check that the knot is firm, and the bell moves freely over the glans.</li>
+<li><strong>Excise the redundant foreskin</strong> with scissors, about 3 to 5 mm distal to the ligature. Be sure not to cut the string or the ring.</li>
+<li><strong>Break the handle</strong> off the ring, and leave the ring in place. Check haemostasis. Make sure the urethral meatus is clear and the baby can pass urine through the ring.</li>
+<li><strong>Dress</strong> as your protocol requires, or leave the wound open with a smear of antibiotic ointment. Keep the baby under observation and confirm that he passes urine before discharge.</li>
+<li><strong>Tell the parents</strong> that the ring falls off with the dead skin in about 3 to 10 days, and what to do if it does not (Section 11).</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-gomco-and-mogen-clamps" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Technique: Gomco and Mogen Clamps
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Gomco clamp</strong>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li>Check the clamp is assembled correctly, the bell is the right size, and there are no defects.</li>
+<li>Place a straight artery forceps along the dorsal foreskin to just below the corona, crush for about a minute, and slit along the crush line. Avoid spreading the forceps at the ventral frenulum (6 o&rsquo;clock), which bleeds.</li>
+<li>Free the adhesions and measure the bell against the glans. Place the bell over the glans and pull the foreskin back over it.</li>
+<li>Pass the bell stem through the hole in the base plate, with the dorsal slit at the top, and the foreskin evenly distributed. Check the position of the glans below the bell and of the meatus.</li>
+<li>Tighten the clamp. The aim is to remove more dorsal than ventral foreskin and to leave the un-retracted foreskin just covering the corona. Leave the clamp on for at least 5 minutes, which reduces the risk of bleeding.</li>
+<li>Cut the foreskin along the base plate with a scalpel. Loosen the clamp, remove the bell, and use moistened gauze to separate it gently from the glans. Check haemostasis, then apply petroleum jelly gauze.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Mogen clamp</strong>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li>No bell protects the glans, so use this clamp only if you are trained.</li>
+<li>Free the adhesions fully. Pull the foreskin forward through the open clamp (about 3 mm) with the concave side down, and make sure the glans is not in the clamp.</li>
+<li>Close and lock the clamp only when you are certain the glans is clear. Cut the foreskin on the surface of the clamp. Release the clamp after the recommended time, and check haemostasis.</li>
+<li>The Mogen clamp has a higher risk of glans laceration and amputation. Training in infant clinics in Uganda and Botswana shows it can be taught safely to nurses and clinical officers with competence-based supervision.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-older-child-dorsal-slit-and-sleeve" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Technique: Older Child (Dorsal Slit and Sleeve)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">In older children, the common methods are the dorsal slit, the sleeve resection, or a combination. The forceps-guided method is also described in the WHO manual. Plastibell is less successful in older children because the ring is more likely to slip or be retained.</p>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Anaesthesia:</strong> general anaesthesia plus a penile block in most children under 10, or a penile block with sedation in a cooperative older child. Clean and drape.</li>
+<li><strong>Mark the incision.</strong> With the foreskin gently retracted, mark the line of the coronal incision with a skin marker, about 5 mm behind the corona dorsally and a little more ventrally, leaving the frenulum. Reposition the foreskin.</li>
+<li><strong>Free adhesions</strong> between the glans and the inner foreskin with a probe. In phimosis, a dorsal slit may be needed first, to expose the glans.</li>
+<li><strong>Dorsal slit:</strong> apply two mosquito forceps on either side of the preputial opening and a straight artery forceps along the dorsal foreskin. Crush for 3 to 5 minutes to reduce bleeding, and cut along the crush line to the planned level.</li>
+<li><strong>Excise the foreskin.</strong> Trim the redundant foreskin with scissors or with circular incisions (sleeve resection), keeping a cuff of inner foreskin and leaving the frenulum. Protect the glans and urethra.</li>
+<li><strong>Haemostasis.</strong> Ligate or cauterise the bleeding vessels, starting with the frenular artery and the dorsal vessels. Take care with diathermy near the shaft.</li>
+<li><strong>Close.</strong> Suture the inner and outer skin edges together with 5/0 absorbable sutures (chromic catgut or polyglactin) at about 4 to 7 mm intervals, starting at the frenulum and at the 12 and 6 o&rsquo;clock positions.</li>
+<li><strong>Dress</strong> with petroleum jelly gauze or a loose dressing. Do not wrap the penis tightly.</li>
+<li><strong>Recovery:</strong> give paracetamol, check bleeding and urine output, and discharge with instructions.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="aftercare-and-what-to-tell-parents" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Aftercare and What to Tell Parents
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Before discharge:</strong> check that the baby has passed urine, there is no bleeding, and the baby is feeding.</li>
+<li><strong>Pain relief:</strong> paracetamol at the correct weight-based dose for the first day or two, as needed.</li>
+<li><strong>Wound care:</strong> keep the area clean and dry. Wash gently with clean water. Change nappies often. After a Gomco or open circumcision, apply petroleum jelly to the tip or the gauze at each nappy change, if advised, to stop the wound sticking to the nappy.</li>
+<li><strong>Plastibell:</strong> leave the ring alone. It falls off with the dead skin in about 3 to 10 days. Do not pull it. Bring the baby back if it has not fallen off by about 10 days, if it slips down onto the shaft, or if the penis becomes swollen, blue or painful.</li>
+<li><strong>Return urgently if:</strong> bleeding that does not stop with 10 minutes of firm pressure, no urine in 6 to 8 hours, increasing swelling or redness, pus, fever, the baby refusing feeds, a swollen or dusky glans, or an exposed or displaced ring.</li>
+<li><strong>Normal:</strong> a yellowish film over the glans, mild swelling, and a little spotting on the nappy in the first day.</li>
+<li><strong>Follow-up:</strong> review at about one week, and check the cosmetic result, meatus and any adhesions.</li>
+<li><strong>Do not</strong> apply herbs, ash, powder or traditional dressings to the wound.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-their-management" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Complications and Their Management
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Warning Signs That Need Action</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bleeding</strong> that does not stop with firm pressure for 10 minutes: re-examine, find the bleeding vessel, apply a suture or ligature or diathermy, and check clotting. Transfuse if there is severe blood loss.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Glans injury or amputation:</strong> keep the amputated part in sterile saline-soaked gauze on ice (not in direct contact), cover the wound, and transfer urgently to a paediatric surgeon. Do not discard it.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Ring slippage or penile strangulation</strong> with a swollen, dusky glans or shaft: an emergency. Remove the ring and ligature at once.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Acute urinary retention</strong> or no urine: caused by a ring that is too tight, swelling or a dressing. Remove the constriction and refer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection:</strong> redness, swelling and pus. Clean, apply antibiotics, and watch for spread. Rare in uncomplicated circumcision.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Systemic illness:</strong> fever, poor feeding, lethargy after circumcision. Consider sepsis and treat as an emergency.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Complication</th><th class="py-2 pr-3 font-semibold">Cause</th><th class="py-2 pr-3 font-semibold">Management</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Retained Plastibell</td><td class="py-2 pr-3">Ligature too tight or too loose, wrong size, or ring buried.</td><td class="py-2 pr-3">Cut the ligature and remove the ring, under analgesia. The commonest Plastibell complication in Nigerian series.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Bleeding</td><td class="py-2 pr-3">Vessel in the frenulum or on the shaft, short clamp time, bleeding disorder.</td><td class="py-2 pr-3">Pressure, suture or ligature, diathermy, clotting screen, transfusion if severe.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Skin bridge</td><td class="py-2 pr-3">Raw edges of the shaft and glans sticking together.</td><td class="py-2 pr-3">Divide under local anaesthesia, with petroleum jelly afterwards.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Excess or insufficient skin</td><td class="py-2 pr-3">Poor marking, wrong device size or technique.</td><td class="py-2 pr-3">Revision by a surgeon after healing. Counsel the family.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Meatal stenosis or meatitis</td><td class="py-2 pr-3">Healing of the exposed meatus, ammoniacal nappy irritation.</td><td class="py-2 pr-3">Petroleum jelly, meatotomy if symptomatic.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Urethrocutaneous fistula</td><td class="py-2 pr-3">Crush or ligature including the urethra.</td><td class="py-2 pr-3">Surgical repair after healing. The commonest complication in one Enugu neonatal series.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Buried or concealed penis</td><td class="py-2 pr-3">Too much skin removed.</td><td class="py-2 pr-3">Surgical correction later.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Inclusion cyst, adhesions</td><td class="py-2 pr-3">Skin buried under the suture line or glans-shaft adhesions.</td><td class="py-2 pr-3">Excision or division as needed.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Glans amputation or penile loss</td><td class="py-2 pr-3">Clamp or scalpel injury, diathermy burn.</td><td class="py-2 pr-3">Emergency surgery. Prevent with training, correct device use and no diathermy on babies.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="training-safety-and-quality" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Training, Safety and Quality
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Competence-based training of non-physicians works. A training study in Uganda showed nurses and clinical officers acquiring safe infant circumcision skills with the Mogen clamp, using a structured curriculum and checklists. Nigerian reports repeatedly recommend retraining nurses and others who circumcise.</li>
+<li>Supervise trainees, keep a log, and review every complication. Do not allow untrained or unregistered staff to operate alone.</li>
+<li>Use a checklist: consent, eligibility, vitamin K, penis examination, anaesthesia, device size, time-out, haemostasis, discharge teaching.</li>
+<li>Do not reuse devices or instruments without sterilisation. One baby, one set.</li>
+<li>Keep a register of every circumcision, with the provider, method and complications. Report severe complications.</li>
+<li>Engage traditional birth attendants and traditional circumcisers: train, supervise and set clear referral rules for babies who are unwell or who have an abnormal penis.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://vimeo.com/74547358" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Instructional video: Gomco clamp circumcision</a> &ndash; linked from the Family Practice Notebook neonatal circumcision page.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://vimeopro.com/hpmi/plastibell-circumcision/video/27771734" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Instructional video: Plastibell circumcision</a> &ndash; linked from the Family Practice Notebook page.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://med.stanford.edu/newborns/professional-education/circumcision/mogen-clamp-technique.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Stanford Newborn Nursery: Mogen clamp technique</a> &ndash; step-by-step page with instructional video, including precautions.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=llWfld7hRMk" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Circumcision (Gomco clamp): step-by-step demonstration</a> &ndash; a five-week-old boy, from the surgeon&rsquo;s point of view.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=YuGlKhbU3tc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Circumcision using Gomco clamp</a> &ndash; another demonstration in a five-week-old boy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=sbJacY5gahk" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Gomco clamp circumcision procedure, live patient</a> &ndash; an educational channel video of neonatal circumcision.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=qu4OdPj3DKM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neonatal circumcision performed with the Gomco clamp</a> &ndash; a second view of a live patient.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=NmuLitGl6sM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Mogen clamp circumcision</a> &ndash; a neonatal Mogen clamp circumcision. Read the caution about glans injury before using this method.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Manuals and guides</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.malecircumcision.org/resource/manual-early-infant-male-circumcision-under-local-anaesthesia" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO, UNAIDS and Jhpiego: Manual for Early Infant Male Circumcision under Local Anaesthesia</a> &ndash; the standard infant manual and training package (facilitator&rsquo;s guide and learner&rsquo;s workbook).</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.malecircumcision.org/resource/manual-male-circumcision-under-local-anesthesia" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: Manual for Male Circumcision under Local Anaesthesia and HIV Prevention Services (2018)</a> &ndash; forceps-guided, dorsal slit and sleeve methods for adolescents and adults.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fpnotebook.com/Uro/Procedure/NntlCrcmcsn.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Family Practice Notebook: Neonatal circumcision</a> &ndash; indications, contraindications, techniques and complications with video links.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://sites.google.com/umich.edu/familymedmodules/obstetrics/neonatal-circumcision-ii/review" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">University of Michigan family medicine module: neonatal circumcision review</a> &ndash; contraindications, lidocaine dose and cosmesis points.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mombaby.org/wp-content/uploads/2023/09/Circumcision-Guidelines-2025.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neonatal circumcision guideline (hospital, 2025)</a> &ndash; anatomic and medical contraindications, pain control and risks.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pediatrics.jabsom.hawaii.edu/educational-resources/pedtext/s13c08.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Paediatric textbook chapter: Circumcision</a> &ndash; methods, local anaesthesia, complications and indications in older children.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.aafp.org/pubs/afp/issues/1999/0315/p1514.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAFP: Circumcision techniques (dorsal slit and sleeve)</a> &ndash; illustrated dorsal slit and sleeve technique with penile block.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3673369" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Dorsal slit-sleeve technique for male circumcision (African authors)</a> &ndash; a stepwise technique with crushing, ligation and 5/0 sutures.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://archive.jpma.org.pk/article-details/6180" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Circumcision: indications, techniques and complications (paediatric surgery review)</a> &ndash; older-child indications, anaesthesia and Plastibell use.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian and African evidence</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1560152/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Epidemiology of complications of male circumcision in Ibadan, Nigeria</a> &ndash; circumcision rate, providers and complication types.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4955474" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Parental preferences and early outcomes of Plastibell circumcision in neonates and infants (Nigeria)</a> &ndash; preference for Plastibell, timing and outcomes.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doi.org/10.37191/Mapsci-JASR-2(1)-014" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Complications of neonatal circumcision: a Nigerian paediatric surgery experience</a> &ndash; who performs circumcisions, fistula and recommendations for nurse training.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://repozytorium.ur.edu.pl/signposting/describedby/a473ed13-bf6c-4e64-b1db-580924f93306" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Experience with complications of Plastibell circumcision in neonates (Enugu, Nigeria)</a> &ndash; retained Plastibell and the role of unregistered nurses.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4856486" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Plastibell circumcision in a Nigerian setting: 2,276 infants</a> &ndash; complications with EMLA anaesthesia and ring sizes.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ijsurgery.com/index.php/isj/article/download/2734/2029/10323" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Indications and safety of Plastibell circumcision in children (Nigeria)</a> &ndash; retained ring and bleeding in infants.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478441446.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Pattern and cost of major complications of neonatal circumcision (Nigeria)</a> &ndash; fistula, bleeding, amputation and surgical management.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://nru.uncst.go.ug/bitstreams/dd8d87a4-35c1-4e53-bb88-3cd22fcd3591/download" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Training of non-physicians in early infant male circumcision with the Mogen clamp, Uganda</a> &ndash; competence-based training, eligibility and exclusion criteria.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ejsur.journals.ekb.eg/article_364246_73cdb739eb824346d4cecc387216e543.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Comparison of bone-cutter with cautery, Gomco and Plastibell techniques (trial)</a> &ndash; dorsal penile nerve block dosing and outcomes by technique.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the Stanford Mogen page and the instructional Plastibell and Gomco videos, and read the WHO manual. None of the videos replaces supervised training.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Nigerian neonatal circumcision is near-universal and mostly done by nurses, so the safety gains come from screening, correct technique, training and supervision.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not circumcise if the penis is abnormal (hypospadias, dorsal hood, chordee, buried or webbed penis, small glans), if there is a bleeding tendency, if the baby is under 2.5 kg, under 12 to 24 hours old, jaundiced, or unwell.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give vitamin K, ask about family bleeding history, and examine the penis before you cut.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Dorsal penile nerve block with plain 1% lidocaine (about 3 mg per kg, 0.8 to 1 mL in term babies), never adrenaline. Avoid EMLA as a default because of G6PD deficiency and poor efficacy compared with a block.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Plastibell: right size by fitting, ligature tight in the groove, break the handle, leave the ring. It falls off in 3 to 10 days. Retained ring is the commonest complication.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Gomco: leave the clamp on at least 5 minutes. Mogen: only with training, because the glans is unprotected.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Older children: dorsal slit and sleeve technique with haemostasis and 5/0 absorbable sutures, usually under general anaesthesia plus a penile block.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Teach parents: ring care, danger signs (bleeding, no urine in 6 to 8 hours, swelling, pus, fever), and no herbs or ash on the wound.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Know the emergencies: bleeding, a slipped ring with a dusky glans, urinary retention, and glans amputation (preserve the part and refer).</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Register every case, review complications, and train and supervise all providers, including traditional ones.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. World Health Organization, UNAIDS, Jhpiego. Manual for early infant male circumcision under local anaesthesia. Geneva: WHO; 2010 (training package, 2012). Manual for male circumcision under local anaesthesia and HIV prevention services for adolescent boys and men, 2018.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. Okeke LI, Asinobi AA, Ikuerowo OS. Epidemiology of complications of male circumcision in Ibadan, Nigeria. BMC Urol 2006;6:21.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Nigerian paediatric surgery series on parental preferences and early outcomes of Plastibell circumcision in neonates and infants. Afr J Paediatr Surg 2015;12:251-256.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Nigerian paediatric surgery series: complications of neonatal circumcision, providers and training. J Appl Surg Res 2021;2(1).</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Nigerian paediatric surgery series: complications following Plastibell circumcision in neonates over five years (1,794 procedures).</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Nigerian series: pattern, treatment outcome and cost of major complications of neonatal circumcision. East Cent Afr J Surg 2009;14(1):110-116.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Series on Plastibell circumcision in 2,276 infants in Nigeria, with EMLA anaesthesia.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Ofoha CG, et al. Indications and safety of Plastibell circumcision in children. Int Surg J 2018;5:1598-1601.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Kankaka EN, Kigozi G, Kayiwa D, et al. Efficacy of knowledge and competence-based training of non-physicians in the provision of early infant male circumcision using the Mogen clamp in Rakai, Uganda. BJU Int 2017.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Family Practice Notebook. Neonatal circumcision. University of Michigan family medicine module on neonatal circumcision; Stanford Medicine Newborn Nursery: Mogen clamp technique.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Hospital circumcision guideline 2025: anatomic and medical contraindications and pain control (penile ring block and dorsal penile nerve block with plain lidocaine).</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Abdulwahab-Ahmed A, Mungadi IA. Techniques of male circumcision. J Surg Tech Case Rep 2013;5:1-7; Dorsal slit-sleeve technique for male circumcision. J Surg Tech Case Rep 2012;4:94-97.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. American Academy of Family Physicians. Circumcision: indications and techniques. Am Fam Physician 1999;59:1514; Hawaii Pediatric Textbook, chapter XIII.9: Circumcision.</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. Mabogunje CA, Aina O, Emokpae AA, Olusanya BO. G6PD deficiency is common in Nigerian neonates (national prevalence at least 15%). Niger J Paediatr 2024; and manufacturer data on lidocaine-prilocaine cream in infants and G6PD deficiency.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+
+{
+  id: 'procedure-exchange-transfusion',
+  title: 'Exchange Transfusion for Severe Neonatal Jaundice',
+  category: 'Procedures',
+  subCategory: 'Neonatology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exchange Transfusion for Severe Neonatal Jaundice</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; NEONATOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Exchange Transfusion for Severe Neonatal Jaundice</h1>
+  <p class="text-sm text-indigo-200">A jaundiced baby arrives on day four, refusing to feed, arching, with a shrill cry. G6PD deficiency, ABO incompatibility, sepsis and late presentation fill Nigerian special care units with babies like this, and in much of the developed world exchange transfusion has nearly vanished while it remains a backbone of treatment here. This guide covers who needs an exchange and who needs intensive phototherapy and a transfer, what to do while you prepare, blood selection, volume and aliquot calculations, push-pull technique through a UVC, monitoring, complications, and how to stop the next baby arriving late.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-who-needs-an-exchange" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications: Who Needs an Exchange?</span></a></li>
+  <li><a href="#while-you-prepare-do-not-wait-idle" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>While You Prepare: Do Not Wait Idle</span></a></li>
+  <li><a href="#stop-signs-and-cautions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Stop Signs and Cautions</span></a></li>
+  <li><a href="#blood-choosing-ordering-and-checking" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Blood: Choosing, Ordering and Checking</span></a></li>
+  <li><a href="#volume-and-aliquot-calculations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Volume and Aliquot Calculations</span></a></li>
+  <li><a href="#team-equipment-and-preparation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Team, Equipment and Preparation</span></a></li>
+  <li><a href="#technique-single-catheter-push-pull-exchange-via-the-uvc" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique: Single-Catheter Push-Pull Exchange via the UVC</span></a></li>
+  <li><a href="#technique-two-line-isovolumetric-exchange" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Technique: Two-Line (Isovolumetric) Exchange</span></a></li>
+  <li><a href="#during-and-after-the-exchange" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>During and After the Exchange</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#preventing-the-next-case-counselling-and-systems" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Preventing the Next Case: Counselling and Systems</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Severe jaundice still kills and disables.</strong> A scoping review of Nigerian studies since 1960 found that severe neonatal hyperbilirubinaemia remains a major contributor to neonatal deaths and developmental disability. Late presentation to an appropriate facility was common, and it led to high rates of acute bilirubin encephalopathy (ABE), kernicterus and avoidable exchange transfusions.</li>
+<li><strong>The causes are not mainly Rhesus disease.</strong> G6PD deficiency (estimated national prevalence of at least 15 per cent), ABO incompatibility, sepsis and prematurity are the leading causes of haemolytic jaundice needing exchange. Rhesus disease is a much less common cause, although it still occurs.</li>
+<li><strong>Delay is the real enemy.</strong> A hospital study from the south-west found that most mothers of babies with ABE had seen a health worker more than 24 hours before presentation. Drugs given before arrival included oral antibiotics, haematinics, gentamicin injections, a solution of naphthalene (moth) balls and a herbal pawpaw leaf extract. Septicaemia, G6PD deficiency, ABO incompatibility, low birth weight and Rhesus disease were the causes, in that order of frequency. Low socioeconomic status, teenage mothers and first-time mothers were more common.</li>
+<li><strong>Exchange is still a backbone of treatment.</strong> A paediatric unit study from the north reports that exchange blood transfusion is fast being abandoned in rich countries, but it remains a backbone of treatment for severe neonatal jaundice where babies present very late, phototherapy machines are few and power is interrupted. In a Lagos cohort of over 1,100 admitted infants, exchange transfusion was a protective factor against death.</li>
+<li><strong>Timeliness decides outcome.</strong> The time from deciding to exchange to starting is eaten by delays: finding compatible blood, consent, payment and preparing staff. A 2016 review recommends identifying each delay in your own unit and using intensive phototherapy in the interval.</li>
+<li><strong>This is not a procedure for the lone house officer.</strong> It needs a trained team, monitoring, a safe blood supply and a central line. Know when to start the preparations, and when to transfer.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-who-needs-an-exchange" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications: Who Needs an Exchange?
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Total serum bilirubin (TSB) at or above the exchange threshold</strong> for the baby&rsquo;s gestational age, age in hours and neurotoxicity risk factors. At or above that line is a medical emergency.</li>
+<li><strong>Signs of acute bilirubin encephalopathy at any bilirubin level:</strong> lethargy or irritability, hypotonia then hypertonia, arching of the neck (retrocollis) and trunk (opisthotonos), a high-pitched cry, poor feeding, fever, seizures. Intermediate or advanced ABE is an indication for exchange whatever the number.</li>
+<li><strong>A rapid rise:</strong> a bilirubin rising faster than about 8.5 micromol/L per hour (0.5 mg/dL per hour) despite intensive phototherapy means exchange should be anticipated.</li>
+<li><strong>Severe haemolytic anaemia</strong> with normal blood volume, for example cord haemoglobin below 100 g/L in severe haemolytic disease, where exchange removes antibody-coated cells and bilirubin and corrects anaemia.</li>
+<li><strong>Other indications</strong> are rare: disseminated intravascular coagulation, polycythaemia (partial exchange), and severe metabolic disturbance.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neurotoxicity risk factors (AAP 2022)</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Isoimmune haemolytic disease (positive direct antiglobulin test).</li>
+<li>Other haemolytic disease, including <strong>G6PD deficiency</strong>.</li>
+<li>Clinical instability in the previous 24 hours: sepsis, acidosis, asphyxia, significant lethargy, temperature instability.</li>
+<li>Serum albumin below 3.0 g/dL.</li>
+<li>Gestational age below 38 weeks (the thresholds are lower for less mature infants).</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Reading the thresholds</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Use the hour-specific AAP 2022 exchange transfusion charts (or a calculator such as BiliTool), the NICE gestation-specific charts, or the chart your unit has adopted. Do not guess from memory. Convert units: 1 mg/dL = 17.1 micromol/L.</li>
+<li>In Nigerian practice, a common indication for a healthy term baby has been a TSB above 25 mg/dL (about 428 micromol/L), with a lower threshold for sick, small or haemolysing babies and exchange for any baby with signs of bilirubin encephalopathy.</li>
+<li>The first 24 hours of life: jaundice appearing on day one is pathological. Treat as haemolysis until proved otherwise.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: thresholds have risen, but not for every baby</p>
+<p class="text-sm">The 2022 AAP guideline raised the exchange thresholds above the 2004 values, because evidence suggests that neurotoxicity does not occur until bilirubin is well above the 2004 levels. It also introduced an <strong>escalation of care</strong> level, 2 mg/dL below the exchange threshold, with intensive phototherapy, intravenous hydration and urgent laboratory tests. A commentary notes that in settings without proximate NICU care, escalation may need to prioritise transfer over treatment.</p>
+<p class="text-sm">In Nigeria, G6PD deficiency, sepsis, late presentation, slow laboratory results and unreliable phototherapy are the norm. Many units still use older, lower thresholds. Choose one set, apply the risk factors honestly, and treat any baby with signs of acute bilirubin encephalopathy as needing exchange now.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="while-you-prepare-do-not-wait-idle" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+While You Prepare: Do Not Wait Idle
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Start intensive phototherapy at once,</strong> with as many lamps as you have, the baby naked except for eye protection, and the lamps close. Keep it running during preparation and during the exchange. It may avoid the need for the exchange.</li>
+<li><strong>Rehydrate.</strong> Intravenous fluid or increased feeds if the baby is dehydrated. Do not give plain water or dextrose by mouth to a jaundiced baby.</li>
+<li><strong>Send blood</strong> for TSB, haemoglobin and PCV, blood group and Coombs test (baby and mother), G6PD where available, full blood count with film and reticulocyte count, blood culture, glucose, calcium and albumin if possible. Do not wait for results to start phototherapy or to call for blood.</li>
+<li><strong>Stop haemolytic agents.</strong> Remove moth balls (naphthalene), camphor, menthol, herbal products, sulphonamides, antimalarials such as primaquine, and other G6PD triggers from the baby&rsquo;s environment and from the breastfeeding mother&rsquo;s drugs.</li>
+<li><strong>Treat sepsis</strong> early if suspected, and give vitamin K if not already given.</li>
+<li><strong>Ask for blood early</strong> (Section 5), and send the mother&rsquo;s blood sample at the same time.</li>
+<li><strong>Consent and explanation</strong> while the blood is coming. Tell the parents the baby is in danger and that the exchange is the safest treatment.</li>
+<li><strong>IVIG</strong> (0.5 to 1 g/kg over 2 hours) is sometimes used in isoimmune haemolytic disease. The AAP 2022 technical report found unclear benefit in preventing exchange and a possible risk of necrotising enterocolitis, and it is rarely available and costly here. Do not delay exchange waiting for it.</li>
+<li><strong>If you cannot do an exchange here,</strong> start phototherapy and rehydration, call the referral centre, and transfer with phototherapy running, a heater, glucose and an experienced escort. Do not delay transfer to complete tests.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-and-cautions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Stop Signs and Cautions
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Pause Before You Start If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>The baby is unstable</strong> (shock, severe respiratory distress, poor perfusion). Stabilise first, and do the exchange with full resuscitation equipment at hand.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>There is no trained person and no monitoring.</strong> An exchange needs at least two people: one operator and one nurse or doctor who watches the baby and records every aliquot. Do not do it alone.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Compatible, fresh blood is not available.</strong> Do not use stale, uncrossmatched or incompatible blood. Arrange transfer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Local contraindications to an umbilical line:</strong> omphalitis, necrotising enterocolitis or peritonitis (see the guide on umbilical vessel catheterization). Use a peripheral route if the team has the skill.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bleeding tendency or coagulopathy:</strong> correct before and during the procedure.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Donor blood from a sickle cell carrier</strong> for a baby who may become acidotic. Avoid it.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="blood-choosing-ordering-and-checking" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Blood: Choosing, Ordering and Checking
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Type of blood:</strong> whole blood or plasma-reduced red cells reconstituted to a haematocrit of 0.5 to 0.6 (some UK specifications give 0.4 to 0.5 for whole blood). Not stored packed cells, and not red cells in SAG-M, which are too viscous and lack plasma.</li>
+<li><strong>Fresh:</strong> as fresh as possible, ideally under 5 days old and no more than 4 days old in some protocols. Stored blood gives acidosis and a high potassium.</li>
+<li><strong>ABO and Rh:</strong> for ABO incompatibility, use group O blood with low anti-A and anti-B titres, crossmatched against the mother&rsquo;s serum and Rh-compatible with the baby. For Rhesus disease, use group O Rh-negative blood crossmatched against the mother. For G6PD deficiency or non-immune causes, use the baby&rsquo;s own group or group O.</li>
+<li><strong>Safety:</strong> screened for HIV, hepatitis B and C, and syphilis as a minimum, and for malaria where your protocol requires it. CMV-negative or leucocyte-depleted blood is preferred, particularly in preterm babies. Irradiated blood is needed for infants who had intrauterine transfusion and for very preterm infants.</li>
+<li><strong>G6PD:</strong> where you can, ask the blood bank for donor blood from G6PD-normal donors. G6PD-deficient donor cells are fragile and can haemolyse after transfusion.</li>
+<li><strong>Potassium:</strong> if the baby is asphyxiated, in shock or has renal impairment, check donor blood potassium if you can, and use the freshest blood.</li>
+<li><strong>Warm the blood</strong> to about body temperature through a blood warmer or coil. Never microwave or use hot water.</li>
+<li><strong>Check everything</strong> with a second person: identity of baby and unit, group, expiry, volume, haematocrit, and the crossmatch.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="volume-and-aliquot-calculations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Volume and Aliquot Calculations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Double-volume exchange</strong> is the standard for hyperbilirubinaemia: two blood volumes. Blood volume is about 80 to 85 mL/kg in a term baby, so the volume to exchange is about 160 to 170 mL/kg. In preterm babies it is about 160 to 200 mL/kg. A double-volume exchange replaces about 85 to 90 per cent of the baby&rsquo;s red cells and reduces the bilirubin by about half.</li>
+<li><strong>Single-volume exchange</strong> (about 80 mL/kg) is used in severe anaemia, as reported in Nigerian protocols.</li>
+<li><strong>Aliquot size</strong> in the push-pull technique: for babies under 1,000 g use 5 mL; 1,000 to 2,000 g use 10 mL; over 2,000 g use 20 mL. Each out-in cycle should take at least 5 minutes and replace no more than 8.5 mL/kg of the baby&rsquo;s blood. Start at 10 mL and increase to 20 mL only if the baby is stable.</li>
+<li><strong>Time:</strong> the whole exchange usually takes about 1.5 to 2 hours. Do not rush.</li>
+</ul>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Birth weight</th><th class="py-2 pr-3 font-semibold">Double-volume (160 mL/kg)</th><th class="py-2 pr-3 font-semibold">Aliquot per cycle</th><th class="py-2 pr-3 font-semibold">Number of cycles (approx.)</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">1.0 kg (preterm)</td><td class="py-2 pr-3">160 to 200 mL</td><td class="py-2 pr-3">5 mL</td><td class="py-2 pr-3">32 to 40</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">1.5 kg</td><td class="py-2 pr-3">240 to 300 mL</td><td class="py-2 pr-3">10 mL (about 6.7 mL/kg)</td><td class="py-2 pr-3">24 to 30</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">2.0 kg</td><td class="py-2 pr-3">320 mL (160 mL/kg), more if preterm</td><td class="py-2 pr-3">10 mL</td><td class="py-2 pr-3">32</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">2.5 kg</td><td class="py-2 pr-3">400 mL</td><td class="py-2 pr-3">15 to 20 mL (not more than 8.5 mL/kg, so 20 mL at most)</td><td class="py-2 pr-3">20 to 27</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">3.0 kg</td><td class="py-2 pr-3">480 mL</td><td class="py-2 pr-3">20 mL</td><td class="py-2 pr-3">24</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">3.5 kg</td><td class="py-2 pr-3">560 mL</td><td class="py-2 pr-3">20 mL</td><td class="py-2 pr-3">28</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">4.0 kg</td><td class="py-2 pr-3">640 mL</td><td class="py-2 pr-3">20 mL</td><td class="py-2 pr-3">32</td></tr>
+</tbody></table></div>
+<p class="text-sm">These are teaching examples, rounded for clarity. Calculate for your own baby, add the volume that stays in the lines if your protocol requires it, and check the figures with a second person.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="team-equipment-and-preparation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Team, Equipment and Preparation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Team and place</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Two trained people at least: an operator (doctor or senior nurse) and an assistant who records and watches the baby. A third person to look after the blood and the laboratory is ideal.</li>
+<li>A warm, clean area, under a radiant warmer, with full resuscitation equipment (airway, bag-mask, oxygen, suction, adrenaline) and an emergency calcium gluconate ready.</li>
+<li>Continuous monitoring of heart rate, oxygen saturation and temperature. Add blood pressure if you can.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Umbilical venous catheter</td><td class="py-2 pr-3">5 Fr (3.5 Fr for small babies), inserted and confirmed (see the UVC guide).</td><td class="py-2 pr-3">A size 5 feeding tube has been used where no catheter is available. Confirm the length and position.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Exchange set</td><td class="py-2 pr-3">A four-way or three-way tap, a 20 mL syringe, a blood warmer or coil, a sterile blood giving set, a bag or bottle for discarded blood.</td><td class="py-2 pr-3">Two three-way taps arranged so that you can draw out, discard and inject, with sterile technique.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Donor blood</td><td class="py-2 pr-3">Fresh, compatible, warmed, in a bag that can be mixed gently.</td><td class="py-2 pr-3">Do not proceed without it.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Monitoring</td><td class="py-2 pr-3">Cardiorespiratory monitor, pulse oximeter, skin or axillary thermometer.</td><td class="py-2 pr-3">A person watching the baby continuously, taking the pulse and temperature.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drugs</td><td class="py-2 pr-3">Calcium gluconate 10%, glucose 10%, normal saline, resuscitation drugs, heparin if your protocol uses it.</td><td class="py-2 pr-3">Have glucose and calcium drawn up.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Phototherapy</td><td class="py-2 pr-3">Continue it during the exchange, switching off the lights briefly to look at the baby&rsquo;s colour.</td><td class="py-2 pr-3">As many lamps as possible.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Record sheet</td><td class="py-2 pr-3">Time, volume out and in for each cycle, running totals, heart rate, saturations, temperature, glucose, medications.</td><td class="py-2 pr-3">A page with a table prepared in advance. Two people should sign it.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Prepare the baby</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Empty the stomach with a nasogastric tube, and keep the baby nil by mouth. Start an intravenous infusion.</li>
+<li>Keep the baby warm under the radiant heater, with a thermometer in place.</li>
+<li>Take baseline blood (see Section 3), and a blood glucose.</li>
+<li>Place a stomach tube and the catheter, confirm the UVC position, secure everything.</li>
+<li>Obtain consent, record it, and let the parents see the baby before you start if time allows.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-single-catheter-push-pull-exchange-via-the-uvc" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Technique: Single-Catheter Push-Pull Exchange via the UVC
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">&ldquo;Your baby&rsquo;s jaundice has reached a dangerous level. The bilirubin can damage the brain. The safest treatment is to replace the baby&rsquo;s blood with fresh donor blood through a small tube in the umbilical cord. It takes about two hours, and we will watch your baby closely the whole time.&rdquo;</p>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Time-out.</strong> Check the baby, the indication, the blood, the volumes, the aliquot size, the team roles and the emergency equipment.</li>
+<li><strong>Pre-exchange bloods.</strong> Draw the first sample from the catheter (the first &ldquo;out&rdquo; blood) for bilirubin, full blood count, culture, glucose, calcium and electrolytes, and coagulation if possible.</li>
+<li><strong>Set up the tap system.</strong> Connect the donor blood (through the warmer) to one port, the discard bag to another, the baby&rsquo;s catheter to the third, and the syringe to the fourth. Prime the lines with blood so that no air is present.</li>
+<li><strong>Cycle &ndash; out.</strong> Turn the tap so that the syringe connects to the baby. Withdraw the aliquot slowly over about 2 to 3 minutes. Do not pull quickly, as this causes arrhythmias and hypotension.</li>
+<li><strong>Cycle &ndash; discard.</strong> Turn the tap and push the baby&rsquo;s blood into the discard bag.</li>
+<li><strong>Cycle &ndash; in.</strong> Turn the tap, draw the same volume of donor blood and inject it slowly over a similar time. The volume in must match the volume out, to keep the baby&rsquo;s blood volume constant.</li>
+<li><strong>Repeat</strong> each cycle at a rate that keeps each out-in cycle at least 5 minutes. Mix the donor blood gently every few cycles, as red cells settle.</li>
+<li><strong>Record every aliquot</strong> and the cumulative total, with heart rate, saturation and temperature every cycle or every few cycles.</li>
+<li><strong>Stop and reassess</strong> if the baby becomes bradycardic, desaturates, becomes pale or limp, or shows arrhythmia. Pause, support the baby, and restart only when stable. If stopped for more than 2 to 3 minutes, flush the lines with normal saline and, depending on your protocol, discontinue the procedure.</li>
+<li><strong>Final sample.</strong> After the last aliquot, take a last &ldquo;out&rdquo; sample for bilirubin, full blood count, culture, glucose, calcium and electrolytes.</li>
+<li><strong>Before removing the line,</strong> check the post-exchange results with the senior. Keep the line if a repeat exchange may be needed. Otherwise remove it and watch the stump (see the UVC guide).</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-two-line-isovolumetric-exchange" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Technique: Two-Line (Isovolumetric) Exchange
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>The isovolumetric method removes blood from an arterial line (umbilical or peripheral) while infusing donor blood into a venous line at the same rate, so the baby&rsquo;s blood volume is held steady. It is used in sick or preterm babies who do not tolerate push-pull.</li>
+<li>Remove aliquots from the arterial line about every 5 minutes, matched to the volume of donor blood infused through the venous line. For example, if 10 mL is withdrawn every 5 minutes, the infusion runs at 120 mL per hour.</li>
+<li>Never leave an arterial line open to the discard bag. Arterial lines should be used only for withdrawing the baby&rsquo;s blood, not for injecting donor blood.</li>
+<li>It needs a second line, an infusion pump and more skill. Most Nigerian units use the single-catheter push-pull method.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="during-and-after-the-exchange" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+During and After the Exchange
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Monitor continuously:</strong> heart rate, oxygen saturation, temperature. Watch the colour with the phototherapy lights switched off now and then. Look for agitation, pallor, seizures and abdominal distension.</li>
+<li><strong>Glucose:</strong> check at the start, during, and after the exchange. Donor blood is rich in glucose and can cause rebound hypoglycaemia when the exchange ends.</li>
+<li><strong>Calcium:</strong> citrate in donor blood binds calcium. Have calcium gluconate ready and follow your unit protocol for routine or symptomatic calcium. Watch for jitteriness, arrhythmias and prolonged QT.</li>
+<li><strong>Potassium and acid-base:</strong> if available, check a blood gas and electrolytes during a long exchange.</li>
+<li><strong>Afterwards:</strong> restart or continue phototherapy, keep the baby nil by mouth until stable, and then re-introduce feeds. Check TSB again soon after the exchange and at intervals, because bilirubin rebounds as tissue bilirubin re-enters the blood. A Nigerian study has examined how serum bilirubin changes after double-volume exchange.</li>
+<li><strong>Repeat exchange</strong> may be needed if bilirubin rebounds to the threshold, especially in haemolytic disease.</li>
+<li><strong>Check haemoglobin</strong> in the following weeks. Late hyporegenerative anaemia can follow isoimmune haemolysis.</li>
+<li><strong>Document</strong> the volumes in and out, all observations, samples and who performed the procedure.</li>
+<li><strong>Follow-up:</strong> hearing assessment (bilirubin neurotoxicity affects hearing early), neurodevelopmental review, and counselling.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Cardiac:</strong> arrhythmia, bradycardia, hypotension or hypertension from withdrawing or injecting too fast or from wrong volumes. Stop, give oxygen, support and restart slowly.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Apnoea and bradycardia:</strong> common during the procedure. Pause and resuscitate if needed.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Air embolism</strong> and catheter-related complications such as thrombosis and haemorrhage. Prime all lines, avoid bubbles and secure connections.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Metabolic:</strong> hypocalcaemia, hyperkalaemia, acidosis (especially with non-fresh blood), hypoglycaemia or hyperglycaemia. Check and correct.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Necrotising enterocolitis, bowel perforation:</strong> abdominal distension, bilious aspirates, bloody stools. Stop feeds and treat.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Coagulopathy and thrombocytopenia:</strong> bleeding after exchange. Check platelets and coagulation.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection and sepsis:</strong> from lines or contaminated blood. Use sterile technique and treat early.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Graft-versus-host disease and transfusion reaction</strong> from unirradiated or incompatible blood. Check blood and observe.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Death:</strong> exchange mortality is low in experienced hands, but this is a high-risk procedure in sick babies. A south-eastern Nigerian audit reported a mortality of 17.5 per cent in its series, which reflects late presentation and the severity of illness.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bilirubin encephalopathy that continues</strong> despite exchange: needs repeat exchange and intensive care.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preventing-the-next-case-counselling-and-systems" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Preventing the Next Case: Counselling and Systems
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Teach every mother</strong> to look for yellow skin and eyes in the first days, and to bring the baby back at once if the yellow reaches the legs, if the baby is sleepy, feeding poorly, stiff or arching, or has a high-pitched cry.</li>
+<li><strong>Avoid hazards.</strong> No moth balls (naphthalene), camphor, menthol or herbal preparations near the baby, and no unprescribed drugs for the mother. Wash and air baby clothes that have been stored with moth balls.</li>
+<li><strong>Do not delay.</strong> Jaundice in the first 24 hours is always an emergency. Do not give plain water or tea.</li>
+<li><strong>Check blood groups and Coombs</strong> in babies of group O or Rhesus-negative mothers, and screen babies for G6PD deficiency where possible.</li>
+<li><strong>Antenatal:</strong> blood group and antibody screen for all mothers, with anti-D immunoglobulin for Rhesus-negative women at the right times.</li>
+<li><strong>Systems:</strong> make intensive phototherapy available (including a plan for power cuts), a quick pathway for blood, consent and payment, and a clear transfer pathway from primary care. A multicentre Nigerian study found that antenatal and postnatal instruction of mothers reduced the incidence of ABE.</li>
+<li><strong>Record</strong> every case and learn from delays.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://video.publications.aap.org/neovideos/detail/videos/emergent-procedures/video/6138646775001/double-volume-exchange-transfusion" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NeoReviews Video Library: Double Volume Exchange Transfusion</a> &ndash; a teaching video showing the performance of an exchange transfusion. May need a subscription.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=ywFFyzjqbJQ" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Blood exchange transfusion for neonatal jaundice by umbilical catheter (NICU video)</a> &ndash; the process of a blood exchange by umbilical catheter in a resource-limited NICU.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=W4Rk754_CGc" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Emergency exchange transfusion in a 3-day-old baby</a> &ndash; a real procedure explained for medical students and residents.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=brfg9WONo7U" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How doctors treat dangerous jaundice in newborns</a> &ndash; exchange transfusion in a fragile NICU baby.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fpnotebook.com/NICU/GI/ExchngTrnsfsnInNwbrns.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Family Practice Notebook: Exchange transfusion in newborns</a> &ndash; indications, double-volume calculations, and UVC placement.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://neofastapp.com/exchange-transfusion-in-neonates-comprehensive-clinical-protocol-execution-pathway/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NeoFast: Exchange transfusion protocol and execution pathway</a> &ndash; volumes, aliquots and monitoring.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and thresholds</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.bilitool.org" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BiliTool: AAP 2022 phototherapy and exchange thresholds calculator</a> &ndash; enter gestational age, age in hours and risk factors for the threshold.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pubmed.ncbi.nlm.nih.gov/35927519/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAP 2022 technical report on hyperbilirubinemia management</a> &ndash; evidence on thresholds, IVIG and phototherapy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9770821/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Commentary on the 2022 AAP hyperbilirubinemia guideline</a> &ndash; higher thresholds and escalation of care.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://indianpediatrics.net/jan2023/63.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Comparison of 2004 and 2022 AAP guidance (Indian Pediatrics)</a> &ndash; differences in thresholds and neurotoxicity risk factors.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.chop.edu/node/140474" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Exchange transfusion thresholds (CHOP clinical pathway)</a> &ndash; AAP 2022 exchange thresholds with and without neurotoxicity risk factors.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mombaby.org/wp-content/uploads/2020/02/Hyperbilirubinemia-Management-Non-Hemolytic-2023.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Newborn critical care guideline: phototherapy and exchange thresholds</a> &ndash; AAP 2022 nomograms by gestational age.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://apps.worcsacute.nhs.uk/KeyDocumentPortal/Home/DownloadFile/3543" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS neonatal guideline: Exchange transfusion</a> &ndash; step-by-step push-pull and isovolumetric techniques, with aliquots by weight.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://neonatal.jdrcomputers.co.uk/page/Exchange-transfusion" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neonatal exchange transfusion guideline summary</a> &ndash; indications, complications, and sample schedule.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://transfusionguidelines.org/red-book/chapter-7/7-7/7-7-2" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">JPAC Red Book: Whole blood for exchange transfusion, leucocyte depleted</a> &ndash; specification of blood for exchange.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/njcp/article/view/129332" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">The burden and management of neonatal jaundice in Nigeria: a scoping review</a> &ndash; causes, late presentation and system constraints.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478302472.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Scoping review: full text</a> &ndash; open-access PDF.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doaj.org/article/0925a54b556949a88f9df3559619684a" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">G6PD deficiency and ABO incompatibility, not Rhesus disease, drive severe jaundice in Nigeria</a> &ndash; a Nigerian Journal of Paediatrics letter on causes of exchange transfusion.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://content.iospress.com/articles/journal-of-pediatric-neurology/jpn00485" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Factors responsible for late presentation of neonatal jaundice and bilirubin encephalopathy</a> &ndash; prior medicines, herbal remedies and delays in a Nigerian unit.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://rcastoragev2.blob.core.windows.net/b92fc136a5fdb8beddb3163d9dab506c/PMC4803330.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Heliotherapy for neonatal hyperbilirubinemia in south-west Nigeria: baseline study</a> &ndash; predictors of ABE and exchange transfusion in over 1,100 infants.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/njp/article/view/158178/147779" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Prevalence and outcome of exchange blood transfusion in a Nigerian special care baby unit</a> &ndash; push-pull exchange and survival.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4857231" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Facility-based constraints to exchange transfusions in resource-limited settings</a> &ndash; delays between the decision to exchange and the start.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2023.1001141/pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neonatal jaundice in low- and middle-income countries: review</a> &ndash; G6PD screening, community education, phototherapy access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm0800666" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Companion guide: Umbilical vessel catheterization in sick neonates</a> &ndash; the NEJM video for placing the UVC used in this procedure. May need access.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NeoReviews video, and use the others to see different set-ups. None replaces training under supervision and your unit&rsquo;s protocol.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Nigerian babies with severe jaundice mostly have G6PD deficiency, ABO incompatibility, sepsis or prematurity, and they arrive late. Treat jaundice in the first 24 hours as an emergency.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Exchange if TSB is at or above the threshold for gestation, age in hours and risk factors, or if there are signs of acute bilirubin encephalopathy at any level, or if bilirubin rises more than about 8.5 micromol/L per hour despite phototherapy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Start intensive phototherapy and rehydration at once, send bloods, stop haemolytic agents such as moth balls, call for blood early, and consent while you prepare.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use fresh (under 5 days) blood at a haematocrit of 0.5 to 0.6, compatible with the mother and baby, CMV-safe, screened, ideally from G6PD-normal and non-sickle-trait donors, and warmed.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Double volume is 160 to 170 mL/kg in a term baby. Aliquots of 5 mL (under 1 kg), 10 mL (1 to 2 kg) or 20 mL (over 2 kg), at most 8.5 mL/kg, each cycle at least 5 minutes.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Two trained people, continuous monitoring, an emergency tray, calcium gluconate and glucose ready. Never do it alone.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Push-pull through a UVC: out slowly, discard, in slowly, record every aliquot. Take the first and the last samples. Keep phototherapy on.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Watch for bradycardia, apnoea, hypocalcaemia, hypoglycaemia, hyperkalaemia, air embolism, necrotising enterocolitis and sepsis. Stop and support if the baby deteriorates.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Recheck bilirubin after the exchange (rebound is common), resume phototherapy, monitor haemoglobin, and arrange hearing and neurodevelopmental follow-up.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Prevent the next case: teach mothers danger signs, no moth balls or herbal agents, antenatal grouping, anti-D, G6PD screening, and a quick pathway for blood, consent and payment.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. Kemper AR, Newman TB, Slaughter JL, et al. Clinical practice guideline revision: management of hyperbilirubinemia in the newborn infant 35 or more weeks of gestation. Pediatrics 2022;150:e2022058859; and the accompanying technical report on diagnosis and management of hyperbilirubinemia (2022).</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. National Institute for Health and Care Excellence. Jaundice in newborn babies under 28 days (CG98, updated 2023): treatment thresholds charts.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Olusanya BO, Osibanjo FB, Mabogunje CA, Slusher TM, Olowe SA. The burden and management of neonatal jaundice in Nigeria: a scoping review of the literature. Niger J Clin Pract 2016;19:1-17.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Mabogunje CA, Olaifa SM, Olusanya BO. Facility-based constraints to exchange transfusions for neonatal hyperbilirubinemia in resource-limited settings. World J Clin Pediatr 2016;5:182-190.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Mabogunje CA, Aina O, Emokpae AA, Olusanya BO. G6PD deficiency and ABO incompatibility are far greater causes of severe jaundice than rhesus disease in Nigerian neonates (correspondence). Niger J Paediatr 2024.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Prevalence, indications and outcome of exchange blood transfusion in severe neonatal hyperbilirubinaemia in a Nigerian special care baby unit. Niger J Paediatr 44(2).</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Heliotherapy for neonatal hyperbilirubinemia in south-west Nigeria: a baseline pre-intervention study. PLoS One 2016;11:e0151375.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Factors responsible for late presentation of neonatal jaundice and bilirubin encephalopathy in a Nigerian teaching hospital. J Pediatr Neurol.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Pattern of serum bilirubin changes following double-volume exchange blood transfusion in neonates at a tertiary health facility in Nigeria. Pan Afr Med J 2021.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. NHS neonatal guidelines on exchange transfusion (Worcestershire Acute Hospitals, 2022-2024) and a regional neonatal guideline summary; Royal Children&rsquo;s Hospital Melbourne guideline: Exchange transfusion, neonatal.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Joint UK Blood Transfusion and Tissue Transplantation Services Professional Advisory Committee. Red Book, section 7.7.2: Whole blood for exchange transfusion, leucocyte depleted.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Cloherty and Stark&rsquo;s Manual of Neonatal Care: Exchange transfusion chapter (as summarised in teaching materials).</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. NeoReviews video library, Emergent procedures: Double volume exchange transfusion. American Academy of Pediatrics.</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. Review of neonatal jaundice in low- and middle-income countries: G6PD screening, community education and phototherapy access. Front Pediatr 2023.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-umbilical-vessel-catheterization',
+  title: 'Umbilical Vessel Catheterization in Sick Neonates',
+  category: 'Procedures',
+  subCategory: 'Neonatology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umbilical Vessel Catheterization in Sick Neonates</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; NEONATOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Umbilical Vessel Catheterization in Sick Neonates</h1>
+  <p class="text-sm text-indigo-200">A floppy, hypoglycaemic or shocked newborn with no peripheral vein, a jaundiced baby who needs an exchange transfusion before the bilirubin does irreversible harm, an extremely preterm baby on the Special Care Baby Unit: the umbilical vein is the quickest central route in the first days of life. A catheter that goes in too far can burn the liver, and one that stays in the heart can tamponade it. This guide covers when and how to place a venous catheter, the emergency short-insertion method, insertion length, confirming position when X-ray is far away, the artery in brief, care and removal, and complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-and-alternatives" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications and Alternatives</span></a></li>
+  <li><a href="#anatomy-of-the-cord-and-the-path-of-the-catheter" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Anatomy of the Cord and the Path of the Catheter</span></a></li>
+  <li><a href="#stop-signs-and-contraindications" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Stop Signs and Contraindications</span></a></li>
+  <li><a href="#before-you-start" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Before You Start</span></a></li>
+  <li><a href="#equipment-and-catheter-choice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Equipment and Catheter Choice</span></a></li>
+  <li><a href="#choosing-the-insertion-length" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Choosing the Insertion Length</span></a></li>
+  <li><a href="#technique-umbilical-venous-catheter" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique: Umbilical Venous Catheter</span></a></li>
+  <li><a href="#the-emergency-resuscitation-line" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>The Emergency (Resuscitation) Line</span></a></li>
+  <li><a href="#confirming-position-when-x-ray-is-slow-or-absent" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Confirming Position When X-ray Is Slow or Absent</span></a></li>
+  <li><a href="#umbilical-arterial-catheter-brief-overview" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Umbilical Arterial Catheter: Brief Overview</span></a></li>
+  <li><a href="#using-the-line-exchange-transfusion-and-infusions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Using the Line: Exchange Transfusion and Infusions</span></a></li>
+  <li><a href="#care-of-the-line-and-removal" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Care of the Line and Removal</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">16</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Exchange transfusion is still a backbone of care.</strong> A review in the Nigerian Journal of Paediatrics describes exchange blood transfusion as still the backbone of treatment for severe neonatal jaundice in resource-limited settings. In one north-eastern Nigerian special care unit, about 47 per cent of babies with neonatal jaundice needed an exchange, performed by the push-pull method through an umbilical catheter. ABO incompatibility, sepsis and prematurity were the commonest causes, and 83 per cent survived. A south-eastern audit found that 17 per cent of jaundiced neonates needed an exchange, with a mortality of 17.5 per cent. Across Nigeria, 23 to 60 per cent of neonatal admissions are for hyperbilirubinaemia.</li>
+<li><strong>Delay is the enemy.</strong> A Lagos study of the time between deciding to exchange and starting it found delays at every step: finding blood, getting consent, and paying. Religious objections to transfusion and cost add to the delay. A UVC that you can place quickly and safely shortens the interval.</li>
+<li><strong>Other uses.</strong> Emergency access in a baby who is collapsing, central access for infusions in very low birth weight infants, hypertonic glucose, and blood sampling. In infants under 800 g the umbilical vein is the preferred first venous access in some units.</li>
+<li><strong>Late and sick.</strong> Many Nigerian newborns reach the unit late, after home delivery, with sepsis or bilirubin encephalopathy. This is why you must be able to place a line in the first minutes.</li>
+<li><strong>Limits of the setting.</strong> Umbilical catheters are not always in stock, X-ray may be hours away, and few units can monitor an arterial line. A South African review for primary health care physicians notes that, where umbilical vein catheters are unavailable, a size 5 feeding tube can be used instead. This guide shows how to do the procedure safely with what you have.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-alternatives" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications and Alternatives
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Catheter</th><th class="py-2 pr-3 font-semibold">Indications</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Umbilical venous catheter (UVC)</td><td class="py-2 pr-3">Emergency access when peripheral access is not obtainable; exchange transfusion; central access for drugs, hypertonic glucose and parenteral nutrition; central venous pressure; venous blood sampling.</td><td class="py-2 pr-3">Usable in the first days, up to about 1 to 2 weeks, while the cord is fresh. A short, low-lying line for resuscitation; a longer, centrally placed line for other uses.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Umbilical arterial catheter (UAC)</td><td class="py-2 pr-3">Continuous arterial blood pressure monitoring; frequent blood gases or blood sampling in sick preterm or ventilated infants.</td><td class="py-2 pr-3">Needs a pressure transducer and close observation of the legs. Not for emergency resuscitation access. See Section 11.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Alternatives to consider</strong>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Peripheral IV:</strong> try first in a stable baby. Scalp, hand and foot veins are options in infants (see the guide on IV cannulation in difficult access).</li>
+<li><strong>Intraosseous access</strong> is an alternative in a collapsing neonate when the umbilical route is not possible, for example when the stump is dry or infected. First10EM and neonatal emergency texts discuss both.</li>
+<li><strong>PICC or other central lines</strong> for longer therapy once the baby is stable.</li>
+<li>A fresh stump is essential. The vein stays patent for about a week, and some sources allow up to 14 days.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="anatomy-of-the-cord-and-the-path-of-the-catheter" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Anatomy of the Cord and the Path of the Catheter
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>The cord has <strong>two arteries and one vein</strong>. The arteries are small, round, thick-walled and often constricted. The vein is larger, thin-walled, oval and floppy, usually at about the 12 o&rsquo;clock position, and continues to ooze blood.</li>
+<li><strong>UVC path:</strong> up the umbilical vein to the liver, then through the ductus venosus into the inferior vena cava. The tip should end just above the diaphragm, outside the heart. If it stays in the portal system (left portal vein, superior mesenteric vein), it can cause liver damage and thrombosis. A venous catheter turns upward and slightly to the right on X-ray.</li>
+<li><strong>UAC path:</strong> down the artery into the internal iliac artery, then up the aorta. An arterial catheter turns downward first on X-ray, which is how you tell it from a vein.</li>
+<li>A catheter that enters a vein from the stump and goes through the foramen ovale reaches the left atrium. This is a recognised malposition.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-and-contraindications" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Stop Signs and Contraindications
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Do Not Place an Umbilical Catheter If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Omphalitis</strong> or infection of the stump and skin around it.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Omphalocele or gastroschisis:</strong> abdominal wall defects.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Necrotising enterocolitis, peritonitis</strong> or acute abdominal pathology.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Abdominal surgery needing an incision above the umbilicus.</strong></span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>For a UAC:</strong> evidence of vascular compromise of the legs or buttocks.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>For a UVC:</strong> portal hypertension.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A dry, old stump</strong> where the vein cannot be found. Warm compresses can rehydrate a stump a little, but after the first days use another route.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>In an emergency resuscitation, a short UVC may sometimes be placed despite a relative contraindication, but the catheter should be taken out as soon as other access is available.</li>
+<li>A UVC placed without full sterile technique in an emergency should be replaced or removed within hours, not left for days.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-start" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Before You Start
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Consent.</strong> Explain to the parent that the baby needs a line through the umbilical cord for fluids, medicines or a blood exchange. In true emergencies resuscitate first and explain as soon as possible. Document.</li>
+<li><strong>Warmth.</strong> Place the baby under a radiant warmer or skin-to-skin with a blanket, and keep the head covered. Cold stress worsens acidosis and hypoglycaemia.</li>
+<li><strong>Stabilise.</strong> Support airway and breathing, check blood glucose, and decide whether the procedure can be done in a controlled way or must be a quick emergency line.</li>
+<li><strong>Monitor</strong> heart rate and oxygen saturation throughout. Pause if the baby deteriorates.</li>
+<li><strong>Time-out.</strong> Confirm the indication, the catheter size, the length you will insert and who will confirm the position by X-ray.</li>
+<li><strong>Choose sterile or emergency technique.</strong> For a planned line, use full sterile technique (cap, mask, gown and gloves, drapes). For a resuscitation line, clean as best you can and plan to replace it.</li>
+<li><strong>Assistant.</strong> One person to hold the cord and watch the baby, one to hand equipment and record.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment-and-catheter-choice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Equipment and Catheter Choice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Catheter</td><td class="py-2 pr-3">A radio-opaque umbilical catheter, with markings. Single lumen 3.5 Fr or 5 Fr.</td><td class="py-2 pr-3">A size 5 feeding tube in resource-poor settings. In an extreme emergency with no kit, a long IV catheter (3.5 Fr is about 18.5 G, 5 Fr about 16 G) has been used, as a very short emergency line only.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Antiseptic</td><td class="py-2 pr-3">Chlorhexidine (2% aqueous, diluted 1:1 with sterile water for infants under 750 g) or povidone-iodine.</td><td class="py-2 pr-3">Clean the skin carefully. Avoid pooling of fluid under the baby, which can blister skin under a warmer.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Instruments</td><td class="py-2 pr-3">Curved non-toothed iris forceps, a small toothed forceps, straight forceps, scalpel and blade, scissors, needle holder, small clamps.</td><td class="py-2 pr-3">A sterile minor surgery pack.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Securing</td><td class="py-2 pr-3">Umbilical tape or a loose tie for the base of the cord, 3-0 silk on a curved needle for a purse-string suture, adhesive tape.</td><td class="py-2 pr-3">Sterile tape or a strip of cloth tape as a loose cord tie.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Flush and connection</td><td class="py-2 pr-3">A three-way stopcock, a 10 mL syringe, and a normal saline flush. Heparinised saline is used in some units.</td><td class="py-2 pr-3">Normal saline. Follow your unit protocol on heparin.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drapes and protection</td><td class="py-2 pr-3">Sterile drapes, cap, mask, gown, sterile gloves.</td><td class="py-2 pr-3">At least a mask and sterile gloves.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Monitoring</td><td class="py-2 pr-3">Pulse oximeter, a heart rate monitor, a glucometer.</td><td class="py-2 pr-3">A trained person watching the baby.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Catheter size:</strong> the 3.5 Fr is used for preterm and small infants, the 5 Fr for larger babies. Sources differ on the cut-off: 1,500 g in one hospital standard and 3.5 kg in a South African primary care review. Use the size that passes easily and matches your unit&rsquo;s protocol.</li>
+<li><strong>Flush the catheter</strong> with saline and connect the stopcock before you start so that no air enters the system.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: catheter size, tip position and flushes</p>
+<p class="text-sm">Catheter size cut-offs differ between units: 3.5 Fr below 1,500 g (one hospital standard) versus below 3.5 kg (a South African review). Tip position differs too: T8&ndash;T9 in one Scottish network guideline, T9&ndash;T10 in others, described as 0.5 to 1 cm above the diaphragm on X-ray. Heparin in the flush is routine in some protocols and not supported by evidence in others. Use your own unit&rsquo;s protocol for these three points and be consistent.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-the-insertion-length" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Choosing the Insertion Length
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Estimate the length before you cut the cord, using birth weight (Shukla and Ferrara), shoulder-to-umbilicus length, or a landmark method. A catheter that is too long ends in the right atrium, or crosses into the liver; one that is too short ends in the liver.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Method</th><th class="py-2 pr-3 font-semibold">Formula</th><th class="py-2 pr-3 font-semibold">Examples</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">UVC, birth-weight formula</td><td class="py-2 pr-3">Length (cm) = 1.5 &times; birth weight (kg) + 5. This equals (3 &times; weight + 9) / 2 + 1.</td><td class="py-2 pr-3">1 kg: 6.5 cm. 1.5 kg: 7.3 cm. 2 kg: 8 cm. 2.5 kg: 8.8 cm. 3 kg: 9.5 cm. 3.5 kg: 10.3 cm. 4 kg: 11 cm.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">UAC, birth-weight formula</td><td class="py-2 pr-3">High line (tip T6 to T10): length (cm) = 3 &times; birth weight (kg) + 9. Low line (tip at L3 to L5) is shorter.</td><td class="py-2 pr-3">1 kg: 12 cm. 2 kg: 15 cm. 3 kg: 18 cm.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">UVC, landmark method</td><td class="py-2 pr-3">Distance from the xiphisternum to the umbilicus, plus the stump length.</td><td class="py-2 pr-3">Measure on the baby with the tape.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">UAC, landmark method</td><td class="py-2 pr-3">Distance from the shoulder tip to the umbilicus, plus the stump length.</td><td class="py-2 pr-3">Compare with the graph in your unit manual.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Emergency UVC</td><td class="py-2 pr-3">Insert only until blood flows freely, about 3 to 5 cm beyond the skin (some sources say 2 to 4 cm).</td><td class="py-2 pr-3">Low-lying tip, not for hypertonic solutions or long-term use.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Most formulas give the length to be inserted from the skin of the abdominal wall. If you measure from the cut end of the cord, add the stump length. Check which convention your unit uses.</li>
+<li>A trial of birth-weight-derived formulas found that they placed more arterial catheters correctly than body-surface methods. Neither method is perfect, so always confirm the tip position on X-ray.</li>
+<li>Do not advance past significant resistance to reach the calculated length. Withdraw and reassess.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-umbilical-venous-catheter" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Technique: Umbilical Venous Catheter
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Prepare the field.</strong> Warm the baby, clean the cord and the surrounding skin with antiseptic, and drape, leaving the head and chest exposed so that you can watch the baby.</li>
+<li><strong>Flush the catheter</strong> with saline and connect the three-way stopcock and syringe. Keep the syringe attached throughout to avoid air.</li>
+<li><strong>Tie the base.</strong> Place a loose loop of umbilical tape, or a purse-string suture in the Wharton&rsquo;s jelly, around the base of the cord. It should control bleeding but be loose enough that the catheter passes. If bleeding occurs, tighten the tie only just enough.</li>
+<li><strong>Cut the cord</strong> with a scalpel straight across, about 1 to 2 cm above the skin, to expose a clean surface.</li>
+<li><strong>Identify the vein.</strong> Hold the stump with your non-dominant hand. Find the single large, thin-walled, oval vein, usually at 12 o&rsquo;clock, between the two small round arteries.</li>
+<li><strong>Clear clots and dilate.</strong> Gently remove any clot at the opening. Insert the tips of the iris forceps into the vein and open them gently to dilate it. Take care not to make a false track.</li>
+<li><strong>Insert the catheter.</strong> Hold the catheter about 0.5 to 1 cm from its tip with forceps. Insert it into the vein, directing it toward the baby&rsquo;s head and slightly to the right, and advance it steadily. Lying the baby slightly on the right side, or gentle mobilisation of the liver, can help the catheter pass through the ductus venosus.</li>
+<li><strong>Do not force.</strong> If you meet resistance, loosen the tie, withdraw slightly, rotate the catheter, and try again. Never force the catheter. Forcing makes a false track and risks perforation.</li>
+<li><strong>Advance to the planned length</strong> (Section 7). Aspirate blood to confirm the catheter is in the vessel and flush gently with saline. Take blood samples now if needed.</li>
+<li><strong>Secure it.</strong> Tighten the purse-string or tie around the catheter and cord, taking care not to puncture the catheter. Fix the catheter to the abdomen with tape so that the markings remain visible. Use a bridge of tape.</li>
+<li><strong>Record</strong> the catheter size, the length at the skin, the time, and any difficulty. Mark the length at the skin on the chart.</li>
+<li><strong>Confirm the position</strong> on X-ray (Section 10) before using the line for anything other than emergency resuscitation.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-emergency-resuscitation-line" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+The Emergency (Resuscitation) Line
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>When:</strong> a newborn needs epinephrine, fluid or glucose and peripheral access has failed or will take too long.</li>
+<li><strong>Method:</strong> flush the catheter, tie the base of the cord, cut a clean stump, find the vein and gently dilate it. Insert only until blood flows freely, about 3 to 5 cm beyond the skin. Aspirate blood, confirm free return, and flush.</li>
+<li><strong>The tip stays in a low-lying position,</strong> which is safe for emergency drugs and fluids but not for hypertonic solutions or long-term use. Do not advance farther than you need.</li>
+<li><strong>Never give anything</strong> until you have free blood return and you are sure you have not placed the catheter in an artery.</li>
+<li><strong>Keep air out.</strong> Air in the line or on removal is the main hazard.</li>
+<li><strong>Replace the line</strong> with a properly placed UVC, a peripheral line or other access once the baby is stable, and remove the emergency line.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="confirming-position-when-x-ray-is-slow-or-absent" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Confirming Position When X-ray Is Slow or Absent
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Standard:</strong> a radiograph of the chest and abdomen (anteroposterior) before the line is used, other than in resuscitation. For a UVC, the tip should lie between about T9 and T10, at or just above the diaphragm, outside the cardiac shadow. A low-lying UVC is acceptable in emergencies only.</li>
+<li><strong>Venous or arterial?</strong> A venous catheter turns upward and to the right. An arterial catheter travels down first. If the course is unclear, take a lateral film or repeat the film.</li>
+<li><strong>Recognise malposition:</strong> a tip in the portal system, the superior mesenteric vein, the left atrium via the foramen ovale, or looped in the liver. Withdraw and re-image.</li>
+<li><strong>Tip below T10</strong> carries a higher risk of extravasation into the liver. Use such a line only for isotonic emergency fluids.</li>
+<li><strong>While you wait for the X-ray,</strong> flush gently with saline every so often to keep the catheter patent. Do not give hypertonic or irritant fluids.</li>
+<li><strong>Ultrasound</strong> at the bedside can show the tip near the diaphragm and in the right atrium or IVC, where available, and is an alternative when radiography is delayed.</li>
+<li><strong>If you cannot confirm the position at all,</strong> use the line only for emergencies, keep the insertion short, and arrange for imaging or removal. Do not run exchange transfusion or hypertonic glucose through an unconfirmed long line.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="umbilical-arterial-catheter-brief-overview" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Umbilical Arterial Catheter: Brief Overview
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Role:</strong> arterial pressure monitoring and frequent blood gases in sick preterm and ventilated infants. It requires a pressure transducer, a continuous flush and observation of the legs and buttocks.</li>
+<li><strong>Position:</strong> a high line, with the tip between T6 and T9 or T10 (above the diaphragm, below the left subclavian artery), or a low line with the tip between L3 and L5 (above the aortic bifurcation and below the renal arteries).</li>
+<li><strong>Technique differences:</strong> identify one of the two small muscular arteries, dilate it gently with curved forceps, and advance the catheter slowly, because arteries go into spasm. Sample blood slowly.</li>
+<li><strong>Complications:</strong> blanching or colour change in a leg or foot, thrombosis, renal artery thrombosis and hypertension, bleeding from a disconnected line, infection and necrotising enterocolitis.</li>
+<li><strong>If the legs turn white or blue,</strong> remove the catheter.</li>
+<li><strong>Where to do it:</strong> in a unit that can monitor it. Most Nigerian special care units use venous lines for access and exchange transfusion, and do not place arterial lines.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="using-the-line-exchange-transfusion-and-infusions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Using the Line: Exchange Transfusion and Infusions
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Exchange transfusion:</strong> done by the push-pull method through the UVC, in small aliquots of about 5 mL per kg in the Nigerian protocol cited above, and about 80 mL per kg for a single-volume exchange in severe anaemia. The technique, indications and monitoring belong in the exchange transfusion guide. This guide covers getting the line in safely.</li>
+<li><strong>Hypertonic glucose and parenteral nutrition</strong> need a centrally placed tip confirmed on X-ray, not a low-lying line.</li>
+<li><strong>Check the line</strong> for blood return before each use, flush with the volume your protocol sets, and never give any drug until you are sure of the position.</li>
+<li><strong>Do not infuse</strong> through a catheter that has been disconnected, is leaking, or has a swollen abdomen or liver nearby.</li>
+<li><strong>Keep the system closed.</strong> Minimise opening and handling.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="care-of-the-line-and-removal" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Care of the Line and Removal
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Observe</strong> the stump, abdomen and legs regularly for redness, swelling, discharge, bleeding and colour change. Check the length at the skin against your record.</li>
+<li><strong>Dwell time:</strong> UVCs are generally used for up to about 1 to 2 weeks. Remove the line when it is no longer needed. A UVC placed without full sterile technique should be replaced.</li>
+<li><strong>Infection:</strong> fever, poor perfusion, apnoea, or a red stump mean you should consider line sepsis. Take blood cultures, remove the line, and treat.</li>
+<li><strong>Bleeding:</strong> secure all connections. A disconnected umbilical catheter can lead to fatal bleeding or air entry.</li>
+<li><strong>Removal:</strong> stop infusions, place a purse-string suture around the vein if you wish, and withdraw the catheter slowly. Keep the baby lying flat or slightly head down to avoid air entering the vein. Apply light pressure. Watch the stump for bleeding.</li>
+<li><strong>After removal,</strong> keep the stump clean and dry, and watch for infection.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Malposition:</strong> the commonest problem. A tip in the portal system, superior mesenteric vein or left atrium. Withdraw, re-image and reposition.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hepatic injury and extravasation:</strong> a swollen abdomen, a firm liver, or free fluid after infusions through a deep or low-lying tip. Stop the infusion and image.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Portal vein thrombosis:</strong> a catheter left in the portal system increases the risk.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection and sepsis:</strong> from line contamination, with an inflamed stump. Remove the line and treat.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Air embolism</strong> (especially on removal), catheter tip embolism and vessel perforation.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Cardiac complications:</strong> a tip inside the heart can cause arrhythmia, perforation and pericardial effusion. Withdraw, and image the chest.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Haemorrhage:</strong> from disconnection or after removal. Keep clamps and a tie ready.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Necrotising enterocolitis and bowel ischaemia</strong> after umbilical arterial lines.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Limb ischaemia</strong> with a UAC: blanching or cyanosis of a leg. Remove the catheter.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm0800666" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Umbilical Vessel Catheterization</a> &ndash; the standard teaching video for both venous and arterial catheters. The full video may need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://video.publications.aap.org/neovideos/detail/videos/central-line-placement/video/6138654330001/umbilical-vein-catheterization" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AAP NeoReviews video library: Umbilical Vein Catheterization</a> &ndash; a 5-minute UVC video; the same library has a longer umbilical arterial catheterization video. May need a subscription.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://vimeo.com/57453941" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">PediaLink: Umbilical Vessel Catheterization (AAP)</a> &ndash; steps for umbilical venous and arterial catheters. A viewer comment notes that around 2:48 the narration about the vein shows an artery being dilated, so watch carefully.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://coreem.net/videos/umbilical-vein-catheterization/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">CoreEM: Umbilical Vein Catheterization</a> &ndash; step-by-step emergency line for a newborn, from cord preparation to a secured low-lying line.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=CrUnsFy5iGU" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WikEM-linked video: umbilical vein catheterization</a> &ndash; a demonstration linked from the WikEM procedure page.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://first10em.com/umbilical-vein-catheterization/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">First10EM: Procedure, umbilical vein catheterization</a> &ndash; an emergency medicine approach, with the minimum-depth method and links to further resources.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://wikem.org/wiki/Umbilical_vein_catheterization" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WikEM: Umbilical vein catheterization</a> &ndash; indications, steps and complications, with images.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.maimonidesem.org/blog/potd-umbilical-vein-catheterization" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Maimonides Emergency Medicine: Umbilical vein catheterization</a> &ndash; a short teaching post that links to a procedure video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fpnotebook.com/ER/Procedure/UmblclVnCthtr.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Family Practice Notebook: Umbilical vein catheterization</a> &ndash; emergency and calculated insertion methods, and complications.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and procedure sheets</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.safercare.vic.gov.au/clinical-guidance/neonatal/umbilical-vein-catheterisation-for-neonates" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Safer Care Victoria: Umbilical vein catheterisation for neonates</a> &ndash; indications, equipment, insertion and emergency use.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.perinatalnetwork.nhs.scot/wp-content/uploads/2025/12/Umbilical-Lines_WoS-121225.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">West of Scotland neonatal guideline: Umbilical lines (2025)</a> &ndash; indications, contraindications, Shukla formulas and tip positions.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.brighamandwomens.org/assets/BWH/pediatric-newborn-medicine/pdfs/uvc-uac-cpg.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Neonatal clinical practice policy: UVC/UAC placement and removal</a> &ndash; indications, contraindications, complications and steps.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medicalaffairs.ucsf.edu/media/1241" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Standardised procedure: Neonatal umbilical vessel catheterization</a> &ndash; catheter sizes by weight, equipment and sequence.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://researchrepository.ul.ie/server/api/core/bitstreams/09b2367f-39a0-48a9-a4e6-aa1f840606bb/content" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Insertion of umbilical arterial and venous catheters (review)</a> &ndash; indications, contraindications and tip positions.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://txwes.pressbooks.pub/scope/chapter/umbilical-catheterization/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Umbilical catheterization scope guide</a> &ndash; a short practical summary.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://safpj.co.za/index.php/safpj/article/view/5797/8459" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Umbilical vein catheterisation for the family physician in primary health care</a> &ndash; an African review with consent, manoeuvres to pass the ductus venosus, feeding tubes as an alternative, and emergency placement.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10839207/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Umbilical vein catheterisation for primary care: full text</a> &ndash; open-access version of the same article.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://fn.bmj.com/content/101/1/10" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Estimating insertion depth: birth-weight formula and catheter tip position</a> &ndash; randomised trial of formulae for UVC and UAC depth.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://indianpediatrics.net/mar2019/199.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">JSS formula versus modified Shukla formula for UVC insertion</a> &ndash; trial of formulae for placing the tip at T9 to T10.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian context: exchange transfusion and neonatal jaundice</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/njp/article/view/158178/147779" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Prevalence and outcome of exchange transfusion in a north-eastern Nigerian special care baby unit</a> &ndash; exchange by push-pull through an umbilical catheter, indications and survival.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://katalog.lib.cas.cz/KNAV/EdsRecord/cmedm,24027683" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Outcome of exchange blood transfusion for neonatal jaundice in south-eastern Nigeria</a> &ndash; audit with rates and mortality.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://wjgnet.com/2219-2808/coretip/v5/i2/182.htm" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Facility-based constraints to exchange transfusion in resource-limited settings</a> &ndash; delays, consent and cost, from Lagos.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/pamj/article/view/219196/206840" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Serum bilirubin changes following double-volume exchange transfusion in Nigerian neonates</a> &ndash; bilirubin rebound and outcomes after exchange.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://informahealthcare.com/doi/abs/10.1080/20469047.2019.1610607" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Total body phototherapy versus conventional phototherapy across Nigerian neonatal units</a> &ndash; burden of severe hyperbilirubinaemia and need for exchange.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM and CoreEM videos, then use the others to see different operators and equipment.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The umbilical vein is the quickest central route in a sick newborn, usable in the first days of life. Use it for emergency access and exchange transfusion when peripheral access fails.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not place a catheter through an infected or abnormal cord: omphalitis, omphalocele, gastroschisis, necrotising enterocolitis or peritonitis.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cord: two small thick-walled arteries and one large thin-walled floppy vein, usually at 12 o&rsquo;clock. Dilate the vein gently and never force the catheter.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Size: 3.5 Fr for small preterm babies, 5 Fr for larger babies. A size 5 feeding tube can serve where umbilical catheters are not available.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Length: UVC = 1.5 &times; birth weight (kg) + 5 cm. UAC high line = 3 &times; birth weight (kg) + 9 cm. Check which reference point your unit uses.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Emergency line: insert only until blood flows freely, about 3 to 5 cm. Low-lying, not for hypertonic solutions, and replace it when the baby is stable.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm position by X-ray: UVC tip at about T9 to T10, at or just above the diaphragm, outside the heart. If you cannot confirm it, use the line for emergencies only.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Arterial catheters need monitoring that most units lack. Remove at once if a leg blanches.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Keep air out, secure every connection, and remove the line when it is no longer needed. Replace a line placed without full sterile technique.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In Nigeria exchange transfusion through the UVC is common. Do not let delays in the line add to the delays in blood, consent and cost.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. New England Journal of Medicine, Videos in Clinical Medicine. Umbilical vessel catheterization. N Engl J Med 2008.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. Perinatal Network Scotland, West of Scotland Neonatal Guideline. Umbilical lines, December 2025.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Safer Care Victoria. Umbilical vein catheterisation for neonates (neonatal clinical guidance).</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Newborn Medicine Clinical Practice Policy. Umbilical venous and arterial catheter (UVC/UAC) placement and removal, 2018 (revised 2021); and UCSF standardised procedure for neonatal umbilical vessel catheterization.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. South African Family Practice. Umbilical vein catheterisation for the family physician working in primary health care. S Afr Fam Pract.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Shukla H, Ferrara A. Rapid estimation of insertional length of umbilical catheters in newborns. Am J Dis Child 1986;140:786-788; and randomised comparisons of birth-weight-derived formulae with body-surface and JSS formulae (Arch Dis Child Fetal Neonatal Ed 2016; Indian Pediatr 2019).</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. First10EM. Procedure: umbilical vein catheterization; WikEM. Umbilical vein catheterization; Family Practice Notebook. Umbilical vein catheter.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Review: insertion of umbilical arterial and venous catheters, indications and tip positions (University of Limerick repository).</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Prevalence, indications and outcome of exchange blood transfusion in severe hyperbilirubinaemia in a north-eastern Nigerian special care baby unit. Niger J Paediatr 44(2):50-55.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Outcome of exchange blood transfusions done for neonatal jaundice in south-eastern Nigeria (three-year audit).</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Facility-based constraints to exchange transfusions for neonatal hyperbilirubinemia in resource-limited settings. World J Clin Pediatr 2016;5:182-190.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Pattern of serum bilirubin changes following double-volume exchange blood transfusion in neonates at a tertiary health facility in Nigeria. Pan Afr Med J 2021.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Comparison of total body phototherapy with conventional phototherapy for severe neonatal hyperbilirubinaemia: a multi-centre study across Nigerian neonatal units. Paediatr Int Child Health 2019.</p>
+  <p class="text-[10px] leading-snug text-stone-500">14. American Academy of Pediatrics. PediaLink and NeoReviews video library: Umbilical vessel catheterization.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+
 ];

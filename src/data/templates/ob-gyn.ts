@@ -2,6 +2,288 @@ import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
   {
+    id: 'ob-97',
+    title: 'Hepatitis B Virus Infection in Pregnancy',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Care',
+    condition: 'Hepatitis B Virus Infection in Pregnancy',
+    symptoms: [
+      'Reactive Hepatitis B surface antigen (HBsAg) on routine antenatal booking screening',
+      'Asymptomatic',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-12',
+    summary: 'A 28-year-old G2 P1 + 0 woman at 26 weeks + 4 days gestation, presenting with a reactive HBsAg result detected during routine antenatal booking screening. She has no symptoms suggestive of acute hepatitis or known history of chronic liver disease. Assessment is Hepatitis B virus infection in pregnancy, most likely chronic infection.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Mrs. A. B.
+  
+  Age: 28 years
+  
+  Sex: Female
+  
+  Address: Ogbomosho, Oyo State
+  
+  Tribe: Yoruba
+  
+  Occupation: Teacher
+  
+  Marital Status: Married (Monogamous)
+  
+  Education: Tertiary
+  
+  Religion: Christian
+  
+  Gravidity/Parity: G2 P1 + 0 (1 child alive)
+  
+  OBSTETRIC DATES
+  
+  LMP: 14/05/2024
+  
+  EDD: 21/02/2025
+  
+  EGA: 26 weeks + 4 days
+  
+  PRESENTING COMPLAINT
+  
+  Routine Antenatal Care (ANC) booking screening results showing Hepatitis B reactivity.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well and presented for routine antenatal booking at 20 weeks gestation. She was asymptomatic at the time, with no history of fever, jaundice, or right upper quadrant pain. Routine booking investigations were conducted, and she was informed of her HBsAg reactive status during her follow-up clinic visit today.
+  
+  Further inquiry reveals no history of previous blood transfusions, multiple sexual partners, or traditional scarification marks. She has no history of intravenous drug use. Her last pregnancy, three years ago, was uneventful; however, she does not recall being screened for Hepatitis B at that time. She has no known history of chronic liver disease.
+  
+  PAST OBSTETRIC HISTORY
+  
+  2021: G1 P1 + 0. Spontaneous Vaginal Delivery (SVD) at Term in a General Hospital. Male infant, birth weight 3.2 kg. No neonatal jaundice or complications reported. Child is alive and well.
+  
+  GYNAECOLOGICAL HISTORY
+  
+  Menarche at 13 years. 28-day cycle, flows for 4 days. No history of contraceptive use. Last Pap smear: Never done.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  No known history of Hypertension, Diabetes Mellitus, or Asthma. No previous surgeries. No history of known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Married for 4 years. Husband is a civil servant; his Hepatitis B status is unknown. She does not smoke or drink alcohol. Lives in a 3-bedroom flat with good waste disposal and pipe-borne water.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache, no visual blurring.
+  
+  RS: No cough, no chest pain.
+  
+  CVS: No palpitations, no pedal swelling.
+  
+  GIT: No nausea, no vomiting, no abdominal swelling.
+  
+  GUS: No dysuria, no vaginal discharge.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An adult woman, not in any obvious respiratory or painful distress. Not pale, anicteric, not dehydrated, no pedal edema. No peripheral lymphadenopathy.
+  
+  Weight: 72 kg
+  
+  Height: 1.62 m
+  
+  BP: 110/70 mmHg
+  
+  PR: 82 bpm, regular, normal volume.
+  
+  RR: 18 cpm.
+  
+  Temperature: 36.6 degrees Celsius.
+  
+  ABDOMINAL EXAMINATION
+  
+  Inspection: Gravid enlargement, moves with respiration. Striae gravidarum and linea nigra present. No previous surgical scars.
+  
+  Palpation: Fundal height corresponds to 26 weeks. Fetal parts palpable. Longitudinal lie, cephalic presentation.
+  
+  Auscultation: Fetal Heart Rate (FHR) present and regular at 144 bpm.
+  
+  VAGINAL EXAMINATION
+  
+  Not indicated at this visit.
+  
+  ASSESSMENT
+  
+  G2 P1 + 0 woman at 26 weeks + 4 days gestation with Hepatitis B Virus infection (HBsAg reactive).
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Chronic Hepatitis B infection in pregnancy (most likely).
+  
+  2. Acute Hepatitis B infection in pregnancy.
+  
+  3. HBV/HDV co-infection.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Hepatitis B profile (HBeAg, Anti-HBe, Anti-HBc IgM/IgG) to determine phase of infection and infectivity.
+  
+  2. HBV DNA Viral Load (crucial for deciding on antiviral therapy).
+  
+  3. Liver Function Tests (LFTs) to check for hepatic inflammation (ALT/AST levels).
+  
+  4. Abdominal Ultrasound (focused on liver morphology).
+  
+  5. Screening for co-infections: HIV and Hepatitis C (HCV) screening.
+  
+  6. Partner notification and screening for her husband and 3-year-old child.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Extensive counseling on the implications of Hepatitis B in pregnancy and the risk of vertical transmission.
+  
+  2. Reassurance that HBV is not an indication for Caesarean Section or termination of pregnancy.
+  
+  3. If HBV DNA is greater than 200,000 IU/mL or if HBeAg is positive, plan to commence Tenofovir (TDF) 300 mg daily from 28 weeks gestation to reduce the risk of Mother-to-Child Transmission (MTCT).
+  
+  4. Plan for Neonatal Immunoprophylaxis: Ensure availability of Hepatitis B Vaccine and Hepatitis B Immune Globulin (HBIG) for the neonate within 12 hours of birth.
+  
+  5. Advise on continued breastfeeding as it is not contraindicated if the infant receives appropriate immunoprophylaxis.
+  
+  6. Follow-up in 4 weeks with investigation results.
+  
+  7. Referral to a Gastroenterologist/Hepatologist for long-term monitoring post-delivery.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+
+  {
+    id: 'ob-96',
+    title: 'Primary Lactational Failure (Agalactia) in a Day 5 Puerperant',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Postnatal Care',
+    condition: 'Primary Lactational Failure (Agalactia)',
+    symptoms: [
+      'Absence of breast milk production',
+      'Inability to express colostrum',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-12',
+    summary: 'A 24-year-old G1P1+0 (1 Alive) female trader from Dutse, Jigawa State, presenting on the fifth day postpartum with complete absence of breast milk or colostrum production from both breasts despite frequent attempts at breastfeeding and skin-to-skin contact. Examination revealed normally developed, symmetrical breasts with everted nipples and no expressible milk. The uterus was well-involuted, firm, and non-tender. Assessment is primary lactational failure (agalactia) in a day 5 puerperant.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 24-year-old female trader who resides in Dutse, Jigawa State. She is of the Hausa ethnic group and is a G1 P1 + 0 (1 Alive).
+  
+  PRESENTING COMPLAINTS
+  
+  Inability to produce breast milk x 5/7
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient is a Day 5 puerperant who delivered a live male infant at term via spontaneous vaginal delivery (SVD) at a General Hospital. She reports that since delivery, there has been an absolute absence of breast milk or colostrum from both breasts. This is despite frequent attempts at latching the neonate and practicing skin-to-skin contact.
+  
+  There is no history of breast engorgement, breast pain, or nipple discharge. She denies any history of excessive bleeding during or after delivery (PPH), fainting spells, or the need for blood transfusion. There is no history of previous breast surgeries, including augmentations or reductions, and no history of chest wall trauma.
+  
+  She has no known history of thyroid disease, diabetes mellitus, or pituitary disorders. Her index pregnancy was supervised, and she took routine antenatal supplements. She reports significant psychological stress regarding her inability to feed the baby but denies symptoms suggestive of postpartum depression.
+  
+  PAST OBSTETRIC HISTORY
+  
+  G1 P1 + 0. Index pregnancy was the first. Delivered at 39 weeks plus 4 days. No history of miscarriages or terminations of pregnancy.
+  
+  DRUG HISTORY
+  
+  Currently on routine postnatal hematinics (Ferrous sulfate and Folic acid). No history of using combined oral contraceptives or dopamine agonists (e.g., bromocriptine).
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  She lives with her husband in a monogamous setting. No family history of similar lactational failure. She does not smoke or consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headaches, no visual blurring, no history of seizures.
+  
+  CVS: No palpitations, no orthostatic hypotension.
+  
+  GIT: Normal appetite, no constipation.
+  
+  Respiratory: No cough, no dyspnea.
+  
+  Endocrine: No cold intolerance or excessive skin dryness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young woman in no obvious distress. Afebrile (T: 36.7 C), not pale, anicteric, not dehydrated, no pedal edema.
+  
+  VITAL SIGNS
+  
+  Pulse Rate: 78 bpm, regular, normal volume.
+  
+  Blood Pressure: 110/70 mmHg.
+  
+  Respiratory Rate: 16 cpm.
+  
+  SpO2: 98 percent on room air.
+  
+  BREAST EXAMINATION
+  
+  Symmetrical breasts, normal size for a puerperant. No skin changes, Peau d'orange, or visible scars. No masses palpable. Nipples are everted and well-developed; no cracks or fissures. No milk or colostrum expressible from either breast on firm manual expression. No signs of mastitis or abscess.
+  
+  ABDOMINAL EXAMINATION
+  
+  Uterus is well-involuted, firm, and non-tender. Fundal height is at the level of 4 days postpartum.
+  
+  ASSESSMENT
+  
+  Primary Lactational Failure (Agalactia) in a Day 5 Puerperant.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Ineffective breastfeeding technique (Poor latch and positioning).
+  2. Sheehan’s Syndrome (Secondary to unrecognized postpartum hemorrhage).
+  3. Insufficient Glandular Tissue (IGT)/Breast Hypoplasia.
+  4. Primary Hypothyroidism.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Serum Prolactin levels: To assess pituitary function.
+  2. Thyroid Function Tests (TSH, free T4): To rule out hypothyroidism.
+  3. Full Blood Count (FBC): To check for anemia which may contribute to fatigue and poor lactation.
+  4. Fasting Blood Sugar: To screen for undiagnosed DM.
+  5. Pelvic Ultrasound: To check for retained products of conception (which can inhibit prolactin via persistent progesterone).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Counseling and Support: Reassure the patient and reduce anxiety, as maternal stress can inhibit the let-down reflex.
+  
+  2. Lactation Counseling: Formal assessment of latch, positioning, and frequency of feeding by a trained nurse or lactation consultant.
+  
+  3. Enhanced Stimulation: Encourage frequent nipple stimulation and demand feeding (every 2 hours) or the use of a hospital-grade breast pump if available.
+  
+  4. Nutritional Support: Ensure adequate caloric intake and hydration (at least 3 liters of water per day).
+  
+  5. Galactagogues: Consider a trial of oral Metoclopramide 10mg TDS or Domperidone 10mg TDS for 1 to 2 weeks to increase prolactin levels.
+  
+  6. Infant Safety: Monitor the neonate for signs of dehydration, hypoglycemia, and neonatal jaundice. Recommend supervised formula supplementation (using a cup or spoon rather than a bottle to avoid nipple confusion) until milk production is established.
+  
+  7. Follow-up: Review in 48 to 72 hours to reassess milk production and infant weight.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
     id: 'ob-95',
     title: 'Right Functional Ovarian Cyst',
     specialty: 'Obstetrics and Gynecology',

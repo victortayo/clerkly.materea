@@ -850,4 +850,557 @@ export const EXTERNAL_RESOURCES_CONTENT: LearningModule[] = [
     `
 },
 
+{
+  id: 'resources-ghmp-family-planning-video-series',
+  title: 'Family Planning Video Series (GHMP)',
+  category: 'External Resources',
+  subCategory: 'Gynecology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.sans, .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">RESOURCES &middot; FAMILY PLANNING</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Family Planning Video Series (Global Health Media Project)</h1>
+  <p class="text-sm text-indigo-200">60 short English videos on contraceptive counselling, clinic set-up and every major method, with matching versions for health workers and for women and their partners. Unmet need for family planning, postpartum pregnancies and unsafe abortion remain real problems in Nigeria, and many women decide with partners, in-laws and patent medicine sellers in the picture. The videos are grouped by method, with counselling, clinic preparation and the pelvic examination first.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#about-this-series" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>About This Series</span></a></li>
+  <li><a href="#using-these-videos-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Using These Videos in Nigerian Practice</span></a></li>
+  <li><a href="#start-here-choosing-a-method-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Start Here: Choosing a Method and Counselling</span></a></li>
+  <li><a href="#preparing-the-clinic-and-preventing-infection" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Preparing the Clinic and Preventing Infection</span></a></li>
+  <li><a href="#the-pelvic-examination" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>The Pelvic Examination</span></a></li>
+  <li><a href="#contraceptive-pills" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Contraceptive Pills</span></a></li>
+  <li><a href="#contraceptive-injections" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Contraceptive Injections</span></a></li>
+  <li><a href="#contraceptive-implants" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Contraceptive Implants</span></a></li>
+  <li><a href="#intrauterine-devices-copper-iud" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Intrauterine Devices (Copper IUD)</span></a></li>
+  <li><a href="#barrier-and-fertility-awareness-methods" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Barrier and Fertility Awareness Methods</span></a></li>
+  <li><a href="#permanent-methods" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Permanent Methods</span></a></li>
+  <li><a href="#emergency-contraception-and-bleeding-changes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Emergency Contraception and Bleeding Changes</span></a></li>
+  <li><a href="#suggested-viewing-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Suggested Viewing Order</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="about-this-series" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+About This Series
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Global Health Media Project is a non-profit that makes short teaching films for front-line health workers. The family planning series began in October 2021 with films on the copper IUD and the implant, including brief teaching shorts that repeat the steps of each procedure. Videos on injectables and pills followed, and in February 2022 a set on six non-hormonal methods: male and female condoms, the Caya diaphragm, the breastfeeding method, and the calendar and secretion methods. Each method has one video for health workers and a companion for women and their partners.</p>
+<p class="text-sm">WHO, UNFPA, Ipas, the International Confederation of Midwives and Laerdal Global Health contributed content expertise. Footage was filmed in Bangladesh, Ethiopia and Uganda, with some filmed in the USA. The health-worker videos are part of the Training Resource Package for Family Planning, a WHO, USAID and UNFPA-led consortium resource, and are also in the Practice Family Planning app. The women and partners videos are in the Learn Family Planning app.</p>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  📖 <a href="https://globalhealthmedia.org/family-planning-videos-now-available/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Series announcement (2021)</a>
+  &nbsp;&middot;&nbsp;
+  📖 <a href="https://globalhealthmedia.org/family-planning-videos-used-as-global-training-resource/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Training resource package</a>
+  &nbsp;&middot;&nbsp;
+  🔗 <a href="https://globalhealthmedia.org/video/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Video archive</a>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="using-these-videos-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Using These Videos in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Counsel first.</strong> Many women stop a method because of side effects they were not warned about, especially bleeding changes. Watch the counselling and bleeding-change videos before the procedure videos.</li>
+  <li><strong>Myths and rumours.</strong> Expect fears that injections or implants cause lasting infertility, that an IUD can travel in the body, or that methods are unsafe for women who have not yet had a child. Ask what the client has heard, answer plainly and without scolding.</li>
+  <li><strong>The client decides.</strong> Partner and family opinion matters, but the choice and consent belong to the client. Some women want a method their partner will not notice, so discuss what suits their situation. Adolescents need privacy and a non-judgemental approach.</li>
+  <li><strong>Postpartum timing.</strong> Many women are seen only around delivery and the six-week visit. Raise contraception during antenatal care and before discharge, and see the Childbirth Video Series guide for the birth-side videos.</li>
+  <li><strong>Supplies and scope of practice.</strong> Products stocked, free supplies and who may insert implants or IUDs vary by facility and cadre. Watch the skills videos for technique, then follow your own programme&rsquo;s rules.</li>
+</ul>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 text-amber-900 dark:text-amber-300">
+  <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+  <p class="text-sm">Medical eligibility, the timing of starting a method, missed-pill rules and which methods a given cadre may provide can differ between the videos, current WHO guidance, FMOH national family planning guidance and your programme&rsquo;s protocol. The videos were published in 2021 and 2022. Where they differ from current guidance, follow the local protocol and ask your supervisor. The videos teach technique and sequence. They do not replace the protocol of the unit you work in.</p>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="start-here-choosing-a-method-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Start Here: Choosing a Method and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Begin with how pregnancy happens and the comparison of methods, then the counselling visit. The adolescent visit covers the extra care young clients need.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/how-pregnancy-happens-teaching-short-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How Pregnancy Happens, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/comparing-contraceptive-methods-w-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Comparing Contraceptive Methods</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/comparing-contraceptive-methods-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Comparing Contraceptive Methods</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-contraceptive-counseling-visit-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Contraceptive Counseling Visit</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-contraceptive-counseling-visit-for-adolescents-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Contraceptive Counseling Visit for Adolescents</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparing-the-clinic-and-preventing-infection" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Preparing the Clinic and Preventing Infection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Room set-up, infection prevention, instrument processing and procedure trays. These come before any IUD or implant procedure.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/organizing-the-clinic-room-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Organizing the Clinic Room</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/preventing-infection-in-the-clinic-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Preventing Infection in the Clinic</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/wrapping-instruments-for-sterilization-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wrapping Instruments for Sterilization</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/setting-up-for-an-iud-insertion-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Setting Up for an IUD Insertion</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/setting-up-for-implant-procedures-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Setting Up for Implant Procedures</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-pelvic-examination" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+The Pelvic Examination
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">What the woman can expect, then the speculum and bimanual examinations for the provider. Pair with the Gynaecology history and examination guides in this library.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/what-to-expect-when-you-have-a-pelvic-exam-w-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">What to Expect When You Have a Pelvic Exam</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-speculum-exam-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Speculum Exam</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-bimanual-exam-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Bimanual Exam</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="contraceptive-pills" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Contraceptive Pills
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Combined pills, taking them continuously, the mini-pill and what to do after a missed pill.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-contraceptive-pill/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Contraceptive Pill</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/how-to-take-the-contraceptive-pill/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to Take the Contraceptive Pill</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/taking-the-contraceptive-pill-continuously-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Taking the Contraceptive Pill Continuously</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-mini-pill/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Mini-pill</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/what-to-do-when-you-miss-a-pill/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">What To Do When You Miss a Pill, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="contraceptive-injections" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Contraceptive Injections
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Standard intramuscular injections and the subcutaneous (Depo SubQ) injection, including self-injection teaching.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-contraceptive-injection/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Contraceptive Injection</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-contraceptive-injection-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Contraceptive Injection</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-depo-subq-injection/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Depo SubQ Injection</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-subq-contraceptive-injection/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The SubQ Contraceptive Injection</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/how-to-use-depo-subq-teaching-short/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to use Depo SubQ, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="contraceptive-implants" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Contraceptive Implants
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Counselling video first, then insertion of one-rod and two-rod implants, routine removal, and the two-part series for implants that cannot be felt under the skin. Teaching shorts repeat the steps of the skills videos.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-implant/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Implant</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-implant-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Implant</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-a-one-rod-implant/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting a One Rod Implant</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-a-one-rod-implant-teaching-short/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting a One Rod Implant, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-a-two-rod-implant/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting a Two Rod Implant</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-a-two-rod-implant-teaching-short/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting a Two Rod Implant, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/removing-contraceptive-implants/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Removing Contraceptive Implants</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/removing-a-one-rod-implant-longitudinal-approach-teaching-short/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Removing a One Rod Implant, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/locating-the-non-palpable-contraceptive-implant-part1-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Locating the Non-Palpable Contraceptive Implant, Part 1</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/removing-the-non-palpable-contraceptive-implant-part2-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Removing the Non-Palpable Contraceptive Implant, Part 2</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="intrauterine-devices-copper-iud" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Intrauterine Devices (Copper IUD)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Counselling video first, then interval insertion, postpartum insertion and loading the device. Teaching shorts repeat the steps of the skills videos.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-iud/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The IUD</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-iud-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The IUD</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-an-iud/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting an IUD</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-an-iud-teaching-short/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting an IUD, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/loading-a-copper-iud-teaching-short/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Loading a Copper IUD, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-an-iud-postpartum/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting an IUD Postpartum</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-an-id-postpartum-teaching-short/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting an IUD Postpartum, Teaching Short</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching short: a brief recap of the procedure steps.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="barrier-and-fertility-awareness-methods" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Barrier and Fertility Awareness Methods
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Condoms, the female condom, the Caya diaphragm, calendar-based, secretion and breastfeeding methods. The project makes one video for health workers and a companion for women and their partners for each of these.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/condoms/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Condoms</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/condoms-4/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Condoms</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-female-condom/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Female Condom</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-female-condom-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Female Condom</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-caya-diaphragm/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Caya Diaphragm</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-caya-diaphragm-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Caya Diaphragm</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-calendar-method/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Calendar-based Methods</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-calendar-method-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Calendar-based Methods</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-secretion-method/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Secretion Method</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-secretion-method-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Secretion Method</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-breastfeeding-method/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Breastfeeding Method</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-breastfeeding-method-2/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Breastfeeding Method</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="permanent-methods" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Permanent Methods
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Tubal ligation and vasectomy, each with a provider video and a video for the client.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-tubal-ligation-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Tubal Ligation</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-tubal-ligation-w-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Tubal Ligation</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-vasectomy-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Vasectomy</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-vasectomy-w-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Vasectomy</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="emergency-contraception-and-bleeding-changes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Emergency Contraception and Bleeding Changes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Emergency contraceptive pills, and bleeding changes, a leading reason women stop a method. Counselling before the method is started reduces discontinuation.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-emergency-contraceptive-pill-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Emergency Contraceptive Pill</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/emergency-contraceptive-pills-w-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Emergency Contraceptive Pills</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/bleeding-changes-on-contraceptives-hw-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Bleeding Changes on Contraceptives</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/bleeding-changes-on-contraceptives-w-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Bleeding Changes on Contraceptives</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suggested-viewing-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Suggested Viewing Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">New to family planning clinic</strong>
+  <p class="text-sm">Comparing Contraceptive Methods (health worker version), The Contraceptive Counseling Visit, Preventing Infection in the Clinic, Organizing the Clinic Room, then the method videos for the methods your clinic offers.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Learning to insert an implant or IUD</strong>
+  <p class="text-sm">Setting Up for Implant Procedures or Setting Up for an IUD Insertion, The Speculum Exam and The Bimanual Exam (for the IUD), the insertion video, its teaching short, then the removal video.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Counselling adolescents</strong>
+  <p class="text-sm">The Contraceptive Counseling Visit for Adolescents, How Pregnancy Happens, Emergency Contraceptive Pills, then the method videos.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Showing clients in the waiting area</strong>
+  <p class="text-sm">How Pregnancy Happens, the women and partners version of Comparing Contraceptive Methods, What to Expect When You Have a Pelvic Exam, and the women and partners videos for each method.</p>
+</div>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-200">
+<p class="font-brand font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Start with counselling and method comparison. The choice and consent belong to the client.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Prepare the room, the instruments and infection prevention before any IUD or implant procedure.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Warn about bleeding changes before a method is started. They are a common reason for stopping.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Most methods have a health-worker video and a women and partners video. Use the second in waiting areas and counselling.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check the videos against current WHO and FMOH guidance, and follow your programme&rsquo;s protocol where they differ.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-slate-800 dark:text-slate-200 list-none">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-2">
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Family Planning Videos Now Available (October 2021). https://globalhealthmedia.org/family-planning-videos-now-available/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Family Planning Videos used as global training resource. https://globalhealthmedia.org/family-planning-videos-used-as-global-training-resource/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. New videos on non-hormonal contraceptives (February 2022), as reported at https://www.hifa.org/node/96850118</p>
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Video library. https://globalhealthmedia.org/video/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Video titles and links were supplied from the Global Health Media Project site in November 2026 and were not opened one by one. Audience labels come from the link names (hw for health workers, w for women and partners) and from the project&rsquo;s announcements. Where two videos share a title without a marker, the audience of each is not stated. The site may add, rename or move videos.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'resources-ghmp-newborn-care-video-series',
+  title: 'Newborn Care Video Series (GHMP)',
+  category: 'External Resources',
+  subCategory: 'Pediatrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.sans, .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">RESOURCES &middot; NEWBORN CARE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Newborn Care Video Series (Global Health Media Project)</h1>
+  <p class="text-sm text-indigo-200">42 short English videos on examining, resuscitating, protecting and treating the newborn. Nigeria has one of the highest numbers of newborn deaths in the world, and most occur in the first days of life, often after a home or small-facility birth and a delayed referral. The videos are arranged in the order of care, from the first examination and resuscitation to routine care, common problems, serious infection, medicines and procedures.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#about-this-series" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>About This Series</span></a></li>
+  <li><a href="#using-these-videos-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Using These Videos in Nigerian Practice</span></a></li>
+  <li><a href="#start-here-basic-skills-examination-and-danger-signs" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Start Here: Basic Skills, Examination and Danger Signs</span></a></li>
+  <li><a href="#newborn-resuscitation-helping-babies-breathe" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Newborn Resuscitation (Helping Babies Breathe)</span></a></li>
+  <li><a href="#cleaning-resuscitation-equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Cleaning Resuscitation Equipment</span></a></li>
+  <li><a href="#routine-newborn-care-warmth-cord-and-home-visits" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Routine Newborn Care: Warmth, Cord and Home Visits</span></a></li>
+  <li><a href="#common-newborn-problems" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Common Newborn Problems</span></a></li>
+  <li><a href="#serious-illness-and-referral" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Serious Illness and Referral</span></a></li>
+  <li><a href="#preparing-and-giving-medicines" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Preparing and Giving Medicines</span></a></li>
+  <li><a href="#procedures-iv-access-gastric-tube-and-blood-sampling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Procedures: IV Access, Gastric Tube and Blood Sampling</span></a></li>
+  <li><a href="#suggested-viewing-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Suggested Viewing Order</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="about-this-series" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+About This Series
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Global Health Media Project is a non-profit that makes short teaching films for front-line health workers. Its Newborn Care Series has 42 videos for health workers, including students and trainees. The topics are newborn care skills, newborn problems, special care including referral and home visits, live newborn resuscitation, and managing seriously ill young infants when hospital referral is not possible.</p>
+<p class="text-sm">The content draws on Save the Children&rsquo;s <em>Care of the Newborn Reference Manual</em>, WHO&rsquo;s <em>Managing Newborn Problems</em>, the WHO Integrated Management of Childhood Illness chart booklet and the AAP <em>Helping Babies Breathe</em> Provider Guide. The videos were selected for the WHO Essential Newborn Care course and AAP&rsquo;s Helping Babies Survive modules. Clinical filming took place in the Dominican Republic, Nigeria, India, Nepal, Haiti and Ghana. Narration is in English, French and Spanish, and the videos are also in the Birth &amp; Beyond app for iPhone and Android.</p>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  📖 <a href="https://globalhealthmedia.org/our-projects/new-born-care-series/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Series home page</a>
+  &nbsp;&middot;&nbsp;
+  🔗 <a href="https://globalhealthmedia.org/video/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Video archive</a>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="using-these-videos-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Using These Videos in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Where babies are born.</strong> Many are born at home, in a primary health centre or a private clinic, and are seen first by a health worker with little equipment. Learn the no-equipment steps first: drying and warming, stimulating, and opening the airway.</li>
+  <li><strong>Cord and home practices.</strong> Ask what is put on the cord and how the baby is bathed and wrapped. Some families apply herbal preparations, powders or other substances. Ask without blame, then explain clean, dry care or the chlorhexidine method your programme uses.</li>
+  <li><strong>Jaundice.</strong> Severe early jaundice is common. G6PD deficiency, ABO incompatibility, sepsis and herbal or camphor exposure are causes to keep in mind, so a baby who turns yellow in the first day needs urgent assessment.</li>
+  <li><strong>Referral.</strong> Many babies reach hospital late or cold. Learn the referral video together with the warmth video, so the baby is warm, fed or on a plan, and accompanied during transfer.</li>
+  <li><strong>Equipment and drugs.</strong> Oxygen, pulse oximeters, IV supplies and some antibiotics may not be available. Watch the videos for technique and sequence, then follow what your facility can actually do.</li>
+</ul>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 text-amber-900 dark:text-amber-300">
+  <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+  <p class="text-sm">Antibiotic regimens and doses, the use of chlorhexidine on the cord, jaundice treatment thresholds and the criteria for referral can differ between the videos, current WHO guidance, FMOH guidance and your hospital&rsquo;s protocol. Newborn dosing depends on weight and gestational age. Where sources differ, follow the local protocol and confirm every dose with a senior or pharmacist. The videos teach technique and sequence. They do not replace the protocol of the unit you work in.</p>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="start-here-basic-skills-examination-and-danger-signs" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Start Here: Basic Skills, Examination and Danger Signs
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Begin with basic skills and the newborn examination, then learn the danger signs. The second danger-sign video is written for mothers and caregivers, so use it for discharge teaching.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/basic-skills/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Basic Skills</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/newborn-physical-exam/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Newborn Physical Exam</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/danger-signs-in-newborns-for-health-workers/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Danger Signs in Newborns</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/warning-signs-in-newborns-for-mothers-and-caregivers/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Warning Signs in Newborns</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="newborn-resuscitation-helping-babies-breathe" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Newborn Resuscitation (Helping Babies Breathe)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Live footage of resuscitation at birth, how to practise on a training doll, and the teaching points for instructors. For the rest of the delivery, see the Childbirth Video Series guide in this library.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/helping-babies-breathe-at-birth/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Helping Babies Breathe at Birth</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/helping-babies-breathe-with-a-training-doll/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Helping Babies Breathe with a Training Doll</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/teaching-points-for-newborn-resuscitation/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Teaching Points for Newborn Resuscitation</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cleaning-resuscitation-equipment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Cleaning Resuscitation Equipment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Bag, mask and suction devices must be cleaned between babies. Start with the general video, then the method that matches what your facility has: chemical solution, boiling, steam or autoclave.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/cleaning-resuscitation-equipment/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Cleaning Resuscitation Equipment</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/cleaning-resuscitation-equipment-with-a-chemical-solution/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Cleaning Resuscitation Equipment with a Chemical Solution</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/cleaning-resuscitation-equipment-with-boiling/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Cleaning Resuscitation Equipment with Boiling</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/cleaning-resuscitation-equipment-with-steam/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Cleaning Resuscitation Equipment with Steam</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/cleaning-resuscitation-equipment-with-an-autoclave/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Cleaning Resuscitation Equipment with an Autoclave</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="routine-newborn-care-warmth-cord-and-home-visits" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Routine Newborn Care: Warmth, Cord and Home Visits
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Keeping the baby warm, caring for the cord and the home visit. Many births happen at home or in small facilities, and the first days are when most newborn deaths occur, so these visits matter.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/keeping-the-baby-warm/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Keeping the Baby Warm</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/care-of-the-cord/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Care of the Cord</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/chlorhexidine-for-newborn-cord-care/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Chlorhexidine for Newborn Cord Care</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/home-visit-for-the-newborn/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Home Visit for the Newborn</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-home-visit/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Home Visit for Mother and Newborn</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-newborn-problems" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Common Newborn Problems
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Temperature problems, breathing, jaundice and infections of the eye, mouth, skin and cord.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-cold-baby/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Cold Baby</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/the-hot-baby/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Hot Baby</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/breathing-problems/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Breathing Problems</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/jaundice/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Jaundice</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/eye-infections/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Eye Infections</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/thrush/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Thrush</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/skin-infection/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Skin Infection</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/umbilical-infections/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Umbilical Infections</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="serious-illness-and-referral" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Serious Illness and Referral
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Recognise critical illness and sepsis, deal with fast breathing as the only sign, manage severe infection when referral is not possible, and refer a sick baby safely.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/critical-illnesses-in-newborns/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Critical Illnesses in Newborns</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/sepsis/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Sepsis</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/fast-breathing-as-the-single-sign-of-illness/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Fast Breathing as Single Sign of Illness</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/managing-severe-infection-in-newborns/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Managing Severe Infection in Newborns</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/referring-a-sick-baby/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Referring a Sick Baby</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparing-and-giving-medicines" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Preparing and Giving Medicines
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Preparing oral and injectable medicines, the antibiotics used for newborn infection, and injection technique. Always check the dose against your local protocol and the baby&rsquo;s weight.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/newborn-care-preparing-oral-medecines/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Preparing Oral Medicines</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/preparing-and-giving-oral-amoxicillin/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Preparing and Giving Oral Amoxicillin</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/newborn-care-preparing-injectable-medecines/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Preparing Injectable Medicines</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/preparing-ampicillin-and-gentamicin-for-injection/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Preparing Ampicillin and Gentamicin</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/giving-an-intramuscular-injection/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Giving an Intramuscular Injection</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/giving-an-intradermal-injection/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Giving an Intradermal Injection</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="procedures-iv-access-gastric-tube-and-blood-sampling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Procedures: IV Access, Gastric Tube and Blood Sampling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Skills for the sick newborn. Practise on a model first, and use the least invasive route that works.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/setting-up-an-iv-line/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Setting Up an IV Line</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-an-iv/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting an IV</a><span class="block mt-1 text-slate-500 dark:text-slate-400"></span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/inserting-a-gastric-tube/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Inserting a Gastric Tube</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/feeding-with-a-gastric-tube/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Feeding with a Gastric Tube</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/taking-a-heel-blood-sample/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Taking a Heel Blood Sample</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/taking-a-venous-blood-sample/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Taking a Venous Blood Sample</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suggested-viewing-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Suggested Viewing Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before your first delivery or newborn posting</strong>
+  <p class="text-sm">Basic Skills, Newborn Physical Exam, Keeping the Baby Warm, Helping Babies Breathe at Birth, Care of the Cord, Danger Signs in Newborns.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before taking night call</strong>
+  <p class="text-sm">Helping Babies Breathe with a Training Doll, Breathing Problems, Critical Illnesses in Newborns, Sepsis, Managing Severe Infection in Newborns, Referring a Sick Baby, Setting Up an IV Line.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before a home or community visit</strong>
+  <p class="text-sm">Home Visit for the Newborn, Home Visit for Mother and Newborn, Care of the Cord, Chlorhexidine for Newborn Cord Care, Warning Signs in Newborns, Jaundice.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Teaching mothers before discharge</strong>
+  <p class="text-sm">Warning Signs in Newborns (for mothers and caregivers), Keeping the Baby Warm, Care of the Cord, Thrush and Eye Infections.</p>
+</div>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-200">
+<p class="font-brand font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Examine every newborn systematically and teach the mother the danger signs before she leaves.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Warmth, drying and the airway come first. Practise resuscitation on a doll before you need it.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Clean resuscitation equipment between babies, using the method your facility has.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Recognise sepsis and critical illness early, and refer with the baby warm and accompanied.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check every newborn dose against weight and local protocol. Do not rely on the video for doses.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-slate-800 dark:text-slate-200 list-none">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-2">
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Newborn Care Series. https://globalhealthmedia.org/our-projects/new-born-care-series/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Video library. https://globalhealthmedia.org/video/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Source materials named by the series: Save the Children, Care of the Newborn Reference Manual; WHO, Managing Newborn Problems; WHO, Integrated Management of Childhood Illness chart booklet; American Academy of Pediatrics, Helping Babies Breathe Provider Guide.</p>
+  <p class="text-[10px] leading-snug text-stone-500">Video titles and links were supplied from the Global Health Media Project site in November 2026 and were not opened one by one. The two audience labels shown come from the link names. The site may add, rename or move videos.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
 ];

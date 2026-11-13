@@ -1,6 +1,106 @@
 import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
+
+  {
+    id: 'ob-98',
+    title: 'Emesis Gravidarum',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Early Pregnancy Clinic',
+    condition: 'Nausea and Vomiting in Pregnancy',
+    symptoms: ['Nausea', 'Vomiting', 'Loss of appetite', 'Food and odor intolerance'],
+    contributor: 'Admin',
+    lastModified: '2026-11-12',
+    summary: '24-year-old G1P0+0 at 8 weeks gestation presenting with one week of nausea, recurrent vomiting and loss of appetite, with preserved oral fluid tolerance and no clinical evidence of dehydration.',
+    content: `EARLY PREGNANCY CLINIC
+  
+  Patient Seen
+  A 24-year-old female teacher residing in Dutse, Jigawa State. She is Hausa, married, in a monogamous marriage, G1P0+0.
+  
+
+  EGA: 8 weeks
+  
+  PC:
+  Nausea and vomiting × 1 week
+  Loss of appetite × 1 week
+  
+  HPC:
+  She was apparently well until 1 week ago when she started experiencing frequent bouts of nausea, most prominent in the early hours of the morning. This is associated with vomiting of recently ingested meals, usually 2–3 episodes per day. Vomitus is non-bloody and non-bilious. She reports that certain food smells, particularly cooking oils and spices, trigger the symptoms.
+  
+  There is no history of associated abdominal pain, fever, or yellowish discoloration of the eyes. No history of urinary frequency, dysuria, or loin pain. She is still able to tolerate significant amounts of oral fluids and has not experienced any fainting spells or palpitations. Bowel habits remain normal.
+  
+  Index Pregnancy:
+  This is a spontaneous conception, recently confirmed via a urine pregnancy test at a local pharmacy. She has not yet booked for Antenatal Care (ANC). No history of bleeding per vaginam or excessive vaginal discharge. She has started taking routine folic acid supplements.
+  
+  Past Medical and Gynaecological History:
+  No known history of Peptic Ulcer Disease (PUD) or chronic hypertension. No previous surgeries. Menarche was at 13 years with a regular 28-day cycle. No previous history of use of hormonal contraceptives.
+  
+  Family and Social History:
+  She is in a monogamous marriage. Her husband is a civil servant. No family history of multiple gestations or similar severe vomiting in pregnancy among siblings. She does not smoke or consume alcohol.
+  
+  Review of Systems:
+  CNS: No headaches or blurred vision.
+  CVS: No palpitations or pedal edema.
+  RS: No cough or chest pain.
+  GIT: As in HPC.
+  GUS: No dysuria or change in urine colour or volume.
+  
+  O/E:
+  A young woman, conscious and alert, not chronically ill-looking, not in any obvious respiratory or painful distress.
+  Afebrile (36.6°C), not pale, anicteric, not dehydrated.
+  No significant peripheral lymphadenopathy or pedal edema.
+  
+  Vital Signs:
+  PR: 82 bpm, regular, normal volume.
+  BP: 110/70 mmHg.
+  RR: 18 cpm.
+  SpO₂: 98% on room air.
+  
+  ABD:
+  Inspection: Flat, moves with respiration, no visible scars or dilated veins.
+  Palpation: Abdomen is soft, non-tender. No organomegaly. Uterus is not yet clinically palpable (consistent with EGA).
+  Auscultation: Normal bowel sounds present.
+  
+  ASS:
+  Emesis gravidarum in a G1P0+0 woman at 8 weeks EGA.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Hyperemesis gravidarum (to be ruled out if symptoms worsen or ketonuria develops).
+  2. Urinary Tract Infection (UTI).
+  3. Peptic Ulcer Disease.
+  4. Gestational Trophoblastic Disease (molar pregnancy).
+  
+  INVESTIGATIONS:
+  1. Urinalysis: To check for ketones (rule out dehydration/hyperemesis), nitrites, and leucocytes (rule out UTI).
+  2. Pelvic Ultrasound Scan: To confirm viability, accurate dating, and rule out multiple pregnancy or molar pregnancy.
+  3. Packed Cell Volume (PCV): Baseline assessment.
+  4. Random Blood Sugar (RBS): Baseline assessment.
+  
+  PLAN:
+  
+  Non-Pharmacological:
+  1. Reassurance and counseling on the nature of emesis gravidarum.
+  2. Dietary modification: Small, frequent meals instead of three large meals.
+  3. Avoidance of triggers (strong odors, spicy or fatty foods).
+  4. Encourage dry carbohydrates like crackers or biscuits in the morning before rising from bed.
+  5. Use of ginger-based teas or candies.
+  
+  Pharmacological:
+  1. Tab Pyridoxine (Vitamin B6) 25 mg TDS.
+  2. If nausea persists: Tab Promethazine 25 mg at night or Tab Metoclopramide 10 mg TDS for 3–5 days.
+  3. Continue routine Tab Folic acid 5 mg daily.
+  
+  FOLLOW-UP:
+  Review in 1 week or sooner if there is inability to tolerate any oral intake, reduced urine output, or extreme weakness.
+  Encourage early ANC booking.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
   {
     id: 'ob-97',
     title: 'Hepatitis B Virus Infection in Pregnancy',

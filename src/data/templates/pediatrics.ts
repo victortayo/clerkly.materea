@@ -4,6 +4,140 @@ export const PEDIATRICS_TEMPLATES: Template[] = [
 
 
   {
+    id: 'peds-145',
+    title: 'Acute Gastroenteritis with Mild Dehydration',
+    specialty: 'Pediatrics',
+    subSpecialty: 'General Pediatric Clinic',
+    condition: 'Acute Gastroenteritis',
+    symptoms: ['Frequent loose stools', 'Vomiting', 'Fever', 'Abdominal tenderness', 'Irritability', 'Mild dehydration'],
+    contributor: 'Admin',
+    lastModified: '2026-11-12',
+    summary: '18-month-old male presenting with 3 days of frequent loose stools containing mucus and occasional blood, 2 days of vomiting and fever, with clinical features of mild dehydration.',
+    content: `GENERAL PEDIATRIC CLINIC
+  
+  Patient Identification:
+  Name: Musa Ibrahim
+  Age: 18 months
+  Sex: Male
+  Address: Dutse, Jigawa State
+  Tribe: Hausa
+  Religion: Islam
+  Informant: Mother (Reliable)
+  
+  PC:
+  1. Frequent loose stools × 3 days
+  2. Vomiting × 2 days
+  3. Fever × 2 days
+  
+  HPC:
+  The patient was apparently well until 3 days ago when he developed diarrhea, characterized by frequent loose, watery stools, approximately 6–8 episodes per day. The stool is moderate in volume, foul-smelling, and contains mucus and occasional streaks of blood. There is no history of oil droplets or passage of worms in the stool.
+  
+  Two days prior to presentation, he began vomiting. The vomitus contains recently ingested meals, is non-bilious and non-bloody. He vomits about 3–4 times a day, usually shortly after feeding.
+  
+  He also has a high-grade fever which started 2 days ago. The fever is intermittent, noted more at night, and is temporarily relieved by paracetamol. Mother reports he has been irritable but is still able to drink fluids and breastfeed. There is no history of cough, fast breathing, ear discharge, or convulsions.
+  
+  Past Medical History:
+  Not a known patient with Sickle Cell Disease (Genotype AA). No previous history of similar illness or hospitalizations. No known drug allergies.
+  
+  Birth History:
+  Pregnancy was supervised at a General Hospital. He was delivered at term via Spontaneous Vaginal Delivery. No history of birth asphyxia or neonatal jaundice. Birth weight was 3.1 kg.
+  
+  Dietary History:
+  He was exclusively breastfed for 6 months. Complementary feeding was started at 6 months with fortified pap and family snacks. Currently on family diet (tuwo, soups). He eats 3–4 times a day.
+  
+  Immunization History:
+  Fully immunized for age according to the National Programme on Immunization (NPI) schedule. BCG scar is present on the left deltoid.
+  
+  Developmental History:
+  Attained all major milestones at the appropriate age. Currently walks independently and says several individual words.
+  
+  Family and Social History:
+  He is the 3rd child in a monogamous family setting. Parents are traders. They live in a 2-bedroom apartment with a ventilated pit latrine. Main water source is a communal borehole.
+  
+  Review of Systems:
+  CNS: Irritable but conscious. No seizures.
+  RS: No cough or respiratory distress.
+  CVS: No cyanosis or precordial activity.
+  MSS: No joint swellings.
+  
+  O/E:
+  Acutely ill-looking child, febrile (Temp 38.4°C), mildly dehydrated (eyes slightly sunken, thirsty, mucous membranes moist, skin pinch returns immediately).
+  No pallor, no jaundice, no significant lymphadenopathy, no pedal edema.
+  
+  Anthropometry:
+  Weight: 10.5 kg
+  Height: 81 cm
+  MUAC: 14.2 cm (Normal nutritional status).
+  
+  ABD:
+  Full, moves with respiration. Mild generalized tenderness on palpation. No hepatosplenomegaly. Bowel sounds are hyperactive (12 per minute).
+  
+  Respiratory System:
+  RR: 28 cpm.
+  Trachea central. Percussion notes resonant. Breath sounds vesicular. No added sounds.
+  
+  Cardiovascular System:
+  PR: 116 bpm, regular, normal volume.
+  S1 and S2 heard. No murmurs.
+  
+  Neurological System:
+  Conscious and alert. Blantyre Coma Score 5/5. No neck stiffness. Power and reflexes normal.
+  
+  ASS:
+  Acute bacterial gastroenteritis with mild dehydration.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Intestinal Amoebiasis.
+  2. Septicemia.
+  3. Malaria with gastrointestinal symptoms.
+  
+  INVESTIGATIONS:
+  1. Stool microscopy, culture, and sensitivity (to identify causative organism and blood/pus cells).
+  2. Full Blood Count (to check for leucocytosis).
+  3. Malaria Parasite (MP) test (RDT or microscopy).
+  4. Urinalysis (to rule out associated UTI).
+  
+  PLAN:
+  The patient is to be managed on an outpatient basis as he can tolerate oral intake and has only mild dehydration.
+  
+  1. Rehydration (WHO Plan A/B):
+  Give 50–100 ml of Oral Rehydration Solution (ORS) after each loose stool or vomiting episode.
+  Continue breastfeeding and increase intake of other fluids (clean water, soup).
+  
+  2. Zinc Supplementation:
+  Tab Zinc 20 mg daily for 14 days (to reduce severity and prevent recurrence).
+  
+  3. Antipyretic:
+  Syrup Paracetamol 150 mg (7.5 ml) every 8 hours for 2 days or until fever subsides.
+  
+  4. Antibiotic Options (Suspected bacterial etiology/dysentery):
+  First Choice: Syrup Ciprofloxacin 15 mg/kg per dose twice daily for 3 days.
+  Alternative: Syrup Azithromycin 10 mg/kg once daily for 3 days.
+  Alternative: Syrup Cefixime 8 mg/kg once daily for 5 days.
+  
+  5. Nutritional Support:
+  Encourage frequent small feedings of energy-dense local foods.
+  
+  6. Danger Signs Counseling:
+  Advise mother to return immediately to the clinic if the child:
+  - Becomes very sleepy or lethargic.
+  - Is unable to drink or breastfeed.
+  - Starts vomiting everything.
+  - Passes many more watery stools.
+  - Has fever that does not go away.
+  - Develops blood in the stool (if it increases significantly).
+  
+  7. Follow-up:
+  Return in 2 days for review of progress and investigation results.`,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
     id: 'peds-144',
     title: 'Severe Neonatal Jaundice with Suspected G6PD Deficiency',
     specialty: 'Pediatrics',

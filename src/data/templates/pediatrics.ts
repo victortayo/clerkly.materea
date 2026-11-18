@@ -2,7 +2,181 @@ import { Template } from '../../types';
 
 export const PEDIATRICS_TEMPLATES: Template[] = [
 
-
+  {
+    id: 'peds-146',
+    title: 'Infantile Hypertrophic Pyloric Stenosis with Dehydration',
+    specialty: 'Paediatrics',
+    subSpecialty: 'Paediatric Surgery',
+    condition: 'Infantile Hypertrophic Pyloric Stenosis',
+    symptoms: [
+      'Projectile non-bilious vomiting',
+      'Persistent hunger after vomiting',
+      'Poor weight gain',
+      'Constipation',
+      'Reduced urine output',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-17',
+    summary: 'A 6-week-old male infant presented with five days of progressively worsening projectile, non-bilious vomiting occurring shortly after breast milk feeds, persistent hunger after vomiting and poor weight gain. Examination revealed moderate dehydration, weight below birth weight, visible gastric peristalsis and a palpable olive-shaped mass in the right upper abdomen. Findings are strongly suggestive of infantile hypertrophic pyloric stenosis, complicated by dehydration and suspected hypochloraemic, hypokalaemic metabolic alkalosis.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  Name: Master Ibrahim Musa
+  
+  Age: 6 weeks old
+  
+  Sex: Male
+  
+  Religion: Islam
+  
+  Address: Dutse, Jigawa State
+  
+  Tribe: Hausa
+  
+  Informant: Mother (Reliable)
+  
+  PRESENTING COMPLAINTS
+  
+  1. Projectile vomiting x 5/7
+  2. Excessive hunger after vomiting x 5/7
+  3. Poor weight gain x 1/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until five days ago when he started vomiting. The vomiting occurs about 10–20 minutes after every breast milk feed. It is projectile in nature, non-bilious and contains curdled milk. There is no blood in the vomitus.
+  
+  The mother noted that the child remains very hungry and eager to feed again immediately after each episode of vomiting (hungry feeder). There is a history of progressively worsening constipation and a reduction in the frequency of micturition (about two wet diapers in the last 24 hours).
+  
+  There is no history of fever, cough or diarrhoea. No history of abdominal distension or previous similar episodes in siblings.
+  
+  PAST MEDICAL HISTORY
+  
+  No previous hospitalisations or surgeries. No known drug allergies.
+  
+  BIRTH HISTORY
+  
+  Prenatal: Mother was booked at a General Hospital. She attended ANC regularly. Pregnancy was supervised, and she took routine haematinics. No history of febrile illness or rashes during pregnancy.
+  
+  Natal: Delivered at term via Spontaneous Vaginal Delivery (SVD) at a hospital. Cried immediately at birth. Birth weight was 3.2 kg.
+  
+  Postnatal: No neonatal jaundice or convulsions.
+  
+  DIETARY HISTORY
+  
+  Patient is exclusively breastfed. Feeds are 2–3 hourly. However, mother reports most of the milk is vomited.
+  
+  IMMUNISATION HISTORY
+  
+  Up to date for age. Received BCG, OPV0 and HepB0 at birth. Received Pentavalent 1, OPV1, PCV1 and Rotavirus 1 at 6 weeks. BCG scar is present on the right deltoid.
+  
+  DEVELOPMENTAL HISTORY
+  
+  Attained age-appropriate milestones. Can smile responsively and follows light briefly.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  First child in a monogamous setting. Father is a civil servant, mother is a tailor. They live in a 2-bedroom apartment with good ventilation. Source of water is a borehole.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No seizures, no irritability.
+  
+  RS: No fast breathing, no cough.
+  
+  CVS: No cyanosis.
+  
+  GIT: As in HPC. Passes hard stools once in 2 days.
+  
+  MSS: No swelling or joint pains.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  The infant is ill-looking, small for age and moderately dehydrated (sunken anterior fontanelle, dry buccal mucosa and slightly reduced skin turgor). Not pale, anicteric, acyanosed and no peripheral oedema.
+  
+  ANTHROPOMETRY
+  
+  Current Weight: 3.0 kg (Birth weight was 3.2 kg)
+  
+  Length: 52 cm
+  
+  OFC: 36 cm
+  
+  VITAL SIGNS
+  
+  PR: 146 bpm (regular, low volume)
+  
+  RR: 44 cpm
+  
+  Temp: 36.8°C
+  
+  SpO2: 98% in room air
+  
+  ABDOMINAL EXAMINATION
+  
+  Inspection: Abdomen is scaphoid. Visible gastric peristaltic waves moving from the left upper quadrant towards the right across the epigastrium, especially after a test feed.
+  
+  Palpation: An olive-sized, firm, mobile, non-tender mass is palpable in the right upper quadrant (epigastrium) during a test feed. Liver and spleen are not enlarged.
+  
+  Percussion: Normal tympany.
+  
+  Auscultation: Bowel sounds are present and normal.
+  
+  RESPIRATORY SYSTEM
+  
+  Trachea is central. Good air entry bilaterally. Breath sounds are vesicular. No added sounds.
+  
+  CARDIOVASCULAR SYSTEM
+  
+  Apex beat is at the 4th left intercostal space, lateral to the midclavicular line. S1 and S2 heart sounds heard. No murmurs.
+  
+  NEUROLOGICAL SYSTEM
+  
+  Alert and responsive to stimuli. Normal muscle tone in all limbs. Primitive reflexes (Moro, suckling) are present.
+  
+  ASSESSMENT
+  
+  Infantile Hypertrophic Pyloric Stenosis (IHPS) with moderate dehydration and likely hypochloraemic, hypokalaemic metabolic alkalosis.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Gastro-oesophageal Reflux Disease (GERD)
+  2. Malrotation with Midgut Volvulus
+  3. Duodenal Atresia
+  4. Congenital Adrenal Hyperplasia (Salt-wasting type)
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Abdominal Ultrasound: To measure pyloric muscle thickness (greater than 3–4 mm) and pyloric channel length (greater than 14–17 mm).
+  
+  2. Serum Electrolytes, Urea and Creatinine: To check for hypochloraemia, hypokalaemia and metabolic alkalosis. Include serum bicarbonate or blood gas assessment to establish the acid-base status.
+  
+  3. Full Blood Count: To assess for possible infection.
+  
+  4. Urinalysis: To check for ketonuria and specific gravity as part of hydration assessment.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Admit to the paediatric surgical ward.
+  
+  2. Maintain NPO (Nil per os) status.
+  
+  3. Pass a size 8 Fr Nasogastric Tube (NGT) for gastric decompression and leave on free drainage.
+  
+  4. Fluid Resuscitation: Commence appropriate IV fluid resuscitation with isotonic crystalloid, guided by the infant's clinical status and local paediatric protocol. Replace ongoing gastric losses and correct electrolyte and acid-base abnormalities. Add Potassium Chloride only after adequate urine output has been established and renal function and serum potassium have been assessed. Use an appropriate potassium concentration and infusion rate for the infant's age and weight.
+  
+  5. Strict Monitoring: Chart intake and output, monitor vital signs frequently, assess hydration and perfusion, and record daily weight. Monitor serial serum electrolytes, urea, creatinine and acid-base status.
+  
+  6. Urgent Paediatric Surgery consultation for Ramstedt pyloromyotomy once fluid and electrolyte abnormalities have been corrected and the patient is clinically stable.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'peds-145',
     title: 'Acute Gastroenteritis with Mild Dehydration',

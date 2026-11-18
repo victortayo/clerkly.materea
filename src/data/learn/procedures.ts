@@ -5493,7 +5493,7 @@ Key Takeaways and References
 
 {
   id: 'procedure-pelvic-speculum-examination',
-  title: 'Pelvic Examination and Speculum Examination',
+  title: 'Pelvic and Speculum Examination',
   category: 'Procedures',
   subCategory: 'Gynecology',
   content: `
@@ -6351,7 +6351,7 @@ Key Clinical Takeaways
 
 {
   id: 'procedure-circumcision',
-  title: 'Circumcision: Neonates, Infants and Older Children',
+  title: 'Circumcision',
   category: 'Procedures',
   subCategory: 'Paediatric Surgery',
   content: `
@@ -6779,7 +6779,7 @@ Key Clinical Takeaways
 
 {
   id: 'procedure-exchange-transfusion',
-  title: 'Exchange Transfusion for Severe Neonatal Jaundice',
+  title: 'Exchange Transfusion',
   category: 'Procedures',
   subCategory: 'Neonatology',
   content: `
@@ -7169,7 +7169,7 @@ Key Clinical Takeaways
 
 {
   id: 'procedure-umbilical-vessel-catheterization',
-  title: 'Umbilical Vessel Catheterization in Sick Neonates',
+  title: 'Umbilical Vessel Catheterization',
   category: 'Procedures',
   subCategory: 'Neonatology',
   content: `
@@ -7560,6 +7560,1442 @@ Key Clinical Takeaways
 </div>
 </details>
 </div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-paracentesis',
+  title: 'Paracentesis (Ascitic Tap)',
+  category: 'Procedures',
+  subCategory: 'Gastroenterology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paracentesis (Ascitic Tap)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; GASTROENTEROLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Paracentesis (Ascitic Tap)</h1>
+  <p class="text-sm text-indigo-200">A man with hepatitis B cirrhosis arrives with a tense abdomen, fever and confusion. A woman with an enlarging abdomen turns out to have ovarian cancer. A child with a distended belly has tuberculosis or lymphoma. One needle in the abdomen answers the question no scan can: what kind of fluid is this, and is it infected? In many Nigerian wards the diagnostic tap is delayed for fear of bleeding, albumin is expensive, and fluid is sent in the wrong bottle. This guide covers who needs a tap, why coagulopathy is not a reason to wait, where to put the needle, diagnostic and large-volume technique, albumin and the volumes you can safely remove, fluid analysis and what it tells you in a Nigerian patient, and complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-diagnostic-and-therapeutic" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications: Diagnostic and Therapeutic</span></a></li>
+  <li><a href="#stop-signs-and-contraindications" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Stop Signs and Contraindications</span></a></li>
+  <li><a href="#preparation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Preparation</span></a></li>
+  <li><a href="#equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Equipment</span></a></li>
+  <li><a href="#choosing-the-site" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Choosing the Site</span></a></li>
+  <li><a href="#technique-diagnostic-paracentesis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Technique: Diagnostic Paracentesis</span></a></li>
+  <li><a href="#technique-large-volume-therapeutic-paracentesis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique: Large-Volume (Therapeutic) Paracentesis</span></a></li>
+  <li><a href="#albumin-volume-limits-and-what-to-do-without-albumin" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Albumin, Volume Limits and What to Do Without Albumin</span></a></li>
+  <li><a href="#ascitic-fluid-analysis-and-what-it-tells-you" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Ascitic Fluid Analysis and What It Tells You</span></a></li>
+  <li><a href="#aftercare-and-monitoring" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Aftercare and Monitoring</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Special Situations</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Ascites has many causes here.</strong> In a prospective study of 90 adults with ascites in Ibadan, 44 per cent had liver cirrhosis (70 per cent of them HBsAg positive), 23 per cent tuberculous peritonitis, 22 per cent malignant ascites (ovarian, gastric and breast cancers, and one Burkitt lymphoma), 6 per cent heart disease (endomyocardial fibrosis and rheumatic heart disease) and 5 per cent nephrotic syndrome. Only fluid analysis separates these.</li>
+<li><strong>The serum-ascites albumin gradient (SAAG) works.</strong> In the same study a gradient below 1.1 g/dL separated cirrhosis from tuberculous and malignant ascites with 96 per cent efficiency, better than ascitic protein or LDH. Always send serum albumin with the ascitic fluid.</li>
+<li><strong>Infected ascites is common and dangerous.</strong> Spontaneous bacterial peritonitis (SBP) was found in 21 of 31 admitted cirrhotic patients with ascites in a small south-western Nigerian series (about 68 per cent, much higher than the 10 to 30 per cent usually quoted in hospitalised patients). All had ascitic protein under 1 g/dL and most were Child-Pugh C. <em>E. coli</em> and <em>Klebsiella</em> were the commonest organisms. The authors concluded that a diagnostic tap is essential in any patient with new ascites or suggestive symptoms.</li>
+<li><strong>Cytology is helpful but not definitive.</strong> In a seven-year south-western review of ascitic fluid cytology, 37 per cent of samples were positive for malignant cells, and only 4 of 11 patients with hepatocellular carcinoma had positive cytology (sensitivity 36 per cent).</li>
+<li><strong>Delay costs lives.</strong> Delayed paracentesis in SBP is associated with higher in-hospital mortality. Fear of bleeding, no ultrasound, no blood culture bottles and no albumin are common reasons for delay. This guide shows how to work around each.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-diagnostic-and-therapeutic" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications: Diagnostic and Therapeutic
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Type</th><th class="py-2 pr-3 font-semibold">Who needs it</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Diagnostic</td><td class="py-2 pr-3">Every patient with new-onset ascites. Every patient with cirrhosis and ascites admitted to hospital, whatever the symptoms (up to a third of SBP is asymptomatic). Fever, abdominal pain, tenderness, encephalopathy, gastrointestinal bleeding, shock, unexplained renal impairment or clinical deterioration in a patient with ascites.</td><td class="py-2 pr-3">AASLD 2021, EASL 2018 and the British Society of Gastroenterology all recommend a diagnostic tap without delay, before antibiotics when possible.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Therapeutic</td><td class="py-2 pr-3">Tense (grade 3) ascites with discomfort, breathlessness or poor mobility. Refractory ascites that returns quickly despite diuretics and a low-sodium diet. Large-volume paracentesis (LVP) means removing more than 5 litres.</td><td class="py-2 pr-3">In a haemodynamically stable patient. Needs albumin cover for volumes over 5 litres.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Diagnostic plus therapeutic</td><td class="py-2 pr-3">New tense ascites of unknown cause.</td><td class="py-2 pr-3">Send diagnostic samples from the first 30 to 60 mL.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-and-contraindications" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Stop Signs and Contraindications
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Pause and Think If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Clinically evident hyperfibrinolysis or disseminated intravascular coagulation.</strong> These are the only coagulation reasons to avoid paracentesis, and they occur in fewer than 1 in 1,000 procedures. Do not delay a tap because of a prolonged INR or a low platelet count alone.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection of the abdominal wall</strong> at the planned site. Choose another site.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Distended, obstructed bowel</strong> or an acute abdomen needing surgery. A bowel perforation is the worst complication.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Second or third trimester pregnancy, or a large abdominal mass or ovarian cyst:</strong> use ultrasound guidance. A tense &ldquo;ascites&rdquo; can be a giant ovarian cyst.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Previous abdominal surgery:</strong> adherent bowel lies under scars. Move the site away from scars, and use ultrasound if you can.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Minimal or loculated fluid:</strong> do not stab blindly. Use ultrasound.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Haemodynamic instability, severe hyponatraemia or uncontrolled sepsis</strong> before a large-volume tap: stabilise first. A small diagnostic tap is still needed.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Visible abdominal wall veins (caput medusae)</strong> and the inferior epigastric artery: avoid by site selection.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Patient refusal.</strong> Explain the risks and benefits.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>AASLD guidance states that routine fresh frozen plasma or platelets before paracentesis is not recommended. Bleeding is sufficiently uncommon, and in a study of 1,100 large-volume paracenteses there were no haemorrhagic complications despite no prophylactic transfusions and platelet counts as low as 19,000 per microlitre. EASL and the British guidance also advise against checking INR or platelets and against infusing blood products before diagnostic or therapeutic paracentesis.</li>
+<li>In Nigeria the sentence to remember is: <strong>do not give FFP or platelets to make a paracentesis safe.</strong> Fresh frozen plasma is costly, scarce and carries its own risks, and it does not predict or prevent bleeding in cirrhosis.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: coagulopathy before a tap</p>
+<p class="text-sm">AASLD and EASL do not set coagulation thresholds. Some hospital protocols suggest correcting severe coagulopathy before a standard tap (for example INR above 2 to 3, or platelets below 30,000 per microlitre) and allow a smaller catheter without a scalpel incision when numbers are worse. These come from local protocols, not trials. A practical approach: use ultrasound, a small-bore needle, a lateral entry site and a Z-track, and do not delay a tap for suspected SBP.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Preparation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Confirm the indication</strong> and whether the tap is diagnostic or therapeutic. Look at the previous results and the clinical story.</li>
+<li><strong>Consent.</strong> Explain the procedure, that you will use local anaesthetic, the risks (leak, bleeding, infection, low blood pressure, rare bowel injury) and why it is needed. The British guidance recommends informed consent for both diagnostic and therapeutic paracentesis.</li>
+<li><strong>Bloods:</strong> a bedside glucose, full blood count, urea and creatinine, electrolytes, albumin, and INR if available, mainly as a baseline. Do not wait for results to do a diagnostic tap.</li>
+<li><strong>Empty the bladder.</strong> A full bladder can be punctured, particularly in the midline approach.</li>
+<li><strong>Position:</strong> supine, or sitting up 45 degrees. For a left lower quadrant entry, roll the patient partly onto the left side so that fluid pools in the flank. Lateral decubitus can help if bowel gas floats on top.</li>
+<li><strong>Ultrasound</strong> if available: confirm there is fluid, find the deepest pocket away from bowel, and use Doppler or a linear probe to see the inferior epigastric artery. Mark the site. If you mark the skin, do the procedure straight away or keep the patient still.</li>
+<li><strong>Prepare the containers</strong> before you start (Section 10), including two blood culture bottles for bedside inoculation.</li>
+<li><strong>Monitor</strong> pulse and blood pressure. Have IV access if you plan a large-volume tap.</li>
+<li><strong>Time-out.</strong> Confirm the patient, the site, the equipment and the plan for albumin.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Equipment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Skin preparation and drapes</td><td class="py-2 pr-3">Chlorhexidine or povidone-iodine, sterile gloves, drape, mask.</td><td class="py-2 pr-3">Never skip aseptic technique. Infected ascites is a disaster.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">1% lidocaine, 25 G needle to raise a bleb and a 20 to 22 G needle to infiltrate down to the peritoneum.</td><td class="py-2 pr-3">Plain lidocaine. Check the vial concentration.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Diagnostic needle</td><td class="py-2 pr-3">18 to 22 G, 3.8 cm (1.5 inch), or 8.9 cm (3.5 inch) for obese patients, with a 20 or 60 mL syringe.</td><td class="py-2 pr-3">A 21 G needle or a large IV cannula.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Therapeutic catheter</td><td class="py-2 pr-3">14 to 16 G catheter, or an 8 Fr catheter over an 18 G needle, or a 15 G Caldwell needle with a metal sheath, with a three-way tap and tubing.</td><td class="py-2 pr-3">A 16 G IV cannula connected to a giving set. Fix the cannula firmly.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drainage</td><td class="py-2 pr-3">Vacuum bottles, a drainage bag or wall suction, kept lower than the abdomen.</td><td class="py-2 pr-3">A sterile bag or bottle at floor level, with gravity drainage.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Scalpel</td><td class="py-2 pr-3">No. 11 blade to nick the skin for a larger catheter.</td><td class="py-2 pr-3">A sterile needle tip.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Specimen containers</td><td class="py-2 pr-3">Two blood culture bottles (aerobic and anaerobic), a lavender (EDTA) tube for cell count, a plain or gold tube for albumin and protein, and a larger sterile container for cytology.</td><td class="py-2 pr-3">Any sterile universal container for cell count; send what you have to the laboratory the same day.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ultrasound</td><td class="py-2 pr-3">Curvilinear and linear probes, sterile cover and gel.</td><td class="py-2 pr-3">Landmarks, percussion and a lateral entry site.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Dressing</td><td class="py-2 pr-3">Sterile gauze and a clear occlusive dressing, sometimes skin glue or a purse-string suture for a large catheter.</td><td class="py-2 pr-3">Gauze and strong tape.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Albumin</td><td class="py-2 pr-3">20 or 25% albumin for large-volume taps.</td><td class="py-2 pr-3">See Section 9 for what to do when it is not available.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-the-site" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Choosing the Site
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Left lower quadrant (preferred when blind):</strong> lateral to the rectus muscle, about 2 to 4 cm (two fingerbreadths) above and medial to the anterior superior iliac spine (some sources say up to 5 cm). The skin is thinner and fluid pools deeper on the left, and it avoids the gas-filled caecum and an appendicectomy scar.</li>
+<li><strong>Midline (infraumbilical):</strong> through the linea alba about 2 cm below the umbilicus. It is avascular but risks the bladder and midline scars. Empty the bladder first.</li>
+<li><strong>Right lower quadrant:</strong> possible if the left is unsuitable, but watch for a distended caecum and the liver or spleen.</li>
+<li><strong>Avoid:</strong> surgical scars, visible abdominal wall veins, skin infection, and the inferior epigastric artery, which runs in the rectus sheath from a point lateral to the pubic tubercle upward toward the umbilicus. Staying lateral to the rectus sheath avoids it.</li>
+<li><strong>Ultrasound</strong> improves safety and success. It shows the depth of fluid, loops of bowel, the epigastric vessels, and whether the fluid is loculated.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-diagnostic-paracentesis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Technique: Diagnostic Paracentesis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position and mark</strong> the site (Section 6). Wash your hands, put on mask and sterile gloves, clean the skin with antiseptic, allow it to dry and drape.</li>
+<li><strong>Anaesthetise.</strong> Raise a skin bleb with a 25 G needle, aspirating as you go to avoid a vessel. Switch to a 20 to 22 G needle and infiltrate progressively deeper to the peritoneum, which is sensitive and also needs infiltration. Wait a minute.</li>
+<li><strong>Insert the needle with a Z-track.</strong> With your non-dominant hand, pull the skin about 2 cm downward (caudally) before the needle enters. Insert the needle perpendicular to the skin with the syringe attached. Apply intermittent suction as you advance, slowly, to avoid puncturing the bowel. Do not suck continuously, because omentum or bowel can block the needle.</li>
+<li><strong>Release the skin traction only once fluid flows freely,</strong> which tells you the needle is in the peritoneal cavity. Keep the needle still.</li>
+<li><strong>Draw off fluid.</strong> For diagnosis, 30 to 60 mL is enough, plus extra if you want cytology.</li>
+<li><strong>Inoculate the blood culture bottles at the bedside</strong> (about 10 mL per bottle) before any antibiotic if SBP is possible. Use a sterile technique and change the needle. Then fill the other tubes (Section 10).</li>
+<li><strong>Remove the needle,</strong> let the skin return to its normal position (which breaks the track), and apply a sterile dressing.</li>
+<li><strong>Label</strong> all specimens and send them promptly to the laboratory with a request form. Record the volume removed, the appearance of the fluid and any problem.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-large-volume-therapeutic-paracentesis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Technique: Large-Volume (Therapeutic) Paracentesis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Check eligibility:</strong> stable blood pressure, no worsening encephalopathy or severe hyponatraemia, and a plan for albumin. Take diagnostic samples anyway if infection is possible.</li>
+<li><strong>Prepare and anaesthetise</strong> as above, using ultrasound if you can. Nick the skin with a No. 11 blade if you are using a larger catheter.</li>
+<li><strong>Insert the catheter with a Z-track.</strong> Advance the needle and catheter together, aspirating intermittently, until you get fluid. Advance the catheter over the needle a little further, and withdraw the needle (or the inner needle) so that the soft catheter lies in the peritoneal cavity.</li>
+<li><strong>Connect to the tubing and drainage system.</strong> Attach the three-way tap, the tubing and a collection bag or vacuum bottle positioned lower than the abdomen. Secure the catheter to the skin with tape.</li>
+<li><strong>Take diagnostic samples first,</strong> then start drainage.</li>
+<li><strong>Drain at a steady rate.</strong> A smaller bore catheter drains more slowly and leaks less. If the flow stops, reposition the patient, withdraw or rotate the catheter a little, or flush it.</li>
+<li><strong>Monitor</strong> pulse, blood pressure and symptoms every 15 to 30 minutes. Stop and give fluid if the patient becomes faint or hypotensive.</li>
+<li><strong>Total volume.</strong> Remove only as much as you can cover with albumin (Section 9). Removing more than 8 litres raises the risk of post-paracentesis circulatory dysfunction.</li>
+<li><strong>Remove the catheter,</strong> let the skin return to its normal position, and apply a pressure dressing. A catheter left in place for long increases the risk of infection.</li>
+<li><strong>Give albumin</strong> during or after the procedure.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="albumin-volume-limits-and-what-to-do-without-albumin" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Albumin, Volume Limits and What to Do Without Albumin
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Why albumin?</strong> Removing a large volume of ascites lowers the effective blood volume and activates the renin-angiotensin system. This post-paracentesis circulatory dysfunction can lead to hyponatraemia, hepatic encephalopathy and hepatorenal syndrome.</li>
+<li><strong>Dose.</strong> AASLD 2021 recommends 6 to 8 g of albumin for each litre of ascites removed after a paracentesis of more than 5 litres. The British guidance (BSG/BASL 2020) says 8 g per litre removed, given as a 20 or 25 per cent solution after the procedure is complete. A 25 per cent solution saves volume and time. Example: after 8 litres, give about 48 to 64 g, or roughly one 50 mL bottle of 25 per cent albumin for every 2 litres removed.</li>
+<li><strong>Smaller taps.</strong> Under 5 litres, albumin can be considered for patients with acute-on-chronic liver failure or at high risk of kidney injury, according to the British guidance.</li>
+<li><strong>The risk climbs above 8 litres.</strong> Avoid taking more than this at one time.</li>
+<li><strong>Without albumin.</strong> In many Nigerian hospitals albumin is unavailable or unaffordable. Do not withhold a diagnostic tap or an urgent therapeutic tap for this reason. For a therapeutic tap where albumin cannot be given, many protocols limit the volume (typically to 5 litres or less), drain slowly, check blood pressure and creatinine afterwards, and avoid repeating the tap in quick succession. Other plasma expanders are less effective at preventing circulatory dysfunction. Discuss each case with the consultant.</li>
+<li><strong>After the tap:</strong> check urea, creatinine and electrolytes at 24 to 48 hours in a sick patient, and review diuretics. Avoid NSAIDs and other nephrotoxins.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: albumin doses and thresholds</p>
+<p class="text-sm">AASLD 2021 gives a range of 6 to 8 g per litre removed as a class IIa recommendation, while the British guidance advises 8 g per litre after taps over 5 litres, with a high quality of evidence behind the 8 g figure. For a tap under 5 litres, albumin is optional but considered for high-risk patients. Doses of 0.5 to 1 g per kg are also quoted. Use the dose your unit adopts and write it in the notes.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="ascitic-fluid-analysis-and-what-it-tells-you" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Ascitic Fluid Analysis and What It Tells You
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to send</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Test</th><th class="py-2 pr-3 font-semibold">Container</th><th class="py-2 pr-3 font-semibold">Why</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Cell count and differential (neutrophils)</td><td class="py-2 pr-3">EDTA (lavender) tube</td><td class="py-2 pr-3">A neutrophil (PMN) count of 250 per mm&sup3; or more means SBP. Count neutrophils, not total white cells.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Culture</td><td class="py-2 pr-3">Aerobic and anaerobic blood culture bottles, 10 mL each, inoculated at the bedside before antibiotics</td><td class="py-2 pr-3">Bedside inoculation greatly raises the yield. A Gram stain is generally unhelpful unless secondary peritonitis is suspected.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Albumin and total protein</td><td class="py-2 pr-3">Plain tube (and a paired serum albumin sample)</td><td class="py-2 pr-3">SAAG = serum albumin minus ascitic albumin. SAAG of 1.1 g/dL or more means portal hypertension. Ascitic protein separates causes.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Glucose and LDH</td><td class="py-2 pr-3">Plain or fluoride tube</td><td class="py-2 pr-3">If secondary bacterial peritonitis is suspected (perforation).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cytology</td><td class="py-2 pr-3">A larger sterile container (50 to 100 mL), unfixed, sent quickly</td><td class="py-2 pr-3">If malignancy is possible (older age, weight loss, mass, low SAAG).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">AFB smear, culture, ADA, GeneXpert</td><td class="py-2 pr-3">Sterile container</td><td class="py-2 pr-3">If tuberculosis is possible. Culture yield is low; ADA and a lymphocytic exudate help. Follow the national TB programme.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Amylase</td><td class="py-2 pr-3">Plain tube</td><td class="py-2 pr-3">If pancreatic ascites is suspected.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Interpreting the result</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Picture</th><th class="py-2 pr-3 font-semibold">SAAG</th><th class="py-2 pr-3 font-semibold">Protein</th><th class="py-2 pr-3 font-semibold">Cells and other clues</th><th class="py-2 pr-3 font-semibold">Think of</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Cirrhosis</td><td class="py-2 pr-3">1.1 g/dL or more</td><td class="py-2 pr-3">Usually under 2.5 g/dL</td><td class="py-2 pr-3">Few cells, mostly lymphocytes, PMN under 250. Straw-coloured.</td><td class="py-2 pr-3">HBV or HCV cirrhosis, alcohol, hepatocellular carcinoma.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">SBP</td><td class="py-2 pr-3">1.1 g/dL or more</td><td class="py-2 pr-3">Low (under 1 g/dL in a Nigerian series)</td><td class="py-2 pr-3">PMN 250 or more per mm&sup3;; positive culture in many. Cloudy.</td><td class="py-2 pr-3">Cirrhosis with infection. Treat urgently.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cardiac ascites</td><td class="py-2 pr-3">1.1 g/dL or more</td><td class="py-2 pr-3">2.5 g/dL or more</td><td class="py-2 pr-3">Few cells.</td><td class="py-2 pr-3">Heart failure, endomyocardial fibrosis, rheumatic heart disease, constrictive pericarditis.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Tuberculous peritonitis</td><td class="py-2 pr-3">Below 1.1 g/dL</td><td class="py-2 pr-3">High (above 2.5 to 3 g/dL)</td><td class="py-2 pr-3">Lymphocytic exudate, high LDH, raised ADA. May be bloody. Cirrhosis can coexist, giving an intermediate SAAG.</td><td class="py-2 pr-3">TB peritonitis, especially with HIV.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Malignant ascites</td><td class="py-2 pr-3">Below 1.1 g/dL (higher if massive liver metastases)</td><td class="py-2 pr-3">High</td><td class="py-2 pr-3">Cytology may show malignant cells, but sensitivity is low. May be bloody. Look for a primary.</td><td class="py-2 pr-3">Ovarian, gastric, breast, colon, lymphoma, mesothelioma.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Nephrotic syndrome</td><td class="py-2 pr-3">Below 1.1 g/dL</td><td class="py-2 pr-3">Low</td><td class="py-2 pr-3">Few cells. Heavy proteinuria and oedema.</td><td class="py-2 pr-3">Glomerulonephritis, nephrotic syndrome.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Bloody ascites</td><td class="py-2 pr-3">Variable</td><td class="py-2 pr-3">Variable</td><td class="py-2 pr-3">Red cell count above 50,000 per mm&sup3;, often from a traumatic tap but also malignancy, TB or hepatocellular carcinoma.</td><td class="py-2 pr-3">Correct the neutrophil count for blood: subtract 1 PMN per 250 red cells.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Ibadan data showed that a SAAG below 1.1 g/dL had the best accuracy (96 per cent) for non-cirrhotic ascites, ahead of ascitic LDH above 180 IU/L, protein above 3.0 g/dL and fluid-to-serum ratios. Tuberculous and malignant ascites could not be separated by routine chemistry, so send cytology and TB tests, and consider imaging and peritoneal biopsy.</li>
+<li><strong>Culture-negative neutrocytic ascites</strong> (PMN 250 or more, negative culture) is managed like SBP.</li>
+<li><strong>SBP treatment</strong> is beyond this guide: start broad-spectrum antibiotics at once according to local resistance, give IV albumin (about 1.5 g/kg at diagnosis and 1 g/kg on day 3) in patients with renal impairment, high bilirubin or raised urea, and plan secondary prophylaxis.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="aftercare-and-monitoring" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Aftercare and Monitoring
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Keep a pressure dressing</strong> on the site and lay the patient on the opposite side for a few hours, to reduce leak.</li>
+<li><strong>Observe</strong> pulse, blood pressure and urine output for several hours after a large-volume tap. Check for a falling blood pressure, drowsiness, new confusion or reduced urine output.</li>
+<li><strong>Leak:</strong> if fluid leaks from the puncture site, apply a pressure dressing, a purse-string suture or skin adhesive, and keep the patient lying on the other side. A persistent leak invites infection.</li>
+<li><strong>Avoid sedatives</strong> and hold diuretics if the blood pressure falls or the creatinine rises.</li>
+<li><strong>Check electrolytes and creatinine</strong> after a large tap, particularly if no albumin was given.</li>
+<li><strong>Follow up the results.</strong> Chase the cell count, culture, cytology and TB tests. If SBP is found, start treatment at once.</li>
+<li><strong>Counsel</strong> about sodium restriction, diuretics, alcohol, hepatitis B treatment, and returning if fever, abdominal pain, confusion, bleeding or leaking occurs.</li>
+<li><strong>Document:</strong> site, needle, volume removed, appearance of the fluid, specimens sent, albumin given and complications.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Persistent ascitic leak:</strong> reported in roughly 1 to 5 per cent. Z-track, a smaller needle and a pressure dressing help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Abdominal wall haematoma or haemorrhage:</strong> uncommon (haemorrhage up to about 1 per cent in series) but can be severe, especially after injury to the inferior epigastric artery. Pain, swelling, a falling haemoglobin and hypotension. Resuscitate, and call the surgeon.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bowel or bladder perforation:</strong> abdominal pain, peritonitis, faecal or urinary fluid in the sample. Emergency surgical review.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection:</strong> skin and soft tissue infection or peritonitis (about 0.6 per cent). Fever, redness, pain.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hypotension and post-paracentesis circulatory dysfunction:</strong> especially with more than 5 to 8 litres removed without albumin. It can lead to hepatorenal syndrome, hyponatraemia and hepatic encephalopathy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hepatorenal syndrome:</strong> a rising creatinine and falling urine output. Stop diuretics, give albumin, and call the senior or the liver team.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Spontaneous haemoperitoneum</strong> and, rarely, seeding of the needle track in malignant ascites.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Failure to get fluid:</strong> a dry tap means the needle is in the wrong place, the bowel or omentum has blocked it, or there is too little fluid. Use ultrasound.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Tense ascites with breathlessness</td><td class="py-2 pr-3">A therapeutic tap gives immediate relief. Take samples for diagnosis, remove what you can cover with albumin, and monitor blood pressure.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cirrhosis with fever or encephalopathy</td><td class="py-2 pr-3">Diagnostic tap at once. Do not wait for imaging or bloods. Start antibiotics if the PMN count is 250 or more, or immediately if the patient is septic.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected TB peritonitis</td><td class="py-2 pr-3">Send AFB, culture and ADA if available, and cytology. Low yield is common, so imaging, peritoneoscopy or biopsy may be needed. Treat on clinical grounds with the TB programme where indicated.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Suspected malignancy (ovarian, gastric, lymphoma)</td><td class="py-2 pr-3">Send 50 to 100 mL for cytology and a cell block. A negative cytology does not exclude cancer: in a Nigerian review, cytology was positive in only 4 of 11 patients with hepatocellular carcinoma.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Child with ascites</td><td class="py-2 pr-3">Causes include nephrotic syndrome, TB, Burkitt lymphoma and liver disease. Use ultrasound, a small cannula or needle and a smaller volume. Involve a paediatrician or surgeon.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pregnancy or a large abdominal mass</td><td class="py-2 pr-3">Do not tap blind. Use ultrasound to avoid the uterus or a cystic mass.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Anticoagulant or antiplatelet use</td><td class="py-2 pr-3">Do not delay a tap for SBP. Use ultrasound, a small needle and a lateral site.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Obesity</td><td class="py-2 pr-3">Longer needle (3.5 inch), ultrasound, and the lateral site.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cirrhosis with renal failure or hyponatraemia</td><td class="py-2 pr-3">A diagnostic tap is still needed. Limit therapeutic volume, give albumin, and stop diuretics.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Haemorrhagic ascites</td><td class="py-2 pr-3">Think of TB, malignancy and hepatocellular carcinoma, or a traumatic tap. Count red cells, send cytology, and do ultrasound.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Hepatic hydrothorax with ascites</td><td class="py-2 pr-3">Treat the ascites first. A separate pleural tap may be needed for diagnosis. See the guide on chest tubes.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm062234" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Paracentesis (2006)</a> &ndash; the standard 10-minute teaching video, with diagnostic and large-volume technique, and contraindications. May need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://doi.org/10.1056/NEJMvcm2119156" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Ultrasound-Guided Paracentesis (2025)</a> &ndash; abdominal paracentesis with static ultrasound guidance for diagnostic or therapeutic use. May need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/shorts/n9SsxMq0vZ8" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM video clip: ultrasound-guided paracentesis (YouTube short)</a> &ndash; a short trailer for the 2025 NEJM video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ubcimpocus.com/procedures" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">UBC IM POCUS: procedure resources, with paracentesis, Sonosite tutorial and 5 Minute Sono</a> &ndash; a curated set of paracentesis videos, checklists and albumin guidance.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.vch.ca/sites/default/files/2023-06/Para%20CIMUS%20upload.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound-guided paracentesis teaching handout (Vancouver)</a> &ndash; step-by-step ultrasound technique, anaesthesia, and a list of online paracentesis videos, including a 21-minute MedEdPORTAL video.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Written guides and procedure sheets</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.merckmanuals.com/en-ca/professional/gastrointestinal-disorders/how-to-do-gastrointestinal-procedures/how-to-do-paracentesis" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: How to do paracentesis</a> &ndash; equipment, needle sizes, Z-track, complications, with images.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.statpearls.com/point-of-care/26607" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">StatPearls: Paracentesis</a> &ndash; indications, anatomy, site selection and complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.acepnow.com/article/ultrasound-guided-paracentesis/2" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">ACEP Now: Ultrasound-guided paracentesis</a> &ndash; equipment list, static and dynamic ultrasound, and complication rates.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://hospitalprocedures.org/paracentesis-procedure-steps-in-emergency-situations/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Paracentesis steps in emergency situations</a> &ndash; ultrasound with Doppler, Z-track and SAAG interpretation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://epomedicine.com/clinical-medicine/ascitic-paracentesis-practical-essentials" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EPM: Ascitic paracentesis, practical essentials</a> &ndash; why the left lower quadrant is preferred, needle choice and pressure dressing.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://patient.info/doctor/ascites-tapping" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Patient.info: Ascites tapping</a> &ndash; a palliative-care approach with 25 G infiltration and 22 G collection.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://hospitalhandbook.ucsf.edu/node/1451" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">UCSF Hospitalist Handbook: Paracentesis</a> &ndash; fluid analysis, SBP criteria and albumin replacement.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cdn.hepatitisc.uw.edu/pdf/management-cirrhosis-related-complications/ascites-diagnosis-management/core-concept/all" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">University of Washington: Ascites diagnosis and management</a> &ndash; site, needle choice, Z-track diagram and fluid analysis.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://med.aws.emory.edu/departments/medicine/_documents/hang-aasld-practice-guidance-ascites,-sbp,--hrs-va" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">AASLD 2021 practice guidance on ascites, SBP and hepatorenal syndrome: one-page summary</a> &ndash; who to tap, culture, albumin dose and refractory ascites.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ccjm.org/content/90/4/209.full.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Cleveland Clinic Journal of Medicine review: ascites, SBP and HRS (2023)</a> &ndash; diagnostic tap indications, LVP and albumin.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.research.unipd.it/bitstream/11577/2425802/1/ascites%20guidelines%20definitivo.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">EASL clinical practice guidelines: ascites, SBP and HRS in cirrhosis</a> &ndash; diagnostic paracentesis and bedside culture bottle inoculation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7788190" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BSG/BASL guidelines on the management of ascites in cirrhosis (2020)</a> &ndash; diagnostic tap, albumin 8 g per litre and no routine coagulation correction.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10857675/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Approach to paracentesis and volume overload in cirrhosis (clinical review)</a> &ndash; albumin 6 to 8 g per litre and the risk above 8 litres.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian and African context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://biomedres.info/biomedical-research/ascites-in-ibadan-nigeria-usefulness-of-albumin-gradient-in-its-etiologic-diagnosis.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ascites in Ibadan, Nigeria: usefulness of the albumin gradient</a> &ndash; causes of ascites and how SAAG and fluid chemistry separate them.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://panafrican-med-journal.com/content/article/15/128/full" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Prevalence of spontaneous bacterial peritonitis in cirrhosis with ascites (Nigeria)</a> &ndash; prevalence, organisms and the case for routine diagnostic paracentesis.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://doaj.org/article/3a0b5f4466ec466995fbfb375c22ae5c" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ascitic fluid cytology in south-western Nigeria: 7-year review</a> &ndash; malignancy detection and the limits of cytology.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6644216" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Causes and complications of ascites in Gondar, Ethiopia</a> &ndash; cirrhosis, heart failure, TB and hepatosplenic schistosomiasis in an African setting.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM videos and the UBC POCUS page, and use the written guides for equipment and fluid analysis. None replaces supervised practice.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tap every patient with new ascites and every cirrhotic patient with ascites who is admitted. Do not wait for fever. Delay in SBP raises mortality.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not give FFP or platelets before a tap. Only clinically evident DIC or hyperfibrinolysis should stop you.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Site: left lower quadrant, lateral to the rectus, 2 to 4 cm above and medial to the anterior superior iliac spine, or midline 2 cm below the umbilicus after emptying the bladder. Avoid scars, veins and the inferior epigastric artery. Use ultrasound when you can, and always in pregnancy, masses and small pockets.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Z-track and slow, intermittent suction. Release skin traction only when fluid flows.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Inoculate two blood culture bottles at the bedside (about 10 mL each) before antibiotics. Send neutrophil count, albumin and protein (with paired serum albumin), and cytology and TB tests when indicated.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>PMN 250 per mm&sup3; or more is SBP. SAAG 1.1 g/dL or more is portal hypertension. In Ibadan, cirrhosis, TB peritonitis and malignancy were the main causes.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Large-volume tap (over 5 litres): albumin 6 to 8 g per litre removed (AASLD) or 8 g per litre (British guidance). Avoid over 8 litres. Where albumin is unavailable, limit the volume, drain slowly and monitor.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Monitor pulse and blood pressure, use a pressure dressing, and manage leaks early.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Watch for bowel perforation, haemorrhage, hypotension, hepatorenal syndrome and encephalopathy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cytology is insensitive. A negative result does not exclude malignancy.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. Biggins SW, Angeli P, Garcia-Tsao G, et al. Diagnosis, evaluation, and management of ascites, spontaneous bacterial peritonitis and hepatorenal syndrome: 2021 practice guidance by the American Association for the Study of Liver Diseases. Hepatology 2021;74:1014-1048.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. Runyon BA, AASLD Practice Guidelines Committee. Management of adult patients with ascites due to cirrhosis: update 2012. Hepatology 2013;57:1651-1653.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. European Association for the Study of the Liver. EASL clinical practice guidelines for the management of patients with decompensated cirrhosis (ascites, SBP and HRS). J Hepatol 2018;69:406-460.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. British Society of Gastroenterology and British Association for the Study of the Liver. Guidelines on the management of ascites in cirrhosis. Gut 2021;70:9-29.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Khan S. Diagnosis and management of ascites, spontaneous bacterial peritonitis, and hepatorenal syndrome. Cleve Clin J Med 2023;90:209-219.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. New England Journal of Medicine, Videos in Clinical Medicine. Paracentesis. N Engl J Med 2006;355:e21. Ultrasound-guided paracentesis. N Engl J Med 2025.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. StatPearls. Paracentesis. Merck Manual Professional Edition. How to do paracentesis. ACEP Now. Ultrasound-guided paracentesis.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Hospital handbooks and teaching documents on ultrasound-guided paracentesis (University of California San Francisco; Vancouver Coastal Health; University of Washington).</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Ascites in Ibadan, Nigeria: usefulness of the albumin gradient in its etiologic diagnosis (prospective study of 90 adults). Biomed Res.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Prevalence of spontaneous bacterial peritonitis in liver cirrhosis with ascites (Nigerian retrospective study of 31 patients). Pan Afr Med J 2013;15:128.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Evaluation of ascitic fluid cytology in a tertiary hospital in south-western Nigeria: a 7-year retrospective study. Med J DY Patil Vidyapeeth 2024.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Epidemiology of causes of ascites and its complications among patients in Gondar, Ethiopia. Int J Hepatol 2019.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Kim JJ, Tsukamoto MM, Mathur AK, et al. Delayed paracentesis is associated with increased in-hospital mortality in patients with spontaneous bacterial peritonitis. Am J Gastroenterol 2014;109:1436-1442.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-pleural-tap-thoracocentesis',
+  title: 'Pleural Tap (Thoracocentesis)',
+  category: 'Procedures',
+  subCategory: 'Respiratory',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pleural Tap (Thoracocentesis)</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; line-height: 1.6; }
+.sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; RESPIRATORY MEDICINE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Pleural Tap (Thoracocentesis)</h1>
+  <p class="text-sm text-indigo-200">A young man with HIV, weight loss and a unilateral effusion. A woman with a breathless week and a white-out on the chest film. A child with fever and a stony dull chest after pneumonia. In Nigeria most of these effusions are tuberculous, malignant or parapneumonic, and a needle in the right place answers the question: is this a transudate or an exudate, is it infected, and does it need a chest drain? This guide covers when to tap and when not to, why ultrasound matters, the site and position, diagnostic and therapeutic technique, the volume limit and why you stop when the patient coughs, fluid analysis (Light&rsquo;s criteria, pH, ADA, cytology), when a tap is not enough, and complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-and-when-not-to-tap" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications and When Not to Tap</span></a></li>
+  <li><a href="#ultrasound-and-imaging-before-you-start" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Ultrasound and Imaging Before You Start</span></a></li>
+  <li><a href="#stop-signs-and-contraindications" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Stop Signs and Contraindications</span></a></li>
+  <li><a href="#preparation-and-consent" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Preparation and Consent</span></a></li>
+  <li><a href="#equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Equipment</span></a></li>
+  <li><a href="#site-and-position" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Site and Position</span></a></li>
+  <li><a href="#technique-diagnostic-pleural-aspiration" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Technique: Diagnostic Pleural Aspiration</span></a></li>
+  <li><a href="#technique-therapeutic-thoracocentesis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Technique: Therapeutic Thoracocentesis</span></a></li>
+  <li><a href="#pleural-fluid-analysis-and-what-it-tells-you" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Pleural Fluid Analysis and What It Tells You</span></a></li>
+  <li><a href="#when-a-tap-is-not-enough-chest-drain-and-biopsy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>When a Tap Is Not Enough: Chest Drain and Biopsy</span></a></li>
+  <li><a href="#aftercare-and-monitoring" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Aftercare and Monitoring</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Special Situations</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">16</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Tuberculosis is the commonest cause of an exudative effusion in high-burden settings.</strong> A Lagos review of 66 patients with tuberculous pleural effusion (confirmed by pleural biopsy or by isolating the bacillus in the fluid) found that 80 per cent of fluids were serous and 20 per cent purulent. Pleural fluid adenosine deaminase (ADA) ranged from 44 to 120 IU/L, with a mean of 64. The authors concluded that an ADA above 40 IU/L is highly reliable and sensitive. In a large Indian series from a high-TB area, tuberculosis caused 55 per cent of exudative effusions, malignancy 28 per cent, empyema 11 per cent and parapneumonic effusion 5 per cent.</li>
+<li><strong>HIV changes the picture.</strong> In a South African review of closed pleural biopsies, patients with HIV had higher odds of granulomatous inflammation and non-cancer diagnoses, and lower odds of malignancy. Pleural TB is often the first sign of advanced HIV disease.</li>
+<li><strong>Malignant and heart-related effusions are common.</strong> Lung, breast and ovarian cancers, lymphoma, endomyocardial fibrosis, rheumatic heart disease, cirrhosis with hepatic hydrothorax and nephrotic syndrome all produce effusions in Nigerian patients. Only fluid analysis separates them.</li>
+<li><strong>Empyema is common in children and adults</strong> after pneumonia. A pleural fluid pH of 7.2 or below, or frank pus, means a chest drain, not repeated taps.</li>
+<li><strong>Pleural tests are not all available.</strong> Cytology, ADA, culture and especially thoracoscopy are available in a few centres. A closed (blind) pleural biopsy with an Abrams needle is still used in many African hospitals and, combined with ADA and lymphocyte count, gets near the accuracy of thoracoscopy for TB. Know what your laboratory can do before you tap, and send the right samples.</li>
+<li><strong>Blind taps cause pneumothorax.</strong> In one study the rate of pneumothorax fell from 18 per cent with blind thoracentesis to 3 per cent with ultrasound guidance. Where you have a scanner, use it. Where you do not, use a careful chest X-ray and percussion, and choose a conservative site.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-when-not-to-tap" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications and When Not to Tap
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Type</th><th class="py-2 pr-3 font-semibold">When</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Diagnostic</td><td class="py-2 pr-3">A pleural effusion of unknown cause, especially unilateral. Suspected empyema or parapneumonic effusion that is not responding. Suspected malignancy or TB.</td><td class="py-2 pr-3">BTS 2023: use ultrasound, a 21 G needle and a 50 mL syringe. Send the right fluid in the right container (Section 10).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Therapeutic</td><td class="py-2 pr-3">Dyspnoea or pain from a large or symptomatic effusion, including malignant effusions.</td><td class="py-2 pr-3">Remove no more than about 1.5 L at one time. Stop if the patient coughs or has chest discomfort.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Not needed</td><td class="py-2 pr-3">Bilateral effusions with a clear cause such as heart failure, which usually respond to treatment. A small effusion (under 1 cm on ultrasound or lateral decubitus film).</td><td class="py-2 pr-3">Treat the cause and review. Aspirate only if the picture is atypical (unilateral, febrile, asymmetric, or no improvement).</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="ultrasound-and-imaging-before-you-start" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Ultrasound and Imaging Before You Start
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Ultrasound improves success and safety.</strong> BTS states that bedside ultrasound guidance significantly increases the likelihood of successful pleural fluid aspiration and reduces the risk of organ puncture. Fluid was successfully obtained with ultrasound in up to 88 per cent of patients after a failed clinical and plain-film-guided attempt. Ultrasound also detects septations with greater sensitivity than CT.</li>
+<li><strong>Mark the site with the patient in the position you will use,</strong> sitting upright with the arms supported on a table. Look for a pocket of fluid more than 2 cm deep, a site above the diaphragm and away from the lung, liver and spleen.</li>
+<li><strong>Chest X-ray</strong> before the procedure to check the side and size of the effusion. A PA film shows about 200 mL of fluid and a lateral film about 50 mL. The volume is commonly underestimated on a supine film.</li>
+<li><strong>No scanner:</strong> percuss for stony dullness, check the film, choose the site 1 to 2 interspaces below the upper level of dullness and not lower than the 8th interspace posteriorly, and aspirate a small amount with a narrow needle first to confirm fluid. Stop if you aspirate nothing: do not probe.</li>
+<li><strong>Ultrasound also tells you more:</strong> echogenic fluid, septations and thickened pleura (suggesting empyema, TB or malignancy), and whether the effusion is loculated.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-and-contraindications" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Stop Signs and Contraindications
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Pause and Think If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>An uncooperative patient</strong> who cannot sit still. A moving patient is how the lung is punctured.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Skin infection</strong> or herpes zoster at the planned site.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A bleeding disorder or anticoagulation.</strong> The BTS statement advises assessing bleeding risk before procedures. Many local protocols use an INR above 1.5 or platelets below 50 as thresholds. Correct if you have time. In an urgent diagnostic tap for suspected empyema in a coagulopathic patient, use ultrasound, a small needle and a posterior site, and discuss with a senior.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No safe site</strong> on ultrasound (a thin pocket, loculations, or the diaphragm and liver too close). Do not tap blind.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A very small effusion</strong> (less than 1 cm). The risk is high and the yield low.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A ventilated patient on high pressures</strong> or one with severe bullous lung disease: ask for senior and ultrasound help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A white-out with mediastinal shift toward the white side:</strong> this may be a collapsed lung from an obstructed bronchus (often a tumour), not a big effusion. Draining it may not help and can cause trouble. Use ultrasound and CT if you can.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Suspected diaphragmatic hernia, or a tense unilateral effusion in an unstable patient</strong> needing a chest drain: do not rely on a needle.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Patient refusal.</strong></span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation-and-consent" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Preparation and Consent
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Confirm the indication</strong> and whether the tap is diagnostic or therapeutic. Check the side on the chest X-ray and the ultrasound image. Make sure you are on the correct side.</li>
+<li><strong>Consent.</strong> Explain that you will use local anaesthetic, and that a needle goes between the ribs to remove fluid. Explain the main risks: pain, pneumothorax (sometimes needing a chest drain), bleeding, infection and, rarely, injury to other organs. Explain that fluid analysis helps find the cause.</li>
+<li><strong>Check bleeding risk:</strong> anticoagulants, antiplatelets, liver disease. Check platelets and INR if you suspect a problem.</li>
+<li><strong>Baseline:</strong> pulse, blood pressure and oxygen saturation. Give oxygen if the patient is hypoxic.</li>
+<li><strong>Position:</strong> sitting upright, leaning slightly forward, with the arms resting on a pillow on a table (not leaning too far forward, which makes the ribs close up). If the patient cannot sit, use lateral decubitus with the effusion side down, and use ultrasound.</li>
+<li><strong>Mark the site</strong> with ultrasound (Section 3). Then do not move the patient.</li>
+<li><strong>Prepare the containers</strong> (Section 10), including a heparinised blood gas syringe for pH if infection is suspected.</li>
+<li><strong>Time-out:</strong> patient, side, site, equipment and plan for samples.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Equipment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Skin preparation and drapes</td><td class="py-2 pr-3">Chlorhexidine or povidone-iodine, sterile gloves, drape.</td><td class="py-2 pr-3">Do not skip aseptic technique.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Local anaesthetic</td><td class="py-2 pr-3">1% lidocaine, 5 to 10 mL, 25 G needle for the skin and a 21 to 23 G needle to infiltrate down to the pleura.</td><td class="py-2 pr-3">Plain lidocaine. Check the vial concentration.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Diagnostic needle and syringe</td><td class="py-2 pr-3">21 G (green) needle with a 50 mL Luer-lock syringe.</td><td class="py-2 pr-3">A 21 G needle with a large syringe.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Therapeutic needle or catheter</td><td class="py-2 pr-3">16 to 18 G intravenous cannula, or a pleural aspiration catheter, with a three-way tap, extension tubing and a collection bag.</td><td class="py-2 pr-3">A 16 G cannula, three-way tap and a large syringe, emptying into a sterile container.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Heparinised blood gas syringe</td><td class="py-2 pr-3">For pH: 0.5 to 1 mL, capped and analysed at once (or on ice).</td><td class="py-2 pr-3">Test pH on a blood gas machine if you have one. pH paper is unreliable.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Containers</td><td class="py-2 pr-3">EDTA tube (cell count), plain tube (protein, LDH, glucose, ADA), blood culture bottles (bedside inoculation), a larger sterile container for cytology (25 to 50 mL), a plain pot for AFB.</td><td class="py-2 pr-3">Label every container. Send what you have the same day.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ultrasound</td><td class="py-2 pr-3">Curvilinear probe, sterile cover and gel.</td><td class="py-2 pr-3">Percussion and chest X-ray.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Dressing</td><td class="py-2 pr-3">Sterile gauze and an occlusive dressing.</td><td class="py-2 pr-3">Gauze and tape.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Resuscitation</td><td class="py-2 pr-3">Oxygen, suction, IV access, and a chest drain set available.</td><td class="py-2 pr-3">Know where the nearest chest drain kit is.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="site-and-position" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Site and Position
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Usual site:</strong> the posterolateral chest wall, about 6 to 8 cm lateral to the spine, in the mid-scapular line, 1 to 2 interspaces below the upper level of the fluid but above the diaphragm. Do not go lower than the 8th intercostal space posteriorly, because the diaphragm, liver and spleen rise high.</li>
+<li><strong>Always above the rib.</strong> The vein, artery and nerve run along the lower border of each rib. Insert the needle just above the upper border of the rib below your mark.</li>
+<li><strong>Fluid pocket:</strong> at least 2 cm deep on ultrasound, ideally larger, and a clear path that avoids the lung tip at full inspiration.</li>
+<li><strong>Avoid:</strong> the scapula, scars from previous chest surgery or drains, skin lesions, and the intercostal vessels in the posterior axillary region where tortuosity is greatest in older patients.</li>
+<li><strong>Lateral decubitus or supine patients:</strong> use ultrasound, choose a lateral axillary site, and be extra careful about the diaphragm.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-diagnostic-pleural-aspiration" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Technique: Diagnostic Pleural Aspiration
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Position and mark</strong> the site. Wash your hands, put on sterile gloves, clean the skin with antiseptic, allow it to dry and drape.</li>
+<li><strong>Anaesthetise.</strong> Raise a skin wheal with the 25 G needle, then infiltrate along the track with the larger needle, just above the upper border of the rib, aspirating as you go. Infiltrate the periosteum of the rib and the parietal pleura, which is very sensitive. Infiltrate until you aspirate fluid: this confirms the depth. Back the needle out and wait a minute.</li>
+<li><strong>Attach the 21 G needle to a 50 mL syringe.</strong> Insert it just above the upper border of the rib, perpendicular to the chest wall, at the marked site, aspirating continuously as you advance.</li>
+<li><strong>Stop advancing as soon as you aspirate fluid.</strong> Hold the needle still and steady. Do not push in further.</li>
+<li><strong>Aspirate</strong> the fluid. For diagnosis, 20 to 50 mL is usually enough. If cytology is wanted, 25 to 50 mL gives the best yield. Some sources suggest up to 50 to 100 mL.</li>
+<li><strong>Fill the containers in order.</strong> For pH, draw 0.5 to 1 mL immediately into a heparinised blood gas syringe, cap it and analyse at once. Then fill the other tubes and the culture bottles (inoculate bottles at the bedside).</li>
+<li><strong>Remove the needle</strong> as the patient breathes out, apply pressure and a dressing.</li>
+<li><strong>Record</strong> the volume removed, the appearance of the fluid (clear, straw, turbid, pus, bloody), and any problems. Send paired serum samples for total protein and LDH, and a blood glucose, so that Light&rsquo;s criteria can be applied.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-therapeutic-thoracocentesis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Technique: Therapeutic Thoracocentesis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Prepare</strong> as above, with a wider-bore cannula (16 to 18 G) or a pleural aspiration catheter, attached to a three-way tap and tubing.</li>
+<li><strong>Insert the cannula or needle</strong> above the rib, aspirating as you advance. When fluid appears, advance the cannula a little further over the needle and withdraw the needle so the soft cannula lies in the pleural space. Tape it in place.</li>
+<li><strong>Connect</strong> a three-way tap and a 50 mL syringe. Draw fluid with the syringe, turn the tap and expel it through the extension tubing into a collection bag or container. Repeat. Or connect to a vacuum bottle if your system provides one. Do not use a vacuum so strong that it causes pain.</li>
+<li><strong>Drain slowly.</strong> Remove fluid slowly, and stop if the patient develops cough, chest discomfort or tightness, faintness, or if fluid stops flowing.</li>
+<li><strong>Volume limit.</strong> Draining more than about 1.5 L at one sitting risks re-expansion pulmonary oedema and haemodynamic instability. Stop at 1.5 L unless the patient is tolerating the tap well and your supervisor agrees.</li>
+<li><strong>Monitor</strong> pulse, blood pressure and oxygen saturation during the procedure.</li>
+<li><strong>Remove the cannula</strong> as the patient breathes out. Apply a dressing and pressure.</li>
+<li><strong>Take a chest X-ray</strong> after therapeutic aspiration to confirm that the effusion has reduced and to exclude pneumothorax.</li>
+</ol>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: how much to drain, and do you need a film?</p>
+<p class="text-sm">The figure of 1.5 L per sitting appears in BTS-derived teaching and most local protocols, but the evidence for a fixed limit is weak. The more important rule is to stop when the patient develops cough, chest discomfort or tightness, which are early signs of lung re-expansion trouble.</p>
+<p class="text-sm">BTS advises that a chest X-ray after a simple diagnostic aspiration is not needed unless air was withdrawn, the procedure was difficult, multiple attempts were needed or the patient becomes symptomatic. After a therapeutic tap, a film is advised. Where an X-ray costs money and delay, use this rule to decide.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pleural-fluid-analysis-and-what-it-tells-you" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Pleural Fluid Analysis and What It Tells You
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to send</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Test</th><th class="py-2 pr-3 font-semibold">Container</th><th class="py-2 pr-3 font-semibold">Why</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Appearance</td><td class="py-2 pr-3">Look at the fluid: clear, straw, turbid, pus, bloody, milky.</td><td class="py-2 pr-3">Pus means empyema. Bloody suggests malignancy, TB, trauma or pulmonary embolism. Milky suggests chylothorax.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Protein and LDH (with paired serum protein and LDH)</td><td class="py-2 pr-3">Plain tube plus serum</td><td class="py-2 pr-3">Light&rsquo;s criteria to separate transudate from exudate.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Glucose</td><td class="py-2 pr-3">Plain or fluoride tube</td><td class="py-2 pr-3">Low in empyema, TB, rheumatoid and malignant effusions.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">pH</td><td class="py-2 pr-3">Heparinised blood gas syringe, capped, analysed at once</td><td class="py-2 pr-3">A pH of 7.2 or below in a suspected parapneumonic effusion means a chest drain.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cell count and differential</td><td class="py-2 pr-3">EDTA tube</td><td class="py-2 pr-3">Lymphocytes suggest TB or malignancy. Neutrophils suggest infection.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gram stain and culture</td><td class="py-2 pr-3">Sterile container and blood culture bottles inoculated at the bedside</td><td class="py-2 pr-3">Diagnose empyema and choose the antibiotic.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cytology</td><td class="py-2 pr-3">25 to 50 mL in a larger sterile container</td><td class="py-2 pr-3">If malignancy is possible. Sensitivity is limited.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">ADA</td><td class="py-2 pr-3">Plain tube</td><td class="py-2 pr-3">In a lymphocytic exudate, an ADA above 40 IU/L strongly supports TB.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">AFB smear, culture and Xpert</td><td class="py-2 pr-3">Plain pot, 5 mL or more</td><td class="py-2 pr-3">Smear and Xpert are insensitive in pleural fluid; culture is slow. Do not rely on them.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Haematocrit</td><td class="py-2 pr-3">EDTA tube</td><td class="py-2 pr-3">If bloody or haemothorax is suspected.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Amylase, triglycerides, glucose and complement</td><td class="py-2 pr-3">Plain tube</td><td class="py-2 pr-3">Pancreatitis, chylothorax and rheumatoid disease, if suspected.</td></tr>
+</tbody></table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Light&rsquo;s criteria</strong>
+<p class="text-sm">The fluid is an exudate if one or more of the following is present: pleural fluid protein divided by serum protein is above 0.5; pleural fluid LDH divided by serum LDH is above 0.6; or pleural fluid LDH is above two thirds of the upper limit of normal for serum LDH. Fluid protein below 30 g/L suggests a transudate in a patient with normal serum protein. Light&rsquo;s criteria are more sensitive for exudates, and may misclassify a transudate in a patient on diuretics, so check the clinical picture.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Interpreting the result</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Picture</th><th class="py-2 pr-3 font-semibold">Fluid</th><th class="py-2 pr-3 font-semibold">Think of</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Transudate</td><td class="py-2 pr-3">Clear or straw, protein under 30 g/L, LDH low.</td><td class="py-2 pr-3">Heart failure (including endomyocardial fibrosis and rheumatic heart disease), cirrhosis (hepatic hydrothorax), nephrotic syndrome, hypoalbuminaemia.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Lymphocytic exudate with high ADA</td><td class="py-2 pr-3">Straw or serous, high protein, lymphocytes, ADA above 40 IU/L. A Lagos series found ADA ranging from 44 to 120.</td><td class="py-2 pr-3">Tuberculosis, especially in HIV. Confirm with pleural biopsy where possible.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Lymphocytic exudate with low ADA and bloody</td><td class="py-2 pr-3">Bloody, cytology may show cancer cells.</td><td class="py-2 pr-3">Malignancy (lung, breast, ovary, lymphoma, mesothelioma). Cytology picked up malignancy in only about half of cases in one series.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Neutrophilic exudate, pH 7.2 or below, or pus</td><td class="py-2 pr-3">Turbid or pus, low glucose, positive Gram stain or culture.</td><td class="py-2 pr-3">Empyema or complicated parapneumonic effusion. Needs a chest drain and antibiotics.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Haemothorax</td><td class="py-2 pr-3">Frankly bloody, haematocrit more than half the blood haematocrit.</td><td class="py-2 pr-3">Trauma, malignancy, pulmonary infarction. Needs a chest drain.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Chylothorax</td><td class="py-2 pr-3">Milky, high triglycerides.</td><td class="py-2 pr-3">Lymphoma, thoracic duct injury, filariasis, TB.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>TB:</strong> in high-burden settings the diagnosis is usually inferred from a lymphocyte-predominant exudate with high ADA. Pleural fluid Xpert has a poor sensitivity and does not match the sensitivity of basic fluid analysis. If there is a chest film sign of pulmonary TB, send sputum for Xpert and culture. Drug resistance is a real danger, so confirm where you can.</li>
+<li><strong>Pleural biopsy:</strong> a closed (Abrams needle) biopsy has a diagnostic sensitivity of about 57 to 80 per cent for TB and 40 to 73 per cent for malignancy, and adding it to ADA and lymphocyte count brings the accuracy near that of thoracoscopy. It is a procedure for a trained operator.</li>
+<li><strong>Cytology</strong> should be sent whenever malignancy is possible. A negative cytology does not exclude cancer; a pleural biopsy or thoracoscopy may be needed.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-a-tap-is-not-enough-chest-drain-and-biopsy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+When a Tap Is Not Enough: Chest Drain and Biopsy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Chest drain:</strong> for pus, a pH of 7.2 or below in a suspected parapneumonic effusion, a positive Gram stain or culture, a loculated infected effusion, or a haemothorax. BTS 2023 starts with a small-bore drain under ultrasound. See the guide on chest tube insertion.</li>
+<li><strong>Recurrent symptomatic malignant effusion:</strong> repeated tapping gives short relief. Consider a drain and pleurodesis, or an indwelling pleural catheter, by a specialist.</li>
+<li><strong>Undiagnosed exudate after fluid analysis:</strong> arrange closed pleural biopsy, ultrasound or CT-guided biopsy, thoracoscopy, or refer. TB treatment on clinical grounds may be justified in a high-prevalence setting with a lymphocytic exudate and high ADA.</li>
+<li><strong>Pleural thickening or a mass</strong> on imaging: biopsy for histology.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="aftercare-and-monitoring" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Aftercare and Monitoring
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Keep the patient sitting or semi-recumbent for a short while after the tap. Check pulse, blood pressure and oxygen saturation at intervals for 1 to 2 hours after a therapeutic tap.</li>
+<li>Take a chest X-ray if the tap was therapeutic, difficult, needed multiple attempts, if air was aspirated, or if the patient is breathless or in pain afterwards. A diagnostic tap that was uncomplicated does not need one.</li>
+<li>Chase the results (cell count, culture, cytology, ADA) and write down who will do so.</li>
+<li>Tell the patient to return at once for increasing breathlessness, chest pain, fever, coughing up frothy sputum, bleeding or swelling at the site.</li>
+<li>Document the volume removed, the appearance, the samples sent, and any problem.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Pneumothorax:</strong> sudden breathlessness, chest pain, falling oxygen saturation, reduced breath sounds, or air aspirated into the syringe. Occurs more often with blind taps. A small asymptomatic pneumothorax can be observed. A larger or symptomatic one needs aspiration or a chest drain. A tension pneumothorax needs needle decompression at once.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Re-expansion pulmonary oedema:</strong> cough, chest tightness and breathlessness during or after a large-volume tap. Stop draining, give oxygen and call for senior help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Bleeding:</strong> intercostal artery injury or haemothorax. Pain, breathlessness and falling blood pressure. Resuscitate, and call the surgeon for a chest drain.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Organ puncture:</strong> liver or spleen if the site is too low. Abdominal pain, shock. Use ultrasound and stay above the 8th space.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Vasovagal reaction:</strong> pallor, sweating, slow pulse. Lay the patient flat and observe.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Dry tap or failure:</strong> the needle is in the wrong place, the fluid is loculated or the effusion is too small. Use ultrasound. Do not repeat blind attempts.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection:</strong> empyema or chest wall infection from poor technique.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Pain at the site</strong> and prolonged cough.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Seeding of malignancy along the needle track</strong> in mesothelioma, and air embolism. Rare.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">HIV with unilateral effusion</td><td class="py-2 pr-3">Tap for diagnosis. Expect a lymphocytic exudate with high ADA. Send sputum for Xpert and culture, and consider closed pleural biopsy. Start TB treatment if the picture fits, according to the national programme.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Child with parapneumonic effusion or empyema</td><td class="py-2 pr-3">Use ultrasound. A small needle or cannula, and a sedated, well-held child. Empyema usually needs a chest drain. Involve a paediatrician or paediatric surgeon.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Heart failure with bilateral effusions</td><td class="py-2 pr-3">Treat the heart failure. Tap only if atypical (unilateral, febrile, asymmetric, no response to treatment).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cirrhosis with a right-sided effusion</td><td class="py-2 pr-3">Hepatic hydrothorax. Treat the ascites first. Tap for diagnosis if infection is possible.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Nephrotic syndrome</td><td class="py-2 pr-3">Treat the nephrotic syndrome. Tap if infection or another cause is suspected.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Recurrent malignant effusion</td><td class="py-2 pr-3">Therapeutic taps for relief. Consider a drain and pleurodesis, or an indwelling catheter.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Patient on anticoagulants or with a bleeding tendency</td><td class="py-2 pr-3">Use ultrasound and a small needle, and discuss with a senior. Hold anticoagulants according to your protocol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ventilated patient</td><td class="py-2 pr-3">Use ultrasound, and ask for senior help. A pneumothorax is poorly tolerated.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pregnancy</td><td class="py-2 pr-3">Tap if indicated, with ultrasound and shielding of the abdomen where practical.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Sickle cell disease with chest syndrome and effusion</td><td class="py-2 pr-3">Small effusions are common and usually need no tap. Tap if the effusion is large or infected.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm053812" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Thoracentesis (2006)</a> &ndash; the standard 9-minute teaching video on indications, technique and complications. May need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm1102920" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Videos in Clinical Medicine: Ultrasound Guidance for Pleural-Catheter Placement (2018)</a> &ndash; ultrasound-guided placement of a small-bore pigtail catheter for drainage. May need institutional access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://vimeo.com/755694649" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM Thoracentesis: user-hosted copy on Vimeo</a> &ndash; a copy of the NEJM video hosted by a user. Prefer the NEJM page where you have access.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=j_UGBS-Kp2I" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NEJM: Needle aspiration of a spontaneous pneumothorax</a> &ndash; the NEJM demonstration of needle aspiration for a simple pneumothorax, useful alongside the chest tube guide.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=6ThpUpgjSiM" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Sonosite: Ultrasound guidance for thoracentesis</a> &ndash; how bedside ultrasound identifies the effusion and the safe site.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://hospitalprocedures.org/store/ultrasound-guided-thoracentesis/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound-guided thoracentesis on a live patient (Hospital Procedures Consultants)</a> &ndash; a paid video that demonstrates ultrasound-guided thoracentesis step by step and discusses fluid analysis.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.vch.ca/sites/default/files/2023-06/Thora%20CIMUS%20upload-2.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound-guided thoracentesis teaching handout (Vancouver)</a> &ndash; step-by-step technique, positioning, and a list of online videos including the Harrison&rsquo;s tutorial and the Calgary ultrasound lung video.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://sites.google.com/site/calgaryimus/home/lung" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Calgary Internal Medicine Ultrasound: lung and pleural effusion</a> &ndash; a 6-minute video on confirming a pleural effusion with ultrasound.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Written guides and procedure sheets</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/diagnostic-thoracentesis-pleural-tap-osce-guide/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Diagnostic thoracentesis (pleural tap) OSCE guide</a> &ndash; step-by-step guide with equipment, ultrasound, and the sample list.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://app.geekymedics.com/osce-guides/clinical-procedures/pleural-tap/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Pleural tap (app version)</a> &ndash; the same guide in the Geeky Medics app. May need a subscription.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://patient.info/doctor/pleural-effusion-aspiration" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Patient.info: Pleural effusion aspiration</a> &ndash; technique, volume limit of 1.5 L and BTS-suggested investigations.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://oxfordmedicaleducation.com/?p=2657" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Oxford Medical Education: Pleural effusion</a> &ndash; procedure, Light&rsquo;s criteria and indications for a chest drain.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://hospitalhandbook.ucsf.edu/09-thoracentesis/09-thoracentesis" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">UCSF Hospitalist Handbook: Thoracentesis</a> &ndash; site selection, needle choice and diagnostic studies.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://intermediate.mrcemsuccess.com/review/32486987/259301" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Pleural aspiration notes (MRCEM revision)</a> &ndash; diagnostic and therapeutic aspiration, with the 1.5 L limit and chest X-ray criteria.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11172328/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound-assisted and ultrasound-guided thoracentesis: educational review</a> &ndash; why ultrasound lowers pneumothorax and how to use it.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8946970/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Real-time ultrasound-guided thoracentesis: 361 cases</a> &ndash; effectiveness and safety of the procedure.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://brit-thoracic.org.uk/document-library/guidelines/pleural-disease/bts-guideline-for-pleural-disease-appendix-1-clinical-pathwaysdecision-trees" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BTS 2023 Guideline for Pleural Disease: appendix with clinical pathways and Light&rsquo;s criteria</a> &ndash; unilateral effusion pathway, pH thresholds and Light&rsquo;s criteria.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://education.chestnet.org/AssetListing/Self-Study-Resources-5972/Robert-BTS-guideline-for-Pleural-Disease-Thorax-2023-PDF-23754" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BTS 2023 Pleural Disease Guideline: summary points (CHEST education)</a> &ndash; image-guided thoracentesis, sample volumes and drainage decisions.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://education.chestnet.org/AssetListing/Pulmonary-Self-Study-Resources-6126/Asciak-BTS-Clinical-Statement-on-pleural-procedures-Thorax-2023-PDF-23937" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BTS 2023 Clinical Statement on Pleural Procedures: summary</a> &ndash; safety, patient selection, small-bore needles, slow aspiration and stopping for symptoms.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://thorax.bmj.com/content/65/Suppl_2/ii4" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BTS 2010 Guideline: pleural procedures and investigation of unilateral effusion</a> &ndash; earlier edition with the 21 G needle, ultrasound and pH syringe recommendations.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tuberculous and Nigerian context</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ajol.info/index.php/nqjhm/article/view/229969" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Tuberculosis pleural effusion in Lagos, Nigeria: demography and ADA levels</a> &ndash; serous versus purulent fluid, ADA range 44 to 120, and ADA above 40 IU/L.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8278995/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Diagnosing tuberculous pleural effusions in the era of drug resistance</a> &ndash; Xpert versus lymphocyte and ADA criteria in a high-burden African setting.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://jtd.amegroups.org/article/view/4221/html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Tuberculous pleural effusions: advances and controversies</a> &ndash; ADA, lymphocyte count and closed pleural biopsy.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478315384.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Closed blind pleural biopsy with the Abrams needle in South Africa</a> &ndash; a 15-year review of pleural biopsy yield in a high-HIV setting.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://wiredspace.wits.ac.za/server/api/core/bitstreams/cc99ae07-0a97-4e9e-bc4b-937b7811beca/content" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Closed pleural biopsy in HIV-endemic South Africa (thesis)</a> &ndash; diagnoses by HIV status.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3843477" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Investigation of exudative pleural effusion in a high-TB area</a> &ndash; causes (TB 55 per cent, malignancy 28 per cent) and the yield of biopsy, bronchoscopy and cytology.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://smj.org.sa/content/24/3/282.full.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Closed needle pleural biopsy: efficacy and sensitivity</a> &ndash; sensitivity ranges for TB and malignancy.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the NEJM videos and the Vancouver handout, then use the guideline appendix for fluid interpretation. None replaces supervised practice.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tap a unilateral or unexplained effusion. Do not tap a small effusion (under 1 cm) or an obvious heart failure effusion that is responding to treatment.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use ultrasound if you can: it raises success and cuts pneumothorax (18 per cent blind versus 3 per cent in one study). Without it, percuss, check the film, stay above the 8th space and aspirate gently with a narrow needle first.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sit the patient upright with arms supported. Site: posterolateral, 6 to 8 cm lateral to the spine, 1 to 2 spaces below the fluid level, above the rib.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Diagnostic: 21 G needle and a 50 mL syringe. Stop as soon as fluid flows. Send 25 to 50 mL if cytology is wanted. pH in a heparinised blood gas syringe if infection is suspected.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Therapeutic: 16 to 18 G cannula, three-way tap, slow drainage. Stop at about 1.5 L or at the first cough or chest tightness. Re-expansion pulmonary oedema is the danger.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Send paired serum protein and LDH for Light&rsquo;s criteria. Exudate if pleural/serum protein above 0.5, LDH ratio above 0.6, or fluid LDH above two thirds of the serum upper limit.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>TB is the commonest cause of a lymphocytic exudate in Nigeria. ADA above 40 IU/L supports it. Xpert on pleural fluid is insensitive. Closed pleural biopsy raises the yield.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>pH of 7.2 or below, pus, or a positive Gram stain means a chest drain. A tap alone will not clear an empyema.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Chest X-ray after therapeutic taps and after any difficulty, air, or symptoms. Not after an uncomplicated diagnostic tap.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cytology is insensitive. A negative result does not exclude cancer. Escalate to biopsy or thoracoscopy when the cause stays unknown.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. Roberts ME, Rahman NM, Maskell NA, et al. British Thoracic Society guideline for pleural disease. Thorax 2023;78(Suppl 3):s1-s42.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. Asciak R, Bedawi EO, Bhatnagar R, et al. British Thoracic Society clinical statement on pleural procedures. Thorax 2023;78(Suppl 3):s43-s68.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Hooper C, Lee YCG, Maskell N, BTS Pleural Guideline Group. Investigation of a unilateral pleural effusion in adults: British Thoracic Society pleural disease guideline 2010. Thorax 2010;65(Suppl 2):ii4-ii17.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. New England Journal of Medicine, Videos in Clinical Medicine. Thoracentesis. N Engl J Med 2006;355:e16. Ultrasound guidance for pleural-catheter placement. N Engl J Med 2018;378:e19.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Geeky Medics. Diagnostic thoracentesis (pleural tap) OSCE guide. Oxford Medical Education. Pleural effusion. UCSF Hospitalist Handbook. Thoracentesis.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Vancouver Coastal Health, Centre for Interventional Medicine Ultrasound Skills. Ultrasound-guided thoracentesis teaching handout, 2022.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Ultrasound-assisted and ultrasound-guided thoracentesis: an educational review. Diagnostics 2024; and real-time transthoracic ultrasound-guided thoracentesis: effectiveness and safety (361 procedures). Diagnostics 2022.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Tuberculosis pleural effusion: demography, clinical characteristics and adenosine deaminase levels in Lagos, Nigeria. Niger Q J Hosp Med.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Diagnosing tuberculous pleural effusions in the era of drug resistance. Afr J Thorac Crit Care Med 2021.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Tuberculous pleural effusions: advances and controversies. J Thorac Dis 2015;7:981-991.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Closed blind pleural biopsy with an Abrams needle: retrospective review of 15 years at a South African academic hospital; and the associated University of the Witwatersrand dissertation.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Investigation of exudative pleural effusion in an area of high tuberculosis incidence: aetiologies and diagnostic yield of pleural biopsy, bronchoscopy and cytology. Lung India.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Closed needle pleural biopsy in pleural effusion: efficacy and sensitivity for tuberculosis and malignancy. Saudi Med J 2003;24:282-286.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+
+{
+  id: 'procedure-venous-blood-sampling',
+  title: 'Venous Blood Sampling (Venepuncture)',
+  category: 'Procedures',
+  subCategory: 'General',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Venous Blood Sampling (Venepuncture), Including Difficult Draws</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; CLINICAL SKILLS</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Venous Blood Sampling (Venepuncture), Including Difficult Draws</h1>
+  <p class="text-sm text-indigo-200">It is the first procedure a student learns and the one most often done badly: a haemolysed sample, a wrong label, a missed vein, a needle-stick injury from recapping. Every Nigerian house officer draws blood dozens of times a week, usually with a syringe and a needle, often with no sharps container within reach. This guide covers patient identification and safety, the device and tube choice, order of draw, vein selection, step-by-step technique, the syringe method most wards use, a ladder of options for difficult veins, capillary sampling in babies, avoiding haemolysis and contamination, blood cultures, complications and what to do after a needle-stick.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#before-you-draw-request-identification-and-safety" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Before You Draw: Request, Identification and Safety</span></a></li>
+  <li><a href="#equipment-and-choosing-the-device" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Equipment and Choosing the Device</span></a></li>
+  <li><a href="#order-of-draw-and-tubes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Order of Draw and Tubes</span></a></li>
+  <li><a href="#choosing-the-vein-and-the-position" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Choosing the Vein and the Position</span></a></li>
+  <li><a href="#technique-step-by-step" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Technique, Step by Step</span></a></li>
+  <li><a href="#the-syringe-and-needle-method-most-nigerian-wards" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>The Syringe-and-Needle Method (Most Nigerian Wards)</span></a></li>
+  <li><a href="#difficult-draws-a-practical-ladder" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Difficult Draws: A Practical Ladder</span></a></li>
+  <li><a href="#children-infants-and-capillary-sampling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Children, Infants and Capillary Sampling</span></a></li>
+  <li><a href="#sample-quality-avoiding-haemolysis-contamination-and-errors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Sample Quality: Avoiding Haemolysis, Contamination and Errors</span></a></li>
+  <li><a href="#blood-cultures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Blood Cultures</span></a></li>
+  <li><a href="#complications-aftercare-and-needle-stick-response" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Complications, Aftercare and Needle-stick Response</span></a></li>
+  <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Special Situations</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>It is dangerous for the person holding the needle.</strong> Surveys across Nigeria find needle-stick injuries in about a quarter to well over half of health workers. In an accident and emergency department in Benin City, 51 per cent of staff had a needle-stick injury in the previous year; recapping caused 38 per cent of injuries and 62 per cent were never reported. Among resident doctors in a Port Harcourt survey, 54 per cent had been injured but only 9 per cent took post-exposure prophylaxis (PEP). In an Owerri-area resident survey 62 per cent were injured, 92 per cent knew how to report, and only 15 per cent did. In a south-east tertiary hospital, 26 per cent of health workers had a sharps injury in a year (doctors 43 per cent, laboratory scientists 28 per cent, nurses 22 per cent) and only about half had received hepatitis B vaccination.</li>
+<li><strong>Blood-borne virus risk is real.</strong> Hepatitis B and HIV are common among patients and the risk after a needle-stick injury is not trivial: a Port Harcourt study quoted a transmission risk for HIV of about 0.5 per cent per injury. Blood sampling is among the procedures in which injuries occur, and in laboratories and paediatric units the phlebotomy section carries a high share.</li>
+<li><strong>Sample quality decides what the laboratory can tell you.</strong> A haemolysed sample gives a falsely high potassium, a wrongly labelled sample risks a wrong-blood-in-tube transfusion error, and a contaminated blood culture leads to unnecessary antibiotics. These are mostly errors in the first five minutes of the process.</li>
+<li><strong>Syringe and needle remain the norm.</strong> Many Nigerian wards still draw with a syringe and needle and transfer the blood to tubes. That is acceptable if done safely (Section 7), but it carries more risk of needle-sticks and haemolysis than a closed evacuated-tube system.</li>
+<li><strong>Difficult veins are common.</strong> Dehydration, malnutrition, sickle cell disease with repeated cannulation, chronic kidney disease, cancer chemotherapy, obesity, and small children make good venepuncture technique a core skill.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-draw-request-identification-and-safety" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Before You Draw: Request, Identification and Safety
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Check the request.</strong> Make sure that the test requested is clinically needed, and that you understand which tubes and volumes the laboratory needs. Do not take blood &ldquo;just in case&rdquo;: repeated unnecessary sampling is a cause of anaemia in sick babies and in the elderly.</li>
+<li><strong>Identify the patient with two different identifiers</strong> (name and date of birth or hospital number), asking open questions: &ldquo;Please tell me your full name.&rdquo; Compare with the wristband and the request form. For an unconscious patient or a baby, use the wristband and a relative.</li>
+<li><strong>Explain the procedure</strong> and obtain consent. Ask about previous difficult draws, fainting, allergies (latex, chlorhexidine, tape), anticoagulants and bleeding disorders, and whether any limb is off-limits (mastectomy, fistula, lymphoedema).</li>
+<li><strong>Hand hygiene.</strong> Wash with soap and water or use alcohol rub, before putting on gloves and after taking them off.</li>
+<li><strong>Gloves</strong> for every patient. Change gloves between patients.</li>
+<li><strong>Get everything ready first:</strong> tubes and bottles in the order you will fill them, the request forms, a sharps container within arm&rsquo;s reach, gauze, tape and a bin. Never walk with an uncapped needle.</li>
+<li><strong>Label the tubes at the bedside, after the blood is taken,</strong> in front of the patient, with name, number, date and time, and your initials. Never pre-label tubes and never label away from the patient.</li>
+<li><strong>Sharps safety (WHO):</strong> do not recap a needle with two hands. Put the used needle and syringe directly into a puncture-resistant sharps container immediately after use. If no safety box is available, use a rigid plastic bottle with a narrow opening as a temporary container and close it when two thirds full. Never leave needles on the bed or the tray.</li>
+<li><strong>Protect yourself.</strong> Get your hepatitis B vaccine course and check your antibody level. Know where PEP is kept and how to report an injury (Section 12).</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment-and-choosing-the-device" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Equipment and Choosing the Device
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">Notes and improvisation</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Needle size</td><td class="py-2 pr-3">Adults: 21 G (green). Children, neonates and fragile veins: 22 to 23 G. Gauges above 23 raise the risk of haemolysis.</td><td class="py-2 pr-3">In Nigerian practice 21 to 23 G needles are usual. A narrower needle is better than missing the vein, but draw gently.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Vacuum (evacuated tube) system</td><td class="py-2 pr-3">Needle and holder with a vacuum tube. A closed system, with the least handling of blood and the lowest risk of needle-stick injury.</td><td class="py-2 pr-3">Use when available. Slide the tube into the holder without pushing it onto the needle until the needle is in the vein.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Syringe and needle</td><td class="py-2 pr-3">5 to 20 mL syringe, depending on the tests. The usual choice on wards without vacuum systems.</td><td class="py-2 pr-3">Use a blood transfer device if you have one (Section 7).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Butterfly (winged) set</td><td class="py-2 pr-3">21 to 23 G winged needle with tubing, used with a syringe or a holder.</td><td class="py-2 pr-3">Best for small, fragile or hand veins, and for children. A short tube makes it easier to control the needle.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Tourniquet</td><td class="py-2 pr-3">Disposable or reusable strap. A blood pressure cuff inflated to about 60 to 80 mmHg also works.</td><td class="py-2 pr-3">Wipe a reusable tourniquet with alcohol between patients, or use a single-use strip.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Skin antiseptic</td><td class="py-2 pr-3">2% chlorhexidine in 70% isopropyl alcohol (WHO). 70% alcohol swab is the usual alternative.</td><td class="py-2 pr-3">Allow it to dry for about 30 seconds. Wet alcohol stings and can haemolyse the sample.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gauze and tape</td><td class="py-2 pr-3">Dry gauze square and tape or a plaster.</td><td class="py-2 pr-3">Check for plaster allergy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Sharps container</td><td class="py-2 pr-3">Puncture-resistant, within reach, never more than two thirds full.</td><td class="py-2 pr-3">A rigid plastic bottle as a temporary container.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Gloves and tray</td><td class="py-2 pr-3">Disposable gloves, a clean tray.</td><td class="py-2 pr-3">Use clean gloves on every patient.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="order-of-draw-and-tubes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Order of Draw and Tubes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Fill tubes in the recommended order so that the additive in one tube does not contaminate the next. The standard order is:</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Order</th><th class="py-2 pr-3 font-semibold">Tube or bottle</th><th class="py-2 pr-3 font-semibold">Typical tests</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">1</td><td class="py-2 pr-3">Blood culture bottles (yellow label or as supplied)</td><td class="py-2 pr-3">Culture for sepsis, endocarditis, typhoid, brucellosis</td><td class="py-2 pr-3">Always first, with aseptic technique. Then the others.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">2</td><td class="py-2 pr-3">Citrate (light blue)</td><td class="py-2 pr-3">PT/INR, aPTT, D-dimer</td><td class="py-2 pr-3">Fill exactly to the line (9 parts blood to 1 part citrate). Mix gently.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">3</td><td class="py-2 pr-3">Plain or gel serum tube (red or gold)</td><td class="py-2 pr-3">Urea, electrolytes, liver tests, serology, group and save in some units</td><td class="py-2 pr-3">Allow to clot, then centrifuge.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">4</td><td class="py-2 pr-3">Heparin (green)</td><td class="py-2 pr-3">Plasma chemistry, ammonia (on ice)</td><td class="py-2 pr-3">Mix gently.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">5</td><td class="py-2 pr-3">EDTA (lavender or purple)</td><td class="py-2 pr-3">Full blood count, HbA1c, genotype, malaria film, blood group</td><td class="py-2 pr-3">Do not let EDTA touch the other tubes. It raises potassium and lowers calcium.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">6</td><td class="py-2 pr-3">Fluoride oxalate (grey)</td><td class="py-2 pr-3">Glucose, lactate</td><td class="py-2 pr-3">Last. Inverts to mix.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Tube colours differ between manufacturers and countries. Check the label and the laboratory&rsquo;s guide before you rely on a colour.</li>
+<li>Mix each additive tube gently by inverting 5 to 10 times straight after filling. Do not shake.</li>
+<li>Fill tubes to the required volume. An under-filled citrate or EDTA tube gives wrong results.</li>
+<li>When filling from a syringe, still follow this order.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-the-vein-and-the-position" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Choosing the Vein and the Position
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>First choice:</strong> the median cubital vein in the antecubital fossa, then the cephalic vein, then the basilic vein. The median cubital is close to the surface and has few large nerves nearby.</li>
+<li><strong>Second choice:</strong> veins on the back of the hand, with a butterfly needle. They are smaller and less comfortable.</li>
+<li><strong>Take care at the basilic vein:</strong> the median nerve and the brachial artery lie close to it. Avoid deep probing there.</li>
+<li><strong>Do not use:</strong> an arm with an arteriovenous fistula or graft; the arm on the side of a mastectomy or axillary node clearance; an arm with a cannula or a drip; areas of infection, burn, dermatitis, oedema, bruising or haematoma; and a limb paralysed by a stroke.</li>
+<li><strong>If the patient has a drip:</strong> use the other arm. If you must use the same arm, stop the infusion for at least 2 minutes, apply the tourniquet below the drip, use a vein other than the one with the drip, and discard the first 5 mL.</li>
+<li><strong>Lower limbs and feet</strong> are not used in adults without a doctor&rsquo;s approval, because of the risk of thrombosis and infection.</li>
+<li><strong>Position:</strong> seated or lying, with the arm extended and supported on a pillow, the elbow straight, palm up. A fainting patient should lie down.</li>
+<li><strong>Test before you stick.</strong> Palpate the vein with a finger (not a thumb), feel it spring back, and avoid anything that pulses, which is an artery.</li>
+<li><strong>Do not palpate again</strong> once the skin is cleaned.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-step-by-step" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Technique, Step by Step
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Prepare.</strong> Hand hygiene, gloves, ID check, equipment ready, tubes in order.</li>
+<li><strong>Apply the tourniquet</strong> about 7.5 to 10 cm above the planned site, tight enough to slow venous return but not arterial flow. The radial pulse should still be felt. <strong>Leave it on for no more than 1 minute</strong> to avoid haemoconcentration, which changes results.</li>
+<li><strong>Choose the vein</strong> and, if needed, ask the patient to make a fist, without pumping the hand.</li>
+<li><strong>Clean the skin</strong> with chlorhexidine in alcohol (or 70% alcohol) in a circular motion over a radius of about 2.5 cm, contact for at least 30 seconds, and allow to dry completely for another 30 seconds. Do not blow on it or fan it.</li>
+<li><strong>Anchor the vein.</strong> Hold the patient&rsquo;s arm with your non-dominant hand and pull the skin tight with your thumb about 2.5 to 5 cm below the puncture site. This stops the vein rolling.</li>
+<li><strong>Insert the needle.</strong> With the bevel up, insert the needle at an angle of 15 to 30 degrees in a swift, smooth movement through the skin and into the vein. You may feel a slight give. In a syringe, you will see a flash of blood in the hub or the tubing.</li>
+<li><strong>Advance a little more.</strong> Lower the angle and advance the needle 1 to 4 mm into the vein so the tip stays in the lumen. Hold the needle still and avoid any micro-movement.</li>
+<li><strong>Collect the blood.</strong> With a vacuum system, push the first tube onto the needle, let it fill, then change tubes in the correct order. With a syringe, draw back slowly and steadily with your free hand.</li>
+<li><strong>Release the tourniquet</strong> as soon as the blood flows, or at the latest as the first tube fills. Ask the patient to open the hand.</li>
+<li><strong>Withdraw.</strong> When the last sample is taken, place gauze lightly over the site and remove the needle in one smooth movement, then press firmly on the gauze with the arm straight for at least 1 to 2 minutes (longer for patients with a coagulopathy or on anticoagulants). Do not bend the elbow.</li>
+<li><strong>Dispose</strong> of the needle straight into the sharps container, without recapping.</li>
+<li><strong>Mix, label and send.</strong> Invert the tubes, label them at the bedside, check the labels against the wristband and the form, and send promptly to the laboratory. Delivery within 1 to 2 hours is a common standard.</li>
+<li><strong>Check the patient,</strong> put on a plaster, thank them and tell them to avoid heavy lifting with that arm for a while.</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-syringe-and-needle-method-most-nigerian-wards" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+The Syringe-and-Needle Method (Most Nigerian Wards)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Same preparation and technique</strong> as above, using a syringe of the right size and a 21 to 23 G needle.</li>
+<li><strong>Draw slowly.</strong> A fast pull creates negative pressure and haemolyses red cells. With a small vein, pull back gently and keep the syringe steady.</li>
+<li><strong>Transfer safely:</strong> use a needle-free blood transfer device if you have one, and fill the tubes in the order given. If you do not, put the used needle into the sharps container first without recapping and, only if your hospital policy allows, use a new needle or a transfer adaptor to fill the tubes. Never hold a tube in one hand and stab it with a needle in the other: that is a classic cause of needle-stick injury.</li>
+<li><strong>Do not force blood out of the syringe into the tube.</strong> Forcing the blood through a needle is a common cause of haemolysis. Let the blood run gently down the side of the tube.</li>
+<li><strong>Do not leave blood in the syringe</strong> for long. It will clot, and tubes with anticoagulant will not mix.</li>
+<li><strong>Mix, label, dispose</strong> as for vacuum tubes.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="difficult-draws-a-practical-ladder" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Difficult Draws: A Practical Ladder
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Problem</th><th class="py-2 pr-3 font-semibold">What to try</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">You cannot see or feel a vein</td><td class="py-2 pr-3">Warm the arm for a few minutes with a warm cloth or a glove filled with warm water, or soak it in warm water. Lower the arm below heart level (hang it over the bed) and gently stroke the vein. Move the tourniquet higher, or use a blood pressure cuff inflated between diastolic and systolic pressure. Ask for a fist, without pumping.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Small, fragile or thin-walled veins (elderly, malnourished, chemotherapy, repeated sampling)</td><td class="py-2 pr-3">Use a 23 G butterfly needle with a syringe, and draw very gently to control the negative pressure. Use a lighter tourniquet, or none at all, and anchor the skin well. Use the dorsal hand or forearm veins. Warm the hands.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Dehydration, hypovolaemia, shock</td><td class="py-2 pr-3">Lower the arm, warm it, and use a smaller needle. In an emergency, you may need cannulation instead, using the cannula for both sampling and treatment (see the guide on IV cannulation in difficult access).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Obesity or deep veins</td><td class="py-2 pr-3">Palpate with a finger, not by sight. Use a longer needle if necessary, and the antecubital veins. Ultrasound guidance or a vein finder helps where available.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Veins roll or collapse</td><td class="py-2 pr-3">Anchor the vein firmly. Choose a vein that is straight and springy. Collapsing veins are caused by too much suction, so release the plunger slightly. Use a smaller syringe.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Children and infants</td><td class="py-2 pr-3">Use a small butterfly (23 G), a calm environment, a parent or assistant to hold the child, and sucrose for babies. For small-volume tests use capillary sampling (Section 9).</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Sickle cell disease, chronic kidney disease or repeated sampling</td><td class="py-2 pr-3">Protect the veins. Use the smallest effective needle, rotate sites, avoid the fistula arm and the vein you plan for dialysis or transfusion, and avoid unnecessary tests.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Oedematous or burned limb</td><td class="py-2 pr-3">Press on the oedema to displace fluid and find the vein. If both arms are unusable, discuss with a senior: options include the opposite limb, foot veins with approval, or capillary sampling.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Repeated failure</td><td class="py-2 pr-3">After two unsuccessful attempts, stop and ask a colleague. Many facilities limit each person to two attempts. Escalate to the most experienced person, or to ultrasound.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Sampling from an existing line</td><td class="py-2 pr-3">Not for routine use. If you must, stop the infusion, flush, discard the first 5 mL and then take the sample. Do not take blood cultures through an old line unless catheter infection is suspected.</td></tr>
+</tbody></table></div>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: fist clenching, hanging the arm and tapping</p>
+<p class="text-sm">Many ward protocols and nursing manuals suggest lowering the arm, clenching the fist and gently tapping the vein to help find it. WHO guidance and the Merck Manual warn against vigorous fist pumping, and advise against fist clenching or arm hanging <em>during</em> the actual blood draw, because these manoeuvres can raise potassium, lactate and phosphate. A practical rule: use these tricks to locate the vein, then relax the hand and arm and release the tourniquet before the sample is complete. Vein tapping is discouraged in some policies and listed as acceptable in others, so tap gently if at all.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="children-infants-and-capillary-sampling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Children, Infants and Capillary Sampling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>When:</strong> in infants under 1 year, for small volumes, for tests that need only a drop or two (glucose, haemoglobin, malaria rapid tests, newborn screening spots), or when venous access has failed. WHO guidance on drawing blood says the site for capillary sampling should be chosen by age and weight.</li>
+<li><strong>Site in infants under 1 year (or under about 10 kg):</strong> the medial or lateral plantar surface of the heel only. <strong>Never</strong> the posterior curvature of the heel, the arch, or fingers in babies under a year, because the bone lies just under the skin and puncture can cause osteomyelitis.</li>
+<li><strong>Site in older children and adults:</strong> the fleshy pad of the middle or ring finger, slightly off centre, on the non-dominant hand.</li>
+<li><strong>Depth:</strong> for a heel prick in a full-term baby, the puncture must not go deeper than 2.4 mm (some protocols say 2.0 mm). Use a safety lancet designed for infants, which limits the depth. Premature infants need a shallower lancet.</li>
+<li><strong>Technique:</strong> warm the heel for a few minutes (a warm towel, not hotter than 42 degrees), clean with antiseptic and let it dry (a wet heel dilutes the sample), puncture with one quick motion, <strong>wipe away the first drop</strong>, and collect the following large drops by gentle, intermittent pressure. <strong>Do not milk or squeeze</strong>, because this adds tissue fluid and haemolyses the sample.</li>
+<li><strong>Pain relief:</strong> breastfeeding, oral sucrose and skin-to-skin contact reduce pain in babies.</li>
+<li><strong>Capillary samples are not suitable</strong> for blood cultures or most coagulation tests.</li>
+<li><strong>Venous sampling in children:</strong> a small butterfly (23 G), the antecubital or dorsal hand veins, and a calm helper to hold the arm still.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sample-quality-avoiding-haemolysis-contamination-and-errors" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Sample Quality: Avoiding Haemolysis, Contamination and Errors
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Haemolysis</strong> falsely raises potassium, LDH, AST and other results, and invalidates crossmatch tests. The commonest causes are: vigorous shaking or mixing; drawing from a haematoma; drawing too fast; a needle that is too narrow; forcing the blood through a needle into a tube; and not allowing alcohol to dry.</li>
+<li><strong>Haemoconcentration:</strong> a tourniquet left on for more than a minute raises haemoglobin, protein and many other results.</li>
+<li><strong>Contamination with intravenous fluid:</strong> never draw above a drip. A diluted sample may show a low haemoglobin and a falsely abnormal glucose or electrolytes.</li>
+<li><strong>EDTA carry-over:</strong> filling an EDTA tube before a serum tube raises potassium and lowers calcium. Follow the order of draw.</li>
+<li><strong>Wrong blood in tube:</strong> the commonest and most dangerous error. Always identify the patient with two identifiers, label at the bedside, and never label from memory. Group and crossmatch samples should be hand-labelled and signed according to your blood bank policy, and a second sample is often required.</li>
+<li><strong>Delay:</strong> transport promptly. Glucose falls in an unseparated sample if not in fluoride. Potassium rises if the sample sits for hours.</li>
+<li><strong>Quality loop:</strong> write down samples rejected for haemolysis, clotting or wrong labelling, and look at them as a team.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="blood-cultures" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Blood Cultures
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Take before antibiotics</strong> whenever possible. Do not delay antibiotics in a septic patient to get cultures.</li>
+<li><strong>Skin preparation:</strong> clean the skin with chlorhexidine in alcohol for at least 30 seconds and allow it to dry. Wipe the rubber top of each bottle with alcohol and let it dry. Wear sterile gloves, and do not touch the site again after cleaning.</li>
+<li><strong>Draw first</strong> in the order of draw, before other tubes. Use a new needle to inoculate the bottles if you used a syringe.</li>
+<li><strong>Two sets from two different sites</strong> if you can (an aerobic and an anaerobic bottle make a set). Use the volume recommended by the bottle manufacturer: in adults a full 8 to 10 mL per bottle gives a much better yield than a small amount. Children need smaller volumes according to weight.</li>
+<li><strong>Contamination</strong> (skin organisms in one bottle only) leads to unnecessary antibiotics. Good skin preparation and not drawing from an existing line reduce it.</li>
+<li><strong>Label</strong> the bottles with time, site and patient details. Send them to the laboratory quickly, and do not refrigerate them.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-aftercare-and-needle-stick-response" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Complications, Aftercare and Needle-stick Response
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Complications and Warning Signs</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Haematoma:</strong> a swelling or bruise at the site. Most often from a missed vein or too little pressure afterwards. Apply firm pressure, and avoid using that arm for the next sample.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Arterial puncture:</strong> bright red, pulsatile blood. Remove the needle and press firmly for more than 5 minutes (longer in coagulopathy).</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Nerve injury:</strong> an electric-shock pain or numbness down the arm. Withdraw the needle at once. Nerve injury is rare (about 1 in 6,300 in a donor study) but can be lasting. Avoid deep probing, particularly at the basilic vein.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Fainting (vasovagal):</strong> pallor, sweating, slow pulse. Remove the needle, lay the patient flat and raise the legs.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Prolonged bleeding:</strong> in patients on anticoagulants, with low platelets or liver disease. Compress for longer, and use a pressure dressing. Coagulopathy is not a contraindication to venepuncture.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Infection and thrombophlebitis:</strong> rare, from poor skin preparation.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Needle-stick injury to you:</strong> see below.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If you have a needle-stick injury</strong>
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Wash the wound</strong> immediately with soap and running water. Do not squeeze it, scrub it or use bleach. For a splash to the eyes or mouth, rinse with plenty of clean water.</li>
+<li><strong>Report</strong> the injury to your supervisor and the infection control or occupational health team. Fill in the incident form. Most injuries in Nigerian surveys go unreported.</li>
+<li><strong>Assess the exposure</strong> with a senior: the type of injury, the patient&rsquo;s known HIV, hepatitis B and hepatitis C status, and your own hepatitis B vaccination status.</li>
+<li><strong>Start PEP early</strong> if the source is HIV-positive or unknown and the exposure is significant. PEP works best when started within hours, and no later than 72 hours after exposure. Know where the PEP pack is kept in your hospital.</li>
+<li><strong>Hepatitis B:</strong> if you are not immune, you may need hepatitis B immunoglobulin and a vaccine dose.</li>
+<li><strong>Baseline tests and follow-up</strong> for HIV, hepatitis B and C, then repeat as advised by your hospital policy.</li>
+<li><strong>Learn from it.</strong> Ask why it happened (recapping, disposal, patient movement, lack of a sharps box), and fix that.</li>
+</ol>
+<p class="text-sm">Nigerian surveys found that recapping, disposal of used needles, unexpected patient movement and restraining patients cause most injuries, and that uptake of PEP is low. Never recap, never leave sharps lying, and ask for help with an uncooperative patient or child.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Patient with a drip</td><td class="py-2 pr-3">Use the opposite arm. If not possible, stop the infusion for 2 minutes, tourniquet below the drip, different vein, discard the first 5 mL.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Arm with an AV fistula, or after mastectomy or axillary node clearance</td><td class="py-2 pr-3">Do not use that arm. Use the other arm, the hand or foot, with a senior&rsquo;s approval if both sides are affected.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Coagulopathy or anticoagulant therapy</td><td class="py-2 pr-3">Venepuncture is safe. Use a smaller needle, apply pressure for longer, and avoid deep probing.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Needle phobia or anxious patient</td><td class="py-2 pr-3">Explain, distract, lie the patient down, and use a smaller needle. Offer to stop and try again.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">HIV, hepatitis B or C patients</td><td class="py-2 pr-3">Standard precautions for everyone. Do not label patients as high risk in a way that changes how you work. Treat all blood as infectious.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Blood bank samples</td><td class="py-2 pr-3">Follow the blood bank rule: two identifiers, hand-written label at the bedside, signed and timed, and a second sample if required.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Intensive care</td><td class="py-2 pr-3">Avoid taking more blood than needed. Use small-volume tubes where available and avoid sampling from lines unless the protocol allows.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Malaria testing in a febrile patient</td><td class="py-2 pr-3">An EDTA sample for film, or a capillary finger prick for a rapid diagnostic test. Do not delay treatment for a sick child while waiting.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=DzTmDlcE_3U" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Venepuncture, how to take a blood sample, OSCE guide</a> &ndash; a step-by-step demonstration with the written guide on the Geeky Medics website.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=-XxiRSf6n8Q" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Venepuncture OSCE: phlebotomy using a vacutainer</a> &ndash; vacuum system technique for OSCE stations.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=4TFB-3gDrPs" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Venepuncture OSCE demonstration: phlebotomy using a vacutainer (second video)</a> &ndash; another view of the same technique.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=ObhH_kvt8rw" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Venepuncture and phlebotomy: clinical skills (Dr Gill)</a> &ndash; practical tips for junior doctors on taking blood.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=LC9LABPts7M" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Phlebotomy: venipuncture procedure on a practice arm</a> &ndash; the full procedure with inversion, labelling and sending to the laboratory.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">WHO and written guides</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ncbi.nlm.nih.gov/books/n/whoblood/fm.s9" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO Guidelines on Drawing Blood: Best Practices in Phlebotomy (2010)</a> &ndash; the standard international guideline: patient identification, hand hygiene, skin disinfection, devices, sharps safety and PEP.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://practicenurse.co.uk/articles/nursing-practice/best-practice-in-phlebotomy" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Best practice in phlebotomy (Practice Nurse)</a> &ndash; WHO-based advice on skin cleaning, tourniquet time and needle angle.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.merckmanuals.com/en-ca/professional/critical-care-medicine/how-to-do-peripheral-vascular-procedures/how-to-do-venous-blood-sampling" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Merck Manual: How to do venous blood sampling</a> &ndash; needle choice, sites, contraindications, why not to use a fist or hang the arm during sampling.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medschool.co/procedures/blood-collection" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MedSchool: Blood collection</a> &ndash; sites to avoid, causes of haemolysis and coagulation.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://kingstonhsc.ca/media/14054/download" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Venipuncture policy (Kingston Health Sciences Centre)</a> &ndash; needle gauge, sites, contraindicated veins, warming and vein tapping.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cavuhb.nhs.wales/about-us/governance-and-assurance/freedom-of-information/disclosure-log/2024/months/january/foi-24-020-venepuncture-royal-marsden-manual-pdf/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Marsden Manual: Venepuncture (excerpt)</a> &ndash; the stepwise procedure with rationales, and options when veins are hard to find.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://en.wikipedia.org/wiki/Venipuncture" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Venipuncture and order of draw (reference article)</a> &ndash; the order of draw, device types and rare complications.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.mlo-online.com/home/article/13003854/challenges-of-the-oncology-draw" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Challenges of the oncology draw (MLO)</a> &ndash; difficult veins in patients on chemotherapy: needle size, warming, mastectomy, bleeding.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://nysora.com/?p=58282" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NYSORA: Difficult or invisible superficial veins</a> &ndash; heat, positioning, tourniquet position, ultrasound and vein finders.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Capillary and infant sampling</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pathlabs.ufl.edu/client-services/specimen-shipping/blood-collection-procedure-capillary/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Capillary blood collection procedure (University of Florida pathology)</a> &ndash; heel and finger puncture steps, depth and sites.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ltac.medtraining.org/ltac/docs/custom/108/31978_Heel%20Puncture_Rev%201.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Heel puncture policy</a> &ndash; where to puncture and where not to, and depth.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://biomedgrid.com/pdf/AJBSR.MS.ID.001406.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Capillary blood sampling in infants: heelstick review</a> &ndash; anatomy, depth and the posterior heel danger zone.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://stratech.co.uk/?p=30409" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Best practice tips for capillary blood sampling</a> &ndash; WHO-based site choice by age and weight; warming and not milking.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://open-exam-prep.com/study-guides/phlebotomy/capillary-special-collections/capillary-puncture-technique" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Capillary puncture technique (study guide)</a> &ndash; finger and heel steps and what capillary samples are unsuitable for.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Needle-stick injuries in Nigeria</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4804649" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Needlestick injuries among health workers in an emergency department (Nigeria)</a> &ndash; prevalence, recapping as a cause and low PEP uptake.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.cambridge.org/core/journals/infection-control-and-hospital-epidemiology/article/abs/epidemiology-of-needlestick-and-sharp-instrument-accidents-in-a-nigerian-hospital/9072CF05D823F079A5FA61C4CF10973C" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Needlestick and sharp instrument accidents in a Nigerian hospital</a> &ndash; rates by profession and circumstances.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://core.ac.uk/download/478302243.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Needle-stick injury among resident doctors in a Nigerian teaching hospital</a> &ndash; prevalence, reasons and non-reporting.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://search.bvsalud.org/gim/resource/en/biblio-1342132" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Needle-stick injuries and PEP use among resident doctors in Port Harcourt</a> &ndash; prevalence, PEP uptake and HIV transmission risk.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://ivteam.com/intravenous-literature/sharps-injury-rates-in-nigeria/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Sharps injury and hepatitis B vaccination among health workers in a south-east hospital</a> &ndash; injury rates by profession, vaccination, and PEP use.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the Geeky Medics and OSCE videos, read the WHO guideline for the safety steps, and use the difficult-vein references to build your own ladder. None replaces supervised practice.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Identify the patient with two identifiers, label the tubes at the bedside after the draw, and never pre-label.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never recap with two hands. Sharps go straight into a puncture-resistant container within arm&rsquo;s reach. Get hepatitis B vaccine and know where PEP is.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tourniquet 7.5 to 10 cm above the site, for no more than 1 minute. Fist without pumping. Clean with chlorhexidine-alcohol (or 70% alcohol) for 30 seconds and let it dry for 30 seconds. Do not touch the site again.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Needle bevel up at 15 to 30 degrees, then lower and advance 1 to 4 mm. Release the tourniquet as blood flows. Press firmly with the arm straight afterward.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Order of draw: blood culture, citrate, serum or gel, heparin, EDTA, fluoride. Mix additive tubes by gentle inversion.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>With a syringe: draw gently, use a transfer device, and never force blood through the needle into the tube. Forced transfer and thin needles haemolyse.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Difficult veins: warm the arm, hang it down, move the tourniquet higher, use a 23 G butterfly, anchor the skin, and use ultrasound if available. Stop after two attempts and ask for help.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Avoid arms with a drip, an AV fistula or a mastectomy. Never draw above a drip.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Babies: heel prick only on the medial or lateral heel, no deeper than 2.4 mm, wipe the first drop, no milking. Capillary blood is not suitable for cultures.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Needle-stick: wash, report and start PEP early. Most Nigerian injuries are unreported and few staff take PEP.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. World Health Organization. WHO guidelines on drawing blood: best practices in phlebotomy. Geneva: WHO; 2010.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. Clinical and Laboratory Standards Institute. Collection of diagnostic venous blood specimens (GP41) and Procedures and devices for the collection of diagnostic capillary blood specimens (GP42, formerly H04-A6).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Merck Manual Professional Edition. How to do venous blood sampling.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Royal Marsden Manual of Clinical and Cancer Nursing Procedures. Venepuncture (13.1).</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Kingston Health Sciences Centre. Venipuncture policy; University of Florida Pathology Laboratories. Capillary blood collection procedure.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Isara AR, Oguzie KE, Okpogoro OE. Prevalence of needlestick injuries among healthcare workers in the accident and emergency department of a teaching hospital in Nigeria. Ann Med Health Sci Res 2015;5:392-396.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Epidemiology of needlestick and sharp instrument accidents in a Nigerian hospital. Infect Control Hosp Epidemiol 1992.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Prevalence of needlestick injury among resident doctors in a Nigerian university teaching hospital. Niger J Clin Pract 2014;17:403-408.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Prevalence of needle stick injuries and utilisation of post-exposure prophylaxis among resident doctors in a tertiary hospital in Port Harcourt, Nigeria. Niger Health J 2021;21:99-109.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Onubogu CU, Nwaneli EI, et al. Prevalence of needle stick and sharps injury and hepatitis B vaccination among healthcare workers in a south-east Nigerian tertiary hospital. West Afr J Med 2022;39:24-30.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Prevalence of needle stick injuries among healthcare workers in south-east Nigeria. Res J Health Sci 2014;2:150-161.</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. Capillary blood sampling in infants: heelstick technique, depth and safety lancets (review).</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. NYSORA. Mastering difficult IV access manual: difficult or invisible superficial veins.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'procedure-manual-vacuum-aspiration',
+  title: 'Manual Vacuum Aspiration',
+  category: 'Procedures',
+  subCategory: 'Obstetrics',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manual Vacuum Aspiration</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300 p-4 sm:p-6 max-w-3xl mx-auto">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; OBSTETRICS AND GYNAECOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Manual Vacuum Aspiration (MVA)</h1>
+  <p class="text-sm text-indigo-200">Manual vacuum aspiration empties the uterus with a hand-held 60 mL syringe and a flexible cannula, with no electricity and no general anaesthetic. It is the method WHO recommends over sharp curettage for evacuating the uterus before 14 weeks, and it is the workhorse for incomplete miscarriage, retained products and molar pregnancy in facilities with limited resources. This guide covers patient selection, preparation, step-by-step technique, checking the tissue, complications that must not be missed, aftercare and counselling, and a large set of verified videos and training materials.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#indications-and-context" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Indications and Context</span></a></li>
+  <li><a href="#assessment-counselling-and-consent" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Assessment, Counselling and Consent</span></a></li>
+  <li><a href="#precautions-and-when-not-to-proceed-here" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Precautions and When Not to Proceed Here</span></a></li>
+  <li><a href="#equipment-and-the-mva-syringe" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Equipment and the MVA Syringe</span></a></li>
+  <li><a href="#preparation-cervix-pain-and-infection" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Preparation: Cervix, Pain and Infection</span></a></li>
+  <li><a href="#step-by-step-technique" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Step-by-Step Technique</span></a></li>
+  <li><a href="#examining-the-tissue" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Examining the Tissue</span></a></li>
+  <li><a href="#after-the-procedure" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>After the Procedure</span></a></li>
+  <li><a href="#complications-and-when-to-escalate" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Complications and When to Escalate</span></a></li>
+  <li><a href="#instrument-processing-and-infection-prevention" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Instrument Processing and Infection Prevention</span></a></li>
+  <li><a href="#talking-to-the-woman" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Talking to the Woman</span></a></li>
+  <li><a href="#videos-and-further-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Videos and Further Resources</span></a></li>
+  <li><a href="#key-takeaways-and-references" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Key Takeaways and References</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-and-context" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Indications and Context
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Why this procedure matters in Nigeria</strong><p class="text-sm">Guttmacher Institute estimates for 2012 put induced abortion in Nigeria at about 1.25 million a year (33 per 1,000 women aged 15 to 49). About 212,000 women were treated in health facilities for complications of induced abortion, and 354,400 for complications of any abortion, spontaneous or induced. A further 285,000 women had serious complications and did not get the treatment they needed. Many of the women who arrive bleeding, in pain or febrile need prompt, safe uterine evacuation, and a clinician who can do it with a syringe in a basic procedure room saves lives.</p><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Indications</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>Incomplete miscarriage</strong> before 13 weeks LMP (MSF), including after unsafe abortion.</li><li><strong>Missed miscarriage</strong> and early embryonic or anembryonic loss, where the woman prefers surgical management or medical management has failed.</li><li><strong>Retained products of conception</strong> after miscarriage or a previous evacuation.</li><li><strong>Molar pregnancy</strong>: MSF lists it as an indication even where the uterus is larger than 13 weeks. Send the tissue for histology and arrange follow-up.</li><li><strong>Termination of pregnancy where it is lawful</strong>. WHO recommends vacuum aspiration for surgical abortion before 14 weeks, in place of sharp curettage.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The legal setting</strong><p class="text-sm">The Center for Reproductive Rights summarises Nigerian law as permitting abortion only to save the woman&rsquo;s life, under the Penal Code in the northern states and the Criminal Code Act in the southern states. That source does not address postabortion care or emergency treatment as a legal question. Know your institution&rsquo;s policy and your professional body&rsquo;s guidance, document the clinical indication, and never delay emergency care for a bleeding or septic woman.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assessment-counselling-and-consent" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Assessment, Counselling and Consent
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before the procedure</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>History:</strong> LMP, bleeding pattern, pain, fever, any drugs or instruments used to end the pregnancy, previous uterine surgery, allergies (especially to local anaesthetic), bleeding disorders or anticoagulants.</li><li><strong>Examination:</strong> pulse, blood pressure, temperature, abdomen, and a bimanual exam to confirm uterine size and position, then a speculum exam to look for infection, bleeding and tissue in the os (Ipas).</li><li><strong>Stabilise first:</strong> if she is shocked, resuscitate (IV access, fluids, blood where needed) while preparing for evacuation. Evacuation is part of treating the bleeding.</li><li><strong>Investigations if available:</strong> haemoglobin and blood group. Ultrasound can confirm a non-continuing pregnancy and uterine size, but MSF does not recommend routine ultrasound to confirm completeness afterwards.</li><li><strong>Counselling and informed consent:</strong> explain what will happen, that she will be awake with local anaesthetic, that cramping is expected, and what the alternatives are. WHO recommends vacuum aspiration or medical management for incomplete abortion before 14 weeks, and the choice should reflect her condition and preference.</li><li><strong>Empty the bladder</strong> before the procedure (Ipas).</li></ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<strong class="block text-sm font-semibold">Guideline Watch: gestational limit</strong>
+<p class="text-sm">Sources set the upper limit differently. <strong>MSF:</strong> 13 weeks LMP, beyond which MVA is ineffective except for molar pregnancy. <strong>WHO 2022:</strong> vacuum aspiration is the surgical method for abortion before 14 weeks, with flexibility between 12 and 16 weeks. <strong>One NHS board guideline</strong> limits MVA in an awake outpatient setting to 10 weeks by ultrasound (crown-rump length up to 25 mm, or retained tissue under 5 cm). Those are different settings, with different operators and backup. Use the limit your unit&rsquo;s training and backup support, and refer anything beyond it.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="precautions-and-when-not-to-proceed-here" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Precautions and When Not to Proceed Here
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>Purulent cervicitis or pelvic infection:</strong> start antibiotics before the procedure, because of the higher risk of uterine perforation (MSF). Do not delay evacuation of an infected uterus once antibiotics are running.</li><li><strong>Coagulation disorder or anticoagulant use:</strong> risk of haemorrhage. Perform only where emergency surgery and blood transfusion are available (MSF).</li><li><strong>Uterine size beyond your limit,</strong> or a suspected uterine anomaly: refer, or discuss with a senior (the NHS board guideline asks for a consultant opinion for anomalies and suspected molar pregnancy).</li><li><strong>Allergy to local anaesthetic,</strong> or a woman who cannot tolerate speculum examination while awake: use another anaesthetic plan in a theatre setting.</li><li><strong>Continuing pregnancy, or ectopic pregnancy not excluded:</strong> a woman with pain and a positive pregnancy test and no intrauterine tissue needs the ectopic pathway, not evacuation.</li><li>Previous caesarean section is not itself a contraindication, but if scar pregnancy is possible, confirm with ultrasound first.</li></ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment-and-the-mva-syringe" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Equipment and the MVA Syringe
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Instruments (MSF MVA set)</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Two 60 mL MVA syringes (Ipas MVA Plus), silicone lubricant.</li><li>Sterile, single-use flexible cannulae in 4, 5, 6, 7, 8, 9, 10 and 12 mm. <strong>Cannulae are strictly single-use.</strong></li><li>Double-ended Hegar dilators (3-4, 5-6, 7-8, 9-10, 11-12 mm), Pozzi (tenaculum) forceps, vaginal speculum, uterine sound, dressing forceps, gallipot.</li><li>Sterile drape, 10% povidone iodine, sterile gloves and compresses, absorbent pad, a good light.</li><li>Lidocaine 1% without epinephrine, a long needle (21 or 22G) and syringe for the paracervical block.</li><li>A container, strainer or gauze, and clear fluid (water or vinegar) with a light for examining the tissue.</li><li>Emergency tray: oxygen, IV fluids, oxytocic, resuscitation equipment, and a way to reach a theatre or senior help.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How the syringe works</strong><ol class="list-decimal pl-5 space-y-1 text-sm"><li>Push the plunger fully into the cylinder, then set the collar stop with its tabs in the cylinder holes.</li><li>Push both valve buttons down and forward until they lock (the valve is closed).</li><li>Pull the plunger back until the arms snap outward and catch on the cylinder base. The syringe is now <strong>charged</strong>: it holds a vacuum.</li><li>Attach the charged syringe to the cannula already in the uterus, and release the vacuum by pressing both buttons.</li><li>To empty a full syringe, close the valve, detach it, empty it into the container, then recharge and reattach. Hold the syringe by the cylinder, not the plunger, once the vacuum is on. If a valve or seal leaks, change the syringe.</li></ol><p class="text-sm">MSF notes that an electric suction machine may be used in surgical settings, at a maximum of 800 millibars. WHO points out that MVA is used earlier in pregnancy and where there is no stable electricity source.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="preparation-cervix-pain-and-infection" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Preparation: Cervix, Pain and Infection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cervical priming</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>If the cervix is already open (typical in incomplete miscarriage), no priming is needed. MSF: <strong>closed cervix</strong> needs misoprostol 400 micrograms as one dose, either sublingually 1 to 3 hours before or vaginally 3 hours before.</li><li>WHO 2022 (below 12 weeks) suggests mifepristone 200 mg orally 24 to 48 hours before, or misoprostol 400 micrograms sublingually 1 to 2 hours before, or vaginally or buccally 2 to 3 hours before. The sublingual route is more effective. WHO recommends against osmotic dilators at this stage.</li><li>Do not wait for priming if she is bleeding heavily: evacuate.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pain control</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>Paracervical block</strong> is recommended by WHO for surgical abortion before 14 weeks. WHO also recommends offering NSAIDs routinely and recommends against routine general anaesthesia.</li><li>MSF premedication: <strong>ibuprofen 800 mg orally</strong>, one hour before. Add diazepam 10 mg orally only for excessive anxiety. For heavy bleeding that cannot wait, omit oral premedication, and give diclofenac 75 mg IM if sedation or general anaesthesia is not feasible.</li><li>Talk through every step before you do it. A calm, narrated procedure hurts less.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Infection prevention</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>WHO recommends appropriate prophylactic antibiotics before or during surgical abortion, whatever the woman&rsquo;s infection risk, and adds that lack of antibiotics should not limit access to the service.</li><li>MSF regimens, one hour before: <strong>doxycycline 200 mg orally</strong> as a single dose, or <strong>azithromycin 1 g orally</strong> as a single dose. For suspected infection, give treatment doses before the procedure (see the sepsis section below).</li><li>Handwashing, sterile gloves, and a <strong>no-touch technique</strong>: do not let instruments that enter the uterus touch the vagina or speculum blades (Ipas).</li></ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<strong class="block text-sm font-semibold">Guideline Watch: where to inject the paracervical block</strong>
+<p class="text-sm"><strong>MSF:</strong> 20 mL of 1% lidocaine as four injections of 3 to 5 mL at 2, 5, 7 and 10 o&rsquo;clock, 2 to 3 mm deep, never above 20 mL in total. <strong>Ipas:</strong> 20 mL of 1% (or 10 mL of 2%) lidocaine, with 1 to 2 mL at the tenaculum site (12 o&rsquo;clock) and the rest divided between 2, 4, 8 and 10 o&rsquo;clock, aspirating before each injection. Both give about 20 mL of 1% lidocaine around the cervix, at the cervico-vaginal junction, and both avoid epinephrine. The sites differ by an hour either side, so follow the method you were trained on, always aspirate before injecting to avoid intravascular injection, and never exceed the total dose.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="step-by-step-technique" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Step-by-Step Technique
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage A. Position and prepare</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Lithotomy position, bladder empty. Drape and wash hands, then glove (sterile).</li><li>Bimanual exam to confirm uterine size and position, then insert the speculum.</li><li>Clean the cervix and vagina with 10% povidone iodine, starting at the os and spiralling outward.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage B. Tenaculum and paracervical block</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Grasp the anterior lip of the cervix at 12 o&rsquo;clock with the tenaculum, and apply gentle traction. This straightens the cervical canal. <strong>Keep the traction on until the cannula is out.</strong></li><li>Give the paracervical block (see the Guideline Watch above). Wait a minute or two for it to work.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage C. Dilate only if needed</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Dilate only if the canal will not accept the cannula you plan to use. MSF: start with the smallest dilator, go up progressively, never force, and stop when you feel the resistance give way. If you do not feel it, assume the internal os is passed about 5 cm beyond the external os.</li><li>Rule of thumb for size: cannula diameter in mm is roughly the weeks of gestation by LMP (for example 8 to 10 mm at 10 weeks). The cannula you actually use depends on how far the cervix is open: if only an 8 dilator passes easily at 10 weeks, use an 8 mm cannula.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage D. Insert the cannula</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>With the tenaculum still on traction, insert the cannula gently through the cervix, rotating as needed, until it touches the fundus. Then <strong>withdraw it about 1 cm</strong> (MSF).</li><li>Never force it. A sudden loss of resistance or a cannula that goes in much further than the expected uterine depth means <strong>stop</strong>.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage E. Evacuate</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>With the syringe charged and held by the cylinder, attach it to the cannula and release the vacuum with both buttons.</li><li>Evacuate by slowly <strong>rotating the cannula 180 degrees each way</strong> with a gentle in-and-out motion, covering all the walls (Ipas, MSF). Avoid pulling the cannula opening out through the os, which breaks the vacuum.</li><li>When the syringe is full (about 60 mL), close the valve, detach the syringe <strong>with the cannula still in place</strong>, empty it, recharge it and reattach.</li><li>Watch the aspirate: tissue and blood pass at first, then become pink and foamy as the uterus empties.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stage F. End point and withdrawal</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>The uterus is empty when: <strong>red or pink foam</strong> with no tissue passes through the cannula, you feel a <strong>gritty sensation</strong> as the cannula crosses the uterine surface, or the uterus <strong>contracts and grips</strong> the cannula. She may report more cramping at this point.</li><li>Close the valve (press the buttons), detach the syringe or withdraw it with the cannula, remove the tenaculum, then check the cervix and vagina for bleeding before you remove the speculum (MSF).</li><li><strong>Do not push the plunger back in</strong> while the cannula is still in the uterus: this can force air into the circulation (air embolism, very rare).</li><li>Do not use a sharp curette to &ldquo;check&rdquo; afterwards. WHO recommends against sharp curette checks and recommends vacuum aspiration over sharp curettage.</li></ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="examining-the-tissue" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Examining the Tissue
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm"><li>Empty the syringe into a container and rinse through a strainer or gauze. Float the tissue in clear water or vinegar and look at it against a light from underneath (Ipas).</li><li>Look for <strong>villi, membranes and gestational sac</strong>, and fetal parts after 9 weeks (MSF). The amount should fit the gestation. Frond-like, grape-like vesicles suggest a molar pregnancy.</li><li>If the tissue looks inadequate for the gestation or the result is inconclusive, <strong>reaspirate</strong> or evaluate further (ultrasound, or consider an ectopic pregnancy or a continuing pregnancy that was missed). MSF does not recommend routine ultrasound to confirm completeness.</li><li>Send tissue for histology if molar pregnancy is suspected, or if the clinical picture is unusual.</li></ul>
+</div>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3 font-semibold">Check</th><th class="py-2 pr-3 font-semibold">What you expect</th><th class="py-2 pr-3 font-semibold">If not</th></tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700"><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Aspirate</td><td class="py-2 pr-3 align-top">Villi, membranes, sac that match gestation</td><td class="py-2 pr-3 align-top">Reaspirate; consider ectopic or very early/continuing pregnancy</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">End point</td><td class="py-2 pr-3 align-top">Pink foam, grating, uterine grip</td><td class="py-2 pr-3 align-top">Larger cannula or dilate further, then reaspirate</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Bleeding after</td><td class="py-2 pr-3 align-top">Settles, uterus firm</td><td class="py-2 pr-3 align-top">Massage, uterotonic, exclude retained tissue, tears, perforation</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Cervix and vagina</td><td class="py-2 pr-3 align-top">No tear or active bleeding</td><td class="py-2 pr-3 align-top">Repair or pack; call for help</td></tr><tr><td class="py-2 pr-3 align-top font-semibold text-slate-800 dark:text-slate-200">Woman</td><td class="py-2 pr-3 align-top">Stable vitals, pain settling</td><td class="py-2 pr-3 align-top">Treat as a complication; escalate</td></tr></tbody>
+</table></div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-the-procedure" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+After the Procedure
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Recovery</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li>Monitor vital signs and blood loss for at least 2 hours (MSF). Offer food and drink and analgesia (paracetamol, ibuprofen).</li><li>No routine uterotonic (MSF), except in molar pregnancy. If bleeding continues, check the uterus is contracted, empty and not perforated, and treat as haemorrhage.</li><li>Check and update tetanus immunisation if unsafe abortion is suspected (MSF).</li><li>Check her blood group and give anti-D where your protocol requires it (the NHS board guideline does). MSF&rsquo;s MVA page does not address Rhesus status, so follow your national or local policy.</li><li>Discharge when vital signs are stable, bleeding is acceptable and she can walk.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Contraception and follow-up</strong><ul class="list-disc pl-5 space-y-1 text-sm"><li><strong>Fertility can return within 8 to 10 days.</strong> Offer contraception before she leaves (MSF), including an IUD or implant placed the same day if she wants one.</li><li>Expect cramps for a few days, and light bleeding for 8 to 10 days. Periods usually return within 4 to 8 weeks.</li><li>Hygiene advice: no douching and no vaginal products while she bleeds.</li><li>A home pregnancy test in about 4 weeks (NHS board guideline), or a follow-up visit if her tissue was sent for histology or the pregnancy was molar.</li><li>If the aspirate looked like a molar pregnancy: arrange hCG monitoring and specialist follow-up.</li></ul>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<strong class="block font-brand text-sm font-semibold text-rose-900 dark:text-rose-300 mb-3">Return Immediately If</strong>
+<ul class="space-y-2 text-sm text-rose-900 dark:text-rose-200" style="list-style:none;padding-left:0;margin:0;"><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Bleeding is heavier than a period, soaks pads quickly, or lasts more than 2 weeks.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Severe or worsening abdominal pain, or pain that is not eased by painkillers.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Fever, chills, feeling unwell, or foul-smelling vaginal discharge.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Fainting, dizziness, or a racing heart.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span>Shoulder-tip pain or a hard, swollen abdomen.</span></li></ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-when-to-escalate" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Complications and When to Escalate
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<strong class="block font-brand text-sm font-semibold text-rose-900 dark:text-rose-300 mb-3">Findings That Must Not Be Missed</strong>
+<ul class="space-y-2 text-sm text-rose-900 dark:text-rose-200" style="list-style:none;padding-left:0;margin:0;"><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Uterine perforation:</strong> a cannula or dilator that goes in much further than expected, a sudden loss of resistance, or fat or bowel in the aspirate. <strong>Stop at once.</strong> If suction was running, assume bowel or omentum may be injured. Observe vitals closely, escalate to a senior or surgeon, and arrange laparoscopy or laparotomy if she is unstable or if bowel injury is possible. Perforation is rare (less than 1 in 1,000 in the NHS board guideline).</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Heavy bleeding during or after:</strong> check the uterus is firm and empty, massage, give an oxytocic, look for cervical tears and perforation, and resuscitate. Re-evacuate if tissue is retained.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Incomplete evacuation:</strong> usually a cannula that was too small or suction that was interrupted. Re-evacuate with an adequately sized cannula.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Haematometra:</strong> blood retained in the uterus in the hours after the procedure, with increasing pain and a tense uterus. Re-evacuate, give an oxytocic and massage the uterus (MSF).</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Pelvic infection or sepsis:</strong> fever, tachycardia, foul discharge or uterine tenderness. Start broad-spectrum IV antibiotics per protocol, make sure no tissue is retained, and escalate early if she is septic.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Air embolism</strong> (very rare): sudden breathlessness, collapse or chest pain, usually if air was pushed into the uterus. Resuscitate and call for help.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Ectopic pregnancy missed:</strong> no villi in the aspirate, persistent pain or bleeding, or a dropping blood pressure. Evacuating a uterus does not treat an ectopic. Scan and refer.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><strong>Late problems:</strong> intrauterine adhesions (Asherman syndrome), which Ipas reports in 1.2% of women after sharp curettage and in none of 401 after MVA or misoprostol in one review; and retained tissue that needs a second evacuation.</span></li></ul>
+</div>
+<p class="text-sm">The NHS board guideline reports, for MVA done awake in a UK outpatient setting up to 10 weeks, haemorrhage in about 3%, infection about 3% and repeat surgery for retained tissue about 3%. Those figures come from one well-resourced setting, so use them to counsel, not as targets.</p>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="instrument-processing-and-infection-prevention" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Instrument Processing and Infection Prevention
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm"><li>All equipment in the MSF set can be autoclaved, <strong>except the cannulae, which are strictly single-use</strong>. Follow the manufacturer&rsquo;s instructions for the syringe, which has several parts (cylinder, plunger, valve, o-ring, collar stop).</li><li>Immediately after use, process or discard instruments according to local protocol. Soak, clean thoroughly, then use the high-level disinfection or sterilisation method available to you.</li><li>Wear gloves and eye protection when you handle the aspirate and clean the syringe.</li><li>The reprocessing videos in the resources section below cover cleaning and reprocessing (10 and 17 minutes).</li></ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="talking-to-the-woman" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Talking to the Woman
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Explain each step before you do it, and tell her what she will feel. She is likely to be frightened, in pain, and sometimes ashamed, and she may fear judgement. Treat her privately, respectfully and without blame.</p><p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"You will be awake. I will numb the area first, and you will feel cramping as the womb empties. It lasts a few minutes. Tell me if it is too much, and I will pause."</p><p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"You may bleed lightly for a week to ten days. You can become pregnant again within about ten days, so tell me today what method you would like to use."</p><ul class="list-disc pl-5 space-y-1 text-sm"><li>Offer a trusted person to stay with her where possible, and protect her privacy and confidentiality.</li><li>Explain the warning signs in writing or pictures for those who cannot read, and tell her where to go at any hour.</li><li>Give her time to ask questions and decide about contraception. Never make contraception a condition of care.</li></ul><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Teach-back</strong><p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"To make sure I explained clearly, can you tell me what bleeding or pain would make you come straight back, and where you would go?"</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-further-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Videos and Further Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Every link below came up in this session&rsquo;s research. Ipas states that the women and partners in its films consented on the condition that the videos are used only to train health workers or educate women and partners, so use them for that purpose. Languages other than English are not stated on the pages for the narrated videos, and the subtitled ones do not say which subtitle language they carry. Practise on a pelvic model or a papaya model before you rely on any video.</p>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Ipas procedure videos (for health workers)</strong><div class="grid gap-2 sm:grid-cols-2 mb-4"><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/689725547?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Performing a Manual Vacuum Aspiration (12 min 57 s)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">The full procedure, narrated. Ipas film made in facilities in Africa and Asia, consistent with WHO and Ipas guidance.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/689272738?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Setting Up for an MVA Procedure (3 min)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Setting up for the procedure, narrated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/689725642?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">The MVA Use and Troubleshooting (8 min 41 s)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Using the syringe and troubleshooting problems, narrated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/690505873?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to Do a Paracervical Block (2 min 15 s)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Subtitled demonstration. Subtitle language not stated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/690508206?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MVA Instrument Reprocessing (10 min 12 s)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Cleaning and reprocessing of MVA instruments, narrated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/689269287?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Caring for a Woman with a Miscarriage (9 min 9 s)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Care for a woman with a miscarriage, narrated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/686766307?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Abortion Counseling (9 min 53 s)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Narrated counselling skills.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://player.vimeo.com/video/686764608?dnt=1&app_id=122963" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Dating a Pregnancy (5 min 53 s)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Narrated; Ipas lists it in its general section for health workers.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.ipas.org/resource/abortion-care-videos/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ipas abortion care videos: full page</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Also lists How to Do a Manual Vacuum Aspiration (3 min 55 s, subtitled) and Post Abortion Infection (4 min 44 s, narrated); the page text did not give a clear direct link for these two, so open them from here.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.ipas.org/?p=75443" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ipas abortion care videos: introduction page</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Describes the 14 videos (11 for health workers), filmed in Africa and Asia. Videos are downloaded through Vimeo.</span></div></div><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Training course and simulation</strong><div class="grid gap-2 sm:grid-cols-2 mb-4"><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://vimeo.com/481855369/c1b7452177" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Processing the Ipas instruments (Ipas, 2019; 17 min)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Instrument processing video listed in the IAWG course. Whether it needs a login is not stated.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://iawg.net/resources/uterine-evacuation-in-crisis-settings-using-medications-and-manual-vacuum-aspiration/unit-6-uterine-evacuation-with-mva" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IAWG course, Unit 6: Uterine evacuation with MVA (5 h 15 min)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Learning objectives, session plan, pelvic-model practice, pain management and post-procedure care. The page also lists an MVA technique video on Vimeo that is password-protected and restricted to classroom use, with access through IAWG.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://media.iawg.net/media/UE-with-Meds-and-MVA-Facilitators-Guide.pdf?v=1688241088" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IAWG Facilitator&rsquo;s Guide (PDF, 1.49 MB)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching plan for the whole uterine evacuation course.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://media.iawg.net/media/UE-with-Meds-and-MVA_Participant-Workbook.pdf?v=1688241085" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IAWG Participant Workbook (PDF, 1.38 MB)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Exercises and checklists for learners.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://media.iawg.net/logos/UE_MVA_Meds_SCORT_Slides.pptx" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IAWG course slides (PowerPoint, 15.24 MB)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Presentation slides for the course.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://media.iawg.net/logos/UE-with-Meds-MVA-All-Files.zip" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">IAWG full course file package (ZIP, 18.16 MB)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">All course files in one download.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://iawg.net/resources/performing-uterine-evacuation-with-the-ipas-mva-plus-aspirator-and-ipas-easygrip-cannulae-instructional-booklet" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Performing Uterine Evacuation with the Ipas MVA Plus Aspirator and EasyGrip Cannulae: instructional booklet</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Instructional booklet hosted by IAWG.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ipas.org/resource/steps-for-performing-manual-vacuum-aspiration-using-the-ipas-mva-plus-and-easygrip-cannulae" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ipas 10-step MVA wallchart (2019)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Illustrated wallchart in English, Spanish, French and Portuguese, with a separate PDF for each. Ipas reviewed it as up to date under its 2021 Clinical Updates.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ipas.org/wp-content/uploads/2023/09/PERFMVA_E23.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ipas: Steps for Performing MVA (PDF)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Covers syringe charging, paracervical block, evacuation, tissue check and end-point signs. Copyright dated 2014 and 2017.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://depts.washington.edu/obgyn/images/TEAMM/training_materials/Steps-for-Performing-MVA-Using-the-Ipas-MVA-Plus-and-Ipas-EasyGrip-Cannulae.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">TEAMM (University of Washington): steps for performing MVA (PDF)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Step-by-step MVA handout from a university training programme.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.acep.org/siteassets/sites/acep/media/by-medical-focus/early-pregnancy-loss/manual-uterine-aspiration-simulation-for-emergency-medicine-learners.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MedEdPORTAL: 90-minute manual uterine aspiration simulation</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Teaching workshop with paracervical block, dilation and full-procedure stations, and a refillable low-cost uterine model. It also lists a video demonstration and a procedure checklist in its appendices. DOI: https://doi.org/10.15766/mep_2374-8265.11469</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ipas.org/?p=1846" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ipas resources for health professionals</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Ipas page of resources for health professionals.</span></div></div><strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Guidelines and data</strong><div class="grid gap-2 sm:grid-cols-2 mb-4"><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://medicalguidelines.msf.org/en/viewport/ONC/english/9-5-manual-vacuum-aspiration-mva-51417954.html" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">MSF Medical Guidelines 9.5: Manual vacuum aspiration</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Equipment, cannula size, premedication, technique, end-point and complications for low-resource settings.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://srhr.org/abortioncare/chapter-3/abortion-3-4/methods-of-surgical-abortion-recommendations-23-26-3-4-1/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO Abortion care guideline: methods of surgical abortion (Recs 23 to 26)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Vacuum aspiration recommended over sharp curettage before 14 weeks.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://srhr.org/abortioncare/chapter-3/post-abortion-3-5/incomplete-abortion-management-recommendations-35-38-3-5-2/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: incomplete abortion management (Recs 35 to 38)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Vacuum aspiration or misoprostol; doses by uterine size; which health workers.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://srhr.org/abortioncare/chapter-3/pre-abortion-3-3/cervical-priming-prior-to-surgical-abortion-recommendations-17-20-3-3-7/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: cervical priming before surgical abortion (Recs 17 to 20)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Mifepristone and misoprostol regimens.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://srhr.org/abortioncare/chapter-3/pre-abortion-3-3/clinical-services-recommendations-11-14-pain-management-for-surgical-abortion-and-for-prior-cervical-priming-3-3-6/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: pain management for surgical abortion (Recs 11 to 14)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">NSAIDs, paracervical block, sedation.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://srhr.org/abortioncare/chapter-3/pre-abortion-3-3/clinical-services-recommendation-9-antibiotic-prophylaxis-for-surgical-and-medical-abortion-3-3-4/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO: antibiotic prophylaxis (Rec 9)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Prophylaxis recommended for surgical abortion; not for medical abortion.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.who.int/publications/i/item/9789240075207" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">WHO Clinical practice handbook for quality abortion care (2023)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Free 66-page PDF (CC BY-NC-SA 3.0 IGO) supporting the 2022 guideline. WHO states it is not a substitute for training. Direct PDF: https://iris.who.int/server/api/core/bitstreams/44ba191a-1e0c-4d5a-9383-45a1d7aa4d60/content</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.ipas.org/?p=63548" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Ipas Clinical Updates in Reproductive Health: uterine evacuation</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Evidence for replacing sharp curettage with vacuum aspiration; last reviewed 29 September 2025.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://rightdecisions.scot.nhs.uk/maternity-gynaecology-guidelines/gynaecology/gynaecology-guidelines/manual-vacuum-aspiration-mva-for-treatment-of-miscarriage-and-retained-pregnancy-tissue-1078" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS Greater Glasgow and Clyde: MVA for miscarriage guideline</a><span class="block mt-1 text-slate-500 dark:text-slate-400">An outpatient protocol with inclusion and exclusion criteria, complication rates and aftercare.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://nice.org.uk/guidance/ng126" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NICE NG126: ectopic pregnancy and miscarriage</a><span class="block mt-1 text-slate-500 dark:text-slate-400">UK guidance on diagnosis and initial management.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.guttmacher.org/journals/ipsrh/2015/10/incidence-abortion-nigeria" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Guttmacher Institute: incidence of abortion in Nigeria (2012 estimates)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Abortion rates, facility-treated complications and unmet need for treatment.</span></div><div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://reproductiverights.org/maps/abortion-laws-by-country/nigeria/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Center for Reproductive Rights: Nigeria abortion law</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Summary of the Penal Code and Criminal Code provisions.</span></div></div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-takeaways-and-references" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Key Takeaways and References
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<strong class="block font-brand text-sm font-semibold text-indigo-950 dark:text-indigo-200 mb-3">Key Clinical Takeaways</strong>
+<ul class="space-y-2 text-sm text-slate-700 dark:text-slate-300" style="list-style:none;padding-left:0;margin:0;"><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>MVA is the recommended method for uterine evacuation before 14 weeks, and replaces sharp curettage. It needs no electricity and no general anaesthetic.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Select the woman carefully: confirm the pregnancy is intrauterine and within your limit, treat infection and shock, and have senior help and blood available for bleeding disorders.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give a <strong>paracervical block</strong>, an NSAID and prophylactic antibiotics (doxycycline 200 mg or azithromycin 1 g). Prime a closed cervix with misoprostol 400 micrograms.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Keep <strong>tenaculum traction on throughout</strong>. Dilate only if needed, and stop at loss of resistance. Insert to the fundus, withdraw about 1 cm, and rotate the cannula 180 degrees each way.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The end point is pink foam, a gritty feel and uterine grip. Inspect the tissue and reaspirate if it looks inadequate. Never use a sharp curette to check.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Perforation, haemorrhage, retained tissue, haematometra and sepsis are the complications to recognise early. Stop and escalate if the cannula goes further than expected.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cannulae are single-use. Process everything else according to protocol.</span></li><li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Before she leaves: contraception (fertility returns within 8 to 10 days), warning signs, and a plan to return. Treat her with respect and without blame.</span></li></ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></summary>
+<div class="px-4 sm:px-5 pb-4 space-y-1.5">
+<p class="text-[10px] leading-snug text-stone-500">1. World Health Organization. Abortion care guideline (2022): recommendations 9, 11 to 14, 17 to 20, 23 to 26 and 35 to 38.</p>
+<p class="text-[10px] leading-snug text-stone-500">2. World Health Organization. Clinical practice handbook for quality abortion care (2023).</p>
+<p class="text-[10px] leading-snug text-stone-500">3. M&eacute;decins Sans Fronti&egrave;res. Medical Guidelines, section 9.5 Manual vacuum aspiration (MVA).</p>
+<p class="text-[10px] leading-snug text-stone-500">4. Ipas. Clinical Updates in Reproductive Health (reviewed September 2025); Steps for Performing MVA Using the Ipas MVA Plus and EasyGrip Cannulae; abortion care videos for health workers (2022).</p>
+<p class="text-[10px] leading-snug text-stone-500">5. Inter-Agency Working Group on Reproductive Health in Crises. Uterine Evacuation in Crisis Settings Using Medications and Manual Vacuum Aspiration, Unit 6.</p>
+<p class="text-[10px] leading-snug text-stone-500">6. NHS Greater Glasgow and Clyde. Manual vacuum aspiration for treatment of miscarriage and retained pregnancy tissue (guideline 1078, reviewed March 2023).</p>
+<p class="text-[10px] leading-snug text-stone-500">7. National Institute for Health and Care Excellence. NG126: Ectopic pregnancy and miscarriage.</p>
+<p class="text-[10px] leading-snug text-stone-500">8. MedEdPORTAL. Manual uterine aspiration simulation for emergency medicine learners (2024).</p>
+<p class="text-[10px] leading-snug text-stone-500">9. Guttmacher Institute. The incidence of abortion in Nigeria, 2012 estimates, International Perspectives on Sexual and Reproductive Health (2015).</p>
+<p class="text-[10px] leading-snug text-stone-500">10. Center for Reproductive Rights. Nigeria: abortion laws by country.</p>
+</div>
+</details>
+
 </body>
 </html>
   `

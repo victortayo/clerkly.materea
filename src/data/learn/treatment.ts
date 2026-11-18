@@ -5,12 +5,528 @@ export const TREATMENT_CONTENT: LearningModule[] = [
 
       // TREATMENT
       
- 
+      {
+        id: 'treatment-malaria-uncomplicated-severe',
+        title: 'Malaria: Uncomplicated and Severe',
+        category: 'Treatment',
+        subCategory: 'Infectious Disease',
+        content: `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+    .quote{border-left-width:3px;border-left-style:solid;}
+    </style>
+    </head>
+    <body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+    <div class="max-w-3xl mx-auto p-4 sm:p-6">
+    
+    <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+      <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+      <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+      <div class="relative p-6 sm:p-8">
+        <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; INFECTIOUS DISEASE</span>
+        <h1 class="font-brand text-3xl font-bold mb-3 text-white">Malaria: Uncomplicated and Severe</h1>
+        <p class="text-sm text-indigo-200">Nigeria carries roughly a quarter of the world's malaria cases and nearly a third of its deaths, and malaria is still the commonest reason for a fever consultation at every level of care. This guide covers who to treat at home and who to admit, which drug at what dose, which fluids and how fast, what to give for symptoms, the Nigerian brands you will meet, and the common habits that harm patients.</p>
+      </div>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+      <p class="text-sm"><strong>How to use this guide.</strong> Doses follow the WHO Guidelines for Malaria (2025 update), the WHO severe malaria handbook and the NMEP national guidelines (2020 edition, the latest verified). Weigh every patient and dose by weight. Check your hospital protocol and the current NMEP edition, because drug availability and national policy change.</p>
+    </div>
+    
+    
+    <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+      <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+      <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+        <li><a href="#confirm-first-then-treat" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Confirm First, Then Treat</span></a></li>
+        <li><a href="#outpatient-or-admission" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Outpatient or Admission?</span></a></li>
+        <li><a href="#uncomplicated-malaria-artemether-lumefantrine-first-line" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Uncomplicated Malaria: Artemether-Lumefantrine (First-Line)</span></a></li>
+        <li><a href="#alternative-acts-and-non-act-options" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Alternative ACTs and Non-ACT Options</span></a></li>
+        <li><a href="#symptomatic-and-supportive-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Symptomatic and Supportive Treatment</span></a></li>
+        <li><a href="#special-groups" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Special Groups</span></a></li>
+        <li><a href="#other-plasmodium-species-and-mixed-infections" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Other Plasmodium Species and Mixed Infections</span></a></li>
+        <li><a href="#treatment-failure-and-recurrent-malaria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Treatment Failure and Recurrent Malaria</span></a></li>
+        <li><a href="#recognising-severe-malaria-and-the-first-hour" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Recognising Severe Malaria and the First Hour</span></a></li>
+        <li><a href="#parenteral-antimalarial-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Parenteral Antimalarial Treatment</span></a></li>
+        <li><a href="#fluid-management-in-severe-malaria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Fluid Management in Severe Malaria</span></a></li>
+        <li><a href="#managing-complications" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Managing Complications</span></a></li>
+        <li><a href="#monitoring-in-severe-malaria" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Monitoring in Severe Malaria</span></a></li>
+        <li><a href="#step-down-discharge-and-follow-up" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Step-Down, Discharge and Follow-Up</span></a></li>
+        <li><a href="#common-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+          <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Common Practices to Avoid</span></a></li></ul>
+    </nav>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="confirm-first-then-treat" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+      Confirm First, Then Treat
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">The NMEP guideline and WHO both require a positive rapid diagnostic test (RDT) or blood film before an antimalarial is given, at every age. The only reasons to treat without a result are a suspected severe case, where treatment must not wait for the laboratory, and a facility with no test available.</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Positive test plus fever:</strong> treat, but look for a second cause (pneumonia, urinary infection, typhoid, meningitis, otitis, HIV). In high-transmission areas many children and adults carry parasites without being ill, so a positive test does not exclude another diagnosis.</li>
+        <li><strong>Old positives:</strong> HRP2-based RDTs can stay positive for several weeks after cure. Do not retreat on a positive RDT alone within about a month of a full course; use microscopy.</li>
+        <li><strong>Negative RDT, convincing illness or any danger sign:</strong> do a blood film or repeat the RDT in 12-24 hours. Gene deletions that make HRP2 tests miss infection have been described in Africa.</li>
+        <li><strong>Species:</strong> nearly all clinical and severe disease in Nigeria is <em>Plasmodium falciparum</em>. <em>P. malariae</em> and <em>P. ovale</em> occur, mostly mixed with <em>P. falciparum</em> (section 7).</li>
+        <li><strong>Baseline tests when available:</strong> thick and thin film with parasite density, PCV or Hb, blood glucose, pregnancy test in women of reproductive age. For suspected severe malaria add urea/electrolytes/creatinine, bicarbonate or lactate, liver function, full blood count, group and crossmatch, blood culture and HIV status. Request G6PD only if primaquine is planned.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="outpatient-or-admission" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+      Outpatient or Admission?
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Setting</th><th class="py-2 pr-3">Who belongs here</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Outpatient (oral ACT at home)</td><td class="py-2 pr-3">Confirmed uncomplicated malaria; drinks and keeps tablets down (first dose observed for 30 minutes); no danger sign; child weighs 5 kg or more; reliable caregiver; can return within 48-72 hours or sooner if worse.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Admit (ward, or observation bed for 24 hours)</td><td class="py-2 pr-3">Vomits the ACT twice or cannot drink; infants under 5 kg or under 6 months (the NMEP wants these treated under a health worker's supervision); pregnant women who look unwell, are anaemic or in the third trimester; sickle cell disease; severe malnutrition; advanced HIV; elderly or with heart, kidney or liver disease; treatment failure; parasite density above about 5% (about 250,000 per &micro;L) without severity features; patients who live far away or cannot return.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Admit to HDU or ICU (or transfer)</td><td class="py-2 pr-3">Any WHO severity criterion (section 9): coma, repeated convulsions, prostration, respiratory distress, shock, severe anaemia, hypoglycaemia, renal impairment, jaundice with high parasitaemia, bleeding, pulmonary oedema, parasite density above 10%.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Primary health centre or community</td><td class="py-2 pr-3">Any danger sign: give the first dose of a pre-referral injectable or rectal artesunate (section 10), check glucose if a meter is available, and refer at once. Do not wait for the test result.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="uncomplicated-malaria-artemether-lumefantrine-first-line" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+      Uncomplicated Malaria: Artemether-Lumefantrine (First-Line)
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Artemether-lumefantrine (AL) is the NMEP first-line ACT for uncomplicated <em>P. falciparum</em> malaria in all age groups and in all trimesters of pregnancy. It is given as six doses over three days.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Dose by weight (tablets of 20 mg artemether / 120 mg lumefantrine)</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Body weight</th><th class="py-2 pr-3">Usual age</th><th class="py-2 pr-3">Tablets per dose</th><th class="py-2 pr-3">Total tablets</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">5 to &lt;15 kg</td><td class="py-2 pr-3">5 months - 3 years</td><td class="py-2 pr-3">1</td><td class="py-2 pr-3">6</td></tr>
+          <tr><td class="py-2 pr-3">15 to &lt;25 kg</td><td class="py-2 pr-3">3 - 7 years</td><td class="py-2 pr-3">2</td><td class="py-2 pr-3">12</td></tr>
+          <tr><td class="py-2 pr-3">25 to &lt;35 kg</td><td class="py-2 pr-3">8 - 11 years</td><td class="py-2 pr-3">3</td><td class="py-2 pr-3">18</td></tr>
+          <tr><td class="py-2 pr-3">&ge;35 kg</td><td class="py-2 pr-3">12 years and adults</td><td class="py-2 pr-3">4</td><td class="py-2 pr-3">24</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm"><strong>Schedule:</strong> hours 0, 8, 24, 36, 48 and 60. In practice: first dose when diagnosed, second dose 8 hours later, then a morning and an evening dose on days 2 and 3. All six doses must be taken even when the fever goes on day 1.</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Give with fat.</strong> Lumefantrine is poorly absorbed without it. Milk, egg, groundnuts, akara, moi-moi, fried plantain or a spoon of palm oil in the pap all work. A patient too ill to eat should still take the tablet with milk or a little oil, and should be reviewed early.</li>
+        <li><strong>Dispersible tablets</strong> are dissolved in a teaspoon (5-10 mL) of clean water; ordinary tablets for small children can be crushed in the same volume.</li>
+        <li><strong>Vomiting:</strong> if the child vomits within 30 minutes, repeat the full dose; between 30 and 60 minutes, repeat half the dose. If the repeat dose is also vomited, do not discharge: admit and use an injectable (section 10).</li>
+        <li><strong>Adverse effects:</strong> headache, dizziness, nausea, abdominal pain, cough, sleep disturbance. These overlap with malaria itself. Rarely, rash or palpitations.</li>
+        <li><strong>Reduce the risk of fake or substandard drugs:</strong> buy only NAFDAC-registered products and check the registration number on the NAFDAC Green Book. Do not use tablets from roadside vendors or hawkers.</li>
+      </ul>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian brands you will meet</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Examples on the Nigerian market</th><th class="py-2 pr-3">Note</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Artemether-lumefantrine</td><td class="py-2 pr-3">Coartem and Coartem Dispersible, Lonart (including Lonart DS), Amatem and Amatem Softgel, Artefan, Lumartem</td><td class="py-2 pr-3">Check the strength printed on the pack. Standard tablets are 20/120 mg. Double-strength (DS) tablets are 80/480 mg, so one DS tablet equals four standard tablets. Follow the pack insert for softgel capsules and make sure the course totals six doses.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Artesunate-amodiaquine</td><td class="py-2 pr-3">Camosunate, Coarsucam, Winthrop, Larimal</td><td class="py-2 pr-3">Once-daily, fixed-dose, blister packed by weight band (section 4).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Dihydroartemisinin-piperaquine</td><td class="py-2 pr-3">P-Alaxin, Duo-Cotecxin, Eurartesim, Aquart</td><td class="py-2 pr-3">Once daily for three days (section 4).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Artemisinin-piperaquine</td><td class="py-2 pr-3">Artequick</td><td class="py-2 pr-3">Sold widely, but not among the ACTs recommended by WHO. Prefer a recommended ACT.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm">Brand lists change. Prescribe by generic name and weight band, and let the pharmacist supply a NAFDAC-registered product of the correct strength.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="alternative-acts-and-non-act-options" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+      Alternative ACTs and Non-ACT Options
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Use an alternative ACT when AL is unavailable, not tolerated or has just failed (within 14 days). All three alternatives below are once-daily for three days.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Artesunate-amodiaquine (ASAQ), once daily for 3 days</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Body weight</th><th class="py-2 pr-3">Tablet strength (artesunate/amodiaquine base)</th><th class="py-2 pr-3">Tablets per day</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">4.5 to &lt;9 kg</td><td class="py-2 pr-3">25/67.5 mg</td><td class="py-2 pr-3">1</td></tr>
+          <tr><td class="py-2 pr-3">9 to &lt;18 kg</td><td class="py-2 pr-3">50/135 mg</td><td class="py-2 pr-3">1</td></tr>
+          <tr><td class="py-2 pr-3">18 to &lt;36 kg</td><td class="py-2 pr-3">100/270 mg</td><td class="py-2 pr-3">1</td></tr>
+          <tr><td class="py-2 pr-3">&ge;36 kg</td><td class="py-2 pr-3">100/270 mg</td><td class="py-2 pr-3">2</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm">Target doses are artesunate 4 mg/kg and amodiaquine 10 mg/kg daily. Vomiting rule: repeat the full dose if within 30 minutes, half if between 30 and 60 minutes. Give a little sugar or sweet drink to cover the bitter taste. <strong>Do not use</strong> with efavirenz, or in anyone who has had hepatitis, neutropenia or a severe reaction to amodiaquine. Nausea, vomiting, abdominal pain, dizziness and weakness are the usual side effects. Children who recently had seasonal malaria chemoprevention (which contains amodiaquine) are better treated with AL than given more amodiaquine on top.</p>
+    
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Dihydroartemisinin-piperaquine (DHA-PPQ), once daily for 3 days</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Body weight</th><th class="py-2 pr-3">Daily dose (DHA + piperaquine)</th><th class="py-2 pr-3">Using 40/320 mg tablets</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3">5 to &lt;8 kg</td><td class="py-2 pr-3">20 + 160 mg</td><td class="py-2 pr-3">Half tablet (or one 20/160 paediatric tablet)</td></tr>
+          <tr><td class="py-2 pr-3">8 to &lt;11 kg</td><td class="py-2 pr-3">30 + 240 mg</td><td class="py-2 pr-3">Three-quarters of a tablet</td></tr>
+          <tr><td class="py-2 pr-3">11 to &lt;17 kg</td><td class="py-2 pr-3">40 + 320 mg</td><td class="py-2 pr-3">1 tablet</td></tr>
+          <tr><td class="py-2 pr-3">17 to &lt;25 kg</td><td class="py-2 pr-3">60 + 480 mg</td><td class="py-2 pr-3">1.5 tablets</td></tr>
+          <tr><td class="py-2 pr-3">25 to &lt;36 kg</td><td class="py-2 pr-3">80 + 640 mg</td><td class="py-2 pr-3">2 tablets</td></tr>
+          <tr><td class="py-2 pr-3">36 to &lt;60 kg</td><td class="py-2 pr-3">120 + 960 mg</td><td class="py-2 pr-3">3 tablets</td></tr>
+          <tr><td class="py-2 pr-3">60 to &lt;80 kg</td><td class="py-2 pr-3">160 + 1280 mg</td><td class="py-2 pr-3">4 tablets</td></tr>
+          <tr><td class="py-2 pr-3">&ge;80 kg</td><td class="py-2 pr-3">200 + 1600 mg</td><td class="py-2 pr-3">5 tablets</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm">Do not take food within 3 hours after each dose (water is fine). The vomiting rule is the same as for ASAQ. Piperaquine prolongs the QT interval: avoid in congenital long QT syndrome, and avoid combining with other QT-prolonging drugs (for example macrolides, fluoroquinolones, antipsychotics, chloroquine, quinine, halofantrine) or when potassium or magnesium is low. Its long half-life gives some protection against reinfection for several weeks.</p>
+    
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Artesunate-pyronaridine</strong>
+      <p class="text-sm">WHO-recommended and listed by NMEP as an alternative, but not widely stocked in Nigeria. Tablets of 180/60 mg once daily for 3 days: 20 to &lt;24 kg, 1 tablet; 24 to &lt;45 kg, 2 tablets. Granule sachets exist for children under 20 kg and heavier patients need more tablets: follow the pack insert. Avoid in significant liver disease and in the first trimester of pregnancy.</p>
+    
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When no ACT can be used</strong>
+      <p class="text-sm">Oral quinine 10 mg salt/kg every 8 hours for 7 days (adult 600 mg, usually two 300 mg tablets), plus clindamycin 10 mg/kg twice daily for 7 days (the safe partner in children and pregnancy) or doxycycline 3.5 mg/kg once daily for 7 days (not in pregnancy or under 8 years). Expect tinnitus, headache and nausea (cinchonism). Quinine causes hypoglycaemia, particularly in pregnancy and children, so tell the patient to eat regularly. Adherence over seven days is poor, which is why ACTs are preferred even in the first trimester (section 6).</p>
+      <p class="text-sm"><strong>No longer recommended:</strong> chloroquine, sulfadoxine-pyrimethamine (Fansidar and generics), amodiaquine alone, artesunate or DHA tablets alone, halofantrine, and artesunate plus mefloquine or SP combinations (older NMEP alternatives).</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="symptomatic-and-supportive-treatment" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+      Symptomatic and Supportive Treatment
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Problem</th><th class="py-2 pr-3">What to give</th><th class="py-2 pr-3">Notes</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Fever above 38.5 &deg;C, headache, body aches</td><td class="py-2 pr-3">Paracetamol 15 mg/kg per dose every 4-6 hours (maximum 4 doses in 24 hours; adults 1 g every 6 hours, maximum 4 g/day). A 10 kg child gets 150 mg, about 6 mL of 120 mg/5 mL syrup. Brands: Panadol, Calpol, Emzor paracetamol.</td><td class="py-2 pr-3">Light clothing, fanning, tepid sponging (not cold water or alcohol). Fever control also lowers the risk of febrile convulsions in young children. Paracetamol is the preferred antipyretic.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Pain not controlled by paracetamol</td><td class="py-2 pr-3">Ibuprofen 5-10 mg/kg every 6-8 hours with food (children over 3 months and adults).</td><td class="py-2 pr-3">Avoid if vomiting, dehydrated, passing little urine, bleeding, or with kidney disease. Avoid aspirin in children. Avoid diclofenac injections for fever.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Vomiting</td><td class="py-2 pr-3">Small frequent sips of ORS and feeds. If vomiting prevents the ACT: single dose of ondansetron 0.15 mg/kg orally (children over 6 months; maximum 8 mg), adults 4-8 mg, given 20-30 minutes before the ACT dose.</td><td class="py-2 pr-3">Avoid promethazine in children under 2 years (sedation hides the coma score) and metoclopramide in children (dystonia). Be cautious combining ondansetron with DHA-PPQ because both prolong QT.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Mild to moderate dehydration</td><td class="py-2 pr-3">Low-osmolarity ORS 75 mL/kg over 4 hours, then as maintenance. Continue breastfeeding.</td><td class="py-2 pr-3">Use a nasogastric tube if the child will not drink but is conscious and not in shock. Intravenous fluid is for shock or inability to take oral/NG fluid, and is run slowly (section 11).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Diarrhoea with malaria</td><td class="py-2 pr-3">ORS, and zinc 20 mg daily for 10-14 days (10 mg daily under 6 months).</td><td class="py-2 pr-3">No antibiotic unless bloody diarrhoea or another indication.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Anaemia after malaria</td><td class="py-2 pr-3">Folic acid 5 mg daily for at least 14 days (weight-based lower dose in infants). Iron (elemental 2-3 mg/kg daily) for about 3 months, starting 4 weeks after the antimalarial course.</td><td class="py-2 pr-3">Iron given during acute malaria adds little benefit. Treat hookworm and other helminths in line with the national deworming guidance.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Poor appetite</td><td class="py-2 pr-3">Keep feeding; fatty foods help ACT absorption. Never starve a febrile child.</td><td class="py-2 pr-3">Restart usual feeds as soon as the child is hungry.</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm"><strong>Antibiotics are not part of routine uncomplicated malaria treatment.</strong> Give one only for a documented or strongly suspected bacterial infection (pneumonia, urinary tract infection, otitis, meningitis, typhoid proven by culture).</p>
+      <p class="text-sm"><strong>Herbal use (agbo):</strong> ask without judgement. Many patients have taken herbal mixtures before arriving. Some are hepatotoxic or nephrotoxic, and they delay ACT treatment. Tell the patient to stop them while on the ACT and to bring the bottle if they become jaundiced or pass little urine.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Counselling points at the first visit</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li>Finish all doses, take them with fat, and do not share or save tablets.</li>
+        <li>Return in 48-72 hours if the fever persists, and immediately for convulsions, drowsiness, repeated vomiting, fast or deep breathing, dark urine, yellow eyes, severe pallor or inability to drink.</li>
+        <li>Sleep under an insecticide-treated net every night; clear stagnant water.</li>
+        <li>Pregnant women: attend antenatal care and take IPTp-SP as scheduled by the antenatal clinic.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-groups" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+      Special Groups
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Group</th><th class="py-2 pr-3">Treatment</th><th class="py-2 pr-3">Cautions</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Pregnancy, uncomplicated</td><td class="py-2 pr-3">AL in all three trimesters, same weight-based dose as non-pregnant adults (4 tablets, six doses). Second and third trimester alternatives: ASAQ or DHA-PPQ. Admit if unwell, anaemic, high parasitaemia or late third trimester.</td><td class="py-2 pr-3">First trimester: use AL. Other ACTs only if AL is not available. Avoid artesunate-SP or pyronaridine in the first trimester. Quinine plus clindamycin (7 days) is the fall-back if no ACT can be obtained. Check glucose. IPTp-SP does not treat malaria and the schedule continues as per antenatal care.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Pregnancy, severe</td><td class="py-2 pr-3">IV or IM artesunate in any trimester, without delay (section 10). Involve the obstetric team.</td><td class="py-2 pr-3">High risk of hypoglycaemia and pulmonary oedema: restrict fluids (section 11), check glucose every 4 hours or more often, watch fetal wellbeing, expect preterm labour.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Breastfeeding</td><td class="py-2 pr-3">AL, ASAQ and DHA-PPQ may all be used.</td><td class="py-2 pr-3">Avoid primaquine unless the infant has a normal G6PD result.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Infants under 5 kg</td><td class="py-2 pr-3">Uncomplicated: admit or give supervised treatment. Where available use the dispersible infant artemether-lumefantrine (Coartem Baby, for 2 to under 5 kg) according to its label. Severe: artesunate 3 mg/kg IV or IM.</td><td class="py-2 pr-3">Cutting adult tablets is inaccurate and risks overdose; only use if nothing else exists, with pharmacist help. Always look for neonatal sepsis and congenital malaria (mother with malaria).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">HIV on dolutegravir (TLD)</td><td class="py-2 pr-3">Standard AL.</td><td class="py-2 pr-3">No important effect of dolutegravir on lumefantrine. Continue cotrimoxazole prophylaxis.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">HIV on efavirenz</td><td class="py-2 pr-3">Do not use ASAQ. AL can be given, but lumefantrine levels fall by roughly half.</td><td class="py-2 pr-3">Modelling suggests a 5-day AL course would restore exposure, but this is not yet adopted by WHO or NMEP. Arrange review at day 7 and day 28 and discuss with the HIV clinic. Ritonavir-boosted lopinavir raises lumefantrine about three-fold; watch for QT effects.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">TB on rifampicin</td><td class="py-2 pr-3">AL can be given with close follow-up.</td><td class="py-2 pr-3">Rifampicin cuts lumefantrine exposure by about 60%. Modelling suggests a 6-day course would compensate, not yet a guideline. Low threshold to re-test if symptoms persist.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Sickle cell disease</td><td class="py-2 pr-3">ACT promptly; admit if there is pain, pallor, jaundice or any danger sign. Check Hb, give folic acid 5 mg daily.</td><td class="py-2 pr-3">Malaria triggers haemolytic and aplastic crises and acute chest syndrome. Avoid both under- and over-hydration (maintenance only). Transfuse for severe anaemia. Resume malaria chemoprophylaxis per the national sickle cell guideline after treatment.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">G6PD deficiency</td><td class="py-2 pr-3">ACTs can be given.</td><td class="py-2 pr-3">Avoid primaquine and dapsone. Watch for dark urine and jaundice in the first week.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Severe acute malnutrition</td><td class="py-2 pr-3">ACT by weight; admit.</td><td class="py-2 pr-3">Avoid IV fluid unless in shock. If transfusion is needed give 10 mL/kg once and do not repeat (heart failure risk).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Kidney or liver disease, elderly</td><td class="py-2 pr-3">AL needs no dose change in mild to moderate impairment.</td><td class="py-2 pr-3">Quinine accumulates in renal failure; review its dose after 48 hours. Avoid pyronaridine in liver disease. Avoid NSAIDs in renal impairment.</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+      <p class="text-sm"><strong>Guideline Watch: first trimester.</strong> Older Nigerian and WHO texts say quinine plus clindamycin in the first trimester. WHO changed this in November 2022 to a strong recommendation for artemether-lumefantrine, and the 2025 update keeps it; the NMEP presents AL for all trimesters. Many prescribers and older protocols still use quinine in early pregnancy, which has poorer outcomes and needs seven days of adherence. Use AL.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-plasmodium-species-and-mixed-infections" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+      Other Plasmodium Species and Mixed Infections
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Parasite</th><th class="py-2 pr-3">Nigerian picture</th><th class="py-2 pr-3">Treatment</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold"><em>P. falciparum</em></td><td class="py-2 pr-3">Causes almost all clinical and all severe malaria.</td><td class="py-2 pr-3">Sections 3-4 and 9-12.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold"><em>P. malariae</em> (quartan)</td><td class="py-2 pr-3">Common as a mixed infection with <em>P. falciparum</em>; can persist for years at low density and rarely causes severe disease. Quartan malarial nephropathy (nephrotic syndrome in children) is the feared complication.</td><td class="py-2 pr-3">A standard 3-day ACT (AL first-line). No primaquine. Persistent nephrotic syndrome needs nephrology referral; antimalarials do not reverse it.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold"><em>P. ovale</em> (curtisi)</td><td class="py-2 pr-3">Seen in a few percent of infections, mostly mixed. Forms liver hypnozoites that can relapse months later.</td><td class="py-2 pr-3">ACT clears blood stages. Primaquine for radical cure is not routine NMEP practice; consider after a proven relapse, or in a returning traveller (below).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold"><em>P. vivax</em></td><td class="py-2 pr-3">Not detected in a national survey of children; most West Africans are Duffy-negative. Think of it in travellers from East Africa, Asia or the Americas.</td><td class="py-2 pr-3">ACT plus primaquine as below. Severe vivax malaria is treated like severe falciparum malaria.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Mixed infection or species unknown</td><td class="py-2 pr-3">Common (for example <em>P. falciparum</em> plus <em>P. malariae</em>).</td><td class="py-2 pr-3">Treat as <em>P. falciparum</em> with an ACT, which covers the blood stages of all species.</td></tr>
+        </tbody>
+      </table></div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Primaquine for relapsing species (<em>P. ovale</em>, <em>P. vivax</em>)</strong>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Test G6PD first</strong> (quantitative or semi-quantitative if possible). G6PD deficiency is common in Nigerian males.</li>
+        <li><strong>WHO 2025 high-dose regimen:</strong> total 7 mg/kg, given as 0.5 mg/kg daily for 14 days, or 1 mg/kg daily for 7 days only if G6PD activity is at least 70%. A lower total of 3.5 mg/kg (0.25 mg/kg daily for 14 days, or 0.5 mg/kg daily for 7 days) is the older, lower-dose option still used in some settings.</li>
+        <li><strong>G6PD deficient:</strong> consider 0.75 mg/kg once weekly for 8 weeks under supervision, with Hb monitoring.</li>
+        <li><strong>Do not give</strong> in pregnancy, to infants under 6 months, or to breastfeeding mothers unless the infant is G6PD-normal.</li>
+        <li><strong>Single low-dose primaquine</strong> (0.25 mg/kg) to block transmission is advised by WHO for low-transmission areas and is not routine in Nigeria.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="treatment-failure-and-recurrent-malaria" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+      Treatment Failure and Recurrent Malaria
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">ACT failure within 14 days is uncommon, so ask the likely questions before blaming the drug.</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Check first:</strong> Was the full course taken, with fat? Was it vomited? Was the product genuine? Is the fever from another illness (typhoid, urinary infection, pneumonia, meningitis)? Does the patient now have danger signs?</li>
+        <li><strong>Persistent symptoms at 72 hours:</strong> repeat the blood film. A few parasites on day 3 with clinical improvement can reflect slow clearance and does not alone prove failure. Parasites with worsening illness need admission and IV artesunate.</li>
+        <li><strong>Recurrence within 14 days of treatment:</strong> treat as failure with a different ACT (AL then ASAQ or DHA-PPQ; ASAQ or DHA-PPQ then AL).</li>
+        <li><strong>Recurrence after 14 days:</strong> in high-transmission areas this is usually a new infection; retreat with a first-line ACT. If a second recurrence follows, move to a different ACT.</li>
+        <li><strong>If no ACT works or is available:</strong> quinine 10 mg salt/kg every 8 hours for 7 days plus doxycycline 3.5 mg/kg daily for 7 days (adults, children over 8 years, not pregnant), or plus clindamycin 10 mg/kg twice daily for 7 days (children, pregnancy).</li>
+        <li><strong>Report</strong> suspected treatment failure and suspected substandard drugs to the facility pharmacist, NMEP and NAFDAC (pharmacovigilance reporting).</li>
+      </ul>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+      <p class="text-sm"><strong>Guideline Watch: artemisinin resistance.</strong> Artemisinin partial resistance (delayed parasite clearance linked to kelch13 mutations) is now established in Eritrea, Rwanda, Uganda and Tanzania, and mutations have been reported at low rates elsewhere in Central and West Africa. The NMEP states that Nigeria has seen delayed clearance but not ACT treatment failure, a 2026 genomic survey in northern Nigeria found no WHO-validated kelch13 mutations, and a single 2026 report from the south-east claiming a sharp rise is not corroborated by other surveillance. AL remains first-line. Practical steps: take a day-3 film in slow responders, keep artemisinin monotherapies out of use, and note that Nigeria has started a multiple first-line therapy project (Stop-AMDR, 2025) to spread selection pressure across ACTs. Treatment policy can change; check the current NMEP edition.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="recognising-severe-malaria-and-the-first-hour" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+      Recognising Severe Malaria and the First Hour
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Severe malaria is falciparum parasitaemia plus one or more of the features below. Without treatment, mortality approaches 100% for cerebral malaria, and it falls sharply when the right drug is given in the first hours. A child with fever and any of convulsions, drowsiness, inability to sit or drink, deep breathing, severe pallor or dark urine is treated as severe until proven otherwise.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Feature</th><th class="py-2 pr-3">WHO criterion</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Impaired consciousness</td><td class="py-2 pr-3">Glasgow Coma Score below 11 in adults, Blantyre Coma Score below 3 in children</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Prostration</td><td class="py-2 pr-3">Cannot sit, stand or (in infants) feed or drink unaided</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Multiple convulsions</td><td class="py-2 pr-3">More than two in 24 hours</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Respiratory distress or acidosis</td><td class="py-2 pr-3">Deep, laboured breathing; low bicarbonate or raised lactate</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Hypoglycaemia</td><td class="py-2 pr-3">Blood glucose below 2.2 mmol/L (40 mg/dL) defines severity; treat any value below 3 mmol/L (54 mg/dL) and treat blind if you cannot measure</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Severe anaemia</td><td class="py-2 pr-3">Hb 5 g/dL or less (PCV 15% or less) in children under 12; Hb below 7 g/dL (PCV below 20%) in adults; with parasite count above 10,000 per &micro;L</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Renal impairment</td><td class="py-2 pr-3">Creatinine above 265 &micro;mol/L (3 mg/dL) or urea above 20 mmol/L; urine output below 0.5 mL/kg/hour in adults</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Jaundice</td><td class="py-2 pr-3">Bilirubin above 50 &micro;mol/L (3 mg/dL) with parasite count above 100,000 per &micro;L</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Pulmonary oedema</td><td class="py-2 pr-3">Crackles, oxygen saturation below 92%, respiratory rate above 30 (adults)</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Shock</td><td class="py-2 pr-3">Capillary refill 3 seconds or more, cold limbs, weak pulse; systolic BP below 70 mmHg in children</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Abnormal bleeding</td><td class="py-2 pr-3">Spontaneous bleeding or DIC</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Hyperparasitaemia</td><td class="py-2 pr-3">Above 10% of red cells infected (a marker of risk; present it with other features)</td></tr>
+        </tbody>
+      </table></div>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The first hour</strong>
+      <ol class="list-decimal pl-5 space-y-1 text-sm">
+        <li><strong>Airway, breathing, circulation.</strong> Lay the unconscious patient on the side; give oxygen if saturation is below 90%; secure IV access (intraosseous in a collapsed child).</li>
+        <li><strong>Check glucose</strong> at once. Treat low glucose before anything else (section 11).</li>
+        <li><strong>Draw bloods</strong> (malaria film and RDT, Hb or PCV, glucose, urea/electrolytes/creatinine, bicarbonate or lactate, LFT, FBC, group and crossmatch, blood culture), then <strong>do not wait for results</strong>.</li>
+        <li><strong>Give the first dose of IV artesunate</strong> (section 10) within the first hour of diagnosis. If you have no injectable, give pre-referral rectal or IM treatment and move the patient.</li>
+        <li><strong>Treat convulsions</strong> (section 12) and fever above 38.5 &deg;C.</li>
+        <li><strong>Give a broad-spectrum antibiotic</strong> after the culture, particularly in children, since bacteraemia and meningitis can mimic or coexist (ceftriaxone, section 12).</li>
+        <li><strong>Decide on fluids</strong> by perfusion, not reflex (section 11), and start a fluid balance chart. Pass a urinary catheter in comatose or shocked adults.</li>
+        <li><strong>Plan the bed:</strong> HDU or ICU where monitoring, blood, oxygen and dialysis are possible. If they are not, transfer after the first artesunate dose, with a health worker accompanying the patient.</li>
+      </ol>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="parenteral-antimalarial-treatment" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+      Parenteral Antimalarial Treatment
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">IV or IM artesunate is the treatment of choice for severe malaria in adults, children, infants, pregnant women in every trimester and breastfeeding women. It lowers mortality compared with quinine.</p>
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Artesunate dose and schedule</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Patient</th><th class="py-2 pr-3">Dose per administration</th><th class="py-2 pr-3">Schedule</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Children under 20 kg (including infants under 5 kg)</td><td class="py-2 pr-3">3 mg/kg</td><td class="py-2 pr-3" rowspan="2">At 0 h, 12 h and 24 h, then once daily. Give for at least 24 hours (at least three doses) and until the patient can take an oral ACT.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Children 20 kg and above, and adults</td><td class="py-2 pr-3">2.4 mg/kg</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm">Use <strong>weight</strong>, not age, to choose the dose; some Nigerian charts still use an age under 6 years cut-off. Worked examples at 10 mg/mL (IV): 5 kg = 15 mg (1.5 mL); 10 kg = 30 mg (3 mL); 15 kg = 45 mg (4.5 mL); 19 kg = 57 mg (5.7 mL); 20 kg = 48 mg (4.8 mL); 30 kg = 72 mg (7.2 mL); 50 kg = 120 mg (12 mL); 70 kg = 168 mg (16.8 mL). The dose falls at 20 kg because the mg/kg rate changes; do not round up.</p>
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Preparation (60 mg vial):</strong> dissolve the powder in 1 mL of 5% sodium bicarbonate (supplied in the pack), swirl until clear, then dilute with 5 mL of 5% dextrose or 0.9% saline for IV use (10 mg/mL) or with 2 mL for IM use (20 mg/mL). Use immediately and discard cloudy or unused solution. Do not use water for injection.</li>
+        <li><strong>IV:</strong> slow bolus over 1-2 minutes. <strong>IM:</strong> anterior thigh. IM is a good option if a vein cannot be found.</li>
+        <li><strong>Which product:</strong> use a WHO-prequalified artesunate for injection (for example Artesun or Macleods). Not arteether.</li>
+        <li><strong>Step-down:</strong> after at least 24 hours of artesunate (three doses) and when the patient can swallow, start a full three-day ACT. The first oral dose may be taken 8-12 hours after the last injection. Prefer AL, DHA-PPQ or ASAQ; do not use mefloquine after cerebral malaria (neuropsychiatric risk).</li>
+      </ul>
+    
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If artesunate is not available</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Regimen</th><th class="py-2 pr-3">Notes</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Artemether IM (preferred alternative)</td><td class="py-2 pr-3">3.2 mg/kg on admission, then 1.6 mg/kg once daily</td><td class="py-2 pr-3">Absorption is erratic in shock. Complete with a full ACT.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Quinine dihydrochloride IV</td><td class="py-2 pr-3">Loading dose 20 mg salt/kg in 10 mL/kg of 5% dextrose or 0.9% saline over 4 hours (adult maximum 1,200 mg, usually in 500 mL). Then 10 mg/kg every 8 hours, each over 2-4 hours; do not exceed 5 mg salt/kg/hour.</td><td class="py-2 pr-3">Never push IV. Check glucose every 4 hours. Switch to oral quinine to complete 7 days with doxycycline or clindamycin when the patient can swallow, or give a full ACT.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Quinine IM (no drip possible)</td><td class="py-2 pr-3">Same doses, diluted with saline to 60-100 mg/mL, split between both anterior thighs</td><td class="py-2 pr-3">Never the buttock (sciatic nerve injury, abscess).</td></tr>
+        </tbody>
+      </table></div>
+    
+      <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pre-referral treatment (first dose before transfer)</strong>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Option</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Who</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">IM artesunate</td><td class="py-2 pr-3">3 mg/kg under 20 kg; 2.4 mg/kg from 20 kg</td><td class="py-2 pr-3">All ages</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Rectal artesunate (single dose, 10 mg/kg)</td><td class="py-2 pr-3">5 to &lt;9 kg: 50 mg; 9 to &lt;20 kg: 100 mg; 20 to &lt;30 kg: 200 mg. Hold the buttocks together for 10 minutes; repeat the dose if expelled within 30 minutes.</td><td class="py-2 pr-3">Children under 6 years only, when no injection is possible. Do not use alone in older children or adults.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">IM artemether</td><td class="py-2 pr-3">3.2 mg/kg</td><td class="py-2 pr-3">All ages</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">IM quinine</td><td class="py-2 pr-3">20 mg salt/kg, split into both anterior thighs</td><td class="py-2 pr-3">All ages (last choice)</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm">Refer immediately after the dose. Never treat the pre-referral dose as the whole treatment unless transfer is truly impossible; in that case continue full parenteral treatment where you are.</p>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+      <p class="text-sm"><strong>Guideline Watch: injectables.</strong> WHO lists IM artesunate first for pre-referral care and rectal artesunate (children under 6) only where injection is not possible. The NMEP puts rectal artesunate first for children at community level because that is the formulation community workers can give. Both are acceptable; the aim is a dose before transport. The NMEP names IM artemether as the alternative when artesunate is unavailable, and it specifically does not recommend alpha-beta arteether injections. Coartem Baby (infant AL for 2 to under 5 kg) was approved by Swissmedic in July 2025, with fast-track registration promised for Nigeria and seven other countries. News reports in 2026 describe WHO prequalification; check with your pharmacy whether it is registered and in stock locally before relying on it.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="fluid-management-in-severe-malaria" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+      Fluid Management in Severe Malaria
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <p class="text-sm">Patients are often dry, but fluid harms in severe malaria: it caused extra deaths in the FEAST trial in African children (including those with severe malaria) and it causes pulmonary oedema in adults. The rule is maintenance fluid without a bolus, except for hypotensive shock. Stop IV fluid and move to oral or nasogastric feeds as soon as the patient can drink.</p>
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Fluid and rate</th><th class="py-2 pr-3">Comments</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Child, not in shock (most children)</td><td class="py-2 pr-3"><strong>No bolus.</strong> Maintenance only: 5% dextrose in 0.45% saline. Rate by the 4-2-1 rule: 4 mL/kg/hour for the first 10 kg, plus 2 mL/kg/hour for the next 10 kg, plus 1 mL/kg/hour for each kg above 20 kg. Examples: 5 kg = 20 mL/hour; 10 kg = 40; 15 kg = 50; 20 kg = 60; 30 kg = 70. (FEAST used 2.5-4 mL/kg/hour.)</td><td class="py-2 pr-3">If only 4.3% dextrose in 0.18% saline ("dextrose saline") is available, use it for a short time and check sodium. Do not use plain 5% dextrose for prolonged periods. Count blood, quinine diluent and drug volumes in the daily total.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Child with hypoglycaemia (below 3 mmol/L or 54 mg/dL)</td><td class="py-2 pr-3">5 mL/kg of 10% dextrose IV over a few minutes. Recheck glucose after 30 minutes and repeat if still low. Then run a 10% dextrose maintenance infusion (use the 10% bag as the maintenance fluid, not in addition to it).</td><td class="py-2 pr-3">If only 50% dextrose is available give 1 mL/kg diluted 1:1 with saline or 5% dextrose, slowly over 3-5 minutes. Prefer 10% in infants; strong dextrose burns veins. Feed or give milk by NG tube once awake.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Child with decompensated shock (cold limbs, weak pulse, systolic BP below 70 mmHg)</td><td class="py-2 pr-3">Isotonic crystalloid (0.9% saline or Ringer's lactate) 10-20 mL/kg over 30-60 minutes. Reassess after each bolus.</td><td class="py-2 pr-3">This is the one situation where a bolus is justified. Stop for crepitations, enlarging liver, rising breathing rate or oedema. Guidelines differ on volume; use the smaller volume if unsure. Always check Hb: shock with low Hb needs blood, not more saline. Add ceftriaxone for possible sepsis.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Child with moderate dehydration who can drink</td><td class="py-2 pr-3">ORS 75 mL/kg over 4 hours, by mouth or NG.</td><td class="py-2 pr-3">The oral route is safer than IV in malaria.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Child with severe acute malnutrition and shock</td><td class="py-2 pr-3">15 mL/kg Ringer's lactate with 5% dextrose over 1 hour, reassess, then oral or NG feeding.</td><td class="py-2 pr-3">Avoid IV fluid otherwise. Use slow, small-volume transfusions.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Adult, not hypotensive</td><td class="py-2 pr-3"><strong>No bolus.</strong> Isotonic crystalloid (0.9% saline or Ringer's lactate) at a restrictive rate of about 2-3 mL/kg/hour for the first 24 hours (60 kg adult: 120-180 mL/hour) and reduce toward 1 mL/kg/hour if the patient is drinking or being fed by tube.</td><td class="py-2 pr-3">Review every 6 hours: urine output (aim at least 0.5 mL/kg/hour), chest crackles, oxygen saturation, JVP. Use 5-10% dextrose when giving quinine or when glucose is low.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Adult with hypotensive shock</td><td class="py-2 pr-3">Isotonic crystalloid about 30 mL/kg given in aliquots (for example 250-500 mL) with reassessment. Add a vasopressor such as noradrenaline early if still hypotensive and available.</td><td class="py-2 pr-3">Expert consensus for resource-limited settings. Suspect concurrent bacteraemia and start ceftriaxone 2 g IV daily. Check Hb and transfuse if low.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Adult hypoglycaemia</td><td class="py-2 pr-3">50% dextrose 20-50 mL IV (preferably diluted), then 10% dextrose infusion. Recheck in 30 minutes.</td><td class="py-2 pr-3">Quinine and pregnancy both raise the risk; check glucose at least every 4 hours.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Pulmonary oedema (any age)</td><td class="py-2 pr-3">Stop IV fluids. Sit upright, give oxygen, and give furosemide 40 mg IV in adults, 0.5-1 mg/kg IV in children. Consider CPAP or ventilation.</td><td class="py-2 pr-3">Slow or stop transfusion and use packed cells. Watch urine output after furosemide.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Acute kidney injury</td><td class="py-2 pr-3">Fluid only to replace measured losses plus insensible loss. Do not give repeated challenges.</td><td class="py-2 pr-3">Dialysis early if there is persistent oliguria with rising creatinine, K above 6.5 mmol/L, pulmonary oedema or uraemic features (section 12).</td></tr>
+        </tbody>
+      </table></div>
+      <p class="text-sm"><strong>Point-of-care checks while on fluids:</strong> glucose at least every 4 hours (every 1-2 hours if on quinine, comatose or with recurrent hypoglycaemia), temperature, pulse, respiratory rate, oxygen saturation, capillary refill, liver edge in children, and urine output.</p>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="managing-complications" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+      Managing Complications
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Complication</th><th class="py-2 pr-3">Management</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Cerebral malaria (coma)</td><td class="py-2 pr-3">Check glucose, treat hypoglycaemia, secure airway, side-lying position, oxygen if saturation under 90%. If meningitis cannot be excluded give meningitis-dose antibiotics and do a lumbar puncture when safe. Turn every 2 hours, protect the eyes, pass a urinary catheter, start NG feeds after the first 24-48 hours. Record coma score at least hourly at first. <strong>No corticosteroids, mannitol or heparin.</strong></td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Convulsions</td><td class="py-2 pr-3">Check glucose and temperature. Diazepam 0.5 mg/kg rectally, or 0.3 mg/kg IV slowly (adult maximum 10 mg). May repeat once after 5-10 minutes; have a bag and mask ready. If seizures continue after two benzodiazepine doses, use a second-line anticonvulsant (phenobarbital or phenytoin loading dose per your hospital protocol) and re-examine for hypoglycaemia, meningitis and raised pressure. <strong>Do not give routine prophylactic anticonvulsants</strong> (prophylactic phenobarbital increased deaths in children).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Hypoglycaemia</td><td class="py-2 pr-3">See section 11. Check glucose at least every 4 hours and keep a dextrose infusion running in comatose, quinine-treated and pregnant patients.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Severe anaemia</td><td class="py-2 pr-3"><strong>Children:</strong> transfuse for Hb 4 g/dL or less (PCV 12% or less). For Hb 4-6 g/dL transfuse if there is respiratory distress, impaired consciousness, shock, heart failure or parasitaemia above 10%; otherwise treat and observe. Volume 20 mL/kg whole blood or 10 mL/kg packed cells over 3-4 hours (some programmes use 30 and 15 mL/kg in afebrile children; follow your protocol). In severe acute malnutrition give 10 mL/kg once. Use furosemide only if there are signs of pulmonary oedema. <strong>Adults:</strong> transfuse for Hb below 6 g/dL, or below 7 g/dL with shock, respiratory distress or heart disease, one unit at a time, each over 3-4 hours. Use blood screened for HIV, hepatitis B and C and syphilis. Blood supply is scarce: request a unit at admission, do not wait until the Hb is low.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Respiratory distress or acidosis</td><td class="py-2 pr-3">Deep breathing in a child usually means anaemia, hypovolaemia or lactic acidosis. Check Hb, glucose and chest. Transfuse if Hb is low (this treats the acidosis), treat hypoglycaemia, give oxygen, and treat pneumonia if present. Avoid large saline boluses.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Acute kidney injury</td><td class="py-2 pr-3">Exclude hypovolaemia with a cautious assessment, then restrict fluid to losses. Stop NSAIDs, aminoglycosides and herbal mixtures. Arrange haemodialysis or peritoneal dialysis early if oliguria persists with rising creatinine, K above 6.5 mmol/L, pulmonary oedema or uraemic features; refer if you have no dialysis. Quinine accumulates, so review its dose after 48 hours.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Jaundice and liver dysfunction</td><td class="py-2 pr-3">Supportive. Avoid hepatotoxic drugs and herbal mixtures; keep paracetamol within the maximum dose. Check glucose and clotting. Vitamin K 10 mg IV slowly daily for 3 days in adults with coagulopathy (2-3 mg/day in children).</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Bleeding or DIC</td><td class="py-2 pr-3">Fresh whole blood or fresh frozen plasma, vitamin K as above, platelets for serious bleeding with low counts.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Secondary bacterial infection</td><td class="py-2 pr-3">Children with severe malaria: ceftriaxone 80 mg/kg IV once daily (adults 2 g once daily) until cultures and clinical course settle; stop at 48-72 hours if cultures are negative and the child is improving. Non-typhoidal Salmonella, pneumonia and meningitis can accompany severe malaria.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Hyperpyrexia</td><td class="py-2 pr-3">Paracetamol 15 mg/kg every 4-6 hours, tepid sponging, fanning. Check glucose in any child with convulsions and fever.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Blackwater fever (haemoglobinuria)</td><td class="py-2 pr-3">Continue artesunate; stop quinine if it is the suspected trigger. Keep up urine output, transfuse for anaemia, test G6PD, and avoid primaquine, dapsone and sulfonamides until clarified.</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Hyperparasitaemia (above 10%)</td><td class="py-2 pr-3">IV artesunate, glucose and Hb monitoring. Exchange transfusion is not recommended. Plan for post-artesunate haemolysis follow-up (section 14).</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="monitoring-in-severe-malaria" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+      Monitoring in Severe Malaria
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+        <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">What</th><th class="py-2 pr-3">How often</th><th class="py-2 pr-3">Act on</th></tr></thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="py-2 pr-3 font-semibold">Vital signs, SpO2, coma score</td><td class="py-2 pr-3">Every 15 minutes in the first hour, then hourly until stable, then every 4 hours</td><td class="py-2 pr-3">Falling coma score, new convulsions, SpO2 below 90%, hypotension</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Blood glucose</td><td class="py-2 pr-3">On arrival, 30 minutes after any dextrose, then at least every 4 hours</td><td class="py-2 pr-3">Below 3 mmol/L (54 mg/dL)</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Fluid balance and urine output</td><td class="py-2 pr-3">Hourly in the first 24 hours, via catheter in shocked or comatose adults</td><td class="py-2 pr-3">Below 0.5 mL/kg/hour in adults</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Hb or PCV</td><td class="py-2 pr-3">On admission, after transfusion, then daily</td><td class="py-2 pr-3">Thresholds in section 12</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Parasite density</td><td class="py-2 pr-3">Daily until negative</td><td class="py-2 pr-3">Rising or static count at 48 hours: review drug, route and diagnosis</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Creatinine, urea, electrolytes, bilirubin</td><td class="py-2 pr-3">On admission, then daily</td><td class="py-2 pr-3">Creatinine rising, K above 6.5, bilirubin rising</td></tr>
+          <tr><td class="py-2 pr-3 font-semibold">Chest and liver edge</td><td class="py-2 pr-3">Every 4-6 hours while on IV fluid or blood</td><td class="py-2 pr-3">Crepitations, enlarging liver: stop fluid</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="step-down-discharge-and-follow-up" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+      Step-Down, Discharge and Follow-Up
+    </h2>
+    <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+      <ul class="list-disc pl-5 space-y-1 text-sm">
+        <li><strong>Complete the course:</strong> a full 3-day ACT after at least 24 hours of artesunate. Observe the first oral dose. Discharge only when the patient is eating, walking or sitting unaided, has a stable Hb and glucose, and the family understands the follow-up.</li>
+        <li><strong>Post-artesunate delayed haemolysis (PADH):</strong> haemoglobin can drop again 1-4 weeks after artesunate, especially after hyperparasitaemia. It has been reported in roughly 5-23% of African children treated with parenteral artesunate, depending on the definition. Arrange review with Hb at about day 14 and day 28, and teach families to return for pallor, tiredness, dark urine or jaundice. Transfuse if Hb falls below the transfusion thresholds.</li>
+        <li><strong>Haematinics:</strong> folic acid for at least 14 days; iron from 4 weeks after treatment (section 5).</li>
+        <li><strong>Neurological follow-up:</strong> children after cerebral malaria may have seizures, speech or behaviour problems and hearing loss (also from quinine). Review at 4-6 weeks, check hearing and development.</li>
+        <li><strong>Prevention:</strong> insecticide-treated nets, seasonal malaria chemoprevention for eligible children in the northern states, IPTp-SP in pregnancy, and the malaria vaccine for eligible children where it has been introduced. Treatment of the episode does not replace these.</li>
+      </ul>
+    </div>
+    
+    <h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+      Common Practices to Avoid
+    </h2>
+    <div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+      <ul class="space-y-3 text-sm text-rose-900 dark:text-rose-200">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating every fever as malaria without a test.</strong> It delays the diagnosis of typhoid, urinary infection, pneumonia and meningitis, wastes drugs and drives resistance.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving artesunate, DHA or artemether tablets alone (monotherapy).</strong> They are still sold in Nigerian outlets. Always use a full combination.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using chloroquine, Fansidar (sulfadoxine-pyrimethamine), amodiaquine alone or halofantrine.</strong> These are stocked by patent medicine vendors but are no longer recommended; halofantrine can cause fatal arrhythmia.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Prescribing a course of IM artemether or arteether injections for uncomplicated malaria.</strong> Oral ACT is the standard. Alpha-beta arteether is not recommended even for severe malaria.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Stopping the ACT when the fever clears, or sending the patient home with a part course.</strong> Six AL doses or three daily doses of the other ACTs are needed to cure.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving AL on an empty stomach.</strong> It lowers lumefantrine absorption and raises the risk of failure.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Running a "drip" fast, or giving saline boluses to every sick child with malaria.</strong> It increases mortality in children without hypotension and causes pulmonary oedema in adults.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Transfusing without need, or withholding blood from a child with Hb of 4 g/dL or less.</strong> Use the thresholds in section 12 and the correct volume.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving dexamethasone, mannitol, heparin or routine phenobarbital in cerebral malaria.</strong> None helps, and steroids and prophylactic phenobarbital are harmful.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Pushing quinine fast IV, or injecting it into the buttock.</strong> Infuse slowly; IM doses go in the anterior thighs.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Stopping IV artesunate after one dose because the patient looks better, or discharging without the full oral ACT.</strong></span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Skipping the glucose check in a convulsing or drowsy patient.</strong> Hypoglycaemia is common, fatal and mistaken for cerebral malaria.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Diagnosing typhoid from a single Widal titre and adding antibiotics "to cover".</strong> Titres are often raised in endemic areas. Use blood culture, or treat on clinical grounds with a clear reason.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Retreating a positive RDT within weeks of a full course.</strong> HRP2 tests stay positive after cure; use microscopy.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving primaquine without a G6PD test, or mefloquine after cerebral malaria.</strong></span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Combining ASAQ with efavirenz, or DHA-PPQ with other QT-prolonging drugs.</strong></span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Withholding AL in the first trimester because "ACTs are unsafe in early pregnancy".</strong> WHO and NMEP now recommend it; quinine fares worse.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using cold water or alcohol sponging, IM diclofenac or aspirin for fever.</strong> Use paracetamol and tepid sponging.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Accepting herbal or "agbo" treatment or unregistered tablets as a substitute, or letting the family delay referral for injections at home.</strong></span></li>
+      </ul>
+    </div>
+    
+    <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+      <p class="font-brand text-sm font-semibold text-indigo-950 dark:text-white mb-3">Key Clinical Takeaways</p>
+      <ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-100">
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Test before treating. A positive RDT does not exclude a second diagnosis, and an old positive RDT is not new malaria.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Uncomplicated malaria: AL by weight (1, 2, 3 or 4 tablets), six doses over three days, taken with fat. ASAQ, DHA-PPQ and artesunate-pyronaridine are alternatives.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Admit anyone who vomits the ACT, cannot drink, is under 5 kg, or has any danger sign. Pregnancy, sickle cell disease and malnutrition lower the threshold.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Severe malaria: IV or IM artesunate (3 mg/kg under 20 kg, 2.4 mg/kg from 20 kg) at 0, 12 and 24 hours then daily, followed by a full 3-day ACT. Pre-referral rectal artesunate for children under 6 years when no injection is possible.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Check glucose in every severe case and treat below 3 mmol/L. Children: 5 mL/kg of 10% dextrose.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fluids: no bolus unless there is hypotension; maintenance only (children by the 4-2-1 rule, adults about 2-3 mL/kg/hour). Stop for crepitations or an enlarging liver. Treat low Hb with blood, not saline.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pregnancy: AL in all trimesters; IV artesunate for severe malaria in any trimester; watch glucose and lungs.</span></li>
+        <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Follow up severe cases with Hb at about day 14 and day 28 for delayed haemolysis, and give folic acid.</span></li>
+      </ul>
+    </div>
+    
+    <details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+      <summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-slate-700 dark:text-slate-200">
+        <span>References</span>
+        <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </summary>
+      <ol class="list-decimal pl-8 pr-4 pb-4 space-y-1">
+        <li class="text-[10px] leading-snug text-stone-500">World Health Organization. WHO Guidelines for Malaria (consolidated, including the 2022-2025 updates on artemether-lumefantrine in the first trimester, artesunate-pyronaridine, revised paediatric artesunate and DHA-PPQ doses, and high-dose primaquine).</li>
+        <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Management of Severe Malaria: A Practical Handbook, 3rd edition (2012).</li>
+        <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Policy brief: Testing for G6PD deficiency for safe use of primaquine in radical cure of P. vivax and P. ovale malaria (2016).</li>
+        <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Prequalification public assessment reports and product characteristics for injectable artesunate and DHA-piperaquine.</li>
+        <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Pocket Book of Hospital Care for Children and the Paediatric Emergency Triage, Assessment and Treatment guidance.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, National Malaria Elimination Programme (NMEP), Nigeria. National Guidelines for Malaria Diagnosis, Treatment, Prevention and Control (2020 edition; check for a newer edition).</li>
+        <li class="text-[10px] leading-snug text-stone-500">FEAST trial (Fluid Expansion As Supportive Therapy) and its subgroup analyses in children with severe malaria.</li>
+        <li class="text-[10px] leading-snug text-stone-500">TRACT trial (Transfusion and Treatment of severe anaemia in African Children Trial).</li>
+        <li class="text-[10px] leading-snug text-stone-500">Mahidol-Oxford Tropical Medicine Research Unit. Restrictive fluid management in adults with severe falciparum malaria (J Infect Dis, 2020), and expert consensus recommendations for severe malaria and severe dengue in resource-limited settings.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Population pharmacokinetic meta-analysis of lumefantrine with antiretroviral and antituberculosis drugs (efavirenz, rifampicin, lopinavir-ritonavir, dolutegravir).</li>
+        <li class="text-[10px] leading-snug text-stone-500">Medecins Sans Frontieres. Essential drugs and clinical guidelines: artesunate-amodiaquine, anaemia and transfusion thresholds.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Post-artesunate delayed haemolysis in African children with severe malaria: prospective cohort studies and incidence reports (2014-2025).</li>
+        <li class="text-[10px] leading-snug text-stone-500">Swissmedic marketing authorisation of Coartem Baby (artemether-lumefantrine for infants 2 to under 5 kg), July 2025; National Agency for Food and Drug Administration and Control (NAFDAC) Green Book for product registration checks.</li>
+        <li class="text-[10px] leading-snug text-stone-500">Nigeria national surveys of non-falciparum malaria (P. malariae, P. ovale, P. vivax) in children, and genomic surveillance of kelch13 and partner-drug markers in Nigeria (2026).</li>
+      </ol>
+    </details>
+    
+    </div>
+    </body>
+    </html>
+        `
+    },
 
 
       {
         id: 'treatment-upper-respiratory-tract-infections',
-        title: 'Upper Respiratory Tract Infections (URTIs): Treatment Guide',
+        title: 'Upper Respiratory Tract Infections (URTIs)',
         category: 'Treatment',
         subCategory: 'Infectious Disease',
         content: `
@@ -865,7 +1381,7 @@ export const TREATMENT_CONTENT: LearningModule[] = [
 
     {
       id: 'treatment-lower-respiratory-tract-infections',
-      title: 'Lower Respiratory Tract Infections (LRTIs): Treatment Guide',
+      title: 'Lower Respiratory Tract Infections (LRTIs)',
       category: 'Treatment',
       subCategory: 'Infectious Disease',
       content: `
@@ -1946,5 +2462,5318 @@ export const TREATMENT_CONTENT: LearningModule[] = [
     `
 },
 
+{
+  id: 'treatment-acute-gastroenteritis-diarrhoeal-diseases',
+  title: 'Acute Gastroenteritis',
+  category: 'Treatment',
+  subCategory: 'Infectious Disease',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 p-4 sm:p-8 max-w-3xl mx-auto">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; INFECTIOUS DISEASE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Acute Gastroenteritis and Diarrhoeal Diseases</h1>
+  <p class="text-sm text-indigo-200">Diarrhoea remains a leading cause of death in Nigerian children under five, and death is almost always from dehydration, shock, electrolyte disturbance or malnutrition, not from the infection itself. Treatment therefore rests on three things: replace fluid correctly (ORS first, IV only when needed), give zinc, and keep feeding. Antibiotics are needed only in a minority. This guide gives the rehydration plans with volumes by weight, the IV fluid schedule, zinc, symptomatic drugs, antibiotics for dysentery, cholera and parasites, special groups (severe malnutrition, HIV, neonates, adults), where to treat, and common Nigerian products.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block font-semibold mb-2">How to read the doses</strong>
+<p class="text-sm">Weigh every child; calculate fluids and drugs by weight, and use age bands only when no weight is available. Doses assume normal kidney and liver function. Brand names are examples, not endorsements; check strengths and the NAFDAC number on the pack. Compare with the current FMOH Standard Treatment Guidelines, the national IMCI/ICCM job aids, and the NCDC cholera guidance during outbreaks. See the Guideline Watch box for what could not be confirmed.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#diarrhoea-at-a-glance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Diarrhoea at a Glance</span></a></li>
+  <li><a href="#assessment-triage-and-where-to-treat" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Assessment, Triage and Where to Treat</span></a></li>
+  <li><a href="#plan-a-no-dehydration-home-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Plan A: No Dehydration (Home Treatment)</span></a></li>
+  <li><a href="#plan-b-some-dehydration-oral-rehydration-over-4-hours" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Plan B: Some Dehydration (Oral Rehydration over 4 Hours)</span></a></li>
+  <li><a href="#plan-c-severe-dehydration-and-shock-intravenous-fluids" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Plan C: Severe Dehydration and Shock (Intravenous Fluids)</span></a></li>
+  <li><a href="#zinc-and-feeding" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Zinc and Feeding</span></a></li>
+  <li><a href="#symptomatic-treatment-what-helps-and-what-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Symptomatic Treatment: What Helps and What to Avoid</span></a></li>
+  <li><a href="#antimicrobial-treatment-by-cause" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Antimicrobial Treatment by Cause</span></a></li>
+  <li><a href="#special-groups-malnutrition-neonates-hiv-adults-and-pregnancy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Special Groups: Malnutrition, Neonates, HIV, Adults and Pregnancy</span></a></li>
+  <li><a href="#drug-dosage-and-formulation-reference-by-age-group" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Drug Dosage and Formulation Reference by Age Group</span></a></li>
+  <li><a href="#nigerian-brands-and-prescribing-realities" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Nigerian Brands and Prescribing Realities</span></a></li>
+  <li><a href="#prevention-follow-up-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Prevention, Follow-Up and Counselling</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="diarrhoea-at-a-glance" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Diarrhoea at a Glance
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><strong>Acute diarrhoea</strong> is three or more loose or watery stools a day, lasting under 14 days. <strong>Persistent diarrhoea</strong> lasts 14 days or more. <strong>Dysentery</strong> is diarrhoea with visible blood. The first question is always the same: how dehydrated is the patient, and which plan applies?</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Treatment</th><th class="py-2 pr-3">Setting</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">No dehydration</td><td class="py-2 pr-3 align-top">Plan A: extra fluids and ORS after each stool, zinc 10 to 14 days, continue feeding</td><td class="py-2 pr-3 align-top">Home</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Some dehydration</td><td class="py-2 pr-3 align-top">Plan B: ORS 75 mL/kg over 4 hours, then reassess; zinc</td><td class="py-2 pr-3 align-top">ORS corner or clinic, observed; then home if hydrated</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Severe dehydration or shock</td><td class="py-2 pr-3 align-top">Plan C: IV Ringer's lactate 100 mL/kg (30 mL/kg then 70 mL/kg)</td><td class="py-2 pr-3 align-top">Admit</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Dysentery (visible blood)</td><td class="py-2 pr-3 align-top">Antibiotic for shigellosis, plus fluids and zinc</td><td class="py-2 pr-3 align-top">Home if well; admit if dehydrated, toxic, young infant or malnourished</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Suspected cholera (profuse rice-water stool)</td><td class="py-2 pr-3 align-top">Aggressive rehydration; single-dose antibiotic if severe; notify</td><td class="py-2 pr-3 align-top">Cholera treatment centre or ward</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Persistent diarrhoea</td><td class="py-2 pr-3 align-top">Look for cause (HIV, malnutrition, giardia, TB), zinc, feeding support</td><td class="py-2 pr-3 align-top">Clinic; admit if dehydrated or malnourished</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Watery diarrhoea, no cholera</td><td class="py-2 pr-3 align-top"><strong>No antibiotic.</strong> Antimotility drugs and kaolin are not recommended</td><td class="py-2 pr-3 align-top">Home</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assessment-triage-and-where-to-treat" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Assessment, Triage and Where to Treat
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step zero: test for malaria; think beyond gastroenteritis</strong>
+<p class="text-sm">Fever, vomiting and loose stools are also features of malaria, typhoid, sepsis, urinary tract infection, pneumonia and meningitis in Nigerian children. Test every febrile child for malaria and treat per the national guideline. Look for abdominal causes: <strong>intussusception</strong> (episodic screaming, vomiting, red-currant-jelly stool, sausage-shaped mass; common at 3 to 12 months), appendicitis, bowel obstruction (bilious vomiting) and necrotising enterocolitis in neonates. Haemolytic uraemic syndrome (bloody diarrhoea, pallor, oliguria) needs urgent referral.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Degree of dehydration (WHO / IMCI)</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Sign</th><th class="py-2 pr-3">No dehydration (under 5% loss)</th><th class="py-2 pr-3">Some dehydration (5 to 10%)</th><th class="py-2 pr-3">Severe dehydration (over 10%)</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">General condition</td><td class="py-2 pr-3 align-top">Well, alert</td><td class="py-2 pr-3 align-top">Restless, irritable</td><td class="py-2 pr-3 align-top">Lethargic or unconscious, floppy</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Eyes</td><td class="py-2 pr-3 align-top">Normal</td><td class="py-2 pr-3 align-top">Sunken</td><td class="py-2 pr-3 align-top">Very sunken and dry</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Thirst</td><td class="py-2 pr-3 align-top">Drinks normally</td><td class="py-2 pr-3 align-top">Thirsty, drinks eagerly</td><td class="py-2 pr-3 align-top">Drinks poorly or not able to drink</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Skin pinch</td><td class="py-2 pr-3 align-top">Goes back quickly</td><td class="py-2 pr-3 align-top">Goes back slowly (under 2 seconds)</td><td class="py-2 pr-3 align-top">Goes back very slowly (over 2 seconds)</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Other</td><td class="py-2 pr-3 align-top">Normal tears, moist mouth</td><td class="py-2 pr-3 align-top">Dry mouth, reduced urine, sunken fontanelle</td><td class="py-2 pr-3 align-top">Cold extremities, weak fast pulse, capillary refill over 3 seconds, no urine, low BP, fast deep breathing</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-xs sans">Two or more signs in a column place the patient in that category (at least one of the first four signs for severe). In a malnourished child skin pinch, sunken eyes and apparent thirst are unreliable; use history of watery diarrhoea and recent change in appearance.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Home, clinic or admission</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Home or outpatient care is suitable</th><th class="py-2 pr-3">Admit or refer</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top">
+          <ul class="list-disc pl-4 space-y-1">
+            <li>No dehydration, drinking and feeding well</li>
+            <li>Some dehydration that corrects with ORS during 4 hours of observation (child drinking, passing urine, signs resolved)</li>
+            <li>Caregiver understands how to mix and give ORS and the danger signs, and can return</li>
+            <li>Dysentery in a well child over 6 months who is drinking</li>
+          </ul>
+        </td>
+        <td class="py-2 pr-3 align-top">
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Severe dehydration, shock, lethargy, convulsions</li>
+            <li>Cannot drink, persistent vomiting (everything), or ORS fails after 4 hours</li>
+            <li>Infants under 2 months with diarrhoea, or any child with fever and toxic look</li>
+            <li>Severe acute malnutrition, severe anaemia, HIV with severe illness, sickle cell disease</li>
+            <li>Bloody diarrhoea with abdominal distension, severe pain or intussusception suspected</li>
+            <li>Suspected cholera with severe dehydration (cholera treatment centre)</li>
+            <li>Abnormal sodium, glucose or potassium, oliguria or no urine after rehydration</li>
+            <li>Adults: hypotension, confusion, elderly, pregnancy, renal impairment, immunosuppression</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="plan-a-no-dehydration-home-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Plan A: No Dehydration (Home Treatment)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The aim is to prevent dehydration. Give more fluid than usual and continue feeding.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Age</th><th class="py-2 pr-3">ORS after each loose stool</th><th class="py-2 pr-3">Maximum per day (guide)</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Under 2 years</td><td class="py-2 pr-3">50 to 100 mL (a quarter to half a large cup)</td><td class="py-2 pr-3">About 500 mL</td></tr>
+      <tr><td class="py-2 pr-3">2 to 9 years</td><td class="py-2 pr-3">100 to 200 mL (half to one large cup)</td><td class="py-2 pr-3">About 1,000 mL</td></tr>
+      <tr><td class="py-2 pr-3">10 years and older, adults</td><td class="py-2 pr-3">As much as wanted (about 200 to 250 mL per stool)</td><td class="py-2 pr-3">No fixed maximum</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Give ORS by cup and spoon in small, frequent sips. If the child vomits, wait 10 minutes and continue more slowly (a spoonful every 1 to 2 minutes). Vomiting usually stops once hydration improves.</li>
+  <li><strong>Zinc</strong> daily for 10 to 14 days (section 6) and <strong>continue breastfeeding and normal feeding</strong>.</li>
+  <li>Other suitable fluids: breast milk, rice water (pap or ogi without much sugar), soup, plain water. <strong>Avoid</strong> sugary drinks, soft drinks, commercial fruit juices and undiluted "energy" drinks, because they worsen osmotic diarrhoea.</li>
+  <li>Return at once for: passing watery stool very frequently, repeated vomiting, marked thirst, not drinking or eating, blood in stool, fever, drowsiness, sunken eyes, or no improvement in 3 days.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="plan-b-some-dehydration-oral-rehydration-over-4-hours" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Plan B: Some Dehydration (Oral Rehydration over 4 Hours)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><strong>Give ORS 75 mL/kg over 4 hours</strong> under observation, plus extra ORS (10 mL/kg for each further loose stool, WHO) for continuing losses. Use age only when the weight is unknown. A child who is above 6 months and not breastfed can also take clean water; infants under 6 months who are not breastfed should have 100 to 200 mL of clean water during the 4 hours.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Weight</th><th class="py-2 pr-3">Age (approx.)</th><th class="py-2 pr-3">ORS total over 4 h (75 mL/kg)</th><th class="py-2 pr-3">Per hour</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">4 kg</td><td class="py-2 pr-3">Under 4 months</td><td class="py-2 pr-3">300 mL</td><td class="py-2 pr-3">75 mL</td></tr>
+      <tr><td class="py-2 pr-3">6 kg</td><td class="py-2 pr-3">4 to 11 months</td><td class="py-2 pr-3">450 mL</td><td class="py-2 pr-3">110 mL</td></tr>
+      <tr><td class="py-2 pr-3">8 kg</td><td class="py-2 pr-3">4 to 11 months</td><td class="py-2 pr-3">600 mL</td><td class="py-2 pr-3">150 mL</td></tr>
+      <tr><td class="py-2 pr-3">10 kg</td><td class="py-2 pr-3">12 to 23 months</td><td class="py-2 pr-3">750 mL</td><td class="py-2 pr-3">190 mL</td></tr>
+      <tr><td class="py-2 pr-3">12 kg</td><td class="py-2 pr-3">2 to 4 years</td><td class="py-2 pr-3">900 mL</td><td class="py-2 pr-3">225 mL</td></tr>
+      <tr><td class="py-2 pr-3">15 kg</td><td class="py-2 pr-3">2 to 4 years</td><td class="py-2 pr-3">1,125 mL</td><td class="py-2 pr-3">280 mL</td></tr>
+      <tr><td class="py-2 pr-3">20 kg</td><td class="py-2 pr-3">5 to 7 years</td><td class="py-2 pr-3">1,500 mL</td><td class="py-2 pr-3">375 mL</td></tr>
+      <tr><td class="py-2 pr-3">Adult 60 kg</td><td class="py-2 pr-3">Adult</td><td class="py-2 pr-3">4,500 mL</td><td class="py-2 pr-3">1,125 mL</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-xs sans">WHO age-based ranges for the 4 hours (when weight is unknown): under 4 months (under 6 kg) 200 to 450 mL; 4 to 11 months (6 to under 10 kg) 450 to 800 mL; 12 to 23 months (10 to under 12 kg) 800 to 960 mL; 2 to 4 years (12 to under 20 kg) 960 to 1,600 mL. Give more if the child wants more.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How to give it</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Give ORS by cup, spoon or syringe; for infants a teaspoon every 1 to 2 minutes; continue breastfeeding between sips.</li>
+  <li><strong>Reassess at 1 hour and every hour</strong>, and fully at 4 hours: if no signs of dehydration, move to Plan A (and give zinc); if some dehydration remains, repeat Plan B and offer food; if severe dehydration appears, move to Plan C.</li>
+  <li><strong>Nasogastric ORS</strong> if the child cannot drink or vomits persistently: 20 mL/kg/hour (for a 10 kg child, 200 mL/hour); stop and reassess if there is abdominal distension or repeated vomiting.</li>
+  <li>Persistent vomiting: give ondansetron (section 7) and continue ORS slowly.</li>
+  <li>The oral route works in more than 90% of patients; do not start IV fluids because a child is crying, vomits once, or has frequent stools.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">ORS formulations and home-made alternatives</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>WHO low-osmolarity ORS (245 mOsm/L):</strong> sodium 75 mmol/L, glucose 75 mmol/L, potassium 20 mmol/L, chloride 65 mmol/L, citrate 10 mmol/L. Each 1-litre sachet is dissolved in 1 litre of clean (boiled and cooled) water. Do not add sugar, and do not use a smaller or larger volume of water. Use within 24 hours, and discard what is left.</li>
+  <li><strong>Check the sachet size:</strong> several local brands come as 200 mL, 500 mL or 1 L sachets. Always follow the volume printed on the pack.</li>
+  <li><strong>Home salt-sugar solution (SSS) when no ORS is available:</strong> 1 litre of clean water, 6 level teaspoons of sugar and half a level teaspoon of salt. Too much salt is dangerous; use level measures. It is a stop-gap, and should be replaced with ORS as soon as possible. Do not use a soft drink bottle top as a "measure".</li>
+  <li><strong>ReSoMal</strong> (rehydration solution for malnutrition) is for severe acute malnutrition only (section 9).</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="plan-c-severe-dehydration-and-shock-intravenous-fluids" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Plan C: Severe Dehydration and Shock (Intravenous Fluids)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><strong>Admit and start IV fluid immediately.</strong> Place an IV line (or an intraosseous needle if a vein cannot be found within a minute or two) and check blood glucose. While the line is being placed, give ORS by mouth or nasogastric tube if the patient can swallow.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Fluid choice</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Ringer's lactate (Hartmann's) is preferred.</strong> Ringer's lactate with 5% dextrose, or 0.9% sodium chloride, are acceptable. Normal saline alone does not correct acidosis or replace potassium, so add ORS once the patient can drink.</li>
+  <li><strong>Do not use 5% dextrose alone, or hypotonic "dextrose-saline" bags</strong> (for example 4.3% dextrose in 0.18% saline, common on Nigerian wards), for rehydration. They do not replace the sodium that was lost and can produce hyponatraemia and cerebral oedema.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Volumes: 100 mL/kg in total (WHO)</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Age</th><th class="py-2 pr-3">First 30 mL/kg</th><th class="py-2 pr-3">Then 70 mL/kg</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 font-semibold">Infants under 12 months</td><td class="py-2 pr-3">Over 1 hour</td><td class="py-2 pr-3">Over 5 hours</td></tr>
+      <tr><td class="py-2 pr-3 font-semibold">12 months and older, adults</td><td class="py-2 pr-3">Over 30 minutes</td><td class="py-2 pr-3">Over 2.5 hours</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Weight</th><th class="py-2 pr-3">First 30 mL/kg</th><th class="py-2 pr-3">Then 70 mL/kg</th><th class="py-2 pr-3">Total (100 mL/kg)</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr class="bg-slate-100 dark:bg-slate-800"><td class="py-2 pr-3 font-semibold" colspan="4">Infants under 12 months (30 mL/kg over 1 h, 70 mL/kg over 5 h)</td></tr>
+      <tr><td class="py-2 pr-3">4 kg</td><td class="py-2 pr-3">120 mL over 1 h</td><td class="py-2 pr-3">280 mL over 5 h (56 mL/h)</td><td class="py-2 pr-3">400 mL</td></tr>
+      <tr><td class="py-2 pr-3">6 kg</td><td class="py-2 pr-3">180 mL over 1 h</td><td class="py-2 pr-3">420 mL over 5 h (84 mL/h)</td><td class="py-2 pr-3">600 mL</td></tr>
+      <tr><td class="py-2 pr-3">8 kg</td><td class="py-2 pr-3">240 mL over 1 h</td><td class="py-2 pr-3">560 mL over 5 h (112 mL/h)</td><td class="py-2 pr-3">800 mL</td></tr>
+      <tr><td class="py-2 pr-3">10 kg</td><td class="py-2 pr-3">300 mL over 1 h</td><td class="py-2 pr-3">700 mL over 5 h (140 mL/h)</td><td class="py-2 pr-3">1,000 mL</td></tr>
+      <tr class="bg-slate-100 dark:bg-slate-800"><td class="py-2 pr-3 font-semibold" colspan="4">12 months and older (30 mL/kg over 30 min, 70 mL/kg over 2.5 h)</td></tr>
+      <tr><td class="py-2 pr-3">10 kg</td><td class="py-2 pr-3">300 mL over 30 min</td><td class="py-2 pr-3">700 mL over 2.5 h (280 mL/h)</td><td class="py-2 pr-3">1,000 mL</td></tr>
+      <tr><td class="py-2 pr-3">15 kg</td><td class="py-2 pr-3">450 mL over 30 min</td><td class="py-2 pr-3">1,050 mL over 2.5 h (420 mL/h)</td><td class="py-2 pr-3">1,500 mL</td></tr>
+      <tr><td class="py-2 pr-3">20 kg</td><td class="py-2 pr-3">600 mL over 30 min</td><td class="py-2 pr-3">1,400 mL over 2.5 h (560 mL/h)</td><td class="py-2 pr-3">2,000 mL</td></tr>
+      <tr><td class="py-2 pr-3">30 kg</td><td class="py-2 pr-3">900 mL over 30 min</td><td class="py-2 pr-3">2,100 mL over 2.5 h (840 mL/h)</td><td class="py-2 pr-3">3,000 mL</td></tr>
+      <tr><td class="py-2 pr-3">Adult 60 kg</td><td class="py-2 pr-3">1,800 mL over 30 min</td><td class="py-2 pr-3">4,200 mL over 2.5 h</td><td class="py-2 pr-3">6,000 mL</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">While the fluid runs</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Reassess every 15 to 30 minutes</strong> until a strong radial pulse is felt; then reassess at least hourly. Check pulse volume, capillary refill, alertness, respiratory pattern, liver size and chest (crackles, grunting).</li>
+  <li>If the pulse is still weak after the first 30 mL/kg, <strong>repeat the first part (30 mL/kg)</strong> once more, then continue with the 70 mL/kg. If shock persists, look for sepsis or another cause, and manage as shock (section 9).</li>
+  <li><strong>Start ORS (5 mL/kg/hour) as soon as the child can drink</strong>, usually after 3 to 4 hours, alongside the IV fluid.</li>
+  <li><strong>Reassess fully after 6 hours (infants) or 3 hours (older children and adults)</strong> and choose Plan A, B or C according to the hydration status. Do not stop fluids because the 100 mL/kg is finished if the child is still dehydrated.</li>
+  <li>Watch for fluid overload (puffy face, crackles, increased breathing rate, enlarged liver), especially in severe anaemia, heart disease, sickle cell disease and malnutrition.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">After rehydration: maintenance and ongoing losses</strong>
+<p class="text-sm">When the child is no longer dehydrated, give <strong>maintenance fluid</strong> (usually orally) plus <strong>replacement of each stool or vomit</strong> with ORS (10 mL/kg per loose stool, or 50 to 100 mL under 2 years, 100 to 200 mL for 2 to 9 years). If IV fluid must continue, use an isotonic solution (for example 5% dextrose in 0.9% sodium chloride, with potassium added once the patient is passing urine) at Holliday-Segar rates:</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Weight</th><th class="py-2 pr-3">Maintenance per 24 h</th><th class="py-2 pr-3">Rate</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">5 kg</td><td class="py-2 pr-3">500 mL</td><td class="py-2 pr-3">21 mL/h</td></tr>
+      <tr><td class="py-2 pr-3">10 kg</td><td class="py-2 pr-3">1,000 mL</td><td class="py-2 pr-3">42 mL/h</td></tr>
+      <tr><td class="py-2 pr-3">15 kg</td><td class="py-2 pr-3">1,250 mL</td><td class="py-2 pr-3">52 mL/h</td></tr>
+      <tr><td class="py-2 pr-3">20 kg</td><td class="py-2 pr-3">1,500 mL</td><td class="py-2 pr-3">63 mL/h</td></tr>
+      <tr><td class="py-2 pr-3">30 kg</td><td class="py-2 pr-3">1,700 mL</td><td class="py-2 pr-3">71 mL/h</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-xs sans">Holliday-Segar: 100 mL/kg for the first 10 kg, plus 50 mL/kg for the next 10 kg, plus 20 mL/kg for each kg above 20 (maximum about 2,000 to 2,400 mL in 24 hours). Adults: 25 to 30 mL/kg/day.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Electrolytes and glucose</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Hypoglycaemia</strong> (glucose below 3 mmol/L or 54 mg/dL; below 2.5 mmol/L in malnutrition): 5 mL/kg of 10% dextrose IV, then feeding or dextrose-containing fluid.</li>
+  <li><strong>Hypokalaemia</strong> (weakness, ileus, arrhythmia) is common after prolonged diarrhoea. Replace by ORS (contains 20 mmol/L potassium), mashed banana or coconut water if mild. If IV potassium is needed, add 20 mmol of potassium chloride to each litre of fluid only after urine output is established, and never give as a rapid bolus.</li>
+  <li><strong>Hypernatraemia</strong> (irritable, doughy skin, high-pitched cry, convulsions): correct slowly over 48 hours or more; lowering sodium by more than 0.5 mmol/L/hour risks cerebral oedema. Seek senior help.</li>
+  <li><strong>Acidosis:</strong> usually corrects with fluid; if severe and the child has deep acidotic breathing, think again about shock, sepsis and malaria.</li>
+  <li><strong>Convulsions</strong> are usually from hypoglycaemia, hyper- or hyponatraemia, fever or malaria: check glucose, treat and look for the cause.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="zinc-and-feeding" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Zinc and Feeding
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Zinc supplementation</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Age</th><th class="py-2 pr-3">Elemental zinc per day</th><th class="py-2 pr-3">20 mg dispersible tablet</th><th class="py-2 pr-3">Duration</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">Under 6 months</td><td class="py-2 pr-3">10 mg</td><td class="py-2 pr-3">&frac12; tablet once daily</td><td class="py-2 pr-3">10 to 14 days</td></tr>
+      <tr><td class="py-2 pr-3">6 months to 5 years (and older children)</td><td class="py-2 pr-3">20 mg</td><td class="py-2 pr-3">1 tablet once daily</td><td class="py-2 pr-3">10 to 14 days</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Dissolve the tablet in a teaspoon of clean water or breast milk and give with a spoon. Give it even when diarrhoea stops on day 3; it reduces the duration and severity of the episode and the risk of a further attack over the next 2 to 3 months.</li>
+  <li>Zinc is dosed as <strong>elemental zinc</strong>; check the label (for example, 20 mg of elemental zinc is about 55 mg of zinc sulphate heptahydrate).</li>
+  <li>If a child vomits within 30 minutes, repeat the dose. Mild vomiting from zinc is common; give the tablet in small sips or with feeds.</li>
+  <li>Adults: zinc is not routinely needed; use in malnourished or persistent diarrhoea cases at 20 mg daily.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Feeding</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Never starve the child or dilute the usual diet.</strong> Continue breastfeeding throughout. Non-breastfed infants continue their usual formula at full strength (a lactose-free formula is rarely needed).</li>
+  <li>Give small, frequent meals (6 times a day): pap or ogi with milk or groundnut paste, mashed banana, rice, yam or potato, well-cooked beans, eggs, fish, chicken, soft fruit, and fortify with a little oil. After the episode, give an extra meal daily for 2 weeks.</li>
+  <li>Avoid sweetened drinks and undiluted fruit juices. Do not give herbal mixtures ("agbo"), which may contain unsafe substances and delay presentation.</li>
+  <li>Vitamin A (if due): 50,000 IU (under 6 months), 100,000 IU (6 to 11 months), 200,000 IU (12 months and older), in line with the national schedule, especially with measles or malnutrition.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="symptomatic-treatment-what-helps-and-what-to-avoid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Symptomatic Treatment: What Helps and What to Avoid
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Symptom</th><th class="py-2 pr-3">Drug and dose</th><th class="py-2 pr-3">Comment</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Vomiting preventing ORS</td>
+        <td class="py-2 pr-3 align-top"><strong>Ondansetron, single dose</strong> (about 0.15 mg/kg, oral or IV). By weight: 8 to 15 kg, 2 mg; over 15 to 30 kg, 4 mg; over 30 kg, 8 mg. Tablets 4 and 8 mg, oral disintegrating tablets, syrup 4 mg/5 mL, injection 4 mg/2 mL. Adults 4 to 8 mg, repeat every 8 hours if needed.</td>
+        <td class="py-2 pr-3 align-top">Give 15 to 30 minutes before restarting ORS. Reserve for persistent vomiting; usually not needed. Labelled use is for children 6 months and above (check the product); avoid in prolonged QT. May increase stool frequency a little.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Fever or pain</td>
+        <td class="py-2 pr-3 align-top"><strong>Paracetamol</strong> 15 mg/kg every 6 hours as needed (syrup 120 mg/5 mL: 10 kg = 6 mL; 15 kg = 9 mL; 20 kg = 12 mL; tablets 500 mg for older children and adults, 1 g every 6 hours; maximum 4 doses a day).</td>
+        <td class="py-2 pr-3 align-top">Avoid ibuprofen and other NSAIDs while dehydrated (kidney injury). Treat fever with malaria testing, not paracetamol alone.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Abdominal cramps (adults and older children)</td>
+        <td class="py-2 pr-3 align-top">Hyoscine butylbromide (Buscopan) 10 mg three times daily for adults and children over 6 years, or 20 mg for adults.</td>
+        <td class="py-2 pr-3 align-top">Avoid in dysentery, severe disease or suspected obstruction; not for infants.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Large-volume watery diarrhoea (optional adjunct)</td>
+        <td class="py-2 pr-3 align-top"><strong>Racecadotril</strong> 1.5 mg/kg three times daily with ORS: sachets 10 mg (under 9 kg), 30 mg (9 kg and above), up to 7 days; adults 100 mg three times daily.</td>
+        <td class="py-2 pr-3 align-top">Evidence is modest; optional. Do not use in dysentery, or in children under 3 months unless a specialist advises.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Loose stool in an adult who must travel or work</td>
+        <td class="py-2 pr-3 align-top">Loperamide (Imodium) 4 mg after the first loose stool, then 2 mg after each further stool (maximum 16 mg/day; maximum 48 hours).</td>
+        <td class="py-2 pr-3 align-top"><strong>Never in children under 12 years, in bloody stool, fever, suspected cholera or toxic patients.</strong> Risk of ileus and toxic megacolon.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Probiotics</td>
+        <td class="py-2 pr-3 align-top">Optional (for example <em>Lactobacillus rhamnosus GG</em> or <em>Saccharomyces boulardii</em>), as per the product label.</td>
+        <td class="py-2 pr-3 align-top">Modest benefit; not recommended routinely by WHO. Avoid in immunosuppressed and critically ill patients.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Do not give</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Antibiotics for watery diarrhoea</strong>; the common fixed-dose combinations (for example ciprofloxacin or norfloxacin with tinidazole) sold over the counter, which are irrational and mis-dosed for children.</li>
+  <li><strong>Kaolin-pectin, activated charcoal, diphenoxylate-atropine (Lomotil), codeine</strong> and other anti-motility or adsorbent drugs in children.</li>
+  <li><strong>Metoclopramide or promethazine</strong> in young children (extrapyramidal reactions, sedation).</li>
+  <li>Intramuscular injections of unnecessary drugs, and "drips" given because a child has mild diarrhoea.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="antimicrobial-treatment-by-cause" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Antimicrobial Treatment by Cause
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most acute diarrhoea in Nigeria is viral (rotavirus, norovirus, adenovirus) or self-limiting bacterial (ETEC, EPEC) and needs <strong>fluids, zinc and feeding only</strong>. Antibiotics are given for <strong>dysentery</strong>, <strong>suspected cholera with severe dehydration</strong>, <strong>proven or suspected enteric fever</strong>, and in selected parasitic infections. Stool microscopy, culture (if available) and a rapid test for cholera help in outbreaks.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Dysentery (bloody diarrhoea): treat as Shigella unless amoebiasis is proven</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Option</th><th class="py-2 pr-3">Children</th><th class="py-2 pr-3">Adults</th><th class="py-2 pr-3">Notes</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Ciprofloxacin (first line)</td><td class="py-2 pr-3 align-top">15 mg/kg twice daily for 3 days (maximum 500 mg per dose). Quick guide with 250 mg tablets: under 1 year &frac12; tablet; 1 to 4 years 1 tablet; 5 to 15 years 2 tablets</td><td class="py-2 pr-3 align-top">500 mg twice daily for 3 days</td><td class="py-2 pr-3 align-top">WHO accepts a short course in children for Shigella. Resistance is rising; check local susceptibility.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Azithromycin</td><td class="py-2 pr-3 align-top">12 mg/kg on day 1, then 6 mg/kg once daily on days 2 and 3 (suspension 200 mg/5 mL)</td><td class="py-2 pr-3 align-top">500 mg on day 1, then 250 mg daily for 2 days (or 1 g single dose)</td><td class="py-2 pr-3 align-top">Alternative for resistant strains, and for children who cannot take ciprofloxacin</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Ceftriaxone</td><td class="py-2 pr-3 align-top">50 to 100 mg/kg IM or IV once daily for 3 to 5 days (maximum 2 g)</td><td class="py-2 pr-3 align-top">1 to 2 g once daily for 3 to 5 days</td><td class="py-2 pr-3 align-top">Severe, toxic or multi-resistant disease, or when oral drugs cannot be taken</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Pivmecillinam</td><td class="py-2 pr-3 align-top">20 mg/kg four times daily for 5 days (maximum 300 mg per dose)</td><td class="py-2 pr-3 align-top">400 mg three times daily</td><td class="py-2 pr-3 align-top">Where available, for multi-resistant Shigella</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Review after 2 days: if no improvement, change to a second-line drug, test the stool, and consider amoebiasis. Avoid anti-motility drugs. Admit children under 6 months and those who are malnourished, dehydrated or toxic.</li>
+  <li><strong>Amoebic dysentery</strong> (trophozoites with ingested red cells on fresh stool microscopy; or no response to two antibiotics for Shigella): metronidazole 10 mg/kg three times daily (maximum 800 mg per dose) for 5 to 10 days in children; adults 800 mg three times daily for 5 days (or 500 to 750 mg three times daily for 7 to 10 days). Follow with a luminal agent (diloxanide furoate) where available.</li>
+  <li><strong>Salmonella, Campylobacter, E. coli:</strong> most are self-limiting. Treat when systemic illness, invasive disease, age under 3 months or immunosuppression (including HIV and sickle cell disease) is present, using ceftriaxone, azithromycin or ciprofloxacin per culture.</li>
+  <li><strong>Enteric fever</strong> presents with fever, abdominal pain and constipation or diarrhoea; confirm with blood culture and treat per the typhoid guideline (azithromycin, ceftriaxone). Do not use Widal alone to diagnose.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cholera (outbreaks occur repeatedly in Nigeria, especially in the rainy season and in settlements with poor water and sanitation)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Suspect cholera</strong> in a patient over 2 years with profuse watery "rice-water" diarrhoea and severe dehydration in an outbreak area. A rapid diagnostic test and culture confirm it; do not wait for results to start treatment.</li>
+  <li><strong>Rehydration is the treatment.</strong> Use Plan A, B or C as above, with generous ongoing replacement: after each stool give ORS 10 mL/kg for children, or 200 to 250 mL for adults. In severe dehydration, use Plan C with Ringer's lactate (100 mL/kg), start ORS early, and replace stool losses measured in a cholera cot or bucket. Cholera losses can exceed 1 litre an hour in adults.</li>
+  <li><strong>Antibiotics shorten illness and stool volume; give them to patients with severe dehydration</strong> once vomiting has settled (usually after 4 to 6 hours of rehydration):
+    <ul class="list-disc pl-5 space-y-1 mt-1">
+      <li><strong>Azithromycin single dose:</strong> children 20 mg/kg (maximum 1 g); adults 1 g.</li>
+      <li><strong>Doxycycline single dose:</strong> adults 300 mg; children over 8 years about 2 to 4 mg/kg (maximum 300 mg).</li>
+      <li>Alternatives: ciprofloxacin 20 mg/kg single dose (adults 1 g), or erythromycin and cotrimoxazole for 3 days where susceptible. Choose by local antibiogram.</li>
+    </ul>
+  </li>
+  <li><strong>Notify immediately</strong> the LGA disease surveillance officer, state epidemiologist and NCDC. Isolate, disinfect stool and vomit with 0.5% chlorine, wash hands, chlorinate water and educate on burial of the dead. <strong>Oral cholera vaccine</strong> is used for outbreak response and in high-risk areas.</li>
+  <li>Give zinc to children and continue feeding; refer to a cholera treatment centre where one exists.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Giardiasis and persistent parasitic diarrhoea</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Children</th><th class="py-2 pr-3">Adults</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Tinidazole (single dose)</td><td class="py-2 pr-3 align-top">50 mg/kg once (maximum 2 g)</td><td class="py-2 pr-3 align-top">2 g once</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Metronidazole</td><td class="py-2 pr-3 align-top">5 mg/kg three times daily for 5 to 7 days (15 mg/kg/day divided)</td><td class="py-2 pr-3 align-top">250 mg three times daily for 5 to 7 days</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Nitazoxanide (also cryptosporidium)</td><td class="py-2 pr-3 align-top">1 to 3 years 100 mg twice daily; 4 to 11 years 200 mg twice daily; for 3 days</td><td class="py-2 pr-3 align-top">500 mg twice daily for 3 days</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-sm">Treat giardia only when trophozoites or cysts are found in a child with persistent diarrhoea or in cases that fail to improve; routine presumptive treatment of every watery stool is not recommended. In HIV, cryptosporidiosis and isosporiasis (treated with cotrimoxazole) are common causes of chronic diarrhoea; start antiretroviral therapy under the HIV programme.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Antibiotic-associated and Clostridioides difficile diarrhoea</strong>
+<p class="text-sm">Suspect after a recent course of antibiotics (or hospital stay). Stop the offending antibiotic if possible. For confirmed severe disease, oral vancomycin 125 mg four times daily for 10 days (adults) or metronidazole 400 to 500 mg three times daily for 10 days where vancomycin or fidaxomicin are unavailable.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-groups-malnutrition-neonates-hiv-adults-and-pregnancy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Special Groups: Malnutrition, Neonates, HIV, Adults and Pregnancy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Severe acute malnutrition (SAM)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Dehydration is over-diagnosed in malnutrition</strong> (sunken eyes, loose skin are normal signs). Diagnose from the history of watery diarrhoea and a recent change in the child's appearance, and treat orally.</li>
+  <li><strong>Use ReSoMal</strong> (or standard low-osmolarity ORS with extra potassium and a little sugar, with no added salt if ReSoMal is unavailable and where specialist advice is available): <strong>5 mL/kg every 30 minutes for the first 2 hours</strong>, then <strong>5 to 10 mL/kg per hour for up to 10 hours</strong>, alternating with F-75 feeds. Orally or by nasogastric tube. Stop when thirst has gone, urine passed, and the child is better. Reassess every hour for fluid overload (rising respiratory rate and pulse, enlarged liver, crackles).</li>
+  <li><strong>IV fluids only for shock</strong> (lethargy plus cold hands, slow capillary refill and weak fast pulse): <strong>15 mL/kg over 1 hour</strong> of Ringer's lactate with 5% dextrose (or half-strength Darrow's solution with 5% dextrose), then reassess; if better, continue with ReSoMal; if no improvement, consider blood transfusion (10 mL/kg slowly) and treat sepsis. Avoid aggressive boluses.</li>
+  <li>Give broad-spectrum antibiotics to all admitted SAM children (per the national SAM protocol, for example amoxicillin, with gentamicin or ceftriaxone for complicated cases), warmth, glucose, vitamin A and micronutrients, and start RUTF or F-75 when stable.</li>
+  <li>Do not give iron early, and do not use standard ORS for SAM without specialist guidance except in cholera, where standard ORS is used.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Young infants and neonates</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Any infant under 2 months with diarrhoea should be assessed by a doctor and usually admitted; consider sepsis, necrotising enterocolitis, intussusception, cow's milk protein allergy.</li>
+  <li>Breast milk continues. Rehydrate with ORS (50 to 100 mL after each stool) if mild; for severe dehydration give Ringer's lactate with 5% dextrose 20 mL/kg boluses, reassessed after each, and consider antibiotics for sepsis (ampicillin plus gentamicin, as in the LRTI guide, section 5).</li>
+  <li>Avoid excess free water and large volumes of hypotonic fluid. Monitor sodium and glucose.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Persistent diarrhoea (14 days or more) in children</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Check for dehydration, malnutrition, HIV, TB, urinary and respiratory infection, and malaria. Admit if dehydrated, malnourished or very ill.</li>
+  <li>Give zinc 20 mg daily (10 mg under 6 months) for 10 to 14 days, vitamin A, multivitamins and minerals (folate, zinc, magnesium, copper) for 2 weeks; continue breastfeeding; use a diet with less lactose (for example yoghurt or fermented ogi) if milk-based feeds worsen the diarrhoea.</li>
+  <li>Treat specific causes only after finding them: Shigella, giardia, amoebiasis, TB. Do not give anti-motility or repeated empirical antibiotics.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adults, older people and pregnancy</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Mild or moderate:</strong> ORS 200 to 250 mL after each loose stool, or 75 mL/kg over 4 hours; most adults can take ORS or salt-containing drinks and food by mouth.</li>
+  <li><strong>Severe or in shock:</strong> Ringer's lactate 30 mL/kg over 30 minutes, then 70 mL/kg over 2.5 hours (about 2 litres and then 4 litres for a 60 kg adult), reassessing every 15 to 30 minutes; then maintenance 25 to 30 mL/kg/day with replacement of stool and vomit losses. Use caution in heart failure, renal disease and the elderly (reassess after each 500 mL).</li>
+  <li><strong>Check for hypokalaemia</strong> (weakness, ileus, arrhythmias) and acute kidney injury. Stop NSAIDs, ACE inhibitors, ARBs, diuretics and metformin temporarily while dehydrated.</li>
+  <li>Blood in stool, fever above 38.5 degrees C, severe abdominal pain, age over 70, immune suppression (HIV, diabetes) or persistence beyond 7 days: examine, send stool and consider ciprofloxacin 500 mg twice daily for 3 days or azithromycin 500 mg daily for 3 days; arrange admission if unwell.</li>
+  <li><strong>Pregnancy:</strong> ORS and fluids as above; ondansetron is acceptable after the first trimester when needed; avoid ciprofloxacin and doxycycline (use azithromycin or ceftriaxone for dysentery or cholera); refer early because dehydration can precipitate preterm labour.</li>
+  <li><strong>Diabetes, HIV and sickle cell disease:</strong> lower threshold for admission; adjust insulin; check glucose and potassium.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="drug-dosage-and-formulation-reference-by-age-group" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Drug Dosage and Formulation Reference by Age Group
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Quick reference. Confirm the concentration on the bottle or vial, and calculate from weight.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Drug and formulation</th><th class="py-2 pr-3">Under 6 months</th><th class="py-2 pr-3">6 months to 5 years</th><th class="py-2 pr-3">5 to 12 years</th><th class="py-2 pr-3">Adolescents and adults</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">ORS<br><span class="font-normal">Low-osmolarity sachet, 1 L or smaller packs</span></td>
+        <td class="py-2 pr-3 align-top">Plan A: 50 to 100 mL per stool; Plan B: 75 mL/kg over 4 h</td>
+        <td class="py-2 pr-3 align-top">Plan A: 50 to 100 mL (under 2 y) or 100 to 200 mL (2 y and older) per stool; Plan B: 75 mL/kg over 4 h</td>
+        <td class="py-2 pr-3 align-top">100 to 200 mL per stool; 75 mL/kg over 4 h</td>
+        <td class="py-2 pr-3 align-top">As much as wanted; 200 to 250 mL per stool; 75 mL/kg over 4 h</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Zinc<br><span class="font-normal">Dispersible 20 mg tablet</span></td>
+        <td class="py-2 pr-3 align-top">10 mg (&frac12; tablet) daily, 10 to 14 days</td>
+        <td class="py-2 pr-3 align-top">20 mg (1 tablet) daily, 10 to 14 days</td>
+        <td class="py-2 pr-3 align-top">20 mg daily, 10 to 14 days</td>
+        <td class="py-2 pr-3 align-top">Not routine</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Ringer's lactate IV</td>
+        <td class="py-2 pr-3 align-top">100 mL/kg: 30 mL/kg over 1 h, then 70 mL/kg over 5 h</td>
+        <td class="py-2 pr-3 align-top">Under 12 m: as left; 12 m and older: 30 mL/kg over 30 min, then 70 mL/kg over 2.5 h</td>
+        <td class="py-2 pr-3 align-top">30 mL/kg over 30 min, then 70 mL/kg over 2.5 h</td>
+        <td class="py-2 pr-3 align-top">30 mL/kg over 30 min, then 70 mL/kg over 2.5 h</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Ondansetron<br><span class="font-normal">Tablet 4, 8 mg; ODT; syrup 4 mg/5 mL; injection 4 mg/2 mL</span></td>
+        <td class="py-2 pr-3 align-top">Not recommended under 6 months without specialist advice</td>
+        <td class="py-2 pr-3 align-top">0.15 mg/kg once (8 to 15 kg: 2 mg = 2.5 mL of syrup)</td>
+        <td class="py-2 pr-3 align-top">4 mg once (15 to 30 kg); 8 mg if over 30 kg</td>
+        <td class="py-2 pr-3 align-top">4 to 8 mg, repeat every 8 h if needed</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Paracetamol<br><span class="font-normal">Syrup 120 mg/5 mL and 250 mg/5 mL; tablet 500 mg</span></td>
+        <td class="py-2 pr-3 align-top">10 to 15 mg/kg every 6 h; seek advice under 2 months</td>
+        <td class="py-2 pr-3 align-top">15 mg/kg every 6 h (maximum 4 doses)</td>
+        <td class="py-2 pr-3 align-top">15 mg/kg every 6 h</td>
+        <td class="py-2 pr-3 align-top">1 g every 6 h (maximum 4 g/day)</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Ciprofloxacin (dysentery)<br><span class="font-normal">Tablet 250 and 500 mg; suspension 250 mg/5 mL</span></td>
+        <td class="py-2 pr-3 align-top">Specialist advice; 15 mg/kg twice daily if used</td>
+        <td class="py-2 pr-3 align-top">15 mg/kg twice daily for 3 days (250 mg tablet: under 1 y &frac12;; 1 to 4 y 1)</td>
+        <td class="py-2 pr-3 align-top">15 mg/kg twice daily (250 mg tablet: 5 to 15 y, 2 tablets)</td>
+        <td class="py-2 pr-3 align-top">500 mg twice daily for 3 days</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Azithromycin<br><span class="font-normal">Suspension 200 mg/5 mL; tablets 250 and 500 mg</span></td>
+        <td class="py-2 pr-3 align-top">Dysentery: 12 mg/kg day 1, 6 mg/kg days 2 and 3. Cholera: 20 mg/kg once</td>
+        <td class="py-2 pr-3 align-top">Same as left (maximum 1 g for cholera)</td>
+        <td class="py-2 pr-3 align-top">Same as left</td>
+        <td class="py-2 pr-3 align-top">Dysentery: 500 mg then 250 mg daily; cholera 1 g once</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Ceftriaxone<br><span class="font-normal">Vials 250 mg, 500 mg, 1 g, 2 g</span></td>
+        <td class="py-2 pr-3 align-top">50 mg/kg once daily (avoid in jaundiced neonates)</td>
+        <td class="py-2 pr-3 align-top">50 to 100 mg/kg once daily</td>
+        <td class="py-2 pr-3 align-top">50 to 100 mg/kg once daily (maximum 2 g)</td>
+        <td class="py-2 pr-3 align-top">1 to 2 g once daily</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Metronidazole<br><span class="font-normal">Tablet 200 and 400 mg; suspension 200 mg/5 mL; IV 500 mg/100 mL</span></td>
+        <td class="py-2 pr-3 align-top">Specialist advice</td>
+        <td class="py-2 pr-3 align-top">Giardia 5 mg/kg three times daily; amoebiasis 10 mg/kg three times daily</td>
+        <td class="py-2 pr-3 align-top">Same as left (maximum 800 mg per dose)</td>
+        <td class="py-2 pr-3 align-top">Giardia 250 mg three times daily; amoebiasis 800 mg three times daily for 5 days</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Tinidazole<br><span class="font-normal">Tablet 500 mg</span></td>
+        <td class="py-2 pr-3 align-top">Not recommended under 3 years</td>
+        <td class="py-2 pr-3 align-top">50 mg/kg once (3 years and older)</td>
+        <td class="py-2 pr-3 align-top">50 mg/kg once (maximum 2 g)</td>
+        <td class="py-2 pr-3 align-top">2 g once</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="nigerian-brands-and-prescribing-realities" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Nigerian Brands and Prescribing Realities
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Product examples (verify the label)</th><th class="py-2 pr-3">Comment</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Oral rehydration salts</td><td class="py-2 pr-3 align-top">WHO low-osmolarity ORS sachets from several local manufacturers; Dioralyte and similar imported sachets</td><td class="py-2 pr-3 align-top">Check sachet volume (200 mL, 500 mL or 1 L) and expiry; the old high-sodium ORS is obsolete. Commercial "energy" or sports drinks are not substitutes</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Zinc</td><td class="py-2 pr-3 align-top">Zinc sulphate dispersible 20 mg tablets (government and NGO supplies); zinc syrups and tablets under many brands</td><td class="py-2 pr-3 align-top">Look for "20 mg elemental" on dispersible tablets; many multivitamin syrups contain too little to count as treatment. Zinc and ORS are often available free at PHCs under national programmes</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Ringer's lactate, normal saline, dextrose</td><td class="py-2 pr-3 align-top">Hartmann's solution, 0.9% saline, 5% dextrose, 5% dextrose in 0.9% saline; dextrose-saline (4.3% in 0.18%) is hypotonic</td><td class="py-2 pr-3 align-top">Check the bag label for what the fluid is</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Ondansetron</td><td class="py-2 pr-3 align-top">Zofran, Emeset and generics</td><td class="py-2 pr-3 align-top">Syrup is not stocked in all pharmacies</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Ciprofloxacin</td><td class="py-2 pr-3 align-top">Ciprotab, Ciprobay and generics</td><td class="py-2 pr-3 align-top">Many counterfeit or under-dosed products; buy from licensed pharmacies</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Azithromycin</td><td class="py-2 pr-3 align-top">Zithromax and generics</td><td class="py-2 pr-3 align-top">Check the suspension strength (200 mg/5 mL)</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Metronidazole, tinidazole</td><td class="py-2 pr-3 align-top">Flagyl, Metrotab; Fasigyn, Tiniba</td><td class="py-2 pr-3 align-top">Avoid alcohol; metallic taste; check the suspension strength</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Combination products</td><td class="py-2 pr-3 align-top">Ciprofloxacin plus tinidazole, norfloxacin plus tinidazole and similar fixed-dose tablets</td><td class="py-2 pr-3 align-top">Widely sold over the counter; not recommended as default, and the doses are unsuitable for most children</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Racecadotril</td><td class="py-2 pr-3 align-top">Hidrasec sachets (10 mg, 30 mg)</td><td class="py-2 pr-3 align-top">Optional adjunct; costly</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Loperamide, diphenoxylate</td><td class="py-2 pr-3 align-top">Imodium, Lomotil</td><td class="py-2 pr-3 align-top">Not for children; avoid in dysentery and cholera</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Cotrimoxazole</td><td class="py-2 pr-3 align-top">Septrin and generics</td><td class="py-2 pr-3 align-top">Often resisted; used for isosporiasis in HIV</td></tr>
+    </tbody>
+  </table>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Prescribing realities</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>The most common avoidable harm is delayed ORS.</strong> Many children are first given herbal mixtures, antibiotic and antimalarial combinations, or injections by patent medicine vendors. Ask what was taken, and counsel kindly.</li>
+  <li><strong>Teach caregivers to mix ORS</strong> in the clinic with a demonstration: the right volume of water, using a clean cup, and a plan for how many sips to give.</li>
+  <li><strong>Over-use of IV drips</strong> in mild disease costs money, exposes the child to risk and delays oral rehydration; reserve for Plan C and failure of ORS.</li>
+  <li><strong>Water safety:</strong> where water is not safe, boil for 1 minute, or use chlorine tablets or a filter. Boiled and cooled water is needed to prepare ORS and formula.</li>
+  <li><strong>Referral:</strong> start ORS or IV fluid before transfer; send a note with weight, fluids given and time.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="prevention-follow-up-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Prevention, Follow-Up and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Rotavirus vaccine</strong> is part of the national schedule where rolled out; confirm your state's schedule and vaccinate on time (doses at 6 and 10 weeks per local programme). Also keep measles, pentavalent and pneumococcal vaccines up to date; measles vaccination reduces diarrhoea-related deaths.</li>
+  <li><strong>Exclusive breastfeeding</strong> for 6 months, safe complementary feeding, vitamin A, and prompt treatment of malnutrition.</li>
+  <li><strong>Water, sanitation and hygiene (WASH):</strong> hand-washing with soap after toilet use and before preparing food or feeding; safe disposal of children's stools; treat and store drinking water safely; avoid open defecation; wash fruit and vegetables; clean feeding bottles (and avoid bottle feeding where possible); protect food from flies.</li>
+  <li><strong>Oral cholera vaccine</strong> for outbreak response and in high-risk communities, according to NCDC and the state ministry of health.</li>
+  <li><strong>Counselling checklist for caregivers:</strong> make ORS correctly, give small frequent sips, continue feeding, give zinc daily for 10 to 14 days (and finish it), and return for danger signs (not able to drink, very frequent watery stool, repeated vomiting, blood in stool, fever, drowsiness, sunken eyes, passing little or no urine).</li>
+  <li><strong>Follow-up:</strong> review at 2 days if not improving (earlier for danger signs) and at 5 days for dysentery; check weight and growth at the next visit; refer persistent diarrhoea (14 days or more) for evaluation of malnutrition, HIV and TB.</li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block font-semibold mb-2">Guideline Watch</strong>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Plan C timing:</strong> WHO's 30 mL/kg then 70 mL/kg schedule (1 hour then 5 hours for infants; 30 minutes then 2.5 hours for older patients) is used in this guide. Some paediatric emergency guidelines use smaller 10 to 20 mL/kg boluses with reassessment for shock, and rapid IV therapy is slower in malnutrition. Follow your hospital protocol.</li>
+  <li><strong>Plan B (75 mL/kg over 4 hours)</strong> and age-band volumes were checked against WHO-derived sources. The 10 mL/kg per stool replacement is a WHO convention; many programmes use the age-band volumes instead.</li>
+  <li><strong>Zinc:</strong> 20 mg daily (10 mg under 6 months) for 10 to 14 days. Some older programmes give 10 days; WHO and national documents now say 10 to 14 days.</li>
+  <li><strong>Ondansetron:</strong> the weight-banded doses (2, 4, 8 mg) and age limits come from widely used reference doses and were not re-checked against a fetched source. Evidence supports a single dose for persistent vomiting only.</li>
+  <li><strong>Antibiotic doses for cholera, amoebiasis, giardiasis, nitazoxanide, tinidazole and C. difficile</strong> come from standard references (WHO, MSF and common formularies) that I could not retrieve here; verify against your national guideline and local resistance patterns, especially for ciprofloxacin and azithromycin in children.</li>
+  <li><strong>Racecadotril and probiotics:</strong> evidence is modest and WHO does not recommend them routinely.</li>
+  <li><strong>Nigerian guidance:</strong> the FMOH Standard Treatment Guidelines, national IMCI and ICCM charts, the NCDC cholera case management guidance, and the national SAM protocol were not retrievable; use them for facility-level decisions. The rotavirus vaccine schedule should be confirmed locally.</li>
+  <li><strong>Maintenance fluids:</strong> AAP 2018 recommends isotonic solutions; hypotonic dextrose-saline is still stocked on many Nigerian wards.</li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<strong class="block font-semibold text-rose-900 dark:text-rose-200 mb-3">Findings That Must Not Be Missed</strong>
+<ul class="space-y-2 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Lethargy, cold peripheries, weak pulse, no urine:</strong> shock; start IV Ringer's lactate now (30 mL/kg, then 70 mL/kg) and reassess every 15 to 30 minutes.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Fever with vomiting or diarrhoea in a child:</strong> test for malaria; consider sepsis, urinary tract infection, pneumonia and meningitis.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Episodic screaming, bilious vomiting, blood and mucus ("red-currant jelly"), abdominal mass or distension:</strong> intussusception or obstruction; make the child nil by mouth and refer for surgery.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Severe acute malnutrition:</strong> avoid IV fluids and large boluses unless in shock; use ReSoMal; treat hypoglycaemia and hypothermia.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Profuse rice-water stools in an outbreak:</strong> suspect cholera; rehydrate aggressively, give a single-dose antibiotic if severe, isolate, and notify.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Bloody diarrhoea with pallor, reduced urine or bruising:</strong> haemolytic uraemic syndrome; refer urgently and avoid antibiotics unless sepsis; avoid anti-motility drugs.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Irritable, high-pitched cry, doughy skin or convulsions:</strong> hypernatraemia; check glucose and sodium; correct slowly.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Child with diarrhoea who becomes breathless or has crackles during IV fluids:</strong> fluid overload; stop the infusion and reassess (consider anaemia, heart disease).</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Infant under 2 months, or any very sick HIV-exposed child:</strong> admit.</span></li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<strong class="block font-semibold text-indigo-950 dark:text-indigo-200 mb-3">Key Clinical Takeaways</strong>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-200">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Classify dehydration first. No dehydration: Plan A at home. Some dehydration: ORS 75 mL/kg over 4 hours and reassess. Severe: IV Ringer's lactate 100 mL/kg (30 then 70 mL/kg, with timing by age).</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Oral is the default route, including by nasogastric tube (20 mL/kg/hour). Never use dextrose alone or hypotonic dextrose-saline for rehydration.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Give zinc to every child with diarrhoea: 10 mg (under 6 months) or 20 mg (6 months and over) daily for 10 to 14 days; continue breastfeeding and feeding.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>No antibiotics for watery diarrhoea. Treat bloody diarrhoea for Shigella (ciprofloxacin 15 mg/kg twice daily for 3 days, or azithromycin), and give a single-dose antibiotic only for severe cholera.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ondansetron (single dose) helps if vomiting blocks ORS; avoid loperamide, kaolin and diphenoxylate in children; avoid NSAIDs during dehydration.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In severe acute malnutrition: ReSoMal 5 mL/kg every 30 minutes for 2 hours, then 5 to 10 mL/kg/hour; IV fluid only for shock (15 mL/kg over 1 hour).</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Test for malaria in every febrile child, and consider surgical and systemic causes. Prevention: rotavirus and measles vaccination, breastfeeding, safe water and hand-washing.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-6 font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. World Health Organization (WHO). The treatment of diarrhoea: a manual for physicians and other senior health workers (Plans A, B, C), and WHO guidelines for the management of pneumonia and diarrhoea in children.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. WHO / UNICEF. Joint statement on the clinical management of acute diarrhoea (low-osmolarity ORS and zinc), 2004.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. WHO. Pocket book of hospital care for children (diarrhoea, dehydration, severe acute malnutrition, ReSoMal).</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Medecins Sans Frontieres (MSF). Clinical guidelines: diarrhoea, cholera, dysentery.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. WHO. Cholera outbreak: treatment and prevention guidance; Global Task Force on Cholera Control.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. WHO. Guidelines for the control of shigellosis, including epidemics due to Shigella dysenteriae type 1, 2005.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. American Academy of Pediatrics (AAP). Clinical practice guideline: maintenance intravenous fluids in children, 2018.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. WHO. Guideline: updates on the management of severe acute malnutrition in infants and children, 2013.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Pedianote acute diarrhoea summary (dehydration classification, ORS and IV fluid volumes, ondansetron, antibiotics) and GPnotebook WHO Plan A summary, accessed for cross-checking.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Federal Ministry of Health, Nigeria. Standard Treatment Guidelines; national IMCI and ICCM guidance; Nigeria Centre for Disease Control (NCDC) cholera guidance.</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Infectious Diseases Society of America. Practice guidelines for the management of infectious diarrhea (and C. difficile guidelines).</p>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+{
+  id: 'treatment-enteric-fever-typhoid',
+  title: 'Enteric Fever (Typhoid and Paratyphoid)',
+  category: 'Treatment',
+  subCategory: 'Infectious Disease',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; INFECTIOUS DISEASE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Enteric Fever: Typhoid and Paratyphoid</h1>
+  <p class="text-sm text-indigo-200">Enteric fever is diagnosed in Nigeria far more often than it is proven. Widal results, malaria co-infection and routine self-medication blur the picture, and rising resistance has made the older drugs unreliable. This guide covers how to confirm the diagnosis, who to treat at home and who to admit, which antibiotic at what dose, which fluids and how fast, how to manage perforation and bleeding, special groups, the Nigerian brands you will meet, and the practices that should stop.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>How to use this guide.</strong> Doses follow MSF clinical guidelines, WHO-referenced treatment reviews and the Cochrane review, adapted to published Nigerian susceptibility data. Weigh every patient and dose by weight. Local susceptibility patterns change; use your laboratory&rsquo;s antibiogram, your hospital protocol and the current national guideline, and confirm paediatric doses with a pharmacist when in doubt.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#confirm-the-diagnosis-before-you-treat" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Confirm the Diagnosis Before You Treat</span></a></li>
+  <li><a href="#outpatient-or-admission" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Outpatient or Admission?</span></a></li>
+  <li><a href="#uncomplicated-enteric-fever-oral-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Uncomplicated Enteric Fever: Oral Treatment</span></a></li>
+  <li><a href="#choosing-the-drug-by-resistance-pattern" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Choosing the Drug by Resistance Pattern</span></a></li>
+  <li><a href="#symptomatic-and-supportive-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Symptomatic and Supportive Treatment</span></a></li>
+  <li><a href="#fluids-and-dehydration" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Fluids and Dehydration</span></a></li>
+  <li><a href="#severe-and-complicated-enteric-fever-inpatient-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Severe and Complicated Enteric Fever: Inpatient Treatment</span></a></li>
+  <li><a href="#intestinal-haemorrhage-and-perforation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Intestinal Haemorrhage and Perforation</span></a></li>
+  <li><a href="#other-complications" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Other Complications</span></a></li>
+  <li><a href="#special-groups" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Special Groups</span></a></li>
+  <li><a href="#typhoid-and-malaria-together" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Typhoid and Malaria Together</span></a></li>
+  <li><a href="#paratyphoid-and-other-variants" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Paratyphoid and Other Variants</span></a></li>
+  <li><a href="#response-treatment-failure-and-relapse" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Response, Treatment Failure and Relapse</span></a></li>
+  <li><a href="#chronic-carriers-and-public-health" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Chronic Carriers and Public Health</span></a></li>
+  <li><a href="#prevention-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Prevention and Counselling</span></a></li>
+  <li><a href="#nigerian-brands-strengths-and-interactions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">16</span><span>Nigerian Brands, Strengths and Interactions</span></a></li>
+  <li><a href="#common-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">17</span><span>Common Practices to Avoid</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="confirm-the-diagnosis-before-you-treat" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Confirm the Diagnosis Before You Treat
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Enteric fever is the umbrella name for typhoid (<em>Salmonella</em> Typhi) and paratyphoid (<em>S.</em> Paratyphi A, B or C). It is a bloodstream infection, not a gut infection that happens to cause fever, and it is the diagnosis most often made on a Widal result alone. In a febrile Nigerian patient the first task is to separate real enteric fever from malaria, urinary infection, Lassa fever and a surgical abdomen, and to take a blood culture before the first antibiotic dose whenever a laboratory can process one.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Typical course without treatment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Week</th><th class="py-2 pr-3">What you usually see</th><th class="py-2 pr-3">What to watch for</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">1</td><td class="py-2 pr-3">Stepwise rising fever, headache, malaise, anorexia, dry cough, abdominal discomfort, constipation (adults) or diarrhoea (children)</td><td class="py-2 pr-3">Easily mistaken for malaria; malaria and typhoid can coexist</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">2</td><td class="py-2 pr-3">Sustained high fever, coated tongue, abdominal distension, tender right iliac fossa, hepatosplenomegaly, confusion or "muttering" delirium, occasional rose spots (hard to see on dark skin)</td><td class="py-2 pr-3">Complications begin: haemorrhage, hepatitis, encephalopathy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">3</td><td class="py-2 pr-3">Toxic appearance, wasting, deepening abdominal signs</td><td class="py-2 pr-3">Highest risk of intestinal perforation and bleeding</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">4 and later</td><td class="py-2 pr-3">Slow recovery if untreated; relapse can follow even treated illness</td><td class="py-2 pr-3">Relapse about 2 to 3 weeks after recovery; carriage in a minority</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tests: what each one can and cannot tell you</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Test</th><th class="py-2 pr-3">Use</th><th class="py-2 pr-3">Limits</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Blood culture (before antibiotics)</td><td class="py-2 pr-3">The test that proves the diagnosis and gives a susceptibility profile. Two sets if possible; take adequate blood volume for age and fill the bottle to the lab&rsquo;s mark</td><td class="py-2 pr-3">Sensitivity is only about 60%; lower after any antibiotic dose, including the "one injection" given at a chemist</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Stool or urine culture</td><td class="py-2 pr-3">Adds yield from the second week onwards</td><td class="py-2 pr-3">A positive stool culture can reflect carriage rather than current illness. In one South-East Nigerian prospective study stool was positive in 8.9% of suspects, blood in 2.6%</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Bone marrow culture</td><td class="py-2 pr-3">Highest yield, useful after antibiotics have been taken</td><td class="py-2 pr-3">Rarely available or practical</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Widal test</td><td class="py-2 pr-3">At best a weak supporting clue</td><td class="py-2 pr-3">Same study: sensitivity 49%, specificity 91% (cut-offs O &ge;1:80, H &ge;1:160). 63.9% of malaria-positive patients had a positive Widal against 1% (6 of 630) of malaria-negative patients, yet culture-confirmed typhoid was equally common in both groups. A positive Widal in a malaria patient mostly reflects cross-reaction and old exposure</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Rapid typhoid antibody kits</td><td class="py-2 pr-3">Not recommended by MSF guidance</td><td class="py-2 pr-3">Low sensitivity and specificity, same pitfalls as Widal</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Malaria RDT or film</td><td class="py-2 pr-3">Always, in every febrile patient</td><td class="py-2 pr-3">A positive test does not exclude typhoid; a negative one does not exclude it either if the patient has taken an ACT</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">FBC, glucose, urea/creatinine, LFT, urinalysis</td><td class="py-2 pr-3">Baseline and complication screening</td><td class="py-2 pr-3">Leucopenia or a normal WBC, anaemia, thrombocytopenia and mildly raised transaminases are common but not diagnostic</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Erect chest X-ray or abdominal ultrasound</td><td class="py-2 pr-3">Any patient with severe abdominal pain or tenderness</td><td class="py-2 pr-3">Free air is absent in a proportion of perforations; a normal film does not rule it out</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">How to use Widal if you must</strong>
+<p class="text-sm">A single titre is uninterpretable in a population with constant exposure and frequent self-medication. The only defensible use is a fourfold rise between two samples taken 7 to 14 days apart, which is far too slow to guide treatment. Never use a Widal titre to diagnose typhoid on its own, to choose between "malaria" and "typhoid", or as a test of cure.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When to treat empirically</strong>
+<p class="text-sm">Treat as enteric fever when fever has lasted three or more days with typical features (abdominal pain, constipation or diarrhoea, toxic look, hepatosplenomegaly), malaria has been tested for and treated if positive, no better diagnosis is evident, and a blood culture has been taken or cannot be done. Revise the drug when culture and susceptibility results return.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Look-alikes that matter in Nigeria</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Malaria</strong> (including severe malaria): see the separate malaria treatment guide.</li>
+  <li><strong>Lassa fever</strong>: fever with sore throat, retrosternal or abdominal pain, vomiting, facial swelling, bleeding or deafness, especially with rodent exposure, a Lassa contact or a recent health facility visit. Isolate, use full protective equipment and call the state surveillance officer or treatment centre early; do not wait for a failed typhoid course.</li>
+  <li>Urinary tract infection and pyelonephritis, pneumonia, tuberculosis, brucellosis (cattle and unpasteurised fresh milk or &ldquo;wara&rdquo;), hepatitis A and E, amoebic liver abscess, infective endocarditis, acute HIV illness, dengue, leptospirosis, appendicitis and other intra-abdominal sepsis.</li>
+  <li>In sickle cell disease: vaso-occlusive crisis, osteomyelitis and bacteraemia from other organisms can look identical.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Data caveat.</strong> Nigerian susceptibility data for <em>S.</em> Typhi come mainly from single-centre studies and a national laboratory report that pools all <em>Salmonella</em>. They are used below as a guide to what is plausible, not as a substitute for your own laboratory&rsquo;s antibiogram. I could not access the current Federal Ministry of Health Standard Treatment Guidelines text for typhoid, so the regimens follow MSF, WHO-referenced reviews and the Cochrane review, adapted to Nigerian resistance reports. Check your hospital protocol and the current national guideline before applying doses.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="outpatient-or-admission" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Outpatient or Admission?
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most patients with enteric fever can be treated at home or as outpatients with an oral antibiotic. Roughly one in ten needs admission and intravenous treatment. Admit on the clinical picture, not on the Widal titre or the number of days of fever.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Setting</th><th class="py-2 pr-3">Who belongs here</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Outpatient (oral antibiotic, review within 48 to 72 hours)</td><td class="py-2 pr-3">Alert, drinking, keeping tablets down, no persistent vomiting, no abdominal guarding or rigidity, no bleeding, stable pulse and blood pressure, a carer who can return, and money for the full course. Give the first dose in the clinic where possible</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Admit (IV antibiotic, fluids, monitoring)</td><td class="py-2 pr-3">Toxic appearance; reduced consciousness or confusion; persistent vomiting or inability to take oral treatment; clinical dehydration, low blood pressure or rapid pulse; severe abdominal pain, tenderness or distension; any rectal bleeding or black stool; jaundice; haemoglobin falling; a medical or surgical complication. Also admit pregnant women, infants, patients with sickle cell disease, advanced HIV or severe malnutrition, and anyone who cannot be reviewed reliably or who has failed an oral course</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Intensive care or HDU</td><td class="py-2 pr-3">Shock; significant intestinal bleeding; suspected perforation or peritonitis; encephalopathy with falling consciousness; need for dexamethasone or vasopressors</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Escalate at once if you see</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>New severe abdominal pain, guarding, rigidity or a rigid silent abdomen</strong> in the second or third week: treat as perforation until proven otherwise. A rising pulse with falling temperature and blood pressure is a late sign.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Melaena, fresh rectal blood, pallor with tachycardia or falling Hb.</strong></span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Confusion, stupor, convulsions or delirium:</strong> check glucose, exclude cerebral malaria and meningitis, and consider dexamethasone.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Shock:</strong> cold peripheries, slow capillary refill, systolic BP below 90 mmHg in adults, weak fast pulse.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Persistent vomiting, oliguria or jaundice.</strong></span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="uncomplicated-enteric-fever-oral-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Uncomplicated Enteric Fever: Oral Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Choose the drug from local susceptibility data and the patient&rsquo;s risk, not from habit. Where no antibiogram exists, oral azithromycin is the safest empirical choice for outpatients because it remains active against multidrug-resistant strains, is safe in pregnancy and needs no injection. Weigh every child and dose by weight. Treat for the full course even after the fever has settled, which usually takes 4 to 5 days.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Oral regimens</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Adult dose</th><th class="py-2 pr-3">Child dose</th><th class="py-2 pr-3">Duration</th><th class="py-2 pr-3">Comment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Azithromycin (first choice)</td><td class="py-2 pr-3">500 mg once daily; some regimens give 1 g on day 1 then 500 mg once daily (up to 1 g daily is used in MDR or more severe illness)</td><td class="py-2 pr-3">10 to 20 mg/kg once daily (maximum 1 g)</td><td class="py-2 pr-3">7 days</td><td class="py-2 pr-3">Covers MDR and XDR strains; usable in pregnancy. Common side effects: nausea, loose stools. QT prolongation: see Section 16. Example: a 20 kg child needs 200 to 400 mg, which is 5 to 10 mL of the 200 mg/5 mL suspension</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefixime</td><td class="py-2 pr-3">200 mg twice daily</td><td class="py-2 pr-3">10 mg/kg twice daily (maximum 200 mg per dose)</td><td class="py-2 pr-3">10 to 14 days</td><td class="py-2 pr-3">Not for third-generation cephalosporin-resistant or XDR strains. Evidence is thinner than for other agents and failure is reported, so use when azithromycin is not available or not tolerated. Example: a 20 kg child takes 200 mg, which is 10 mL of the 100 mg/5 mL suspension, twice daily</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ciprofloxacin (only if the isolate is susceptible)</td><td class="py-2 pr-3">500 mg twice daily (some references allow 750 mg)</td><td class="py-2 pr-3">Children&rsquo;s doses in references vary widely; prefer azithromycin or ceftriaxone in children unless culture proves susceptibility and nothing else is workable</td><td class="py-2 pr-3">7 days</td><td class="py-2 pr-3">Ask the laboratory to report ciprofloxacin against current CLSI or EUCAST breakpoints; older breakpoints miss reduced-susceptibility strains that fail treatment. Avoid in pregnancy where an alternative exists</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amoxicillin (only if proven susceptible)</td><td class="py-2 pr-3">1 g three times daily</td><td class="py-2 pr-3">30 mg/kg three times daily (maximum 1 g)</td><td class="py-2 pr-3">14 days</td><td class="py-2 pr-3">Do not use empirically in Nigeria: see resistance figures below</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Co-trimoxazole (only if proven susceptible)</td><td class="py-2 pr-3">800 mg sulfamethoxazole + 160 mg trimethoprim twice daily</td><td class="py-2 pr-3">20 mg sulfamethoxazole + 4 mg trimethoprim per kg twice daily (maximum 800 + 160 mg)</td><td class="py-2 pr-3">14 days</td><td class="py-2 pr-3">Same caution; avoid in G6PD deficiency, first-trimester and late pregnancy, and young infants</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What Nigerian data suggest about the older drugs</strong>
+<p class="text-sm">In a prospective South-East Nigerian series of 114 culture-confirmed <em>Salmonella</em> isolates (42 Typhi, 72 Paratyphi) from 2013 to 2016, resistance was 94% to ampicillin, 67% to co-trimoxazole, 43% to chloramphenicol, 4.4% to ceftriaxone and 0% to ciprofloxacin, although ofloxacin resistance was 12.3%, and 52.6% of isolates were multidrug resistant. A Lagos-based summary reports multidrug resistance above 80% of typhoid samples, with rising fluoroquinolone and cephalosporin resistance. A national laboratory report covering 2016 to 2018 found <em>Salmonella</em> fluoroquinolone resistance of 46% to 75% across years, but it pools all serovars and cannot be read as Typhi-specific. These figures disagree with each other, which is exactly why your own laboratory&rsquo;s susceptibility pattern should decide ciprofloxacin use. I found no systematic Nigerian azithromycin susceptibility data for <em>S.</em> Typhi; ask your laboratory to test it with Typhi-specific breakpoints.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Last-resort older agent</strong>
+<p class="text-sm">Chloramphenicol 500 mg orally or intravenously every 6 hours for 14 days in adults can be considered only when culture proves susceptibility and no other active drug is accessible. It carries marrow suppression risk, is avoided in late pregnancy and in neonates (grey baby syndrome), and has been largely replaced.</p>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: first-line choice.</strong> WHO-referenced reviews list ciprofloxacin, ceftriaxone and azithromycin as first-choice agents, with ciprofloxacin only where fluoroquinolone resistance is low (often taken as below 10%). MSF clinical guidelines prefer azithromycin or cefixime orally and ceftriaxone intravenously. Nigerian reports on fluoroquinolone susceptibility conflict. Until your laboratory shows low resistance, treat empirically with azithromycin (outpatient) or ceftriaxone (inpatient) and narrow to the cheapest active drug when results return.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-the-drug-by-resistance-pattern" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Choosing the Drug by Resistance Pattern
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Isolate pattern</th><th class="py-2 pr-3">What it means</th><th class="py-2 pr-3">Preferred treatment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fully susceptible</td><td class="py-2 pr-3">No resistance to first-line drugs</td><td class="py-2 pr-3">Azithromycin 7 days (oral), or ciprofloxacin 7 days, or ceftriaxone 10 to 14 days (inpatient)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Multidrug resistant (MDR)</td><td class="py-2 pr-3">Resistant to chloramphenicol, ampicillin/amoxicillin and co-trimoxazole. Common in Nigeria</td><td class="py-2 pr-3">Azithromycin, or cefixime or ceftriaxone, or ciprofloxacin if susceptible</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fluoroquinolone non-susceptible</td><td class="py-2 pr-3">Ciprofloxacin MIC raised or isolate flagged as nalidixic-acid resistant; treatment failure is likely with ciprofloxacin</td><td class="py-2 pr-3">Azithromycin or ceftriaxone/cefixime</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ceftriaxone-resistant or XDR</td><td class="py-2 pr-3">MDR plus fluoroquinolone and third-generation cephalosporin resistance (the Pakistan-type XDR outbreak strain). Sporadic ceftriaxone resistance (4.4% in one Nigerian series) means you may meet it</td><td class="py-2 pr-3">Azithromycin orally if susceptible; meropenem IV for severe illness, then step down to azithromycin. I could not verify established XDR typhoid in Nigeria from the sources reviewed, so confirm with culture before labelling a case XDR</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Azithromycin-resistant</td><td class="py-2 pr-3">Reported sporadically; one case report described an isolate resistant to ampicillin, azithromycin, ciprofloxacin and nalidixic acid</td><td class="py-2 pr-3">Meropenem IV; seek infectious disease advice</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Meropenem</strong>
+<p class="text-sm">Adults 1 g IV every 8 hours; children 20 mg/kg (maximum 1 g) every 8 hours, confirmed with your pharmacist against the product label because some references use higher paediatric doses in severe infection. Once the patient is improving and tolerating oral intake, step down to azithromycin to complete a total of at least 7 days. Do not add metronidazole to meropenem for suspected perforation; meropenem already covers anaerobes.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Combination therapy</strong>
+<p class="text-sm">Azithromycin concentrates inside cells while cephalosporins act mainly outside them. In a Nepali randomised trial of 105 adults, azithromycin plus cefixime (outpatients) or plus ceftriaxone (inpatients) cleared fever faster than azithromycin alone. Combination therapy is not yet standard. Consider it under specialist advice for severe disease, slow response or suspected resistance, and not as routine outpatient practice.</p>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: combinations and new data.</strong> A large South Asian trial of azithromycin plus cefixime versus azithromycin alone (7-day regimens) was due to report; I could not confirm its published result, so no recommendation is made here beyond the smaller trial above. Meropenem for XDR typhoid is widely used but has not been tested in a randomised trial.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="symptomatic-and-supportive-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Symptomatic and Supportive Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Problem</th><th class="py-2 pr-3">What to give</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fever, headache, body pains</td><td class="py-2 pr-3">Paracetamol</td><td class="py-2 pr-3">Adults 1 g every 6 hours (maximum 4 g a day; 3 g in liver disease, malnutrition or heavy alcohol use). Children 15 mg/kg every 6 hours (maximum 60 mg/kg a day)</td><td class="py-2 pr-3">Tepid sponging is an optional extra. Not cold water, not alcohol. Fever may persist 4 to 5 days on correct treatment; do not escalate antibiotics just because of fever on days 2 to 4</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nausea and vomiting</td><td class="py-2 pr-3">Ondansetron</td><td class="py-2 pr-3">Adults 4 mg (up to 8 mg) every 8 hours. Children over 6 months 0.15 mg/kg (maximum 4 to 8 mg) every 8 hours</td><td class="py-2 pr-3">Prolongs QT: caution with azithromycin, fluoroquinolones and artemether-lumefantrine. Vomiting that stops oral drugs means admission</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diarrhoea</td><td class="py-2 pr-3">ORS; zinc in children</td><td class="py-2 pr-3">Zinc 20 mg once daily for 10 to 14 days (10 mg under 6 months)</td><td class="py-2 pr-3">No loperamide or other antimotility drugs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Abdominal pain</td><td class="py-2 pr-3">Paracetamol first</td><td class="py-2 pr-3">As above</td><td class="py-2 pr-3">Do not give hyoscine, other antispasmodics or opioids at home: they mask peritonism. Examine the abdomen before treating pain, and re-examine daily</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Constipation</td><td class="py-2 pr-3">Fluids, soft diet</td><td class="py-2 pr-3">n/a</td><td class="py-2 pr-3">Avoid enemas and strong purgatives until perforation is excluded</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Anaemia</td><td class="py-2 pr-3">Iron and folic acid after recovery</td><td class="py-2 pr-3">Per local protocol</td><td class="py-2 pr-3">Transfuse only for the thresholds in Sections 8 and 10</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Feeding</strong>
+<p class="text-sm">Continue feeding; withholding food delays recovery and worsens malnutrition. Give soft, easily digestible, energy-dense food in small, frequent portions: pap (ogi or akamu) with milk and sugar, custard, soft rice, boiled yam or potato, eggs, bananas or pawpaw, light fish or chicken pepper soup, and plenty of clean fluids. Offer breast milk as often as before to infants. Very spicy, oily or coarse foods are poorly tolerated while the abdomen is tender. Ask directly about herbal drinks, "typhoid bitters" and purgative mixtures and explain why they should be stopped.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Rest and recovery</strong>
+<p class="text-sm">Rest at home until the fever has gone and the appetite has returned. Children can return to school when afebrile and eating normally. People who handle food for others should not return to work until cleared by the local public health authority.</p>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="fluids-and-dehydration" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Fluids and Dehydration
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Fever, sweating, vomiting and diarrhoea cause significant losses, and sepsis can cause shock. Match the fluid to the problem: oral first when possible, intravenous for shock, severe dehydration or inability to drink. Use a low-osmolarity ORS (245 mOsm/L) sachet dissolved in clean water.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Fluid and amount</th><th class="py-2 pr-3">Rate and reassessment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fever only, no dehydration (outpatient)</td><td class="py-2 pr-3">Oral fluids and ORS. Children under 2 years: 50 to 100 mL after each loose stool; 2 to 10 years: 100 to 200 mL; older children and adults: as much as wanted (about 200 to 400 mL)</td><td class="py-2 pr-3">Continue breast milk and normal feeding</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Some dehydration (thirsty, sunken eyes, reduced skin turgor, drinking eagerly)</td><td class="py-2 pr-3">ORS 75 mL/kg over 4 hours (WHO Plan B)</td><td class="py-2 pr-3">Reassess every hour; if vomiting persists give small sips or by NG tube; escalate to IV if not improving</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Severe dehydration without shock, or unable to drink</td><td class="py-2 pr-3">IV Ringer&rsquo;s lactate (Hartmann&rsquo;s) 100 mL/kg in total. Infants under 12 months: 30 mL/kg over 1 hour then 70 mL/kg over 5 hours. Age 12 months and over and adults: 30 mL/kg over 30 minutes then 70 mL/kg over 2.5 hours (adults: 1 to 2 L over the first hour, then reassess)</td><td class="py-2 pr-3">Reassess every 15 to 30 minutes; switch to ORS as soon as the patient can drink. Stop if crackles, new hepatomegaly or fast breathing develop</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Shock from sepsis or haemorrhage</td><td class="py-2 pr-3">Children: 10 to 20 mL/kg Ringer&rsquo;s lactate or 0.9% saline over 30 to 60 minutes, reassess, repeat once if still shocked. Adults: 500 mL boluses over 15 to 30 minutes, reassessing after each, up to about 30 mL/kg in the first 3 hours if still hypoperfused. Bleeding needs blood, not only crystalloid</td><td class="py-2 pr-3">Target: capillary refill under 3 seconds, systolic BP above 90 mmHg in adults, urine output at least 0.5 mL/kg/hour (1 mL/kg/hour in children). If still shocked after fluids, move to ICU for vasopressors. Severely malnourished children: do not give standard boluses; follow the severe acute malnutrition protocol and call senior help</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ongoing maintenance while nil by mouth or very ill</td><td class="py-2 pr-3">Children by weight (4-2-1 rule): 4 mL/kg/hour for the first 10 kg, 2 mL/kg/hour for the next 10 kg, 1 mL/kg/hour for each kg above 20 (a 15 kg child: 50 mL/hour). Adults about 25 to 30 mL/kg/day, roughly 1.5 to 2.5 L/day, plus replacement of measured losses</td><td class="py-2 pr-3">Review twice daily: weight, urine output, sodium and potassium. Add potassium (for example 20 mmol KCl per litre) only once urine is passing and, if possible, after a measured potassium</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Choosing the bag</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Use an isotonic fluid for children: Ringer&rsquo;s lactate, or 0.9% sodium chloride with 5% dextrose. The commonly stocked hypotonic "dextrose saline" (about 4.3% dextrose in 0.18% saline) carries a risk of hyponatraemia in sick children, so avoid it for prolonged maintenance.</li>
+  <li>5% dextrose alone supplies no sodium and no volume replacement; do not use it to treat dehydration.</li>
+  <li>Check glucose in every very sick or obtunded patient: treat below 3 mmol/L (54 mg/dL). Children: 5 mL/kg of 10% dextrose IV; adults: 25 to 50 mL of 50% dextrose, then a 10% dextrose infusion.</li>
+  <li>Do not run ceftriaxone through the same line as calcium-containing fluids such as Ringer&rsquo;s lactate. In neonates the combination is contraindicated; in older patients flush the line and give them sequentially.</li>
+  <li>If severe malaria is also present, the malaria fluid rules apply (no routine boluses unless there is shock): see the malaria guide and ask a senior to decide.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="severe-and-complicated-enteric-fever-inpatient-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Severe and Complicated Enteric Fever: Inpatient Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Admit, take blood culture, start IV treatment, correct fluids, check glucose, and monitor closely. Serious complications affect about a quarter of hospitalised patients and usually appear in the second or third week.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Antibiotics</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Adult</th><th class="py-2 pr-3">Child</th><th class="py-2 pr-3">Notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ceftriaxone (first choice IV)</td><td class="py-2 pr-3">2 g IV once daily (up to 2 g twice daily is used in severe disease)</td><td class="py-2 pr-3">50 to 100 mg/kg IV once daily (maximum 4 g)</td><td class="py-2 pr-3">Pregnancy: acceptable. Give by infusion over about 30 minutes or by slow IV injection, reconstituted with water for injection. Never give ceftriaxone mixed with the lidocaine-containing IM diluent intravenously</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Azithromycin (step-down or add-on)</td><td class="py-2 pr-3">500 mg to 1 g once daily</td><td class="py-2 pr-3">10 to 20 mg/kg once daily (maximum 1 g)</td><td class="py-2 pr-3">Switch to oral azithromycin once fever is falling, oral intake is established and the patient is improving, to complete at least 7 days. Some centres add azithromycin to ceftriaxone in severe illness</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Meropenem</td><td class="py-2 pr-3">1 g IV every 8 hours</td><td class="py-2 pr-3">20 mg/kg IV every 8 hours (maximum 1 g)</td><td class="py-2 pr-3">If ceftriaxone resistance or XDR is suspected or proven, or in clinical failure. Step down to azithromycin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Metronidazole (with ceftriaxone only)</td><td class="py-2 pr-3">500 mg IV every 8 hours</td><td class="py-2 pr-3">7.5 mg/kg IV every 8 hours</td><td class="py-2 pr-3">Add when perforation or peritonitis is suspected. Omit if on meropenem</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">If ceftriaxone is continued alone, give 10 to 14 days in total. In children, relapse at 30 days was more frequent after ceftriaxone than after azithromycin in a pooled analysis, which is another reason to step down to azithromycin.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Dexamethasone for severe disease</strong>
+<p class="text-sm">Consider only for patients with decreased consciousness (stupor, delirium or coma) or shock, together with an effective antibiotic and with a senior&rsquo;s agreement. MSF regimen: 1 mg/kg IV as a loading dose, then 0.25 mg/kg every 6 hours for 48 hours (8 doses). Do not use steroids in uncomplicated typhoid.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other measures</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Oxygen if SpO<sub>2</sub> is below 90% (children) or below 94% (adults).</li>
+  <li>Strict input and output chart, urinary catheter in shock, and daily weight.</li>
+  <li>Check urea, creatinine, sodium, potassium, glucose and FBC at baseline; repeat daily in severe disease.</li>
+  <li>NG feeding if the patient is obtunded but the bowel is working.</li>
+  <li>Malaria test again if not done, and HIV test with counselling.</li>
+  <li>Examine the abdomen at least twice daily and chart abdominal girth if distended.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: dexamethasone dose.</strong> The MSF regimen above (1 mg/kg then 0.25 mg/kg every 6 hours for 48 hours) is lower than the older regimen from the original trial, still quoted in some references (3 mg/kg then 1 mg/kg every 6 hours for 48 hours). The supporting evidence is old and limited. This guide uses the lower MSF dose; follow your hospital protocol or ask a senior.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="intestinal-haemorrhage-and-perforation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Intestinal Haemorrhage and Perforation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Intestinal bleeding</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Usually in the second or third week; may present as melaena, fresh blood or just shock with pallor.</li>
+  <li>Two wide-bore cannulae, crossmatch at least 2 units, resuscitate with Ringer&rsquo;s lactate and blood. Transfuse for haemodynamic instability or haemoglobin below about 7 g/dL in adults; children by paediatric thresholds.</li>
+  <li>Nil by mouth initially. Continue ceftriaxone. Check platelets and coagulation if available and correct deficits.</li>
+  <li>Most bleeds settle with transfusion and antibiotics. Surgery is for continued instability despite transfusion, and the surgeon will often be needed anyway to exclude perforation.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Intestinal perforation</strong>
+<p class="text-sm">Suspect it with sudden severe abdominal pain, tenderness, guarding or rigidity, distension, vomiting, rising pulse and, in some patients, a fall in temperature or blood pressure. Free gas on an erect chest or decubitus film supports it, but its absence does not exclude it. Perforation is the commonest cause of typhoid death in endemic settings, and delay raises mortality: surgical case series report median case fatality of roughly 15%, ranging much higher where presentation is late.</p>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Move to ICU or HDU. Nil by mouth, nasogastric decompression, urinary catheter.</li>
+  <li>Resuscitate over hours, not days: Ringer&rsquo;s lactate 1 to 2 L rapidly for adults (children 10 to 20 mL/kg boluses), reassess, then maintenance to urine output of at least 0.5 mL/kg/hour.</li>
+  <li>Start ceftriaxone plus metronidazole at once (doses in Section 7), or meropenem alone if resistance is likely.</li>
+  <li>Urgent surgical review and laparotomy after short resuscitation. Options include primary closure of a single viable perforation, or resection with ileostomy for multiple, gangrenous or friable bowel; peritoneal lavage is standard. The surgeon decides the procedure.</li>
+  <li>Wound infection and dehiscence are common; consider delayed primary closure or leaving the skin open if contamination is heavy.</li>
+  <li>Continue IV antibiotics until clinically improved, then complete the course with oral azithromycin or the culture-guided drug. Titrated IV analgesia is appropriate once the surgical team has examined the abdomen.</li>
+</ol>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-complications" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Other Complications
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Complication</th><th class="py-2 pr-3">Clue</th><th class="py-2 pr-3">Management</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Typhoid encephalopathy</td><td class="py-2 pr-3">Delirium, "muttering", stupor, convulsions, often with a toxic look</td><td class="py-2 pr-3">Admit; check glucose; exclude cerebral malaria, meningitis (lumbar puncture if safe) and metabolic causes; IV ceftriaxone; dexamethasone as in Section 7; protect airway</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Septic shock</td><td class="py-2 pr-3">Hypotension, cold peripheries, oliguria</td><td class="py-2 pr-3">Fluids as in Section 6, ICU, vasopressors if fluid-refractory</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hepatitis or cholestasis</td><td class="py-2 pr-3">Jaundice, tender liver, mildly raised transaminases</td><td class="py-2 pr-3">Supportive; exclude viral hepatitis, malaria and drug-induced injury; cap paracetamol dose; avoid herbal preparations</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cholecystitis or cholangitis</td><td class="py-2 pr-3">Right upper quadrant pain, fever pattern change, jaundice</td><td class="py-2 pr-3">Ultrasound; IV antibiotics; surgical review. Gallbladder involvement is also how carriage is established</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Myocarditis</td><td class="py-2 pr-3">Tachycardia out of proportion, hypotension, arrhythmia, ECG changes</td><td class="py-2 pr-3">ECG, electrolytes, bed rest, cardiology advice. Use QT-prolonging drugs cautiously</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute kidney injury</td><td class="py-2 pr-3">Oliguria, rising creatinine</td><td class="py-2 pr-3">Fluids, stop NSAIDs and herbal preparations, adjust renal-cleared drugs (ciprofloxacin, meropenem)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pneumonia, pleural or pericardial involvement</td><td class="py-2 pr-3">Cough, breathlessness, chest signs</td><td class="py-2 pr-3">Chest X-ray; the antibiotics above usually cover; oxygen as needed</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Osteomyelitis or septic arthritis</td><td class="py-2 pr-3">Persistent focal bone pain or swelling, especially in sickle cell disease</td><td class="py-2 pr-3">Aspirate or biopsy for culture; prolonged IV then oral therapy (usually several weeks); surgical drainage; specialist advice</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Relapse</td><td class="py-2 pr-3">Fever returns 2 to 3 weeks after recovery</td><td class="py-2 pr-3">See Section 13</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-groups" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Special Groups
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Group</th><th class="py-2 pr-3">Treatment and cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy</td><td class="py-2 pr-3">Untreated typhoid can cause miscarriage, preterm labour and intrauterine death. Use azithromycin for uncomplicated illness and ceftriaxone for severe illness; meropenem if resistance requires it. Avoid fluoroquinolones unless nothing else works, co-trimoxazole (folate antagonist; kernicterus risk near term) and chloramphenicol (near term). Paracetamol only for fever. Test for malaria, which is more severe in pregnancy. Obstetric review and fetal assessment for any admitted pregnant woman</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Neonates and young infants (under 3 months)</td><td class="py-2 pr-3">Always admit and involve a paediatrician. Ceftriaxone is avoided or used with care in jaundiced neonates and must never be co-administered with calcium-containing fluids; azithromycin is used cautiously under 1 month because of pyloric stenosis risk; co-trimoxazole is avoided under 2 months. Neonatal dosing is not covered here</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Children</td><td class="py-2 pr-3">Azithromycin or cefixime orally; ceftriaxone IV. Dehydration and diarrhoea are more common: ORS and zinc. Febrile convulsions: paracetamol, protect airway, check glucose and exclude cerebral malaria. Fluoroquinolones only if culture proves susceptibility and no alternative. Never aspirin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sickle cell disease</td><td class="py-2 pr-3">Fever is an emergency: admit, culture, give IV ceftriaxone, and test for malaria. Salmonella osteomyelitis and bacteraemia are more common and can mimic bone crisis; look for persistent focal pain or swelling. Keep up fluids and give folic acid. Transfusion by haemoglobin and clinical state</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HIV</td><td class="py-2 pr-3">Offer a test and counselling. Treat as above; relapse and recurrent bacteraemia are more likely in advanced disease, so follow up closely and seek senior advice for recurrence. Separate dolutegravir (as in TLD) from zinc, iron, calcium and antacids: take dolutegravir 2 hours before or 6 hours after them, and the same applies to ciprofloxacin and these minerals</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Severe acute malnutrition</td><td class="py-2 pr-3">Admit. Use the severe malnutrition protocol: avoid routine IV boluses unless shock, use ReSoMal for dehydration, give IV ceftriaxone, and feed early</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">G6PD deficiency</td><td class="py-2 pr-3">Avoid co-trimoxazole. Other first-line drugs here are safe</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Renal or hepatic impairment</td><td class="py-2 pr-3">Azithromycin and ceftriaxone need little adjustment in renal impairment; reduce ciprofloxacin and meropenem by creatinine clearance. Cap paracetamol</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Elderly or with comorbidity</td><td class="py-2 pr-3">Lower threshold to admit; check QT drugs, renal function and fluid status before prescribing</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="typhoid-and-malaria-together" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Typhoid and Malaria Together
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">In Nigeria the real question is not "malaria or typhoid" but "malaria, typhoid or both". In the Nigerian prospective series above, culture-confirmed typhoid occurred at similar rates in malaria-positive and malaria-negative patients (15.6% versus 13.7%). So a positive malaria test does not exclude typhoid, and a positive Widal in a malaria patient does not prove it.</p>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Always test for malaria</strong> (RDT or film) before starting an antibiotic, and treat a positive result with an ACT as in the malaria treatment guide.</li>
+  <li><strong>Malaria positive, clinically well:</strong> treat malaria alone, take a blood culture if fever persists, and review at 48 to 72 hours.</li>
+  <li><strong>Malaria positive and a toxic look, significant abdominal signs or prolonged fever before the malaria test:</strong> take blood cultures first and treat both from the start.</li>
+  <li><strong>Malaria negative with typical features:</strong> treat as enteric fever per Sections 3 or 7.</li>
+  <li><strong>Fever persists 48 to 72 hours after an effective ACT:</strong> reassess; send a culture and look for a second diagnosis before changing antimalarials.</li>
+  <li><strong>Severe malaria plus dehydration or shock:</strong> use the malaria fluid rules (no routine boluses, bolus only for shock) and involve a senior.</li>
+  <li><strong>QT caution:</strong> artemether-lumefantrine, azithromycin, fluoroquinolones and ondansetron all carry QT risk; check potassium and magnesium, avoid unnecessary extras, and do not withhold a needed drug.</li>
+  <li><strong>Fixed-dose "malaria and typhoid" combinations</strong> sold over the counter should not be used; see Section 16.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="paratyphoid-and-other-variants" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Paratyphoid and Other Variants
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Variant</th><th class="py-2 pr-3">What to know</th><th class="py-2 pr-3">Treatment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><em>S.</em> Typhi (typhoid)</td><td class="py-2 pr-3">Typical enteric fever; the target of typhoid conjugate vaccine</td><td class="py-2 pr-3">Sections 3 to 8</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><em>S.</em> Paratyphi A, B or C (paratyphoid)</td><td class="py-2 pr-3">Clinically similar and often a little milder, but severe cases occur. Among culture-positive patients in the South-East study, Paratyphi outnumbered Typhi, though many were stool isolates that may include carriage. Typhoid conjugate vaccines do not cover Paratyphi A</td><td class="py-2 pr-3">Same drugs, doses and durations as typhoid, guided by culture</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Invasive non-typhoidal <em>Salmonella</em> bacteraemia</td><td class="py-2 pr-3">Occurs in young children with malaria, malnutrition, sickle cell disease or HIV; may have no diarrhoea</td><td class="py-2 pr-3">Admit; IV ceftriaxone; bacteraemia usually 7 to 10 days; osteomyelitis 4 to 6 weeks; guided by culture</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Non-typhoidal gastroenteritis</td><td class="py-2 pr-3">Self-limited diarrhoeal illness in most patients</td><td class="py-2 pr-3">ORS and zinc; antibiotics only for infants, severe or invasive illness, or immunocompromised, sickle cell or malnourished patients</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic carrier</td><td class="py-2 pr-3">Excretes bacteria for more than a year</td><td class="py-2 pr-3">See Section 14</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="response-treatment-failure-and-relapse" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Response, Treatment Failure and Relapse
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Expected response:</strong> fever usually settles 4 to 5 days after an effective drug and may take 6 to 7 days even with active therapy, so do not change antibiotics on day 2 or 3 in a patient who is otherwise improving.</li>
+  <li><strong>Review schedule:</strong> outpatients at 48 to 72 hours, again at day 7, and at about 2 and 4 weeks to catch relapse. Inpatients: daily.</li>
+  <li><strong>Think treatment failure</strong> if there is no clear improvement by about day 5 to 7, or the patient deteriorates earlier. Work through the list: wrong diagnosis (malaria, abscess, TB, Lassa, HIV), a resistant strain, a complication (perforation, abscess, cholecystitis, osteomyelitis), poor adherence or vomiting, substandard or counterfeit drugs, and a non-absorbed oral drug.</li>
+  <li><strong>Action:</strong> examine for complications, repeat the blood culture, check malaria again, confirm the drug and dose, switch to IV ceftriaxone or, if already on it, to meropenem with azithromycin after discussion with a senior or infectious disease physician.</li>
+  <li><strong>Relapse</strong> occurs 2 to 3 weeks after recovery, is usually not due to resistance, and needs re-treatment with a repeat culture to confirm it.</li>
+  <li><strong>Test of cure:</strong> not needed in most patients. Stool culture is only for suspected carriers, food handlers and people with occupational risk.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="chronic-carriers-and-public-health" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Chronic Carriers and Public Health
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Chronic carriage</strong> means excretion for more than 12 months and follows 1 to 5% of cases. Gallstones favour carriage and long-term carriage raises the risk of gallbladder cancer.</li>
+  <li><strong>Who to test:</strong> food handlers, school canteen and restaurant staff, and household members after a cluster. Take three stool cultures and consider ultrasound for gallstones.</li>
+  <li><strong>Treatment (culture-guided only):</strong> ciprofloxacin 500 to 750 mg twice daily for 4 weeks, or norfloxacin or ofloxacin as available (a placebo-controlled trial of norfloxacin for 28 days eradicated carriage in 92%). If fluoroquinolone-resistant: amoxicillin 75 to 100 mg/kg/day for 4 to 6 weeks, or co-trimoxazole with or without rifampicin. Evidence is limited. Efficacy is lower with gallstones; cholecystectomy is an option for refractory carriage.</li>
+  <li><strong>Public health:</strong> carriers should not prepare food for others until cleared by the local public health authority. Notify clusters and outbreaks through your state surveillance system.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="prevention-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Prevention and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Typhoid conjugate vaccine (TCV):</strong> TCVs are effective and safe from 6 months of age, and a single dose prevents roughly 79 to 85% of cases in children (Coalition Against Typhoid). Gavi support for introduction is available. I could not confirm Nigeria&rsquo;s national rollout status or schedule from sources I could access, so check the current NPHCDA immunisation schedule. TCV does not protect against Paratyphi.</li>
+  <li><strong>Water:</strong> boil or chlorinate water from wells, boreholes and tankers; use sachet or bottled water with a NAFDAC registration number; protect water storage from contamination, especially in flood and rainy seasons.</li>
+  <li><strong>Food:</strong> wash hands before eating and after the toilet; avoid raw salads and cut fruit from unsafe sources, unwashed vegetables and ice of uncertain origin; cook food thoroughly and reheat leftovers.</li>
+  <li><strong>Sanitation:</strong> latrines, no open defecation, handwashing stations.</li>
+  <li><strong>Teach-back:</strong> ask the patient to repeat the plan: drug name, times, how many days, what to eat and drink, which warning signs mean come back or go to hospital at once.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: typhoid conjugate vaccine in Nigeria.</strong> Gavi support for TCV introduction is described as available, but I could not verify the national introduction date, age groups or campaign details. Do not state a national schedule to patients until you have checked the current NPHCDA or state immunisation guidance.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="nigerian-brands-strengths-and-interactions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+Nigerian Brands, Strengths and Interactions
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Brand names change and availability varies by state and pharmacy. These are examples only, not endorsements. Check the NAFDAC registration number on the pack, buy from licensed pharmacies, and be suspicious of unusually cheap injectables.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Examples you may meet</th><th class="py-2 pr-3">Common forms</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Azithromycin</td><td class="py-2 pr-3">Zithromax, Azithral, Zimax and many generics</td><td class="py-2 pr-3">250 mg and 500 mg tablets; 200 mg/5 mL suspension</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefixime</td><td class="py-2 pr-3">Suprax and generics</td><td class="py-2 pr-3">200 mg and 400 mg tablets; 100 mg/5 mL suspension</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ceftriaxone</td><td class="py-2 pr-3">Rocephin and many generic vials</td><td class="py-2 pr-3">250 mg, 500 mg and 1 g vials</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ciprofloxacin</td><td class="py-2 pr-3">Ciprobay, Ciprotab and generics</td><td class="py-2 pr-3">250 mg, 500 mg and 750 mg tablets; 200 mg and 400 mg infusion</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Levofloxacin</td><td class="py-2 pr-3">Tavanic and generics</td><td class="py-2 pr-3">500 mg and 750 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Meropenem</td><td class="py-2 pr-3">Meronem and generics</td><td class="py-2 pr-3">500 mg and 1 g vials</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Metronidazole</td><td class="py-2 pr-3">Flagyl and generics</td><td class="py-2 pr-3">200 mg and 400 mg tablets; 500 mg/100 mL infusion</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Co-trimoxazole</td><td class="py-2 pr-3">Septrin and generics</td><td class="py-2 pr-3">480 mg and 960 mg tablets; 240 mg/5 mL suspension</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amoxicillin / amoxicillin-clavulanate</td><td class="py-2 pr-3">Amoxil / Augmentin</td><td class="py-2 pr-3">Amoxicillin 250 and 500 mg capsules; Augmentin 625 mg and 1 g</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Paracetamol</td><td class="py-2 pr-3">Panadol, Emzor Paracetamol and generics</td><td class="py-2 pr-3">500 mg tablets; 120 mg/5 mL syrup; 1 g/100 mL infusion</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ondansetron</td><td class="py-2 pr-3">Zofran and generics</td><td class="py-2 pr-3">4 mg and 8 mg tablets; 4 mg/2 mL injection</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">ORS and zinc</td><td class="py-2 pr-3">Oral rehydration salts (low-osmolarity); zinc sulphate dispersible</td><td class="py-2 pr-3">ORS sachets; zinc 20 mg dispersible tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">IV fluids</td><td class="py-2 pr-3">Ringer&rsquo;s lactate (Hartmann&rsquo;s), 0.9% sodium chloride, 5% dextrose, 10% dextrose</td><td class="py-2 pr-3">500 mL and 1 L bags</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Dexamethasone</td><td class="py-2 pr-3">Generic injection</td><td class="py-2 pr-3">4 mg/mL ampoule</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Combinations and interactions to watch</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>QT prolongation:</strong> azithromycin, ciprofloxacin and levofloxacin, ondansetron and artemether-lumefantrine can each prolong QT. Combine only when needed, correct potassium and magnesium, and use an ECG if the patient has heart disease or is on other QT drugs.</li>
+  <li><strong>Divalent cations:</strong> antacids, iron, calcium, magnesium and zinc supplements chelate ciprofloxacin and dolutegravir. Separate doses as in Section 10.</li>
+  <li><strong>Ceftriaxone and calcium-containing fluids:</strong> do not mix or co-infuse; see Section 6.</li>
+  <li><strong>Fixed-dose antibiotic combinations</strong> sold for "typhoid and malaria" or "typhoid and amoebiasis" add drugs that are not needed and increase adverse effects; prescribe single agents by weight and indication.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">17</span>
+Common Practices to Avoid
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Habits that harm patients</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Diagnosing typhoid from a Widal titre alone</strong>, or from a positive Widal in a malaria patient, then treating again with a second antibiotic when the patient does not respond.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating every fever as "malaria and typhoid"</strong> without a malaria test or an examination.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using ampicillin, amoxicillin, chloramphenicol or co-trimoxazole empirically</strong> when local resistance to them is high.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using ciprofloxacin empirically</strong> without checking local susceptibility, or in young children when azithromycin or ceftriaxone is available.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Stopping the antibiotic when the fever settles</strong>, or giving a 3 to 5 day course of a drug that needs 7 to 14 days. This produces relapse and carriage.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Changing antibiotics every 48 hours</strong> because the fever has not gone. Typhoid fever is slow to resolve even on the right drug.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Taking blood for culture after antibiotics have been given</strong>, or not taking blood for culture when facilities exist.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving NSAIDs, aspirin or IM diclofenac</strong> for fever or pain: they worsen gastrointestinal bleeding and kidney injury. Use paracetamol.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving antispasmodics, opioids at home, or antimotility drugs</strong> in abdominal pain or diarrhoea, which mask peritonism and may prolong illness.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Enemas, purgatives and herbal "typhoid" mixtures</strong> before perforation has been excluded; agbo and other preparations can also cause liver or kidney injury.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using hypotonic "dextrose saline" as the routine drip</strong> for sick children, or drips without a plan, volume or reassessment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving large fluid boluses</strong> to severely malnourished children or patients with severe malaria without shock.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving steroids to every typhoid patient</strong>, or giving dexamethasone for encephalopathy or shock without an effective antibiotic.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving IM ceftriaxone diluted with lidocaine intravenously</strong>, or giving ceftriaxone and calcium-containing fluids together in neonates.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Missing the surgical abdomen:</strong> not re-examining the abdomen in the second and third weeks, or sending a patient home with worsening abdominal pain after a normal film.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using metronidazole alone</strong> for typhoid or adding it to meropenem.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Restricting food</strong> or giving only water or pap for weeks; feed the patient.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Buying antibiotics and injections from patent medicine stores</strong> without diagnosis, in sub-therapeutic doses or from counterfeit stock.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Repeating Widal as a "test of cure"</strong> or treating an old positive titre again.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Letting food handlers resume work</strong> after typhoid without public health clearance.</span></li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<p class="font-brand text-sm font-semibold text-indigo-950 dark:text-white mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm before treating: blood culture before the first antibiotic dose; malaria test in every febrile patient; Widal and rapid antibody kits are unreliable (Widal sensitivity about 49%, with heavy cross-reaction in malaria).</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Outpatient treatment is for the alert patient who can drink and swallow tablets and be reviewed in 48 to 72 hours; admit anyone toxic, confused, vomiting, dehydrated, bleeding, with abdominal signs, pregnant, an infant, or with sickle cell disease or advanced HIV.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Uncomplicated: azithromycin by weight for 7 days is the safest empirical oral choice; cefixime 10 to 14 days is an alternative; ciprofloxacin only when susceptibility is shown. Older drugs (ampicillin, chloramphenicol, co-trimoxazole) face very high Nigerian resistance.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Severe: IV ceftriaxone 2 g (adults) or 50 to 100 mg/kg (children, maximum 4 g) once daily, step down to azithromycin when improving, total at least 7 days; meropenem for ceftriaxone-resistant or failing cases.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fluids: ORS for mild losses; Ringer&rsquo;s lactate 100 mL/kg Plan C for severe dehydration; 10 to 20 mL/kg (children) or 500 mL (adults) boluses with reassessment in shock; maintenance by the 4-2-1 rule; isotonic fluids for children.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Perforation and bleeding appear in weeks 2 and 3: examine the abdomen daily, resuscitate, give ceftriaxone plus metronidazole, and get a surgeon early. Dexamethasone is for encephalopathy or shock only.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not change antibiotics for fever persisting up to about 5 to 7 days on an effective drug unless the patient is deteriorating; look for complications and resistance when it persists.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Follow up for relapse at 2 to 4 weeks; test for carriage in food handlers; counsel on safe water, food hygiene and TCV when available.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-slate-700 dark:text-slate-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<ol class="list-decimal pl-8 pr-4 pb-4 space-y-1">
+  <li class="text-[10px] leading-snug text-stone-500">Medecins Sans Frontieres. Essential drugs and clinical guidelines: Enteric (typhoid and paratyphoid) fevers (treatment regimens, hospitalisation criteria, dexamethasone, ceftriaxone, meropenem, perforation).</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Guidance on typhoid and paratyphoid treatment as summarised in peer-reviewed reviews: first-choice agents ciprofloxacin, ceftriaxone and azithromycin, with fluoroquinolone use limited to settings with low resistance (2019).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Review: What Should We Be Recommending for the Treatment of Enteric Fever? (2023), summarising trial evidence on azithromycin, fluoroquinolones, ceftriaxone, cefixime, combination therapy, XDR typhoid and carriage.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Cochrane Collaboration. Antibiotics for treating typhoid fever (CD004530; 26 studies, 3,033 patients).</li>
+  <li class="text-[10px] leading-snug text-stone-500">McMaster Textbook of Internal Medicine. Enteric (typhoid) fever: treatment by region of acquisition, carrier treatment and dexamethasone regimen.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Nigerian prospective case-control study of febrile typhoid suspects in South-East Nigeria, 2013 to 2016, Malawi Medical Journal (2019): culture yield, Widal performance, malaria cross-reactivity and antimicrobial resistance.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Laboratory epidemiology of Salmonella infections and multidrug resistance profiles in Nigeria, national surveillance data 2016 to 2018 (medRxiv preprint, 2025).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Coalition Against Typhoid. TakeonTyphoid Nigeria Fact Sheet (2026): burden estimates, resistance in Lagos, Kano and the FCT, and TCV status.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Pocket Book of Hospital Care for Children: ORS plans A, B and C, zinc dosing, and fluid resuscitation guidance.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Published case reports and surgical series on typhoid intestinal perforation, including resuscitation, antibiotic choice and surgical options.</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Agency for Food and Drug Administration and Control (NAFDAC) Green Book for product registration checks.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, Nigeria. Standard Treatment Guidelines (check for the current edition; text could not be accessed for this guide).</li>
+</ol>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'treatment-urinary-tract-infections',
+  title: 'Urinary Tract Infections',
+  category: 'Treatment',
+  subCategory: 'Infectious Disease',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; INFECTIOUS DISEASE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Urinary Tract Infections</h1>
+  <p class="text-sm text-indigo-200">UTI is one of the commonest reasons adult women, pregnant women and older men with prostatic enlargement receive antibiotics in Nigeria, and one of the commonest reasons they receive the wrong ones. Resistance to the cheap, familiar drugs is high, culture is often unavailable, and asymptomatic bacteriuria is treated far too often. This guide covers how to confirm the diagnosis, who to treat at home and who to admit, which antibiotic at what dose and for how long, which fluids and how fast, pregnancy, men and the elderly, catheters, resistant organisms, prevention, the Nigerian brands you will meet, and the habits that should stop.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>How to use this guide.</strong> Doses follow the European Association of Urology (EAU 2025) and IDSA (2025) guidelines and pregnancy guidance, adapted to published Nigerian and sub-Saharan resistance data. Weigh every patient, calculate eGFR before choosing a drug, and use your laboratory&rsquo;s antibiogram, your hospital protocol and the current national guideline. This guide is for adults; children need age-specific dosing.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#diagnose-properly-before-you-prescribe" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Diagnose Properly Before You Prescribe</span></a></li>
+  <li><a href="#outpatient-or-admission" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Outpatient or Admission?</span></a></li>
+  <li><a href="#cystitis-in-non-pregnant-women" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Cystitis in Non-Pregnant Women</span></a></li>
+  <li><a href="#pyelonephritis-and-complicated-uti" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Pyelonephritis and Complicated UTI</span></a></li>
+  <li><a href="#symptomatic-and-supportive-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Symptomatic and Supportive Treatment</span></a></li>
+  <li><a href="#urinary-tract-infection-in-pregnancy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Urinary Tract Infection in Pregnancy</span></a></li>
+  <li><a href="#men-prostatic-enlargement-and-older-adults" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Men, Prostatic Enlargement and Older Adults</span></a></li>
+  <li><a href="#catheters-and-other-special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Catheters and Other Special Situations</span></a></li>
+  <li><a href="#resistant-organisms-and-treatment-failure" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Resistant Organisms and Treatment Failure</span></a></li>
+  <li><a href="#recurrent-cystitis-prevention" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Recurrent Cystitis: Prevention</span></a></li>
+  <li><a href="#follow-up-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Follow-Up and Counselling</span></a></li>
+  <li><a href="#nigerian-brands-strengths-and-interactions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Nigerian Brands, Strengths and Interactions</span></a></li>
+  <li><a href="#common-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Common Practices to Avoid</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="diagnose-properly-before-you-prescribe" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Diagnose Properly Before You Prescribe
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Urinary tract infection is a bacterial infection of the urinary tract with symptoms, not a positive dipstick or a report of "pus cells". The commonest organism is <em>Escherichia coli</em>, followed by <em>Klebsiella</em>, <em>Proteus</em>, <em>Pseudomonas</em> and <em>Enterococcus</em>. In Nigeria the problem is as much over-diagnosis and blind antibiotic use as under-treatment, because resistance to the cheap, familiar drugs is now high and most clinics have no culture service.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Classify before you treat</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Category</th><th class="py-2 pr-3">Definition</th><th class="py-2 pr-3">Who</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Asymptomatic bacteriuria (ASB)</td><td class="py-2 pr-3">Bacteria in the urine (about 10<sup>5</sup> cfu/mL on a clean midstream sample, two samples in women and one in men) with no urinary symptoms</td><td class="py-2 pr-3">Often found by chance in elderly people, diabetics, catheterised patients and pregnant women. Treat only in pregnancy and before urological procedures that breach the mucosa</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cystitis (localised, lower tract)</td><td class="py-2 pr-3">Dysuria, frequency, urgency, suprapubic pain, sometimes haematuria; no fever or loin pain</td><td class="py-2 pr-3">Non-pregnant women are the commonest group</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pyelonephritis (systemic, upper tract)</td><td class="py-2 pr-3">Fever above 38&deg;C, chills, loin pain, costovertebral angle tenderness, nausea or vomiting, with or without cystitis symptoms</td><td class="py-2 pr-3">Any age; high-risk in pregnancy, diabetes, sickle cell disease and obstruction</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Complicated or systemic UTI</td><td class="py-2 pr-3">Any UTI with systemic illness, obstruction (stone, prostatic enlargement), an indwelling catheter or stent, or a urological abnormality. Men with febrile UTI may have prostatitis</td><td class="py-2 pr-3">Men, elderly patients, catheterised patients, diabetics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urosepsis</td><td class="py-2 pr-3">Life-threatening organ dysfunction caused by infection of the urinary tract</td><td class="py-2 pr-3">Requires emergency care</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Recurrent cystitis</td><td class="py-2 pr-3">At least 3 episodes in a year or 2 in the last 6 months</td><td class="py-2 pr-3">Mainly women</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tests and what they can and cannot do</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Test</th><th class="py-2 pr-3">Use</th><th class="py-2 pr-3">Limits</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Clinical diagnosis alone</td><td class="py-2 pr-3">Acceptable for a non-pregnant woman with typical cystitis symptoms and no vaginal discharge</td><td class="py-2 pr-3">Do not use it in pregnancy, men, suspected pyelonephritis, catheterised patients or after treatment failure</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urine dipstick (leucocyte esterase, nitrite)</td><td class="py-2 pr-3">Quick bedside support; a positive nitrite is fairly specific</td><td class="py-2 pr-3">A negative dipstick does not exclude infection, especially with non-nitrate-reducing organisms; a positive dipstick in an asymptomatic patient is not a diagnosis</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urine microscopy</td><td class="py-2 pr-3">Pyuria supports infection</td><td class="py-2 pr-3">Pus cells also occur with vaginal contamination, urethritis (gonorrhoea, chlamydia), stones, tuberculosis, urinary schistosomiasis and catheters. Squamous cells mean a contaminated sample</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Midstream urine culture and susceptibility</td><td class="py-2 pr-3">Required in pregnancy, men, suspected pyelonephritis, treatment failure, recurrent UTI, catheterised patients and before urological procedures</td><td class="py-2 pr-3">Lower counts can be significant in a symptomatic woman. Take it before the first antibiotic dose; clean-catch properly and deliver to the laboratory within about 2 hours or keep refrigerated. Ask for organism identification and susceptibility, and ask the laboratory to include nitrofurantoin and fosfomycin, which many panels omit</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Blood cultures</td><td class="py-2 pr-3">Fever with rigors, sepsis, pyelonephritis in pregnancy or a man with febrile UTI</td><td class="py-2 pr-3">Positive in a minority; useful for duration and resistance</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">FBC, urea, creatinine, electrolytes, glucose</td><td class="py-2 pr-3">Baseline in pyelonephritis, sepsis, elderly patients and men</td><td class="py-2 pr-3">Calculate eGFR before choosing nitrofurantoin or aminoglycosides</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ultrasound of kidneys, ureters and bladder (with post-void residual in men)</td><td class="py-2 pr-3">Pyelonephritis in men, pregnancy, diabetes, suspected stone or obstruction, or no improvement in 48 to 72 hours</td><td class="py-2 pr-3">A normal scan does not exclude early infection; CT where available for suspected abscess, emphysematous infection or complex stones</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy test</td><td class="py-2 pr-3">Every woman of reproductive age with an unexplained urinary complaint</td><td class="py-2 pr-3">Affects drug choice</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Do not label these as UTI</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Urethral or vaginal discharge, dysuria with new partners:</strong> gonorrhoea, chlamydia, trichomoniasis, candidiasis or bacterial vaginosis. Treat by the syndromic STI approach, not with repeated UTI antibiotics.</li>
+  <li><strong>Terminal haematuria in a child or young adult from a freshwater-exposed area:</strong> urinary schistosomiasis. Praziquantel 40 mg/kg as a single dose (WHO).</li>
+  <li><strong>Sterile pyuria with chronic symptoms and haematuria:</strong> urinary tuberculosis. Send three early morning urine samples for AFB and refer.</li>
+  <li><strong>Confusion, falls or reduced intake in an elderly patient without urinary symptoms:</strong> look for dehydration, malaria, pneumonia, drugs, hypoglycaemia and sepsis from other sources before blaming the urine.</li>
+  <li><strong>Loin pain with fever and no response to treatment:</strong> obstruction, renal abscess or emphysematous pyelonephritis. Image early.</li>
+  <li><strong>Asymptomatic bacteriuria</strong> in a non-pregnant patient: do not treat.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Data caveat.</strong> Nigerian resistance data cited below come from single-centre studies, a sub-Saharan Africa systematic review with very high heterogeneity, and a national laboratory report that does not report nitrofurantoin or ESBL rates. Use them as a guide to what is likely and ask your laboratory for its own antibiogram. I could not access the current Federal Ministry of Health Standard Treatment Guidelines text for UTI. Regimens follow the European Association of Urology (EAU 2025) and IDSA (2025) guidelines, adapted to the Nigerian resistance reports. Check your hospital protocol and the current national guideline before applying doses.</p>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: classification.</strong> The 2025 EAU guideline has dropped the terms "uncomplicated" and "complicated" and now speaks of localised UTI (cystitis) and systemic UTI (pyelonephritis, prostatitis, urosepsis). The 2025 IDSA guideline keeps "complicated UTI" and defines it by systemic signs, obstruction, parenchymal involvement or an indwelling device. This guide uses both vocabularies: cystitis means lower-tract infection; pyelonephritis and anything with systemic features, obstruction, a catheter or a male host is treated as upper-tract or complicated infection.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="outpatient-or-admission" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Outpatient or Admission?
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most women with cystitis and many with mild pyelonephritis can be managed as outpatients. Decide by how sick the patient is, not by the culture result, and never discharge a pregnant woman with pyelonephritis.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Setting</th><th class="py-2 pr-3">Who belongs here</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Outpatient, oral antibiotic</td><td class="py-2 pr-3">Non-pregnant woman with cystitis; mild pyelonephritis in a well, non-pregnant adult who is afebrile or mildly febrile, drinks, keeps tablets down, has no obstruction or sepsis, and can be reviewed within 48 to 72 hours</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Admit (IV antibiotic, IV fluids, monitoring)</td><td class="py-2 pr-3">Pregnancy with any upper-tract symptoms; fever with vomiting or inability to take oral drugs; dehydration, hypotension, tachycardia or confusion; suspected obstruction, stone or abscess; diabetes with poor control; sickle cell disease; immunosuppression; renal impairment; elderly or frail; men with febrile UTI who look unwell; urinary retention; failure to improve in 48 to 72 hours; unreliable follow-up</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HDU or ICU</td><td class="py-2 pr-3">Sepsis with hypotension or lactate rise; infected obstructed kidney; emphysematous pyelonephritis; need for vasopressors</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Escalate at once if you see</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Fever with loin pain and an obstructing stone or hydronephrosis on ultrasound:</strong> an infected obstructed kidney needs urgent drainage (nephrostomy or stent). Antibiotics alone fail.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Sepsis:</strong> hypotension, rapid pulse, fast breathing, confusion, cold peripheries or reduced urine output. Start IV antibiotics and fluids within the first hour.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Pregnant woman with fever, loin pain or contractions:</strong> admit; obstetric review; watch for preterm labour and respiratory distress.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Diabetic patient with severe loin pain, vomiting and toxic look:</strong> think emphysematous pyelonephritis; CT is diagnostic; urgent urology referral.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Acute urinary retention:</strong> catheterise first, then treat.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>No improvement after 48 to 72 hours of an active antibiotic:</strong> repeat culture and image the renal tract.</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cystitis-in-non-pregnant-women" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Cystitis in Non-Pregnant Women
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Treat typical cystitis in a non-pregnant woman with a short course of a narrow-spectrum drug that works in the bladder. Ciprofloxacin and amoxicillin are not appropriate first choices. EAU 2025 advises against fluoroquinolones and aminopenicillins for cystitis, and Nigerian resistance to both is high.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Oral regimens</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Duration</th><th class="py-2 pr-3">Comment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nitrofurantoin (first choice where usable)</td><td class="py-2 pr-3">Prolonged-release or monohydrate/macrocrystals 100 mg twice daily; or macrocrystals 50 to 100 mg four times daily</td><td class="py-2 pr-3">5 days</td><td class="py-2 pr-3">Take with food. Cystitis only; it does not reach the kidneys or prostate. Avoid if eGFR is below about 45, in G6PD deficiency, at term, in porphyria and in infants under 3 months. Stop at once for new cough, breathlessness, jaundice or numbness</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fosfomycin trometamol</td><td class="py-2 pr-3">3 g single dose (one sachet in water)</td><td class="py-2 pr-3">1 day</td><td class="py-2 pr-3">Cystitis only. Useful when nitrofurantoin cannot be used and for ESBL organisms. I could not confirm reliable Nigerian availability; do not use it for pyelonephritis</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pivmecillinam</td><td class="py-2 pr-3">400 mg three times daily</td><td class="py-2 pr-3">3 to 5 days</td><td class="py-2 pr-3">EAU first-line option but I could not confirm Nigerian availability</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Trimethoprim-sulfamethoxazole</td><td class="py-2 pr-3">160/800 mg twice daily</td><td class="py-2 pr-3">3 days</td><td class="py-2 pr-3">Only if local E. coli resistance is low or the isolate is susceptible. Avoid in the first trimester and late pregnancy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefalexin or cefadroxil</td><td class="py-2 pr-3">500 mg twice daily</td><td class="py-2 pr-3">3 days</td><td class="py-2 pr-3">EAU: only if local E. coli resistance to the drug is below 20%, which Nigerian reports do not support for third-generation cephalosporins</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ciprofloxacin (reserve agent)</td><td class="py-2 pr-3">500 mg twice daily</td><td class="py-2 pr-3">3 days</td><td class="py-2 pr-3">Only when culture shows susceptibility and nitrofurantoin or fosfomycin cannot be used. The 3-day duration comes from older cystitis guidance. Not for routine cystitis</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What Nigerian and regional data suggest</strong>
+<p class="text-sm">A 2026 systematic review of community-acquired UTI in sub-Saharan Africa (42 studies) pooled <em>E. coli</em> resistance at 62% for co-trimoxazole, 49% for amoxicillin-clavulanate, 35% for ceftriaxone, 33% for ciprofloxacin and 20% for nitrofurantoin; West African estimates were 63%, 54%, 42%, 32% and 31%. Heterogeneity was very high and no Nigeria-only estimate was given. A small Port Harcourt series of 25 <em>E. coli</em> isolates (2015) found 0% nitrofurantoin resistance, 60% ciprofloxacin, 76% co-trimoxazole, 44% gentamicin, 0% meropenem and 24% ESBL. In a South-West antenatal study, 88% of isolates were nitrofurantoin-susceptible, 79% cefuroxime-susceptible and 71% ceftriaxone-susceptible. A 2016 to 2018 national laboratory report found around 80% cephalosporin resistance in <em>E. coli</em> and <em>Klebsiella</em> in some years and noted that ESBL testing is rarely done. The pattern is consistent: nitrofurantoin is the most reliable oral drug for cystitis; co-trimoxazole, amoxicillin and oral cephalosporins fail often; ciprofloxacin is unreliable.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Culture first when</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Symptoms persist or return within 2 weeks of treatment, the patient is a man, pregnant, diabetic, catheterised or recently hospitalised, or recently took an antibiotic.</li>
+  <li>Recurrent cystitis (at least 3 episodes a year).</li>
+  <li>There is any suggestion of pyelonephritis.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: empirical choice and local resistance.</strong> EAU 2025 lists fosfomycin, nitrofurantoin and pivmecillinam as first-line for cystitis, accepts a cephalosporin only if local resistance is below 20%, and restricts ciprofloxacin for pyelonephritis to settings with fluoroquinolone resistance below 10%. Nigerian and West African figures exceed these thresholds for cephalosporins, co-trimoxazole and ciprofloxacin, which is why this guide places nitrofurantoin first. Where nitrofurantoin is unusable and no culture result exists, the safest choice depends on your laboratory; do not default to ciprofloxacin or co-amoxiclav.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pyelonephritis-and-complicated-uti" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Pyelonephritis and Complicated UTI
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Pyelonephritis and complicated UTI need an antibiotic that reaches blood and renal tissue. Nitrofurantoin, oral fosfomycin and pivmecillinam must not be used. Take urine and blood cultures first and start treatment without waiting for the result.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Mild pyelonephritis, outpatient, non-pregnant adults</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Give one initial dose of a long-acting parenteral drug: ceftriaxone 1 to 2 g IM or IV once.</li>
+  <li>Continue with an oral drug chosen by culture or, until the result returns, by local susceptibility (table below).</li>
+  <li>Review at 48 to 72 hours with culture results; admit if not improving.</li>
+  <li>Ultrasound if no improvement, if there is a history of stones, or in men and diabetics.</li>
+</ol>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Oral drug</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Duration</th><th class="py-2 pr-3">Comment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ciprofloxacin</td><td class="py-2 pr-3">500 to 750 mg twice daily</td><td class="py-2 pr-3">7 days</td><td class="py-2 pr-3">Only if the isolate is susceptible (or local resistance is below 10%, which Nigerian figures rarely meet). Avoid in pregnancy, epilepsy, and with steroids or warfarin; tendon rupture and QT risk</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Levofloxacin</td><td class="py-2 pr-3">500 mg once daily (or 500 mg twice daily, high dose)</td><td class="py-2 pr-3">5 days</td><td class="py-2 pr-3">Same cautions as ciprofloxacin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Co-trimoxazole</td><td class="py-2 pr-3">160/800 mg twice daily</td><td class="py-2 pr-3">14 days</td><td class="py-2 pr-3">Only if the isolate is susceptible; give an initial parenteral dose if used empirically</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefpodoxime</td><td class="py-2 pr-3">200 mg twice daily</td><td class="py-2 pr-3">10 days</td><td class="py-2 pr-3">Less effective than fluoroquinolones; availability varies in Nigeria</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefuroxime (widely stocked)</td><td class="py-2 pr-3">500 mg twice daily</td><td class="py-2 pr-3">10 to 14 days</td><td class="py-2 pr-3">Weaker evidence than for fluoroquinolones; only if the isolate is susceptible. Ceftriaxone resistance in E. coli is 35% to 42% in regional pooled data, so confirm susceptibility</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Admitted patients: IV treatment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Role and cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ceftriaxone</td><td class="py-2 pr-3">2 g IV once daily (2 g twice daily is the EAU high dose, recommended for severe illness)</td><td class="py-2 pr-3">First line if local susceptibility is acceptable. Do not give through a line carrying calcium-containing fluids such as Ringer&rsquo;s lactate</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ciprofloxacin</td><td class="py-2 pr-3">400 mg IV every 12 hours</td><td class="py-2 pr-3">Only if the isolate is susceptible and the patient has not taken a fluoroquinolone in the previous 6 to 12 months; avoid in pregnancy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Gentamicin</td><td class="py-2 pr-3">6 to 7 mg/kg IV once daily</td><td class="py-2 pr-3">Second line; not studied alone, so used with a beta-lactam. Calculate on ideal body weight, check creatinine, avoid in pregnancy, renal impairment and with other nephrotoxins. Nigerian gentamicin resistance reports conflict</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amikacin</td><td class="py-2 pr-3">Dose by weight and renal function with pharmacy guidance (EAU lists 25 to 30 mg/kg once daily, higher than many local protocols)</td><td class="py-2 pr-3">Reserve for multidrug-resistant organisms; monitor levels where possible</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Piperacillin-tazobactam</td><td class="py-2 pr-3">4.5 g IV every 8 hours (every 6 hours in high-dose regimens)</td><td class="py-2 pr-3">Second line; broad cover including Pseudomonas</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Meropenem</td><td class="py-2 pr-3">1 g IV every 8 hours</td><td class="py-2 pr-3">Last line for suspected ESBL or multidrug resistance, sepsis, or prior ESBL. Reserve to protect it</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ertapenem</td><td class="py-2 pr-3">1 g IV once daily</td><td class="py-2 pr-3">For ESBL organisms without Pseudomonas risk; availability limited</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Duration</strong>
+<p class="text-sm">Switch to oral therapy once the patient is afebrile and improving and can drink. IDSA 2025 recommends 5 to 7 days of a fluoroquinolone or 7 days of a non-fluoroquinolone for patients who are improving, counted from the first day of effective treatment, instead of 10 to 14 days. Gram-negative bacteraemia secondary to a urinary source also needs 7 days rather than 14. Men with febrile UTI and possible prostatitis may need 10 to 14 days. Use longer courses (10 to 14 days) for oral beta-lactams, for untreated obstruction or abscess until drained, and in pregnancy.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Choosing an empirical IV drug</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Assess severity first (sepsis or not).</li>
+  <li>Avoid any drug the patient had a resistant isolate to in the past, and fluoroquinolones if used in the last 12 months.</li>
+  <li>In sepsis the empirical drug should have local susceptibility of at least 80% (at least 90% in septic shock). Where no antibiogram exists, a practical approach is a carbapenem for septic shock, hospital-acquired infection, a long-term catheter, or prior ESBL, and ceftriaxone for community-acquired illness without those risks.</li>
+  <li>Narrow to a culture-guided drug at 48 to 72 hours.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">IV fluids in pyelonephritis and urosepsis</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Fluid</th><th class="py-2 pr-3">Amount and rate</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Mild, can drink</td><td class="py-2 pr-3">Oral fluids</td><td class="py-2 pr-3">Drink freely, about 2 to 3 L a day, aiming for pale urine, unless heart or kidney failure restricts fluids</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Admitted, dehydrated or vomiting, normal blood pressure</td><td class="py-2 pr-3">Ringer&rsquo;s lactate or 0.9% sodium chloride</td><td class="py-2 pr-3">500 mL to 1 L over 1 to 2 hours, reassess; then maintenance about 25 to 30 mL/kg/day (about 75 to 100 mL/hour for a 70 kg adult)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sepsis with hypotension or hypoperfusion</td><td class="py-2 pr-3">Ringer&rsquo;s lactate or 0.9% sodium chloride</td><td class="py-2 pr-3">500 mL boluses over 15 to 30 minutes, reassessing after each, up to about 30 mL/kg within the first 3 hours; norepinephrine in ICU if mean arterial pressure stays below 65 mmHg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Elderly, heart failure, kidney failure</td><td class="py-2 pr-3">Same fluids</td><td class="py-2 pr-3">Smaller boluses (250 mL), reassess chest and oxygen saturation after each, stop if crackles or hypoxia appear</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy</td><td class="py-2 pr-3">Ringer&rsquo;s lactate or 0.9% sodium chloride</td><td class="py-2 pr-3">Cautious volumes; pyelonephritis in pregnancy carries a risk of pulmonary oedema and respiratory distress, so avoid overload and monitor oxygen saturation and chest</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Targets</td><td class="py-2 pr-3">n/a</td><td class="py-2 pr-3">Urine output at least 0.5 mL/kg/hour, pulse and blood pressure normalising, mental state improving. Add potassium (for example 20 mmol KCl per litre) only after urine is passing and potassium is known or likely low</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: aminoglycosides.</strong> EAU lists gentamicin and amikacin as second-line options but notes they have not been studied as monotherapy. A small Port Harcourt isolate series reported 44% gentamicin resistance, while a national laboratory report described aminoglycoside resistance as among the lowest. These disagree, so confirm with your own antibiogram.</p>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: duration.</strong> IDSA 2025 supports 7 days (5 to 7 days with a fluoroquinolone) for patients who improve promptly, while pregnancy guidance and older practice use 10 to 14 days. This guide uses the shorter course for non-pregnant adults who respond and the longer course for pregnancy, unresponsive illness and drained collections.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="symptomatic-and-supportive-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Symptomatic and Supportive Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Problem</th><th class="py-2 pr-3">What to give</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pain and fever</td><td class="py-2 pr-3">Paracetamol</td><td class="py-2 pr-3">Adults 1 g every 6 hours (maximum 4 g a day; 3 g in liver disease, malnutrition or heavy alcohol use)</td><td class="py-2 pr-3">First choice in all patients, including pregnancy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Dysuria and bladder spasm (non-pregnant adults)</td><td class="py-2 pr-3">Ibuprofen (short course); or phenazopyridine where available</td><td class="py-2 pr-3">Ibuprofen 400 mg three times daily with food for up to 3 days. Phenazopyridine 200 mg three times daily for no more than 2 days</td><td class="py-2 pr-3">Avoid ibuprofen in kidney impairment, peptic ulcer, pregnancy, dehydration and sepsis. Phenazopyridine turns urine orange, is contraindicated in G6PD deficiency and renal impairment, and treats symptoms only</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nausea and vomiting</td><td class="py-2 pr-3">Ondansetron</td><td class="py-2 pr-3">4 to 8 mg orally or IV every 8 hours</td><td class="py-2 pr-3">QT prolongation: caution with fluoroquinolones and other QT drugs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Dehydration</td><td class="py-2 pr-3">Oral fluids; IV per Section 4</td><td class="py-2 pr-3">As in Section 4</td><td class="py-2 pr-3">Do not restrict fluids unless heart or kidney failure requires it</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Constipation (contributes to retention in older men)</td><td class="py-2 pr-3">Fluids, fibre, lactulose</td><td class="py-2 pr-3">Lactulose 15 to 30 mL daily</td><td class="py-2 pr-3">Treat; it worsens outlet symptoms and recurrence</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urinary retention</td><td class="py-2 pr-3">Catheterise</td><td class="py-2 pr-3">Urethral catheter; suprapubic catheter if the urethral route fails</td><td class="py-2 pr-3">Specialist care; see Section 7</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General advice</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Drink to thirst and enough to keep the urine pale; do not force large volumes in kidney or heart failure.</li>
+  <li>Urinate when the urge comes and empty fully; pass urine after sex.</li>
+  <li>Wipe from front to back; avoid douching, antiseptic washes and scented products.</li>
+  <li>Alkalinising mixtures (sodium bicarbonate, citrate) have no proven benefit and may reduce nitrofurantoin activity; they do not replace an antibiotic.</li>
+  <li>Ask openly about agbo, herbal "kidney cleansers" and diuretic teas; some contain nephrotoxic ingredients.</li>
+  <li>Take the whole course even when symptoms settle in 2 to 3 days.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="urinary-tract-infection-in-pregnancy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Urinary Tract Infection in Pregnancy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Pregnancy changes the urinary tract (ureteric dilatation, stasis) so that untreated bacteriuria can progress to pyelonephritis, preterm labour and low birth weight. Unlike other adults, pregnant women with asymptomatic bacteriuria are treated. In one South-West Nigeria antenatal study 30.4% of the women screened had bacteriuria, with <em>E. coli</em> in half, so ignoring it is not an option.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Screening</strong>
+<p class="text-sm">Send a urine culture at the first antenatal visit, and repeat when symptoms occur. Where culture is not available, use urinalysis plus symptoms and treat according to the local antenatal protocol; a negative dipstick does not exclude infection.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Asymptomatic bacteriuria and cystitis in pregnancy</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Duration</th><th class="py-2 pr-3">Cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefalexin (usual first choice)</td><td class="py-2 pr-3">500 mg every 6 hours</td><td class="py-2 pr-3">5 to 7 days</td><td class="py-2 pr-3">Check susceptibility; empirical resistance can be high</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefuroxime</td><td class="py-2 pr-3">250 to 500 mg twice daily</td><td class="py-2 pr-3">5 to 7 days</td><td class="py-2 pr-3">If susceptible; availability widespread</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nitrofurantoin</td><td class="py-2 pr-3">100 mg twice daily</td><td class="py-2 pr-3">5 to 7 days</td><td class="py-2 pr-3">Only if susceptible. Avoid at term, in labour, in G6PD deficiency and when labour is imminent (neonatal haemolysis); see Guideline Watch</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amoxicillin-clavulanate</td><td class="py-2 pr-3">500/125 mg three times daily</td><td class="py-2 pr-3">5 to 7 days</td><td class="py-2 pr-3">Only if susceptible; resistance is about 50% in regional E. coli</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fosfomycin</td><td class="py-2 pr-3">3 g once</td><td class="py-2 pr-3">1 day</td><td class="py-2 pr-3">Only if susceptible; check availability</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Co-trimoxazole</td><td class="py-2 pr-3">160/800 mg twice daily</td><td class="py-2 pr-3">3 days</td><td class="py-2 pr-3">Avoid in the first trimester and near term; folic acid; only if nothing else works</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">Repeat the urine culture about 1 week after finishing treatment. If still positive, treat according to the new susceptibilities and do not repeat further cultures unless symptomatic. Group B streptococcus in urine at any count should prompt intrapartum antibiotic prophylaxis at delivery.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Acute pyelonephritis in pregnancy: always admit</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Admit, take urine and blood cultures, and involve obstetrics.</li>
+  <li>Start IV ceftriaxone 1 to 2 g once daily. For sepsis, hospital exposure or suspected ESBL use meropenem 1 g every 8 hours or ertapenem 1 g once daily.</li>
+  <li>Fluids as in Section 4, with caution for pulmonary oedema; monitor oxygen saturation, respiratory rate and urine output.</li>
+  <li>Treat fever with paracetamol; monitor the fetus and look for contractions.</li>
+  <li>Switch to an oral beta-lactam chosen by susceptibility once afebrile for 48 hours; complete 10 to 14 days in total.</li>
+  <li>Repeat urine culture if symptoms persist beyond 24 to 48 hours, and image the kidneys for stone, abscess or obstruction.</li>
+  <li>After pyelonephritis, or with recurrent bacteriuria, consider suppressive prophylaxis for the rest of the pregnancy and until 4 to 6 weeks postpartum: cefalexin 250 to 500 mg at night, or nitrofurantoin 100 mg at night if not near term. Send monthly urine cultures.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drugs to avoid in pregnancy</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Fluoroquinolones and tetracyclines: do not use.</li>
+  <li>Gentamicin and other aminoglycosides: fetal ototoxicity; last resort only.</li>
+  <li>Co-trimoxazole: first trimester (neural tube defects) and near term (neonatal kernicterus).</li>
+  <li>Nitrofurantoin: at term, in labour and in G6PD deficiency.</li>
+  <li>Fosfomycin: not for pyelonephritis.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: nitrofurantoin in pregnancy.</strong> One summary says nitrofurantoin may be used in the first trimester when alternatives are unavailable and is contraindicated only at term and in labour. A Canadian emergency care summary advises avoiding it in the first trimester as well. Cefalexin or cefuroxime by susceptibility are the safer first choices; use nitrofurantoin in early pregnancy only when culture shows no better option, and avoid it at term, in labour, and in G6PD deficiency.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="men-prostatic-enlargement-and-older-adults" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Men, Prostatic Enlargement and Older Adults
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">UTI in a man is a complicated UTI until proven otherwise. Look for the reason: prostatic enlargement with incomplete emptying, a stone, a stricture, a catheter, diabetes, or prostatitis. Older men with benign prostatic enlargement and a raised post-void residual are the commonest hospital presentation.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Approach</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Take a urine culture before the first dose, and blood cultures if febrile.</li>
+  <li>Examine for a distended bladder and perform a gentle digital rectal examination; do not massage the prostate in acute prostatitis (a tender, boggy gland).</li>
+  <li>Ultrasound with post-void residual to look for retention, hydronephrosis and stones.</li>
+  <li>If retention is present, catheterise (suprapubic if urethral passage fails), then treat. Start an alpha-blocker such as tamsulosin 0.4 mg once daily and plan a trial without catheter per your urology protocol; refer for definitive management.</li>
+  <li>Exclude urethritis and epididymo-orchitis, especially in younger men.</li>
+  <li>Check glucose and renal function. Do not request PSA during acute infection, because it is falsely raised.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Antibiotic treatment in men</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Condition</th><th class="py-2 pr-3">Treatment</th><th class="py-2 pr-3">Duration</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cystitis-type UTI in a man without systemic features</td><td class="py-2 pr-3">Co-trimoxazole 160/800 mg twice daily if susceptible; or a fluoroquinolone (ciprofloxacin 500 mg twice daily) by susceptibility. Nitrofurantoin and fosfomycin are not appropriate for male UTI because they do not reach the prostate</td><td class="py-2 pr-3">7 days (EAU for co-trimoxazole)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Febrile UTI or suspected acute bacterial prostatitis</td><td class="py-2 pr-3">IV ceftriaxone 2 g daily (or ciprofloxacin 400 mg IV every 12 hours if susceptible); step down to oral culture-guided drug once improving. Use a carbapenem for sepsis or ESBL risk</td><td class="py-2 pr-3">At least 10 to 14 days (IDSA 2025 caveat); many references use 2 to 4 weeks for acute prostatitis, and EAU defers to systemic UTI principles</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic bacterial prostatitis (recurrent infection with the same organism)</td><td class="py-2 pr-3">Fluoroquinolone at an optimal daily dose per culture (first-line). Doxycycline 100 mg twice daily 10 days or azithromycin 500 mg once daily 3 weeks only for Chlamydia; metronidazole 500 mg three times daily 14 days only for Trichomonas</td><td class="py-2 pr-3">4 to 6 weeks for a fluoroquinolone</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute epididymitis</td><td class="py-2 pr-3">Ceftriaxone 500 mg IM or IV single dose if gonorrhoea is likely, plus an antibiotic active against Chlamydia (for example doxycycline); adjust to pathogen</td><td class="py-2 pr-3">Per organism</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Older adults and the frail</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Do not screen or treat asymptomatic bacteriuria</strong> in older or institutionalised patients (EAU), including in those with chronic incontinence.</li>
+  <li><strong>Confusion, falls or lethargy alone</strong> do not establish UTI. Examine for other causes first.</li>
+  <li><strong>Calculate eGFR</strong> (creatinine alone overestimates function in the elderly). Avoid nitrofurantoin below about 45 mL/min, reduce ciprofloxacin and meropenem doses for renal impairment, and avoid aminoglycosides where possible.</li>
+  <li><strong>Fluoroquinolone cautions:</strong> tendon rupture (especially with steroids), delirium, dysglycaemia, QT prolongation, and interaction with warfarin (check INR).</li>
+  <li><strong>Co-trimoxazole cautions:</strong> hyperkalaemia with ACE inhibitors, spironolactone and renal impairment; raises creatinine without reducing true GFR; interacts with warfarin and methotrexate.</li>
+  <li><strong>Before urological procedures</strong> that breach the mucosa (for example TURP), screen and treat bacteriuria with a culture-guided short course.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="catheters-and-other-special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Catheters and Other Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Catheter-associated UTI</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Many Nigerian patients with prostatic enlargement live with long-term catheters, and bacteriuria is almost universal. <strong>Do not treat asymptomatic catheter bacteriuria</strong> except before traumatic urinary tract interventions such as TURP.</li>
+  <li>Treat only when there are symptoms (fever, loin or suprapubic pain, rigors, new confusion with no other cause).</li>
+  <li><strong>Replace or remove the catheter before starting antibiotics</strong>, and take the culture from the new catheter or from fresh urine, not from the drainage bag.</li>
+  <li>Follow the pyelonephritis or complicated UTI regimen in Section 4; 7 days is usually enough if the patient responds promptly.</li>
+  <li>No routine antibiotic prophylaxis for catheter insertion or after removal, and no antiseptic application to the meatus or catheter.</li>
+  <li>Remove the catheter as soon as possible; keep the system closed and the bag below the bladder; use hydrophilic-coated catheters where available; change long-term catheters on the schedule your urology team sets.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other situations</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">What to do</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diabetes</td><td class="py-2 pr-3">Do not treat ASB in well-controlled diabetes. Pyelonephritis has a higher risk of emphysematous infection and papillary necrosis; image early. Control glucose; avoid dehydration and SGLT2 inhibitors during acute illness</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sickle cell disease</td><td class="py-2 pr-3">Higher risk of pyelonephritis and papillary necrosis, and pregnancy is high risk. Admit for fever, culture, give IV ceftriaxone, test for malaria, hydrate carefully</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Kidney stones or obstruction</td><td class="py-2 pr-3">Antibiotics plus urgent decompression for an infected obstructed system; staged stone treatment after sepsis settles. Proteus and Klebsiella can form struvite stones</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic kidney disease or transplant</td><td class="py-2 pr-3">Adjust doses to eGFR; avoid nitrofurantoin and nephrotoxins; ASB is not treated in transplant recipients (EAU)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HIV</td><td class="py-2 pr-3">Treat as above; separate dolutegravir (as in TLD) from antacids, iron, calcium and zinc, and the same applies to ciprofloxacin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Candiduria</td><td class="py-2 pr-3">Usually colonisation, especially with catheters and diabetes. Do not treat asymptomatic candiduria; remove or change the catheter, control glucose and re-test</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urinary schistosomiasis</td><td class="py-2 pr-3">Praziquantel 40 mg/kg as a single dose; treat any bacterial UTI in addition. Consider it in terminal haematuria in people who bathe or farm in freshwater</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urethritis and genital infections</td><td class="py-2 pr-3">Treat by the syndromic STI approach, offer HIV and syphilis testing, and treat partners</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Children</td><td class="py-2 pr-3">Not covered here. Children with UTI need age-specific dosing, early imaging and paediatric input</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="resistant-organisms-and-treatment-failure" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Resistant Organisms and Treatment Failure
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Failure to respond within 48 to 72 hours usually means resistance, obstruction, an abscess, or a wrong diagnosis, not that the dose was too low.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Work through the list</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Confirm the diagnosis: look for an alternative cause (STI, vaginitis, stone, appendicitis, pelvic inflammatory disease, tuberculosis).</li>
+  <li>Check the culture and susceptibility result; confirm the drug and dose actually taken, and that it was a registered, undamaged product.</li>
+  <li>Image the renal tract for obstruction, stones, abscess or emphysematous infection; repeat urine culture.</li>
+  <li>Check renal function and drug penetration: nitrofurantoin and fosfomycin do not treat the kidney, blood or prostate.</li>
+  <li>If resistant, change class, not dose.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">ESBL and multidrug-resistant organisms</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Isolate</th><th class="py-2 pr-3">Cystitis</th><th class="py-2 pr-3">Pyelonephritis or systemic UTI</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">ESBL-producing E. coli or Klebsiella</td><td class="py-2 pr-3">Nitrofurantoin or fosfomycin 3 g single dose if susceptible; a single IM/IV aminoglycoside dose is also used</td><td class="py-2 pr-3">Meropenem 1 g every 8 hours or ertapenem 1 g daily; step down to a susceptible oral drug (ciprofloxacin or co-trimoxazole) if available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pseudomonas aeruginosa</td><td class="py-2 pr-3">Needs culture-guided anti-pseudomonal drug (ciprofloxacin if susceptible)</td><td class="py-2 pr-3">Piperacillin-tazobactam, cefepime, ceftazidime or meropenem; seek microbiology advice</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Enterococcus</td><td class="py-2 pr-3">Amoxicillin if susceptible; nitrofurantoin is also active</td><td class="py-2 pr-3">Amoxicillin or ampicillin IV; add gentamicin per advice</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Proteus mirabilis</td><td class="py-2 pr-3">Usually susceptible to cephalosporins; nitrofurantoin is inactive</td><td class="py-2 pr-3">Ceftriaxone; image for struvite stones</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fluoroquinolone-resistant E. coli</td><td class="py-2 pr-3">Nitrofurantoin or fosfomycin</td><td class="py-2 pr-3">Ceftriaxone, carbapenem or aminoglycoside per susceptibility</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">Nigerian laboratories rarely test for ESBL routinely. Ask for it, and treat a patient with sepsis and risk factors (recent hospital stay, long-term catheter, prior ESBL, recent broad-spectrum antibiotic) as if ESBL is likely until proven otherwise.</p>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="recurrent-cystitis-prevention" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Recurrent Cystitis: Prevention
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Recurrent cystitis means at least 3 episodes in a year or 2 in 6 months. In women under 40 with no risk factors extensive investigation is unnecessary, but confirm each episode with a culture, exclude STI and stone, and check for diabetes, incomplete emptying and constipation.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Measure</th><th class="py-2 pr-3">Detail</th><th class="py-2 pr-3">Strength of evidence</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Behavioural</td><td class="py-2 pr-3">Good fluid intake, pass urine after sex, avoid spermicides and douching, treat constipation, avoid delaying micturition</td><td class="py-2 pr-3">Reasonable, weak</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Vaginal oestrogen</td><td class="py-2 pr-3">For postmenopausal women</td><td class="py-2 pr-3">Strong (EAU)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Methenamine hippurate</td><td class="py-2 pr-3">Usual dose 1 g twice daily; women without urinary tract abnormalities</td><td class="py-2 pr-3">Strong (EAU)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cranberry products, D-mannose, probiotics, herbal products</td><td class="py-2 pr-3">Optional extras; do not replace antibiotics</td><td class="py-2 pr-3">Weak and conflicting</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Continuous or post-coital antibiotic prophylaxis</td><td class="py-2 pr-3">When non-antibiotic measures fail. Typical choices include nitrofurantoin 50 to 100 mg at night, or cefalexin 125 to 250 mg at night; confirm susceptibility; review after 3 to 6 months. Doses are standard practice, not set out in the EAU extract reviewed</td><td class="py-2 pr-3">Strong (EAU)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Self-start therapy</td><td class="py-2 pr-3">A short culture-proven regimen taken at the first symptoms in reliable patients</td><td class="py-2 pr-3">Reasonable</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">Nitrofurantoin used for many months needs baseline and periodic liver tests and vigilance for cough or breathlessness (pulmonary reactions can be permanent if missed). Stop if they appear, and avoid it below about 45 mL/min eGFR.</p>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="follow-up-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Follow-Up and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Cystitis:</strong> symptoms should improve within 2 to 3 days. If not, send culture and review. No routine test of cure in non-pregnant women.</li>
+  <li><strong>Pyelonephritis:</strong> review at 48 to 72 hours; confirm culture result and narrow therapy; ultrasound if no improvement or recurrent episodes.</li>
+  <li><strong>Pregnancy:</strong> repeat culture about 1 week after treatment and monthly after pyelonephritis; continue suppressive therapy if prescribed.</li>
+  <li><strong>Men:</strong> arrange urology follow-up for retention, stones or prostate disease, and review PSA only after infection has resolved.</li>
+  <li><strong>Teach-back:</strong> ask the patient to repeat the drug name, times, number of days, fluids, and which warning signs (fever, loin pain, vomiting, blood in urine, no urine passed) mean returning the same day.</li>
+  <li><strong>Counselling on cost and access:</strong> explain why culture is worth paying for before a second or third antibiotic, and that buying antibiotics without a prescription often means the wrong drug at the wrong dose.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="nigerian-brands-strengths-and-interactions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Nigerian Brands, Strengths and Interactions
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Brand availability varies. These are examples, not endorsements. Check the NAFDAC registration number, buy from licensed pharmacies, and distrust unusually cheap injectable antibiotics.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Examples you may meet</th><th class="py-2 pr-3">Common forms</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nitrofurantoin</td><td class="py-2 pr-3">Macrodantin, Furadantin and generic nitrofurantoin (check strength: 50 mg and 100 mg)</td><td class="py-2 pr-3">50 mg and 100 mg capsules or tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fosfomycin trometamol</td><td class="py-2 pr-3">Brand availability uncertain in Nigeria</td><td class="py-2 pr-3">3 g sachet</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefuroxime</td><td class="py-2 pr-3">Zinnat and generics</td><td class="py-2 pr-3">250 mg and 500 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cefalexin</td><td class="py-2 pr-3">Keflex, Ceporex and generics</td><td class="py-2 pr-3">250 mg and 500 mg capsules; suspension</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amoxicillin-clavulanate</td><td class="py-2 pr-3">Augmentin and generics</td><td class="py-2 pr-3">375 mg, 625 mg and 1 g tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Co-trimoxazole</td><td class="py-2 pr-3">Septrin and generics</td><td class="py-2 pr-3">480 mg and 960 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ciprofloxacin</td><td class="py-2 pr-3">Ciprobay, Ciprotab and generics</td><td class="py-2 pr-3">250 mg, 500 mg and 750 mg tablets; 200 mg and 400 mg infusion</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Levofloxacin</td><td class="py-2 pr-3">Tavanic and generics</td><td class="py-2 pr-3">500 mg and 750 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ceftriaxone</td><td class="py-2 pr-3">Rocephin and many generic vials</td><td class="py-2 pr-3">250 mg, 500 mg, 1 g and 2 g vials</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Gentamicin and amikacin</td><td class="py-2 pr-3">Generic injections</td><td class="py-2 pr-3">Gentamicin 80 mg/2 mL; amikacin 250 mg and 500 mg per vial</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Meropenem and ertapenem</td><td class="py-2 pr-3">Meronem; Invanz (limited availability)</td><td class="py-2 pr-3">500 mg and 1 g vials</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Tamsulosin</td><td class="py-2 pr-3">Flomax and generics</td><td class="py-2 pr-3">0.4 mg capsule</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Paracetamol, ibuprofen</td><td class="py-2 pr-3">Panadol, Emzor Paracetamol; Brufen</td><td class="py-2 pr-3">Paracetamol 500 mg; ibuprofen 200 mg and 400 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ondansetron</td><td class="py-2 pr-3">Zofran and generics</td><td class="py-2 pr-3">4 mg and 8 mg tablets; 4 mg/2 mL injection</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">IV fluids</td><td class="py-2 pr-3">Ringer&rsquo;s lactate (Hartmann&rsquo;s), 0.9% sodium chloride, 5% dextrose</td><td class="py-2 pr-3">500 mL and 1 L bags</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Interactions and combination traps</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Fluoroquinolones:</strong> chelated by antacids, iron, calcium, magnesium, zinc and dolutegravir (separate by at least 2 hours before or 6 hours after); additive QT risk with ondansetron, azithromycin and artemether-lumefantrine; tendon injury with steroids; raised INR with warfarin; dysglycaemia with insulin and sulphonylureas.</li>
+  <li><strong>Nitrofurantoin:</strong> absorption reduced by magnesium trisilicate antacids; avoid in G6PD deficiency, porphyria, and when eGFR is below about 45.</li>
+  <li><strong>Co-trimoxazole:</strong> hyperkalaemia with ACE inhibitors and spironolactone; raises creatinine; interacts with warfarin and methotrexate; avoid in G6PD deficiency, in the first trimester and near term in pregnancy.</li>
+  <li><strong>Aminoglycosides:</strong> nephrotoxicity and ototoxicity increase with furosemide, NSAIDs and other nephrotoxins.</li>
+  <li><strong>Ceftriaxone:</strong> do not co-infuse with calcium-containing fluids; avoid in jaundiced neonates.</li>
+  <li><strong>Fixed-dose combinations</strong> sold for "UTI and infection" (for example ciprofloxacin with tinidazole) add drugs that are not needed; prescribe single agents by indication and susceptibility.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Common Practices to Avoid
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Habits that harm patients</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating a positive dipstick or "pus cells" in an asymptomatic patient</strong>, apart from pregnancy and before urological procedures.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating confusion or falls in an older person as UTI</strong> without looking for other causes.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using ciprofloxacin, amoxicillin or co-trimoxazole as automatic first-line drugs</strong> when local resistance to them is high.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving nitrofurantoin or oral fosfomycin for pyelonephritis, prostatitis or male UTI</strong>, in patients with eGFR below about 45, in G6PD deficiency, or at term in pregnancy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving one or two doses of an injectable and calling it treatment</strong> for pyelonephritis or complicated UTI.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Stopping the antibiotic once the pain settles</strong>, or taking leftover tablets for the next episode.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Skipping culture in pregnancy, men, suspected pyelonephritis, recurrent infection and after treatment failure.</strong></span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Missing the infected obstructed kidney:</strong> treating fever with loin pain for days without an ultrasound, or delaying drainage of a pus-filled system.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Sending a pregnant woman home with pyelonephritis</strong>, or giving gentamicin, ciprofloxacin or doxycycline in pregnancy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating urethral or vaginal discharge as UTI</strong> and missing gonorrhoea, chlamydia or candidiasis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating candiduria or catheter bacteriuria without symptoms</strong>, or leaving a catheter in place for convenience.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Starting antibiotics without changing the catheter</strong> in catheter-associated infection.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using NSAIDs freely in dehydrated patients</strong>, in sepsis, in kidney impairment, or in pregnancy; and giving aminoglycosides without checking renal function.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Restricting fluids</strong> because the patient &ldquo;urinates too much&rdquo;, or giving large fluid loads to patients with heart or kidney failure.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using alkalinising mixtures, herbal "kidney cleansers" or agbo</strong> as treatment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Missing diabetes</strong> in a patient with recurrent infection or severe pyelonephritis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Buying antibiotics and injections from patent medicine stores</strong> without a diagnosis, in sub-therapeutic doses or from unregistered sources.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating urine "infection" in a patient who actually has urinary schistosomiasis or urinary tuberculosis</strong> and never testing for them.</span></li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<p class="font-brand text-sm font-semibold text-indigo-950 dark:text-white mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A UTI is symptoms plus bacteriuria. Do not treat asymptomatic bacteriuria except in pregnancy and before urological procedures that breach the mucosa; do not treat confusion or a positive dipstick alone.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Take a clean-catch urine culture before antibiotics in pregnancy, men, suspected pyelonephritis, recurrent UTI, catheterised patients and treatment failure.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Non-pregnant women with cystitis: nitrofurantoin 100 mg twice daily for 5 days is the most reliable oral option on Nigerian data; fosfomycin 3 g once where available. Avoid ciprofloxacin, amoxicillin and co-trimoxazole as routine first-line drugs.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pyelonephritis and complicated UTI need a drug that reaches tissue: ceftriaxone 1 to 2 g, ciprofloxacin or an aminoglycoside by susceptibility; carbapenem for sepsis, ESBL risk or prior ESBL; 7 days if the patient responds promptly.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fluids: oral for mild illness; IV 500 mL to 1 L for dehydration; up to 30 mL/kg for sepsis in boluses with reassessment; smaller boluses in the elderly, heart failure and pregnancy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Always image and drain an obstructed infected kidney, and consider prostatic enlargement, stones and diabetes in men and older adults.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pregnancy: screen early with culture; treat ASB for 5 to 7 days; admit every pyelonephritis; avoid fluoroquinolones, tetracyclines, aminoglycosides, co-trimoxazole at the extremes of pregnancy and nitrofurantoin at term.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Men with UTI need culture, ultrasound with post-void residual, and 7 days to several weeks of an antibiotic that reaches the prostate; catheter-associated infection needs a catheter change and no treatment of asymptomatic bacteriuria.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Prevent recurrence with behavioural measures, vaginal oestrogen, methenamine or carefully selected prophylaxis, and confirm each episode by culture.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-slate-700 dark:text-slate-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<ol class="list-decimal pl-8 pr-4 pb-4 space-y-1">
+  <li class="text-[10px] leading-snug text-stone-500">European Association of Urology. EAU Guidelines on Urological Infections (2025 pocket edition): classification, cystitis, pyelonephritis, urosepsis, asymptomatic bacteriuria, pregnancy, recurrent UTI, catheter-associated UTI, prostatitis.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Infectious Diseases Society of America. Guideline on the Management of Complicated Urinary Tract Infections (2025).</li>
+  <li class="text-[10px] leading-snug text-stone-500">NHS Specialist Pharmacy Service. Nitrofurantoin: monitoring and safety (renal function, G6PD, hepatic and pulmonary toxicity).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Merck Manual (Professional edition). Urinary Tract Infection in Pregnancy.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Emergency Care BC. UTI special circumstances: pregnancy, diagnosis and treatment.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Systematic review: Prevalence of antimicrobial resistance in acute community-acquired urinary tract infections in sub-Saharan Africa. JAC-Antimicrobial Resistance (2026).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Nigerian national antimicrobial resistance surveillance 2016 to 2018: uropathogen gap analysis (medRxiv preprint, 2025).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Phenotypic and molecular characterisation of antimicrobial-resistant Escherichia coli from urinary tract infections in Port Harcourt. Pan African Medical Journal (2019).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Asymptomatic bacteriuria among antenatal clients in a secondary facility in South-West Nigeria. Nigerian Journal of Medicine (2021).</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Praziquantel 40 mg/kg single dose for urinary schistosomiasis (Schistosoma haematobium).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Surviving Sepsis Campaign guidelines (2021): initial fluid resuscitation of about 30 mL/kg in sepsis-induced hypoperfusion.</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Agency for Food and Drug Administration and Control (NAFDAC) Green Book for product registration checks.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, Nigeria. Standard Treatment Guidelines (check for the current edition; text could not be accessed for this guide).</li>
+</ol>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'treatment-stis-pelvic-inflammatory-disease',
+  title: 'STIs and Pelvic Inflammatory Disease',
+  category: 'Treatment',
+  subCategory: 'Infectious Disease',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 p-4 sm:p-8 max-w-3xl mx-auto">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; INFECTIOUS DISEASE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Sexually Transmitted Infections (STIs) and Pelvic Inflammatory Disease (PID)</h1>
+  <p class="text-sm text-indigo-200">Abnormal vaginal or urethral discharge, dysuria, genital sores and lower abdominal pain are among the commonest reasons young Nigerian adults seek care, and many present first to a chemist, patent medicine vendor or herbalist. Untreated infection causes PID, ectopic pregnancy, infertility, congenital syphilis and increased HIV acquisition. This guide follows the syndromic approach used in Nigeria and gives the treatment of gonorrhoea, chlamydia, trichomoniasis, bacterial vaginosis, candidiasis, syphilis, herpes, chancroid, PID and epididymitis, with doses and formulations by group, outpatient or inpatient criteria, fluids and analgesia, partner management and common Nigerian brands.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block font-semibold mb-2">How to read the doses</strong>
+<p class="text-sm">Doses are for adults with normal kidney and liver function unless stated. Gonorrhoea doses follow the CDC 2021 guideline (ceftriaxone 500 mg); WHO and some national protocols use a higher ceftriaxone dose (1 g) and dual therapy where resistance is a concern, so check the current FMOH and national STI programme guideline before using the lower dose. See the Guideline Watch box for what could not be verified. Brand names are examples only; check the NAFDAC number and strength.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#sti-syndromes-at-a-glance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>STI Syndromes at a Glance</span></a></li>
+  <li><a href="#assessment-testing-and-the-seven-steps-of-good-sti-care" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Assessment, Testing and the Seven Steps of Good STI Care</span></a></li>
+  <li><a href="#urethral-discharge-and-dysuria-in-men-gonorrhoea-chlamydia-and-others" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Urethral Discharge and Dysuria in Men (Gonorrhoea, Chlamydia and Others)</span></a></li>
+  <li><a href="#vaginal-discharge-vaginitis-and-cervicitis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Vaginal Discharge: Vaginitis and Cervicitis</span></a></li>
+  <li><a href="#lower-abdominal-pain-and-pelvic-inflammatory-disease-pid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Lower Abdominal Pain and Pelvic Inflammatory Disease (PID)</span></a></li>
+  <li><a href="#genital-ulcers-herpes-chancroid-and-inguinal-bubo" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Genital Ulcers, Herpes, Chancroid and Inguinal Bubo</span></a></li>
+  <li><a href="#syphilis-staging-treatment-and-pregnancy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Syphilis: Staging, Treatment and Pregnancy</span></a></li>
+  <li><a href="#other-problems-warts-neonatal-conjunctivitis-sexual-assault-hiv-prevention" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Other Problems: Warts, Neonatal Conjunctivitis, Sexual Assault, HIV Prevention</span></a></li>
+  <li><a href="#special-groups-pregnancy-hiv-adolescents-men-who-have-sex-with-men" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Special Groups: Pregnancy, HIV, Adolescents, Men Who Have Sex with Men</span></a></li>
+  <li><a href="#drug-dosage-and-formulation-reference-by-group" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Drug Dosage and Formulation Reference by Group</span></a></li>
+  <li><a href="#nigerian-brands-and-prescribing-realities" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Nigerian Brands and Prescribing Realities</span></a></li>
+  <li><a href="#prevention-follow-up-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Prevention, Follow-Up and Counselling</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sti-syndromes-at-a-glance" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+STI Syndromes at a Glance
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Where laboratory tests (NAAT, culture, microscopy, syphilis serology) are unavailable, treat by <strong>syndrome</strong>: choose drugs that cover the common causes of that presentation, treat the partner, and counsel. Where tests are available, treat by diagnosis, but do not delay treatment of symptomatic patients waiting for results.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Syndrome</th><th class="py-2 pr-3">Usual causes</th><th class="py-2 pr-3">Core treatment</th><th class="py-2 pr-3">Setting</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Urethral discharge or dysuria (men)</td><td class="py-2 pr-3 align-top">Gonorrhoea, chlamydia, Mycoplasma genitalium, trichomonas</td><td class="py-2 pr-3 align-top">Ceftriaxone IM plus doxycycline 7 days (add metronidazole if persistent)</td><td class="py-2 pr-3 align-top">Outpatient</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Vaginal discharge</td><td class="py-2 pr-3 align-top">Bacterial vaginosis, candidiasis, trichomonas; cervicitis (gonorrhoea, chlamydia)</td><td class="py-2 pr-3 align-top">Metronidazole 7 days, plus clotrimazole or fluconazole for candida if curds; add cervicitis treatment if at risk</td><td class="py-2 pr-3 align-top">Outpatient</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Lower abdominal pain (female)</td><td class="py-2 pr-3 align-top">PID: chlamydia, gonorrhoea, anaerobes, M. genitalium</td><td class="py-2 pr-3 align-top">Ceftriaxone plus doxycycline plus metronidazole for 14 days</td><td class="py-2 pr-3 align-top">Outpatient if mild; admit if severe or complicated</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Genital ulcer</td><td class="py-2 pr-3 align-top">Syphilis, herpes, chancroid (LGV, donovanosis less common)</td><td class="py-2 pr-3 align-top">Benzathine penicillin; aciclovir if vesicular; azithromycin for chancroid</td><td class="py-2 pr-3 align-top">Outpatient</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Scrotal pain and swelling</td><td class="py-2 pr-3 align-top">Epididymo-orchitis (gonorrhoea, chlamydia, enteric bacteria); exclude torsion</td><td class="py-2 pr-3 align-top">Ceftriaxone plus doxycycline for 10 days; urgent surgical review if torsion suspected</td><td class="py-2 pr-3 align-top">Outpatient; admit if severe</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Inguinal bubo</td><td class="py-2 pr-3 align-top">LGV, chancroid</td><td class="py-2 pr-3 align-top">Doxycycline 21 days; azithromycin; aspirate, do not incise</td><td class="py-2 pr-3 align-top">Outpatient</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Neonatal conjunctivitis</td><td class="py-2 pr-3 align-top">Gonorrhoea, chlamydia</td><td class="py-2 pr-3 align-top">Ceftriaxone IM single dose; treat the mother and partner</td><td class="py-2 pr-3 align-top">Admit or urgent review</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Anogenital warts</td><td class="py-2 pr-3 align-top">HPV</td><td class="py-2 pr-3 align-top">Podophyllotoxin, imiquimod, or cryotherapy</td><td class="py-2 pr-3 align-top">Outpatient</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assessment-testing-and-the-seven-steps-of-good-sti-care" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Assessment, Testing and the Seven Steps of Good STI Care
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">History and examination</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Ask in private and without judgement: symptoms, duration, partners (number, new partner in the last 3 months, partner symptoms), condom use, sexual practices, previous STIs, self-medication, last menstrual period, contraception (IUD), pregnancy, and HIV status.</li>
+  <li>Examine: genitalia, ulcers, discharge, inguinal nodes; speculum and bimanual examination in women (cervical motion, uterine and adnexal tenderness, cervical discharge, mass); scrotum and testes in men (swelling, tenderness, lie of the testis).</li>
+  <li><strong>Always check a pregnancy test in a woman of reproductive age with lower abdominal pain</strong> (ectopic pregnancy, miscarriage), and check temperature, pulse and blood pressure.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tests where available</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>HIV test for every patient</strong> with an STI, plus syphilis serology (RPR or VDRL, with a treponemal test such as TPHA, or a rapid syphilis or dual HIV/syphilis test); hepatitis B surface antigen if unvaccinated.</li>
+  <li>Gonorrhoea and chlamydia NAAT (urine first-catch in men, vaginal swab in women); Gram stain of urethral discharge (Gram-negative intracellular diplococci); wet mount for trichomonas, pH, clue cells; urine pregnancy test; full blood count, ESR or CRP; abdominal or pelvic ultrasound for suspected abscess or ectopic.</li>
+  <li>Do not wait for results to treat symptomatic patients, and do not use the Widal-type tests or non-validated "STI panels" as the basis for treatment.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">The seven steps of every STI consultation</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Take a history and examine; identify the syndrome.</li>
+  <li>Treat for the syndrome with the national regimen; do not substitute drugs or doses.</li>
+  <li>Give the full treatment (single-dose drugs observed in the clinic where possible).</li>
+  <li><strong>Counsel (4 Cs):</strong> compliance with treatment, counselling and education, condom use with a demonstration, and contact tracing and treatment.</li>
+  <li><strong>Offer HIV testing</strong> and counselling, and syphilis testing.</li>
+  <li><strong>Partner notification and treatment:</strong> all partners in the past 60 days (or the last partner if longer) should be treated for the same syndrome, even if well; advise abstinence or condoms until the patient and all partners have completed treatment (7 days after single-dose treatment or until symptoms resolve).</li>
+  <li><strong>Follow up:</strong> urethral discharge and genital ulcer at 1 week; lower abdominal pain at 3 days; scrotal swelling and bubo at 1 week; vaginal discharge if symptoms persist; neonatal conjunctivitis at 3 days.</li>
+</ol>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="urethral-discharge-and-dysuria-in-men-gonorrhoea-chlamydia-and-others" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Urethral Discharge and Dysuria in Men (Gonorrhoea, Chlamydia and Others)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Typical story: purulent discharge and dysuria 2 to 7 days after exposure (gonorrhoea), or a milder mucoid discharge with dysuria 1 to 3 weeks after exposure (chlamydia). Co-infection is common. Exclude urinary tract infection, prostatitis and epididymitis. Treat in the same visit.</p>
+
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Condition</th><th class="py-2 pr-3">Regimen (adults)</th><th class="py-2 pr-3">Notes</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Gonorrhoea (urethra, cervix, rectum, pharynx)</td>
+        <td class="py-2 pr-3 align-top"><strong>Ceftriaxone 500 mg IM single dose</strong> (1 g if 150 kg or more). If ceftriaxone is unavailable: cefixime 800 mg orally single dose (not for pharyngeal infection). Cephalosporin allergy: gentamicin 240 mg IM plus azithromycin 2 g orally, single doses.</td>
+        <td class="py-2 pr-3 align-top">Many African and WHO-based protocols use 1 g IM; check the national guideline. Fluoroquinolones, tetracycline and penicillin are no longer reliable for gonorrhoea. Reconstitute IM ceftriaxone with 1% lidocaine (about 2 mL for 500 mg; 3.5 mL for 1 g) to reduce pain.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Chlamydia and non-gonococcal urethritis</td>
+        <td class="py-2 pr-3 align-top"><strong>Doxycycline 100 mg twice daily for 7 days.</strong> Alternatives: azithromycin 1 g orally single dose; or levofloxacin 500 mg daily for 7 days. Pregnancy: azithromycin 1 g single dose (alternative amoxicillin 500 mg three times daily for 7 days).</td>
+        <td class="py-2 pr-3 align-top">Take doxycycline with a full glass of water, upright, and not with milk, antacids, iron or calcium. Avoid sun exposure. Not in pregnancy or children under 8 years. In patients at risk for both, give ceftriaxone plus doxycycline together.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Syndromic treatment of urethral discharge</td>
+        <td class="py-2 pr-3 align-top">Ceftriaxone 500 mg IM single dose <strong>plus</strong> doxycycline 100 mg twice daily for 7 days (or azithromycin 1 g single dose).</td>
+        <td class="py-2 pr-3 align-top">Review at 1 week</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Persistent or recurrent urethritis</td>
+        <td class="py-2 pr-3 align-top">Confirm re-exposure, adherence and partner treatment. Then add <strong>metronidazole 2 g orally single dose</strong> (or tinidazole 2 g) for trichomonas; if M. genitalium is likely (persistent NGU after doxycycline): doxycycline 7 days followed by azithromycin 1 g then 500 mg daily for 3 days, or moxifloxacin 400 mg daily for 7 days where available.</td>
+        <td class="py-2 pr-3 align-top">Refer for NAAT and resistance testing where possible. Avoid repeated courses of ciprofloxacin.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Trichomoniasis (men)</td>
+        <td class="py-2 pr-3 align-top">Metronidazole 2 g orally single dose, or tinidazole 2 g single dose</td>
+        <td class="py-2 pr-3 align-top">Treat partners at the same time</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Scrotal swelling and pain (epididymo-orchitis)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Torsion of the testis is a surgical emergency</strong> (sudden severe pain, high-riding testis, absent cremasteric reflex, age under 25); refer immediately and do not delay for antibiotics or scans.</li>
+  <li>Epididymitis (gradual pain, fever, dysuria, urethral discharge): <strong>ceftriaxone 500 mg IM single dose plus doxycycline 100 mg twice daily for 10 days.</strong> If enteric organisms are likely (age over 35, anal intercourse, recent urinary instrumentation): levofloxacin 500 mg once daily for 10 days (or ciprofloxacin 500 mg twice daily for 10 days).</li>
+  <li>Bed rest, scrotal support, ice and analgesia (paracetamol 1 g every 6 hours; ibuprofen 400 mg every 8 hours with food or diclofenac 50 mg every 8 hours with food); review at 3 days; refer if not improving (abscess, tuberculosis).</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="vaginal-discharge-vaginitis-and-cervicitis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Vaginal Discharge: Vaginitis and Cervicitis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most vaginal discharge is <strong>not</strong> from gonorrhoea or chlamydia; it is from bacterial vaginosis (BV), candidiasis or trichomoniasis, with physiological discharge, retained tampon or foreign body, and cervical lesions as other causes. Look for <strong>cervicitis</strong> (mucopurulent endocervical discharge, easily bleeding cervix) or risk factors for gonorrhoea or chlamydia (age under 25, new or multiple partners, a partner with symptoms, a recent STI) because these need ceftriaxone plus doxycycline as well.</p>
+
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Diagnosis (clues)</th><th class="py-2 pr-3">First-line regimen (non-pregnant adult)</th><th class="py-2 pr-3">Alternatives and notes</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Bacterial vaginosis (thin grey-white discharge, fishy odour, pH over 4.5, clue cells; no itching)</td>
+        <td class="py-2 pr-3 align-top"><strong>Metronidazole 500 mg orally twice daily for 7 days.</strong></td>
+        <td class="py-2 pr-3 align-top">Metronidazole 0.75% gel 5 g intravaginally daily for 5 days; clindamycin 2% cream 5 g at bedtime for 7 days; clindamycin 300 mg orally twice daily for 7 days; secnidazole 2 g single dose; tinidazole 2 g daily for 2 days or 1 g daily for 5 days. Avoid alcohol during and for 24 hours after metronidazole (72 hours after tinidazole).</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Trichomoniasis (frothy yellow-green discharge, itching, strawberry cervix, dysuria)</td>
+        <td class="py-2 pr-3 align-top"><strong>Metronidazole 500 mg orally twice daily for 7 days</strong> (the CDC regimen for women).</td>
+        <td class="py-2 pr-3 align-top">Tinidazole 2 g single dose. Many WHO and national protocols still use metronidazole 2 g single dose. Treat the partner at the same time. Retest at 3 months.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Vulvovaginal candidiasis (thick white curd-like discharge, intense itching, vulval redness, no odour)</td>
+        <td class="py-2 pr-3 align-top"><strong>Fluconazole 150 mg orally single dose</strong>, or clotrimazole 500 mg vaginal pessary single dose, or clotrimazole 100 mg pessary at night for 6 nights (cream 1% intravaginally for 7 days).</td>
+        <td class="py-2 pr-3 align-top">Severe or recurrent (4 or more episodes a year): fluconazole 150 mg on days 1, 4 and 7, then weekly for 6 months; investigate diabetes and HIV. In pregnancy use topical clotrimazole for 7 days; avoid oral fluconazole. Candidiasis is not considered an STI; do not treat partners unless symptomatic (balanitis).</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Cervicitis (mucopurulent endocervical discharge, easy bleeding)</td>
+        <td class="py-2 pr-3 align-top"><strong>Ceftriaxone 500 mg IM single dose plus doxycycline 100 mg twice daily for 7 days</strong> (or azithromycin 1 g single dose).</td>
+        <td class="py-2 pr-3 align-top">Add metronidazole 500 mg twice daily for 7 days if BV or trichomonas is present.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Syndromic regimen where no tests exist</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Vaginal discharge, low risk for cervicitis:</strong> treat BV and trichomonas (metronidazole 500 mg twice daily for 7 days) and candidiasis if there is itching or curds (fluconazole 150 mg single dose or clotrimazole pessary).</li>
+  <li><strong>Vaginal discharge with risk factors or cervical discharge on speculum:</strong> add ceftriaxone 500 mg IM single dose plus doxycycline 100 mg twice daily for 7 days (or azithromycin 1 g single dose).</li>
+  <li><strong>Pregnancy:</strong> metronidazole is safe in all trimesters at the standard dose; use azithromycin 1 g or amoxicillin 500 mg three times daily for 7 days for chlamydia; ceftriaxone for gonorrhoea; topical clotrimazole for candida.</li>
+  <li><strong>Persistent discharge:</strong> confirm adherence, re-exposure and partner treatment; exclude foreign body (retained tampon or herbal insert), cervical or vaginal tumour, and fistula; refer for speculum examination and cervical screening.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Advice that helps</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Avoid vaginal douching and herbal or antiseptic washes ("agbo" washes, Dettol, salt or lime), scented products and tight synthetic underwear. These raise the risk of BV and PID.</li>
+  <li>Counsel that BV and candidiasis can occur without sex, and that recurrence is common.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="lower-abdominal-pain-and-pelvic-inflammatory-disease-pid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Lower Abdominal Pain and Pelvic Inflammatory Disease (PID)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Diagnosis</strong>
+<p class="text-sm"><strong>Treat for PID when</strong> a sexually active young woman (or a woman at risk) has pelvic or lower abdominal pain, no other cause, and <strong>one or more</strong> of: cervical motion tenderness, uterine tenderness or adnexal tenderness. Supporting findings: fever above 38.3 degrees C, mucopurulent cervical or vaginal discharge, raised ESR or CRP, laboratory proof of gonorrhoea or chlamydia. Because the consequences of untreated PID are serious (infertility, ectopic pregnancy, chronic pelvic pain), the threshold for treatment is low.</p>
+<p class="text-sm"><strong>Before diagnosing PID exclude:</strong> pregnancy (ectopic pregnancy, miscarriage, septic abortion); appendicitis; ovarian cyst torsion or rupture; urinary tract infection or pyelonephritis; endometriosis; fibroid degeneration; malaria; typhoid; abdominal tuberculosis; and sickle cell crisis. Ask about recent abortion, delivery, IUD insertion or uterine instrumentation (including unsafe abortion).</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Outpatient or admission?</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Outpatient treatment is suitable when</th><th class="py-2 pr-3">Admit when any of these</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top">
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Mild to moderate disease, afebrile or low-grade fever</li>
+            <li>Not pregnant; surgical emergency excluded</li>
+            <li>Able to take oral drugs and return in 3 days</li>
+            <li>No tubo-ovarian abscess</li>
+          </ul>
+        </td>
+        <td class="py-2 pr-3 align-top">
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Surgical emergency not excluded (appendicitis, ectopic pregnancy), or pregnancy</li>
+            <li>Severe illness: high fever, persistent vomiting, rigid abdomen, peritonitis, hypotension, signs of sepsis</li>
+            <li>Tubo-ovarian abscess or pelvic mass; suspected ruptured abscess</li>
+            <li>No response to outpatient therapy within 72 hours</li>
+            <li>Unable to follow or tolerate oral treatment; unreliable follow-up</li>
+            <li>HIV with severe immunosuppression; adolescents with doubtful adherence; post-abortion or postpartum PID</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Outpatient regimen (CDC 2021)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Ceftriaxone 500 mg IM single dose, PLUS doxycycline 100 mg orally twice daily for 14 days, PLUS metronidazole 500 mg orally twice daily for 14 days.</strong> (WHO regimens commonly use metronidazole 400 mg twice daily; either is acceptable where the 400 mg tablet is what is available.)</li>
+  <li>Alternatives: cefoxitin 2 g IM with probenecid 1 g orally as a single dose (where available), or another parenteral third-generation cephalosporin (cefotaxime or ceftizoxime), each followed by doxycycline and metronidazole for 14 days.</li>
+  <li>If ceftriaxone or doxycycline cannot be used (allergy, pregnancy, adherence): admit and use the parenteral regimen.</li>
+  <li>Take metronidazole with food; avoid alcohol; give an antiemetic if nausea (ondansetron 4 mg).</li>
+  <li><strong>Review at 3 days</strong>: fever, pain and tenderness should improve; if not, admit for parenteral therapy and imaging.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Inpatient regimens</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Preferred: ceftriaxone 1 g IV every 24 hours, PLUS doxycycline 100 mg orally (or IV) every 12 hours, PLUS metronidazole 500 mg orally (or IV) every 12 hours.</strong></li>
+  <li>Alternatives: cefoxitin 2 g IV every 6 hours, or cefotetan 2 g IV every 12 hours, each plus doxycycline; ampicillin-sulbactam 3 g IV every 6 hours plus doxycycline; or <strong>clindamycin 900 mg IV every 8 hours plus gentamicin</strong> (2 mg/kg loading dose, then 1.5 mg/kg every 8 hours, or 3 to 5 mg/kg once daily).</li>
+  <li>Continue parenteral therapy until clinical improvement (usually 24 to 48 hours of being afebrile and pain improving), then switch to <strong>oral doxycycline 100 mg twice daily plus metronidazole 500 mg twice daily to complete 14 days in total.</strong> Where the alternative clindamycin regimen was used, continue with clindamycin 450 mg orally four times daily or doxycycline plus metronidazole for 14 days.</li>
+  <li><strong>Doxycycline is better absorbed orally; use oral doxycycline whenever the patient can swallow</strong> (IV doxycycline is painful and may not be available).</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Fluids, analgesia and supportive care</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Hydration:</strong> encourage oral fluids (2 to 3 litres a day). For vomiting, fever, dehydration or sepsis: IV <strong>Ringer's lactate or 0.9% sodium chloride</strong>, 500 mL to 1 litre over 30 to 60 minutes (or 30 mL/kg within the first hour for sepsis with hypotension, about 1.5 to 2 litres for a 60 kg adult), then reassess; maintenance 25 to 30 mL/kg/day (about 75 to 90 mL/hour for a 70 kg adult) until she can drink. Avoid hypotonic dextrose-saline bags for resuscitation.</li>
+  <li><strong>Analgesia:</strong> paracetamol 1 g every 6 hours (maximum 4 g a day); add ibuprofen 400 mg every 8 hours or diclofenac 50 mg every 8 hours with food if no contraindication; use IV or IM opioids (for example morphine 2.5 to 5 mg IV titrated, or pethidine 50 to 100 mg IM) for severe pain in hospital only.</li>
+  <li><strong>Fever and sepsis:</strong> blood cultures, lactate and urine tests where possible; start antibiotics within the first hour; treat malaria if the test is positive.</li>
+  <li>Rest, avoid sexual intercourse until the patient and partner have been treated; remove an IUD only if there is no improvement after 48 to 72 hours of treatment (it need not be removed immediately; effective antibiotics should be given first).</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Complications and when to operate</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Tubo-ovarian abscess:</strong> ultrasound or CT; admit for at least 24 to 48 hours of IV therapy with anaerobic cover; drainage (percutaneous or laparoscopic) for abscesses larger than 7 to 8 cm or failure to respond in 48 to 72 hours.</li>
+  <li><strong>Ruptured abscess or generalised peritonitis:</strong> emergency laparotomy; resuscitate with IV Ringer's lactate; broaden cover (for example ceftriaxone plus metronidazole plus gentamicin) and involve the surgical and anaesthetic teams.</li>
+  <li><strong>Fitz-Hugh-Curtis syndrome</strong> (right upper quadrant pain, pleuritic) responds to the same antibiotics.</li>
+  <li><strong>Sequelae:</strong> tubal factor infertility (about 10 to 20% after one episode, rising with repeats), ectopic pregnancy, chronic pelvic pain. Counsel and review fertility concerns at follow-up.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Partners and follow-up</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Treat all male partners of the previous 60 days for gonorrhoea and chlamydia (ceftriaxone 500 mg IM plus doxycycline 100 mg twice daily for 7 days, or azithromycin 1 g) regardless of symptoms.</li>
+  <li>Retest for gonorrhoea and chlamydia 3 months after treatment; offer HIV and syphilis testing and hepatitis B vaccination; discuss contraception and condoms.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="genital-ulcers-herpes-chancroid-and-inguinal-bubo" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Genital Ulcers, Herpes, Chancroid and Inguinal Bubo
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">In Nigeria the commonest causes of genital ulcers are <strong>syphilis, herpes simplex and chancroid</strong>. Mixed infection is common; syphilis serology and HIV testing are important because ulcers increase HIV transmission. Painless firm ulcer: syphilis. Multiple painful vesicles or shallow ulcers: herpes. Painful ragged ulcer with tender bubo: chancroid.</p>
+
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Cause</th><th class="py-2 pr-3">Treatment (adults)</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Genital ulcer syndrome (no tests)</td><td class="py-2 pr-3 align-top">Treat for syphilis and chancroid: benzathine penicillin G 2.4 million units IM once, plus azithromycin 1 g orally once (or ceftriaxone 250 mg IM once). Add aciclovir if vesicles or a history of recurrent ulcers (below). Review at 1 week.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Genital herpes, first episode</td><td class="py-2 pr-3 align-top">Aciclovir 400 mg three times daily for 7 to 10 days (or 200 mg five times daily), or valaciclovir 1 g twice daily, or famciclovir 250 mg three times daily, for 7 to 10 days. Start within 5 days.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Herpes, recurrence (episodic)</td><td class="py-2 pr-3 align-top">Aciclovir 800 mg twice daily for 5 days, or 800 mg three times daily for 2 days; valaciclovir 500 mg twice daily for 3 days or 1 g daily for 5 days. Start at the first sign of prodrome.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Herpes, suppression (6 or more recurrences a year)</td><td class="py-2 pr-3 align-top">Aciclovir 400 mg twice daily, or valaciclovir 500 mg to 1 g once daily. In HIV: aciclovir 400 to 800 mg two to three times daily. Pregnancy: aciclovir 400 mg three times daily from 36 weeks.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Chancroid (Haemophilus ducreyi)</td><td class="py-2 pr-3 align-top">Azithromycin 1 g orally single dose; or ceftriaxone 250 mg IM single dose; or ciprofloxacin 500 mg twice daily for 3 days (not in pregnancy); or erythromycin base 500 mg four times daily for 7 days. Aspirate fluctuant buboes with a needle through healthy skin; do not incise.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Lymphogranuloma venereum (LGV)</td><td class="py-2 pr-3 align-top">Doxycycline 100 mg twice daily for 21 days; alternatives azithromycin 1 g weekly for 3 weeks, or erythromycin base 500 mg four times daily for 21 days. Needle aspiration of buboes.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Donovanosis (rare)</td><td class="py-2 pr-3 align-top">Azithromycin 1 g weekly or 500 mg daily, until healed (at least 3 weeks); alternative doxycycline 100 mg twice daily for at least 3 weeks.</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-xs sans">Supportive care for herpes: saline bathing, paracetamol or ibuprofen, lidocaine 2 to 5% gel or ointment to the ulcers (short term), urinating in water if dysuria is severe. Counsel on recurrence and transmission; avoid sex while lesions are present and always use condoms.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="syphilis-staging-treatment-and-pregnancy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Syphilis: Staging, Treatment and Pregnancy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Stages:</strong> primary (painless chancre; 3 weeks after exposure), secondary (rash including palms and soles, mucosal patches, condylomata lata, generalised lymphadenopathy, 6 weeks to 6 months), latent (no symptoms; early if acquired within the past year), tertiary (gumma, cardiovascular, neurological). Neurosyphilis and ocular syphilis can occur at any stage.</li>
+  <li><strong>Diagnosis:</strong> a non-treponemal test (RPR or VDRL, titre) plus a treponemal test (TPHA, FTA-ABS, rapid test). A rapid treponemal test suffices to start treatment when no laboratory is available. Titres should fall four-fold within 6 to 12 months after treatment.</li>
+</ul>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Stage</th><th class="py-2 pr-3">Preferred regimen</th><th class="py-2 pr-3">Alternatives (penicillin allergy or supply problems)</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Primary, secondary, early latent (under 1 year), including HIV</td><td class="py-2 pr-3 align-top"><strong>Benzathine penicillin G 2.4 million units IM single dose</strong> (1.2 million units in each buttock).</td><td class="py-2 pr-3 align-top">Doxycycline 100 mg twice daily for 14 days (not in pregnancy); azithromycin is no longer recommended because of resistance; ceftriaxone 1 g IM or IV daily for 10 days (limited evidence)</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Late latent, latent of unknown duration, tertiary (non-neuro)</td><td class="py-2 pr-3 align-top"><strong>Benzathine penicillin G 2.4 million units IM once weekly for 3 weeks</strong> (7.2 million units total).</td><td class="py-2 pr-3 align-top">Doxycycline 100 mg twice daily for 28 days (not in pregnancy)</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Neurosyphilis, ocular and otosyphilis</td><td class="py-2 pr-3 align-top">Aqueous crystalline penicillin G 18 to 24 million units a day as 3 to 4 million units IV every 4 hours (or continuous infusion) for 10 to 14 days. Alternative: procaine penicillin G 2.4 million units IM daily plus probenecid 500 mg four times daily, both for 10 to 14 days.</td><td class="py-2 pr-3 align-top">Ceftriaxone 2 g IV daily for 10 to 14 days. Admit.</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Pregnancy</td><td class="py-2 pr-3 align-top"><strong>Same penicillin regimens as in non-pregnant adults</strong>, ideally at least 30 days before delivery.</td><td class="py-2 pr-3 align-top">Penicillin-allergic pregnant women should be desensitised and treated with penicillin; doxycycline and tetracycline are contraindicated.</td></tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Benzathine penicillin is given IM only; never IV.</strong> Warn about the <strong>Jarisch-Herxheimer reaction</strong> (fever, rigors, headache, myalgia within 24 hours; treat with paracetamol, fluids and rest). In pregnancy, it can cause fetal distress or preterm labour; treat in a facility where monitoring is possible.</li>
+  <li><strong>Test every pregnant woman for syphilis at booking</strong> and again in the third trimester and at delivery where risk is high; congenital syphilis is preventable. Test and treat partners.</li>
+  <li><strong>Follow-up:</strong> clinical and RPR/VDRL review at 3, 6 and 12 months (and 24 months in late disease or HIV); retreat for a sustained four-fold titre rise, or failure of a four-fold fall at 12 months, after excluding reinfection; and examine the CSF for neurological symptoms.</li>
+  <li><strong>Congenital syphilis (neonates):</strong> aqueous benzylpenicillin 50,000 units/kg IV every 12 hours for the first 7 days of life, then every 8 hours, for 10 days in total; or procaine penicillin G 50,000 units/kg IM once daily for 10 days. Infants with symptoms or a mother not adequately treated in pregnancy need admission and examination.</li>
+  <li><strong>Children (not neonates):</strong> benzathine penicillin G 50,000 units/kg IM single dose (maximum 2.4 million units) for early syphilis; three weekly doses for late disease. Suspect sexual abuse in children with an STI.</li>
+  <li>Benzathine penicillin supply is irregular; if it is not available, refer or use doxycycline for non-pregnant adults (see table), and avoid substituting oral penicillin or amoxicillin.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-problems-warts-neonatal-conjunctivitis-sexual-assault-hiv-prevention" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Other Problems: Warts, Neonatal Conjunctivitis, Sexual Assault, HIV Prevention
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Anogenital warts (HPV)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Patient-applied:</strong> podophyllotoxin 0.5% solution or gel twice daily for 3 days, then 4 days off, repeated up to 4 cycles (not in pregnancy); imiquimod 5% cream three times a week at night, washed off after 6 to 10 hours, for up to 16 weeks.</li>
+  <li><strong>Clinic-applied:</strong> cryotherapy with liquid nitrogen every 1 to 2 weeks; trichloroacetic acid 80 to 90% applied weekly to small warts (protect the surrounding skin); surgical removal or electrocautery for large lesions. Pregnancy: cryotherapy or TCA.</li>
+  <li>Counsel that warts often recur; condoms reduce but do not eliminate transmission. Arrange cervical screening for women. <strong>HPV vaccination</strong> (introduced in Nigeria in 2023 for girls aged 9 to 14) prevents infection.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Neonatal conjunctivitis (ophthalmia neonatorum)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Purulent eye discharge in the first month of life is a sight-threatening emergency. Treat for gonorrhoea and chlamydia: <strong>ceftriaxone 50 mg/kg IM single dose (maximum 125 mg)</strong>, plus azithromycin 20 mg/kg orally once daily for 3 days (or erythromycin 50 mg/kg/day in 4 doses for 14 days) for chlamydia. Clean the eyes with sterile saline every hour, and give no topical antibiotic alone.</li>
+  <li>Treat the mother and her partner (section 3 and 4 regimens). Review at 3 days.</li>
+  <li>Prophylaxis at birth with tetracycline 1% eye ointment, or povidone-iodine 2.5% drops where national policy permits; do not rely on prophylaxis for babies born to mothers with untreated STI.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Sexual assault and children</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Within 72 hours of assault:</strong> HIV post-exposure prophylaxis (a 28-day course of tenofovir-lamivudine-dolutegravir, per national guidelines); emergency contraception (levonorgestrel 1.5 mg orally single dose within 72 hours, effective up to 120 hours with decreasing efficacy); hepatitis B vaccination; and presumptive STI treatment (ceftriaxone 500 mg IM single dose, plus doxycycline 100 mg twice daily for 7 days or azithromycin 1 g single dose where doxycycline cannot be used, plus metronidazole 500 mg twice daily for 7 days in women or 2 g single dose in men). Tetanus toxoid where indicated.</li>
+  <li>Document findings, preserve evidence, and refer to a sexual assault referral centre or police and social welfare as per Nigerian law (including the Violence Against Persons Prohibition Act). Provide psychological first aid.</li>
+  <li><strong>An STI in a pre-pubertal child suggests sexual abuse until proven otherwise;</strong> admit or refer for specialist assessment, and treat using weight-based doses (section 10).</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">HIV and hepatitis B</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Every patient with an STI should be offered HIV testing and link to care if positive; offer <strong>PrEP</strong> to those at high risk as per national guidelines.</li>
+  <li>Vaccinate non-immune patients against hepatitis B (and HPV, where eligible).</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-groups-pregnancy-hiv-adolescents-men-who-have-sex-with-men" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Special Groups: Pregnancy, HIV, Adolescents, Men Who Have Sex with Men
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Pregnancy:</strong> screen every woman for syphilis, HIV and (where possible) chlamydia and gonorrhoea at booking. Avoid doxycycline, ciprofloxacin, levofloxacin and moxifloxacin. Use azithromycin 1 g (or amoxicillin 500 mg three times daily for 7 days) for chlamydia; ceftriaxone 500 mg IM for gonorrhoea; metronidazole 500 mg twice daily for 7 days for trichomonas and BV (BV in pregnancy with a history of preterm birth should be treated); topical clotrimazole for candida; the penicillin regimens for syphilis. Test of cure for chlamydia 4 weeks after treatment and rescreen at 3 months. PID in pregnancy is rare: admit.</li>
+  <li><strong>HIV-positive patients:</strong> use the same regimens; genital ulcers are more severe and persistent; extend herpes treatment to 5 to 10 days or longer, and consider suppression; check for opportunistic causes of ulcers; test for TB if lower abdominal pain or discharge persists. Prefer ceftriaxone-based PID treatment with a lower threshold for admission.</li>
+  <li><strong>Adolescents and young women:</strong> highest risk of chlamydia, gonorrhoea and PID; offer confidential, non-judgemental services; consider adherence, so give single-dose observed therapy where possible; offer contraception and HPV vaccine; exclude abuse.</li>
+  <li><strong>Men who have sex with men:</strong> consider rectal and pharyngeal infection (gonorrhoea, chlamydia, LGV, syphilis, herpes); treat rectal gonorrhoea with ceftriaxone 500 mg IM and rectal chlamydia with doxycycline 100 mg twice daily for 7 days; ensure services are safe and confidential, and discuss PrEP, condoms and lubricant; screening for HIV, syphilis and hepatitis.</li>
+  <li><strong>IUD users with PID:</strong> treat as above; remove the device if there is no improvement after 48 to 72 hours or if she wishes.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="drug-dosage-and-formulation-reference-by-group" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Drug Dosage and Formulation Reference by Group
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Adult doses are the main focus; paediatric and neonatal doses are included for congenital infection, neonatal conjunctivitis and suspected abuse. For adolescents 45 kg or more, use adult doses.</p>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Drug and formulations</th><th class="py-2 pr-3">Neonates and infants</th><th class="py-2 pr-3">Children under 45 kg</th><th class="py-2 pr-3">Adults and adolescents (45 kg or more)</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Ceftriaxone<br><span class="font-normal">Vials 250 mg, 500 mg, 1 g, 2 g IM or IV</span></td>
+        <td class="py-2 pr-3 align-top">Ophthalmia neonatorum: 50 mg/kg IM once (maximum 125 mg). Avoid in jaundiced neonates and with calcium-containing infusions</td>
+        <td class="py-2 pr-3 align-top">Gonorrhoea: 25 to 50 mg/kg IM once (maximum 250 mg)</td>
+        <td class="py-2 pr-3 align-top">Gonorrhoea 500 mg IM once (1 g if 150 kg or more); PID inpatient 1 g IV daily; chancroid 250 mg IM; disseminated gonorrhoea 1 g IM or IV daily</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Doxycycline<br><span class="font-normal">Capsules or tablets 100 mg</span></td>
+        <td class="py-2 pr-3 align-top">Do not use</td>
+        <td class="py-2 pr-3 align-top">8 years and older: 2.2 mg/kg twice daily (maximum 100 mg per dose) for 7 days; not under 8 years</td>
+        <td class="py-2 pr-3 align-top">100 mg twice daily: 7 days (chlamydia, NGU), 10 days (epididymitis), 14 days (PID), 21 days (LGV); 14 to 28 days for syphilis alternative</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Azithromycin<br><span class="font-normal">Tablets 250 and 500 mg; suspension 200 mg/5 mL</span></td>
+        <td class="py-2 pr-3 align-top">Chlamydial conjunctivitis: 20 mg/kg once daily for 3 days</td>
+        <td class="py-2 pr-3 align-top">Chlamydia: 20 mg/kg once (maximum 1 g)</td>
+        <td class="py-2 pr-3 align-top">Chlamydia 1 g once; chancroid 1 g once; with gentamicin for gonorrhoea 2 g; LGV 1 g weekly for 3 weeks (alternative); M. genitalium 1 g then 500 mg daily for 3 days</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Metronidazole<br><span class="font-normal">Tablets 200, 250, 400, 500 mg; suspension 200 mg/5 mL; IV 500 mg/100 mL</span></td>
+        <td class="py-2 pr-3 align-top">Not routine</td>
+        <td class="py-2 pr-3 align-top">Trichomonas: 5 mg/kg three times daily for 7 days (maximum 2 g single dose in older children)</td>
+        <td class="py-2 pr-3 align-top">500 mg twice daily for 7 days (BV, trichomonas in women); 500 mg twice daily for 14 days (PID); 2 g once (trichomonas in men; persistent urethritis); IV 500 mg every 8 to 12 hours</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Benzathine penicillin G<br><span class="font-normal">Vials 1.2 and 2.4 million units for deep IM</span></td>
+        <td class="py-2 pr-3 align-top">Congenital syphilis: use aqueous penicillin G 50,000 units/kg IV every 12 h (first 7 days), then every 8 h, for 10 days</td>
+        <td class="py-2 pr-3 align-top">50,000 units/kg IM once (maximum 2.4 million units)</td>
+        <td class="py-2 pr-3 align-top">2.4 million units IM once (early); weekly for 3 weeks (late)</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Aciclovir<br><span class="font-normal">Tablets 200, 400, 800 mg; suspension 200 mg/5 mL; cream 5%</span></td>
+        <td class="py-2 pr-3 align-top">Neonatal herpes: refer; IV aciclovir 20 mg/kg every 8 hours for 14 to 21 days</td>
+        <td class="py-2 pr-3 align-top">Under 2 years: 100 mg five times daily; 2 years and older: 200 mg five times daily (or 20 mg/kg per dose, maximum 800 mg) for 5 to 10 days</td>
+        <td class="py-2 pr-3 align-top">400 mg three times daily for 7 to 10 days (first episode); 800 mg twice daily for 5 days (recurrence)</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Fluconazole<br><span class="font-normal">Capsules 50, 150, 200 mg</span></td>
+        <td class="py-2 pr-3 align-top">Use specialist advice</td>
+        <td class="py-2 pr-3 align-top">Not for routine STI use</td>
+        <td class="py-2 pr-3 align-top">150 mg once (candida); avoid in pregnancy</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Cefixime<br><span class="font-normal">Tablets 200, 400 mg; suspension 100 mg/5 mL</span></td>
+        <td class="py-2 pr-3 align-top">Not routine</td>
+        <td class="py-2 pr-3 align-top">Not first line</td>
+        <td class="py-2 pr-3 align-top">800 mg once if ceftriaxone is unavailable (not for pharyngeal gonorrhoea); lower cure rate</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="nigerian-brands-and-prescribing-realities" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Nigerian Brands and Prescribing Realities
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Brand examples (verify the label)</th><th class="py-2 pr-3">Comment</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Ceftriaxone</td><td class="py-2 pr-3 align-top">Rocephin and many generics (vials 250 mg, 500 mg, 1 g)</td><td class="py-2 pr-3 align-top">Use water or 1% lidocaine for IM; never mix IM lidocaine diluent into IV</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Azithromycin</td><td class="py-2 pr-3 align-top">Zithromax and generics (250 mg, 500 mg)</td><td class="py-2 pr-3 align-top">Four 250 mg tablets make 1 g</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Doxycycline</td><td class="py-2 pr-3 align-top">Doxycycline 100 mg capsules (several local manufacturers); Vibramycin</td><td class="py-2 pr-3 align-top">Watch for expired or substandard stock</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Metronidazole, tinidazole, secnidazole</td><td class="py-2 pr-3 align-top">Flagyl, Metrotab; Fasigyn, Tiniba; Flagentyl</td><td class="py-2 pr-3 align-top">Often sold in combination kits</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Fluconazole, clotrimazole</td><td class="py-2 pr-3 align-top">Diflucan; Canesten pessaries and cream</td><td class="py-2 pr-3 align-top">Clotrimazole 500 mg pessary single dose is convenient</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Aciclovir</td><td class="py-2 pr-3 align-top">Zovirax and generics</td><td class="py-2 pr-3 align-top">Counsel on adequate hydration</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Benzathine penicillin</td><td class="py-2 pr-3 align-top">Imported brands (for example Bicillin L-A, Extencilline); supply is irregular</td><td class="py-2 pr-3 align-top">Ask the state or hospital pharmacy and the national STI programme; plan referral if there is a stock-out</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Ciprofloxacin</td><td class="py-2 pr-3 align-top">Ciprotab, Ciprobay and generics</td><td class="py-2 pr-3 align-top">Not for gonorrhoea (resistance); used for chancroid and epididymitis</td></tr>
+    </tbody>
+  </table>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Prescribing realities</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Over-the-counter "STI kits"</strong> (azithromycin plus fluconazole plus secnidazole or tinidazole in one pack) are widely sold. They cover chlamydia, candida and trichomonas or BV, but <strong>contain no effective treatment for gonorrhoea (no ceftriaxone) and none for syphilis</strong>, and they do nothing for PID. A patient who "already took the kit" and is still symptomatic needs a proper assessment, not another kit.</li>
+  <li><strong>Prior partial treatment</strong> (oral ciprofloxacin, amoxicillin, injections of unknown content) blunts symptoms and favours resistance, so treat according to the current syndrome and ask about what was taken.</li>
+  <li><strong>Herbal and unregistered products</strong> (agbo, "kayan mata", douches) delay care and can cause vaginal irritation, liver or kidney injury.</li>
+  <li><strong>Stigma and cost:</strong> provide treatment on the day of the visit, include the partner's drugs in the prescription (expedited partner therapy where permitted), and use services that are confidential and youth-friendly. Many state facilities and the national programme provide STI drugs free or at low cost.</li>
+  <li><strong>Reporting:</strong> follow the national STI surveillance requirements; syphilis in pregnancy and congenital syphilis are notifiable in many states.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="prevention-follow-up-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Prevention, Follow-Up and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Condoms:</strong> male and female condoms, correct and consistent use, with demonstration. Lubricants should be water-based.</li>
+  <li><strong>Partner services:</strong> notify and treat all recent partners; avoid sex until patient and partners are cured (7 days after single-dose therapy and resolution of symptoms).</li>
+  <li><strong>Screen and treat:</strong> annual chlamydia and gonorrhoea screening for sexually active women under 25 and others at risk where tests exist; syphilis and HIV at antenatal booking; retest 3 months after treatment.</li>
+  <li><strong>Vaccines:</strong> hepatitis B, HPV (girls 9 to 14, and others per national programme).</li>
+  <li><strong>Contraception and PID prevention:</strong> avoid unsafe abortion; prophylactic antibiotics around IUD insertion are not routinely needed; screen for STIs before or at insertion when risk is high.</li>
+  <li><strong>Counselling on adherence:</strong> finish every dose even when symptoms go; avoid alcohol with metronidazole; return for the 3-day review in PID and the 1-week review in urethral discharge and ulcer; return earlier for fever, worsening pain, vomiting or collapse.</li>
+  <li><strong>Long-term:</strong> tell women with PID about the risk of infertility and ectopic pregnancy; ask them to seek early antenatal care in any future pregnancy and to present immediately with abdominal pain or bleeding.</li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block font-semibold mb-2">Guideline Watch</strong>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Ceftriaxone for gonorrhoea:</strong> CDC 2021 recommends 500 mg IM (1 g if 150 kg or more) and no routine dual therapy with azithromycin. WHO and many African protocols have used 1 g IM, sometimes with azithromycin 1 g where chlamydia is not excluded. The WHO and FMOH chapters could not be retrieved here, so check the current national guideline before choosing the dose.</li>
+  <li><strong>Chlamydia:</strong> doxycycline 100 mg twice daily for 7 days is preferred over single-dose azithromycin (CDC 2021); WHO also lists azithromycin 1 g as acceptable.</li>
+  <li><strong>PID:</strong> CDC 2021 added metronidazole to every regimen (ceftriaxone 500 mg IM, doxycycline and metronidazole for 14 days). WHO protocols use metronidazole 400 mg; older Nigerian protocols may use different combinations (for example ceftriaxone, doxycycline and metronidazole for 14 days, or ofloxacin, which is no longer recommended).</li>
+  <li><strong>Trichomoniasis in women:</strong> CDC 2021 changed to metronidazole 500 mg twice daily for 7 days (from 2 g single dose); WHO and many national guidelines still list 2 g as an option.</li>
+  <li><strong>Syphilis:</strong> benzathine penicillin regimens are from the CDC 2021 summary. Doxycycline 14 and 28 days, the neonatal and paediatric penicillin doses, the chancroid, donovanosis and congenital syphilis regimens, the epididymitis regimens, the ophthalmia neonatorum dosing and the HPV wart treatments were taken from standard references and not independently re-fetched.</li>
+  <li><strong>Doses for children under 45 kg</strong> (ceftriaxone, azithromycin, aciclovir, metronidazole) are standard formulary doses and not re-verified here; seek paediatric advice for children and always consider abuse.</li>
+  <li><strong>Nigerian specifics:</strong> national STI guideline flowcharts, current antimicrobial resistance data for gonorrhoea, the HPV and PrEP programmes, and the brand list were not verified and should be checked locally.</li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<strong class="block font-semibold text-rose-900 dark:text-rose-200 mb-3">Findings That Must Not Be Missed</strong>
+<ul class="space-y-2 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Lower abdominal pain in any woman of reproductive age:</strong> do a pregnancy test first; ectopic pregnancy, miscarriage and septic abortion can look like PID and can kill.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Fever, rigid abdomen, hypotension, rapid pulse:</strong> pelvic sepsis or ruptured abscess; start IV Ringer's lactate and antibiotics within the first hour, and involve surgery.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Sudden severe scrotal pain in a young man:</strong> torsion until proven otherwise; urgent surgical exploration within 6 hours.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Pregnant woman with a positive syphilis test:</strong> treat at once with benzathine penicillin and treat the partner; never use doxycycline or substitute other antibiotics.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Purulent eye discharge in a newborn:</strong> gonococcal ophthalmia; give ceftriaxone, irrigate and refer; it can blind within days.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Fever with joint pain and pustules (disseminated gonococcal infection) or headache, visual or hearing loss with syphilis:</strong> admit for IV ceftriaxone or IV penicillin; consider neurosyphilis.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>STI in a child, or a patient who discloses assault:</strong> think abuse; provide PEP, emergency contraception and referral within 72 hours; protect the child.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>No improvement after 72 hours of PID treatment:</strong> admit and image for tubo-ovarian abscess; reconsider the diagnosis (appendicitis, ectopic, TB).</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Persistent ulcer, bloody discharge, or a cervical or genital mass:</strong> think of malignancy or HIV-related disease; biopsy and refer.</span></li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<strong class="block font-semibold text-indigo-950 dark:text-indigo-200 mb-3">Key Clinical Takeaways</strong>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-200">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat by syndrome, in the same visit: urethral discharge gets ceftriaxone 500 mg IM plus doxycycline 100 mg twice daily for 7 days; add metronidazole when persistent or in women with vaginal discharge.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Most vaginal discharge is BV, candida or trichomonas: metronidazole 500 mg twice daily for 7 days and fluconazole 150 mg or clotrimazole pessary as needed; add ceftriaxone and doxycycline for cervicitis or high-risk patients.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>PID: low threshold for treatment. Mild disease: ceftriaxone 500 mg IM plus doxycycline plus metronidazole for 14 days; severe or complicated disease: admit for ceftriaxone 1 g IV daily plus doxycycline plus metronidazole, IV fluids and analgesia.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Genital ulcers: cover syphilis (benzathine penicillin 2.4 million units IM) and chancroid (azithromycin 1 g), and herpes (aciclovir) where vesicles are present.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat partners, test for HIV and syphilis, counsel, give condoms, and follow up at the right interval (3 days for PID, 1 week for discharge and ulcers).</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In pregnancy avoid doxycycline and quinolones; always use penicillin for syphilis; screen at booking. Over-the-counter "STI kits" do not treat gonorrhoea or syphilis.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-6 font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. Workowski KA, et al. Sexually transmitted infections treatment guidelines, 2021. MMWR Recomm Rep 2021;70(4) (CDC), as summarised in the CDC 2021 STI treatment table.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. World Health Organization. Guidelines for the management of symptomatic sexually transmitted infections, 2021 (syndromic management; urethral discharge, vaginal discharge, genital ulcer, lower abdominal pain).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. WHO. Updated recommendations for the treatment of Neisseria gonorrhoeae, Chlamydia trachomatis and Treponema pallidum (syphilis), and new recommendations on syphilis testing and partner services, 2024.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. FHI 360. STI training manual: the seven steps of syndromic management, counselling (4 Cs) and follow-up intervals.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Federal Ministry of Health, Nigeria. National guidelines for the syndromic management of STIs; Standard Treatment Guidelines for Nigeria.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. Royal College of Obstetricians and Gynaecologists / BASHH. Management of acute pelvic inflammatory disease and genital tract infection guidelines.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. WHO. Guidelines for the management of sexually transmitted infections: syphilis in pregnancy and congenital syphilis; elimination of mother-to-child transmission.</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. WHO. Clinical management of rape and intimate partner violence survivors; Nigeria national HIV post-exposure prophylaxis guidelines.</p>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+{
+  id: 'treatment-essential-hypertension',
+  title: 'Essential Hypertension',
+  category: 'Treatment',
+  subCategory: 'Cardiometabolic',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; CARDIOMETABOLIC</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Essential Hypertension</h1>
+  <p class="text-sm text-indigo-200">Hypertension is the commonest chronic cardiovascular condition in Nigerian clinics, and many patients arrive for a routine refill or with a crisis after running out of tablets. Treatment is often a single drug for years, with unmeasured BP at refill visits and unsafe rapid lowering during crises. This guide covers correct diagnosis and measurement, risk assessment, lifestyle advice that fits Nigerian diets, stepwise drug treatment with doses, refill visit routines, restarting defaulters, how to tell urgency from emergency, IV treatment and fluids, pregnancy, Nigerian brands and interactions, and the habits that should stop.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>How to use this guide.</strong> Doses follow the Nigerian Federal Ministry of Health guideline (2023 to 2028), the 2025 AHA/ACC and ISH 2020 guidelines and standard emergency references, adapted to Nigerian practice. Doses are for adults unless stated; check renal function, pregnancy and interactions before prescribing, and follow your hospital protocol. Children are not covered.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#confirm-the-diagnosis-and-measure-correctly" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Confirm the Diagnosis and Measure Correctly</span></a></li>
+  <li><a href="#risk-assessment-organ-damage-and-secondary-causes" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Risk Assessment, Organ Damage and Secondary Causes</span></a></li>
+  <li><a href="#lifestyle-measures-what-to-advise" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Lifestyle Measures: What to Advise</span></a></li>
+  <li><a href="#starting-and-adjusting-drug-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Starting and Adjusting Drug Treatment</span></a></li>
+  <li><a href="#refill-visits-and-long-term-follow-up" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Refill Visits and Long-Term Follow-Up</span></a></li>
+  <li><a href="#the-patient-who-has-defaulted" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>The Patient Who Has Defaulted</span></a></li>
+  <li><a href="#severe-hypertension-urgency-or-emergency" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Severe Hypertension: Urgency or Emergency?</span></a></li>
+  <li><a href="#hypertensive-emergencies-admission-and-iv-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Hypertensive Emergencies: Admission and IV Treatment</span></a></li>
+  <li><a href="#hypertension-in-pregnancy-and-after-delivery" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Hypertension in Pregnancy and After Delivery</span></a></li>
+  <li><a href="#brands-strengths-and-interactions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Brands, Strengths and Interactions</span></a></li>
+  <li><a href="#common-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Common Practices to Avoid</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="confirm-the-diagnosis-and-measure-correctly" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Confirm the Diagnosis and Measure Correctly
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Hypertension is the commonest chronic cardiovascular condition in Nigerian clinics. The 2017 national WHO STEPS survey in six states found an age-standardised prevalence of about 38%, with only about a third of hypertensives on treatment and about 13% controlled (as quoted in the national guideline). Many patients are diagnosed on a single clinic reading, and many present only when a refill runs out or after a crisis. Confirm the diagnosis, measure properly, and treat the patient, not one number.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Thresholds</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Measurement</th><th class="py-2 pr-3">Hypertension threshold</th><th class="py-2 pr-3">Notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Office (clinic) BP</td><td class="py-2 pr-3">Systolic &ge;140 and/or diastolic &ge;90 mmHg on repeated measurements on two different days at least 2 weeks apart (Nigerian FMOH 2023 to 2028)</td><td class="py-2 pr-3">A single visit is enough if BP is &ge;180/110 mmHg with evidence of organ damage</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Home BP (average)</td><td class="py-2 pr-3">&ge;135/85 mmHg</td><td class="py-2 pr-3">At least 12 readings (morning and evening, in duplicate) over the 3 days before the visit</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">24-hour ambulatory BP</td><td class="py-2 pr-3">&ge;130/80 mmHg (day &ge;135/85, night &ge;120/70)</td><td class="py-2 pr-3">Gold standard where available; identifies white-coat and masked hypertension</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Severe hypertension</td><td class="py-2 pr-3">&ge;180/110 mmHg</td><td class="py-2 pr-3">Check for organ damage immediately: see Sections 7 and 8</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Measurement technique (national guideline)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Use a validated automated upper-arm device or a calibrated auscultatory device; avoid wrist and finger devices.</li>
+  <li>Seat the patient with back supported and feet flat for at least 5 minutes; no tobacco or caffeine for 30 minutes; empty bladder; arm supported at heart level; no talking.</li>
+  <li>Use the correct cuff: the bladder should cover at least two-thirds of the mid-arm circumference. A small cuff on a large arm over-reads, which is common in obese and muscular patients.</li>
+  <li>At the first visit measure both arms and use the higher arm from then on. Take at least two readings a minute apart and average them; check standing BP in the elderly and in diabetics.</li>
+  <li>Deflate at about 2 mmHg per second; systolic is phase I and diastolic is phase V.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: thresholds and targets.</strong> The Nigerian FMOH guideline and ISH 2020 define hypertension at 140/90 mmHg and set a target below 140/90 for patients without comorbidity, and below 130/80 for patients with cardiovascular disease, high risk, diabetes or kidney disease. The 2025 AHA/ACC guideline starts treatment at 130/80 for higher-risk patients and for stage 2 hypertension (140/90 or more) and aims for below 130/80 in most adults, with below 120 systolic encouraged if tolerated. This guide uses the Nigerian thresholds for diagnosis and a staged target: below 140/90 within 3 months, then below 130/80 where tolerated in patients under 65 or with diabetes, kidney disease, stroke or coronary disease.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="risk-assessment-organ-damage-and-secondary-causes" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Risk Assessment, Organ Damage and Secondary Causes
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">At diagnosis</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Item</th><th class="py-2 pr-3">What to do</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">History</td><td class="py-2 pr-3">Duration, previous readings, family history of hypertension, stroke, kidney disease or early heart disease; smoking, alcohol (including local gin and palm wine), salt intake; medication and herbal use; sleep; pregnancy and contraception in women</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Examination</td><td class="py-2 pr-3">Weight, height, BMI, waist; pulse (rate, rhythm); both arms; cardiac and chest; abdominal bruit; oedema; fundoscopy for hypertensive retinopathy; neurological screen</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Core tests (national guideline)</td><td class="py-2 pr-3">Urinalysis (protein, blood); electrolytes, urea, creatinine and eGFR; fasting glucose (and HbA1c); haemoglobin or PCV; lipid profile; serum uric acid; 12-lead ECG. Urine albumin-to-creatinine ratio in every adult with hypertension (AHA/ACC 2025) where available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Further tests where indicated</td><td class="py-2 pr-3">Echocardiography, carotid or renal ultrasound, ankle-brachial index, renal imaging, chest X-ray</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cardiovascular risk</td><td class="py-2 pr-3">Document diabetes, kidney disease, previous stroke or heart disease, smoking and lipids. High-risk patients are treated at 130 to 139 systolic and reach lower targets</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Look for secondary hypertension when</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Age under 30 (and always in children and adolescents), sudden onset, a sudden rise in previously stable readings, very severe or resistant hypertension, or marked variability.</li>
+  <li>Clues: hypokalaemia or high-normal sodium (primary aldosteronism: AHA/ACC 2025 advises screening everyone with resistant hypertension); episodic headache, sweating and palpitations (phaeochromocytoma); renal bruit or asymmetric kidneys (renovascular); abnormal creatinine or proteinuria (renal parenchymal disease); snoring and daytime sleepiness (sleep apnoea); thyroid disease; coarctation (weak femoral pulses).</li>
+  <li><strong>Drugs and substances that raise BP:</strong> NSAIDs (diclofenac, ibuprofen, piroxicam), corticosteroids, combined oral contraceptives, decongestants (pseudoephedrine, phenylephrine in "cold and flu" preparations), tramadol and stimulants, excess alcohol, high-salt seasoning cubes and processed foods, liquorice, and some herbal preparations.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="lifestyle-measures-what-to-advise" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Lifestyle Measures: What to Advise
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Lifestyle advice lowers BP modestly and enhances every drug. Give specific, affordable, culturally realistic advice and write it down. It is an adjunct to, never a substitute for, drugs when BP is 160/100 mmHg or higher.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Measure</th><th class="py-2 pr-3">Target (national guideline)</th><th class="py-2 pr-3">Practical Nigerian advice</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Salt</td><td class="py-2 pr-3">Under 5 g a day (about one level teaspoon, all sources included)</td><td class="py-2 pr-3">Reduce seasoning cubes (such as Maggi and Knorr), salted and smoked fish, processed meat, instant noodles, suya spice, canned foods and added salt in stews and soups. Cook with onions, pepper, scent leaf, ginger, garlic and locust beans in smaller amounts</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Potassium-rich food</td><td class="py-2 pr-3">At least 5 portions of fruit and vegetables a day (400 g)</td><td class="py-2 pr-3">Leafy vegetables (ugu, efo, ewedu), plantain, banana, pawpaw, oranges, beans, groundnuts. Avoid potassium supplements and potassium-based salt substitutes in kidney disease or when taking ACE inhibitors, ARBs or spironolactone</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fat and sugar</td><td class="py-2 pr-3">Saturated fat under 10% of energy; free sugars under 10%</td><td class="py-2 pr-3">Less palm oil and fried foods, fewer soft drinks and malt drinks, fish instead of red meat</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Weight</td><td class="py-2 pr-3">Healthy BMI and waist</td><td class="py-2 pr-3">Reduce portions of swallow (pounded yam, eba, fufu) and rice; every kilogram lost lowers BP</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Physical activity</td><td class="py-2 pr-3">At least 150 minutes a week of moderate activity</td><td class="py-2 pr-3">Brisk walking daily, stairs, farm or market work counts; add muscle-strengthening twice a week</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Alcohol</td><td class="py-2 pr-3">Non-drinkers stay abstinent; drinkers no more than 2 units a day and 2 alcohol-free days a week</td><td class="py-2 pr-3">Local gin, palm wine, burukutu and spirits are strong; count units</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Tobacco</td><td class="py-2 pr-3">Stop completely</td><td class="py-2 pr-3">Offer cessation advice at every visit</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Herbal and "natural" remedies</td><td class="py-2 pr-3">Ask openly</td><td class="py-2 pr-3">Some contain sodium, liquorice or unknown drugs, and stopping prescribed tablets for herbs is a common cause of crises</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="starting-and-adjusting-drug-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Starting and Adjusting Drug Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Start drug treatment once hypertension is confirmed at 140/90 mmHg or higher (national guideline), and at 130 to 139 systolic if there is established cardiovascular disease, high risk, diabetes or kidney disease. ISH and AHA/ACC allow 3 to 6 months of lifestyle measures first for low-risk patients with BP 140 to 159/90 to 99 and no organ damage; do not delay drugs at 160/100 or higher. Use long-acting, once-daily drugs, preferably a single-pill combination to improve adherence. Combine from the outset when BP is 20/10 mmHg or more above target.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nigerian first-line approach</strong>
+<p class="text-sm">In people of African descent a calcium channel blocker (amlodipine) or a thiazide-type diuretic is the most effective single first drug; ACE inhibitors and ARBs work less well as single drugs but combine very well with them. ACE inhibitor cough is common and angioedema is more frequent, so an ARB is preferred over an ACE inhibitor. Never combine an ACE inhibitor with an ARB.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Step</th><th class="py-2 pr-3">Primary-care protocol (Resolve to Save Lives / Nigeria)</th><th class="py-2 pr-3">National guideline algorithm (FMOH 2023 to 2028)</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">1</td><td class="py-2 pr-3">Amlodipine 5 mg once daily</td><td class="py-2 pr-3">CCB monotherapy, or ARB plus CCB combination at half dose: telmisartan 40 mg + amlodipine 5 mg once daily</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">2 (after 1 month, or start here if BP 160/100 to below 180/110)</td><td class="py-2 pr-3">Amlodipine 5 mg + losartan 50 mg (single pill preferred)</td><td class="py-2 pr-3">Double: telmisartan 80 mg + amlodipine 10 mg once daily</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">3</td><td class="py-2 pr-3">Amlodipine 10 mg + losartan 100 mg (start here and refer within 1 hour if BP is 180/110 or higher)</td><td class="py-2 pr-3">Add a thiazide-like diuretic at half dose: hydrochlorothiazide 25 mg or chlorthalidone 12.5 mg once daily</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">4</td><td class="py-2 pr-3">Add hydrochlorothiazide 25 mg (or amiloride 2.5 mg/hydrochlorothiazide 25 mg if HCTZ unavailable)</td><td class="py-2 pr-3">Double the diuretic (HCTZ 50 mg or chlorthalidone 25 mg), or move to resistant-hypertension measures</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">5</td><td class="py-2 pr-3">Still uncontrolled after 1 month at step 4: refer to a specialist</td><td class="py-2 pr-3">Recheck in 4 to 6 weeks; follow up every 3 to 6 months once controlled</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">Telmisartan 40 mg or 80 mg is preferred to losartan if available. Do not give losartan to pregnant women or to women who could become pregnant without effective contraception. Night-time dosing is recommended in the national guideline except for diuretics, which are taken in the morning.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Common drugs and usual adult doses</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Class and drug</th><th class="py-2 pr-3">Usual dose</th><th class="py-2 pr-3">Key cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Dihydropyridine CCB:</strong> amlodipine</td><td class="py-2 pr-3">5 to 10 mg once daily</td><td class="py-2 pr-3">Ankle oedema (dose-related), flushing, headache, gum overgrowth. Avoid short-acting nifedipine capsules</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nifedipine extended-release</td><td class="py-2 pr-3">30 to 60 mg once daily (or retard 20 mg twice daily)</td><td class="py-2 pr-3">As above; avoid in severe aortic stenosis and with rifampicin (reduced effect)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>ARB:</strong> losartan, telmisartan, valsartan, candesartan</td><td class="py-2 pr-3">Losartan 50 to 100 mg; telmisartan 40 to 80 mg; valsartan 80 to 160 mg; candesartan 8 to 32 mg, once daily</td><td class="py-2 pr-3">Hyperkalaemia, raised creatinine, angioedema (rare); contraindicated in pregnancy and bilateral renal artery stenosis. Check K<sup>+</sup> and creatinine 1 to 2 weeks after starting</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>ACE inhibitor:</strong> lisinopril, perindopril, ramipril</td><td class="py-2 pr-3">Lisinopril 10 to 40 mg; perindopril 4 to 8 mg; ramipril 2.5 to 10 mg, once daily</td><td class="py-2 pr-3">Cough (10% or more), angioedema (more frequent in Black patients), hyperkalaemia; contraindicated in pregnancy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Thiazide-like diuretic:</strong> hydrochlorothiazide, chlorthalidone, indapamide</td><td class="py-2 pr-3">HCTZ 12.5 to 25 mg; chlorthalidone 12.5 to 25 mg; indapamide SR 1.5 mg, once daily in the morning</td><td class="py-2 pr-3">Hyponatraemia, hypokalaemia, hyperuricaemia and gout, new-onset diabetes, hypercalcaemia. Check Na<sup>+</sup>, K<sup>+</sup> and creatinine at 1 to 2 weeks. Use a loop diuretic instead if eGFR is below 30 mL/min</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Mineralocorticoid antagonist:</strong> spironolactone</td><td class="py-2 pr-3">25 to 50 mg once daily</td><td class="py-2 pr-3">Resistant hypertension; hyperkalaemia and gynaecomastia; avoid if eGFR below 45 or K<sup>+</sup> above 4.5 mmol/L (ISH); recheck K<sup>+</sup> and creatinine at 1 to 2 weeks</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Beta-blocker:</strong> bisoprolol, atenolol, carvedilol</td><td class="py-2 pr-3">Bisoprolol 2.5 to 10 mg once daily</td><td class="py-2 pr-3">Not first line unless angina, previous MI, heart failure or atrial fibrillation. Avoid in asthma, bradycardia and heart block; never stop suddenly</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Alpha-blocker:</strong> doxazosin</td><td class="py-2 pr-3">1 to 8 mg at night</td><td class="py-2 pr-3">Add-on, useful with prostatic symptoms; first-dose postural hypotension</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Centrally acting and vasodilators:</strong> methyldopa, hydralazine, clonidine</td><td class="py-2 pr-3">Methyldopa 250 to 500 mg two to three times daily; hydralazine 25 to 50 mg two to three times daily</td><td class="py-2 pr-3">Methyldopa is the traditional pregnancy drug; sedation. Clonidine causes rebound hypertension if stopped suddenly and is not for routine use. Furosemide is not an antihypertensive of choice unless GFR is low or there is fluid overload</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Choosing by compelling indication</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Condition</th><th class="py-2 pr-3">Preferred drugs</th><th class="py-2 pr-3">Avoid or caution</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diabetes with albuminuria or CKD</td><td class="py-2 pr-3">ARB (or ACE inhibitor) plus CCB or diuretic; target below 130/80</td><td class="py-2 pr-3">Do not combine ACEI with ARB; monitor K<sup>+</sup> and creatinine</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Heart failure with reduced ejection fraction</td><td class="py-2 pr-3">ARB or ACEI, beta-blocker (bisoprolol, carvedilol), spironolactone, loop diuretic for congestion</td><td class="py-2 pr-3">Non-dihydropyridine CCBs (verapamil, diltiazem), NSAIDs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Coronary disease or previous MI</td><td class="py-2 pr-3">Beta-blocker plus ACEI or ARB; amlodipine as add-on</td><td class="py-2 pr-3">Short-acting nifedipine</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Stroke or TIA (secondary prevention, start about 10 days after the event)</td><td class="py-2 pr-3">Thiazide-like diuretic plus ACEI or ARB, or CCB</td><td class="py-2 pr-3">Do not lower BP aggressively in the acute phase</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Atrial fibrillation</td><td class="py-2 pr-3">Beta-blocker (rate control) plus other classes as needed</td><td class="py-2 pr-3">n/a</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Gout</td><td class="py-2 pr-3">Amlodipine or losartan (lowers uric acid)</td><td class="py-2 pr-3">Thiazides</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Asthma or COPD</td><td class="py-2 pr-3">CCB, ARB, ACEI, diuretic</td><td class="py-2 pr-3">Non-selective and high-dose beta-blockers</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Prostatic enlargement (older men)</td><td class="py-2 pr-3">Add doxazosin if needed</td><td class="py-2 pr-3">Watch for postural hypotension and falls</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy or planning pregnancy</td><td class="py-2 pr-3">Methyldopa, labetalol, extended-release nifedipine (Section 9)</td><td class="py-2 pr-3">ACEI, ARB, direct renin inhibitors and diuretics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Elderly or frail</td><td class="py-2 pr-3">Start with low doses, titrate slowly, check standing BP</td><td class="py-2 pr-3">Avoid orthostatic hypotension; individualise targets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sickle cell disease</td><td class="py-2 pr-3">Treat as above; check kidney function</td><td class="py-2 pr-3">Avoid dehydration with diuretics</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Resistant hypertension</strong>
+<p class="text-sm">BP above target on three drugs at optimal doses including a diuretic, with adherence confirmed. First exclude non-adherence, white-coat effect (use home or ambulatory BP), a wrong cuff, high salt intake, NSAIDs, alcohol and sleep apnoea. Then add spironolactone 25 to 50 mg daily, or amiloride, doxazosin, bisoprolol, methyldopa or hydralazine as alternatives. Screen for primary aldosteronism (AHA/ACC 2025) and refer to a specialist.</p>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: algorithm differences.</strong> The national FMOH algorithm doubles the thiazide-like diuretic at step 4 (HCTZ 50 mg or chlorthalidone 25 mg). ISH 2020 and AHA/ACC 2025 usually add spironolactone as the fourth drug in resistant hypertension rather than escalating the thiazide, because high thiazide doses add metabolic side effects with little extra BP benefit. This guide lists both and recommends confirming adherence and adding spironolactone before pushing diuretic doses.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="refill-visits-and-long-term-follow-up" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Refill Visits and Long-Term Follow-Up
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Do not renew a prescription without measuring BP. A refill visit is the best chance to detect poor control, side effects and silent organ damage. Use a structured routine.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Every refill visit</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Measure BP correctly (Section 1), with a second reading if elevated, and compare with the previous visit and home readings.</li>
+  <li>Ask about missed doses and stockouts without judgement, and check the dates of the last refills and what the patient actually has at home (bring all tablets, including herbal ones).</li>
+  <li>Ask about side effects: ankle swelling, cough, dizziness on standing, cramps, impotence, gout, sleep.</li>
+  <li>Ask about symptoms of target organ damage: headache, visual change, chest pain, breathlessness, claudication, weakness, passing less urine.</li>
+  <li>Check weight, pulse and salt and alcohol intake; ask about new drugs (NSAIDs, steroids, herbs).</li>
+  <li>Decide: unchanged (BP at target), adjust (above target), or investigate (new symptoms or abnormal results).</li>
+  <li>Write the full plan and the next appointment date; give a supply that reaches it.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Review frequency</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Stage</th><th class="py-2 pr-3">Review interval</th><th class="py-2 pr-3">Monitoring</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Starting or changing treatment</td><td class="py-2 pr-3">Every 1 to 4 weeks until target BP is reached</td><td class="py-2 pr-3">BP each visit; K<sup>+</sup>, Na<sup>+</sup> and creatinine 1 to 2 weeks after starting ACEI, ARB, thiazide or MRA, and after dose increases</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Controlled (BP at target for 3 consecutive monthly visits)</td><td class="py-2 pr-3">Every 3 to 6 months</td><td class="py-2 pr-3">BP; adherence; weight</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Every year</td><td class="py-2 pr-3">Annual review</td><td class="py-2 pr-3">Urinalysis or urine albumin, creatinine and eGFR, electrolytes, glucose or HbA1c, lipids, ECG</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Stable patients (on treatment for at least 6 months, BP below 140/90 at the last two visits at least 1 month apart, same regimen for 3 months, no side effects needing monitoring)</td><td class="py-2 pr-3">Multi-month dispensing may be used</td><td class="py-2 pr-3">Keep the 3 to 6 month review</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Troubleshooting common complaints</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Problem</th><th class="py-2 pr-3">What to do</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ankle oedema on amlodipine</td><td class="py-2 pr-3">Reassure (it is not heart or kidney failure); reduce to 5 mg; add an ARB (reduces the oedema); or switch to a thiazide-like diuretic. Elevate legs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Dry cough on an ACE inhibitor</td><td class="py-2 pr-3">Stop and switch to an ARB</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Lip, tongue or face swelling on an ACE inhibitor or ARB</td><td class="py-2 pr-3">Stop the drug and treat as an emergency (airway). Do not rechallenge</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Dizziness on standing</td><td class="py-2 pr-3">Check standing BP; reduce doses or diuretic; review alpha-blockers; check hydration</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Gout flares on a thiazide</td><td class="py-2 pr-3">Switch to amlodipine or losartan</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cramps, weakness or low potassium on a diuretic</td><td class="py-2 pr-3">Check K<sup>+</sup>; add an ARB or amiloride; avoid high-dose diuretics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cost or pill burden</td><td class="py-2 pr-3">Prefer once-daily single-pill combinations and generics; ask about health insurance schemes where available; give a 1 to 3 month supply when stable</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">BP "normal" so the patient stopped</td><td class="py-2 pr-3">Explain that normal readings mean the drugs are working; stopping allows BP to return and risks stroke and kidney damage</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-patient-who-has-defaulted" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+The Patient Who Has Defaulted
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Many presentations in Nigeria follow a break in treatment: the drugs ran out, money was short, the patient felt well, religious or herbal advice led them to stop, or a side effect was never reported. Approach the patient as someone who needs a working plan, not a lecture.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Assess</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Why they stopped</strong> (cost, stockout, distance, fear of lifelong treatment, belief in herbal or spiritual cure, side effects, forgetfulness, felt well), and for how long, and what they took.</li>
+  <li><strong>Measure BP</strong> properly and check for symptoms and organ damage (Sections 7 and 8). Severe hypertension with organ damage is an emergency; severe hypertension without it is urgency.</li>
+  <li><strong>Check</strong> creatinine, electrolytes, urinalysis and an ECG, because prolonged uncontrolled BP often means kidney, heart or eye damage.</li>
+  <li>Ask about pain, anxiety, urinary retention, alcohol and new drugs, which can also raise BP.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Restarting treatment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Presentation</th><th class="py-2 pr-3">Plan</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">BP below 160/100, no symptoms</td><td class="py-2 pr-3">Restart the previous regimen or step 1 or 2 of the algorithm (amlodipine 5 mg, add an ARB if above 140/90 on review); review in 1 to 2 weeks</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">BP 160/100 to below 180/110, no symptoms</td><td class="py-2 pr-3">Start combination therapy at step 2 (amlodipine 5 mg + losartan 50 mg or telmisartan 40 mg); review in 1 to 2 weeks</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">BP 180/110 or above, no symptoms or organ damage (urgency)</td><td class="py-2 pr-3">Restart oral therapy and lower gradually over 24 to 48 hours (Section 7); review within 24 to 72 hours</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Elderly or frail patient</td><td class="py-2 pr-3">Start at lower doses and increase gradually; check standing BP to avoid hypotension from abrupt re-introduction of full triple therapy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Previously on a beta-blocker or clonidine</td><td class="py-2 pr-3">Restart at a low dose and do not stop abruptly again: sudden withdrawal causes rebound hypertension, angina or arrhythmia</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Keeping them on treatment</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Simplify to one or two pills once daily; prefer a single-pill combination; align refills with other visits.</li>
+  <li>Agree an affordable regimen using generics; give written instructions in a simple language; involve a family member.</li>
+  <li>Use reminders (phone alarms, pillbox, text messages), keep a BP diary, and record a clear date for the next visit.</li>
+  <li>Explain in plain terms: hypertension is like a leaking tank that quietly damages brain, heart and kidneys; tablets control it but do not cure it, so they continue even when BP is normal.</li>
+  <li>Ask about stockouts and agree what to do (come to the clinic rather than skip doses).</li>
+  <li>Ask directly about herbal products and religious advice; do not dismiss beliefs, but explain which products can harm.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="severe-hypertension-urgency-or-emergency" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Severe Hypertension: Urgency or Emergency?
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Severe hypertension is BP of 180/110 mmHg or higher. The decision that matters is whether there is <strong>acute, life-threatening organ damage</strong>. Not the number, but the damage, separates an emergency from an urgency.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3"></th><th class="py-2 pr-3">Hypertensive urgency</th><th class="py-2 pr-3">Hypertensive emergency</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Definition</td><td class="py-2 pr-3">Severe hypertension without evidence of acute organ damage</td><td class="py-2 pr-3">Severe hypertension with acute organ damage</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Typical features</td><td class="py-2 pr-3">Headache, anxiety, nosebleed, no neurological, cardiac, renal or retinal damage; often missed medication</td><td class="py-2 pr-3">Encephalopathy (severe headache, vomiting, confusion, seizures, coma), focal neurological deficit, chest pain, acute pulmonary oedema, aortic dissection, acute kidney injury, papilloedema or retinal haemorrhage, severe pre-eclampsia or eclampsia</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Setting</td><td class="py-2 pr-3">Outpatient or emergency department observation; no admission is needed (national guideline)</td><td class="py-2 pr-3">Admit: ICU or HDU for IV treatment and monitoring</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Treatment</td><td class="py-2 pr-3">Oral drugs; lower BP gradually over 24 to 48 hours</td><td class="py-2 pr-3">Short-acting titratable IV drugs; lower BP within minutes to hours as in Section 8</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Follow-up</td><td class="py-2 pr-3">Review within 24 to 72 hours</td><td class="py-2 pr-3">Daily, then oral transition and early outpatient review</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Rapid assessment of every patient with BP 180/110 or higher</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Repeat the BP after 15 to 30 minutes of rest with the correct cuff, in both arms; treat pain, anxiety, a full bladder and withdrawal states.</li>
+  <li>Ask about neurological symptoms, chest pain, breathlessness, visual change, vomiting, reduced urine, pregnancy, medicines (missed or new), cocaine or other stimulants.</li>
+  <li>Examine: pulse, both arm pressures, heart sounds, chest crackles, GCS, focal deficit, neck stiffness, fundi, abdominal bruit, oedema.</li>
+  <li>Tests: urinalysis (protein and blood), creatinine, urea, electrolytes, glucose, FBC, ECG; troponin, chest X-ray, CT head and other imaging as the picture suggests; pregnancy test in women of reproductive age.</li>
+  <li>Place the patient in category: no organ damage (urgency) or organ damage (emergency).</li>
+</ol>
+
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Features that make it an emergency</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Severe headache, vomiting, visual disturbance, confusion, seizure or reduced consciousness:</strong> hypertensive encephalopathy, stroke or intracerebral haemorrhage.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Focal weakness, speech or facial deficit:</strong> stroke (CT head before lowering BP).</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Chest pain, ECG changes or breathlessness with crackles:</strong> acute coronary syndrome or acute left ventricular failure.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Tearing chest or back pain, pulse or BP difference between arms:</strong> aortic dissection.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Pregnancy or postpartum with BP 160/110 or higher, headache, epigastric pain or seizures:</strong> severe pre-eclampsia or eclampsia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Retinal haemorrhages or papilloedema; haematuria, proteinuria or rising creatinine:</strong> malignant hypertension.</span></li>
+</ul>
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hypertensive urgency: management</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li><strong>Rest and re-measure.</strong> Seat the patient in a quiet room for 30 minutes; many readings fall without drugs. Treat pain, anxiety, urinary retention and alcohol withdrawal.</li>
+  <li><strong>Restart or optimise regular drugs</strong> (Sections 4 and 6). Give oral doses in the clinic and observe for 1 to 2 hours.</li>
+  <li><strong>Do not use IV antihypertensives, sublingual nifedipine or oral clonidine loading</strong> in an asymptomatic patient.</li>
+  <li><strong>Lower BP gradually:</strong> no more than 25 to 30% of the starting BP in the first several hours, to below 160/100 mmHg over hours to days, and to the individual target over 24 to 48 hours (national guideline).</li>
+  <li><strong>Review within 24 to 72 hours</strong> and give a supply of medication that lasts until the next visit, with counselling.</li>
+  <li><strong>In a primary care setting without observation facilities:</strong> start the step 3 drugs of the protocol and refer to the emergency unit of the nearest general hospital within 1 hour if BP is 180/110 or higher.</li>
+</ol>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Oral option</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Onset</th><th class="py-2 pr-3">Cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amlodipine</td><td class="py-2 pr-3">10 mg once</td><td class="py-2 pr-3">30 to 50 minutes</td><td class="py-2 pr-3">Slow, smooth effect; first-line for urgency in a patient on no CCB</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nifedipine extended-release (retard)</td><td class="py-2 pr-3">20 to 30 mg once</td><td class="py-2 pr-3">About 30 minutes</td><td class="py-2 pr-3">Never short-acting capsules or sublingual use</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Captopril</td><td class="py-2 pr-3">12.5 to 25 mg once</td><td class="py-2 pr-3">30 to 60 minutes</td><td class="py-2 pr-3">Lower dose in volume depletion and renal impairment; avoid in bilateral renal artery stenosis and pregnancy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Labetalol</td><td class="py-2 pr-3">200 mg orally</td><td class="py-2 pr-3">20 to 120 minutes</td><td class="py-2 pr-3">Avoid in asthma, bradycardia, heart block and heart failure</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Prazosin or doxazosin</td><td class="py-2 pr-3">1 mg</td><td class="py-2 pr-3">2 to 4 hours</td><td class="py-2 pr-3">First-dose syncope; rarely needed</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">These oral doses are standard practice doses; the guidelines reviewed give the drug names and onset but not the doses.</p>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: urgency.</strong> Older practice treated asymptomatic severe hypertension with rapid oral or sublingual agents. The 2025 AHA/ACC and other guidance now emphasise no immediate BP reduction, no IV drugs, restarting home medication, treating pain and anxiety and arranging follow-up in 24 to 72 hours. Oral clonidine loading and sublingual nifedipine are outdated and harmful.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="hypertensive-emergencies-admission-and-iv-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Hypertensive Emergencies: Admission and IV Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Admit to ICU or HDU, secure IV access, monitor continuously, and lower BP with a short-acting titratable IV drug. In general reduce mean arterial pressure by no more than 25% in the first hour, then to about 160/100 mmHg over the next 2 to 6 hours, then cautiously to normal over 24 to 48 hours. Too fast a fall causes stroke, myocardial infarction and kidney injury. Some conditions (below) have different targets.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Targets and preferred drugs by presentation</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Emergency</th><th class="py-2 pr-3">BP target</th><th class="py-2 pr-3">Preferred drug</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hypertensive encephalopathy or malignant hypertension</td><td class="py-2 pr-3">Reduce MAP by 20 to 25% (diastolic about 100 to 110) in the first hour, then gradual normalisation over 24 to 48 hours</td><td class="py-2 pr-3">Labetalol or nicardipine; hydralazine if neither is available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute ischaemic stroke</td><td class="py-2 pr-3">Do not lower BP unless above 220/120 mmHg, or above 185/110 mmHg when thrombolysis is planned; then reduce by no more than 15% in 24 hours</td><td class="py-2 pr-3">Labetalol 10 to 20 mg IV or nicardipine</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Intracerebral haemorrhage</td><td class="py-2 pr-3">Reduce SBP to about 140 mmHg within the first hour and keep it there (avoid values below 130)</td><td class="py-2 pr-3">Labetalol or nicardipine; urgent CT head and neurosurgical advice</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Subarachnoid haemorrhage</td><td class="py-2 pr-3">SBP below 160 mmHg until the aneurysm is secured</td><td class="py-2 pr-3">Nicardipine or labetalol; neurosurgery</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute pulmonary oedema or acute LV failure</td><td class="py-2 pr-3">Reduce SBP to below 140 mmHg; reduce by 20 to 30%</td><td class="py-2 pr-3">Nitroglycerin IV (or sublingual) with furosemide IV; avoid beta-blockers alone</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute coronary syndrome</td><td class="py-2 pr-3">SBP below 140 mmHg; avoid reducing MAP by more than 25%</td><td class="py-2 pr-3">Nitroglycerin IV plus labetalol or esmolol</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute aortic dissection</td><td class="py-2 pr-3">SBP 100 to 120 mmHg and heart rate below 60 within the first hour</td><td class="py-2 pr-3">Esmolol or labetalol first; add nitroprusside or nicardipine if needed; emergency surgical referral</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Severe pre-eclampsia or eclampsia</td><td class="py-2 pr-3">SBP 140 to 150 and DBP 90 to 100 mmHg; treat within 30 to 60 minutes (Section 9)</td><td class="py-2 pr-3">Labetalol IV, hydralazine IV or oral nifedipine, plus magnesium sulphate</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Phaeochromocytoma crisis</td><td class="py-2 pr-3">Systolic below 140 mmHg</td><td class="py-2 pr-3">Phentolamine 5 to 15 mg IV; beta-blocker only after alpha-blockade</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute kidney injury</td><td class="py-2 pr-3">Reduce BP by no more than 20%</td><td class="py-2 pr-3">Labetalol or nicardipine; avoid nephrotoxins</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">IV drugs and doses (adults)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Onset and duration</th><th class="py-2 pr-3">Cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Labetalol</td><td class="py-2 pr-3">20 mg IV over 2 minutes, then 20 to 80 mg IV every 10 minutes (maximum cumulative 300 mg), or an infusion of 0.5 to 2 mg/min</td><td class="py-2 pr-3">Onset 5 to 10 minutes; lasts 3 to 6 hours</td><td class="py-2 pr-3">Avoid in asthma, bradycardia, second or third-degree heart block and acute heart failure. Named in the national guideline</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hydralazine</td><td class="py-2 pr-3">10 to 20 mg slow IV or IM every 4 to 6 hours as needed (maximum 40 mg per dose); 5 to 10 mg IV in pregnancy</td><td class="py-2 pr-3">Onset 10 to 20 minutes; lasts 1 to 4 hours</td><td class="py-2 pr-3">Reflex tachycardia, headache, can worsen angina; unpredictable fall in BP. Named in the national guideline</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nicardipine</td><td class="py-2 pr-3">Start 5 mg/hour IV, increase by 2.5 mg/hour every 5 to 15 minutes to a maximum of 15 mg/hour</td><td class="py-2 pr-3">Onset 5 to 15 minutes; lasts 30 to 40 minutes</td><td class="py-2 pr-3">Avoid in acute heart failure and liver failure; availability limited in Nigeria</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nitroglycerin</td><td class="py-2 pr-3">Start 5 micrograms/min IV, titrate up to 200 micrograms/min; or 0.4 to 0.6 mg sublingually every 5 minutes up to 3 doses</td><td class="py-2 pr-3">Onset 2 to 5 minutes; lasts 5 to 10 minutes</td><td class="py-2 pr-3">Cardiac ischaemia and pulmonary oedema. Headache, hypotension; avoid with sildenafil; avoid around delivery</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Esmolol</td><td class="py-2 pr-3">500 micrograms/kg IV loading, then 50 micrograms/kg/min, increasing to 300 micrograms/kg/min</td><td class="py-2 pr-3">Onset 1 to 2 minutes; lasts 10 to 30 minutes</td><td class="py-2 pr-3">Aortic dissection; avoid in asthma, bradycardia and heart block; limited availability</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sodium nitroprusside</td><td class="py-2 pr-3">Start 0.3 to 0.5 micrograms/kg/min; maximum usually 2 micrograms/kg/min (up to 10 for no more than 10 minutes)</td><td class="py-2 pr-3">Immediate; lasts 1 to 2 minutes</td><td class="py-2 pr-3">Reserve when nothing else is available; cyanide toxicity; ICU with arterial line</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Furosemide</td><td class="py-2 pr-3">40 to 80 mg IV (dose by renal function and response)</td><td class="py-2 pr-3">Onset 5 to 30 minutes</td><td class="py-2 pr-3">Pulmonary oedema and fluid overload only; not a general antihypertensive</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">Use the drug you have. Labetalol IV and hydralazine IV are named in the national guideline and are widely available in tertiary hospitals; nicardipine, esmolol and nitroprusside often are not. Oral amlodipine or extended-release nifedipine can be used for non-organ-threatening cases when no IV drug is available. Do not give sublingual or short-acting nifedipine.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Fluids in hypertensive emergencies</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Fluid</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">General hypertensive emergency</td><td class="py-2 pr-3">No routine IV fluids. If the patient is clearly volume-depleted (prolonged vomiting, severe malignant hypertension with pressure natriuresis), give 250 to 500 mL of 0.9% sodium chloride with reassessment</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Over-correction (BP falls too fast, hypotension)</td><td class="py-2 pr-3">Stop the infusion, lay the patient flat with legs elevated, and give 250 mL boluses of 0.9% sodium chloride, reassessing after each</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute pulmonary oedema</td><td class="py-2 pr-3">No fluid loading; sit upright, give oxygen and diuretic; restrict IV fluids</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Stroke and intracerebral haemorrhage</td><td class="py-2 pr-3">Maintenance with 0.9% sodium chloride at about 1 mL/kg/hour (about 60 to 80 mL/hour for an adult) once swallow is unsafe; avoid hypotonic fluids, dextrose in water and "dextrose saline"; maintain euvolaemia</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy with severe pre-eclampsia</td><td class="py-2 pr-3">Restrict total IV fluids to about 80 mL/hour (1 mL/kg/hour) to reduce pulmonary oedema risk; monitor urine output</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute kidney injury</td><td class="py-2 pr-3">Treat the cause; give fluids only if volume-depleted; monitor urine output at least 0.5 mL/kg/hour</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Monitoring</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>BP every 5 minutes during titration (continuous arterial monitoring in ICU where available), then every 15 minutes, then hourly once stable; both arms initially.</li>
+  <li>Continuous ECG and pulse oximetry; GCS and pupils every hour in neurological presentations.</li>
+  <li>Urinary catheter and hourly urine output; creatinine, electrolytes and glucose at baseline and after 6 to 12 hours.</li>
+  <li>Start the oral regimen as soon as BP is controlled and overlap with the IV drug before stopping it.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: stroke and intracerebral haemorrhage.</strong> The national guideline text prints "220/150" as the threshold above which BP in acute ischaemic stroke is reduced by 15% over 24 hours, while ISH and other guidance use above 220/120 (or 185/110 when thrombolysis is planned). For intracerebral haemorrhage the national guideline aims for below 140/90, ISH allows 130 to 180 systolic, and recent trials support about 140 systolic. Use the stricter published thresholds above, avoid sudden drops, and involve neurology when available.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="hypertension-in-pregnancy-and-after-delivery" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Hypertension in Pregnancy and After Delivery
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Hypertension in pregnancy (chronic hypertension, gestational hypertension, pre-eclampsia, eclampsia) is a major cause of maternal death in Nigeria. This section covers the essentials; refer all pregnant women with hypertension to an obstetric specialist.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Chronic hypertension in pregnancy</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Treat with drugs at BP 140/90 mmHg or higher.</li>
+  <li><strong>Methyldopa</strong> 250 to 500 mg two to three times daily (maximum 3 g/day), <strong>labetalol</strong> 100 to 400 mg two to three times daily, or <strong>extended-release nifedipine</strong> 30 to 60 mg once daily (or 20 mg twice daily).</li>
+  <li><strong>Contraindicated:</strong> ACE inhibitors, ARBs, direct renin inhibitors and diuretics. Stop them as soon as pregnancy is suspected, and counsel women of reproductive age on contraception before using ARBs.</li>
+  <li>Low-dose aspirin (75 to 150 mg at night from about 12 weeks) and calcium supplementation (1.5 to 2 g daily where intake is low) are advised to reduce pre-eclampsia risk, per WHO guidance.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Acute severe hypertension in pregnancy or postpartum (BP 160/110 or higher for 15 minutes or more)</strong>
+<p class="text-sm">Treat within 30 to 60 minutes to a goal of SBP 140 to 150 and DBP 90 to 100 mmHg. Admit, monitor the fetus, and prepare for delivery.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Regimen</th><th class="py-2 pr-3">Dosing</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">IV labetalol (first line)</td><td class="py-2 pr-3">20 mg IV over 2 minutes; recheck at 10 to 15 minutes; if still above 160/110 give 40 mg, then 80 mg, each over 2 minutes with rechecks. Hold if maternal heart rate is below 60. Avoid in asthma and heart failure</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">IV hydralazine (second line, or first line in asthma or heart disease)</td><td class="py-2 pr-3">5 to 10 mg IV over 2 minutes; recheck at 20 minutes; if still elevated give 10 mg IV and recheck</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Oral nifedipine immediate-release (if no IV access)</td><td class="py-2 pr-3">10 mg orally; recheck at 20 minutes; then 20 mg; then 20 mg at 20-minute intervals. Swallow only: never sublingual or puncture the capsule</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Oral labetalol (alternative)</td><td class="py-2 pr-3">200 mg orally; repeat in 30 minutes if not effective</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Magnesium sulphate for severe pre-eclampsia, eclampsia or imminent eclampsia</td><td class="py-2 pr-3">Loading 4 g IV over 5 to 20 minutes plus 10 g IM (5 g in each buttock), then 5 g IM every 4 hours alternating buttocks (Pritchard); or after the 4 g IV load give 1 g/hour IV infusion (Zuspan). Continue for 24 hours after delivery or the last seizure. Continue only if respiratory rate is above 16 per minute, knee jerks are present and urine output is at least 30 mL/hour (100 mL in 4 hours). Antidote: calcium gluconate 1 g (10 mL of 10%) IV slowly</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">Restrict total IV fluids to about 80 mL/hour (1 mL/kg/hour) to avoid pulmonary oedema. Expedite delivery if there are adverse features such as visual disturbances, haemostatic abnormalities, uncontrolled BP or fetal compromise. Nitroglycerin is avoided around delivery, and ACE inhibitors, ARBs and diuretics remain contraindicated. Postpartum, hypertension can persist or appear up to 6 weeks; nifedipine, labetalol and enalapril are compatible with breastfeeding.</p>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="brands-strengths-and-interactions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Brands, Strengths and Interactions
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Brand availability varies by state and pharmacy. These are examples, not endorsements. Check the NAFDAC registration number and buy from licensed pharmacies; substandard antihypertensives are a recognised cause of treatment failure.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Examples you may meet</th><th class="py-2 pr-3">Common forms</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amlodipine</td><td class="py-2 pr-3">Norvasc and many generics</td><td class="py-2 pr-3">5 mg and 10 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nifedipine</td><td class="py-2 pr-3">Adalat retard, nifedipine retard generics</td><td class="py-2 pr-3">10 mg capsule (avoid for BP); retard 20 mg; extended-release 30 and 60 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Losartan</td><td class="py-2 pr-3">Cozaar and generics</td><td class="py-2 pr-3">25, 50 and 100 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Telmisartan</td><td class="py-2 pr-3">Micardis and generics</td><td class="py-2 pr-3">40 mg and 80 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Telmisartan + amlodipine</td><td class="py-2 pr-3">Fixed-dose generics</td><td class="py-2 pr-3">40/5 mg and 80/10 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Valsartan combinations</td><td class="py-2 pr-3">Diovan, Exforge, Co-Diovan</td><td class="py-2 pr-3">80 and 160 mg; amlodipine and HCTZ combinations</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Lisinopril, perindopril, ramipril</td><td class="py-2 pr-3">Zestril, Zestoretic (with HCTZ), Coversyl, Tritace</td><td class="py-2 pr-3">5 and 10 mg; 4 and 8 mg; 2.5 and 5 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hydrochlorothiazide, indapamide, amiloride-HCTZ</td><td class="py-2 pr-3">Generic HCTZ; Natrilix SR; generic amiloride/HCTZ</td><td class="py-2 pr-3">12.5 and 25 mg; indapamide SR 1.5 mg; amiloride 5 mg/HCTZ 50 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Spironolactone</td><td class="py-2 pr-3">Aldactone and generics</td><td class="py-2 pr-3">25 and 50 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Furosemide</td><td class="py-2 pr-3">Lasix and generics</td><td class="py-2 pr-3">40 mg tablet; 20 mg/2 mL injection</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Bisoprolol, atenolol</td><td class="py-2 pr-3">Concor; Tenormin and generics</td><td class="py-2 pr-3">2.5, 5 and 10 mg; 50 and 100 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Labetalol</td><td class="py-2 pr-3">Generic labetalol</td><td class="py-2 pr-3">100 and 200 mg tablets; 100 mg/20 mL injection</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Methyldopa</td><td class="py-2 pr-3">Aldomet and generics</td><td class="py-2 pr-3">250 and 500 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hydralazine</td><td class="py-2 pr-3">Generic hydralazine</td><td class="py-2 pr-3">25 mg tablet; 20 mg injection</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Doxazosin</td><td class="py-2 pr-3">Cardura and generics</td><td class="py-2 pr-3">1, 2 and 4 mg tablets</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nitroglycerin</td><td class="py-2 pr-3">Glyceryl trinitrate sublingual or infusion</td><td class="py-2 pr-3">0.5 mg tablets; 5 mg/mL infusion</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Magnesium sulphate</td><td class="py-2 pr-3">Generic injection</td><td class="py-2 pr-3">50% (500 mg/mL) in 2 mL and 10 mL ampoules</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">IV fluids</td><td class="py-2 pr-3">0.9% sodium chloride, Ringer&rsquo;s lactate</td><td class="py-2 pr-3">500 mL and 1 L bags</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Interactions and combination traps</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>NSAIDs</strong> (diclofenac, ibuprofen, piroxicam, steroids) raise BP, cause fluid retention, blunt ACEI, ARB and diuretic effects and, with ACEI/ARB plus a diuretic, cause acute kidney injury and hyperkalaemia ("triple whammy").</li>
+  <li><strong>Rifampicin</strong> (TB and leprosy) and <strong>carbamazepine</strong>, <strong>phenytoin</strong> reduce amlodipine, nifedipine and beta-blocker levels; <strong>clarithromycin</strong>, ritonavir-boosted antiretrovirals and azole antifungals raise amlodipine levels; amlodipine with simvastatin should not exceed 20 mg simvastatin.</li>
+  <li><strong>Hyperkalaemia:</strong> ACEI or ARB with spironolactone, potassium supplements, trimethoprim (co-trimoxazole), heparin or NSAIDs.</li>
+  <li><strong>Hypokalaemia:</strong> thiazides or loop diuretics with steroids, insulin, salbutamol or laxatives.</li>
+  <li><strong>Sildenafil and tadalafil:</strong> never within 24 to 48 hours of nitrates; additive hypotension with alpha-blockers.</li>
+  <li><strong>Grapefruit</strong> raises levels of some calcium channel blockers.</li>
+  <li><strong>Lithium:</strong> levels rise with ACEI, ARB and thiazides.</li>
+  <li><strong>Beta-blockers</strong> mask hypoglycaemia in insulin-treated diabetics and worsen asthma.</li>
+  <li><strong>Herbal and "BP cures"</strong> may contain undeclared drugs or liquorice (raises BP); ask and document.</li>
+  <li>Fixed-dose combinations (amlodipine/ARB, ARB/HCTZ, perindopril/indapamide/amlodipine) reduce pill burden; check that no duplicate class is prescribed separately.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Common Practices to Avoid
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Habits that harm patients</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Diagnosing hypertension from one clinic reading</strong>, with the wrong cuff size, at the end of a long walk or queue, or after the patient has been in pain.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Treating a number rather than the patient:</strong> using IV drugs or a "BP injection" for an asymptomatic patient with BP 180/110 or higher.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving sublingual nifedipine or puncturing nifedipine capsules</strong> to "bring BP down quickly": it causes unpredictable and sometimes catastrophic falls in BP, stroke and heart attack.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Lowering BP too fast</strong> (more than 25% in the first hour) in an emergency, or lowering it at all in acute ischaemic stroke below the thresholds in Section 8.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Giving oral clonidine loading</strong> in the emergency department.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using IV drugs for "pseudo-urgency"</strong> caused by pain, anxiety, urinary retention, alcohol withdrawal or missed doses.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Running routine IV fluids ("drip") in hypertensive emergencies</strong>, or using hypotonic dextrose saline in stroke.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Leaving the patient on one drug for years</strong> with uncontrolled readings (therapeutic inertia), or escalating without checking adherence, technique and salt intake.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Using furosemide, atenolol or methyldopa as routine first-line drugs</strong> in non-pregnant patients, or ACE inhibitor monotherapy as the first drug in a Black patient without considering a CCB or thiazide.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Combining an ACE inhibitor with an ARB</strong>, or prescribing ACEI, ARB or diuretics in pregnancy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Stopping beta-blockers or clonidine abruptly</strong>, or restarting full triple therapy in an elderly defaulter all at once.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Telling a patient to stop tablets when BP is normal</strong>, or accepting "BP is cured".</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Routinely using NSAIDs, steroids and cold remedies</strong> in hypertensive patients; and neglecting to ask about herbal and over-the-counter products.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Skipping creatinine, electrolytes, urinalysis and ECG</strong> at diagnosis, and no checks after starting ARB, ACEI, thiazide or spironolactone.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Ignoring BP in young adults</strong> without looking for secondary causes.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Lecturing or shaming defaulters</strong>, who then avoid the clinic; and renewing prescriptions without measuring BP.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Discharging a pregnant woman with BP 160/110 or higher</strong>, or treating pre-eclampsia without magnesium sulphate.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Buying tablets from unregistered sources</strong> or repackaged drugs of unknown quality.</span></li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<p class="font-brand text-sm font-semibold text-indigo-950 dark:text-white mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Diagnose on repeated, correctly measured BP (140/90 or higher on two days at least 2 weeks apart; 135/85 at home; 130/80 on 24-hour monitoring) and do the baseline tests (creatinine, electrolytes, glucose, lipids, urinalysis, ECG).</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The first drug in Nigerian adults is amlodipine, or an ARB plus amlodipine combination, with a thiazide-like diuretic as the third drug; start combinations early for BP 20/10 above target and prefer once-daily single pills.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Every refill visit needs a BP measurement, an adherence and side-effect check, and a plan with a date. Controlled patients are reviewed every 3 to 6 months with annual labs.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Defaulters need a non-judgemental restart: stepwise in the frail, low dose with beta-blockers, simplified regimens and family involvement.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Severe hypertension (180/110 or higher) is an emergency only if there is acute organ damage; otherwise it is urgency: restart oral therapy, lower BP gradually over 24 to 48 hours, review in 24 to 72 hours, and never use sublingual nifedipine or IV drugs.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In emergencies admit to ICU or HDU, use labetalol, nicardipine, hydralazine or nitroglycerin as the condition requires, reduce MAP by no more than 25% in the first hour, and follow the special targets for stroke, haemorrhage, aortic dissection and pre-eclampsia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Fluids: none routinely in hypertensive emergencies; 250 mL boluses if over-corrected; restrict in pulmonary oedema and pre-eclampsia (about 80 mL/hour); 0.9% sodium chloride in stroke.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In pregnancy use methyldopa, labetalol or nifedipine; avoid ACEI, ARB and diuretics; treat BP 160/110 within 30 to 60 minutes and give magnesium sulphate for severe pre-eclampsia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Remove avoidable causes: NSAIDs, steroids, decongestants, alcohol, high-salt seasoning, herbal products.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-slate-700 dark:text-slate-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<ol class="list-decimal pl-8 pr-4 pb-4 space-y-1">
+  <li class="text-[10px] leading-snug text-stone-500">Federal Ministry of Health, Nigeria. Guidelines for Prevention and Management of Hypertension in Nigeria 2023 to 2028 (thresholds, targets, algorithm, urgency and emergency, pregnancy, follow-up, stable-patient criteria).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Resolve to Save Lives and Nigerian primary care hypertension treatment protocol (amlodipine, losartan, hydrochlorothiazide step algorithm).</li>
+  <li class="text-[10px] leading-snug text-stone-500">2025 AHA/ACC Guideline for the Prevention, Detection, Evaluation and Management of High Blood Pressure in Adults (J Am Coll Cardiol, 2025), as summarised by 2 Minute Medicine.</li>
+  <li class="text-[10px] leading-snug text-stone-500">International Society of Hypertension. 2020 Global Hypertension Practice Guidelines (Black patient regimens, emergency targets, resistant hypertension).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Merck Manual (Professional edition). Hypertensive Emergencies.</li>
+  <li class="text-[10px] leading-snug text-stone-500">MIMS. Hypertensive crisis: management (BP targets by condition; oral options for urgency).</li>
+  <li class="text-[10px] leading-snug text-stone-500">McMaster Textbook of Internal Medicine. Parenteral drugs for hypertensive emergencies (doses and onset).</li>
+  <li class="text-[10px] leading-snug text-stone-500">WikEM. Hypertensive emergency (IV doses and BP targets by condition).</li>
+  <li class="text-[10px] leading-snug text-stone-500">UIHC guideline. Emergent therapy for acute-onset severe hypertension during pregnancy and the postpartum period (labetalol, hydralazine and nifedipine regimens).</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Recommendations for prevention and treatment of pre-eclampsia and eclampsia (aspirin, calcium, magnesium sulphate).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Nigerian national WHO STEPS survey (REMAH, 2017): prevalence, awareness, treatment and control of hypertension.</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Agency for Food and Drug Administration and Control (NAFDAC) Green Book for product registration checks.</li>
+</ol>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'treatment-type-2-diabetes-mellitus',
+  title: 'Type 2 Diabetes Mellitus',
+  category: 'Treatment',
+  subCategory: 'Cardiometabolic',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; CARDIOMETABOLIC</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Type 2 Diabetes Mellitus</h1>
+  <p class="text-sm text-indigo-200">Type 2 diabetes fills Nigerian medical outpatient clinics, and many patients arrive with poor control, painful neuropathy, a foot ulcer, or a hyperglycaemic crisis after stopping drugs. This guide covers diagnosis (and HbA1c pitfalls), targets, Nigerian diet and lifestyle advice, stepwise drug and insulin treatment with doses, hypoglycaemia, DKA and HHS with fluids, neuropathy, diabetic foot ulcers and infection, comorbidities such as TB and HIV, special situations, Nigerian brands and interactions, and the practices that should stop.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>How to use this guide.</strong> Doses follow the ADA 2026 Standards of Care, IWGDF/IDSA 2023 foot guidance, the 2024 international consensus on hyperglycaemic crises and the Diabetes Association of Nigeria guideline, supplemented by standard drug references, adapted to Nigerian practice. Doses are for adults unless stated; check renal function, pregnancy and interactions before prescribing, and follow your hospital protocol. Children and type 1 diabetes are not covered.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#diagnosis-classification-and-baseline-assessment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Diagnosis, Classification and Baseline Assessment</span></a></li>
+  <li><a href="#treatment-goals-and-monitoring" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Treatment Goals and Monitoring</span></a></li>
+  <li><a href="#lifestyle-and-nutrition-nigerian-practicalities" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Lifestyle and Nutrition: Nigerian Practicalities</span></a></li>
+  <li><a href="#glucose-lowering-drugs-choosing-and-stepping-up" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Glucose-Lowering Drugs: Choosing and Stepping Up</span></a></li>
+  <li><a href="#hypoglycaemia" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Hypoglycaemia</span></a></li>
+  <li><a href="#hyperglycaemic-crises-dka-and-hhs-inpatient-emergency" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Hyperglycaemic Crises: DKA and HHS (Inpatient Emergency)</span></a></li>
+  <li><a href="#peripheral-and-autonomic-neuropathy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Peripheral and Autonomic Neuropathy</span></a></li>
+  <li><a href="#diabetic-foot-prevention-ulcers-and-infection" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Diabetic Foot: Prevention, Ulcers and Infection</span></a></li>
+  <li><a href="#other-complications-and-comorbidities" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Other Complications and Comorbidities</span></a></li>
+  <li><a href="#special-populations-and-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Special Populations and Situations</span></a></li>
+  <li><a href="#follow-up-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Follow-Up and Counselling</span></a></li>
+  <li><a href="#common-nigerian-brands-strengths-and-interactions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Common Nigerian Brands, Strengths and Interactions</span></a></li>
+  <li><a href="#common-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Common Practices to Avoid</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="diagnosis-classification-and-baseline-assessment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Diagnosis, Classification and Baseline Assessment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Type 2 diabetes accounts for about 96% of diabetes in Nigeria. It is usually diagnosed years after glucose levels first rise, so many patients present for the first time with complications: foot ulcers, neuropathy, visual loss, kidney disease or a hyperglycaemic crisis. Test adults with risk factors (age over 40, overweight, family history, hypertension, previous gestational diabetes) and treat the person, not the glucometer reading.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Diagnostic thresholds (any one, confirmed on a repeat test unless symptomatic and unequivocal)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Test</th><th class="py-2 pr-3">Diabetes</th><th class="py-2 pr-3">Pre-diabetes</th><th class="py-2 pr-3">Comment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fasting plasma glucose (no calories for at least 8 hours)</td><td class="py-2 pr-3">&ge;7.0 mmol/L (126 mg/dL)</td><td class="py-2 pr-3">6.1 to 6.9 mmol/L (impaired fasting glucose)</td><td class="py-2 pr-3">Most practical test in Nigerian clinics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Random plasma glucose with classic symptoms (thirst, polyuria, weight loss)</td><td class="py-2 pr-3">&ge;11.1 mmol/L (200 mg/dL)</td><td class="py-2 pr-3">n/a</td><td class="py-2 pr-3">Do not confirm with a capillary meter alone</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">2-hour OGTT (75 g glucose)</td><td class="py-2 pr-3">&ge;11.1 mmol/L (200 mg/dL)</td><td class="py-2 pr-3">7.8 to below 11.1 mmol/L (impaired glucose tolerance)</td><td class="py-2 pr-3">Needs laboratory glucose</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HbA1c</td><td class="py-2 pr-3">&ge;6.5% (48 mmol/mol)</td><td class="py-2 pr-3">Not defined here</td><td class="py-2 pr-3">Unreliable in many Nigerian patients: see below</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">HbA1c pitfalls in Nigeria</strong>
+<p class="text-sm">HbS and HbC trait or disease, anaemia, recent transfusion, haemolysis, malaria, kidney disease and some assay methods can make HbA1c falsely low or high. Where HbA1c cannot be trusted, use fasting and postprandial plasma glucose, a glucose diary (self-monitored profiles) or fructosamine, and tell the patient why. HbA1c testing is also costly and not available everywhere, and point-of-care devices are not accurate enough for diagnosis.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Is it really type 2?</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Suspect type 1, ketosis-prone or secondary diabetes in a young or lean patient, rapid weight loss, ketonuria or ketoacidosis, or a poor response to oral drugs. Ketosis can occur in type 2 diabetes after infection, missed treatment or SGLT2 inhibitor use.</li>
+  <li>Consider secondary causes: steroids, antiretrovirals and other drugs, pancreatic disease or pancreatitis, haemochromatosis, Cushing&rsquo;s syndrome, acromegaly, thyroid disease.</li>
+  <li>Pregnancy: screen for gestational diabetes with a separate protocol.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Baseline assessment at diagnosis</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Item</th><th class="py-2 pr-3">What to do</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">History</td><td class="py-2 pr-3">Symptoms, duration, family history, diet and alcohol, herbal and "diabetes cure" products, previous foot problems, infections (TB, UTI), erectile dysfunction, drugs, pregnancy plans</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Examination</td><td class="py-2 pr-3">Weight, BMI, waist, BP (lying and standing), pulse, visual acuity, fundoscopy, <strong>full foot examination</strong> (skin, deformity, pulses, monofilament, vibration), thyroid, skin (acanthosis, infections), injection sites if on insulin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Laboratory</td><td class="py-2 pr-3">Fasting plasma glucose, HbA1c if reliable, creatinine and eGFR, electrolytes, urine albumin-to-creatinine ratio (or dipstick for protein if not available), lipid profile, liver function tests, full blood count and haemoglobin genotype if unknown, urinalysis for ketones, vitamin B12 in long-term metformin users</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Other tests</td><td class="py-2 pr-3">ECG; dilated eye examination at diagnosis (type 2); TB, HIV and hepatitis B screening if clinically indicated; pregnancy test in women of reproductive age</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cardiovascular risk</td><td class="py-2 pr-3">Document ASCVD, heart failure, kidney disease, smoking, family history; all treatment choices depend on these</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: glycaemic targets.</strong> The 2026 ADA Standards individualise HbA1c goals by age, frailty, comorbidity and hypoglycaemia risk (a general adult goal of below 7% is widely used), and also advise glucose-lowering drugs to be intensified without delay when goals are not met. The Diabetes Association of Nigeria 2013 guideline is internally inconsistent, citing both below 7% and 6.5% or less (the IDF optimal target). This guide uses below 7% for most adults, 6.5% or less for young, newly diagnosed patients with no hypoglycaemia risk, and 7.5 to 8.5% for frail or older patients and those with limited life expectancy or advanced complications.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="treatment-goals-and-monitoring" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Treatment Goals and Monitoring
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Domain</th><th class="py-2 pr-3">Goal for most adults</th><th class="py-2 pr-3">Notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HbA1c</td><td class="py-2 pr-3">Below 7% (53 mmol/mol); individualise</td><td class="py-2 pr-3">Test twice a year when stable, every 3 months when therapy changes or targets are not met; use plasma glucose profiles if HbA1c is unreliable</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fasting or pre-meal capillary glucose</td><td class="py-2 pr-3">4 to 7 mmol/L (about 80 to 130 mg/dL)</td><td class="py-2 pr-3">Self-monitor 1 to 3 times daily on multiple insulin injections; a few fasting and post-meal checks weekly on oral drugs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">2-hour post-meal glucose</td><td class="py-2 pr-3">Below 8 to 10 mmol/L (below 145 to 180 mg/dL)</td><td class="py-2 pr-3">Most useful when HbA1c is near target but pre-meal readings are fine</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Blood pressure</td><td class="py-2 pr-3">Below 130/80 mmHg</td><td class="py-2 pr-3">ACE inhibitor or ARB if albuminuria or CKD; see the hypertension guide</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">LDL cholesterol</td><td class="py-2 pr-3">Below 2.6 mmol/L (100 mg/dL); lower if ASCVD</td><td class="py-2 pr-3">Statin for most adults aged 40 to 75</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Weight</td><td class="py-2 pr-3">5 to 7% loss from baseline in overweight patients</td><td class="py-2 pr-3">Improves glucose, BP and lipids</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urine albumin and eGFR</td><td class="py-2 pr-3">Annually</td><td class="py-2 pr-3">More often in CKD</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Eyes</td><td class="py-2 pr-3">Dilated exam at diagnosis, then every 1 to 2 years if no retinopathy and good control; at least yearly if any retinopathy</td><td class="py-2 pr-3">Refer urgently for sight-threatening disease</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Feet</td><td class="py-2 pr-3">Examine at least once a year; every visit if sensory loss, deformity or previous ulcer</td><td class="py-2 pr-3">Section 8</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="lifestyle-and-nutrition-nigerian-practicalities" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Lifestyle and Nutrition: Nigerian Practicalities
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Medical nutrition therapy and activity lower HbA1c by about 1% and improve every other risk factor. Advice must fit local food and income. Teach with the foods the patient actually eats, and ask who cooks.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Topic</th><th class="py-2 pr-3">Advice</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Plate model</td><td class="py-2 pr-3">Half the plate non-starchy vegetables or vegetable soup (efo, ugu, ewedu, okra, bitter leaf, garden egg, tomato); a quarter protein (fish, eggs, beans, chicken, moi-moi, akara in moderation); a quarter starch</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Starch portions</td><td class="py-2 pr-3">The main driver of postprandial glucose is the size of the swallow, rice, bread, yam and garri portion. Aim for a fist-sized portion of eba, amala, fufu, pounded yam, or about one cup of cooked rice. Prefer unpolished or less-processed options: beans, oats, whole grains, brown rice, unripe plantain, millet, sorghum</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sugar and drinks</td><td class="py-2 pr-3">Stop soft drinks, malt drinks, sweetened juices, sugary tea and zobo or kunu with sugar. Use water, unsweetened zobo or tea. Limit fruit portions (one small orange or half a banana at a time) and avoid fruit juices</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fat and salt</td><td class="py-2 pr-3">Limit palm oil, fried food and processed meat; reduce seasoning cubes and added salt for BP</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Meal pattern</td><td class="py-2 pr-3">Regular meals; do not skip meals if on sulfonylureas or insulin; eat before taking the tablets that cause hypoglycaemia</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Alcohol</td><td class="py-2 pr-3">Avoid or limit to a very small amount with food; alcohol causes delayed hypoglycaemia with insulin and sulfonylureas</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Physical activity</td><td class="py-2 pr-3">At least 150 minutes a week of moderate exercise (brisk walking 30 minutes five days a week), plus resistance exercise twice a week. Not on bare feet; check feet after. Avoid strenuous exercise if glucose is above 14 mmol/L (250 mg/dL) with ketones or below 4.4 mmol/L (80 mg/dL); take carbohydrate first if on insulin or sulfonylureas and glucose is below 5.6 mmol/L (100 mg/dL)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Tobacco</td><td class="py-2 pr-3">Stop completely</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Herbal and "diabetes cure" products</td><td class="py-2 pr-3">Many are unregulated, some contain steroids or sulfonylureas, and several raise or lower glucose unpredictably. Never stop prescribed drugs for herbs; document every product used</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fasting (Ramadan, church fasts)</td><td class="py-2 pr-3">Individual risk assessment before the fast; dose and timing changes for sulfonylureas and insulin; break the fast if glucose is below 3.9 mmol/L (70 mg/dL) or above 16.7 mmol/L (300 mg/dL)</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="glucose-lowering-drugs-choosing-and-stepping-up" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Glucose-Lowering Drugs: Choosing and Stepping Up
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Start drugs at diagnosis together with lifestyle advice, and intensify without delay if the target is missed. Review the regimen every 3 to 6 months. Choose by cardiovascular and kidney risk, hypoglycaemia risk, weight, cost and what the patient can obtain consistently. Treat blood pressure, lipids and other risk factors alongside glucose.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Stepwise approach</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">First choice</th><th class="py-2 pr-3">If not at target</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Newly diagnosed, HbA1c under 8.5 to 9%, no complications</td><td class="py-2 pr-3">Metformin plus lifestyle</td><td class="py-2 pr-3">Add a second drug within 3 months: sulfonylurea (gliclazide MR, glimepiride), DPP-4 inhibitor (vildagliptin, sitagliptin), SGLT2 inhibitor or pioglitazone, as cost and risks allow</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HbA1c 1.5% or more above target</td><td class="py-2 pr-3">Dual therapy from the start (metformin plus a second drug)</td><td class="py-2 pr-3">Triple therapy or add basal insulin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Symptomatic or catabolic (weight loss, polyuria), HbA1c above 10% or glucose 16.7 mmol/L (300 mg/dL) or more</td><td class="py-2 pr-3">Insulin (basal or premixed) with metformin, regardless of disease duration; consider short-term insulin even in new diagnoses</td><td class="py-2 pr-3">Once glucotoxicity resolves, oral drugs may allow a reduction in insulin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Established ASCVD, heart failure or CKD</td><td class="py-2 pr-3">Add an SGLT2 inhibitor and/or GLP-1 receptor agonist with proven cardiorenal benefit, regardless of HbA1c (ADA 2026), if available and affordable</td><td class="py-2 pr-3">Insulin where unaffordable or unavailable</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">eGFR below 30 mL/min</td><td class="py-2 pr-3">GLP-1 RA preferred (low hypoglycaemia); insulin; linagliptin; avoid metformin and glibenclamide</td><td class="py-2 pr-3">Specialist advice</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Limited funds</td><td class="py-2 pr-3">Metformin plus gliclazide or glimepiride, or metformin plus human insulin (NPH or 70/30)</td><td class="py-2 pr-3">Cost should never mean untreated hyperglycaemia</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drug options, doses and cautions</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Usual adult dose</th><th class="py-2 pr-3">Strengths and cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Metformin</strong></td><td class="py-2 pr-3">Start 500 mg once daily with the evening meal; increase by 500 mg weekly to 500 to 1000 mg twice daily (maximum 2000 to 2550 mg a day); extended-release 500 to 2000 mg once daily with the evening meal</td><td class="py-2 pr-3">Weight-neutral; no hypoglycaemia; GI upset (titrate slowly, use ER). Do not start if eGFR is below 45; reduce the dose if eGFR 30 to 44; stop if below 30. Hold for contrast studies, acute illness, dehydration and sepsis. Check vitamin B12 periodically. Maximum 1000 mg a day with dolutegravir</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Gliclazide</strong></td><td class="py-2 pr-3">Gliclazide MR 30 mg once daily with breakfast, up to 120 mg; immediate-release 40 to 80 mg twice daily (maximum 320 mg)</td><td class="py-2 pr-3">Preferred sulfonylurea in older and renal patients; hypoglycaemia and weight gain</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Glimepiride</strong></td><td class="py-2 pr-3">1 mg once daily with breakfast, up to 4 mg (maximum 8 mg)</td><td class="py-2 pr-3">Start conservatively; hypoglycaemia</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Glibenclamide (glyburide)</strong></td><td class="py-2 pr-3">2.5 to 5 mg once or twice daily (maximum 20 mg)</td><td class="py-2 pr-3">Cheap and widely available but long-acting; high risk of prolonged hypoglycaemia; avoid in the elderly, CKD and irregular eaters</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Vildagliptin or sitagliptin (DPP-4 inhibitors)</strong></td><td class="py-2 pr-3">Vildagliptin 50 mg twice daily; sitagliptin 100 mg once daily (50 mg if eGFR 30 to 44; 25 mg if below 30)</td><td class="py-2 pr-3">Weight-neutral; low hypoglycaemia risk; check liver function with vildagliptin; pancreatitis (stop if abdominal pain); do not combine with GLP-1 RA; saxagliptin and alogliptin carry heart failure warnings</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>SGLT2 inhibitors</strong></td><td class="py-2 pr-3">Empagliflozin 10 to 25 mg once daily; dapagliflozin 10 mg once daily</td><td class="py-2 pr-3">Cardiorenal benefit; weight and BP lowering; genital mycotic infections, UTIs, volume depletion, euglycaemic DKA; stop 3 days before surgery and during acute illness; glucose-lowering effect falls below eGFR 45; use cautiously with active foot ulcers or PAD (see below)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Pioglitazone</strong></td><td class="py-2 pr-3">15 to 30 mg once daily (maximum 45 mg in some references)</td><td class="py-2 pr-3">Insulin sensitiser; fluid retention, weight gain, fractures; contraindicated in heart failure; avoid in bladder cancer risk</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>GLP-1 receptor agonists</strong></td><td class="py-2 pr-3">Semaglutide weekly injection, titrated slowly; dulaglutide weekly</td><td class="py-2 pr-3">Weight loss and cardiorenal benefit; GI side effects; cost and access limit use in Nigeria</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Acarbose (alpha-glucosidase inhibitor)</strong></td><td class="py-2 pr-3">50 to 100 mg three times daily with the first bite</td><td class="py-2 pr-3">Flatulence; low efficacy; rarely used</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><strong>Insulin</strong></td><td class="py-2 pr-3">See below</td><td class="py-2 pr-3">The most effective drug; needs teaching, storage and monitoring</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Insulin: when and how</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Start insulin</strong> if the patient has symptoms of hyperglycaemia, catabolic features, HbA1c above 10% or glucose 16.7 mmol/L (300 mg/dL) or higher, when oral drugs fail at maximum doses, in pregnancy, or during acute illness and surgery.</li>
+  <li><strong>Basal insulin:</strong> NPH at bedtime (Insulatard, Humulin N) or glargine (Lantus) or detemir (Levemir) at the same time daily. Start 10 units or 0.1 to 0.2 units/kg once daily; titrate by 2 units every 3 days (or 10 to 15%) until the fasting glucose is 4 to 7 mmol/L; reduce by 10 to 20% for any hypoglycaemia. Continue metformin.</li>
+  <li><strong>Premixed insulin (cost-effective, twice daily):</strong> 70/30 human insulin (Mixtard 30, Humulin 70/30) before breakfast and before the evening meal, starting at about 0.2 to 0.3 units/kg a day split two-thirds morning and one-third evening, and titrate by 2 units every 3 days to fasting and pre-dinner targets. Eat within 30 minutes of the injection. Stop sulfonylureas or reduce them to avoid hypoglycaemia.</li>
+  <li><strong>Basal-bolus (for those with erratic meals or high requirements):</strong> add short-acting insulin before the largest meal, starting with 4 units or 10% of the basal dose, and extend to other meals; consider a GLP-1 RA before prandial insulin where affordable.</li>
+  <li><strong>Watch for over-basalisation</strong> (bedtime-to-morning glucose difference of 3 mmol/L or more) and reassess; insulin doses often fall after weight loss or when SGLT2 inhibitors or GLP-1 RAs are added.</li>
+  <li><strong>Technique and storage:</strong> use new, correct-size U-100 syringes or pen needles for U-100 insulin; do not reuse needles repeatedly; rotate sites; hold for 10 seconds; mix cloudy insulins by rolling. Unopened vials belong in a fridge; the vial in use can stay below about 25 to 30&deg;C for 28 days. Where there is no fridge or power is unreliable, keep it in a cool place or an evaporative clay pot, never in the freezer or in direct sun, and discard if clumped or discoloured.</li>
+  <li><strong>Sick-day rules:</strong> never stop basal insulin; check glucose every 2 to 4 hours; hold metformin, SGLT2 inhibitors, ACE inhibitors, ARBs, diuretics and NSAIDs during vomiting, diarrhoea or poor intake and restart on recovery; seek care if glucose stays above 15 mmol/L or ketones are present.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: SGLT2 inhibitors and the foot.</strong> Canagliflozin was linked to more lower-limb amputations in one trial, and ADA advises considering stopping it, and being cautious with SGLT2 inhibitors generally, if a significant lower-limb complication occurs, at least until it resolves. GLP-1 RAs may carry a lower limb-event risk. In patients with an active foot ulcer, gangrene or severe PAD, avoid starting an SGLT2 inhibitor; hold it during active infection or sepsis (euglycaemic DKA risk) and use insulin to control glucose.</p>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: cost-driven choices.</strong> ADA 2026 recommends starting a GLP-1 RA or SGLT2 inhibitor for high-risk patients regardless of HbA1c and prefers GLP-1 therapy to insulin for initial injectables, but also accepts human insulin (NPH and 70/30) as the lower-cost choice and warns against glibenclamide in CKD and the elderly. In Nigeria most patients pay out of pocket. In one Lagos private-clinic review of 248 patients, 86% took metformin, 61% a DPP-4 inhibitor (mainly vildagliptin), 31% an SGLT2 inhibitor and only 17% insulin, with 62% reaching HbA1c below 7%; this reflects a better-insured population and is not typical of public clinics. Match the regimen to what the patient can afford to buy every month.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="hypoglycaemia" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Hypoglycaemia
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Hypoglycaemia (glucose below 3.9 mmol/L or 70 mg/dL) is the commonest serious adverse effect of sulfonylureas and insulin, and it can be fatal. Severe hypoglycaemia is also the commonest reason for hospital admission after glibenclamide and for loss of confidence in treatment.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Recognition</strong>
+<p class="text-sm">Sweating, tremor, palpitations, hunger, anxiety, headache, confusion, abnormal behaviour, blurred vision, seizures, coma. Always check capillary glucose in a confused, convulsing or unconscious diabetic patient, and in anyone with fever, malaria or sepsis who is taking diabetes drugs; quinine and sepsis also lower glucose. Beta-blockers can mask warning symptoms.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Setting</th><th class="py-2 pr-3">Treatment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Conscious, able to swallow</td><td class="py-2 pr-3">15 to 20 g of fast-acting carbohydrate: 3 to 4 glucose tablets, about 150 to 200 mL of fruit juice or soft drink (half a bottle), or 3 to 4 teaspoons of sugar in water. Recheck at 15 minutes and repeat if below 4 mmol/L. Then give a snack or meal</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Unconscious, fitting or unable to swallow (adult)</td><td class="py-2 pr-3">Glucagon 1 mg IM or SC where available (family can give); or 50% dextrose 20 to 50 mL IV over 3 to 5 minutes, then a 10% dextrose infusion; recheck glucose every 15 minutes until above 5 mmol/L, then hourly. Never give food or drink to an unconscious patient</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sulfonylurea-induced (especially glibenclamide) or on long-acting insulin</td><td class="py-2 pr-3">Admit: the effect lasts 24 to 72 hours. Maintain with 10% dextrose at about 100 mL/hour, check glucose hourly then 2- to 4-hourly, and feed as soon as possible. Consider octreotide where available if recurrent. Review the cause and change the drug</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Recurrent hypoglycaemia in the community</td><td class="py-2 pr-3">Reduce or stop the sulfonylurea; review insulin doses, timing, alcohol, missed meals, exercise, renal impairment and interactions (co-trimoxazole, quinolones, fibrates); educate family; avoid glibenclamide</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="hyperglycaemic-crises-dka-and-hhs-inpatient-emergency" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Hyperglycaemic Crises: DKA and HHS (Inpatient Emergency)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Diabetic ketoacidosis (DKA) and hyperosmolar hyperglycaemic state (HHS) are emergencies that need hospital admission, ideally HDU or ICU for the sicker patient. Common triggers in Nigeria: infection (sepsis, pneumonia, UTI, malaria, TB), missed or stopped insulin (cost, fear, fake-cure advice), new diagnosis, stroke, MI, steroids, and SGLT2 inhibitors. Always look for and treat the trigger.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Feature</th><th class="py-2 pr-3">DKA</th><th class="py-2 pr-3">HHS</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Glucose</td><td class="py-2 pr-3">Usually above 11.1 mmol/L (200 mg/dL); may be near normal with SGLT2 inhibitors (euglycaemic DKA)</td><td class="py-2 pr-3">Usually above 33.3 mmol/L (600 mg/dL)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ketones</td><td class="py-2 pr-3">Blood beta-hydroxybutyrate 3.0 mmol/L or more (or 2+ ketonuria)</td><td class="py-2 pr-3">Absent or small</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">pH and bicarbonate</td><td class="py-2 pr-3">pH below 7.3; bicarbonate below 18 mmol/L</td><td class="py-2 pr-3">pH above 7.3; bicarbonate above 18 mmol/L</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Effective osmolality</td><td class="py-2 pr-3">Variable</td><td class="py-2 pr-3">Above 320 mOsm/kg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Mental state</td><td class="py-2 pr-3">Alert to coma; Kussmaul breathing; abdominal pain, vomiting</td><td class="py-2 pr-3">Drowsiness, confusion, coma, seizures; severe dehydration</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Typical patient</td><td class="py-2 pr-3">Younger, type 1 or ketosis-prone type 2</td><td class="py-2 pr-3">Older type 2, often with poor intake, stroke or infection</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Immediate steps (first hour)</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>ABC; oxygen if hypoxic; two large IV lines; place a urinary catheter if shocked or unable to pass urine; nasogastric tube if vomiting with drowsiness.</li>
+  <li>Send: capillary and venous glucose, blood ketones (or urine ketones), urea, creatinine, sodium, potassium, chloride, bicarbonate, venous or arterial blood gas, full blood count, blood culture, urinalysis and culture, malaria test, chest X-ray, ECG, CT head if neurological signs.</li>
+  <li>Start IV fluids first, then insulin once potassium is known (not below 3.3 mmol/L).</li>
+  <li>Search for the trigger and start empirical antibiotics promptly if sepsis is suspected.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Fluids (adult)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Step</th><th class="py-2 pr-3">DKA</th><th class="py-2 pr-3">HHS</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">First hour</td><td class="py-2 pr-3">0.9% sodium chloride 1000 mL (15 to 20 mL/kg) over the first hour; give 500 to 1000 mL/h for the first 2 to 4 hours</td><td class="py-2 pr-3">0.9% sodium chloride 1000 to 1500 mL in the first hour, then 250 to 500 mL/h; aim to replace about 50% of the estimated deficit (often 8 to 12 L) over 12 hours and the rest over the next 12 to 24 hours</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Next phase</td><td class="py-2 pr-3">Continue 250 to 500 mL/h; if corrected sodium is high or normal, consider 0.45% saline; balanced crystalloid is an alternative</td><td class="py-2 pr-3">Change to 0.45% saline if corrected sodium is above 145 to 150 mmol/L after perfusion is restored</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">When glucose falls</td><td class="py-2 pr-3">When glucose is below 14 mmol/L (250 mg/dL) in DKA, add 5 to 10% dextrose to the fluids and continue insulin until ketosis resolves (typically 0.9% saline alternating with 5% dextrose with potassium)</td><td class="py-2 pr-3">When glucose is below 13.9 to 16.7 mmol/L (250 to 300 mg/dL), add 5% dextrose; keep glucose 11 to 16.7 mmol/L until the patient is alert and osmolality is below 300 to 315</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Caution</td><td class="py-2 pr-3">Elderly, heart failure and CKD: smaller boluses with reassessment, monitor urine output and chest</td><td class="py-2 pr-3">Reduce serum osmolality no faster than 3 to 8 mOsm/kg/h; glucose fall no more than 5.5 mmol/L (100 mg/dL) per hour; watch for cerebral oedema or fluid overload</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Insulin</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>DKA:</strong> IV soluble insulin 0.1 units/kg/h by infusion (after fluids have begun and potassium is 3.3 mmol/L or more); a 0.14 units/kg/h infusion without a bolus is an alternative. The target is a glucose fall of 3 to 4 mmol/L (50 to 75 mg/dL) per hour; if the fall is less than 3 mmol/L in the first hour, check hydration and double the rate.</li>
+  <li><strong>HHS:</strong> start insulin after fluids and potassium correction (when glucose is not falling by 3 to 4 mmol/L per hour with fluids alone), at 0.05 units/kg/h; avoid rapid lowering.</li>
+  <li>If no syringe pump: 0.1 units/kg/h by hourly IM injection is acceptable in uncomplicated DKA, or a titrated infusion with the 50 units in 50 mL 0.9% saline in a burette.</li>
+  <li><strong>Check glucose hourly</strong>, electrolytes and blood gas every 2 to 4 hours, and ketones every 1 to 2 hours.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Potassium</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Serum potassium</th><th class="py-2 pr-3">Action</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Below 3.3 mmol/L</td><td class="py-2 pr-3">Hold insulin; give 20 to 30 mmol/h KCl until potassium is above 3.3, with cardiac monitoring</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">3.3 to 5.2 mmol/L</td><td class="py-2 pr-3">Add 20 to 30 mmol KCl to each litre of IV fluid, aiming to keep potassium 4 to 5 mmol/L</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Above 5.2 mmol/L</td><td class="py-2 pr-3">Give none; recheck every 2 hours</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Bicarbonate, phosphate and magnesium</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Bicarbonate is <strong>not</strong> given routinely. Consider only if pH is below 7.0: sodium bicarbonate 100 mmol (8.4% solution, 100 mL) in 400 mL water with 20 mmol KCl over 2 hours, repeating until pH is above 7.0.</li>
+  <li>Give phosphate only if below 0.3 mmol/L (1.0 mg/dL) with cardiac or respiratory compromise.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Resolution and transition to subcutaneous insulin</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>DKA is resolved when glucose is below 11.1 mmol/L (200 mg/dL) and two of: pH above 7.3, bicarbonate 18 mmol/L or more, blood ketones below 0.6 mmol/L, the patient eating.</li>
+  <li>Give subcutaneous insulin (basal plus short-acting, or premixed) and <strong>overlap the IV infusion for 1 to 2 hours</strong> before stopping it, to avoid rebound.</li>
+  <li>Total daily SC insulin in new type 2 patients is often 0.5 to 0.8 units/kg a day, split basal and prandial; discharge on a regimen the patient can actually afford, with injection teaching and a plan for follow-up within 1 week.</li>
+  <li>Fluids and insulin errors are the commonest causes of death: avoid hypokalaemia, hypoglycaemia and fluid overload.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: DKA and HHS regimens.</strong> The 2024 international consensus gives DKA fluid replacement as 500 to 1000 mL/h for the first 2 to 4 hours, the fixed-dose insulin infusion at 0.1 units/kg/h for DKA and 0.05 units/kg/h for HHS, and bicarbonate only for pH below 7.0. Local and UK protocols differ (for example, a fixed-rate infusion of 0.1 units/kg/h and the early use of dextrose). Follow your hospital protocol where one exists, and use the same principles: fluids first, insulin continues until ketones clear, potassium replaced early, and dextrose added when glucose falls.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="peripheral-and-autonomic-neuropathy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Peripheral and Autonomic Neuropathy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Diabetic peripheral neuropathy (DPN) is the commonest complication in outpatient clinics and the main driver of foot ulcers. It may present as numbness, burning, tingling, night pain, or silently as a painless ulcer. Screen every patient at diagnosis and then every year.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Screening</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Symptoms and signs: pinprick, 10 g monofilament at 3 or more sites per foot, 128 Hz tuning-fork vibration at the great toe, ankle reflexes, temperature.</li>
+  <li>Loss of protective sensation (LOPS) means a high-risk foot even without symptoms.</li>
+  <li>Exclude other causes before labelling it diabetic: vitamin B12 deficiency (metformin), alcohol, hypothyroidism, CKD, isoniazid and other drugs (stavudine and didanosine in HIV therapy, chemotherapy, dapsone), HIV, leprosy (nerve thickening, skin patches), syphilis, spinal disease, and entrapment.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Glycaemic control:</strong> smooth glucose control slows progression, but rapid lowering of very high HbA1c can cause treatment-induced neuropathy; correct gradually.</li>
+  <li><strong>Foot care and footwear</strong> (section 8) are the most important interventions.</li>
+  <li><strong>Painful neuropathy (outpatient):</strong> use one drug first line, titrate slowly, and reassess in 2 to 4 weeks. Options are gabapentinoids, SNRIs and tricyclics.</li>
+</ul>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Starting dose and titration</th><th class="py-2 pr-3">Cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregabalin</td><td class="py-2 pr-3">25 to 75 mg at night, increasing to 150 mg twice daily (maximum 600 mg a day); reduce in renal impairment</td><td class="py-2 pr-3">Drowsiness, dizziness, oedema, weight gain; misuse risk</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Gabapentin</td><td class="py-2 pr-3">100 to 300 mg at night, increasing every 3 to 7 days to 300 to 600 mg three times daily (maximum about 3600 mg a day in divided doses); reduce in renal impairment</td><td class="py-2 pr-3">Sedation, dizziness, oedema; avoid abrupt stopping</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Duloxetine</td><td class="py-2 pr-3">30 mg once daily for a week, then 60 mg once daily (maximum 120 mg)</td><td class="py-2 pr-3">Nausea, dry mouth, insomnia; avoid in liver disease and eGFR below 30</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Amitriptyline</td><td class="py-2 pr-3">10 to 25 mg at night, increasing slowly to 50 to 75 mg</td><td class="py-2 pr-3">Dry mouth, constipation, urinary retention, postural hypotension, arrhythmia; avoid in the elderly, heart disease, glaucoma</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Topical options</td><td class="py-2 pr-3">Capsaicin 0.075% cream three or four times daily; lidocaine 5% patch (where available) for localised pain</td><td class="py-2 pr-3">Burning on application; avoid broken skin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Other</td><td class="py-2 pr-3">Carbamazepine 100 mg twice daily increasing to 200 mg three times daily (check sodium and blood count); alpha-lipoic acid 600 mg daily may help in some trials</td><td class="py-2 pr-3">Limited evidence for vitamin B complex or alpha-lipoic acid in routine practice</td></tr>
+  </tbody>
+</table></div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Avoid in painful neuropathy</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Opioids, including tramadol, and NSAIDs (renal risk; masks pain in a foot at risk).</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Combination analgesic injections of diclofenac, steroid or "B-complex" given as a routine remedy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Rubbing hot balms, heating pads, hot water or herbal poultices on numb feet.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Starting at full dose; always titrate gradually and warn about drowsiness and falls.</span></li>
+</ul>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Autonomic neuropathy (look for it)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Postural hypotension:</strong> measure lying and standing BP; stop or reduce diuretics and alpha-blockers, raise the head of the bed, and use compression stockings; fludrocortisone 0.1 mg daily or midodrine under specialist care.</li>
+  <li><strong>Gastroparesis:</strong> early satiety, vomiting, erratic glucose; small frequent meals, metoclopramide 5 to 10 mg three times daily before meals for a short course (maximum 12 weeks) or domperidone 10 mg three times daily.</li>
+  <li><strong>Erectile dysfunction:</strong> check testosterone, drugs and glycaemia; sildenafil 25 to 100 mg about an hour before sex, or tadalafil 5 to 20 mg; contraindicated with nitrates.</li>
+  <li><strong>Neurogenic bladder, diarrhoea, silent myocardial ischaemia and resting tachycardia</strong> signal long-standing diabetes and increase cardiovascular risk.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="diabetic-foot-prevention-ulcers-and-infection" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Diabetic Foot: Prevention, Ulcers and Infection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">About 1 in 3 people with diabetes develops a foot ulcer in a lifetime, and in Nigeria many present late with infection, gangrene or deep abscess; delay in care (herbal healers, home dressings with traditional preparations, travelling for care, fear of amputation and cost) strongly predicts amputation. Neuropathy, ischaemia and infection are the three drivers. Examine the feet at every visit in the high-risk patient, and treat every ulcer as an emergency of the limb.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Risk stratification (IWGDF)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Category</th><th class="py-2 pr-3">Definition</th><th class="py-2 pr-3">Screening and care</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">0 (very low)</td><td class="py-2 pr-3">No loss of protective sensation (LOPS) and no peripheral artery disease (PAD)</td><td class="py-2 pr-3">Annual screening; foot education</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">1 (low)</td><td class="py-2 pr-3">LOPS or PAD</td><td class="py-2 pr-3">Every 6 to 12 months; footwear advice</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">2 (moderate)</td><td class="py-2 pr-3">LOPS with PAD, or LOPS with foot deformity, or PAD with foot deformity</td><td class="py-2 pr-3">Every 3 to 6 months; therapeutic footwear</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">3 (high)</td><td class="py-2 pr-3">LOPS or PAD with a history of ulcer, lower-limb amputation or end-stage renal disease</td><td class="py-2 pr-3">Every 1 to 3 months; specialist foot clinic</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Prevention (every patient)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Daily foot inspection (use a mirror or ask a relative), wash and dry between the toes, moisturise dry skin but not between the toes.</li>
+  <li><strong>Never walk barefoot</strong>, including at home, in church or mosque, and on the farm. Check shoes for stones before wearing; avoid open sandals with thongs, tight or pointed shoes, and new shoes worn for long periods.</li>
+  <li>Cut toenails straight across; avoid "bathroom surgery", razor blades and cutting corns or calluses at home or at the roadside.</li>
+  <li>Treat tinea pedis and nail fungus; treat callus by a trained clinician.</li>
+  <li>Test bath water with the elbow; avoid hot water bottles, heaters, and sitting too close to fire.</li>
+  <li>Report any blister, cut, colour change or swelling the same day.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Assessment of an ulcer</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Site, size, depth (probe to bone), base, edges, odour, drainage, surrounding erythema, and photograph at each visit.</li>
+  <li><strong>Neuropathic ulcer</strong> (plantar, painless, callused rim, warm foot, bounding pulses) versus <strong>ischaemic ulcer</strong> (toes, heel, painful, cold, pale, absent pulses) versus <strong>neuro-ischaemic</strong> (mixed).</li>
+  <li>Pulses, capillary refill, Doppler ankle-brachial index (ABI) and toe pressure where available; ABI may be falsely high with calcified vessels. Toe pressure below 30 mmHg, or an ulcer that fails to improve in 4 to 6 weeks despite good care, needs vascular review urgently.</li>
+  <li>X-ray for foot deformity, osteomyelitis, gas in tissues and foreign body; MRI for suspected bone infection when available.</li>
+  <li>Blood tests: glucose, full blood count, urea and creatinine, CRP or ESR, blood cultures if systemically unwell.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Five principles of ulcer care (outpatient for uncomplicated ulcers)</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li><strong>Offloading</strong> (key): a non-removable knee-high device (total contact cast or non-removable walker) first for plantar forefoot or midfoot neuropathic ulcers; if contraindicated (infection, ischaemia), use a removable knee-high walker, then a removable ankle-high device or felted foam with appropriate footwear. Crutches or a wheelchair where devices are unavailable. Never ask the patient to simply "rest the foot" and walk on it.</li>
+  <li><strong>Sharp debridement</strong> of callus, slough and necrotic tissue at each visit by a trained clinician; avoid chemical debriders and avoid debriding the dry ischaemic toe with a pulseless foot.</li>
+  <li><strong>Wound dressing:</strong> moist wound healing with simple non-adherent dressings (saline-moistened gauze, hydrocolloid, alginate for exudate); no antiseptic mixtures, honey is optional where sterile; change at each visit or earlier if soiled.</li>
+  <li><strong>Infection control and glucose control</strong> (below) and treat PAD.</li>
+  <li><strong>Patient education and weekly review</strong> until healed; prevent recurrence with footwear.</li>
+</ol>
+
+</div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Infection of the diabetic foot: classification and treatment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Grade (IWGDF/IDSA)</th><th class="py-2 pr-3">Definition</th><th class="py-2 pr-3">Setting and treatment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Uninfected</td><td class="py-2 pr-3">No purulence or inflammation</td><td class="py-2 pr-3">No antibiotics; outpatient wound care</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Mild (grade 2)</td><td class="py-2 pr-3">Local infection with 2 or more signs (erythema 0.5 to 2 cm, warmth, swelling, tenderness, purulence), limited to skin or superficial tissue; no SIRS</td><td class="py-2 pr-3">Usually outpatient; oral antibiotics for 1 to 2 weeks (up to 3 to 4 weeks if slow response); debride; review in 2 to 3 days</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Moderate (grade 3)</td><td class="py-2 pr-3">Erythema over 2 cm, or involvement of deeper structures (abscess, fasciitis, bone, joint); no SIRS</td><td class="py-2 pr-3">Admit if PAD, poor home care, unable to adhere or deteriorating; consider early surgery; IV then oral antibiotics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Severe (grade 4)</td><td class="py-2 pr-3">Any local infection with 2 or more SIRS criteria (temperature above 38 or below 36, pulse above 90, respiratory rate above 20, WBC above 12 or below 4)</td><td class="py-2 pr-3"><strong>Admit as an emergency</strong>; sepsis bundle; IV antibiotics; urgent surgical review for drainage and debridement</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Osteomyelitis (add "O")</td><td class="py-2 pr-3">Exposed bone, probe-to-bone positive, abnormal X-ray or MRI</td><td class="py-2 pr-3">Admit if systemically ill; resection of infected bone and/or 6 weeks of antibiotic without resection; 3 weeks if residual infected bone after minor amputation</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Antibiotics (empiric; adjust to tissue culture)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Take a deep tissue or bone specimen after cleaning and debridement; superficial swabs are unreliable. Do not treat clinically uninfected wounds with antibiotics.</li>
+  <li><strong>Mild, community-acquired (Gram-positive predominant):</strong> amoxicillin-clavulanate 625 mg three times daily (or 1 g twice daily), or cephalexin 500 mg four times daily; clindamycin 300 to 450 mg three times daily or a fluoroquinolone-based option if penicillin allergy; add doxycycline 100 mg twice daily or co-trimoxazole for suspected MRSA.</li>
+  <li><strong>Moderate to severe, or previously treated, or macerated or chronic ulcers:</strong> cover Gram-negatives and anaerobes: ceftriaxone 1 to 2 g IV daily plus metronidazole 500 mg IV three times daily; or ampicillin-sulbactam 3 g IV every 6 hours; or piperacillin-tazobactam 4.5 g IV every 6 to 8 hours where <strong>Pseudomonas</strong> risk is high (see watch box).</li>
+  <li><strong>MRSA risk or severe infection:</strong> add vancomycin IV (dose by weight and level) or linezolid 600 mg twice daily.</li>
+  <li>Step down to oral therapy when the patient is stable and improving, guided by culture and sensitivity; avoid fluoroquinolone monotherapy.</li>
+  <li>Do not extend antibiotics to the point where the wound is healed; stop when the infection signs resolve (soft tissue 1 to 2 weeks).</li>
+  <li><strong>Tetanus:</strong> give tetanus toxoid 0.5 mL IM if not immunised in 5 years, and tetanus immunoglobulin if never immunised and the wound is dirty.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Admission, fluids and surgery</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Inpatient care:</strong> severe infection, moderate infection with PAD or poor home care, gangrene, abscess, necrotising fasciitis, osteomyelitis with systemic illness, or an ulcer failing outpatient care.</li>
+  <li><strong>Sepsis:</strong> take cultures, give IV antibiotics within 1 hour, and give 0.9% sodium chloride or Ringer&rsquo;s lactate 500 mL boluses (about 30 mL/kg if hypotensive or lactate high) with reassessment; avoid fluid overload in heart failure or CKD.</li>
+  <li><strong>Glucose control:</strong> in hospital, stop oral drugs that are unsafe (metformin, SGLT2 inhibitors, sulfonylureas in the unwell) and use basal-bolus or IV insulin to keep glucose 7.8 to 10 mmol/L (140 to 180 mg/dL); correct hypoglycaemia promptly.</li>
+  <li><strong>Surgery:</strong> urgent drainage and debridement of abscess, wet gangrene and deep infection within hours, not days; delayed surgery is a major cause of limb loss. Revascularise before elective amputation or major debridement where PAD is critical.</li>
+  <li><strong>PAD:</strong> urgent vascular referral if toe pressure below 30 mmHg or rest pain or gangrene; antiplatelet (aspirin 75 to 100 mg daily) and a statin.</li>
+  <li><strong>Charcot foot:</strong> a warm, swollen, red foot with intact skin in a neuropathic patient (sometimes after minor trauma) needs immobilisation in a non-removable cast, non-weight-bearing, and specialist review.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: foot antibiotics and Pseudomonas cover.</strong> IWGDF/IDSA guidance (2023) advises empiric anti-Pseudomonas therapy in a patient with risk factors or in warm climates, and says Pseudomonas should be covered in moderate to severe infection if previously isolated or at high risk. Studies of Nigerian diabetic foot ulcers commonly isolate Staphylococcus aureus, Pseudomonas aeruginosa, Klebsiella, Proteus and E. coli, often with multidrug resistance. Choose antibiotics by local culture data where available, take tissue for culture before starting, and avoid unguided prolonged courses.</p>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Harmful practices in diabetic foot care</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Applying traditional or herbal preparations, caustic substances, boiling water, hot compresses, or palm oil to ulcers.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Delaying care for prayer, herbalist or "spiritual" treatment, or travelling long distances before first hospital contact.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Probing and cutting calluses, corns, nails or "boils" at home or at the roadside.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Walking barefoot, or continuing to walk on a plantar ulcer without an offloading device.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Prescribing prolonged oral antibiotics without debridement, tissue culture or review.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Injecting steroids or local anaesthetic around the ulcer, or giving intramuscular antibiotics instead of drainage for abscess.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Amputating without a vascular assessment, or delaying drainage of an abscess for imaging or "stabilisation".</span></li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-complications-and-comorbidities" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Other Complications and Comorbidities
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Issue</th><th class="py-2 pr-3">Approach</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diabetic kidney disease</td><td class="py-2 pr-3">Check urine albumin-to-creatinine ratio and eGFR yearly. For albuminuria (30 mg/g or more) or CKD, use an ACE inhibitor or ARB at maximum tolerated dose (for example lisinopril 5 to 40 mg or losartan 50 to 100 mg daily); check creatinine and potassium 1 to 2 weeks after starting or changing dose (accept up to a 30% rise in creatinine). Add an SGLT2 inhibitor if eGFR is 20 or above, finerenone where available for persistent albuminuria, and BP target below 130/80. Avoid NSAIDs, herbal nephrotoxins, and nephrotoxic contrast; refer to nephrology if eGFR is below 30, there is rapid decline, or haematuria</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Retinopathy and maculopathy</td><td class="py-2 pr-3">Dilated fundoscopy at diagnosis and then every 1 to 2 years; refer urgently for proliferative disease, macular oedema or sudden visual loss. Rapid glucose lowering may transiently worsen retinopathy, so reduce HbA1c gradually in advanced disease. Laser and anti-VEGF injections are specialist treatments</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cardiovascular risk</td><td class="py-2 pr-3">Statin for most adults aged 40 to 75: atorvastatin 20 to 40 mg at night (40 to 80 mg if ASCVD). Aspirin 75 to 100 mg daily only for established ASCVD (not routine primary prevention). Treat BP; stop smoking. Screen for symptoms of angina, claudication and heart failure</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Heart failure</td><td class="py-2 pr-3">Use SGLT2 inhibitors; avoid pioglitazone and saxagliptin or alogliptin; review sulfonylureas; metformin is safe if renal function allows</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Tuberculosis</td><td class="py-2 pr-3">Diabetes increases TB risk about threefold; screen patients with cough, weight loss and fever. TB worsens glucose control, and rifampicin lowers sulfonylurea and some oral-drug levels, so insulin is often needed during treatment. Give pyridoxine 10 to 50 mg daily with isoniazid, and recheck glucose frequently</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HIV</td><td class="py-2 pr-3">Offer HIV testing. Dolutegravir increases metformin levels, so limit metformin to 1000 mg a day. Protease inhibitors and older NRTIs worsen insulin resistance and lipids. Efavirenz and rifampicin interactions may affect other drugs. Check dyslipidaemia and renal function regularly</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sickle cell trait or disease, anaemia</td><td class="py-2 pr-3">HbA1c may be unreliable; rely on plasma glucose profiles. Persons with sickle cell disease need specialist input</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Infections</td><td class="py-2 pr-3">Recurrent genital candidiasis, UTI, boils and skin sepsis: check glucose; treat as for the general population; SGLT2 inhibitors increase genital infections. Vaccinate against influenza, pneumococcus, hepatitis B and COVID-19 where available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Depression and distress</td><td class="py-2 pr-3">Screen at each visit; diabetes distress affects adherence and may need counselling; avoid drugs that raise glucose where possible</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Dental and skin</td><td class="py-2 pr-3">Examine the mouth; periodontal disease is common; look for necrobiosis, acanthosis, and injection-site lipohypertrophy</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-populations-and-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Special Populations and Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Approach</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Older or frail adults</td><td class="py-2 pr-3">Relax the HbA1c target (7.5 to 8.5%); avoid hypoglycaemia; prefer metformin (if eGFR allows), DPP-4 inhibitors and low-dose gliclazide MR; avoid glibenclamide, avoid tight control, and simplify the regimen; screen for falls, cognition and depression; deprescribe where needed</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic kidney disease</td><td class="py-2 pr-3">Metformin: stop at eGFR below 30; halve the dose at 30 to 44; no new starts below 45. Linagliptin needs no dose change; avoid glibenclamide; insulin needs are often lower (reduced clearance); SGLT2 inhibitors for cardiorenal protection to eGFR 20; avoid NSAIDs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Liver disease</td><td class="py-2 pr-3">Avoid sulfonylureas where decompensated; insulin is the safest option; metformin is generally avoided in decompensated cirrhosis; pioglitazone may help in MASLD (steatotic liver disease) if no heart failure</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy and pre-pregnancy</td><td class="py-2 pr-3">Stop metformin only if directed; stop SGLT2 inhibitors, DPP-4 inhibitors, GLP-1 RAs, ACE inhibitors, ARBs and statins before pregnancy; use insulin (NPH, detemir or glargine, and short-acting) with folic acid 5 mg daily; refer early to a high-risk obstetric and diabetes team. See the gestational diabetes guide separately</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fasting (Ramadan)</td><td class="py-2 pr-3">Risk-stratify 1 to 2 months ahead; high-risk patients (type 1, recent severe hypoglycaemia, advanced CKD, pregnancy, acute illness) should not fast. Metformin split two-thirds at the evening meal (iftar) and one-third at pre-dawn (suhoor); sulfonylureas taken at iftar with a reduced dose (gliclazide MR at iftar); consider DPP-4 inhibitors; reduce premixed insulin by 25 to 50% in the morning dose; test glucose any time and break the fast if below 3.9 or above 16.7 mmol/L</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hospital and surgery</td><td class="py-2 pr-3">Stop metformin and SGLT2 inhibitors (stop SGLT2 inhibitors 3 days before surgery); put the diabetic patient first on the list; give 10% dextrose with insulin infusion if prolonged fasting; maintain glucose 7.8 to 10 mmol/L; restart oral drugs when eating and renal function is stable</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Steroid-induced hyperglycaemia</td><td class="py-2 pr-3">Rises in the afternoon and evening; morning NPH insulin given with prednisolone in step with the steroid dose, with doses reduced as the steroid tapers</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Young-onset (below 40) type 2</td><td class="py-2 pr-3">Higher complication risk; start early with intensive treatment; metformin plus early insulin or GLP-1 RA; screen for complications at diagnosis; check autoantibodies if there is doubt about type</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="follow-up-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Follow-Up and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Visit schedule</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Stage</th><th class="py-2 pr-3">Frequency</th><th class="py-2 pr-3">Content</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">New or uncontrolled</td><td class="py-2 pr-3">Every 2 to 4 weeks until target; then every 3 months</td><td class="py-2 pr-3">Glucose diary review, weight, BP, adherence, side effects, drug titration, hypoglycaemia, foot check if high risk</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Stable and at target</td><td class="py-2 pr-3">Every 3 to 6 months</td><td class="py-2 pr-3">HbA1c or glucose profiles, BP, weight, drugs, feet, mood, finance and access issues</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Annual review</td><td class="py-2 pr-3">Once a year</td><td class="py-2 pr-3">Creatinine and eGFR, urine albumin, lipids, liver tests, full foot exam and risk category, eye examination, B12 if on metformin, vaccines, ECG if indicated, update goals</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What the patient must know</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Diabetes is a lifelong condition; tablets and insulin are <strong>not</strong> a sign of failure, and insulin does not "damage the kidneys"; uncontrolled sugar does.</li>
+  <li>Do not stop tablets or insulin because blood sugar is normal, because you feel well, or because of herbal or spiritual advice.</li>
+  <li>Recognise and treat low blood sugar; always carry sugar or glucose; tell family and colleagues what to do; do not drive when the glucose is low.</li>
+  <li>Never walk barefoot; examine your feet every day; see a doctor the same day for any foot wound.</li>
+  <li>Carry a card or bracelet stating that you have diabetes and the drugs you take.</li>
+  <li>Follow up even when the money for the drugs is short: ask the clinic about cheaper options (generic metformin, human insulin, gliclazide) rather than skipping doses.</li>
+  <li>Family and caregivers should be taught foot care, hypoglycaemia first aid and insulin injection.</li>
+  <li>Pharmacy and patient advice: buy only registered products (NAFDAC number), and store insulin properly; do not buy insulin from roadside vendors.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When to refer or admit</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Admit: DKA, HHS, severe or prolonged hypoglycaemia, severe foot infection or gangrene, sepsis, acute coronary syndrome or stroke, and unwell patients with ketosis.</li>
+  <li>Refer urgently: sight-threatening retinopathy, rapid fall in eGFR, critical limb ischaemia, Charcot foot, pregnancy, suspected type 1 diabetes, and persistent poor control despite adherence.</li>
+  <li>Refer routinely: for diabetes education, dietitian, ophthalmology, podiatry or foot clinic, and cardiology where appropriate.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-nigerian-brands-strengths-and-interactions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Common Nigerian Brands, Strengths and Interactions
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Brand availability, strengths and prices change often; verify the product on the packaging, check the NAFDAC registration number, and substitute with a generic of the same strength where needed. The brands below are examples commonly found in Nigerian pharmacies.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Class</th><th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Brands (examples) and strengths</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Biguanide</td><td class="py-2 pr-3">Metformin</td><td class="py-2 pr-3">Glucophage 500, 850, 1000 mg; Glucophage XR 500, 750, 1000 mg; Diabetmin; many generics (500 mg, 850 mg)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sulfonylurea</td><td class="py-2 pr-3">Gliclazide</td><td class="py-2 pr-3">Diamicron MR 30 mg and 60 mg; Diamicron 80 mg; Glyzide; generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sulfonylurea</td><td class="py-2 pr-3">Glimepiride</td><td class="py-2 pr-3">Amaryl 1, 2, 3, 4 mg; generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sulfonylurea</td><td class="py-2 pr-3">Glibenclamide</td><td class="py-2 pr-3">Daonil 5 mg; Euglucon 5 mg; Glibenclamide 5 mg generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Combination</td><td class="py-2 pr-3">Glibenclamide plus metformin</td><td class="py-2 pr-3">Glucovance 2.5/500 and 5/500 mg; Glibomet; generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Combination</td><td class="py-2 pr-3">Metformin plus glimepiride</td><td class="py-2 pr-3">Amaryl M; generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">DPP-4 inhibitor</td><td class="py-2 pr-3">Vildagliptin</td><td class="py-2 pr-3">Galvus 50 mg; Galvus Met 50/500, 50/850, 50/1000 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">DPP-4 inhibitor</td><td class="py-2 pr-3">Sitagliptin</td><td class="py-2 pr-3">Januvia 25, 50, 100 mg; Janumet 50/500, 50/850, 50/1000 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">DPP-4 inhibitor</td><td class="py-2 pr-3">Linagliptin</td><td class="py-2 pr-3">Trajenta 5 mg; Jentadueto</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">SGLT2 inhibitor</td><td class="py-2 pr-3">Dapagliflozin; empagliflozin</td><td class="py-2 pr-3">Forxiga 5, 10 mg; Xigduo XR; Jardiance 10, 25 mg; Synjardy; where available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Thiazolidinedione</td><td class="py-2 pr-3">Pioglitazone</td><td class="py-2 pr-3">Actos 15, 30 mg; generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">GLP-1 RA</td><td class="py-2 pr-3">Semaglutide; dulaglutide; liraglutide</td><td class="py-2 pr-3">Ozempic; Trulicity; Victoza; where available (cost is high)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Insulin (human)</td><td class="py-2 pr-3">Soluble, NPH, 70/30</td><td class="py-2 pr-3">Actrapid, Insulatard, Mixtard 30 (Novo Nordisk); Humulin R, N, 70/30 (Lilly); vials 10 mL (100 units/mL) and cartridges or pens</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Insulin analogues</td><td class="py-2 pr-3">Glargine, detemir, degludec, aspart, lispro</td><td class="py-2 pr-3">Lantus, Toujeo, Levemir, Tresiba; NovoRapid; Humalog; where available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Glucagon</td><td class="py-2 pr-3">Glucagon 1 mg</td><td class="py-2 pr-3">GlucaGen HypoKit, where available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Neuropathic pain</td><td class="py-2 pr-3">Pregabalin; gabapentin; duloxetine; amitriptyline</td><td class="py-2 pr-3">Lyrica 75, 150 mg; Neurontin 300 mg; Cymbalta 30, 60 mg; Tryptizol 10, 25 mg and amitriptyline generics</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Important drug interactions and cautions</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Hypoglycaemia risk:</strong> sulfonylureas with co-trimoxazole, fluconazole or other azoles, quinolones, fibrates, beta-blockers (mask symptoms), alcohol, salicylates in high dose, and quinine.</li>
+  <li><strong>Hyperglycaemia:</strong> corticosteroids, thiazide diuretics at high dose, some antipsychotics, tacrolimus, protease inhibitors and antiretrovirals, and hormonal drugs.</li>
+  <li><strong>Rifampicin and phenytoin</strong> lower levels of sulfonylureas and pioglitazone; monitor and adjust.</li>
+  <li><strong>Metformin:</strong> hold with iodinated contrast (in eGFR below 30 or AKI), in sepsis, hypoxia, acute heart failure, severe dehydration and alcohol excess; dolutegravir increases its levels; cimetidine raises levels.</li>
+  <li><strong>ACE inhibitors and ARBs</strong> with potassium-sparing diuretics, potassium supplements or NSAIDs can cause hyperkalaemia and AKI.</li>
+  <li><strong>Counterfeit and substandard products:</strong> insulin and tablets that have been stored badly or sold by unlicensed vendors can fail; buy from licensed pharmacies.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Common Practices to Avoid
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Avoid these in diabetes care</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Diagnosing or monitoring diabetes with a single random capillary glucometer reading, urine glucose strips alone, or HbA1c alone where HbS, anaemia or recent transfusion make it unreliable.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Stopping metformin because a patient is "old", or continuing it with eGFR below 30 or in the middle of sepsis, vomiting or contrast studies.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Starting or continuing glibenclamide in the elderly, CKD, irregular eaters or those living alone; it is the commonest cause of prolonged hypoglycaemia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Leaving a patient on the same drug for years with an HbA1c above target (therapeutic inertia); delaying insulin for years because of fear or cost; or using insulin as a threat.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Stopping all drugs because "the sugar is now normal", or telling patients they are cured.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Prescribing without checking renal function, feet, BP, and without a plan for hypoglycaemia.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating hypoglycaemia in an unconscious patient with oral sugar, honey in the mouth, or by waiting for them to "wake up"; give IV dextrose or glucagon.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Giving large boluses of 50% dextrose without repeat glucose checks, or treating recurrent sulfonylurea hypoglycaemia as a single event and discharging after the first bolus.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating DKA with bicarbonate as routine, with potassium withheld because the first potassium looks normal, with insulin before potassium is known, or with early stopping of the insulin infusion without overlap.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Using hypotonic or dextrose-only fluids to resuscitate DKA or HHS, or correcting sodium too fast.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Giving diclofenac injections, steroids or tramadol for diabetic neuropathic pain; ignoring B12 deficiency; labelling every neuropathy as diabetic.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating a foot ulcer with antibiotics alone, without debridement, offloading and vascular assessment; or sending patients home with a plantar ulcer to walk on it.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Cutting, burning or applying herbal or caustic agents on foot wounds; walking barefoot.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Prescribing a regimen the patient cannot afford to buy for three months, and not asking about money.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Reusing needles repeatedly, mixing up U-40 and U-100 syringes and insulin, and giving insulin without teaching injection technique, site rotation and storage.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Aspirin as routine primary prevention in all people with diabetes, and sulfonylurea use together with insulin without reducing doses.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Advice to "avoid all carbohydrates" or "avoid all fruit", or to rely on bitter-leaf, neem, bitter-kola, cinnamon or other "sugar cure" products instead of prescribed therapy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Missing annual screening for eyes, kidneys and feet.</span></li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<p class="font-brand text-sm font-semibold text-indigo-950 dark:text-white mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Diagnose by laboratory fasting glucose (7.0 mmol/L or higher) or a 2-hour OGTT; use HbA1c cautiously where sickle trait, anaemia, malaria or recent transfusion may distort it.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The default start is lifestyle plus metformin (500 mg with the evening meal, titrated to 1000 mg twice daily), with early combination when HbA1c is 1.5% or more above target, and insulin if symptomatic, HbA1c above 10% or glucose 16.7 mmol/L or higher.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Add an SGLT2 inhibitor or GLP-1 RA for ASCVD, heart failure or CKD, regardless of HbA1c, where affordable; otherwise choose gliclazide, glimepiride, a DPP-4 inhibitor or human insulin by cost and hypoglycaemia risk.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Avoid glibenclamide in the elderly and CKD; metformin needs dose changes below eGFR 45 and stopping below 30; with dolutegravir limit metformin to 1000 mg a day.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Hypoglycaemia: 15 to 20 g of fast carbohydrate if awake; IV 50% dextrose 20 to 50 mL or IM glucagon 1 mg if unconscious; sulfonylurea hypoglycaemia needs admission and a dextrose infusion for 24 to 72 hours.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>DKA and HHS are inpatient emergencies: 0.9% saline 1 L in the first hour, insulin 0.1 units/kg/h (DKA) or 0.05 units/kg/h (HHS) after potassium is known, potassium replaced by the rules above, dextrose added when glucose falls, bicarbonate only if pH is below 7.0, and overlap IV insulin with subcutaneous insulin.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Screen feet at diagnosis and every visit if at high risk; patients with loss of protective sensation never walk barefoot; offload ulcers with a non-removable cast or walker.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Foot infection is graded: mild is oral antibiotics (amoxicillin-clavulanate), moderate and severe need admission, IV antibiotics with Gram-negative and anaerobic cover, urgent debridement or drainage, and vascular assessment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Painful neuropathy responds to pregabalin, gabapentin, duloxetine or low-dose amitriptyline; never use opioids or tramadol, and exclude B12 deficiency, alcohol, isoniazid, HIV drugs and leprosy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Review every 3 to 6 months, with annual kidney, eye, foot and lipid assessments; always ask about cost, herbal products and storage of insulin.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-slate-700 dark:text-slate-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<ol class="list-decimal pl-8 pr-4 pb-4 space-y-1">
+  <li class="text-[10px] leading-snug text-stone-500">American Diabetes Association. Standards of Care in Diabetes 2026: Pharmacologic Approaches to Glycemic Treatment, Glycemic Goals and Hypoglycemia, Chronic Kidney Disease, Retinopathy, Neuropathy and Foot Care, and Diabetes Care in the Hospital (Diabetes Care, 2026).</li>
+  <li class="text-[10px] leading-snug text-stone-500">International Working Group on the Diabetic Foot (IWGDF) and Infectious Diseases Society of America. Guidelines on the diagnosis and treatment of diabetes-related foot infections (2023).</li>
+  <li class="text-[10px] leading-snug text-stone-500">IWGDF. Guidelines on offloading foot ulcers in persons with diabetes (2023).</li>
+  <li class="text-[10px] leading-snug text-stone-500">IWGDF. Guidelines on the prevention of foot ulcers in persons with diabetes (risk categories) (2023).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Umpierrez GE, et al. Hyperglycemic crises in adults with diabetes: a consensus report (ADA, EASD, JBDS, AACE and DTS) (Diabetes Care, 2024).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Diabetes Association of Nigeria. Clinical practice guidelines for the management of diabetes mellitus in Nigeria (2013).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Nigerian multicentre studies of diabetic foot ulcer presentation, microbiology and outcome; and qualitative work on delayed presentation in Abeokuta.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Review of antidiabetic drug prescribing patterns and glycaemic control in a Lagos clinic cohort.</li>
+  <li class="text-[10px] leading-snug text-stone-500">WHO. Classification of diabetes mellitus and definition and diagnosis of diabetes (WHO 2019 and 2006/2011 reports).</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Agency for Food and Drug Administration and Control (NAFDAC) Green Book for product registration checks.</li>
+</ol>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'treatment-skin-soft-tissue-infections',
+  title: 'Skin and Soft Tissue Infections',
+  category: 'Treatment',
+  subCategory: 'Infectious Disease',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 p-4 sm:p-8 max-w-3xl mx-auto">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; INFECTIOUS DISEASE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Skin and Soft Tissue Infections (SSTIs)</h1>
+  <p class="text-sm text-indigo-200">Ringworm, impetigo, boils, abscesses, cellulitis and scabies make up a large share of primary care and paediatric clinic visits in Nigeria, driven by heat and humidity, overcrowding, limited water, delayed care, and widespread use of steroid and "skin-lightening" creams that distort the picture. This guide gives the treatment of superficial fungal infections (tinea), bacterial pyodermas and scabies, with doses by age and weight, formulations, when to treat at home and when to admit, IV fluids for sepsis, symptomatic care, common Nigerian brands, and a set of diagrams, photographs and verified learning resources.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block font-semibold mb-2">How to read this guide</strong>
+<p class="text-sm">Weigh every child and calculate by weight. Doses assume normal kidney and liver function. Antibiotic and scabicide doses follow the MSF clinical guidelines where available; tinea doses beyond what MSF states, and the other doses marked in the Guideline Watch box, come from standard formularies and should be checked against the FMOH Standard Treatment Guidelines. Photographs are public-domain CDC images, shown with attribution; most standard atlas photographs show lighter skin, so use the skin-of-colour resources in section 12 as well. The line diagrams are original teaching sketches, not photographs.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#sstis-at-a-glance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>SSTIs at a Glance</span></a></li>
+  <li><a href="#assessment-depth-severity-and-skin-of-colour" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Assessment: Depth, Severity and Skin of Colour</span></a></li>
+  <li><a href="#superficial-fungal-infections-tinea-and-related-infections" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Superficial Fungal Infections (Tinea and Related Infections)</span></a></li>
+  <li><a href="#impetigo-folliculitis-and-boils-furuncles-and-carbuncles" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Impetigo, Folliculitis and Boils (Furuncles and Carbuncles)</span></a></li>
+  <li><a href="#skin-abscess-incision-and-drainage" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Skin Abscess: Incision and Drainage</span></a></li>
+  <li><a href="#cellulitis-and-erysipelas" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Cellulitis and Erysipelas</span></a></li>
+  <li><a href="#scabies" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Scabies</span></a></li>
+  <li><a href="#symptomatic-treatment-itch-pain-fever-and-local-care" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Symptomatic Treatment: Itch, Pain, Fever and Local Care</span></a></li>
+  <li><a href="#special-groups" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Special Groups</span></a></li>
+  <li><a href="#drug-dosage-and-formulation-reference-by-age-group" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Drug Dosage and Formulation Reference by Age Group</span></a></li>
+  <li><a href="#nigerian-brands-and-prescribing-realities" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Nigerian Brands and Prescribing Realities</span></a></li>
+  <li><a href="#pictures-and-multimedia-resources-verified-links" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Pictures and Multimedia Resources (Verified Links)</span></a></li>
+  <li><a href="#prevention-follow-up-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Prevention, Follow-Up and Counselling</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sstis-at-a-glance" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+SSTIs at a Glance
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Condition</th><th class="py-2 pr-3">Typical clue</th><th class="py-2 pr-3">First-line treatment</th><th class="py-2 pr-3">Setting</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Tinea corporis, cruris, pedis</td><td class="py-2 pr-3 align-top">Itchy ring with a scaly raised edge and central clearing</td><td class="py-2 pr-3 align-top">Topical azole or terbinafine for 2 to 4 weeks</td><td class="py-2 pr-3 align-top">Home</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Tinea capitis</td><td class="py-2 pr-3 align-top">Scaly patches with hair loss or black dots in a school-age child; boggy kerion</td><td class="py-2 pr-3 align-top"><strong>Oral</strong> griseofulvin (or terbinafine) for 4 to 8 weeks or more</td><td class="py-2 pr-3 align-top">Home; refer if kerion is severe</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Pityriasis versicolor</td><td class="py-2 pr-3 align-top">Fine scaly light or dark patches on trunk and neck</td><td class="py-2 pr-3 align-top">Ketoconazole shampoo or selenium sulfide</td><td class="py-2 pr-3 align-top">Home</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Impetigo</td><td class="py-2 pr-3 align-top">Honey-coloured crusts or bullae, mostly around the nose, mouth and limbs in children</td><td class="py-2 pr-3 align-top">Mupirocin (few lesions); oral cloxacillin or cefalexin (many lesions)</td><td class="py-2 pr-3 align-top">Home</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Furuncle, carbuncle, abscess</td><td class="py-2 pr-3 align-top">Painful red fluctuant swelling</td><td class="py-2 pr-3 align-top"><strong>Incision and drainage</strong> is the treatment; antibiotics only in selected cases</td><td class="py-2 pr-3 align-top">Clinic; admit if systemic illness</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Cellulitis, erysipelas</td><td class="py-2 pr-3 align-top">Spreading warm tender swelling, fever; erysipelas has a sharp raised edge</td><td class="py-2 pr-3 align-top">Cefalexin or co-amoxiclav orally; cloxacillin IV if admitted</td><td class="py-2 pr-3 align-top">Outpatient if mild; admit if sick</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Scabies</td><td class="py-2 pr-3 align-top">Intense night itching, burrows in finger webs and wrists, affected household contacts</td><td class="py-2 pr-3 align-top">Permethrin 5% cream, repeat in 7 days; treat all contacts</td><td class="py-2 pr-3 align-top">Home</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Necrotising soft tissue infection</td><td class="py-2 pr-3 align-top">Pain out of proportion, rapid spread, skin dusky, bullae, crepitus, shock</td><td class="py-2 pr-3 align-top">Resuscitation, broad IV antibiotics, urgent surgical debridement</td><td class="py-2 pr-3 align-top">Emergency</td></tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assessment-depth-severity-and-skin-of-colour" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Assessment: Depth, Severity and Skin of Colour
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Start by asking how deep the infection is (Figure 1) and how sick the patient is. Superficial infections (impetigo, tinea) are treated topically or with a short oral course; deep infections (abscess, cellulitis, necrotising fasciitis) are treated with drainage, systemic antibiotics and, when severe, fluids and surgery.</p>
+
+<figure class="my-2">
+  <svg viewBox="0 0 640 330" role="img" aria-labelledby="fig1t fig1d" class="w-full h-auto text-slate-700 dark:text-slate-300" xmlns="http://www.w3.org/2000/svg">
+    <title id="fig1t">Figure 1: Depth of skin and soft tissue infections</title>
+    <desc id="fig1d">Cross-section of skin showing epidermis, dermis, subcutaneous fat, fascia and muscle, with the depth at which impetigo, tinea, folliculitis and boils, erysipelas, cellulitis, abscess and necrotising fasciitis occur.</desc>
+    <rect x="20" y="30" width="360" height="22" fill="#fcd9b6" stroke="currentColor" stroke-width="1"/>
+    <rect x="20" y="52" width="360" height="64" fill="#f5b78a" stroke="currentColor" stroke-width="1"/>
+    <rect x="20" y="116" width="360" height="84" fill="#fde68a" stroke="currentColor" stroke-width="1"/>
+    <rect x="20" y="200" width="360" height="12" fill="#cbd5e1" stroke="currentColor" stroke-width="1"/>
+    <rect x="20" y="212" width="360" height="60" fill="#e8a0a0" stroke="currentColor" stroke-width="1"/>
+    <text x="26" y="45" font-size="11" fill="#1e293b">Epidermis</text>
+    <text x="26" y="88" font-size="11" fill="#1e293b">Dermis</text>
+    <text x="26" y="160" font-size="11" fill="#1e293b">Subcutaneous fat</text>
+    <text x="26" y="209" font-size="9" fill="#1e293b">Fascia</text>
+    <text x="26" y="246" font-size="11" fill="#1e293b">Muscle</text>
+    <path d="M90 52 L90 92 M86 92 L94 92" stroke="#7c2d12" stroke-width="2" fill="none"/>
+    <path d="M250 52 Q256 100 250 150" stroke="#7c2d12" stroke-width="3" fill="none"/>
+    <ellipse cx="305" cy="140" rx="30" ry="22" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+    <text x="305" y="144" text-anchor="middle" font-size="9" fill="#7c2d12">pus</text>
+    <path d="M80 206 L370 206" stroke="#7f1d1d" stroke-width="3" stroke-dasharray="6 3"/>
+    <circle cx="150" cy="41" r="4" fill="#b45309"/><circle cx="200" cy="41" r="4" fill="#b45309"/><circle cx="260" cy="41" r="4" fill="#b45309"/>
+    <line x1="380" y1="41" x2="410" y2="41" stroke="currentColor"/>
+    <text x="415" y="38" font-size="11" fill="currentColor" font-weight="bold">Impetigo, tinea</text>
+    <text x="415" y="51" font-size="10" fill="currentColor">epidermis and stratum corneum</text>
+    <line x1="380" y1="72" x2="410" y2="72" stroke="currentColor"/>
+    <text x="415" y="69" font-size="11" fill="currentColor" font-weight="bold">Erysipelas</text>
+    <text x="415" y="82" font-size="10" fill="currentColor">upper dermis, lymphatics</text>
+    <line x1="380" y1="104" x2="410" y2="104" stroke="currentColor"/>
+    <text x="415" y="101" font-size="11" fill="currentColor" font-weight="bold">Folliculitis, furuncle</text>
+    <text x="415" y="114" font-size="10" fill="currentColor">hair follicle, into dermis</text>
+    <line x1="380" y1="140" x2="410" y2="140" stroke="currentColor"/>
+    <text x="415" y="137" font-size="11" fill="currentColor" font-weight="bold">Abscess</text>
+    <text x="415" y="150" font-size="10" fill="currentColor">pus collection: drain it</text>
+    <line x1="380" y1="170" x2="410" y2="170" stroke="currentColor"/>
+    <text x="415" y="167" font-size="11" fill="currentColor" font-weight="bold">Cellulitis</text>
+    <text x="415" y="180" font-size="10" fill="currentColor">deep dermis, subcutis</text>
+    <line x1="380" y1="206" x2="410" y2="206" stroke="currentColor"/>
+    <text x="415" y="203" font-size="11" fill="#b91c1c" font-weight="bold">Necrotising fasciitis</text>
+    <text x="415" y="216" font-size="10" fill="currentColor">along the fascia: surgical emergency</text>
+    <text x="20" y="300" font-size="11" fill="currentColor">Figure 1. Where each infection sits in the skin (schematic). Original teaching sketch.</text>
+  </svg>
+  <figcaption class="text-xs sans text-slate-500 dark:text-slate-400 mt-1">Figure 1. Depth of skin and soft tissue infections. A deeper or faster-moving infection needs systemic antibiotics, closer observation and sometimes surgery.</figcaption>
+</figure>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Recognising infection in dark skin</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Redness is hard to see.</strong> In brown and black skin, inflammation often looks dusky, purplish, grey or darker than the surroundings. Rely on warmth, swelling, tenderness, tight shiny skin, and the border of the lesion (mark it with a pen) rather than redness alone.</li>
+  <li><strong>Tinea</strong> often appears as a hyperpigmented or violaceous ring with a scaly edge, and inflammation can leave long-lasting dark marks (post-inflammatory hyperpigmentation), which is a common reason for repeat visits.</li>
+  <li><strong>Scabies</strong> papules and excoriations may look darker, with secondary hyperpigmentation; look for burrows and the distribution (Figure 5b) and ask about itch in the household.</li>
+  <li><strong>Impetigo and eczema</strong> may be difficult to separate; honey-coloured crusts, weeping and satellite lesions suggest impetigo.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Severity, admission and what else to look for</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Treat as an outpatient</th><th class="py-2 pr-3">Admit or refer urgently</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top">
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Localised infection, afebrile or low-grade fever</li>
+            <li>Drinking, eating and taking oral drugs</li>
+            <li>No immunosuppression, diabetes, malnutrition or vascular disease</li>
+            <li>Reliable review within 24 to 48 hours</li>
+          </ul>
+        </td>
+        <td class="py-2 pr-3 align-top">
+          <ul class="list-disc pl-4 space-y-1">
+            <li>Infants under 3 months; weak, drowsy, pale or cyanosed child</li>
+            <li>Fever with fast heart rate, fast breathing, hypotension or confusion (sepsis)</li>
+            <li>Rapid spread, severe pain out of proportion, dusky skin, blisters, crepitus (necrotising infection)</li>
+            <li>Face or scalp involvement with eyelid swelling; infection near the eye, nose or genitals; hand infections</li>
+            <li>Cellulitis that fails 48 hours of oral therapy, or large or deep abscess</li>
+            <li>Sickle cell disease, diabetes, HIV with low CD4, malnutrition, elderly or debilitated patients</li>
+            <li>Suspected osteomyelitis or septic arthritis</li>
+            <li>Unable to take oral drugs or unreliable follow-up</li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Check temperature, pulse, breathing rate, blood pressure, glucose (every adult with recurrent boils or cellulitis needs a blood sugar), and test for HIV when risk factors are present. Test for malaria in febrile children.</li>
+  <li>Look for the cause: a wound, insect bite, tinea pedis, scabies, eczema, lymphoedema, venous ulcer, injection site, or a foreign body.</li>
+  <li><strong>Check tetanus immunisation</strong> and give tetanus toxoid (and immunoglobulin if indicated) for wounds.</li>
+  <li><strong>Differentials to keep in mind in Nigeria:</strong> contact dermatitis, stasis dermatitis, deep vein thrombosis (unilateral swollen leg), eczema, insect bite reactions, tungiasis (sand flea), mycetoma, Buruli ulcer, leprosy, cutaneous leishmaniasis (rare), lymphatic filariasis and podoconiosis (chronic leg swelling), onchocerciasis skin disease and drug eruptions.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="superficial-fungal-infections-tinea-and-related-infections" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Superficial Fungal Infections (Tinea and Related Infections)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Dermatophyte infections are very common in the humid, hot climate. In Nigerian children, tinea capitis (often <em>Trichophyton</em> and <em>Microsporum</em> species) is the main fungal problem; adults mostly present with tinea corporis, cruris, pedis and unguium, and pityriasis versicolor. <strong>Do not treat with steroid-containing creams</strong> (tinea incognito). Confirm the diagnosis with a KOH skin scraping when possible (see section 12 for a verified how-to), especially before a long oral course.</p>
+
+<div class="grid gap-4 sm:grid-cols-2">
+  <figure class="m-0">
+    <img src="https://wwwn.cdc.gov/phil///PHIL_Images/25532/25532_lores.jpg" alt="Child's scalp with tinea capitis caused by a Microsporum species" loading="lazy" class="w-full h-auto rounded-lg border border-slate-200 dark:border-slate-700 bg-white" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+    <div style="display:none" class="p-3 text-xs sans rounded-lg border border-dashed border-slate-300 dark:border-slate-600">Photograph did not load. Open it on the CDC Public Health Image Library: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=25532" target="_blank" rel="noopener">PHIL 25532</a>.</div>
+    <figcaption class="text-xs sans text-slate-500 dark:text-slate-400 mt-1">Figure 2a. Tinea capitis in a child (Microsporum species): scalp lesions seen from above. Public-domain image, CDC / Dr. Lucille K. Georg; source: CDC Public Health Image Library, PHIL 25532.</figcaption>
+  </figure>
+  <figure class="m-0">
+    <img src="https://wwwn.cdc.gov/phil///PHIL_Images/14623/14623_lores.jpg" alt="Alopecia at the site of a scalp lesion in a child with tinea capitis" loading="lazy" class="w-full h-auto rounded-lg border border-slate-200 dark:border-slate-700 bg-white" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+    <div style="display:none" class="p-3 text-xs sans rounded-lg border border-dashed border-slate-300 dark:border-slate-600">Photograph did not load. Open it on the CDC Public Health Image Library: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=14623" target="_blank" rel="noopener">PHIL 14623</a>.</div>
+    <figcaption class="text-xs sans text-slate-500 dark:text-slate-400 mt-1">Figure 2b. Hair loss (alopecia) at the site of a tinea capitis lesion in a child (Microsporum gypseum). Public-domain image, CDC / Dr. Lucille K. Georg; PHIL 14623.</figcaption>
+  </figure>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tinea corporis, tinea cruris and tinea pedis (topical treatment)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Wash with soap and water, dry well, then apply miconazole 2% cream (or clotrimazole 1% cream, or terbinafine 1% cream) twice daily</strong>, extending 2 cm beyond the edge, for 2 to 4 weeks and for 2 weeks after the lesions have cleared (MSF; terbinafine 1% cream once or twice daily for 1 to 2 weeks is an alternative).</li>
+  <li><strong>Whitfield's ointment</strong> (benzoic acid 6% plus salicylic acid 3%) twice daily is a low-cost option; do not use it on oozing lesions in the groin or between the toes (use miconazole cream only).</li>
+  <li><strong>Oral treatment</strong> is for extensive, resistant, recurrent or hair-bearing-area infection, nail disease and patients with immunosuppression: <strong>griseofulvin</strong> for 4 to 6 weeks (adult 500 mg daily, child 10 to 20 mg/kg daily), or <strong>itraconazole</strong> (adult 100 mg daily for 2 weeks, or 200 mg daily for 1 week for corporis) (MSF gives griseofulvin for 4 to 6 weeks and itraconazole for 2 weeks); or <strong>terbinafine</strong> 250 mg daily for 1 to 2 weeks in adults (standard dose, not from MSF).</li>
+  <li><strong>Tinea pedis</strong>: keep the feet dry, change socks daily, use cotton or open footwear, and apply antifungal powder; the infection is usually in the 3rd and 4th toe web spaces (candidal intertrigo more often affects the 1st and 2nd). Treat for 2 to 4 weeks. Treat tinea pedis in anyone with recurrent cellulitis of the leg.</li>
+  <li><strong>Tinea unguium (nail)</strong>: needs oral terbinafine 250 mg daily for 6 weeks (fingernails) to 12 weeks (toenails), or itraconazole pulse therapy; topical treatment alone rarely works; confirm the diagnosis with microscopy or culture before a long course, and check liver enzymes for prolonged courses.</li>
+  <li><strong>Advise:</strong> avoid sharing towels, combs and clothing; wash clothes at high temperature; treat pets and household contacts with symptoms; and stop using steroid creams.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Tinea capitis: always needs oral treatment</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Topical antifungal alone does not cure scalp ringworm.</strong> Cut or shave the hair around the lesions, wash with soap and water, dry and apply miconazole 2% cream or Whitfield's ointment twice daily for 2 weeks or longer (MSF), together with an oral drug.</li>
+  <li><strong>Griseofulvin</strong> (first-line, widely available): children 1 to 12 years 10 to 20 mg/kg once daily (maximum 500 mg a day); children over 12 years and adults 500 mg to 1 g once daily; give with a fatty meal (milk, groundnut paste, egg) to improve absorption; continue for at least 6 weeks and up to 8 to 12 weeks, until clinical cure (MSF). <strong>Itraconazole</strong>: children 3 to 5 mg/kg once daily (maximum 200 mg) for 4 to 6 weeks; adults 200 mg daily for 2 to 4 weeks (MSF).</li>
+  <li><strong>Terbinafine</strong> (shorter course; standard dose, not from MSF): children under 20 kg 62.5 mg, 20 to 40 kg 125 mg, over 40 kg 250 mg, once daily for 2 to 4 weeks (4 weeks or longer for Trichophyton; Microsporum infections often need longer or griseofulvin).</li>
+  <li><strong>Kerion</strong> (boggy, painful, pus-draining mass): treat with the oral antifungal as above, paracetamol for pain, and treat secondary bacterial infection (see impetigo). Do not incise. Steroids may be used by a specialist for severe cases.</li>
+  <li><strong>Adjuncts:</strong> ketoconazole 2% or selenium sulfide 2.5% shampoo two to three times a week reduces spread; do not share combs, hats and pillows; examine and treat symptomatic family members.</li>
+  <li><strong>Pregnancy and breastfeeding:</strong> oral antifungals are contraindicated; use topical treatment until oral therapy is possible (MSF).</li>
+</ul>
+
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Child's weight</th><th class="py-2 pr-3">Griseofulvin 10 to 20 mg/kg daily</th><th class="py-2 pr-3">Suspension 125 mg/5 mL</th><th class="py-2 pr-3">Terbinafine (tablet 250 mg)</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3">10 kg</td><td class="py-2 pr-3">100 to 200 mg</td><td class="py-2 pr-3">4 to 8 mL</td><td class="py-2 pr-3">62.5 mg (quarter tablet)</td></tr>
+      <tr><td class="py-2 pr-3">15 kg</td><td class="py-2 pr-3">150 to 300 mg</td><td class="py-2 pr-3">6 to 12 mL</td><td class="py-2 pr-3">62.5 mg (quarter tablet)</td></tr>
+      <tr><td class="py-2 pr-3">20 kg</td><td class="py-2 pr-3">200 to 400 mg</td><td class="py-2 pr-3">8 to 16 mL</td><td class="py-2 pr-3">125 mg (half tablet)</td></tr>
+      <tr><td class="py-2 pr-3">30 kg</td><td class="py-2 pr-3">300 to 500 mg (maximum 500 mg)</td><td class="py-2 pr-3">12 to 20 mL</td><td class="py-2 pr-3">125 mg (half tablet)</td></tr>
+      <tr><td class="py-2 pr-3">40 kg or more</td><td class="py-2 pr-3">500 mg</td><td class="py-2 pr-3">20 mL (or one 500 mg tablet)</td><td class="py-2 pr-3">250 mg (whole tablet)</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-xs sans">Griseofulvin is available as 125 mg, 250 mg and 500 mg tablets and 125 mg/5 mL suspension. Avoid in pregnancy, severe liver disease, and porphyria; may cause headache, nausea and photosensitivity; interacts with warfarin and the contraceptive pill.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Pityriasis versicolor and cutaneous candidiasis</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Pityriasis versicolor</strong> (Malassezia yeast; fine scaling hypo- or hyperpigmented patches on the neck, chest and back, worse when sweating): ketoconazole 2% shampoo applied to the affected area and left for 5 to 10 minutes before washing off, once daily for 3 to 5 days; or selenium sulfide 2.5% lotion applied for 10 minutes daily for 7 days; or topical azole cream for 2 to 4 weeks. For extensive or recurrent disease: ketoconazole 200 mg once daily for 5 to 7 days (adults; not in pregnancy) or fluconazole 300 mg weekly for 2 weeks. Warn that colour returns to normal weeks to months after the fungus has cleared, and that recurrence is common in the hot season.</li>
+  <li><strong>Candidal intertrigo and napkin dermatitis:</strong> miconazole 2% cream twice daily for 2 to 4 weeks (MSF); keep the area clean and dry; for napkin rash change nappies frequently, leave the skin exposed to air, avoid plastic pants, use zinc oxide ointment as a barrier; nystatin oral 100,000 IU four times daily for 20 days may be considered where the bowel is involved (MSF). Look for diabetes, obesity, antibiotic use and immunosuppression in adults.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Do not</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Do not give a steroid-containing "combination" cream (a potent steroid with an antifungal and an antibiotic) for ringworm. It relieves itch briefly, then the fungus spreads and the rash changes shape (tinea incognito), with skin thinning and stretch marks.</li>
+  <li>Do not stop griseofulvin early because the scalp looks better; relapse is common if the course is cut short.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="impetigo-folliculitis-and-boils-furuncles-and-carbuncles" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Impetigo, Folliculitis and Boils (Furuncles and Carbuncles)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<figure class="m-0">
+  <img src="https://wwwn.cdc.gov/phil///PHIL_Images/24919/24919_lores.jpg" alt="Close view of a patient's face with impetigo lesions" loading="lazy" class="w-full max-w-sm h-auto rounded-lg border border-slate-200 dark:border-slate-700 bg-white" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+  <div style="display:none" class="p-3 text-xs sans rounded-lg border border-dashed border-slate-300 dark:border-slate-600">Photograph did not load. Open it on the CDC Public Health Image Library: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=24919" target="_blank" rel="noopener">PHIL 24919</a>.</div>
+  <figcaption class="text-xs sans text-slate-500 dark:text-slate-400 mt-1">Figure 3. Impetigo on the face: crusted lesions caused by group A Streptococcus and/or Staphylococcus aureus. Public-domain image, CDC / Dr. Thomas F. Sellers, Emory University; PHIL 24919.</figcaption>
+</figure>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Impetigo (non-bullous, bullous and ecthyma)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Localised non-bullous impetigo (5 or fewer lesions in one area):</strong> clean the lesions with soap and water, dry them, then apply <strong>mupirocin 2% ointment three times daily for 7 days</strong>; review at 3 days and move to oral treatment if there is no response (MSF). Fusidic acid 2% cream or ointment three times daily for 7 days is an alternative where available (standard formularies). Do not use topical antibiotics for longer than 10 days (resistance).</li>
+  <li><strong>Extensive (more than 5 lesions or more than one area), bullous, ecthyma, impetigo with abscess, immunocompromised patients, or failure of topical treatment:</strong> wash with soap and water and dry 2 to 3 times a day; incise any abscess; give an oral antibiotic for 7 days:
+    <ul class="list-disc pl-5 space-y-1 mt-1">
+      <li><strong>Cefalexin:</strong> neonates under 7 days 25 mg/kg twice daily; neonates 7 to 28 days 25 mg/kg three times daily; children 1 month to 12 years 25 mg/kg twice daily; children over 12 years and adults 1 g twice daily.</li>
+      <li><strong>Cloxacillin (or flucloxacillin):</strong> adults 1 g three times daily; children over 10 years 15 mg/kg three times daily (maximum 3 g a day) (MSF). For children 1 month to 10 years use about 12.5 mg/kg four times daily (standard formularies; the MSF page does not state a dose for this age group).</li>
+      <li><strong>Penicillin allergy:</strong> azithromycin 10 mg/kg once daily (adults 500 mg once daily) for 3 days, noting that macrolide resistance is common; or clindamycin 10 mg/kg three times daily (adults 600 mg three times daily).</li>
+      <li><strong>Newborns with lesions around the umbilicus</strong> need admission and IV cloxacillin.</li>
+    </ul>
+  </li>
+  <li><strong>Local care:</strong> gently remove crusts with warm soapy water or saline soaks; dilute potassium permanganate soaks (1 in 10,000) can be used for weeping lesions for 10 to 15 minutes twice daily (standard practice, not from MSF); keep nails short, cover lesions, wash hands and towels; the child may return to school 24 to 48 hours after starting antibiotics.</li>
+  <li><strong>Look for and treat the cause:</strong> scabies, head lice, eczema, herpes, tinea capitis, insect bites, ENT infection. Examine and treat contacts.</li>
+  <li><strong>Follow-up:</strong> check the urine for protein by dipstick about 3 weeks after impetigo or other streptococcal skin infection to detect acute glomerulonephritis (cola-coloured urine, swelling, hypertension) (MSF).</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Folliculitis, furuncles (boils) and carbuncles</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Folliculitis</strong> (small pustules around hair follicles; shaving, occlusion, hot tub or bath use): keep the area clean, avoid shaving and tight clothing, apply a topical antiseptic or mupirocin 2% ointment; look for diabetes if recurrent.</li>
+  <li><strong>Furuncle (boil):</strong> encourage drainage with warm moist compresses; clean with soap and water twice daily and cover with a dry dressing; wash hands and bedding. A fluctuant boil is treated by incision and drainage (section 5). <strong>Never squeeze boils on the face</strong> (risk of cavernous sinus thrombosis).</li>
+  <li><strong>Add an antibiotic for 7 days</strong> for facial furuncles, multiple furuncles, carbuncles, and immunocompromised patients (MSF). Use an anti-staphylococcal drug such as cloxacillin, cefalexin or co-amoxiclav as above; penicillin-allergic patients: clindamycin 10 mg/kg three times daily (adults 600 mg three times daily).</li>
+  <li><strong>Recurrent boils:</strong> screen for diabetes, anaemia, HIV and malnutrition; hygiene measures (daily washing, separate towels and razors, hot-wash clothing); consider decolonisation with mupirocin ointment to the nostrils twice daily and chlorhexidine 4% body wash for 5 days; treat household contacts if recurrence continues. Do not give repeated courses of antibiotics.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="skin-abscess-incision-and-drainage" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Skin Abscess: Incision and Drainage
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><strong>Drainage is the treatment.</strong> A fluctuant or pointing collection should be incised and drained; antibiotics alone do not cure an abscess. If the diagnosis is uncertain, ultrasound can distinguish an abscess from cellulitis where it is available. Most abscesses in Nigeria are caused by <em>Staphylococcus aureus</em>; MRSA occurs but local prevalence is poorly documented.</p>
+
+<figure class="my-2">
+  <svg viewBox="0 0 640 300" role="img" aria-labelledby="fig5t fig5d" class="w-full h-auto text-slate-700 dark:text-slate-300" xmlns="http://www.w3.org/2000/svg">
+    <title id="fig5t">Figure 4: Incision and drainage of a skin abscess</title>
+    <desc id="fig5d">Three-step schematic: an abscess cavity under the skin with local anaesthetic infiltrated around it, an incision along the long axis of the swelling with loculations broken up, and a loose wick or dressing left in the cavity.</desc>
+    <g>
+      <text x="20" y="22" font-size="12" font-weight="bold" fill="currentColor">1. Anaesthetise and prepare</text>
+      <rect x="20" y="60" width="180" height="20" fill="#fcd9b6" stroke="currentColor"/>
+      <rect x="20" y="80" width="180" height="70" fill="#f5b78a" stroke="currentColor"/>
+      <path d="M50 80 Q110 20 170 80 Z" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+      <text x="110" y="70" text-anchor="middle" font-size="10" fill="#7c2d12">abscess</text>
+      <path d="M40 40 L58 70 M180 40 L162 70 M110 30 L110 52" stroke="currentColor" stroke-width="2"/>
+      <text x="20" y="175" font-size="10" fill="currentColor">Infiltrate lidocaine 1% (max 3 mg/kg)</text>
+      <text x="20" y="189" font-size="10" fill="currentColor">around the roof; clean and drape.</text>
+    </g>
+    <g>
+      <text x="225" y="22" font-size="12" font-weight="bold" fill="currentColor">2. Incise and break loculi</text>
+      <rect x="225" y="60" width="180" height="20" fill="#fcd9b6" stroke="currentColor"/>
+      <rect x="225" y="80" width="180" height="70" fill="#f5b78a" stroke="currentColor"/>
+      <path d="M255 80 Q315 20 375 80 Z" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+      <line x1="315" y1="40" x2="315" y2="62" stroke="#b91c1c" stroke-width="3"/>
+      <path d="M290 62 Q315 46 340 62" stroke="#b91c1c" stroke-width="2" fill="none"/>
+      <text x="225" y="175" font-size="10" fill="currentColor">Incise along the full length of the</text>
+      <text x="225" y="189" font-size="10" fill="currentColor">swelling (along skin lines); open with</text>
+      <text x="225" y="203" font-size="10" fill="currentColor">forceps or a finger; release all pockets.</text>
+    </g>
+    <g>
+      <text x="430" y="22" font-size="12" font-weight="bold" fill="currentColor">3. Irrigate, pack lightly</text>
+      <rect x="430" y="60" width="180" height="20" fill="#fcd9b6" stroke="currentColor"/>
+      <rect x="430" y="80" width="180" height="70" fill="#f5b78a" stroke="currentColor"/>
+      <path d="M460 80 Q520 30 580 80 Z" fill="#ffffff" stroke="#b45309" stroke-width="2" stroke-dasharray="4 3"/>
+      <path d="M505 52 Q520 70 535 52 L548 40 L492 40 Z" fill="#cbd5e1" stroke="currentColor"/>
+      <text x="430" y="175" font-size="10" fill="currentColor">Irrigate with saline; place a loose</text>
+      <text x="430" y="189" font-size="10" fill="currentColor">wick or gauze, leaving a tail out;</text>
+      <text x="430" y="203" font-size="10" fill="currentColor">review and change at 24 to 48 hours.</text>
+    </g>
+    <text x="20" y="260" font-size="11" fill="currentColor">Figure 4. Steps of abscess incision and drainage (schematic). Original teaching sketch.</text>
+    <text x="20" y="278" font-size="10" fill="currentColor">Do not incise a pulsating swelling (aneurysm), a hernia, or a lesion over a vessel without checking.</text>
+  </svg>
+  <figcaption class="text-xs sans text-slate-500 dark:text-slate-400 mt-1">Figure 4. Incision and drainage in three steps. See the verified procedure resources in section 12 for step-by-step video and written technique.</figcaption>
+</figure>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique and aftercare</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li><strong>Indications:</strong> fluctuant or pointing abscess, a boil that does not settle with compresses, an infected sebaceous cyst or hidradenitis lesion with pus. Pre-procedure: explain, consent, analgesia (paracetamol 1 g, and local anaesthetic infiltration with lidocaine 1%; maximum 3 mg/kg, or 4.5 mg/kg with adrenaline), clean with chlorhexidine or povidone-iodine, sterile gloves and drape.</li>
+  <li><strong>Incise</strong> with a number 11 or 15 blade along the length of the swelling, through the full thickness of the roof, along skin tension lines (face and neck: avoid vital structures; refer abscesses of the face, hand, perineum, breast, and those near vessels).</li>
+  <li><strong>Drain and explore:</strong> express pus (send a swab for culture where possible, especially in recurrent or hospital-acquired abscess); break loculations with forceps or a finger; irrigate with saline.</li>
+  <li><strong>Pack loosely</strong> with a gauze wick or leave the wound open with a dressing; do not close the cavity. Remove or change the packing at 24 to 48 hours and teach wound care (warm soaks, daily dressing, hygiene). Healing is by secondary intention.</li>
+  <li><strong>Analgesia afterward:</strong> paracetamol with or without ibuprofen (ibuprofen is acceptable after drainage in patients without contraindications; avoid NSAIDs when there is rapidly spreading cellulitis or suspected necrotising infection).</li>
+  <li><strong>Tetanus prophylaxis</strong> as appropriate.</li>
+</ol>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">When to add antibiotics after drainage</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Systemic illness (fever, tachycardia), surrounding cellulitis of more than a few centimetres, multiple lesions, face, hand, genital or perianal site, very young or old patients, diabetes or immunosuppression, incomplete drainage, or no response to drainage within 48 to 72 hours.</li>
+  <li><strong>Regimen (7 days; longer if severe):</strong> cloxacillin or flucloxacillin (adults 500 mg to 1 g every 6 hours orally; children 12.5 to 25 mg/kg every 6 hours); or cefalexin (adults 1 g twice daily; children 25 mg/kg twice daily); or co-amoxiclav (as in cellulitis). If MRSA is suspected or there is no response: <strong>clindamycin</strong> 10 mg/kg three times daily (adults 600 mg three times daily), or cotrimoxazole (adults 960 mg twice daily; children 24 mg/kg twice daily) or doxycycline 100 mg twice daily (adults; not for children under 8 or in pregnancy) (standard IDSA-style options; not stated in the MSF pages).</li>
+  <li>Large abscesses, or abscesses in septic patients, may need admission, IV antibiotics and drainage under anaesthesia.</li>
+  <li><strong>Perianal and breast abscesses, and abscesses in infants:</strong> refer to a surgeon or paediatric surgeon.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cellulitis-and-erysipelas" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Cellulitis and Erysipelas
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm"><strong>Erysipelas</strong> is a sharply demarcated, raised, shiny red (or dusky) plaque of the upper dermis, usually on the face or leg, caused mainly by group A streptococci. <strong>Cellulitis</strong> is a deeper infection with ill-defined margins, caused by streptococci or <em>Staphylococcus aureus</em>. Mark the edge with a pen, elevate the limb and treat the entry point (tinea pedis, a wound, an ulcer, lymphoedema).</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">General measures (all patients)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Outline the erythema with a pen</strong> and re-examine in 24 to 48 hours; spread beyond the line suggests treatment failure, MRSA, or a necrotising infection.</li>
+  <li><strong>Bed rest and limb elevation.</strong> Analgesia: paracetamol (15 mg/kg every 6 hours in children; 1 g every 6 hours in adults). <strong>Avoid NSAIDs</strong> (they may increase the risk of necrotising fasciitis, MSF).</li>
+  <li>Treat the portal of entry and comorbidities (diabetes, tinea pedis, lymphoedema, venous ulcer, HIV). Update tetanus immunisation.</li>
+  <li><strong>Hydration:</strong> encourage oral fluids; in sepsis give IV fluids (below).</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Outpatient treatment (7 to 10 days, oral)</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Children</th><th class="py-2 pr-3">Adults</th><th class="py-2 pr-3">Notes</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Cefalexin (first choice, MSF)</td><td class="py-2 pr-3 align-top">1 month to under 12 years: 25 mg/kg twice daily</td><td class="py-2 pr-3 align-top">1 g twice daily (12 years and older)</td><td class="py-2 pr-3 align-top">Capsules 250, 500 mg; suspension 125 and 250 mg/5 mL</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Co-amoxiclav (dose as amoxicillin, MSF)</td><td class="py-2 pr-3 align-top">Under 40 kg: 25 mg/kg twice daily</td><td class="py-2 pr-3 align-top">8:1 formulation: 500/62.5 mg, 2 tablets twice daily; 7:1 formulation: 875/125 mg once twice daily</td><td class="py-2 pr-3 align-top">Choose when polymicrobial infection (wound, diabetic or perineal) or after bites</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Cloxacillin or flucloxacillin (standard formularies)</td><td class="py-2 pr-3 align-top">12.5 to 25 mg/kg every 6 hours</td><td class="py-2 pr-3 align-top">500 mg to 1 g every 6 hours, on an empty stomach</td><td class="py-2 pr-3 align-top">Capsules 250 and 500 mg; suspension 125 mg/5 mL. Four-times-daily dosing reduces adherence</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Clindamycin (penicillin allergy, MSF)</td><td class="py-2 pr-3 align-top">10 mg/kg three times daily</td><td class="py-2 pr-3 align-top">600 mg three times daily</td><td class="py-2 pr-3 align-top">Also covers MRSA; risk of C. difficile diarrhoea</td></tr>
+    </tbody>
+  </table>
+</div>
+<p class="text-xs sans">Examples by weight (cefalexin 25 mg/kg twice daily): 5 kg, 125 mg (5 mL of 125 mg/5 mL); 10 kg, 250 mg (10 mL of 125 mg/5 mL or 5 mL of 250 mg/5 mL); 15 kg, 375 mg (7.5 mL of 250 mg/5 mL); 20 kg, 500 mg (10 mL of 250 mg/5 mL); 30 kg, 750 mg (15 mL of 250 mg/5 mL or one and a half 500 mg capsules). Review at 48 hours; if the signs are worse, switch to the IV route.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Inpatient treatment (IV, then oral to complete 7 to 10 days)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>First line: cloxacillin IV</strong> over 60 minutes: children 1 month to under 12 years 12.5 to 25 mg/kg every 6 hours; children 12 years and older and adults 1 g every 6 hours.</li>
+  <li><strong>Alternative: co-amoxiclav IV</strong> (dose as amoxicillin): under 3 months 30 mg/kg every 12 hours; 3 months and older 20 to 30 mg/kg every 8 hours (maximum 3 g a day); adults 1 g every 8 hours.</li>
+  <li><strong>Penicillin allergy:</strong> clindamycin IV, 10 mg/kg three times daily (children), 600 mg three times daily (adults).</li>
+  <li><strong>No improvement after 48 hours:</strong> suspect MRSA, abscess or necrotising infection; add or switch to clindamycin IV (10 mg/kg every 8 hours in children, adults 600 mg every 8 hours) given over 30 minutes; consider vancomycin (adults 15 mg/kg every 12 hours; children 15 mg/kg every 6 to 8 hours, monitor levels) or linezolid where available; review for drainable collection.</li>
+  <li>If afebrile and improving after 48 hours, switch to oral cefalexin or co-amoxiclav to complete 7 to 10 days (MSF).</li>
+  <li>Treat for longer (up to 14 days) if the response is slow; lymphoedema and diabetic patients may need longer.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">IV fluids in severe cellulitis or sepsis</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Adults with sepsis or hypotension:</strong> Ringer's lactate or 0.9% sodium chloride, 500 mL to 1 L over 30 to 60 minutes, up to about 30 mL/kg (about 2 litres for a 70 kg adult) in the first hour or three, reassessing after each bolus (blood pressure, pulse, urine output, chest); then maintenance 25 to 30 mL/kg/day (about 75 to 90 mL/hour for a 70 kg adult) with extra fluid for fever and losses. Watch for overload in heart failure, kidney disease and malnutrition.</li>
+  <li><strong>Children in shock:</strong> isotonic crystalloid (Ringer's lactate or 0.9% saline) 10 to 20 mL/kg over 15 to 30 minutes, reassess after each bolus, repeat as needed; <strong>in severe acute malnutrition</strong> use 10 to 15 mL/kg of Ringer's lactate with 5% dextrose over 1 hour only; avoid hypotonic dextrose-saline for resuscitation. Antibiotics within the first hour.</li>
+  <li>Maintenance (Holliday-Segar): 100 mL/kg for the first 10 kg, 50 mL/kg for the next 10 kg, 20 mL/kg for each additional kg; for example a 15 kg child needs about 1,250 mL a day (52 mL/hour). Prefer isotonic maintenance fluid (for example 5% dextrose in 0.9% saline) in sick children.</li>
+  <li>Monitor urine output (aim above 0.5 mL/kg/hour in adults and above 1 mL/kg/hour in children), lactate, glucose, creatinine and electrolytes where possible. Check blood glucose in diabetes.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Necrotising soft tissue infection: do not miss</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Suspect when pain is out of proportion to the physical signs, the skin is dusky, blistered or anaesthetic, the patient has high fever, rapid spread, crepitus, or is in shock, or when a patient with presumed cellulitis deteriorates on treatment. Risk factors: diabetes, HIV, sickle cell disease, alcohol, injection or surgical wounds, recent childbirth or circumcision.</li>
+  <li><strong>Resuscitate with IV fluids, start broad IV antibiotics, and arrange urgent surgical exploration and debridement</strong> (definitive diagnosis is at surgery). A reasonable regimen is ceftriaxone 2 g once daily (children 50 mg/kg) plus metronidazole 500 mg every 8 hours (children 7.5 mg/kg) plus clindamycin 600 to 900 mg every 8 hours (children 10 mg/kg every 8 hours); piperacillin-tazobactam plus clindamycin plus vancomycin where available (standard references; not stated in the MSF pages). Do not wait for imaging or cultures.</li>
+</ul>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Complications and prevention of recurrence</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Complications:</strong> septicaemia, abscess formation, osteomyelitis and septic arthritis (especially in sickle cell disease), necrotising fasciitis, and acute glomerulonephritis (urine dipstick at about 3 weeks).</li>
+  <li><strong>Recurrent cellulitis</strong> (two or more episodes a year): treat tinea pedis and other portals of entry, reduce oedema (compression, elevation, skin care), manage diabetes and obesity, and consider secondary prophylaxis: benzathine penicillin G 1.2 million units IM every 3 to 4 weeks, or penicillin V 250 mg twice daily (adults), for at least 6 to 12 months (standard recommendation; not from MSF). For chronic leg swelling in rural and highland areas, consider podoconiosis and lymphatic filariasis.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="scabies" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Scabies
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Scabies is caused by the itch mite <em>Sarcoptes scabiei</em>. It is common in overcrowded households, schools, boarding houses and camps. Suspect it when itching is worse at night and several household members itch. Look for burrows (short grey lines) and papules in the finger webs, wrists, elbows, axillae, waist, genitals and buttocks; in infants, include the palms, soles, face and scalp. Secondary bacterial infection (impetigo) is common, and can lead to post-streptococcal glomerulonephritis.</p>
+
+<div class="grid gap-4 sm:grid-cols-2">
+  <figure class="m-0">
+    <img src="https://wwwn.cdc.gov/phil///PHIL_Images/20031006/f95ed091ed55412baba70bef1163fe82/4801_lores.jpg" alt="Pimple-like rash between the fingers of an adult hand caused by scabies" loading="lazy" class="w-full h-auto rounded-lg border border-slate-200 dark:border-slate-700 bg-white" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+    <div style="display:none" class="p-3 text-xs sans rounded-lg border border-dashed border-slate-300 dark:border-slate-600">Photograph did not load. Open it on the CDC Public Health Image Library: <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=4801" target="_blank" rel="noopener">PHIL 4801</a>.</div>
+    <figcaption class="text-xs sans text-slate-500 dark:text-slate-400 mt-1">Figure 5a. Scabies: pimple-like rash between the fingers of an adult hand. Public-domain image, CDC; PHIL 4801.</figcaption>
+  </figure>
+  <figure class="m-0">
+    <svg viewBox="0 0 300 330" role="img" aria-labelledby="fig3t fig3d" class="w-full h-auto text-slate-700 dark:text-slate-300" xmlns="http://www.w3.org/2000/svg">
+      <title id="fig3t">Figure 5b: Typical distribution of scabies</title>
+      <desc id="fig3d">Front view of a human body outline with the finger webs, wrists, elbows, axillae, waist, genitals and buttocks highlighted as the commonest sites of scabies.</desc>
+      <circle cx="150" cy="38" r="24" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="132" y="62" width="36" height="12" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M100 76 Q150 66 200 76 L206 190 L94 190 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M100 76 L60 140 L52 190" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M200 76 L240 140 L248 190" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path d="M108 190 L110 222 M192 190 L190 222" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle cx="50" cy="198" r="8" fill="#dc2626" fill-opacity="0.75"/>
+      <circle cx="250" cy="198" r="8" fill="#dc2626" fill-opacity="0.75"/>
+      <circle cx="54" cy="176" r="7" fill="#dc2626" fill-opacity="0.75"/>
+      <circle cx="246" cy="176" r="7" fill="#dc2626" fill-opacity="0.75"/>
+      <circle cx="62" cy="138" r="7" fill="#dc2626" fill-opacity="0.75"/>
+      <circle cx="238" cy="138" r="7" fill="#dc2626" fill-opacity="0.75"/>
+      <circle cx="106" cy="92" r="9" fill="#dc2626" fill-opacity="0.75"/>
+      <circle cx="194" cy="92" r="9" fill="#dc2626" fill-opacity="0.75"/>
+      <ellipse cx="150" cy="150" rx="46" ry="9" fill="#dc2626" fill-opacity="0.6"/>
+      <circle cx="150" cy="196" r="10" fill="#dc2626" fill-opacity="0.75"/>
+      <text x="150" y="244" text-anchor="middle" font-size="10" font-weight="bold" fill="currentColor">Red = commonest sites</text>
+      <text x="10" y="262" font-size="9" fill="currentColor">Finger webs, wrists, elbows, axillae,</text>
+      <text x="10" y="274" font-size="9" fill="currentColor">waist, genitals, buttocks. Infants: palms,</text>
+      <text x="10" y="286" font-size="9" fill="currentColor">soles, face, scalp. Head and neck spared</text>
+      <text x="10" y="298" font-size="9" fill="currentColor">in older children and adults.</text>
+      <text x="10" y="316" font-size="10" fill="currentColor">Figure 5b. Distribution (schematic).</text>
+    </svg>
+    <figcaption class="text-xs sans text-slate-500 dark:text-slate-400 mt-1">Figure 5b. Typical sites of scabies in older children and adults. Original teaching sketch.</figcaption>
+  </figure>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Treatment (MSF)</strong>
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Dose and use</th><th class="py-2 pr-3">Notes</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Permethrin 5% cream (preferred)</td>
+        <td class="py-2 pr-3 align-top">Children from 2 months and adults: apply once to the whole body, leave on for <strong>8 hours</strong>, then wash off; <strong>repeat after 7 days</strong>.</td>
+        <td class="py-2 pr-3 align-top">Cover from the neck down (and the scalp, forehead and temples in infants, elderly and in crusted scabies), including behind the ears, navel, palms, soles and under the nails. Do not wash the hands during the treatment time. Typical adult amount: 30 g.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Benzyl benzoate 25% lotion (if no permethrin)</td>
+        <td class="py-2 pr-3 align-top">Under 2 years: dilute 1 part lotion with 3 parts water; leave on 12 hours (6 hours if under 6 months), rinse; apply once. Age 2 to 12 years: dilute 1 part lotion with 1 part water; leave on 24 hours, rinse; apply twice. Over 12 years and adults: undiluted, leave on 24 hours, rinse. Pregnancy: undiluted, leave on 12 hours, rinse; apply once.</td>
+        <td class="py-2 pr-3 align-top">Irritant; stings; avoid the face and mucous membranes; wrap young children's hands.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Ivermectin (oral; practical in outbreaks, secondary infection and for contacts)</td>
+        <td class="py-2 pr-3 align-top">200 micrograms/kg as a single dose, repeated after 7 days. With 3 mg tablets: 15 to 24 kg, 1 tablet; 25 to 35 kg, 2 tablets; 36 to 50 kg, 3 tablets; 51 to 65 kg, 4 tablets (above 65 kg, calculate 200 micrograms/kg).</td>
+        <td class="py-2 pr-3 align-top">Not for children under 15 kg or pregnancy. In areas where loiasis occurs, check history or microfilaraemia first; if in doubt use a topical drug.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Essential measures</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Treat all close contacts and household members at the same time, even without symptoms.</strong> This is the commonest reason for treatment failure and relapse.</li>
+  <li><strong>Clothes, bedding and towels:</strong> wash at 60 degrees C or higher and dry in the sun, or expose to sunlight for 72 hours, or seal in a plastic bag for 72 hours, after each treatment, for the patient and contacts.</li>
+  <li><strong>Secondary bacterial infection:</strong> treat impetigo first (24 to 48 hours of antibiotic before the topical scabicide), or start ivermectin straight away; see section 4.</li>
+  <li><strong>Itch persists for 1 to 3 weeks</strong> after the mites are gone; judge success clinically. Persistent burrows after 4 weeks mean treatment failure (scalp missed, hands washed, contacts or bedding not treated) or reinfestation: re-treat the patient and contacts.</li>
+  <li><strong>Crusted (Norwegian) scabies</strong> (thick scaly crusts, usually in HIV, malnutrition, leprosy, elderly, institutional settings; highly contagious): oral ivermectin plus a topical scabicide at regular intervals (for example weekly for 2 to 3 weeks or longer, depending on response), soften and remove crusts with salicylic acid ointment before applying the cream, and isolate the patient with strict precautions (gloves, gowns, hand hygiene, environmental cleaning).</li>
+  <li><strong>Outbreaks</strong> (schools, hostels, prisons, camps): treat everyone in the group simultaneously with a single supervised ivermectin course or permethrin, with a second dose after 7 days.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="symptomatic-treatment-itch-pain-fever-and-local-care" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Symptomatic Treatment: Itch, Pain, Fever and Local Care
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Problem</th><th class="py-2 pr-3">Treatment</th><th class="py-2 pr-3">Comments</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Itch (scabies, tinea, eczema)</td>
+        <td class="py-2 pr-3 align-top"><strong>Chlorpheniramine</strong> (4 mg tablets; syrup 2 mg/5 mL), at night: adults 4 mg every 6 to 8 hours (maximum 24 mg a day); children 2 to 5 years 1 mg every 4 to 6 hours (maximum 6 mg a day); 6 to 12 years 2 mg every 4 to 6 hours (maximum 12 mg a day). Alternatively <strong>cetirizine</strong>: adults and children over 6 years 10 mg once daily; 2 to 5 years 5 mg once daily; 6 to 23 months 2.5 mg once daily. Calamine lotion, cool compresses and short nails.</td>
+        <td class="py-2 pr-3 align-top">Sedating antihistamines help sleep but do not treat the cause. Avoid sedating antihistamines in infants under 2 years and drivers. Treat the cause (scabicide, antifungal).</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Inflamed eczematised patches (after infection is treated)</td>
+        <td class="py-2 pr-3 align-top">Emollients; short course of mild topical steroid (hydrocortisone 1%) once or twice daily for 5 to 7 days on non-infected skin of the body only.</td>
+        <td class="py-2 pr-3 align-top">Never on untreated ringworm, impetigo or the face for long periods; avoid potent steroids and "triple" creams; avoid bleaching creams.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Pain and fever</td>
+        <td class="py-2 pr-3 align-top">Paracetamol 15 mg/kg every 6 hours (syrup 120 mg/5 mL: 10 kg = 6 mL; 15 kg = 9 mL; 20 kg = 12 mL; adults 1 g every 6 hours, maximum 4 g a day).</td>
+        <td class="py-2 pr-3 align-top">Avoid NSAIDs in cellulitis (necrotising fasciitis risk, MSF); ibuprofen 400 mg every 8 hours with food may be used for a drained abscess or other uncomplicated pain in adults.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Weeping or crusted lesions</td>
+        <td class="py-2 pr-3 align-top">Warm saline or soap-water washes; potassium permanganate 1 in 10,000 soaks for 10 to 15 minutes; dry dressing.</td>
+        <td class="py-2 pr-3 align-top">Permanganate stains and burns if undiluted; use tablets dissolved in a measured volume of water, and avoid concentrated crystals.</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Swelling of the limb</td>
+        <td class="py-2 pr-3 align-top">Elevate the leg above heart level; bed rest in the acute phase; compression only after the acute infection has settled.</td>
+        <td class="py-2 pr-3 align-top">Exclude DVT in a unilateral swollen leg.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-groups" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Special Groups
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Neonates and young infants:</strong> any skin pustules, bullae, or umbilical redness in the first month warrants admission and IV cloxacillin (or flucloxacillin) with gentamicin, as a neonatal sepsis work-up; cefalexin doses for neonates are 25 mg/kg twice daily (under 7 days) or three times daily (7 to 28 days). Permethrin from 2 months (MSF); avoid ivermectin under 15 kg.</li>
+  <li><strong>Pregnancy and breastfeeding:</strong> no oral antifungals; use topical clotrimazole or miconazole; permethrin is preferred for scabies (benzyl benzoate undiluted for 12 hours once if permethrin is unavailable per MSF); avoid ivermectin and doxycycline; cefalexin and cloxacillin are safe; clindamycin is acceptable.</li>
+  <li><strong>HIV and other immunosuppression:</strong> more extensive tinea, crusted scabies, recurrent boils and severe cellulitis; lower threshold for oral therapy and admission; consider TB and atypical mycobacterial or fungal infections for non-healing lesions; start antiretroviral therapy.</li>
+  <li><strong>Diabetes:</strong> check glucose; infection in the foot needs urgent assessment for osteomyelitis and arterial disease; treat with co-amoxiclav or ceftriaxone plus metronidazole; admit for moderate or severe infection.</li>
+  <li><strong>Sickle cell disease:</strong> leg ulcers and infection are common; consider osteomyelitis (Salmonella and Staphylococcus), and avoid fluid overload in acute chest syndrome; admit early.</li>
+  <li><strong>Severe acute malnutrition:</strong> infections can be severe with few signs; give antibiotics per national SAM protocol; avoid large fluid boluses except in shock (10 to 15 mL/kg of Ringer's lactate with 5% dextrose over 1 hour).</li>
+  <li><strong>Kidney and liver disease:</strong> adjust doses (cloxacillin, clindamycin, terbinafine, griseofulvin, ketoconazole).</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="drug-dosage-and-formulation-reference-by-age-group" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Drug Dosage and Formulation Reference by Age Group
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Drug and formulations</th><th class="py-2 pr-3">Neonates and infants under 3 months</th><th class="py-2 pr-3">3 months to 12 years</th><th class="py-2 pr-3">Over 12 years and adults</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Cefalexin<br><span class="font-normal">Capsules 250, 500 mg; suspension 125 and 250 mg/5 mL</span></td>
+        <td class="py-2 pr-3 align-top">Under 7 days: 25 mg/kg twice daily; 7 to 28 days: 25 mg/kg three times daily; 1 month and older: 25 mg/kg twice daily</td>
+        <td class="py-2 pr-3 align-top">25 mg/kg twice daily</td>
+        <td class="py-2 pr-3 align-top">1 g twice daily</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Cloxacillin or flucloxacillin<br><span class="font-normal">Capsules 250, 500 mg; suspension 125 mg/5 mL; IV vials 500 mg, 1 g</span></td>
+        <td class="py-2 pr-3 align-top">IV only in hospital (see neonatal protocol)</td>
+        <td class="py-2 pr-3 align-top">Oral 12.5 to 25 mg/kg every 6 hours; IV 12.5 to 25 mg/kg every 6 hours (1 month to under 12 years)</td>
+        <td class="py-2 pr-3 align-top">Oral 500 mg to 1 g every 6 to 8 hours; IV 1 g every 6 hours</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Co-amoxiclav<br><span class="font-normal">Tablets 375, 625 mg, 1 g; suspensions 156.25, 228.5, 312.5, 457 mg/5 mL; IV 1.2 g</span></td>
+        <td class="py-2 pr-3 align-top">IV: under 3 months 30 mg/kg every 12 hours (as amoxicillin)</td>
+        <td class="py-2 pr-3 align-top">Oral under 40 kg: 25 mg/kg twice daily; IV 3 months and older: 20 to 30 mg/kg every 8 hours (maximum 3 g a day)</td>
+        <td class="py-2 pr-3 align-top">Oral: 875/125 mg twice daily, or 500/125 mg three times daily; IV 1 g every 8 hours</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Clindamycin<br><span class="font-normal">Capsules 150, 300 mg; suspension 75 mg/5 mL; IV 150 mg/mL</span></td>
+        <td class="py-2 pr-3 align-top">Specialist advice</td>
+        <td class="py-2 pr-3 align-top">10 mg/kg three times daily</td>
+        <td class="py-2 pr-3 align-top">600 mg three times daily (IV 600 mg every 8 hours)</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Mupirocin 2% ointment</td>
+        <td class="py-2 pr-3 align-top">Three times daily for 7 days to localised lesions</td>
+        <td class="py-2 pr-3 align-top">Three times daily for 7 days</td>
+        <td class="py-2 pr-3 align-top">Three times daily for 7 days</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Griseofulvin<br><span class="font-normal">Tablets 125, 250, 500 mg; suspension 125 mg/5 mL</span></td>
+        <td class="py-2 pr-3 align-top">Not recommended under 1 year without specialist advice</td>
+        <td class="py-2 pr-3 align-top">1 to 12 years: 10 to 20 mg/kg once daily (maximum 500 mg)</td>
+        <td class="py-2 pr-3 align-top">500 mg to 1 g once daily</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Terbinafine<br><span class="font-normal">Tablets 250 mg; 1% cream</span></td>
+        <td class="py-2 pr-3 align-top">Specialist advice</td>
+        <td class="py-2 pr-3 align-top">Under 20 kg 62.5 mg; 20 to 40 kg 125 mg; over 40 kg 250 mg, once daily</td>
+        <td class="py-2 pr-3 align-top">250 mg once daily</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Itraconazole<br><span class="font-normal">Capsules 100 mg; oral solution 10 mg/mL</span></td>
+        <td class="py-2 pr-3 align-top">Specialist advice</td>
+        <td class="py-2 pr-3 align-top">3 to 5 mg/kg once daily (maximum 200 mg) for tinea capitis</td>
+        <td class="py-2 pr-3 align-top">200 mg once daily (tinea capitis 2 to 4 weeks)</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Permethrin 5% cream</td>
+        <td class="py-2 pr-3 align-top">From 2 months: once for 8 hours, repeat at 7 days</td>
+        <td class="py-2 pr-3 align-top">Once for 8 hours, repeat at 7 days</td>
+        <td class="py-2 pr-3 align-top">Once for 8 hours, repeat at 7 days</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Ivermectin<br><span class="font-normal">Tablets 3 mg</span></td>
+        <td class="py-2 pr-3 align-top">Not recommended under 15 kg</td>
+        <td class="py-2 pr-3 align-top">200 micrograms/kg; 15 to 24 kg: 1 tablet; 25 to 35 kg: 2 tablets; repeat at 7 days</td>
+        <td class="py-2 pr-3 align-top">36 to 50 kg: 3 tablets; 51 to 65 kg: 4 tablets; repeat at 7 days</td>
+      </tr>
+      <tr>
+        <td class="py-2 pr-3 align-top font-semibold">Paracetamol<br><span class="font-normal">Syrup 120 mg/5 mL; tablets 500 mg</span></td>
+        <td class="py-2 pr-3 align-top">10 to 15 mg/kg every 6 hours (advice under 2 months)</td>
+        <td class="py-2 pr-3 align-top">15 mg/kg every 6 hours (maximum 4 doses a day)</td>
+        <td class="py-2 pr-3 align-top">1 g every 6 hours (maximum 4 g)</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="nigerian-brands-and-prescribing-realities" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Nigerian Brands and Prescribing Realities
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto">
+  <table class="w-full text-xs sans border-collapse">
+    <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+      <th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Brand examples (verify the label)</th><th class="py-2 pr-3">Comment</th>
+    </tr></thead>
+    <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+      <tr><td class="py-2 pr-3 align-top font-semibold">Clotrimazole, miconazole, ketoconazole</td><td class="py-2 pr-3 align-top">Canesten; Daktarin; Nizoral (cream, shampoo)</td><td class="py-2 pr-3 align-top">Avoid combinations with a steroid for ringworm</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Terbinafine</td><td class="py-2 pr-3 align-top">Lamisil and generics (cream 1%, tablets 250 mg)</td><td class="py-2 pr-3 align-top">More expensive; shorter courses</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Griseofulvin</td><td class="py-2 pr-3 align-top">Grisovin and generics (tablets and suspension)</td><td class="py-2 pr-3 align-top">Cheapest oral drug for tinea capitis; take with a fatty meal</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Itraconazole</td><td class="py-2 pr-3 align-top">Sporanox and generics</td><td class="py-2 pr-3 align-top">Take capsules with a meal; not with antacids</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Mupirocin, fusidic acid</td><td class="py-2 pr-3 align-top">Bactroban; Fucidin</td><td class="py-2 pr-3 align-top">Limit to 7 to 10 days; avoid over-use</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Cloxacillin, flucloxacillin, ampicillin-cloxacillin</td><td class="py-2 pr-3 align-top">Floxapen; Ampiclox (ampicillin plus cloxacillin) and generics</td><td class="py-2 pr-3 align-top">Ampiclox is widely used; plain cloxacillin or flucloxacillin is the targeted option, and the fixed combination adds ampicillin without much benefit</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Cefalexin</td><td class="py-2 pr-3 align-top">Keflex and generics</td><td class="py-2 pr-3 align-top">Twice-daily dosing; good adherence</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Co-amoxiclav</td><td class="py-2 pr-3 align-top">Augmentin (largely imported since GSK's exit in late 2023); Clavulin, Amoxiclav and other generics</td><td class="py-2 pr-3 align-top">Check the strength and ratio on the pack before dosing</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Clindamycin</td><td class="py-2 pr-3 align-top">Dalacin C and generics</td><td class="py-2 pr-3 align-top">Keep for penicillin allergy and MRSA</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Permethrin, benzyl benzoate, ivermectin</td><td class="py-2 pr-3 align-top">Permethrin 5% cream (for example Lyclear, Elimite where available); Ascabiol (benzyl benzoate); ivermectin 3 mg tablets under several generic names</td><td class="py-2 pr-3 align-top">Permethrin is not always stocked; ivermectin tablets are widely available through programmes and pharmacies</td></tr>
+      <tr><td class="py-2 pr-3 align-top font-semibold">Chlorpheniramine, cetirizine</td><td class="py-2 pr-3 align-top">Piriton; Zyrtec and generics</td><td class="py-2 pr-3 align-top">Sedation with chlorpheniramine; dose at night</td></tr>
+    </tbody>
+  </table>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Prescribing realities</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Steroid and skin-lightening creams:</strong> potent steroid creams, "triple combination" creams and bleaching products are sold over the counter and used on the face and body. They cause tinea incognito, steroid acne, skin thinning, delayed healing and more severe infection. Ask about every product used, including herbal ointments, black soap mixtures and local preparations, and advise stopping them.</li>
+  <li><strong>Scabies treatment failure</strong> is usually from untreated contacts, incomplete body coverage, washing too soon, or reinfestation from bedding; give written instructions, and dispense enough cream for the whole family (about 30 g per adult).</li>
+  <li><strong>Antibiotic misuse:</strong> boils and impetigo are often treated with injections of antibiotics of unknown content. Use the correct oral drug, drain abscesses and avoid dual combinations without evidence.</li>
+  <li><strong>Cost and access:</strong> permethrin and terbinafine can be costly; griseofulvin, miconazole, benzyl benzoate and ivermectin are lower-cost alternatives; mass drug administration programmes for onchocerciasis and lymphatic filariasis may already give ivermectin in some communities.</li>
+  <li><strong>Referral:</strong> refer deep abscesses of the face, hand, perineum or breast, suspected necrotising infection, and recurrent or atypical lesions to a surgeon or dermatologist; send a note with the treatment already given.</li>
+</ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pictures-and-multimedia-resources-verified-links" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Pictures and Multimedia Resources (Verified Links)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The photographs in this guide are public-domain CDC images. For many more clinical photographs, including skin of colour, and for procedure and microscopy guides, use the links below. Each link was found by search during the preparation of this guide; availability and access terms may change.</p>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Photographs and atlases</strong>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://sgul.ac.uk/news/mind-the-gap-handbook-now-freely-available-online" target="_blank" rel="noopener">Mind the Gap: a handbook of clinical signs in Black and Brown skin</a>: free handbook (St George's, University of London) showing how common signs, including skin infections, look on darker skin.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://pro.dermnetnz.org/topics/scabies" target="_blank" rel="noopener">DermNet: Scabies</a>: clinical images, burrows, treatment and patient information.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.dermnetnz.org/topics/scabies-images/" target="_blank" rel="noopener">DermNet: scabies images</a> (gallery of clinical photographs).</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://sgul.figshare.com/articles/online_resource/Mind_the_Gap_A_handbook_of_clinical_signs_in_Black_and_Brown_skin/12769988" target="_blank" rel="noopener">Mind the Gap: full handbook (PDF download on Figshare)</a>.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 The four CDC photographs in this guide are from the CDC Public Health Image Library (public domain; credit CDC): <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=25532" target="_blank" rel="noopener">25532</a>, <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=14623" target="_blank" rel="noopener">14623</a>, <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=24919" target="_blank" rel="noopener">24919</a> and <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wwwn.cdc.gov/phil/Details.aspx?pid=4801" target="_blank" rel="noopener">4801</a>. Search the library by name for more images.</div>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Procedures and videos</strong>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://www.osmosis.org/video/Skin_abscess:_Clinical_sciences" target="_blank" rel="noopener">Osmosis: Skin abscess (clinical sciences)</a>: video overview of skin abscess; a free account may be needed.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://wikem.org/wiki/Incision_and_drainage" target="_blank" rel="noopener">WikEM: Incision and drainage</a>: written steps, equipment and aftercare for abscess drainage.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://jsstd.org/demonstration-of-fungi-in-superficial-mycosis-skin-scraping-and-potassium-hydroxide-mount/" target="_blank" rel="noopener">Demonstration of fungi in superficial mycosis: skin scraping and KOH mount</a> (Journal of the Society for the Study of Tropical Dermatology): how to take a scraping and prepare a KOH slide.</div>
+</div>
+
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Patient and guideline resources</strong>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://pro.dermnetnz.org/assets/patient-resources/Scabies-treatment/Patient-info-scabies-treatment.pdf" target="_blank" rel="noopener">DermNet patient information: scabies treatment (PDF)</a> and <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://assets.hse.ie/media/documents/Scabies_patient_information_leaflet.pdf" target="_blank" rel="noopener">HSE patient leaflet on scabies (PDF)</a>.</div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a class="text-indigo-600 dark:text-indigo-400 underline" href="https://medicalguidelines.msf.org/en/viewport/CG/english/chapter-4-skin-diseases-16689162.html" target="_blank" rel="noopener">MSF Clinical Guidelines, Chapter 4: Skin diseases</a> (scabies, fungal infections, impetigo, furuncles, cellulitis).</div>
+</div>
+<p class="text-xs sans">No video on scabies treatment was confirmed from an authoritative source, so none is listed; the DermNet and HSE leaflets are suitable for patient counselling.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="prevention-follow-up-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Prevention, Follow-Up and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Hygiene and water:</strong> daily washing with soap, clean cut nails, handwashing, clean clothing and bedding, hot-washing and sun-drying, enough water for bathing; avoid sharing towels, combs, hats and razors.</li>
+  <li><strong>Overcrowding:</strong> ventilate, separate bedding, and treat all household members for scabies at the same time; schools and boarding houses should be notified and treated together.</li>
+  <li><strong>Skin integrity:</strong> clean and cover wounds promptly, protect feet (footwear prevents tungiasis, hookworm, mycetoma and tinea pedis), keep skin folds dry, manage eczema and diabetes, and reduce chronic leg swelling.</li>
+  <li><strong>Review:</strong> impetigo and cellulitis at 48 hours (earlier if worse); abscess dressing at 24 to 48 hours; scabies at 1 to 2 weeks (second treatment on day 7); tinea capitis at 2 to 4 weeks, then monthly until clear; urine dipstick at 3 weeks after impetigo or cellulitis.</li>
+  <li><strong>Return urgently for:</strong> fever, spreading redness or swelling, severe pain, black or blistered skin, drowsiness, fast breathing, refusal to feed, no improvement in 48 hours, or reddish-brown urine and swelling after a skin infection.</li>
+  <li><strong>School:</strong> a child with impetigo may return 24 to 48 hours after starting antibiotics; a child with tinea capitis may attend school once treatment has started and the scalp is covered; scabies: after the first treatment.</li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<strong class="block font-semibold mb-2">Guideline Watch</strong>
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Source of doses:</strong> scabies (permethrin, benzyl benzoate, ivermectin), impetigo (mupirocin, cefalexin, cloxacillin, azithromycin, clindamycin), cellulitis and erysipelas (cefalexin, co-amoxiclav, IV cloxacillin, clindamycin), furuncles, and tinea capitis (griseofulvin, itraconazole) follow the MSF clinical guidelines pages retrieved for this guide.</li>
+  <li><strong>Not in the MSF pages I could read, so taken from standard references and not independently re-fetched:</strong> terbinafine doses for tinea (adult and paediatric weight bands), fluconazole and ketoconazole for pityriasis versicolor, selenium sulfide and ketoconazole shampoo regimens, fusidic acid dosing, oral cloxacillin for children 1 month to 10 years, MRSA oral options (cotrimoxazole, doxycycline), vancomycin dosing, the necrotising fasciitis regimen, secondary prophylaxis of recurrent cellulitis, chlorpheniramine and cetirizine paediatric doses, lidocaine limits, and potassium permanganate dilution. Check them against the FMOH Standard Treatment Guidelines and local formularies.</li>
+  <li><strong>Tinea corporis:</strong> MSF reserves oral drugs for extensive disease (griseofulvin 4 to 6 weeks, itraconazole 2 weeks); some national and dermatology guidelines favour terbinafine for shorter courses; local availability and cost decide.</li>
+  <li><strong>Impetigo:</strong> some guidelines (and WHO) advise topical treatment such as fusidic acid or mupirocin, with oral cloxacillin or cefalexin for extensive disease; many Nigerian clinicians use oral cloxacillin or Ampiclox first. Hydrogen peroxide 1% cream is another topical option in some guidelines.</li>
+  <li><strong>Abscess:</strong> drainage is the primary treatment; antibiotic indications are from standard (IDSA-type) criteria, whereas the MSF pages give antibiotic advice for furuncles only (face, multiple lesions, carbuncles, immunocompromised). MRSA prevalence in Nigeria is not well defined; use local culture data if available.</li>
+  <li><strong>Scabies:</strong> MSF gives permethrin from 2 months; some references allow it from 1 month or use sulfur ointment (5 to 10%) in infants and pregnancy. Ivermectin dosing above 65 kg was not stated in the page retrieved (200 micrograms/kg is used). Loa loa (loiasis) is limited to parts of the south and middle belt of West and Central Africa; check local distribution before ivermectin.</li>
+  <li><strong>NSAIDs in cellulitis:</strong> MSF advises avoiding NSAIDs; evidence of an association with necrotising infection is weak, but avoidance during acute spreading infection is prudent.</li>
+  <li><strong>Pictures:</strong> the photographs are public-domain CDC images; the CDC captions describe the case (some are historical, and skin tone is not stated), so use them as examples only. Local appearance varies in dark skin.</li>
+  <li><strong>Nigerian specifics:</strong> FMOH Standard Treatment Guidelines, national NTD programme (scabies, onchocerciasis, lymphatic filariasis) policy, and local resistance data were not retrievable here; brand names are from general knowledge and should be checked.</li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<strong class="block font-semibold text-rose-900 dark:text-rose-200 mb-3">Findings That Must Not Be Missed</strong>
+<ul class="space-y-2 text-sm text-rose-900 dark:text-rose-200">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Pain out of proportion, dusky or blistered skin, crepitus, rapid spread, shock:</strong> necrotising fasciitis; resuscitate, start broad IV antibiotics and call the surgeon at once.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Fever, fast pulse or breathing, low blood pressure or confusion with a skin infection:</strong> sepsis; IV fluids (Ringer's lactate or saline) and IV antibiotics within the first hour.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Boil or cellulitis on the central face with eyelid swelling, headache or reduced eye movement:</strong> orbital cellulitis or cavernous sinus thrombosis; admit for IV antibiotics and imaging.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Skin infection in a newborn, or umbilical redness:</strong> neonatal sepsis; admit and give IV antibiotics.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Bone pain, limp or refusal to bear weight under a skin infection, especially in sickle cell disease:</strong> osteomyelitis or septic arthritis.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Cola-coloured urine, puffy face or high blood pressure 1 to 3 weeks after impetigo or cellulitis:</strong> post-streptococcal glomerulonephritis; check urine and blood pressure.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Unilateral swollen painful leg labelled "cellulitis":</strong> exclude deep vein thrombosis, and check glucose in every adult with recurrent skin infections.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Thick crusted scaling in an HIV-positive, malnourished or elderly patient:</strong> crusted scabies; isolate, treat with ivermectin plus topical therapy, and screen contacts.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#e11d48"/><path d="M12 6v7M12 16.5v1" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/></svg><span><strong>Non-healing ulcer, painless nodule, hypopigmented numb patch or draining sinus with grains:</strong> consider Buruli ulcer, leprosy, mycetoma, TB or malignancy; refer for biopsy and specialist care.</span></li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<strong class="block font-semibold text-indigo-950 dark:text-indigo-200 mb-3">Key Clinical Takeaways</strong>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-200">
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Tinea of the body and groin is treated topically for 2 to 4 weeks; tinea capitis always needs oral treatment (griseofulvin 10 to 20 mg/kg daily for at least 6 weeks, or terbinafine or itraconazole). Never use steroid-containing creams.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Impetigo: mupirocin 2% for 5 or fewer lesions; oral cefalexin or cloxacillin for 7 days when extensive. Check the urine 3 weeks later.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Abscess: incise and drain; add antibiotics only for systemic illness, extensive cellulitis, high-risk sites or hosts, or failure to respond.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Cellulitis: outline the edge, elevate, give cefalexin or co-amoxiclav orally for 7 to 10 days; admit sick patients for IV cloxacillin 1 g every 6 hours (children 12.5 to 25 mg/kg); add clindamycin if no response by 48 hours; avoid NSAIDs.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sepsis: IV Ringer's lactate or saline up to about 30 mL/kg in adults, 10 to 20 mL/kg boluses in children (10 to 15 mL/kg in malnutrition), with antibiotics in the first hour; suspect necrotising fasciitis if pain is severe or the patient worsens.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Scabies: permethrin 5% cream for 8 hours, repeat at 7 days, treat all contacts together, wash bedding hot or sun-dry it; ivermectin 200 micrograms/kg (repeat at 7 days) for outbreaks and crusted scabies.</span></li>
+  <li class="flex gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="12" fill="#4338ca"/><path d="M7 12.5l3.5 3.5L17 9" stroke="#ffffff" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In dark skin, rely on warmth, swelling, tenderness and the lesion edge rather than redness; use the Mind the Gap handbook and other skin-of-colour atlases for comparison.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-6 font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">
+  References
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-6 pb-4 sm:pb-6 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. Medecins Sans Frontieres (MSF). Clinical guidelines, chapter 4 (skin diseases): scabies; superficial fungal infections; impetigo; furuncles and carbuncles; erysipelas and cellulitis.</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. Infectious Diseases Society of America (IDSA). Practice guidelines for the diagnosis and management of skin and soft tissue infections (2014 update, abscess drainage and antibiotic indications, necrotising infections).</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. World Health Organization (WHO). Scabies fact sheet and guidance on control of scabies; Pocket book of hospital care for children (skin infections, sepsis fluids, severe acute malnutrition).</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. WHO. The AWaRe antibiotic book (skin and soft tissue infections).</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. DermNet. Scabies, tinea, impetigo and cellulitis topic pages and patient information on scabies treatment.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. St George's, University of London. Mind the Gap: a handbook of clinical signs in Black and Brown skin.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. US Centers for Disease Control and Prevention (CDC). Public Health Image Library (PHIL): images 25532, 14623, 24919 and 4801 (public domain, credit CDC; contributors Dr. Lucille K. Georg, Dr. Thomas F. Sellers).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. American Academy of Pediatrics (AAP). Clinical practice guideline: maintenance intravenous fluids in children, 2018.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Federal Ministry of Health, Nigeria. Standard Treatment Guidelines; national neglected tropical diseases programme guidance (scabies, onchocerciasis, lymphatic filariasis).</p>
+</div>
+</details>
+
+</body>
+</html>
+  `
+},
+
+
+{
+  id: 'treatment-peptic-ulcer-disease-gastritis',
+  title: 'Peptic Ulcer Disease and Gastritis',
+  category: 'Treatment',
+  subCategory: 'Gastroenterology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; GASTROINTESTINAL</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Peptic Ulcer Disease and Gastritis</h1>
+  <p class="text-sm text-indigo-200">Epigastric pain is one of the commonest complaints in Nigerian clinics, and "ulcer" and "gastritis" are among the commonest self-made diagnoses. This guide covers the causes (H. pylori, NSAIDs and aspirin), diagnosis and alarm features, outpatient acid suppression and symptomatic treatment with doses, H. pylori eradication in a high-resistance setting, NSAID ulcer prevention, upper GI bleeding with fluids and transfusion, perforation and outlet obstruction, special situations, Nigerian brands and interactions, and the practices that should stop.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>How to use this guide.</strong> Doses follow the ACG 2024 H. pylori and ACG and ESGE 2021 upper GI bleeding guidelines, the World Gastroenterology Organisation&rsquo;s Africa guidance and standard drug references, adapted to Nigerian practice. Doses are for adults unless stated; check renal function, pregnancy and interactions before prescribing, and follow your hospital protocol. Children are not covered.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#overview-causes-and-classification" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Overview, Causes and Classification</span></a></li>
+  <li><a href="#assessment-and-diagnosis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Assessment and Diagnosis</span></a></li>
+  <li><a href="#outpatient-treatment-of-uncomplicated-ulcer-gastritis-and-dyspepsia" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Outpatient Treatment of Uncomplicated Ulcer, Gastritis and Dyspepsia</span></a></li>
+  <li><a href="#helicobacter-pylori-eradication" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Helicobacter pylori Eradication</span></a></li>
+  <li><a href="#nsaid-and-aspirin-ulcers-treatment-and-prevention" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>NSAID and Aspirin Ulcers: Treatment and Prevention</span></a></li>
+  <li><a href="#upper-gi-bleeding-from-peptic-ulcer-inpatient-emergency" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Upper GI Bleeding from Peptic Ulcer (Inpatient Emergency)</span></a></li>
+  <li><a href="#perforation-and-gastric-outlet-obstruction-inpatient-emergencies" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Perforation and Gastric Outlet Obstruction (Inpatient Emergencies)</span></a></li>
+  <li><a href="#gastritis-stress-ulcers-and-special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Gastritis, Stress Ulcers and Special Situations</span></a></li>
+  <li><a href="#follow-up-counselling-and-prevention" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Follow-Up, Counselling and Prevention</span></a></li>
+  <li><a href="#common-nigerian-brands-strengths-and-interactions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Common Nigerian Brands, Strengths and Interactions</span></a></li>
+  <li><a href="#common-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Common Practices to Avoid</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="overview-causes-and-classification" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Overview, Causes and Classification
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">"Ulcer" and "gastritis" are among the commonest self-made diagnoses in Nigeria. Many people with epigastric pain, bloating or heartburn buy antacids, NSAIDs or herbal mixtures for months before seeing a doctor, and a proper work-up often shows H. pylori infection, NSAID injury, functional dyspepsia or reflux. A minority present with the complications that kill: bleeding, perforation or gastric outlet obstruction.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Definitions</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Peptic ulcer:</strong> a mucosal break of 5 mm or more, with depth, in the stomach (gastric ulcer, GU) or duodenum (duodenal ulcer, DU). It needs endoscopy (or a barium meal where endoscopy is unavailable) to confirm.</li>
+  <li><strong>Gastritis:</strong> a histological or endoscopic description of gastric mucosal inflammation or erosions. It is not a symptom, and symptoms correlate poorly with it. Types: acute erosive (NSAIDs, alcohol, stress), chronic H. pylori gastritis, atrophic gastritis (risk of intestinal metaplasia and cancer), and others (bile reflux, autoimmune, granulomatous, viral).</li>
+  <li><strong>Dyspepsia:</strong> epigastric pain, burning, early satiety or fullness. Causes include PUD, GORD, functional dyspepsia (the commonest), gastric cancer, biliary and pancreatic disease, and drugs.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Main causes</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Cause</th><th class="py-2 pr-3">Comment in Nigeria</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold"><em>Helicobacter pylori</em></td><td class="py-2 pr-3">Very common. The World Gastroenterology Organisation quotes a prevalence of about 70% across Africa and a pooled figure near 88% for Nigeria, although a Nigerian cohort of dyspeptic patients found 36.6% infected by histology. Acquired in childhood in crowded homes with poor sanitation. Causes most duodenal ulcers and many gastric ulcers</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">NSAIDs and aspirin</td><td class="py-2 pr-3">Diclofenac (tablets and injections), ibuprofen, piroxicam, naproxen, and aspirin-containing headache products are bought over the counter. About 39% of patients with upper GI bleeding in an Ile-Ife endoscopy series had used NSAIDs recently. Unlabelled herbal pain products may contain NSAIDs or steroids</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Other drugs</td><td class="py-2 pr-3">Corticosteroids (risk rises sharply with an NSAID), anticoagulants, clopidogrel, SSRIs, potassium chloride, bisphosphonates, and doxycycline or tetracycline (pill oesophagitis)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Alcohol, tobacco</td><td class="py-2 pr-3">Alcohol and smoking delay ulcer healing and increase recurrence</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Physiological stress</td><td class="py-2 pr-3">Critical illness (ICU), sepsis, burns, head injury, major surgery, mechanical ventilation, coagulopathy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Rare causes</td><td class="py-2 pr-3">Zollinger-Ellison syndrome (multiple, distal or refractory ulcers), Crohn disease, gastric lymphoma and cancer, tuberculosis, CMV and herpes in the immunosuppressed, hypercalcaemia</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cirrhosis and portal hypertension</td><td class="py-2 pr-3">Portal hypertensive gastropathy and varices cause bleeding that looks like ulcer bleeding; varices made up 18% of upper GI bleeds in the Ile-Ife series and caused most of the deaths</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assessment-and-diagnosis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Assessment and Diagnosis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">History</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Pain: site, burning or gnawing, relation to meals (duodenal pain often eases with food and wakes the patient at night; gastric ulcer pain often worsens with eating), duration, relief with antacids, and weight loss.</li>
+  <li>Every drug taken in the past month, including injections from patent-medicine sellers, "pain relief" sachets, steroids, herbal bitters and "ulcer cure" products; alcohol; smoking; fasting; previous ulcer or bleeding; H. pylori treatment before; family history of gastric cancer.</li>
+  <li>Heartburn and regurgitation point to GORD; right upper quadrant pain after fatty meals suggests gallstones; epigastric pain with back radiation suggests pancreatitis; exertional or sweaty epigastric pain demands an ECG and troponin.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Red-flag (alarm) features: refer for early endoscopy</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Age 45 years or older with new dyspepsia (use 40 where gastric cancer is common in the family), dysphagia, odynophagia, persistent vomiting, unintended weight loss, iron-deficiency anaemia, epigastric mass, palpable supraclavicular nodes, jaundice, black stools or haematemesis, or a family history of gastric cancer.</li>
+  <li>Gastric ulcers must be biopsied (and the healing checked at 8 to 12 weeks) because some are malignant.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Examination and baseline tests</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Item</th><th class="py-2 pr-3">Purpose</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Vitals, pallor, orthostatic BP, abdomen (tenderness, guarding, rigidity, mass, splash), stigmata of liver disease, rectal exam for melaena</td><td class="py-2 pr-3">Detect bleeding, perforation or outlet obstruction</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Full blood count, haemoglobin (and genotype), ferritin</td><td class="py-2 pr-3">Anaemia from chronic blood loss; baseline before transfusion decisions</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Urea, creatinine, electrolytes</td><td class="py-2 pr-3">Prerenal rise in bleeding; electrolyte derangement with vomiting</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Liver function tests, INR</td><td class="py-2 pr-3">Cirrhosis, coagulopathy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">ECG (and troponin if suspicious)</td><td class="py-2 pr-3">Exclude cardiac pain, especially in diabetics, the elderly and hypertensives</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Malaria test, urinalysis, abdominal ultrasound, and Widal-independent clinical assessment as indicated</td><td class="py-2 pr-3">Malaria and enteric fever commonly cause abdominal pain and vomiting; scan the gallbladder, pancreas and liver</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Erect chest X-ray (or abdominal X-ray)</td><td class="py-2 pr-3">Free gas under the diaphragm in perforation</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Upper GI endoscopy with biopsy</td><td class="py-2 pr-3">Gold standard for ulcer, gastritis, bleeding source, malignancy and H. pylori (rapid urease test or histology)</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Testing for <em>H. pylori</em></strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Test</th><th class="py-2 pr-3">Notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Stool antigen test or urea breath test</td><td class="py-2 pr-3">Preferred non-invasive tests for active infection; stop PPIs and other acid suppressants at least 2 weeks and antibiotics and bismuth at least 4 weeks before testing; availability is limited</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Rapid urease test or histology on biopsy</td><td class="py-2 pr-3">At endoscopy; biopsy antrum and body; false negatives with recent PPIs, antibiotics or bleeding</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Serology (antibody)</td><td class="py-2 pr-3">Cannot distinguish current from past infection and is unreliable for deciding treatment; do not use it as a test of cure. Rapid whole-blood "H. pylori" kits sold in pharmacies and laboratories give many false positives</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Test of cure</td><td class="py-2 pr-3">At least 4 weeks after completing therapy and 2 weeks off PPI; recommended for everyone who was treated</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: testing strategy in a high-prevalence setting.</strong> "Test-and-treat" for uninvestigated dyspepsia works best where prevalence is moderate. In Nigeria H. pylori is common, so a positive test does not prove that H. pylori is the cause of symptoms, and non-invasive tests are not widely available. A practical approach: patients with alarm features go for endoscopy; patients without alarm features and age under 45 get a short PPI trial (4 to 8 weeks) and an H. pylori test where available; those with ulcer disease, a documented history of ulcer or bleeding, or a positive test get eradication therapy. Clinical judgement and affordability decide, and treatment must follow a documented test, not symptoms alone.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="outpatient-treatment-of-uncomplicated-ulcer-gastritis-and-dyspepsia" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Outpatient Treatment of Uncomplicated Ulcer, Gastritis and Dyspepsia
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Most patients are managed as outpatients. The principles: remove the cause (stop NSAIDs, eradicate H. pylori, stop alcohol and smoking), suppress acid for the right duration, treat symptoms, review, and prevent recurrence.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Acid suppression</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug (adult)</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Duration and notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Omeprazole</td><td class="py-2 pr-3">20 to 40 mg once daily, 30 to 60 minutes before breakfast</td><td class="py-2 pr-3">DU: 4 weeks; GU: 8 weeks; NSAID ulcer: 8 weeks if the NSAID continues or 4 to 8 weeks if stopped</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Esomeprazole</td><td class="py-2 pr-3">20 to 40 mg once daily before breakfast</td><td class="py-2 pr-3">Same durations</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pantoprazole</td><td class="py-2 pr-3">40 mg once daily before breakfast</td><td class="py-2 pr-3">Fewer drug interactions; preferred with clopidogrel</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Lansoprazole</td><td class="py-2 pr-3">30 mg once daily before breakfast</td><td class="py-2 pr-3">Same durations</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Rabeprazole</td><td class="py-2 pr-3">20 mg once daily</td><td class="py-2 pr-3">Same durations</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Famotidine (H2 blocker)</td><td class="py-2 pr-3">20 mg twice daily or 40 mg at night</td><td class="py-2 pr-3">Less effective than a PPI; alternative where PPIs are unavailable, adjust for renal impairment. Ranitidine has been withdrawn in many countries and should not be used</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sucralfate</td><td class="py-2 pr-3">1 g four times daily (1 hour before meals and at bedtime) for 4 to 8 weeks</td><td class="py-2 pr-3">Mucosal protectant; give 2 hours apart from other drugs; avoid in renal failure (aluminium); constipation</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Misoprostol</td><td class="py-2 pr-3">200 micrograms four times daily with meals and at bedtime (or 400 micrograms twice daily)</td><td class="py-2 pr-3">Prostaglandin analogue for NSAID ulcers and prevention; diarrhoea, abdominal cramps; <strong>contraindicated in pregnancy</strong></td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Bismuth (tripotassium dicitratobismuthate, De-Nol)</td><td class="py-2 pr-3">120 mg four times daily, or 240 mg twice daily, 30 minutes before meals</td><td class="py-2 pr-3">Ulcer healing and part of bismuth quadruple therapy; black stool and tongue; limit to 8 weeks</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Symptomatic treatment</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Symptom</th><th class="py-2 pr-3">Treatment</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Burning, acid pain</td><td class="py-2 pr-3">Aluminium and magnesium hydroxide suspension (Gelusil, Maalox, Mylanta), 10 to 20 mL 1 hour after meals and at bedtime and when needed; magnesium trisilicate mixture; alginate-antacid (Gaviscon) for reflux. Avoid long-term sodium bicarbonate</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cramping epigastric pain</td><td class="py-2 pr-3">Hyoscine butylbromide (Buscopan) 10 to 20 mg three times daily for a few days; avoid in suspected obstruction, glaucoma and prostatism</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Nausea and vomiting, early satiety</td><td class="py-2 pr-3">Metoclopramide 10 mg or domperidone 10 mg three times daily before meals for 3 to 7 days (avoid with long QT, and avoid metoclopramide in suspected obstruction)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pain</td><td class="py-2 pr-3">Paracetamol 1 g every 6 to 8 hours (maximum 4 g a day; 3 g in liver disease or alcohol excess). <strong>No NSAIDs</strong></td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Anxiety, functional dyspepsia</td><td class="py-2 pr-3">Reassurance; amitriptyline 10 to 25 mg at night in persistent functional dyspepsia where a trial is warranted</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Lifestyle and diet</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Regular small meals; avoid very late heavy meals; avoid foods and drinks that trigger the patient&rsquo;s symptoms (very spicy or acidic food, coffee, strong tea, soft drinks) but there is no need for a "bland diet" or avoiding all pepper.</li>
+  <li><strong>Stop smoking and alcohol</strong>, which delay healing. Avoid prolonged fasting, which worsens symptoms in many patients.</li>
+  <li>Milk and "milk therapy" do not heal ulcers; avoid it as a treatment.</li>
+  <li>Review all painkillers and herbal mixtures; offer paracetamol, topical agents and physiotherapy for musculoskeletal pain instead.</li>
+  <li>Fasting for religious reasons: patients with active ulcers should seek advice; PPI taken before the pre-dawn meal and again as prescribed may allow fasting in stable patients; those with complications should not fast.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Follow-up and when to escalate</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Review at 2 weeks (response, adherence, side effects) and at 4 to 8 weeks.</li>
+  <li>No response after 8 weeks of a PPI, relapse after stopping, or any alarm feature: refer for endoscopy.</li>
+  <li>Treatment failure after correct H. pylori therapy, multiple or distal ulcers, ulcers with severe diarrhoea, or very high fasting gastrin suggests resistant infection, non-adherence, NSAID use or Zollinger-Ellison syndrome.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="helicobacter-pylori-eradication" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+<em>Helicobacter pylori</em> Eradication
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Treat H. pylori in every patient with a proven active infection and peptic ulcer disease (current or past), gastric MALT lymphoma, after resection of early gastric cancer, and in those with a first-degree relative with gastric cancer; also consider it in persistent dyspepsia, unexplained iron-deficiency anaemia and before long-term NSAID or aspirin therapy. Eradication heals ulcers, prevents recurrence and lowers bleeding risk. Always confirm infection before treating.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First-line: optimised bismuth quadruple therapy for 14 days (ACG 2024)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Component</th><th class="py-2 pr-3">Dose</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">PPI (standard dose)</td><td class="py-2 pr-3">Omeprazole 20 mg or esomeprazole 20 to 40 mg or pantoprazole 40 mg, twice daily (30 minutes before meals)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Bismuth</td><td class="py-2 pr-3">Bismuth subsalicylate 300 mg, or bismuth subcitrate 120 to 300 mg, four times daily</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Tetracycline</td><td class="py-2 pr-3">500 mg four times daily (do <strong>not</strong> substitute doxycycline, which lowers cure rates by about 10 to 17%)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Metronidazole</td><td class="py-2 pr-3">500 mg three or four times daily</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Duration</td><td class="py-2 pr-3">14 days (10 days is acceptable only if 14 cannot be completed)</td></tr>
+  </tbody>
+</table></div>
+<p class="text-sm">Suitable for patients with penicillin allergy. Clarithromycin-based triple therapy has been dropped as first-line by the American College of Gastroenterology because resistance is common and cure rates are often below 70%. Warn the patient about metallic taste, black stools, nausea, diarrhoea and no alcohol with metronidazole.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If bismuth or tetracycline cannot be obtained</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Check the pharmacy first: bismuth subcitrate (De-Nol, 120 mg) and tetracycline 250 or 500 mg capsules are sometimes available separately and can be combined with a PPI and metronidazole; confirm strengths and counts so the patient can complete 14 days.</li>
+  <li><strong>Concomitant therapy</strong> (14 days): a PPI twice daily, amoxicillin 1 g twice daily, clarithromycin 500 mg twice daily and metronidazole 500 mg twice daily is one of the options named by the World Gastroenterology Organisation for Africa where quadruple therapy is unavailable. It has not been tested in Nigerian trials, and it carries the clarithromycin resistance risk.</li>
+  <li><strong>Clarithromycin-based triple therapy</strong> (PPI twice daily, amoxicillin 1 g twice daily, clarithromycin 500 mg twice daily, 14 days) is acceptable only where local clarithromycin resistance is below 15% and the patient has not taken a macrolide before; one Nigerian cohort of 111 isolates found 14.4%, which is on the borderline. Do not use it after a macrolide course.</li>
+  <li>Avoid <strong>metronidazole-containing triple therapy</strong> (PPI, amoxicillin, metronidazole) as sole treatment, as resistance to metronidazole in a Nigerian study was 99.1%.</li>
+  <li>Pharmacy "H. pylori kits" that combine a PPI, clarithromycin and amoxicillin for 7 days should be replaced by the 14-day form if the course is used.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Rescue treatment (confirmed persistent infection)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>First confirm adherence and that PPI and antibiotics were stopped for the right period before the test.</li>
+  <li>Never repeat clarithromycin or levofloxacin unless susceptibility is proven.</li>
+  <li>If optimised bismuth quadruple therapy has not been used, use it. If it has failed, ACG suggests rifabutin triple therapy (PPI, amoxicillin and rifabutin), but rifabutin is largely unavailable and is a TB drug, so refer to a gastroenterologist or infectious disease physician.</li>
+  <li>Vonoprazan-based regimens (a potassium-competitive acid blocker with amoxicillin) are available in some countries but not in Nigerian practice at present.</li>
+  <li>Susceptibility testing (culture, molecular tests) is rarely available; reserve it for repeated failure.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">After treatment</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Continue the PPI for the remainder of the ulcer healing period (DU 4 weeks, GU 8 weeks total) unless complicated.</li>
+  <li>Test of cure at least 4 weeks after the end of antibiotics, with PPI stopped for 2 weeks, using a stool antigen, a breath test or biopsy. Reinfection is uncommon (under 1% a year in good conditions) but happens more often in crowded settings.</li>
+  <li>Treat household members only if they are symptomatic and tested.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: H. pylori regimens in Nigeria.</strong> ACG 2024 recommends optimised bismuth quadruple therapy as the only strongly recommended first-line regimen and warns against clarithromycin or levofloxacin regimens without susceptibility data. The World Gastroenterology Organisation says clarithromycin triple therapy is acceptable only where clarithromycin resistance is below 15% and that quadruple therapy is preferred where testing is unavailable; it also lists concomitant therapy. A Nigerian cohort found metronidazole resistance in nearly all isolates (99.1%), amoxicillin 33.3%, clarithromycin 14.4% and tetracycline 4.5%, so quadruple therapy still relies on bismuth and tetracycline, and high metronidazole resistance can reduce its efficacy. That study was small and may not be representative. Pick the regimen the patient can fully obtain and complete, and confirm cure.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="nsaid-and-aspirin-ulcers-treatment-and-prevention" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+NSAID and Aspirin Ulcers: Treatment and Prevention
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">If an ulcer is found in an NSAID user</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li><strong>Stop the NSAID</strong> (including diclofenac injections, piroxicam, ibuprofen and OTC combinations) and any unlabelled herbal pain products. If the NSAID is essential, use the lowest effective dose of a COX-2 inhibitor (celecoxib 200 mg once or twice daily) <strong>with</strong> a PPI.</li>
+  <li>Give a PPI for 4 to 8 weeks (doses in section 3); test for and eradicate H. pylori.</li>
+  <li>Use paracetamol, topical NSAIDs, physiotherapy or short-course alternatives for pain control.</li>
+  <li>Confirm healing by endoscopy for gastric ulcers.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Who needs gastroprotection when an NSAID or aspirin cannot be avoided?</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Risk factor</th><th class="py-2 pr-3">Action</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Previous ulcer or GI bleed; age 65 or over; steroid, anticoagulant, SSRI or dual antiplatelet use; severe comorbidity</td><td class="py-2 pr-3">PPI daily (for example omeprazole 20 mg, esomeprazole 20 mg or pantoprazole 40 mg) for as long as the NSAID is taken; consider celecoxib plus PPI in the highest-risk patient</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Low-dose aspirin (75 to 100 mg) for secondary cardiovascular prevention with a prior ulcer</td><td class="py-2 pr-3">Continue aspirin with a PPI once bleeding has settled; test and treat H. pylori</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Clopidogrel with a PPI</td><td class="py-2 pr-3">Use pantoprazole; avoid omeprazole and esomeprazole, which reduce clopidogrel activation</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Misoprostol 200 micrograms two to four times daily</td><td class="py-2 pr-3">Effective for prevention but causes diarrhoea and cramps; avoid in pregnancy and women who might conceive</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Safer use of NSAIDs when they are unavoidable</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Take with food, at the lowest dose and the shortest time; never two NSAIDs together.</li>
+  <li>Avoid in the elderly, in kidney disease, heart failure, cirrhosis, anticoagulation and pregnancy.</li>
+  <li>Do not give injectable diclofenac as the routine treatment of non-severe pain.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="upper-gi-bleeding-from-peptic-ulcer-inpatient-emergency" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Upper GI Bleeding from Peptic Ulcer (Inpatient Emergency)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Suspect bleeding in anyone with haematemesis, coffee-ground vomit, melaena, syncope, dizziness, pallor, tachycardia or hypotension, especially with NSAID use, alcohol, liver disease, or known ulcer. Admit all patients with active bleeding or unstable vitals. Mortality is higher where endoscopic therapy is unavailable: in an Ile-Ife series of 287 patients with upper GI bleeding, duodenal ulcer was the most common cause (30.6%) and overall mortality was 5.9%, significantly higher in those who did not receive endoscopic therapy, and endoscopy was frequently limited by cost.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Immediate management (first hour)</strong>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Airway, breathing, circulation; oxygen if hypoxic; protect the airway in the vomiting or drowsy patient; keep nil by mouth.</li>
+  <li>Two large-bore IV cannulae (16 to 18G); take blood for full blood count, group and crossmatch (4 units), urea and creatinine, electrolytes, liver function, INR, glucose; ECG in older patients.</li>
+  <li><strong>Fluids:</strong> 0.9% sodium chloride or Ringer&rsquo;s lactate 500 to 1000 mL boluses (20 mL/kg), reassess pulse, BP, urine output and mental state after each bolus. Stop crystalloid once perfusion is restored and use blood early rather than large volumes of saline, particularly in cirrhosis (risk of raising portal pressure) and in the elderly.</li>
+  <li><strong>Blood transfusion:</strong> use a restrictive policy (transfuse at Hb 7 g/dL or less, target 7 to 9 g/dL). In patients with cardiovascular disease, transfuse at 8 g/dL or less (target 10 g/dL or more, per ESGE). Transfuse immediately regardless of Hb for haemorrhagic shock or massive ongoing bleeding. Use fresh whole blood if component therapy is unavailable.</li>
+  <li>Urinary catheter and charting of urine output in shock; monitor in a high-dependency area.</li>
+  <li>Correct coagulopathy: hold anticoagulants; give vitamin K 5 to 10 mg IV slowly and prothrombin complex concentrate or fresh frozen plasma for warfarin-related life-threatening bleeding if available; do not delay endoscopy for INR.</li>
+  <li><strong>High-dose IV PPI</strong> (see below).</li>
+  <li>Risk stratification: Glasgow-Blatchford score of 0 to 1 identifies very low-risk patients who may be managed as outpatients; everyone else is admitted.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Acid suppression in bleeding</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Timing</th><th class="py-2 pr-3">Regimen</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Before endoscopy</td><td class="py-2 pr-3">Consider IV PPI (for example 80 mg bolus or 40 mg bolus of pantoprazole or esomeprazole) while arranging endoscopy; it must not delay endoscopy</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">After successful endoscopic haemostasis (high-risk ulcer)</td><td class="py-2 pr-3">High-dose PPI for 72 hours: 80 mg IV bolus then 8 mg/hour infusion, <strong>or</strong> 40 mg IV twice daily (intermittent) per ACG and ESGE; then oral PPI twice daily until about 2 weeks after endoscopy for high-risk lesions, then once daily for 4 to 8 weeks in total</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Low-risk lesions (clean base, flat spot)</td><td class="py-2 pr-3">Oral PPI once daily; early discharge if stable</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">No endoscopy available</td><td class="py-2 pr-3">Give IV PPI as above, resuscitate, transfuse, and arrange transfer for endoscopy; repeat bleeding or instability needs surgery or referral</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Endoscopy and procedures</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Endoscopy within 24 hours of presentation, after resuscitation (urgent endoscopy within 12 hours does not improve outcomes over early endoscopy in stable patients; delay it only until the patient is resuscitated). Endoscopic therapy for active bleeding or visible vessels: epinephrine injection combined with thermal therapy or clips (never epinephrine alone).</li>
+  <li>Biopsy gastric ulcers, test for H. pylori at index endoscopy and retest if negative, and document eradication.</li>
+  <li>Rebleeding after endoscopic therapy: repeat endoscopy and therapy; if it fails, interventional radiology (arterial embolisation) or surgery.</li>
+  <li><strong>Tranexamic acid is not recommended</strong> (HALT-IT trial: no mortality benefit and more venous thromboembolism).</li>
+  <li>Do not use nasogastric lavage to "clear the stomach" or monitor bleeding.</li>
+  <li>If cirrhosis or portal hypertension is likely, add vasoactive treatment (terlipressin or octreotide) and prophylactic antibiotics (ceftriaxone 1 g IV daily) before endoscopy while suspecting varices.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Antithrombotics</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Low-dose aspirin for secondary prevention:</strong> do not interrupt, or restart within 3 to 5 days if stopped. For primary prevention: stop and review the need.</li>
+  <li><strong>Dual antiplatelets:</strong> continue aspirin, interrupt the second agent, restart within about 5 days after consulting cardiology.</li>
+  <li><strong>Anticoagulants:</strong> hold; restart once bleeding is controlled, within about 7 days depending on thrombotic risk, with PPI cover.</li>
+  <li>Platelet transfusion is not routinely recommended.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Discharge</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Discharge when haemodynamically stable, Hb stable, eating, and endoscopic therapy completed with no high-risk stigmata for at least 48 to 72 hours.</li>
+  <li>Prescribe a PPI, treat H. pylori, stop NSAIDs, correct anaemia (ferrous sulphate 200 mg three times daily or intravenous iron where available) and review in 1 to 2 weeks.</li>
+  <li>Warn patients to return for black stool, vomiting blood, dizziness or breathlessness.</li>
+</ul>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: PPI before and after endoscopy.</strong> The ACG 2021 guideline makes no recommendation for or against PPI before endoscopy, and strongly recommends high-dose PPI (continuous or intermittent) for 3 days after endoscopic haemostasis of a bleeding ulcer; ESGE 2021 suggests considering high-dose IV PPI before endoscopy and prefers an 80 mg bolus followed by 8 mg/hour for 72 hours, with twice-daily IV or oral high-dose regimens as acceptable alternatives. The transfusion thresholds also differ for cardiovascular disease (ACG 7 g/dL; ESGE 8 g/dL target at least 10). Use the more conservative approach for patients with heart disease.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="perforation-and-gastric-outlet-obstruction-inpatient-emergencies" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Perforation and Gastric Outlet Obstruction (Inpatient Emergencies)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Perforated ulcer</strong>
+<p class="text-sm">Sudden severe epigastric pain spreading across the abdomen, a rigid ("board-like") abdomen, tachycardia, fever and shoulder-tip pain; often after NSAIDs, alcohol or steroids. Free gas under the diaphragm on an erect chest X-ray supports the diagnosis, but a normal film does not exclude it. In Nigeria, remember <strong>typhoid ileal perforation</strong> and appendicitis, which present similarly and are treated surgically too.</p>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Resuscitate: nil by mouth, nasogastric tube to free drainage, two IV lines, and fluids: 0.9% sodium chloride or Ringer&rsquo;s lactate 1000 mL rapidly then 125 to 150 mL/hour, titrated to urine output of at least 0.5 mL/kg/hour; many patients are 3 to 6 litres short.</li>
+  <li>Analgesia: IV paracetamol 1 g, plus IV morphine 2 to 5 mg titrated (avoid NSAIDs).</li>
+  <li>IV antibiotics: ceftriaxone 1 to 2 g daily plus metronidazole 500 mg every 8 hours (or piperacillin-tazobactam 4.5 g every 6 to 8 hours in sepsis), and an IV PPI (40 mg twice daily).</li>
+  <li><strong>Urgent surgery</strong> (laparotomy or laparoscopy, omental patch repair) within hours; biopsy gastric ulcers; leave H. pylori treatment for after recovery.</li>
+  <li>Non-operative management is only for carefully selected, stable, well-contained perforations in a hospital with close surgical monitoring.</li>
+  <li>Check glucose, electrolytes, creatinine, lactate and Hb; give prophylaxis against VTE and tetanus if indicated.</li>
+</ol>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Gastric outlet obstruction (GOO)</strong>
+<p class="text-sm">Persistent vomiting of undigested food, early satiety, weight loss, dehydration and a succussion splash; from scarred duodenal or pyloric ulcer or malignancy (gastric antral or pancreatic cancer).</p>
+<ol class="list-decimal pl-5 space-y-1 text-sm">
+  <li>Admit. Nasogastric tube decompression; nil by mouth.</li>
+  <li><strong>Fluids and electrolytes:</strong> long vomiting causes hypochloraemic, hypokalaemic metabolic alkalosis. Give 0.9% sodium chloride 1000 mL over 1 to 2 hours, then 0.9% sodium chloride with potassium chloride 20 to 40 mmol per litre at 125 to 150 mL/hour; check electrolytes every 6 to 12 hours; replace magnesium; give thiamine 100 mg IV daily before dextrose in malnourished or alcoholic patients; avoid fluids without potassium.</li>
+  <li>IV PPI 40 mg twice daily for 1 to 2 weeks; exclude malignancy by endoscopy and biopsy.</li>
+  <li>Treat H. pylori; endoscopic balloon dilation for benign strictures (repeat as needed) or surgery (gastrojejunostomy or resection) if refractory; nutritional support (enteral if possible).</li>
+</ol>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="gastritis-stress-ulcers-and-special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Gastritis, Stress Ulcers and Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Approach</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute erosive gastritis (alcohol, NSAIDs, binge drinking)</td><td class="py-2 pr-3">Stop the trigger; PPI 20 to 40 mg daily for 2 to 4 weeks; antacids as needed; oral rehydration or IV 0.9% sodium chloride or Ringer&rsquo;s lactate if vomiting; thiamine in heavy drinkers; admit for haematemesis or severe pain</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic H. pylori gastritis</td><td class="py-2 pr-3">Test and treat; confirm cure; look for alarm features. Atrophic gastritis or intestinal metaplasia on biopsy needs specialist follow-up with endoscopic surveillance</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Autoimmune gastritis, vitamin B12 deficiency</td><td class="py-2 pr-3">Macrocytic anaemia, neuropathy; check B12; treat with hydroxocobalamin 1 mg IM injections as per deficiency protocol</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Stress ulcer prophylaxis (ICU)</td><td class="py-2 pr-3">For ventilated patients over 48 hours, coagulopathy, shock, severe burns or head injury: IV pantoprazole 40 mg or omeprazole 40 mg daily; stop when risk resolves; do not continue on discharge without an indication</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy</td><td class="py-2 pr-3">Lifestyle measures, antacids (aluminium-magnesium preparations, alginates) and sucralfate first; famotidine if needed; PPIs (omeprazole, lansoprazole, pantoprazole) are used when required for significant disease. Avoid misoprostol, tetracycline, bismuth and clarithromycin-based regimens; defer H. pylori eradication until after delivery and breastfeeding. Heartburn in pregnancy is usually GORD, and persistent vomiting needs assessment for hyperemesis, malaria and UTI</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Older adults</td><td class="py-2 pr-3">Higher complication and malignancy risk; low threshold for endoscopy; avoid NSAIDs; gastroprotection if aspirin or anticoagulant; deprescribe unnecessary long-term PPIs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic kidney disease</td><td class="py-2 pr-3">Avoid sucralfate (aluminium), magnesium-containing antacids and sodium bicarbonate loads; PPIs may cause interstitial nephritis; use the lowest effective dose</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Liver disease and varices</td><td class="py-2 pr-3">PPIs are overused in cirrhosis and raise infection risk; use only for proven ulcer or post-banding ulcer; avoid NSAIDs and large-volume crystalloid in bleeding</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HIV</td><td class="py-2 pr-3">PPIs and H2 blockers reduce absorption of atazanavir and rilpivirine; check ART interactions before starting; consider opportunistic causes of oesophagitis (candida, CMV, herpes) and gastric lymphoma</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sickle cell disease</td><td class="py-2 pr-3">Frequent painful crises and NSAID use cause ulcers; offer paracetamol, opioids and PPI cover when NSAIDs are unavoidable</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fasting (Ramadan, Lent)</td><td class="py-2 pr-3">Review before fasting; take PPI at the pre-dawn meal; do not fast with a recent bleed, active ulcer symptoms despite treatment, or complicated disease</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Children</td><td class="py-2 pr-3">Not covered here; H. pylori and ulcer treatment in children are different</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Long-term PPI use</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Use the lowest effective dose for the shortest duration; reassess at each visit and stop or step down when the indication has gone (taper and use on-demand dosing to avoid rebound symptoms).</li>
+  <li>Long-term PPI is justified for bleeding ulcer with continued aspirin or NSAID use, Zollinger-Ellison syndrome, Barrett&rsquo;s oesophagus, severe oesophagitis, and gastroprotection of high-risk patients.</li>
+  <li>Monitor B12, magnesium and bone health in prolonged use; PPIs increase the risk of C. difficile and other enteric infections, pneumonia and hip fracture; avoid combining a PPI with unnecessary antibiotics and long courses.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="follow-up-counselling-and-prevention" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Follow-Up, Counselling and Prevention
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What patients should know</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Take the PPI 30 to 60 minutes before the first meal, swallowed whole; the antibiotics must be finished even if symptoms settle.</li>
+  <li>Do not buy or take diclofenac, ibuprofen, piroxicam, aspirin-containing products or injections for pain; tell every doctor and pharmacist about the ulcer.</li>
+  <li>Avoid alcohol and smoking; avoid herbal bitters or "ulcer cure" products with unknown ingredients.</li>
+  <li>Eat regular meals and do not starve yourself; there is no special "ulcer diet".</li>
+  <li>Black or tarry stool, vomiting blood, fainting, sudden severe abdominal pain, repeated vomiting, or weight loss: go to hospital immediately.</li>
+  <li>H. pylori spreads in crowded households with poor sanitation; wash hands, use clean water, and avoid sharing utensils where possible.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Follow-up schedule</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Stage</th><th class="py-2 pr-3">Action</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">2 weeks</td><td class="py-2 pr-3">Review symptoms, adherence and side effects; check pharmacy supply of the full antibiotic course</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">4 to 8 weeks</td><td class="py-2 pr-3">Review response; stop PPI if healed and cause removed; arrange test of cure (4 weeks after antibiotics, off PPI for 2 weeks)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">8 to 12 weeks</td><td class="py-2 pr-3">Repeat endoscopy for gastric ulcers (to confirm healing and exclude malignancy), and for any ulcer that was complicated or failed to heal</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Annually</td><td class="py-2 pr-3">For patients on long-term NSAIDs or aspirin: reassess the need, PPI, H. pylori status, Hb, renal function</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Refer or admit</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Admit:</strong> haematemesis or melaena with instability, Hb falling, suspected perforation, persistent vomiting or outlet obstruction, severe dehydration, anticoagulated patients with bleeding, ulcer with cardiac or major comorbidity.</li>
+  <li><strong>Refer for endoscopy:</strong> alarm features, age 45 and over with new dyspepsia, treatment failure, recurrent ulcers, iron-deficiency anaemia, gastric ulcer needing biopsy or surveillance.</li>
+  <li><strong>Refer to a gastroenterologist or specialist:</strong> refractory H. pylori after two regimens, Zollinger-Ellison syndrome suspicion, and atrophic gastritis.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-nigerian-brands-strengths-and-interactions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Common Nigerian Brands, Strengths and Interactions
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Brand names and strengths change; confirm the active ingredient and strength on the pack, check the NAFDAC registration number and use a generic of the same strength where needed. Examples below are commonly stocked.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Class</th><th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Brands (examples) and strengths</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">PPI</td><td class="py-2 pr-3">Omeprazole</td><td class="py-2 pr-3">Losec, Omez, Ulcid, many generics (20 mg and 40 mg capsules)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">PPI</td><td class="py-2 pr-3">Esomeprazole</td><td class="py-2 pr-3">Nexium 20, 40 mg; generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">PPI</td><td class="py-2 pr-3">Pantoprazole</td><td class="py-2 pr-3">Pantoloc and generics (20 mg and 40 mg tablets, 40 mg IV)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">PPI</td><td class="py-2 pr-3">Lansoprazole</td><td class="py-2 pr-3">Zoton, Prevacid, generics (15 mg and 30 mg)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">PPI</td><td class="py-2 pr-3">Rabeprazole</td><td class="py-2 pr-3">Pariet 10, 20 mg; generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">H2 blocker</td><td class="py-2 pr-3">Famotidine</td><td class="py-2 pr-3">Pepcid and generics (20, 40 mg)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Antacids and alginates</td><td class="py-2 pr-3">Aluminium and magnesium hydroxide with or without simethicone</td><td class="py-2 pr-3">Gelusil, Maalox, Mylanta; Gaviscon (alginate-antacid); magnesium trisilicate mixture</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Mucosal protectant</td><td class="py-2 pr-3">Sucralfate</td><td class="py-2 pr-3">Antepsin and generics (1 g tablets or suspension)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Bismuth</td><td class="py-2 pr-3">Tripotassium dicitratobismuthate</td><td class="py-2 pr-3">De-Nol 120 mg tablets (where available)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Prostaglandin</td><td class="py-2 pr-3">Misoprostol</td><td class="py-2 pr-3">Cytotec 200 micrograms; Misoclear; use only where indicated (avoid in pregnancy)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Antispasmodic</td><td class="py-2 pr-3">Hyoscine butylbromide</td><td class="py-2 pr-3">Buscopan 10 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Antiemetic</td><td class="py-2 pr-3">Metoclopramide; domperidone</td><td class="py-2 pr-3">Maxolon, Plasil; Motilium 10 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Antibiotics for H. pylori</td><td class="py-2 pr-3">Amoxicillin; clarithromycin; metronidazole; tetracycline</td><td class="py-2 pr-3">Amoxil; Klacid (clarithromycin 250 and 500 mg); Flagyl (200 and 400 mg); tetracycline 250 or 500 mg capsules; check the strengths when counting the daily dose</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">COX-2 inhibitor</td><td class="py-2 pr-3">Celecoxib</td><td class="py-2 pr-3">Celebrex 100, 200 mg; generics (only with PPI cover in high-risk patients)</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Important interactions</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Clopidogrel:</strong> omeprazole and esomeprazole reduce its activation; use pantoprazole.</li>
+  <li><strong>Clarithromycin:</strong> strong CYP3A4 inhibition raises levels of simvastatin, atorvastatin, amlodipine, carbamazepine, warfarin, digoxin and some antiretrovirals; avoid or adjust.</li>
+  <li><strong>Metronidazole:</strong> disulfiram-like reaction with alcohol, potentiates warfarin; metallic taste; peripheral neuropathy with prolonged courses.</li>
+  <li><strong>Tetracycline and bismuth:</strong> chelate with antacids, iron, calcium, magnesium and dairy; space doses by 2 hours; avoid in pregnancy and children.</li>
+  <li><strong>Antacids and sucralfate</strong> reduce absorption of quinolones, tetracyclines, levothyroxine, iron and some antiretrovirals; give them 2 hours apart.</li>
+  <li><strong>PPIs</strong> reduce absorption of atazanavir, rilpivirine, ketoconazole, itraconazole, iron and B12; they also raise methotrexate levels.</li>
+  <li><strong>Bismuth subsalicylate</strong> contains salicylate: avoid with aspirin allergy, anticoagulants or in renal impairment.</li>
+  <li><strong>Counterfeit and substandard drugs:</strong> buy from licensed pharmacies and check packaging.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Common Practices to Avoid
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Avoid these in peptic ulcer disease and gastritis</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating every epigastric pain as "ulcer" or "gastritis" without considering cardiac pain (ECG), biliary or pancreatic disease, malaria, typhoid, UTI, pregnancy, and gastric cancer.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating "gastritis" for months with repeated antacids, over-the-counter PPIs or herbal bitters without a diagnosis, and no review.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Using NSAIDs, injectable diclofenac, piroxicam, steroids or aspirin-containing products for pain in a patient with epigastric pain, and not asking about OTC and herbal products.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Prescribing a PPI and continuing the NSAID without gastroprotection or a plan to stop it.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating H. pylori based on symptoms alone, serology, or a rapid antibody kit; using 7-day triple therapy kits, or a single metronidazole and amoxicillin regimen as first-line.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Prescribing clarithromycin again after a previous macrolide, or doxycycline in place of tetracycline in quadruple therapy; stopping antibiotics early.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Not checking for cure after eradication therapy, or testing while still on a PPI.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Missing alarm features in patients aged over 45; treating gastric ulcers without biopsy or repeat endoscopy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Advising a "bland diet", drinking milk, or prolonged fasting as treatment; or telling patients that pepper or fried food causes ulcers.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Giving two PPIs together, or a PPI and an H2 blocker without indication; staying on PPIs for years without a clear reason.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Delaying resuscitation and blood in an upper GI bleed while waiting for endoscopy; over-transfusing to a normal haemoglobin; or running large volumes of saline in a patient with varices.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Using tranexamic acid, gastric lavage, or vasopressors to "stop the bleeding" in routine ulcer bleeding; skipping IV PPI after endoscopic therapy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Calling a perforation "gastritis" because the patient has had an ulcer before; giving antispasmodics or opioids and sending the patient home.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating persistent vomiting from outlet obstruction with antiemetics alone and no fluid and electrolyte correction.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Giving misoprostol or tetracycline to a pregnant woman; giving NSAIDs for non-severe pain in the elderly.</span></li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<p class="font-brand text-sm font-semibold text-indigo-950 dark:text-white mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Most Nigerian "ulcer" and "gastritis" complaints are dyspepsia: confirm the cause (H. pylori, NSAIDs, GORD, functional) and look for alarm features, especially age 45 or over, weight loss, anaemia, dysphagia, vomiting and bleeding.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Stop NSAIDs, give a PPI (omeprazole 20 to 40 mg or pantoprazole 40 mg before breakfast) for 4 weeks (duodenal) or 8 weeks (gastric), and treat symptoms with antacids; avoid milk, bland-diet myths and herbal self-treatment.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat only proven H. pylori; ACG 2024 recommends 14-day optimised bismuth quadruple therapy (PPI twice daily, bismuth four times daily, tetracycline 500 mg four times daily, metronidazole 500 mg three or four times daily); confirm cure at least 4 weeks after treatment and 2 weeks off PPI.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Where bismuth or tetracycline are unobtainable, clarithromycin triple therapy is acceptable only where clarithromycin resistance is below 15% (one Nigerian cohort: 14.4%); metronidazole resistance is very high (99.1%) and amoxicillin 33.3%, so plan carefully and confirm cure.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Upper GI bleeding is an inpatient emergency: resuscitate with 0.9% sodium chloride or Ringer&rsquo;s lactate 500 to 1000 mL boluses, transfuse at 7 g/dL (8 in cardiac disease), give high-dose IV PPI, endoscope within 24 hours, and avoid tranexamic acid.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>After endoscopic haemostasis give high-dose PPI for 72 hours (80 mg bolus then 8 mg/hour, or 40 mg IV twice daily), then oral PPI, and test and treat H. pylori.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Perforation needs NG tube, fluids, IV antibiotics and PPI, and urgent surgery; remember typhoid perforation in febrile patients with peritonitis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Gastric outlet obstruction needs NG decompression, 0.9% sodium chloride with potassium, thiamine, IV PPI, and biopsy to exclude cancer.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Gastric ulcers need biopsy and repeat endoscopy at 8 to 12 weeks; long-term PPI should have a clear indication and review.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Counsel on adherence, NSAID avoidance, alcohol and smoking cessation, and warning signs of bleeding.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-slate-700 dark:text-slate-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<ol class="list-decimal pl-8 pr-4 pb-4 space-y-1">
+  <li class="text-[10px] leading-snug text-stone-500">Chey WD, Howden CW, Moss SF, et al. ACG Clinical Guideline: Treatment of Helicobacter pylori Infection. Am J Gastroenterol 2024;119:1730-1753 (as summarised by ACG, ACP and university pharmacy summaries; doses of alternative regimens not retrieved).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Laine L, Barkun AN, Saltzman JR, et al. ACG Clinical Guideline: Upper Gastrointestinal and Ulcer Bleeding. Am J Gastroenterol 2021;116:899-917 (as summarised).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Gralnek IM, et al. Endoscopic diagnosis and management of nonvariceal upper gastrointestinal haemorrhage: ESGE Guideline, Update 2021. Endoscopy 2021 (PPI regimens, transfusion thresholds, tranexamic acid, antithrombotics, timing).</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Gastroenterology Organisation. Management of Helicobacter pylori infection in Africa: the challenges and peculiarities (prevalence, resistance, regimens, diagnostics).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Helicobacter pylori strains from a Nigerian cohort show divergent antibiotic resistance rates and a uniform pathogenicity profile. PLoS ONE 2017 (111 isolates; resistance to metronidazole, amoxicillin, clarithromycin and tetracycline).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Management of overt upper gastrointestinal bleeding in a low-resource setting: a descriptive study from Ile-Ife, Nigeria. BMC Gastroenterology 2014 (causes, NSAID use, transfusion, mortality, endoscopy access).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Standard drug references and product information for PPI, H2 blocker, sucralfate, misoprostol, antacid and antibiotic dosing and interactions (not retrieved separately in this session).</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Agency for Food and Drug Administration and Control (NAFDAC) Green Book for product registration checks.</li>
+</ol>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'treatment-musculoskeletal-pain-osteoarthritis',
+  title: 'Musculoskeletal Pain and Osteoarthritis',
+  category: 'Treatment',
+  subCategory: 'Musculoskeletal',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">TREATMENT &middot; MUSCULOSKELETAL</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Musculoskeletal Pain and Osteoarthritis</h1>
+  <p class="text-sm text-indigo-200">Back, knee, neck and shoulder pain are among the commonest reasons adults seek care, and the commonest drugs bought without prescription are NSAIDs and pain injections. This guide covers red flags (cauda equina, spinal TB, infection, cancer, septic arthritis), diagnosis, exercise and lifestyle advice fitted to Nigerian daily life, the analgesic ladder with doses (topical and oral NSAIDs, paracetamol, duloxetine, tramadol, muscle relaxants, steroid injections), stepwise knee osteoarthritis care, low back pain, sciatica and spinal TB, other regional pain, special populations, Nigerian brands and interactions, and the practices that should stop.</p>
+</div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>How to use this guide.</strong> Recommendations follow the ACR/Arthritis Foundation 2019 osteoarthritis guideline, NICE osteoarthritis and low back pain guidance, the ACP 2017 low back pain guideline and the WHO 2023 chronic low back pain guideline, with standard drug references, adapted to Nigerian practice. Doses are for adults unless stated; check renal function, pregnancy, GI and cardiovascular risk and interactions before prescribing, and follow your hospital protocol. Children are not covered.</p>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#overview-and-the-nigerian-context" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Overview and the Nigerian Context</span></a></li>
+  <li><a href="#assessment-finding-the-serious-causes-first" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Assessment: Finding the Serious Causes First</span></a></li>
+  <li><a href="#non-drug-treatment-the-foundation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Non-Drug Treatment: The Foundation</span></a></li>
+  <li><a href="#drug-treatment-analgesic-ladder-and-doses" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Drug Treatment: Analgesic Ladder and Doses</span></a></li>
+  <li><a href="#knee-osteoarthritis-stepwise-plan" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Knee Osteoarthritis: Stepwise Plan</span></a></li>
+  <li><a href="#low-back-pain-and-spondylosis" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Low Back Pain and Spondylosis</span></a></li>
+  <li><a href="#other-common-regional-musculoskeletal-pain" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Other Common Regional Musculoskeletal Pain</span></a></li>
+  <li><a href="#special-populations-and-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Special Populations and Situations</span></a></li>
+  <li><a href="#follow-up-and-counselling" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Follow-Up and Counselling</span></a></li>
+  <li><a href="#common-nigerian-brands-strengths-and-interactions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Common Nigerian Brands, Strengths and Interactions</span></a></li>
+  <li><a href="#common-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Common Practices to Avoid</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="overview-and-the-nigerian-context" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Overview and the Nigerian Context
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Back, knee, neck, shoulder and other joint pains are among the commonest reasons adults seek care. Most people have benign, self-limiting or degenerative problems (non-specific low back pain, lumbar and cervical spondylosis, knee osteoarthritis), but a small number have infection (including spinal tuberculosis), cancer, inflammatory arthritis, fracture or nerve compression, and these must not be missed.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What drives treatment in Nigerian practice</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Self-medication and injections.</strong> Diclofenac, ibuprofen, piroxicam and "pain relief" injections (often a diclofenac or steroid cocktail) are bought over the counter or given by patent medicine sellers, with real risk of gastric bleeding, kidney injury, hypertension, heart failure, diabetes decompensation and gluteal abscess or sciatic nerve injury. See the Peptic Ulcer Disease guide for NSAID ulcer prevention.</li>
+  <li><strong>Traditional bone setters.</strong> A 2025 qualitative study of 25 Nigerians and physiotherapists found that bone setting is long established and widely used, especially in rural areas and where hospitals are far, costly or strike-affected. Patients value low cost, closeness and personal attention; complications described in the literature include mal-union, non-union, gangrene, osteomyelitis, Volkmann contracture and joint stiffness. Ask about it without judgement and agree a safe plan (no forceful manipulation of a hot, swollen, deformed or neurologically affected limb or spine).</li>
+  <li><strong>Physiotherapy access</strong> is limited, so exercise advice must be simple, home-based and low cost.</li>
+  <li><strong>Cost.</strong> Imaging (MRI) and orthopaedic surgery are expensive and unevenly available. Do not order what will not change management, and be honest about what the patient can afford.</li>
+  <li><strong>Beliefs:</strong> many patients attribute back pain to "kidney problems", "cold", or spiritual causes; explain the mechanical cause clearly and give a sense of the expected course.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Common conditions covered</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Condition</th><th class="py-2 pr-3">Typical picture</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute non-specific low back pain</td><td class="py-2 pr-3">Sudden onset after lifting or twisting; muscular, no neurological signs; usually improves within weeks</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic low back pain (spondylosis, facet or disc related)</td><td class="py-2 pr-3">More than 12 weeks; stiffness and aching, worse with bending and prolonged sitting or standing; often with obesity, manual work or poor posture</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sciatica or radiculopathy</td><td class="py-2 pr-3">Leg pain below the knee, paraesthesia, positive straight leg raise, sometimes weakness</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Knee osteoarthritis</td><td class="py-2 pr-3">Over 45 to 50 years; activity-related pain, short morning stiffness, crepitus, bony enlargement, often with obesity or past injury; commonly bilateral</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hip and hand osteoarthritis</td><td class="py-2 pr-3">Groin pain with limited internal rotation; Heberden and Bouchard nodes with firm swelling</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Cervical spondylosis, shoulder disorders, tennis elbow, plantar fasciitis, myofascial pain</td><td class="py-2 pr-3">Section 8</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="assessment-finding-the-serious-causes-first" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Assessment: Finding the Serious Causes First
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Low back pain: red flags that need urgent work-up or admission</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Red flag</th><th class="py-2 pr-3">Think of</th><th class="py-2 pr-3">Action</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Bladder or bowel dysfunction, saddle anaesthesia, bilateral leg weakness or numbness, progressive weakness</td><td class="py-2 pr-3">Cauda equina syndrome or cord compression</td><td class="py-2 pr-3"><strong>Emergency:</strong> admit, urgent MRI and neurosurgical or orthopaedic referral (surgery within 24 to 48 hours is best)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fever, night sweats, weight loss, cough, HIV, known TB contact, localised spinal tenderness, gibbus (angular deformity)</td><td class="py-2 pr-3">Spinal tuberculosis (Pott&rsquo;s disease), pyogenic spondylodiscitis</td><td class="py-2 pr-3">Admit or refer: ESR, CRP, chest X-ray, spine X-ray or MRI; start anti-TB therapy per national guidelines; neurosurgery if cord compromise or instability</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Age over 50 with new back pain, known cancer, weight loss, pain unrelieved by rest or worse at night</td><td class="py-2 pr-3">Metastasis (breast, prostate, lung), myeloma, primary tumour</td><td class="py-2 pr-3">Urgent imaging; FBC, ESR, calcium, PSA, serum protein electrophoresis; refer</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Fall or trauma, age over 65, prolonged steroid use, known osteoporosis</td><td class="py-2 pr-3">Vertebral fracture</td><td class="py-2 pr-3">X-ray; analgesia; osteoporosis assessment; refer if unstable or neurological signs</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sickle cell disease, immunosuppression, injection drug use, recent infection</td><td class="py-2 pr-3">Vertebral osteomyelitis, infarction crisis, abscess</td><td class="py-2 pr-3">Blood cultures, ESR, CRP, urgent MRI; admit</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Severe pain not related to movement, colicky or radiating to the groin; fever or urinary symptoms; pulsatile mass</td><td class="py-2 pr-3">Renal stone, pyelonephritis, aortic aneurysm, pancreatitis, gynaecological disease, ectopic pregnancy</td><td class="py-2 pr-3">Urine dipstick, ultrasound, pregnancy test, treat the cause</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Morning stiffness over 1 hour, age under 40, improving with exercise, alternating buttock pain</td><td class="py-2 pr-3">Axial spondyloarthritis</td><td class="py-2 pr-3">Rheumatology referral; sacroiliac X-ray or MRI, HLA-B27 where available</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Knee and other joint pain: red flags</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Hot, red, swollen, very painful joint with fever and inability to bear weight:</strong> septic arthritis until proven otherwise (including Salmonella in sickle cell disease and Staphylococcus aureus). Aspirate the joint, send for Gram stain, culture, crystals and cell count, and admit. Differentials: gout, pseudogout, haemarthrosis, reactive arthritis, rheumatic fever, sickle cell crisis.</li>
+  <li><strong>Multiple swollen joints, morning stiffness over 1 hour, symmetric small-joint involvement</strong> (rheumatoid arthritis), or skin rash and systemic features (lupus): refer to a rheumatologist, check ESR, CRP, rheumatoid factor and anti-CCP, and avoid prolonged steroids before diagnosis.</li>
+  <li><strong>Knee locking or giving way after injury:</strong> meniscal or ligament injury; refer to orthopaedics.</li>
+  <li><strong>Hip pain in sickle cell disease or after steroid use:</strong> consider avascular necrosis (X-ray, MRI).</li>
+  <li><strong>Chronic monoarthritis with weight loss and fever:</strong> consider tuberculous arthritis.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Investigations (only those that change management)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Test</th><th class="py-2 pr-3">When</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">No imaging</td><td class="py-2 pr-3">Acute non-specific low back pain without red flags; routine X-ray or MRI is not recommended in primary care and does not improve outcomes. Reassure instead</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">X-ray lumbar spine or knee</td><td class="py-2 pr-3">Red flags, failure to improve after 6 weeks, planned surgery, or to confirm knee OA when the picture is unclear; knee X-ray weight-bearing (standing AP and lateral); findings often do not match symptoms</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">MRI</td><td class="py-2 pr-3">Suspected cord or cauda equina compression, infection, cancer, or radiculopathy not responding to treatment for whom surgery or injection is planned</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">FBC, ESR or CRP, urinalysis, creatinine, glucose, uric acid</td><td class="py-2 pr-3">Fever, systemic illness, before NSAIDs in older or high-risk patients, suspected gout, diabetes or kidney disease</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Haemoglobin genotype, HIV, TB tests</td><td class="py-2 pr-3">Where sickle cell, HIV or TB is suspected</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Joint aspiration and synovial fluid analysis</td><td class="py-2 pr-3">Acute swollen joint, and when gout or infection is possible</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Diagnosing knee osteoarthritis clinically</strong>
+<p class="text-sm">In adults aged 45 years or more with activity-related knee pain and morning stiffness under 30 minutes, with no systemic features, a clinical diagnosis of osteoarthritis is reasonable without X-ray. Crepitus, bony enlargement and limited movement support it. Confirm and exclude other causes where the picture is atypical, the knee is hot, or the course is rapid.</p>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: imaging in low back pain.</strong> NICE and the American College of Physicians advise against routine imaging in non-specialist settings, since findings seldom change management. In Nigeria, patients often arrive expecting an X-ray or MRI and may have paid for one already; explain that most back pain is mechanical and that scans in this setting show age-related changes. Order imaging for red flags, persistent radiculopathy, or when surgery is being considered.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="non-drug-treatment-the-foundation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Non-Drug Treatment: The Foundation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Every guideline (ACR, NICE, ACP, WHO) puts education, exercise and weight management first, because they have the best safety record and the most lasting benefit. Drugs are an add-on, not the treatment.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">For all patients</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Education and reassurance:</strong> explain that osteoarthritis and spondylosis are common, usually do not progress to disability, and are not caused by "wear and tear" alone; pain does not equal damage; staying active is safe and helps; acute back pain usually improves substantially within a month.</li>
+  <li><strong>Stay active, avoid bed rest:</strong> return to normal activity as soon as possible; light work is better than bed.</li>
+  <li><strong>Exercise:</strong> tailored therapeutic exercise for all people with OA or chronic back pain: aerobic exercise (brisk walking, cycling, swimming where available; 30 minutes on 5 days a week), strengthening (quadriceps and hip muscles for knee OA; core and back extensor exercises for back pain) and flexibility. Progress slowly; some soreness is expected and not harmful. Physiotherapy referral where available; otherwise teach 3 to 4 home exercises and review at 2 to 4 weeks.</li>
+  <li><strong>Weight loss</strong> in overweight or obese patients: any loss helps; 5 to 10% loss reduces knee pain and disability (refer to the diabetes and hypertension guides for dietary advice).</li>
+  <li><strong>Heat</strong> (warm towels, hot-water bottle wrapped in cloth, warm bath) for 15 to 20 minutes for acute back pain and OA stiffness; cold packs for acute flare-ups with swelling. Avoid burns, especially in neuropathic patients.</li>
+  <li><strong>Walking aids and footwear:</strong> a cane or stick held in the hand opposite the painful knee; cushioned, flat shoes; avoid high heels; consider a knee brace or sleeve for instability; lateral wedge insoles are no longer advised routinely.</li>
+  <li><strong>Self-management programme and sleep:</strong> pace activities, treat poor sleep and depression (which worsen pain), and encourage social participation.</li>
+  <li><strong>Psychological therapies</strong> (CBT, relaxation, mindfulness) and spinal manipulation or massage by trained practitioners can help chronic low back pain (WHO 2023), as part of an exercise package and not alone.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Adapting advice to daily life in Nigeria</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>Floor-level activities:</strong> kneeling, squatting and sitting on the floor (prayer, church, kitchen, farm, traditional toilets) load the knees heavily. Suggest a low stool or chair, a raised toilet seat or a stool for the squat toilet, a handrail, and shorter periods on the knees; patients in whom prayer posture is essential should be taught modified postures rather than being told to stop.</li>
+  <li><strong>Work:</strong> manual labourers, farmers, market traders, drivers and okada riders: teach lifting from the hips and knees, breaks every 30 to 45 minutes when sitting, a firm seat, and lumbar support while driving; <strong>lumbar belts and corsets</strong> are not recommended for routine use (WHO 2023) but may be used briefly during a flare-up.</li>
+  <li><strong>Stairs, buses and markets:</strong> encourage pacing and using handrails; avoid carrying heavy loads on the head or one shoulder repeatedly if it provokes pain; carry loads close to the body and split them into smaller loads.</li>
+  <li><strong>Mattress:</strong> a medium-firm mattress or a board under a soft foam mattress is adequate; no need for expensive "orthopaedic" mattresses.</li>
+  <li><strong>Home exercise without equipment:</strong> straight-leg raises and sit-to-stand from a chair (quadriceps), bridging (back and buttocks), cat-camel and gentle knee-to-chest stretches.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Interventions with limited or no benefit (do not offer routinely)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Traction, electrotherapies, acupuncture for knee OA, lumbar supports, shoe orthotics, and routine spinal injections for non-specific low back pain (NICE, WHO). Ultrasound, TENS and other devices sold in clinics may give short-term relief but are not first-line.</li>
+  <li>Glucosamine, chondroitin and hyaluronic acid injections (see section 4).</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="drug-treatment-analgesic-ladder-and-doses" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Drug Treatment: Analgesic Ladder and Doses
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Use drugs together with the measures in section 3. Choose the lowest effective dose for the shortest time, review at 2 to 4 weeks, and stop when the flare has settled. Check risks before every NSAID: age over 65, peptic ulcer or bleeding, kidney disease, hypertension, heart failure, ischaemic heart disease, stroke, anticoagulants, steroids, aspirin, and pregnancy.</p>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 1: topical treatment (first-line for knee and hand OA)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Notes</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diclofenac 1% gel (Voltaren Emulgel and generics)</td><td class="py-2 pr-3">2 to 4 g to the knee (or 1 to 2 g to a small joint) three to four times daily, rubbed in gently</td><td class="py-2 pr-3">Strongly recommended for knee OA by ACR, and offered first by NICE; takes 1 to 2 weeks to work; small systemic absorption so safer in the elderly and in GI or renal risk; avoid on broken skin, do not use occlusive dressings</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ibuprofen or ketoprofen gel</td><td class="py-2 pr-3">3 to 4 times daily to the painful area</td><td class="py-2 pr-3">Alternative topical NSAID</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Capsaicin 0.025 to 0.075% cream</td><td class="py-2 pr-3">Thin layer three to four times daily</td><td class="py-2 pr-3">Burning at first; may take 2 or more weeks; wash hands afterwards; avoid eyes and broken skin</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Counter-irritant rubs (menthol, methyl salicylate, camphor, such as Deep Heat and Iodex)</td><td class="py-2 pr-3">Thin layer up to three or four times daily</td><td class="py-2 pr-3">Symptom relief only; do not combine with heat pads; avoid in children and on broken skin; methyl salicylate may interact with warfarin if used excessively</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Step 2: oral NSAIDs (acute flares and when topical treatment fails)</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Usual adult dose</th><th class="py-2 pr-3">Comments</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ibuprofen</td><td class="py-2 pr-3">200 to 400 mg three times daily with food (maximum 1200 mg a day OTC; up to 2400 mg a day under supervision)</td><td class="py-2 pr-3">Lowest GI risk of the non-selective NSAIDs at low dose; widely available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Naproxen</td><td class="py-2 pr-3">250 to 500 mg twice daily with food</td><td class="py-2 pr-3">Probably lower cardiovascular risk among traditional NSAIDs; higher GI risk than ibuprofen</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diclofenac</td><td class="py-2 pr-3">50 mg two or three times daily, or 75 mg twice daily; sustained-release 100 mg once daily (maximum 150 mg a day)</td><td class="py-2 pr-3">Common but higher cardiovascular risk (similar to COX-2 inhibitors); avoid in established cardiovascular disease</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Aceclofenac</td><td class="py-2 pr-3">100 mg twice daily</td><td class="py-2 pr-3">Common in Nigeria; similar class risks to diclofenac</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Meloxicam</td><td class="py-2 pr-3">7.5 mg once daily, up to 15 mg</td><td class="py-2 pr-3">COX-2 preferential; may be better tolerated; renal and cardiovascular cautions remain</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Celecoxib</td><td class="py-2 pr-3">100 to 200 mg once or twice daily (maximum 400 mg)</td><td class="py-2 pr-3">Lower GI risk (best for patients with GI risk, together with a PPI if very high risk); sulfonamide allergy; cardiovascular and renal cautions</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Etoricoxib</td><td class="py-2 pr-3">30 to 60 mg once daily (up to 90 mg for flares, short term)</td><td class="py-2 pr-3">Where available; avoid in hypertension that is uncontrolled and in ischaemic heart disease</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Piroxicam</td><td class="py-2 pr-3">10 to 20 mg once daily</td><td class="py-2 pr-3">Higher GI toxicity; avoid or limit to short courses, especially in the elderly</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Indomethacin</td><td class="py-2 pr-3">25 to 50 mg two to three times daily</td><td class="py-2 pr-3">Gout and ankylosing spondylitis; CNS adverse effects and GI risk; avoid in OA</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Ketorolac</td><td class="py-2 pr-3">10 mg every 6 hours, maximum 5 days</td><td class="py-2 pr-3">Short-term only; high GI and renal risk; not for chronic pain</td></tr>
+  </tbody>
+</table></div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">NSAID safety checklist before prescribing</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Stomach:</strong> add a PPI (omeprazole 20 mg or pantoprazole 40 mg daily) for age over 65, prior ulcer or bleeding, steroids, aspirin, anticoagulants or SSRIs; prefer celecoxib plus PPI in the highest-risk patients; test for and treat H. pylori in those with ulcer history.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Kidney:</strong> check creatinine; avoid in eGFR below 30 and use caution at 30 to 60; avoid the "triple whammy" (NSAID with ACE inhibitor or ARB and diuretic); stop in dehydration (gastroenteritis, vomiting, fever, malaria) and in sickle cell with crisis.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Heart and BP:</strong> NSAIDs raise blood pressure and can precipitate heart failure; avoid in uncontrolled hypertension, heart failure or recent MI or stroke; recheck BP after starting.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Others:</strong> avoid in asthma with NSAID sensitivity, pregnancy (especially from 20 weeks), peptic ulcer, liver cirrhosis and with warfarin; never combine two NSAIDs or take with aspirin without medical advice.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Take with food, at the lowest effective dose; stop at the first sign of black stool, vomiting blood, severe indigestion, swelling or reduced urine.</span></li>
+</ul>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other drugs</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Drug</th><th class="py-2 pr-3">Dose</th><th class="py-2 pr-3">Role and cautions</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Paracetamol</td><td class="py-2 pr-3">500 mg to 1 g every 6 to 8 hours (maximum 4 g a day; 3 g in elderly, liver disease or heavy alcohol use)</td><td class="py-2 pr-3">Weak evidence in OA and back pain (see Guideline Watch). Reasonable as a short trial or when NSAIDs cannot be used, and in pregnancy; stop if no benefit</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Duloxetine</td><td class="py-2 pr-3">30 mg daily for 1 week, then 60 mg daily</td><td class="py-2 pr-3">Conditionally recommended in knee OA by ACR, and second-line for chronic back pain (ACP); nausea, dry mouth, insomnia; avoid with eGFR below 30 and with liver disease, and with MAO inhibitors; slow tapering</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Tramadol</td><td class="py-2 pr-3">25 to 50 mg every 6 hours as needed, maximum 400 mg a day (lower in the elderly and renal impairment)</td><td class="py-2 pr-3">Conditional second-line in knee OA (ACR) and chronic back pain (ACP); but NICE and WHO advise against opioids for chronic back pain. Risks: dizziness, constipation, nausea, seizures, serotonin syndrome, dependence; avoid with SSRIs, MAO inhibitors, epilepsy; use only short term</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Codeine (with paracetamol)</td><td class="py-2 pr-3">30 mg with paracetamol 500 mg, one to two tablets every 6 hours as needed, short term</td><td class="py-2 pr-3">Use only when NSAIDs are contraindicated and tramadol is not suitable; constipation, drowsiness and dependence; avoid in pregnancy and breastfeeding</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Muscle relaxants (acute low back pain with spasm; up to 1 to 2 weeks)</td><td class="py-2 pr-3">Orphenadrine 100 mg twice daily; methocarbamol 1.5 g four times daily for 2 to 3 days then 750 mg three times daily; tizanidine 2 mg at night increasing to 2 to 4 mg three times daily; thiocolchicoside 4 mg (oral) twice daily for up to 7 days; baclofen 5 mg three times daily increasing to 10 mg three times daily</td><td class="py-2 pr-3">Short-term benefit only; drowsiness and dizziness; avoid driving; avoid thiocolchicoside in pregnancy, epilepsy and prolonged use; avoid diazepam routinely; baclofen needs a renal dose reduction</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Neuropathic agents for sciatica or radiculopathy</td><td class="py-2 pr-3">Gabapentin 100 to 300 mg at night, increasing to 300 to 600 mg three times daily; pregabalin 25 to 75 mg at night increasing to 150 mg twice daily; amitriptyline 10 to 25 mg at night</td><td class="py-2 pr-3">Evidence for sciatica is weak; NICE does not recommend them for sciatica but they are used for severe neuropathic leg pain; start low, watch drowsiness, falls and misuse</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Intra-articular corticosteroid (knee, shoulder, hip, small joints)</td><td class="py-2 pr-3">Methylprednisolone acetate (Depo-Medrol) 40 mg, or triamcinolone 40 mg, into the knee under aseptic technique (ultrasound where available); smaller doses for small joints; maximum three to four injections a year per joint</td><td class="py-2 pr-3">Strongly recommended for knee OA that has not responded to oral or topical treatment (ACR); effect lasts weeks; transient rise in glucose in diabetics (monitor for several days); avoid if infection is possible; no injection into a joint that has recently had surgery; not for routine use around the spine</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Topical lidocaine 5% patch</td><td class="py-2 pr-3">12 hours on, 12 hours off, up to 3 patches</td><td class="py-2 pr-3">Localised pain; limited availability</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: paracetamol, opioids and glucosamine in OA and back pain.</strong> ACR 2019 conditionally recommends oral paracetamol (up to 3 to 4 g a day) for patients who cannot use NSAIDs, and tramadol for patients who cannot take or are still symptomatic on NSAIDs. NICE (OA, 2022) says paracetamol and glucosamine should not be offered and that strong opioids should not be offered, with weak opioids only for short-term relief or when other drugs are contraindicated. ACP (2017) makes NSAIDs first-line and tramadol or duloxetine second-line for chronic back pain; WHO (2023) advises against opioids for chronic primary low back pain. ACR strongly recommends against glucosamine and chondroitin, and conditionally against hyaluronic acid injections. In practice: start with exercise and topical NSAIDs, use an NSAID where safe (with gastroprotection), and use paracetamol only as a trial. Keep tramadol or codeine for the short-term when nothing else is possible, and avoid regular long-term opioid use.</p>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+<p class="text-sm"><strong>Guideline Watch: NICE drafts and local practice.</strong> The NICE OA statement used here comes from the 2022 draft consultation as reported by the Pharmaceutical Journal, and the low back pain items come from a summary of NICE NG59 (2016); confirm against the final published guidelines. Many Nigerian doctors use paracetamol and tramadol widely because NSAID risks are high in comorbid patients, so the trade-off must be explained to the patient.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="knee-osteoarthritis-stepwise-plan" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Knee Osteoarthritis: Stepwise Plan
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Step</th><th class="py-2 pr-3">Treatment</th><th class="py-2 pr-3">Setting</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">1. Everyone</td><td class="py-2 pr-3">Education, exercise (quadriceps strengthening, walking), weight loss, cane, footwear, activity pacing, heat</td><td class="py-2 pr-3">Outpatient; physiotherapy where available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">2. Mild to moderate pain</td><td class="py-2 pr-3">Add topical diclofenac gel; short course of oral paracetamol if desired</td><td class="py-2 pr-3">Outpatient</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">3. Flares or inadequate relief</td><td class="py-2 pr-3">Oral NSAID (ibuprofen, naproxen, meloxicam or celecoxib) at the lowest dose for 1 to 2 weeks at a time, with PPI cover in those at risk; review at 2 to 4 weeks</td><td class="py-2 pr-3">Outpatient</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">4. Inadequate response or NSAIDs not possible</td><td class="py-2 pr-3">Duloxetine; short-term tramadol; intra-articular corticosteroid injection (methylprednisolone 40 mg or triamcinolone 40 mg), up to three or four times a year</td><td class="py-2 pr-3">Outpatient or minor procedure room</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">5. Severe, disabling pain, deformity, night pain and failed conservative treatment</td><td class="py-2 pr-3">Orthopaedic referral for total knee replacement (older patient, unresponsive pain, functional loss); osteotomy for younger patients with malalignment; arthroscopic washout is not advised for OA alone</td><td class="py-2 pr-3">Specialist; surgery as inpatient</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Knee effusion, locked knee and acute flares</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>A warm, swollen knee: aspirate and check crystals (gout, pseudogout), culture (infection) and cell count before injecting steroid; do not inject steroid if infection is possible.</li>
+  <li>Acute flare of OA with effusion: rest, cold packs, short NSAID course, aspiration and steroid injection if septic arthritis and gout are excluded.</li>
+  <li><strong>Septic arthritis (inpatient emergency):</strong> aspirate before antibiotics where possible; start IV antibiotics at once (for example ceftriaxone 2 g IV daily plus flucloxacillin or cloxacillin 2 g IV every 6 hours; adjust to culture; follow local protocol); surgical washout; IV fluids 0.9% sodium chloride 1000 mL initially in sepsis and maintenance as required; analgesia; treat for 2 to 6 weeks as advised by culture and clinical response.</li>
+  <li><strong>Gout:</strong> uric acid may be normal in an acute attack; treat with an NSAID (naproxen 500 mg twice daily or indomethacin 50 mg three times daily) or colchicine 0.5 mg two or three times daily or prednisolone 30 to 40 mg for 5 days, depending on comorbidity; see the separate gout guide when available.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Do not use</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Hyaluronic acid injections as routine, platelet-rich plasma and stem cell injections, glucosamine, chondroitin, diacerein and "joint supplements"; lateral-wedge insoles; arthroscopic lavage or debridement for knee OA; long-term strong opioids; or repeated steroid injections more than three or four times a year.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="low-back-pain-and-spondylosis" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Low Back Pain and Spondylosis
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Acute non-specific low back pain (under 4 weeks): outpatient</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Exclude red flags (section 2); explain that the cause is mechanical and the outlook is good; most patients improve substantially within a month.</li>
+  <li>Keep active, return to work early, avoid bed rest; heat wraps or pads for 15 to 20 minutes; gentle walking.</li>
+  <li>Drug options: an NSAID (ibuprofen 400 mg three times daily or naproxen 250 to 500 mg twice daily with food for 5 to 7 days) <em>or</em> a muscle relaxant for 3 to 7 days; paracetamol as an alternative; avoid opioids. Topical diclofenac gel can be added.</li>
+  <li>Review at 1 to 2 weeks; reassess if the pain persists, worsens or neurological signs appear.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Subacute and chronic low back pain (over 12 weeks)</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>First: structured exercise, education and weight loss; add heat, massage, spinal manipulation by a trained practitioner and psychological support (WHO 2023 recommends education, exercise, spinal manipulative therapy, massage, CBT and NSAIDs).</li>
+  <li>Pharmacological (if non-drug treatment fails): NSAID (first-line, short courses), then duloxetine 30 mg then 60 mg daily or short-term tramadol as second-line; opioids only as a last resort and with clear limits.</li>
+  <li>Avoid: lumbar braces long term, traction, repeated injections, and unproven devices.</li>
+  <li>Consider referral to a multidisciplinary pain or rehabilitation programme for persistent disability.</li>
+  <li>Image or refer when: neurological signs persist, pain is unremitting, surgery or intervention is considered, or red flags emerge.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Sciatica and radiculopathy</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Most acute sciatica improves in 6 to 12 weeks with conservative care: staying active, NSAID short course, heat, gentle exercise, neuropathic agent for severe pain, and avoidance of prolonged sitting.</li>
+  <li>Persistent or severe radicular pain beyond 6 weeks, motor weakness or intolerable pain: MRI and referral for epidural steroid injection (NICE: consider local anaesthetic and steroid injection for acute and severe sciatica) or surgical decompression (microdiscectomy) for a corresponding disc herniation.</li>
+  <li><strong>Emergency:</strong> bilateral sciatica, urinary retention or incontinence, saddle numbness, bowel dysfunction or rapidly progressive weakness: admit for urgent MRI and neurosurgical decompression.</li>
+  <li>Spinal stenosis (neurogenic claudication, relief when sitting or bending forward): exercise, NSAID, epidural injection; refer for decompression if disabling.</li>
+  <li>Spondylolisthesis and facet-related chronic pain: consider specialist referral for diagnostic medial branch blocks and radiofrequency denervation in refractory cases.</li>
+</ul>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Spinal tuberculosis</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>Suspect with back pain, constitutional symptoms, spinal deformity (gibbus), paraspinal abscess or neurological deficit, particularly in young adults, HIV, or people with TB contact.</li>
+  <li>Diagnose with MRI, biopsy or aspirate (GeneXpert, culture) where possible; start anti-TB treatment (RHZE for 2 months then RH for at least 7 to 10 more months in national guidance, often 9 to 12 months total) and refer to a spine surgeon for instability, abscess or neurological deficit.</li>
+  <li>Immobilise with bed rest and a brace only briefly in unstable disease; do <strong>not</strong> allow traditional manipulation or massage.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="other-common-regional-musculoskeletal-pain" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Other Common Regional Musculoskeletal Pain
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Doses below are standard-reference regimens for outpatient care. Examine the joint, exclude red flags, and use the same principles: education, activity modification, exercise, topical or short-course oral NSAIDs, and a limited number of steroid injections where indicated.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Problem</th><th class="py-2 pr-3">Features</th><th class="py-2 pr-3">Outpatient treatment</th><th class="py-2 pr-3">Refer or escalate</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Neck pain and cervical spondylosis</td><td class="py-2 pr-3">Neck stiffness, pain with movement, occipital headache; arm pain, numbness or weakness with radiculopathy</td><td class="py-2 pr-3">Posture and ergonomics (screen height, pillow), neck and shoulder strengthening, heat, short-course NSAID, muscle relaxant for a few days; soft collar for no more than a few days</td><td class="py-2 pr-3">Myelopathy (clumsy hands, gait disturbance, bladder symptoms), progressive weakness, fever, trauma or cancer history: urgent imaging and referral</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Shoulder: rotator cuff disease, subacromial pain</td><td class="py-2 pr-3">Painful arc, night pain, pain with overhead activity</td><td class="py-2 pr-3">Relative rest, physiotherapy, NSAID, subacromial steroid injection (triamcinolone or methylprednisolone 40 mg with lidocaine) if no response in 4 to 6 weeks</td><td class="py-2 pr-3">Full-thickness tear with weakness, trauma, or failure after 3 months: orthopaedics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Frozen shoulder (adhesive capsulitis)</td><td class="py-2 pr-3">Global loss of active and passive movement, worse in diabetics</td><td class="py-2 pr-3">Education, NSAID, intra-articular steroid injection early, gradual stretching; resolves slowly over 1 to 2 years</td><td class="py-2 pr-3">Persistent severe restriction: manipulation or capsular release</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Tennis elbow (lateral epicondylitis)</td><td class="py-2 pr-3">Pain on gripping and resisting wrist extension</td><td class="py-2 pr-3">Activity modification, forearm strengthening, brace or strap, topical NSAID; avoid repeated steroid injections (short-term only)</td><td class="py-2 pr-3">Failure after 6 to 12 months: orthopaedics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Carpal tunnel syndrome</td><td class="py-2 pr-3">Nocturnal hand numbness and tingling in median distribution; common in pregnancy, diabetes, hypothyroidism, rheumatoid arthritis</td><td class="py-2 pr-3">Night wrist splint in neutral for 6 to 8 weeks; steroid injection into the carpal tunnel (methylprednisolone 20 to 40 mg) if persistent; treat the cause</td><td class="py-2 pr-3">Thenar wasting, constant numbness or failure of treatment: nerve conduction study and surgery</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Plantar fasciitis</td><td class="py-2 pr-3">Heel pain on first steps in the morning</td><td class="py-2 pr-3">Stretching of plantar fascia and calf, cushioned shoes or heel cup, weight loss, short NSAID course; avoid walking barefoot on hard floors</td><td class="py-2 pr-3">Persistent beyond 6 months: physiotherapy, injection by an experienced clinician</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Greater trochanteric pain (hip bursitis)</td><td class="py-2 pr-3">Lateral hip pain, tender over the trochanter, worse lying on that side</td><td class="py-2 pr-3">Exercise and stretching, NSAID, steroid injection (methylprednisolone 40 mg)</td><td class="py-2 pr-3">Consider hip OA or lumbar referred pain if atypical</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Myofascial pain and fibromyalgia</td><td class="py-2 pr-3">Widespread aching, fatigue, poor sleep, tender points, normal investigations</td><td class="py-2 pr-3">Reassurance, graded aerobic exercise, sleep hygiene, CBT; low-dose amitriptyline 10 to 25 mg at night or duloxetine 30 to 60 mg; avoid opioids and NSAIDs for chronic use</td><td class="py-2 pr-3">Exclude hypothyroidism, vitamin D deficiency, anaemia, depression, HIV, inflammatory disease</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hip osteoarthritis</td><td class="py-2 pr-3">Groin pain, limited internal rotation</td><td class="py-2 pr-3">As for knee OA (exercise, weight loss, NSAIDs); intra-articular steroid for refractory pain (image-guided)</td><td class="py-2 pr-3">Total hip replacement if severe</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hand osteoarthritis</td><td class="py-2 pr-3">Nodal swelling, thumb base pain</td><td class="py-2 pr-3">Topical diclofenac, splints for thumb base, hand exercises, short NSAID courses</td><td class="py-2 pr-3">Surgery rarely</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Gout</td><td class="py-2 pr-3">Sudden severe pain and swelling, first MTP joint, knee, ankle; may be recurrent</td><td class="py-2 pr-3">See the gout guide: NSAID, colchicine or prednisolone for the attack, urate-lowering therapy (allopurinol) for recurrent disease</td><td class="py-2 pr-3">Aspirate if the diagnosis is uncertain or a septic joint is possible</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-populations-and-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Special Populations and Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Situation</th><th class="py-2 pr-3">Approach</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Older adults</td><td class="py-2 pr-3">Start with topical NSAIDs and exercise; use oral NSAIDs for short periods with PPI and renal monitoring; avoid piroxicam, indomethacin and ketorolac; avoid tramadol or codeine in the frail (falls, confusion, constipation); treat osteoporosis and vitamin D deficiency; assess falls risk</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Hypertension and heart failure</td><td class="py-2 pr-3">NSAIDs raise BP, blunt the effect of ACE inhibitors, ARBs and diuretics, and can worsen heart failure; use topical agents, paracetamol, exercise and physiotherapy first; if an NSAID is essential, use the lowest dose for the shortest time, with BP and creatinine monitoring (see the hypertension guide)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diabetes</td><td class="py-2 pr-3">NSAIDs may worsen kidney function; intra-articular and oral steroids raise glucose for several days, so adjust treatment and monitor; frozen shoulder and carpal tunnel are more frequent; foot and Charcot changes are in the diabetes guide</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic kidney disease</td><td class="py-2 pr-3">Avoid oral NSAIDs; use topical NSAIDs sparingly, paracetamol, exercise, and short-term low-dose opioids with renal dose adjustment; avoid gabapentin and pregabalin without dose reduction</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Peptic ulcer or GI bleeding history</td><td class="py-2 pr-3">No NSAIDs if possible; if essential, celecoxib with PPI and H. pylori eradication (see the peptic ulcer guide)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Pregnancy and breastfeeding</td><td class="py-2 pr-3">Physiotherapy, posture and sleeping advice, a maternity support belt, heat and paracetamol; avoid NSAIDs (especially from 20 weeks), tramadol, thiocolchicoside, and misoprostol; sciatica is usual in late pregnancy; pubic symphysis pain responds to support and rest; review red flags (infection, labour)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Sickle cell disease</td><td class="py-2 pr-3">Bone and joint pain may be a vaso-occlusive crisis, osteomyelitis, septic arthritis or avascular necrosis; hydrate (oral fluids and 0.9% sodium chloride or Ringer&rsquo;s lactate as indicated), analgesia per the sickle cell pathway, and urgent assessment of a hot, swollen joint; avoid prolonged NSAIDs and steroids without review</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">HIV</td><td class="py-2 pr-3">Consider osteonecrosis, TB, bacterial infection, and drug-related myopathy (zidovudine); tenofovir and NSAIDs together increase renal risk; efavirenz may cause neuropsychiatric effects with tramadol</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Obesity</td><td class="py-2 pr-3">Weight loss is the single most effective treatment for knee OA and back pain; use diet advice (see the diabetes guide) and gradual exercise</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Anticoagulants and antiplatelets</td><td class="py-2 pr-3">Avoid NSAIDs; paracetamol and topical treatments only; steroid injection needs care with bleeding risk</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Young adults with inflammatory back pain</td><td class="py-2 pr-3">Rheumatology referral for spondyloarthritis; NSAIDs are effective but continued therapy needs specialist guidance</td></tr>
+  </tbody>
+</table></div>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="follow-up-and-counselling" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Follow-Up and Counselling
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Review schedule</strong>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Stage</th><th class="py-2 pr-3">Action</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Acute back pain</td><td class="py-2 pr-3">Review in 1 to 2 weeks; if no improvement by 6 weeks, reassess for red flags and consider imaging and referral</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Chronic back pain and knee OA</td><td class="py-2 pr-3">Review at 2 to 4 weeks after starting treatment, then every 3 to 6 months; check weight, function, exercise adherence, drugs, BP, creatinine and GI symptoms in NSAID users</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">After steroid injection</td><td class="py-2 pr-3">Review at 2 to 4 weeks; warn of a possible "flare" for 24 to 48 hours; monitor glucose in diabetics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Surgical candidates</td><td class="py-2 pr-3">Refer when pain and disability are severe despite 3 to 6 months of optimal non-surgical care</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What patients should be told</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li>This is a common, usually manageable problem; a scan picture does not predict how you will do.</li>
+  <li>Movement and exercise are medicine, not harm; it is normal to feel some discomfort when starting.</li>
+  <li>Painkillers help you to move, not to cure; use them for short periods and never combine different brands of the same type (check labels for diclofenac, ibuprofen or aspirin).</li>
+  <li>Do not take NSAIDs on an empty stomach, and stop them and seek care if you have black stool, vomit blood, swollen legs, shortness of breath, or little urine.</li>
+  <li>Avoid repeated "injection for pain" from untrained sellers, unmarked tablets, and herbal or "bone" preparations with unknown ingredients.</li>
+  <li>See a doctor urgently for leg weakness, trouble passing urine or stool, numbness around the genitals, fever with back pain, severe unrelenting night pain, or a hot swollen joint.</li>
+  <li>If you use a bone setter, never allow forceful manipulation of a swollen, deformed or injured limb or spine before it has been X-rayed.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-nigerian-brands-strengths-and-interactions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Common Nigerian Brands, Strengths and Interactions
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Confirm the active ingredient, strength and NAFDAC number on the pack; products and strengths vary between pharmacies. The examples below are commonly seen; use a generic of the same strength if needed.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Class</th><th class="py-2 pr-3">Generic</th><th class="py-2 pr-3">Brands (examples) and strengths</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Topical NSAIDs</td><td class="py-2 pr-3">Diclofenac gel</td><td class="py-2 pr-3">Voltaren Emulgel 1% and generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Topical rubs</td><td class="py-2 pr-3">Menthol, methyl salicylate</td><td class="py-2 pr-3">Deep Heat, Iodex, Ben-Gay (symptom relief only)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Oral NSAIDs</td><td class="py-2 pr-3">Diclofenac; ibuprofen; naproxen; meloxicam; piroxicam; aceclofenac</td><td class="py-2 pr-3">Voltaren, Cataflam, Olfen, diclofenac generics (50, 75 mg); Brufen, Nurofen, ibuprofen 200 and 400 mg; Naprosyn, naproxen 250 and 500 mg; Mobic, meloxicam 7.5 and 15 mg; Feldene; aceclofenac 100 mg generics</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">COX-2 inhibitors</td><td class="py-2 pr-3">Celecoxib; etoricoxib</td><td class="py-2 pr-3">Celebrex 100 and 200 mg and generics; Arcoxia 60 and 90 mg where available</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Diclofenac plus gastroprotection</td><td class="py-2 pr-3">Diclofenac with misoprostol</td><td class="py-2 pr-3">Arthrotec 50 and 75 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Paracetamol and combinations</td><td class="py-2 pr-3">Paracetamol; paracetamol with ibuprofen or codeine; orphenadrine with paracetamol</td><td class="py-2 pr-3">Panadol and paracetamol generics; Norgesic or Orphengesic; Co-codamol 30/500 (controlled supply)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Muscle relaxants</td><td class="py-2 pr-3">Thiocolchicoside; methocarbamol; tizanidine; baclofen</td><td class="py-2 pr-3">Muscoril; Robaxin; Sirdalud; Lioresal</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Opioid and adjuncts</td><td class="py-2 pr-3">Tramadol; pregabalin; gabapentin; duloxetine; amitriptyline</td><td class="py-2 pr-3">Tramal 50 mg; Lyrica 75 and 150 mg; Neurontin 300 mg; Cymbalta 30 and 60 mg; amitriptyline 10 and 25 mg</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">Injectables</td><td class="py-2 pr-3">Methylprednisolone acetate; triamcinolone acetonide</td><td class="py-2 pr-3">Depo-Medrol 40 mg/mL; Kenalog 40 mg/mL (for intra-articular or local use only, by trained clinicians)</td></tr>
+    <tr class="align-top"><td class="py-2 pr-3 font-semibold">PPIs</td><td class="py-2 pr-3">Omeprazole; pantoprazole</td><td class="py-2 pr-3">Losec, Omez; Pantoloc and generics (see the peptic ulcer guide)</td></tr>
+  </tbody>
+</table></div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Important interactions</strong>
+<ul class="list-disc pl-5 space-y-1 text-sm">
+  <li><strong>NSAID plus ACE inhibitor or ARB plus diuretic:</strong> acute kidney injury; avoid or monitor creatinine and urine output.</li>
+  <li><strong>NSAIDs with warfarin, aspirin, clopidogrel, SSRIs or steroids:</strong> major GI bleeding risk.</li>
+  <li><strong>NSAIDs with methotrexate or lithium:</strong> raise drug levels to toxic range; avoid.</li>
+  <li><strong>NSAIDs in diabetes with ACE inhibitors or metformin:</strong> kidney injury raises the risk of lactic acidosis with metformin.</li>
+  <li><strong>Tramadol with SSRIs, tricyclics, MAO inhibitors or ondansetron:</strong> serotonin syndrome and seizures.</li>
+  <li><strong>Tramadol or codeine with benzodiazepines, alcohol or gabapentinoids:</strong> respiratory depression, sedation and falls.</li>
+  <li><strong>Duloxetine with tramadol, tramadol with CYP2D6 inhibitors (fluoxetine, paroxetine):</strong> reduced analgesia and increased risk.</li>
+  <li><strong>Corticosteroid injections:</strong> rise in glucose in diabetics; avoid injection in the presence of anticoagulation without planning; infection risk.</li>
+</ul>
+
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Common Practices to Avoid
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+<p class="font-brand text-sm font-semibold text-rose-900 dark:text-rose-200 mb-3">Avoid these in musculoskeletal pain and osteoarthritis</p>
+<ul class="space-y-2 text-sm text-rose-950 dark:text-rose-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Prescribing or buying an NSAID or "pain relief" injection without asking about stomach problems, kidney disease, hypertension, heart disease, pregnancy and other drugs.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Repeated intramuscular diclofenac or dexamethasone "cocktail" injections for chronic back or knee pain; these cause bleeding, kidney injury, hyperglycaemia, infection and injection injuries.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Long-term oral steroids (including steroid-containing herbal products and "bone" remedies) for joint pain; multiple intra-articular injections beyond three or four a year per joint; injecting a hot, swollen joint.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Taking two NSAIDs together, adding aspirin, or combining them with alcohol; piroxicam or ketorolac as routine therapy; NSAIDs in dehydration, vomiting, sickle cell crisis or severe malaria.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Using long-term tramadol, codeine or pethidine for chronic back pain or OA.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Strict bed rest for back pain, or telling patients to stop all activity or to avoid exercise because "the knee is worn out".</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Ordering an MRI or X-ray for every back pain without red flags; treating the scan instead of the patient; telling patients their spine is "damaged" or "slipped" without evidence.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Missing red flags: spinal TB, cancer, cauda equina, infection, fracture, septic arthritis and inflammatory arthritis, particularly in HIV, sickle cell disease and the immunosuppressed.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Allowing forceful traditional manipulation, deep massage or bone setting of a hot, swollen, deformed, fractured limb or of the spine with neurological symptoms.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Prescribing glucosamine, chondroitin, hyaluronic acid, vitamin injections or "joint cocktails" as routine therapy for OA.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Using tight lumbar belts and corsets continuously, heating pads on numb skin, or prolonged traction.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Overusing muscle relaxants and diazepam, and driving after taking them.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Treating all back pain as a "kidney" problem or sending patients for repeated renal tests and herbal "kidney cleansers".</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span>Ignoring weight, exercise, work posture, mood and sleep, and writing only for a drug.</span></li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+<p class="font-brand text-sm font-semibold text-indigo-950 dark:text-white mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-100">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Exclude red flags first: cauda equina syndrome (emergency), spinal TB, cancer, infection, fracture, septic arthritis, gout and inflammatory arthritis; do not image uncomplicated acute back pain.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The foundation of treatment for knee OA and chronic back pain is education, exercise, weight loss, heat and activity pacing; avoid bed rest and routine lumbar belts.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Topical diclofenac is first-line for knee OA; oral NSAIDs (ibuprofen, naproxen, meloxicam, celecoxib) follow at the lowest dose for the shortest time, with PPI cover in at-risk patients and checks on BP and creatinine.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Guidelines differ on paracetamol (ACR conditional, NICE not recommended) and tramadol (ACR and ACP second-line; NICE and WHO against opioids for chronic back pain); use them sparingly and short term.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Duloxetine (30 then 60 mg) and intra-articular corticosteroid (methylprednisolone 40 mg, up to three or four times a year) are options for inadequate response in knee OA.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Avoid glucosamine, chondroitin and hyaluronic acid injections; avoid unsupervised injectable "pain cocktails".</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A hot swollen joint needs aspiration and, if septic, IV antibiotics and washout; sickle cell, diabetes and HIV raise the risk.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sciatica improves in most within 6 to 12 weeks; refer for imaging and injection or surgery when severe or with weakness; cauda equina syndrome needs urgent surgery.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Adapt to Nigerian life: squatting, kneeling, floor-sitting, manual work, bone setters and OTC injections; offer a simple home exercise plan and safe alternatives.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Refer for joint replacement when severe pain and disability persist despite 3 to 6 months of optimal conservative care.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-slate-700 dark:text-slate-200">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<ol class="list-decimal pl-8 pr-4 pb-4 space-y-1">
+  <li class="text-[10px] leading-snug text-stone-500">Kolasinski SL, et al. 2019 American College of Rheumatology and Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip and Knee (as summarised; topical and oral NSAIDs, tramadol, duloxetine, injections, glucosamine, hyaluronic acid).</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Institute for Health and Care Excellence. Osteoarthritis in over 16s: diagnosis and management (2022), as reported in consultation coverage (exercise, weight loss, topical NSAIDs first, paracetamol and glucosamine not offered); confirm against the final guidance.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Qaseem A, et al. Noninvasive treatments for acute, subacute and chronic low back pain: American College of Physicians clinical practice guideline. Ann Intern Med 2017;166:514-530 (as summarised by AAFP).</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Institute for Health and Care Excellence. Low back pain and sciatica in over 16s: assessment and management (NG59), as summarised by the Chartered Society of Physiotherapy.</li>
+  <li class="text-[10px] leading-snug text-stone-500">World Health Organization. Guideline for non-surgical management of chronic primary low back pain in adults in primary and community care settings (2023).</li>
+  <li class="text-[10px] leading-snug text-stone-500">Adje et al. Traditional bone setting in Nigeria from the perspectives of patients and physiotherapists: clinical insights for low back pain management. BMC Complementary Medicine and Therapies 2025.</li>
+  <li class="text-[10px] leading-snug text-stone-500">Standard drug references and product information for NSAID, muscle relaxant, neuropathic agent, tramadol, steroid injection and antibiotic doses and interactions (not retrieved individually this session).</li>
+  <li class="text-[10px] leading-snug text-stone-500">National Agency for Food and Drug Administration and Control (NAFDAC) Green Book for product registration checks.</li>
+</ol>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
 
 ];

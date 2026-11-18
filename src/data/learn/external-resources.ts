@@ -1403,4 +1403,691 @@ Suggested Viewing Order
   `
 },
 
+
+{
+  id: 'resources-suturing-video-collection',
+  title: 'Suturing Video Collection',
+  category: 'External Resources',
+  subCategory: 'Surgery',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.sans, .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">RESOURCES &middot; SURGERY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Suturing Video Collection</h1>
+  <p class="text-sm text-indigo-200">A curated list of 71 suturing resources, arranged by technique: preparation, knot tying, every common stitch, alternatives to sutures, special sites, obstetric repair and operating-room closure. Every Nigerian house officer sutures wounds, from road-crash and machete injuries to perineal tears, often with limited supplies and no senior nearby. Use this list to compare how different teachers perform the same stitch, then practise on a model.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#about-this-collection" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>About This Collection</span></a></li>
+  <li><a href="#before-you-close-a-wound-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Before You Close a Wound: Nigerian Practice</span></a></li>
+  <li><a href="#before-you-suture-equipment-anaesthesia-and-irrigation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Before You Suture: Equipment, Anaesthesia and Irrigation</span></a></li>
+  <li><a href="#instrument-handling-and-knot-tying" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Instrument Handling and Knot Tying</span></a></li>
+  <li><a href="#full-suturing-courses" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Full Suturing Courses</span></a></li>
+  <li><a href="#simple-interrupted-sutures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Simple Interrupted Sutures</span></a></li>
+  <li><a href="#mattress-sutures-and-the-corner-stitch" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Mattress Sutures and the Corner Stitch</span></a></li>
+  <li><a href="#buried-deep-dermal-and-subcuticular-sutures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Buried (Deep Dermal) and Subcuticular Sutures</span></a></li>
+  <li><a href="#running-sutures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Running Sutures</span></a></li>
+  <li><a href="#advanced-wound-closure" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Advanced Wound Closure</span></a></li>
+  <li><a href="#alternatives-to-sutures-glue-strips-and-staples" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Alternatives to Sutures: Glue, Strips and Staples</span></a></li>
+  <li><a href="#face-eyelid-and-scalp" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Face, Eyelid and Scalp</span></a></li>
+  <li><a href="#hand-fingers-and-tendon" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Hand, Fingers and Tendon</span></a></li>
+  <li><a href="#obstetric-repair-and-caesarean-closure" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Obstetric Repair and Caesarean Closure</span></a></li>
+  <li><a href="#operating-room-closure-and-anastomosis-advanced" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Operating-Room Closure and Anastomosis (Advanced)</span></a></li>
+  <li><a href="#practice-and-simulation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">16</span><span>Practice and Simulation</span></a></li>
+  <li><a href="#suture-removal-and-aftercare" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">17</span><span>Suture Removal and Aftercare</span></a></li>
+  <li><a href="#suggested-viewing-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">18</span><span>Suggested Viewing Order</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="about-this-collection" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+About This Collection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The collection is led by a few series: the ALiEM wound closure series (12 short chapters), the Closing The Gap site at LacerationRepair.com, Geeky Medics, the University of Iowa EyeRounds eyelid repairs, the Toronto Video Atlas of Surgery and the Journal of Medical Insight. Items marked 📖 are written guides rather than video.</p>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  🔗 <a href="https://lacerationrepair.com/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">LacerationRepair.com (free video site)</a>
+  &nbsp;&middot;&nbsp;
+  🔗 <a href="https://geekymedics.com/category/surgery/suturing/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics suturing collection</a>
+  &nbsp;&middot;&nbsp;
+  🔗 <a href="https://www.aliem.com/videos/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">ALiEM video index</a>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-close-a-wound-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Before You Close a Wound: Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Decide whether to close.</strong> Wounds that arrive late or are dirty, such as machete, farm-tool, road-crash, animal-bite and puncture wounds, may need thorough cleaning and debridement and sometimes delayed closure, not immediate suturing. A tight closure over contamination can cause an abscess.</li>
+  <li><strong>Tetanus and rabies.</strong> Check tetanus immunisation status for every wound, and think about rabies after dog bites.</li>
+  <li><strong>Look before you close.</strong> Check for tendon, nerve, vessel, joint and foreign-body injury, and X-ray when glass or bone injury is possible.</li>
+  <li><strong>Supplies.</strong> Suture material, local anaesthetic and instruments may be short. Practise with what your unit stocks, and use adhesive strips or tissue glue only for clean, low-tension wounds when they are available.</li>
+  <li><strong>Aftercare and return.</strong> Tell the patient when to return for removal and what infection looks like. Costs and distance make some patients miss follow-up, so match the suture type to what they can actually do.</li>
+</ul>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 text-amber-900 dark:text-amber-300">
+  <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+  <p class="text-sm">Most of these videos come from the United States, Canada and the United Kingdom. Rules on antibiotics, tetanus prophylaxis, how long a wound can wait before closure, suture choice and removal times can differ from WHO guidance, FMOH guidance and your hospital&rsquo;s protocol. Where they differ, follow the local protocol and ask your senior.</p>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="before-you-suture-equipment-anaesthesia-and-irrigation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Before You Suture: Equipment, Anaesthesia and Irrigation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Set up, numb the wound, irrigate and start the repair. Skipping these steps is a common reason for poor results, so watch them before the stitch videos.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=pF45sshWpvQ" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 1: Equipment</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 1:54.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=J34BItDBSRQ" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 2: Anesthesia</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 3:09.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=kb6wk9vVMcQ" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 3: Irrigation</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 1:11.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=ZQyPswXlDlA" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 4: Starting the Procedure</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 2:30.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.msdmanuals.com/professional/multimedia/video/how-to-anesthetize-wounds-using-local-infiltration" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How To Anesthetize Wounds Using Local Infiltration</a><span class="block mt-1 text-slate-500 dark:text-slate-400">MSD Manual Professional Edition.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="instrument-handling-and-knot-tying" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Instrument Handling and Knot Tying
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Learn the instrument tie first, because it is the knot used for most skin closure. Then the one-handed and two-handed ties. Practise each with both hands, and on twine or silk before real suture.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=eh74OqUwMz4" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Surgical Knot Tying: Instrument Tie, Righty</a><span class="block mt-1 text-slate-500 dark:text-slate-400">3:44.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=kKPdeZLgzCg" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Surgical Knot Tying: Instrument Tie, Lefty</a><span class="block mt-1 text-slate-500 dark:text-slate-400">3:51.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=uFJbTbjeU4Y" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Surgical Knot Tying: One-handed, Righty</a><span class="block mt-1 text-slate-500 dark:text-slate-400">5:08.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=Edt0EUJMZFE" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Surgical Knot Tying: One-handed, Lefty</a><span class="block mt-1 text-slate-500 dark:text-slate-400">4:54.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=o8OqxTGaS7o" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Surgical Knot Tying: Two-handed, Righty</a><span class="block mt-1 text-slate-500 dark:text-slate-400">7:25.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=Yqectc2GFUU" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Surgical Knot Tying: Two-handed, Lefty</a><span class="block mt-1 text-slate-500 dark:text-slate-400">5:10.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=Av2gp-3mKwE" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Instrument tie: Surgeon&rsquo;s knot</a><span class="block mt-1 text-slate-500 dark:text-slate-400">6:35.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=Q0iTD9cnwQE" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Surgical Knot Tying (longer lesson)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">15:35.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=HD6mll1wN0I" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Basic Knotting and Suturing Using a Needle Holder</a><span class="block mt-1 text-slate-500 dark:text-slate-400">5:14.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://jomi.com/article/478" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suture Selection and Knot Tying Demonstration</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Journal of Medical Insight, filmed at a hospital learning lab. Covers suture selection, two-handed and one-handed ties. Sign-up page shown, so access may need an account.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://eyerounds.org/video/suturing_tying_techniques/index.htm" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Slip Knot, 3-1-1 and other tying videos (7 videos)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">University of Iowa EyeRounds. Slip knots and 3-1-1 ties, right and left handed, in silk and twine.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="full-suturing-courses" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Full Suturing Courses
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Longer videos that cover several techniques in one sitting. Good for a first overview before the single-technique videos.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://jomi.com/article/479" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suturing Techniques</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Journal of Medical Insight, filmed at a hospital learning lab. Covers instrument handling, simple interrupted, running, vertical and horizontal mattress, U-stitch, deep dermal, running subcuticular and the Aberdeen knot. Sign-up page shown, so access may need an account.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=TFwFMav_cpE" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suture Skills Course: Learn Best Suture Techniques</a><span class="block mt-1 text-slate-500 dark:text-slate-400">19:45.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.nejm.org/doi/full/10.1056/NEJMvcm064238" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Basic Laceration Repair (NEJM Videos in Clinical Medicine)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Simple interrupted sutures, with indications, contraindications, equipment, preparation, aftercare and complications. May need a journal login.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="simple-interrupted-sutures" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Simple Interrupted Sutures
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The basic stitch. Compare several demonstrations, because each emphasises different details such as bite size, eversion and spacing.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=Vw6UH0RUX2o" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 5: Simple Interrupted</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 3:45.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/basic-suturing-techniques/simple-interrupted-sutures/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Simple Interrupted Sutures (Closing The Gap)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">LacerationRepair.com, a free video teaching site.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=z8oWv-nVO6g" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Simple Interrupted Suture (Geeky Medics)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">OSCE-style guide.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.merckmanuals.com/en-ca/professional/injuries-poisoning/how-to-care-for-wounds-and-lacerations/how-to-repair-a-laceration-with-simple-interrupted-sutures" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How To Repair a Laceration With Simple Interrupted Sutures</a><span class="block mt-1 text-slate-500 dark:text-slate-400">MSD Manual Professional Edition. Page with a video and written steps.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="mattress-sutures-and-the-corner-stitch" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Mattress Sutures and the Corner Stitch
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Vertical and horizontal mattress stitches for wounds under tension or with edges that will not stay everted, and the corner (half-buried horizontal mattress) stitch for flap tips.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=GHxSKryRTeY" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 7: Vertical Mattress</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 1:10.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/basic-suturing-techniques/vertical-mattress-sutures/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Vertical Mattress Sutures (Closing The Gap)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=-Sa7VMcMCJA" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Vertical Mattress Suture (Geeky Medics)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=2URmHydtCSs" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 6: Horizontal Mattress</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 3:11.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/basic-suturing-techniques/horizontal-mattress-sutures/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Horizontal Mattress Sutures (Closing The Gap)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=6qF4mxB7KzM" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Horizontal Mattress Suture (Geeky Medics)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=kvjigkm7Mzc" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 8: Corner Suture</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 1:30.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/basic-suturing-techniques/the-corner-stitch/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Half-buried Horizontal Mattress Suture (Corner Stitch) (Closing The Gap)</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="buried-deep-dermal-and-subcuticular-sutures" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Buried (Deep Dermal) and Subcuticular Sutures
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Deep stitches that reduce tension on the skin, and subcuticular closure for a fine scar.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=Zc3T2pZJ440" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 9: Buried Suture</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 1:51.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/basic-suturing-techniques/simple-interrupted-dermal-sutures/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Deep Dermal Sutures (Closing The Gap)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://geekymedics.com/deep-dermal-suture-osce-guide/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Deep Dermal Suture OSCE Guide (Geeky Medics)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://geekymedics.com/subcuticular-suture-osce-guide/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Subcuticular Suture OSCE Guide (Geeky Medics)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/advanced-wound-closure-techniques/running-subcuticular-suturing/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Running Subcuticular Sutures (Closing The Gap)</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="running-sutures" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Running Sutures
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Continuous stitching for long wounds. Faster than interrupted sutures, but one break loosens the whole line.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/advanced-wound-closure-techniques/running-percutaneous-sutures/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Running Percutaneous Sutures (Closing The Gap)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.laparoscopyhospital.com/videos/public/videos/519/continuous-suturing-demonstration-by-dr-r-k-mishra-fnCrQMFXNv" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Continuous Suturing Demonstration</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="advanced-wound-closure" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Advanced Wound Closure
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Techniques for gaping or tight wounds and for tidying a closure.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/advanced-wound-closure-techniques/undermining/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Undermining (Closing The Gap)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/advanced-wound-closure-techniques/dog-ear-correction/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Dog Ear Correction (Closing The Gap)</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="alternatives-to-sutures-glue-strips-and-staples" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Alternatives to Sutures: Glue, Strips and Staples
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Tissue adhesive, adhesive strips and staples. Useful when suture material is short, the wound is clean and low-tension, or the patient is a child or cannot return for suture removal.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=neb4OIqZeRo" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 10: Dermabond</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. Tissue adhesive. 1:56.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=uA6gMr1ScBo" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 11: Steristrips</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 0:39.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=_rOQg2wGlA4" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Closure Chapter 12: Staples</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ALiEM laceration repair series. 0:47.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/alternative-wound-closure/tissue-adhesive-glue/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Tissue Adhesive Glue (LacerationRepair.com)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/alternative-wound-closure/tissue-adhesive-tape/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Tissue Adhesive Tape (LacerationRepair.com)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/alternative-wound-closure/staples/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Staples (LacerationRepair.com)</a></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="face-eyelid-and-scalp" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Face, Eyelid and Scalp
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Cosmetically and functionally sensitive sites. Eyelid lacerations near the lid margin or tear duct need specialist repair, so use the EyeRounds videos to recognise what is involved and refer when appropriate.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://lacerationrepair.com/advanced-wound-closure-techniques/lacerations-around-the-eye/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Lacerations Around the Eye (Closing The Gap)</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://eyerounds.org/video/plastics/1/repair-full-thickness-UpperLid-laceration.htm" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Repair of full-thickness upper eyelid laceration</a><span class="block mt-1 text-slate-500 dark:text-slate-400">University of Iowa EyeRounds. 2:58. Tarsal sutures through lid margin and skin closure.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://eyerounds.org/video/plastics/1/repair-full-thickness-LL-laceration.htm" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Repair of full-thickness lower eyelid laceration</a><span class="block mt-1 text-slate-500 dark:text-slate-400">University of Iowa EyeRounds.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://eyerounds.org/video/plastics/1/repair-LL-canalicular-laceration-1.htm" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Repair of lower lid canalicular laceration 1</a><span class="block mt-1 text-slate-500 dark:text-slate-400">University of Iowa EyeRounds.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://eyerounds.org/video/plastics/1/repair-LL-canalicular-laceration-2.htm" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Repair of lower lid canalicular laceration 2</a><span class="block mt-1 text-slate-500 dark:text-slate-400">University of Iowa EyeRounds.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://eyerounds.org/video/plastics/2/Upper-canalicular-laceration-repair.htm" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Upper canalicular laceration repair</a><span class="block mt-1 text-slate-500 dark:text-slate-400">University of Iowa EyeRounds.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://sinaiem.org/foam/hair-apposition" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">A HAT (Hair Apposition Technique) Trick</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Written guide to closing scalp lacerations by twisting hair, with no suture needed.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="hand-fingers-and-tendon" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Hand, Fingers and Tendon
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Hand wounds hide tendon, nerve and joint injury. Examine function before you close anything.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://jomi.com/article/329" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Flexor Tendon Repair for a Zone 2 FDP Tendon Laceration</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Journal of Medical Insight. For senior trainees. Sign-up page shown, so access may need an account.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://broadcastmed.com/surgery/5253/videos/evaluation-and-initial-treatment-of-acute-hand-injuries" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Evaluation and Initial Treatment of Acute Hand Injuries</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Appeared in search results. Access not checked.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.broadcastmed.com/surgery/4919/videos/repair-of-flexor-tendon-and-nerve" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Repair of Flexor Tendon and Nerve</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Appeared in search results. Access not checked.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://litfl.com/procedure-nail-bed-repair/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Procedure: Nail bed repair</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Written guide from Life in the Fast Lane.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="obstetric-repair-and-caesarean-closure" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Obstetric Repair and Caesarean Closure
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Perineal and episiotomy repair, and uterine and abdominal closure at caesarean section. For tear assessment, emergency episiotomy and the Basic Features of Suturing video, see the Childbirth Video Series guide in this library.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/videos/repairing-a-perineal-tear/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Repairing a Perineal Tear</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Steps for repairing a second-degree tear.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=cp5sNRWUaVg" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Episiotomy repair</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.msdmanuals.com/professional/multimedia/video/how-to-repair-an-episiotomy" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How To Repair an Episiotomy</a><span class="block mt-1 text-slate-500 dark:text-slate-400">MSD Manual Professional Edition.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://pie.med.utoronto.ca/TVASurg/project/primary-vertex-caesarian-section/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Primary vertex caesarean section</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Toronto Video Atlas of Surgery. Presented as a patient case. Exteriorised two-layer uterine closure starts at 09:08, and abdominal closure at 13:25.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="operating-room-closure-and-anastomosis-advanced" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Operating-Room Closure and Anastomosis (Advanced)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Operative suturing for senior trainees: vessel and bowel anastomoses and abdominal wall closure. These come from the Toronto Video Atlas of Surgery, an open-access atlas of animation-enhanced surgical videos.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://pie.med.utoronto.ca/TVASurg/project/technique-parachuteanastomosis/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Parachute arterial anastomosis</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://pie.med.utoronto.ca/TVASurg/project/side-to-side-arterioplasty/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Vascular technique: Side-to-side arterioplasty</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://pie.med.utoronto.ca/TVASurg/project/lpvanastomosis/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Left portal vein anastomosis</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://pie.med.utoronto.ca/TVASurg/project/pedhaanastomosis/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Microvascular hepatic artery reconstruction</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://pie.med.utoronto.ca/TVASurg/project/rouxeny-hj/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Roux-en-Y hepaticojejunostomy</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://pie.med.utoronto.ca/TVASurg/project/pjdunktech/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Pancreaticojejunostomy &ldquo;Dunk&rdquo; technique</a></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.atlasofpelvicsurgery.com/9AbdominalWall/6MassiveClosureoftheAbdominalWallWithaOne-KnotSuture/cha9sec6.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Massive Closure of the Abdominal Wall with a One-Knot Suture</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Atlas of Pelvic Surgery. Written atlas page.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="practice-and-simulation" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">16</span>
+Practice and Simulation
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Suture practice kits and model-based tutorials. Practise here before you suture a patient.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://behindtheknife.org/video-playlists/behind-the-knife-suture-practice-kit-knot-tying-simulator-how-to-videos" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suture Practice Kit and Knot Tying Simulator How-To Videos</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Behind the Knife playlist. Instrument and one-hand ties.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://limbsandthings.com/au/suture-tutor/0606-09-local-anaesthesia" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suture Tutor: Local Anaesthesia</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Limbs &amp; Things training-model tutorial. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://limbsandthings.com/uk/suture-tutor/0904-suturing-techniques-continuous-sutures" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suture Tutor: Suturing Techniques, Continuous Sutures</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Limbs &amp; Things training-model tutorial. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suture-removal-and-aftercare" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">17</span>
+Suture Removal and Aftercare
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">No suture-removal video was confirmed for this collection. Removal time depends on the site, and the usual ranges for non-absorbable skin sutures are below. Remove earlier on the face to limit marks, and later over joints and under tension.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+  <thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400"><th class="py-2 pr-3">Site</th><th class="py-2 pr-3">Usual removal time</th></tr></thead>
+  <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+    <tr><td class="py-2 pr-3">Face</td><td class="py-2 pr-3">3 to 5 days</td></tr>
+    <tr><td class="py-2 pr-3">Scalp and arms</td><td class="py-2 pr-3">7 to 10 days</td></tr>
+    <tr><td class="py-2 pr-3">Trunk</td><td class="py-2 pr-3">10 to 14 days</td></tr>
+    <tr><td class="py-2 pr-3">Legs and joints</td><td class="py-2 pr-3">Up to 21 days</td></tr>
+  </tbody>
+</table></div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://opentextbc.ca/clinicalskills/chapter/4-4-suture-care-and-removal/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Suture care and removal (open clinical skills chapter)</a></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suggested-viewing-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">18</span>
+Suggested Viewing Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Week 1: first sutures</strong>
+  <p class="text-sm">ALiEM chapters 1 to 4 (equipment, anaesthesia, irrigation, starting), instrument tie (right and left), simple interrupted sutures (ALiEM, Geeky Medics and Closing The Gap), then practise on a model.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Week 2: common repairs</strong>
+  <p class="text-sm">Vertical and horizontal mattress, the corner stitch, buried sutures, then glue, strips and staples.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Before an obstetrics posting</strong>
+  <p class="text-sm">Repairing a Perineal Tear, episiotomy repair, and the caesarean closure video. See also the Childbirth Video Series guide.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Surgical rotation</strong>
+  <p class="text-sm">Running and subcuticular sutures, the full courses, and the operating-room closure and anastomosis videos.</p>
+</div>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand font-semibold mb-3">Do Not Suture Until You Have Checked</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Tendon, nerve, vessel, joint or bone involvement, which needs examination of function and often X-ray.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Heavy contamination, bites, puncture wounds or a long delay since injury, which may call for debridement and delayed closure.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Tetanus status, and rabies risk after a dog or other animal bite.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Eyelid margin, tear duct, lip border or facial nerve injury, which need senior or specialist repair.</span></li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-200">
+<p class="font-brand font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Anaesthesia, irrigation and good exposure matter as much as the stitch itself.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Learn the instrument tie with both hands, then the simple interrupted stitch, before moving to other techniques.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Watch the same technique from more than one teacher, then practise on a model before a patient.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Choose the closure to fit the wound: sutures, mattress stitches, glue, strips or staples, or no closure yet.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>These videos are mostly from high-income settings. Follow your own unit&rsquo;s protocols for antibiotics, tetanus and timing.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-slate-800 dark:text-slate-200 list-none">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-2">
+  <p class="text-[10px] leading-snug text-stone-500">Academic Life in Emergency Medicine (ALiEM). Wound closure video series. https://www.aliem.com/videos/</p>
+  <p class="text-[10px] leading-snug text-stone-500">LacerationRepair.com (Closing The Gap). https://lacerationrepair.com/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Geeky Medics. Suturing guides. https://geekymedics.com/category/surgery/suturing/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Journal of Medical Insight. Suture Selection and Knot Tying Demonstration; Suturing Techniques. https://jomi.com/</p>
+  <p class="text-[10px] leading-snug text-stone-500">University of Iowa Department of Ophthalmology and Visual Sciences, EyeRounds. Oculoplastics videos. https://eyerounds.org/video/plastics/plastics.htm</p>
+  <p class="text-[10px] leading-snug text-stone-500">Toronto Video Atlas of Surgery. https://pie.med.utoronto.ca/TVASurg/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Repairing a Perineal Tear. https://globalhealthmedia.org/videos/repairing-a-perineal-tear/</p>
+  <p class="text-[10px] leading-snug text-stone-500">MSD Manual Professional Edition. Wound care procedures and videos. https://www.msdmanuals.com/professional</p>
+  <p class="text-[10px] leading-snug text-stone-500">New England Journal of Medicine. Videos in Clinical Medicine: Basic Laceration Repair.</p>
+  <p class="text-[10px] leading-snug text-stone-500">Links were collected in November 2026 from search results and the source pages. The individual videos were not played, so the type of footage (real patient, cadaver or model) is not confirmed unless a card says so. Access to some items (JoMI, BroadcastMed, NEJM) may need an account. Sites may move or remove videos.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+{
+  id: 'resources-wound-dressing-video-collection',
+  title: 'Wound Dressing Video Collection',
+  category: 'External Resources',
+  subCategory: 'Surgery',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.sans, .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">RESOURCES &middot; SURGERY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Wound Dressing Video Collection</h1>
+  <p class="text-sm text-indigo-200">A curated list of 38 resources on cleaning, dressing and bandaging wounds, arranged from the basic dressing change through packing, bandages and slings, compression, home care for patients, burns and negative pressure therapy. In Nigerian practice most wounds are dressed, not sutured, and many patients, from road-crash injuries to diabetic foot, sickle cell leg ulcers and burns, depend on dressings for weeks. Use this list to learn technique, then adapt it to the supplies you actually have.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#about-this-collection" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>About This Collection</span></a></li>
+  <li><a href="#dressing-wounds-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Dressing Wounds in Nigerian Practice</span></a></li>
+  <li><a href="#start-here-principles-and-the-basic-dressing-change" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Start Here: Principles and the Basic Dressing Change</span></a></li>
+  <li><a href="#aseptic-technique-and-sterile-gloves" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Aseptic Technique and Sterile Gloves</span></a></li>
+  <li><a href="#cleaning-irrigating-and-debriding" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Cleaning, Irrigating and Debriding</span></a></li>
+  <li><a href="#packing-deep-wounds" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Packing Deep Wounds</span></a></li>
+  <li><a href="#choosing-a-dressing" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Choosing a Dressing</span></a></li>
+  <li><a href="#bandaging-and-slings" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Bandaging and Slings</span></a></li>
+  <li><a href="#compression-therapy-for-leg-ulcers" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Compression Therapy for Leg Ulcers</span></a></li>
+  <li><a href="#home-wound-care-for-patients-and-caregivers" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Home Wound Care for Patients and Caregivers</span></a></li>
+  <li><a href="#burn-dressings" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Burn Dressings</span></a></li>
+  <li><a href="#negative-pressure-wound-therapy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Negative Pressure Wound Therapy</span></a></li>
+  <li><a href="#skills-collections-for-nursing-students" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Skills Collections for Nursing Students</span></a></li>
+  <li><a href="#suggested-viewing-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Suggested Viewing Order</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="about-this-collection" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+About This Collection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">These are a collection of resources about wound dressing. Dressing-change video that is free and shows real patients is limited, which is why this list also includes teaching series, college skills collections and humanitarian videos.</p>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">
+  🔗 <a href="https://www.facs.org/Education/Patient-Education/Skills-Programs/wound-care" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">American College of Surgeons wound care skills program</a>
+  &nbsp;&middot;&nbsp;
+  📖 <a href="https://ewma.org/resource-limited-settings/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">EWMA: wound healing in resource-limited settings</a>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="dressing-wounds-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Dressing Wounds in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Ask what was applied.</strong> Patients often arrive after using home or herbal preparations on the wound. Ask without blame, wash it off with clean water, and explain why clean dressings work better.</li>
+  <li><strong>Clean water and a moist, protected wound.</strong> Irrigation, removal of dead tissue and a dressing that keeps the wound bed moist and protected matter more than brand. Do not pack a wound tightly or leave a dressing on for days when it is soaked or smells.</li>
+  <li><strong>Improvise safely.</strong> The low-resource manual in section 3 shows a layered dressing made from gauze, a greasy layer, plastic film, tape and bandage. Use what your unit stocks, and keep the wound clean and covered.</li>
+  <li><strong>Tetanus and infection.</strong> Check tetanus status for every open wound, and teach patients the signs of infection: spreading redness, heat, swelling, pus, smell, fever and worsening pain.</li>
+  <li><strong>Chronic wounds need a cause.</strong> For a leg or foot ulcer, look for diabetes, venous disease, sickle cell disease, poor arterial supply and neuropathy. The dressing alone will not heal it.</li>
+  <li><strong>Cost and return visits.</strong> Many patients cannot afford frequent dressing changes or travel. Teach a carer, show the home-care videos, and agree when to return.</li>
+</ul>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 text-amber-900 dark:text-amber-300">
+  <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+  <p class="text-sm">Most of these videos come from high-income countries and often show products that are not stocked in Nigeria, such as foam, hydrocolloid, silver and vacuum dressings. Advice on antiseptics, antibiotics, tetanus prophylaxis, dressing change frequency and when to refer can differ from WHO guidance, FMOH guidance and your hospital&rsquo;s protocol. Where they differ, follow the local protocol and ask your senior.</p>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="start-here-principles-and-the-basic-dressing-change" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Start Here: Principles and the Basic Dressing Change
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Begin with a clear walk-through of a routine dressing change, then the principles behind it. The two written guides were produced for low-resource settings and are the closest match to many Nigerian clinics.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/basic-wound-care-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Basic Wound Care</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://youtu.be/yfcti9Rjtfg" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Care (instructor demonstration)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Open RN Project, CC-BY. The page calls it an instructor demonstration. It does not say whether it shows a person or a manikin.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://oxfordmedicaleducation.com/videos/basic-wound-care-clinical-skills/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Basic Wound Care &ndash; Clinical Skills</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Oxford Medical Education. Plays through an embedded YouTube video. Footage type not stated.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://opentextbc.ca/clinicalskills/chapter/4-2-simple-dressing-change/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Simple Dressing Change (clinical skills chapter with Video 4.1)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Open clinical skills textbook, with a checklist and one video. The page does not name the video&rsquo;s maker.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.ilds.org/what-we-do/our-foundation/csh-journal/how-to-make-a-basic-dressing/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to make a basic dressing in a low-resource setting: instruction manual</a><span class="block mt-1 text-slate-500 dark:text-slate-400">International League of Dermatological Societies, 2024. Hand hygiene, removing the old dressing, cleaning, and a layered dressing of greased gauze, secondary gauze, plastic film, tape and bandage. Written, no video.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.ilds.org/what-we-do/our-foundation/csh-journal/the-six-basic-principles-of-wound-management-for-low-resource-settings/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The six basic principles of wound management for low-resource settings</a><span class="block mt-1 text-slate-500 dark:text-slate-400">International League of Dermatological Societies, 2024. Written, no video.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="aseptic-technique-and-sterile-gloves" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Aseptic Technique and Sterile Gloves
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Hand hygiene, clean versus sterile technique, and putting on sterile gloves without contaminating them.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://youtu.be/lumZOF-METc" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Sterile gloving nursing technique</a><span class="block mt-1 text-slate-500 dark:text-slate-400">RegisteredNurseRN on YouTube, cited by an open nursing skills textbook.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cleaning-irrigating-and-debriding" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Cleaning, Irrigating and Debriding
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Prepare the wound bed before any dressing goes on. Clean water irrigation and removal of dead tissue matter more than the dressing you choose.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/cleaning-a-wound-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Cleaning a Wound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/debriding-a-wound-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Debriding a Wound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="packing-deep-wounds" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Packing Deep Wounds
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Deep, open and abscess cavity wounds are packed to heal from the base up. See also the packing video in the American College of Surgeons program below.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/deep-wound-packing-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Deep Wound Packing</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="choosing-a-dressing" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Choosing a Dressing
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">There is no video in this collection on dressing selection, so the entry below is a written guide. Choose by wound depth, amount of drainage, infection and what your unit stocks.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.pharmaceutical-journal.com/cpd-and-learning/learning-article/how-to-select-a-wound-dressing/11039846.article" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to select a wound dressing</a><span class="block mt-1 text-slate-500 dark:text-slate-400">The Pharmaceutical Journal. Written learning article. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="bandaging-and-slings" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Bandaging and Slings
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Securing a dressing with a roller bandage, bandaging the hand, elbow and knee, and supporting an arm in a triangular sling.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.sja.org.uk/first-aid-advice/hand-bandage/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to bandage a hand</a><span class="block mt-1 text-slate-500 dark:text-slate-400">St John Ambulance. Page with one embedded video and six numbered steps.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.sja.org.uk/first-aid-advice/elbow-and-knee-bandage/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to put on elbow and knee bandages</a><span class="block mt-1 text-slate-500 dark:text-slate-400">St John Ambulance. Written steps and images. No video found on the page.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.sja.org.uk/first-aid-advice/bandage-dressing/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to put on a bandage</a><span class="block mt-1 text-slate-500 dark:text-slate-400">St John Ambulance. Written steps. No video found on the page.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.sja.org.uk/first-aid-advice/wound-dressing/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to apply a dressing</a><span class="block mt-1 text-slate-500 dark:text-slate-400">St John Ambulance. Linked from the bandage page. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://promoting-healthy-skin.qut.edu.au/m3_management.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Bandage application (module 3)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Queensland University of Technology. One short video on applying a simple bandage, under compression bandages. The page does not say whether it shows a patient.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.youtube.com/watch?v=i-PLKmnVOSo" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Triangular Sling</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Luxembourg fire and rescue service. Immobilising an upper limb with a triangular bandage.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.msdmanuals.com/professional/multimedia/video/how-to-apply-a-shoulder-sling-and-swathe-and-shoulder-immobilizer" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">How to Apply a Shoulder Sling and Swathe and Shoulder Immobilizer</a><span class="block mt-1 text-slate-500 dark:text-slate-400">MSD Manual Professional Edition. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/making-a-sling-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Making a Sling</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.osmosis.org/learn/Integumentary:_Applying_dressings_and_bandages_(for_nursing_assistant_training)" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Applying Dressings and Bandages (nursing assistant training)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Osmosis. Appeared in search results. Page not opened and likely needs a subscription.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="compression-therapy-for-leg-ulcers" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Compression Therapy for Leg Ulcers
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Compression is the mainstay for venous leg ulcers, and venous disease and sickle cell disease are both common causes of leg ulcers in Nigeria. Check the arterial supply before applying compression.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.clwk.ca/unna-boot-compression-therapy/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Unna boot compression wrap (8 minutes)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Linked from a Canadian wound-care resource page. The page says the video may take 1 to 2 minutes to download. Producer and footage type not stated.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="http://www.youtube.com/watch?v=FsEA7ECLtnY" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Compression bandaging application (Actico)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Listed by a leg-care charity. The page does not state the maker. The link label names the product Actico, so this may be a manufacturer video.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="home-wound-care-for-patients-and-caregivers" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Home Wound Care for Patients and Caregivers
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Plain-language videos for patients, families and community workers. Useful to show before discharge.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.facs.org/Education/Patient-Education/Skills-Programs/wound-care" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Care Skills Program (6 videos)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">American College of Surgeons with partner societies. Six video demonstrations: Caring for Lacerations and Abrasions, Wound Cleaning, Packing a Wound, Dressings and Bandaging, Caring for Your Surgical Drain, and Negative Pressure Wound Therapy. The page gives one embed link for all six, so find each video on the page. Booklets on surgical wounds, pressure ulcers, diabetic foot ulcers and venous leg ulcers are included.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.sikana.tv/en/health/first-aid/first-aid-minor-wound" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid: Minor Wound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Sikana. Wash hands, rinse with clean water and soap, cover with sterile gauze, check tetanus status, and watch for infection.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.sikana.tv/en/health/first-aid/first-aid-serious-wound" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid: Serious Wound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Sikana. Appeared as a related video. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.sikana.tv/en/health/first-aid/first-aid-bleeding" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid: Bleeding</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Sikana. Appeared as a related video. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/home-care-of-wounds-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Home Care of Wounds</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/first-aid-for-wounds-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid for Wounds</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="burn-dressings" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Burn Dressings
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Burn dressings follow different rules from other wounds, and most patients need fluids, pain control and referral decisions first. The Burn Care Video Series guide in this library covers the full set.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/dressing-a-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Dressing a Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/dressing-the-hand-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Dressing the Hand Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/dressing-a-new-burn-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Dressing a New Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://globalhealthmedia.org/video/home-care-of-burns-english/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Home Care of Burns</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Global Health Media Project. Link taken from your earlier list. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.sikana.tv/en/health/first-aid/first-aid-minor-burn" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid: Minor Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Sikana. Appeared as a related video. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.sikana.tv/en/health/first-aid/first-aid-serious-burn" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">First Aid: Serious Burn</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Sikana. Appeared as a related video. Not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://ewma.org/wp-content/uploads/2024/06/Thermal-burns-in-less-resourced-settings-EN.pdf" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Thermal burns in less resourced settings</a><span class="block mt-1 text-slate-500 dark:text-slate-400">European Wound Management Association. Written PDF. Appeared in search results. Not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="negative-pressure-wound-therapy" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Negative Pressure Wound Therapy
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Vacuum dressings are rare outside large centres, so this is for awareness. It is also demonstrated in the American College of Surgeons program above.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://www.hmpgloballearningnetwork.com/site/wounds/how-demonstration/negative-pressure-wound-therapy-npwt-devices" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Negative Pressure Wound Therapy (NPWT) Devices</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Wounds journal how-to demonstration, 2025. Applies three NPWT products. The transcript mentions a patient, but the page does not say whether this is a volunteer or a model.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="skills-collections-for-nursing-students" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Skills Collections for Nursing Students
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Institutional skills libraries covering assessment, irrigation, dressing changes, pressure ulcers and drains. Some may need a college login.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://library.mohawkcollege.ca/research-guides/practical-nursing/wound-care" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound Care and Management Online Videos</a><span class="block mt-1 text-slate-500 dark:text-slate-400">College library guide. Lists Assessing Wounds, Irrigating Wounds, Changing a Dressing, Caring for Pressure Ulcers, Using Wound Drainage Systems and Mosby&rsquo;s wound care segments. The page gives no links, so access may need institutional login.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">🔗 <a href="https://mediasite.rcc.edu/nursingskills/intermediate/skill/R005.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Wound care skills (assessing wounds, irrigating, changing a dressing, drainage systems)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Community college nursing skills site. Each skill has a procedure video, guidelines and a checklist. Pick the skill from the Select a Skill menu.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suggested-viewing-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Suggested Viewing Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">First week on the ward</strong>
+  <p class="text-sm">Basic Wound Care, Wound Care (instructor demonstration), the sterile gloving video, Cleaning a Wound, then the ILDS basic dressing manual.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Surgical or emergency posting</strong>
+  <p class="text-sm">Debriding a Wound, Deep Wound Packing, the bandaging and sling videos, and the American College of Surgeons program.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Leg ulcers and chronic wounds</strong>
+  <p class="text-sm">The six principles of wound management, the compression and Unna boot videos, and the ACS booklets on diabetic foot, pressure ulcers and venous ulcers.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Teaching patients and carers</strong>
+  <p class="text-sm">Home Care of Wounds, First Aid for Wounds, First Aid: Minor Wound, Home Care of Burns and the ACS program.</p>
+</div>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand font-semibold mb-3">Findings That Must Not Be Missed</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Spreading cellulitis, fever, severe pain out of proportion to the wound, blistering, dusky skin or gas, which can mean necrotising infection and need urgent surgery.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>A cold, pulseless or very painful limb before any compression bandage, because compression is unsafe with poor arterial supply.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Exposed tendon, bone, joint or retained foreign body, which needs examination, imaging or referral.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>A diabetic foot ulcer with deep infection, bone involvement or gangrene.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Wounds from bites, rusty or soiled objects, with unknown tetanus status, or after snakebite with swelling and bleeding.</span></li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-200">
+<p class="font-brand font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Clean, remove dead tissue and protect the wound. The cleaning matters more than the dressing brand.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use hand hygiene and clean or sterile technique to suit the wound, and check tetanus status.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Pack deep wounds loosely and heal them from the base up.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Find and treat the cause of a chronic ulcer, and check the arterial supply before compression.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Teach the carer, and give clear signs for when to return. Many patients cannot attend often.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-slate-800 dark:text-slate-200 list-none">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-2">
+  <p class="text-[10px] leading-snug text-stone-500">International League of Dermatological Societies. Community Skin Health: How to make a basic dressing in a low-resource setting; The six basic principles of wound management for low-resource settings (2024). https://www.ilds.org/</p>
+  <p class="text-[10px] leading-snug text-stone-500">American College of Surgeons. Wound Care Skills Program. https://www.facs.org/Education/Patient-Education/Skills-Programs/wound-care</p>
+  <p class="text-[10px] leading-snug text-stone-500">Open RN Project. Wound care (CC-BY).</p>
+  <p class="text-[10px] leading-snug text-stone-500">St John Ambulance. First aid advice: bandaging. https://www.sja.org.uk/first-aid-advice/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Sikana Education. First aid videos. https://www.sikana.tv/en/health/first-aid/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Global Health Media Project. Video library. https://globalhealthmedia.org/video/</p>
+  <p class="text-[10px] leading-snug text-stone-500">European Wound Management Association. Wound healing in resource-limited settings. https://ewma.org/resource-limited-settings/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Links were collected in November 2026 from search results and the source pages. The individual videos were not played, so the type of footage is not confirmed unless a card says so. Some items (college libraries, Osmosis, journal sites) may need a login. Sites may move or remove videos.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
+
+
 ];

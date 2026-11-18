@@ -1,8 +1,658 @@
 import { Template } from '../../types';
 
 export const GENERAL_OUTPATIENT_TEMPLATES: Template[] = [
+  {
+    id: 'gopd-68',
+    title: 'Acute Dentoalveolar Abscess with Facial Cellulitis',
+    specialty: 'General Outpatient',
+    subSpecialty: 'General Practice Clinic',
+    condition: 'Acute Dentoalveolar Abscess',
+    symptoms: [
+      'Pain in the left lower jaw x 3 days',
+      'Swelling of the left cheek x 2 days',
+      'Fever and headache x 2 days',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-17',
+    summary: 'A 32-year-old male mechanic presenting with a three-day history of progressively worsening pain involving the left lower posterior teeth, followed by rapidly increasing left facial swelling, fever, headache, and trismus for two days. Examination reveals a febrile, tachycardic patient with a warm, tender left submandibular and buccal swelling, erythematous overlying skin, and reduced mouth opening. Intra-oral examination reveals a grossly carious left mandibular first molar (36), marked tenderness to percussion, and fluctuation in the adjacent buccal sulcus. Findings are consistent with an acute dentoalveolar abscess complicated by facial cellulitis, with possible extension into the submandibular space.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 32-year-old male mechanic who resides in Ogbomosho, Oyo State. He is of the Yoruba ethnic group.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Pain in the left lower jaw x 3 days.
+  2. Swelling of the left cheek x 2 days.
+  3. Fever and headache x 2 days.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  He was apparently well until three days ago when he developed a dull, aching pain involving the left lower back teeth. The pain progressively became severe and throbbing in nature, interfering with sleep and work. It was aggravated by chewing and ingestion of hot fluids but was not significantly relieved by over-the-counter analgesics.
+  
+  Two days prior to presentation, he noticed a swelling on the left side of his face involving the lower jaw and cheek. The swelling is rapidly increasing in size and is associated with difficulty in opening the mouth (trismus). He also developed high-grade fever, chills, and generalized malaise within the same period.
+  
+  There is no history of difficulty in breathing, noisy breathing, or difficulty in swallowing. There is no history of trauma to the jaw.
+  
+  PAST MEDICAL HISTORY
+  
+  History of recurrent toothaches in the same region, for which he used salt-water gargles. No known history of diabetes mellitus or hypertension. No history of bleeding disorders.
+  
+  DRUG HISTORY
+  
+  Has taken paracetamol and various herbal concoctions (agbo) since the onset of symptoms, with no relief. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He is married in a monogamous setting with three children. He smokes about five sticks of cigarettes daily and has done so for 10 years. He drinks alcohol occasionally.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: Headache x 2 days. No loss of consciousness.
+  RS: No cough or chest pain.
+  CVS: No palpitations or pedal oedema.
+  GIT: Reduced appetite, but no nausea or vomiting.
+  MSS: Generalized body aches.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An acutely ill-looking young man, febrile (temperature 38.5°C), not pale, not jaundiced, and mildly dehydrated. No significant peripheral lymphadenopathy except in the submandibular region.
+  
+  VITAL SIGNS
+  
+  PR: 104 bpm, tachycardic, regular, full volume.
+  BP: 110/70 mmHg.
+  RR: 22 cpm.
+  SpO₂: 98% on room air.
+  Temperature: 38.5°C.
+  
+  LOCAL EXAMINATION
+  
+  EXTRA-ORAL EXAMINATION
+  
+  There is a diffuse, warm, and tender swelling over the left submandibular and buccal regions, measuring approximately 5 cm x 4 cm. The skin over the swelling is erythematous and tense.
+  
+  There is associated trismus (inter-incisal distance approximately 2 cm).
+  
+  Tender left submandibular lymph nodes are palpable.
+  
+  INTRA-ORAL EXAMINATION
+  
+  Poor oral hygiene with significant halitosis and dental plaque.
+  
+  The left lower first molar (tooth 36) is grossly carious, with associated gingival swelling and redness.
+  
+  The tooth is exquisitely tender to vertical percussion.
+  
+  Fluctuation is elicited at the buccal sulcus adjacent to the affected tooth.
+  
+  ASSESSMENT
+  
+  Acute dentoalveolar abscess involving the left mandibular first molar (36), complicated by facial cellulitis.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Periodontal abscess.
+  2. Infected dental cyst.
+  3. Submandibular space infection (possible early Ludwig's angina, although the presentation is currently unilateral).
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To assess for leukocytosis and neutrophilia.
+  2. Random Blood Sugar (RBS): To screen for underlying diabetes mellitus as a possible predisposing factor for severe infection.
+  3. Intra-oral Periapical Radiograph (IOPA) or Orthopantomogram (OPG): To assess the extent of periapical bone destruction and the status of the affected tooth.
+  4. Needle Aspiration for Gram Stain, Culture, and Sensitivity: If pus is accessible and aspiration is clinically appropriate.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. HOSPITALIZATION
+  
+  Admit for close observation and parenteral therapy given the facial swelling, trismus, and systemic symptoms. Arrange urgent assessment by an Oral and Maxillofacial Surgeon.
+  
+  2. FLUID RESUSCITATION
+  
+  IV Normal Saline 1 L 8-hourly was proposed to correct dehydration and maintain hydration. Review fluid requirements according to clinical assessment, haemodynamic status, urine output, and ongoing losses.
+  
+  3. ANTIBIOTICS
+  
+  - IV Ceftriaxone 1 g 12-hourly for 48 hours, followed by oral Cefuroxime 500 mg 12-hourly for 5 days.
+  - IV Metronidazole 500 mg 8-hourly for 48 hours, followed by oral Metronidazole 400 mg 8-hourly for 5 days.
+  - Alternative: IV Co-amoxiclav 1.2 g 12-hourly if Ceftriaxone is unavailable.
+  
+  Antibiotic choice and duration should be reviewed according to the severity of infection, local antimicrobial guidelines, clinical response, and culture results where available.
+  
+  4. ANALGESICS/ANTIPYRETICS
+  
+  - IV Paracetamol 1 g 8-hourly for fever and pain control.
+  - IM Diclofenac 75 mg stat for immediate pain relief, followed by oral Ibuprofen 400 mg 8-hourly, strictly after meals.
+  
+  5. SURGICAL INTERVENTION
+  
+  - Urgent incision and drainage (I&D) of the abscess to relieve pressure and evacuate pus.
+  - Extraction of the offending tooth (36) or commencement of root canal treatment (RCT), depending on restorability and clinical suitability, as part of definitive source control.
+  
+  6. SUPPORTIVE CARE
+  
+  - Warm saline mouth rinses 4–6 times daily to improve oral hygiene and facilitate drainage.
+  - Soft or liquid diet to ensure adequate nutrition despite trismus.
+  
+  7. MONITORING
+  
+  Regular assessment of the airway, swallowing ability, and extent of swelling to identify possible spread to deeper neck spaces.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
 
+  {
+    id: 'gopd-67',
+    title: 'Acute Irreversible Pulpitis of the Left Mandibular First Molar',
+    specialty: 'General Outpatient',
+    subSpecialty: 'General Practice Clinic',
+    condition: 'Acute Irreversible Pulpitis',
+    symptoms: [
+      'Severe toothache x 3 days',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-17',
+    summary: 'A 28-year-old male artisan presenting with a three-day history of severe, sharp, throbbing pain involving the left mandibular first molar (36). The pain is triggered by hot and cold stimuli, lingers after removal of the stimulus, worsens at night, and partially improves when sitting upright. Examination reveals a deep carious lesion involving the occlusal and distal surfaces of tooth 36, with marked tenderness to vertical percussion but no facial swelling, fever, trismus, or visible intra-oral abscess. Findings suggest symptomatic irreversible pulpitis, with possible associated symptomatic apical periodontitis.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 28-year-old male artisan who resides in Ogbomosho, Oyo State. Tribe: Yoruba.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Toothache x 3 days.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until three days ago when he developed severe, sharp, and throbbing pain in the left lower back tooth. The pain is elicited by cold and hot drinks and lingers for several minutes after the stimulus is removed. It is worse at night, often waking him from sleep, and is partially relieved by sitting upright.
+  
+  There is no associated facial swelling, fever, or difficulty in mouth opening (trismus). No history of trauma to the jaw or previous dental fillings in the affected area.
+  
+  PAST MEDICAL HISTORY
+  
+  He reports similar but milder episodes of pain in the same tooth over the last two months, which usually resolved spontaneously. No history of diabetes mellitus, hypertension, or asthma. No known bleeding disorders.
+  
+  DRUG HISTORY
+  
+  Has been taking Tab. Paracetamol 1 g and Tab. Ibuprofen 400 mg occasionally, with minimal relief. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He is a non-smoker and does not consume alcohol. His diet is high in refined carbohydrates and carbonated drinks. He brushes his teeth once daily in the morning with a medium-bristled toothbrush.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache or seizures.
+  RS: No cough or dyspnoea.
+  CVS: No palpitations or chest pain.
+  GIT: No change in bowel habits or abdominal pain.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Young man in obvious painful distress, holding the left side of his face. Not pale, not icteric, and not dehydrated. No pedal oedema. No significant submandibular or cervical lymphadenopathy.
+  
+  VITAL SIGNS
+  
+  PR: 84 bpm.
+  RR: 18 cpm.
+  BP: 124/82 mmHg.
+  Temperature: 36.8°C.
+  SpO₂: 98% on room air.
+  
+  EXTRA-ORAL EXAMINATION
+  
+  No facial asymmetry. No swelling or redness over the left mandible. Temporomandibular joint (TMJ) movements are within normal limits.
+  
+  INTRA-ORAL EXAMINATION
+  
+  Oral hygiene status is fair.
+  
+  Deep carious lesion involving the occlusal and distal surfaces of the left mandibular first molar (36).
+  
+  The tooth is extremely tender to vertical percussion.
+  
+  No visible fluctuant swelling on the gingiva or buccal vestibule.
+  
+  No pathological mobility of the affected tooth (Grade 0).
+  
+  ASSESSMENT
+  
+  Acute irreversible pulpitis of the left mandibular first molar (36), with possible associated symptomatic apical periodontitis.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Acute apical periodontitis.
+  2. Early periapical abscess.
+  3. Dentine hypersensitivity.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Intra-oral Periapical Radiograph (IOPA) of tooth 36: To assess the depth of the carious lesion, its proximity to the pulp chamber, and the state of the periapical tissues.
+  2. Pulp Sensibility Testing: Thermal (cold) test to assess pulpal response and identify lingering pain consistent with irreversible pulpitis.
+  3. Random Blood Sugar (RBS): To screen for underlying hyperglycaemia if multiple carious teeth or other clinical indications are noted.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. IMMEDIATE PHARMACOTHERAPY FOR PAIN
+  
+  - Tab. Ibuprofen 400 mg 8-hourly for 3 days, to be taken after meals.
+  - Tab. Paracetamol 1 g 8-hourly for 3 days.
+  - In cases of severe, excruciating pain: Tab. Tramadol 50 mg 8-hourly or 12-hourly may be added for 48 hours.
+  
+  2. INFECTION CONTROL (IF SIGNS OF PERIAPICAL INVOLVEMENT OR SYSTEMIC FEATURES APPEAR)
+  
+  - Cap. Amoxicillin 500 mg 8-hourly for 5 days.
+  - Tab. Metronidazole 400 mg 8-hourly for 5 days.
+  
+  3. EMERGENCY DENTAL PROCEDURE (DEFINITIVE TREATMENT)
+  
+  - Referral to a Dental Surgeon for pulpectomy (first stage of root canal treatment) to remove the inflamed pulp and provide pain relief.
+  - If the tooth is non-restorable due to extensive crown destruction, dental extraction under local anaesthesia (2% lidocaine with 1:80,000 adrenaline) will be planned.
+  
+  4. SUPPORTIVE CARE AND COUNSELLING
+  
+  - Maintain adequate oral hydration (2–3 litres of water daily).
+  - Warm saline mouthwash (half a teaspoon of salt in a glass of warm water) 3–4 times daily.
+  - Avoid very hot, cold, or sugary foods and drinks until definitive treatment is completed.
+  - Instruction on proper oral hygiene: Brush twice daily with fluoride-containing toothpaste.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+{
+  id: 'gopd-66',
+  title: 'Generalized Plaque-Induced Gingivitis',
+  specialty: 'General Outpatient',
+  subSpecialty: 'General Practice Clinic',
+  condition: 'Plaque-Induced Gingivitis',
+  symptoms: [
+    'Bleeding gums x 1 week',
+    'Swollen and reddish gums x 2 weeks',
+    'Halitosis x 2 weeks',
+  ],
+  contributor: 'Admin',
+  lastModified: '2026-11-17',
+  summary: 'A 32-year-old female presenting with a two-week history of progressive gingival swelling, redness, and halitosis, with bleeding during tooth brushing and occasionally while eating hard foods for one week. Examination reveals generalized marginal gingival erythema and oedema, friable gingivae that bleed on probing, and significant plaque and supragingival calculus accumulation. Periodontal probing depths are 1–3 mm, with no clinical attachment loss, tooth mobility, or punched-out interdental papillae. Findings are consistent with generalized plaque-induced gingivitis.',
+  content: `
+PATIENT IDENTIFICATION
 
+A 32-year-old female civil servant who resides in Ogbomosho, Oyo State. She is of the Yoruba ethnic group and a Christian.
+
+PRESENTING COMPLAINTS
+
+1. Bleeding gums x 1 week.
+2. Swollen and reddish gums x 2 weeks.
+3. Bad breath (halitosis) x 2 weeks.
+
+HISTORY OF PRESENTING COMPLAINT
+
+She was apparently well until two weeks ago when she noticed that her gums were becoming progressively swollen and reddish. About one week ago, she began to experience bleeding from the gums, which occurs primarily during tooth brushing and occasionally when eating hard foods like crusty bread. The bleeding is usually minimal and stops spontaneously.
+
+She also reports a persistent foul odour from her mouth, which started around the same time as the swelling. There is no associated toothache, tooth mobility, or facial swelling. She denies any history of fever, weight loss, or spontaneous bleeding from other sites such as the nose or skin.
+
+PAST MEDICAL HISTORY
+
+She is not a known hypertensive or diabetic. No known history of bleeding disorders or haematological malignancies. No history of epilepsy or use of anticonvulsants. No previous dental surgeries or similar episodes in the past.
+
+DRUG HISTORY
+
+She is not on any routine medications. No history of chronic use of nifedipine or phenytoin. No known drug allergies.
+
+FAMILY AND SOCIAL HISTORY
+
+She is married in a monogamous setting with two children. She does not smoke cigarettes or consume alcohol. Her diet consists mainly of processed carbohydrates, with infrequent intake of fresh fruits and vegetables.
+
+REVIEW OF SYSTEMS
+
+CNS: No headache or history of seizures.
+CVS: No palpitations, orthopnoea, or pedal oedema.
+RS: No cough or dyspnoea.
+GIT: No abdominal pain or change in bowel habits.
+MSS: No joint pains or swellings.
+
+PHYSICAL EXAMINATION
+
+GENERAL EXAMINATION
+
+She is a young woman in no obvious respiratory or painful distress.
+
+Acutely ill: No.
+Pallor: Absent.
+Jaundice: Absent.
+Dehydration: Absent.
+Peripheral lymphadenopathy: Absent.
+
+VITAL SIGNS
+
+Pulse Rate: 76 bpm, regular, normal volume.
+Blood Pressure: 115/75 mmHg.
+Respiratory Rate: 16 cpm.
+Temperature: 36.5°C.
+
+EXTRA-ORAL EXAMINATION
+
+No facial asymmetry or swellings. No submandibular or submental lymphadenopathy. Temporomandibular joints are clinically normal, with no clicks or tenderness.
+
+INTRA-ORAL EXAMINATION
+
+Generalized marginal gingival erythema and oedema noted.
+
+The gingivae are friable and bleed easily upon gentle probing.
+
+There is significant accumulation of dental plaque and supragingival calculus, particularly on the lingual surfaces of the lower anterior teeth.
+
+No periodontal pockets identified (probing depths are within 1–3 mm).
+
+No evidence of gingival recession or tooth mobility.
+
+Punched-out interdental papillae are absent.
+
+Oral hygiene status: Fair.
+
+ASSESSMENT
+
+Generalized plaque-induced gingivitis.
+
+DIFFERENTIAL DIAGNOSES
+
+1. Chronic periodontitis (distinguished by the absence of clinical attachment loss and bone loss).
+2. Scurvy (vitamin C deficiency).
+3. Pregnancy-associated gingivitis (requires confirmation of pregnancy status via LMP/pregnancy test).
+4. Acute necrotizing ulcerative gingivitis (ANUG), less likely given the absence of pain, necrotic slough, and punched-out interdental papillae.
+
+INITIAL INVESTIGATION PLAN
+
+1. Intra-oral Periapical Radiographs: To assess for alveolar bone loss.
+2. Full Blood Count (FBC): To investigate possible systemic conditions such as leukaemia or thrombocytopenia, particularly if bleeding persists or is disproportionate to the local findings.
+3. Random Blood Sugar (RBS): To screen for underlying diabetes mellitus.
+
+INITIAL MANAGEMENT PLAN
+
+NON-PHARMACOLOGICAL/PROCEDURAL
+
+1. Oral Hygiene Instructions: Detailed education on the Modified Bass brushing technique using a soft-bristled toothbrush twice daily. Demonstrate the use of dental floss for interproximal cleaning.
+2. Professional Scaling and Polishing: To remove local aetiological factors (plaque and calculus).
+
+PHARMACOLOGICAL
+
+1. Antimicrobial Mouthwash: Chlorhexidine gluconate 0.12% oral rinse. Dispense 1 bottle.
+
+Dosage: Rinse with 15 mL (undiluted) for 30 seconds twice daily (after breakfast and before bed) for 14 days. Avoid eating or drinking for 30 minutes after rinsing.
+
+2. Analgesics (if discomfort is present): Tab. Ibuprofen 400 mg.
+
+Dosage: 1 tablet 8-hourly for 3 days, taken after meals.
+
+3. Nutritional Supplementation: Tab. Vitamin C (ascorbic acid) 200 mg.
+
+Dosage: 1 tablet daily for 1 month.
+
+FOLLOW-UP
+
+Review the patient in 2 weeks to evaluate the resolution of gingival inflammation and reinforce oral hygiene practices. If symptoms persist despite plaque control, reassess for systemic contributing factors.
+`,
+  documentation: `
+<div class="space-y-6">
+Not yet available
+</div>
+`,
+  bookmarkCount: 0
+},
+
+  {
+    id: 'gopd-65',
+    title: 'Secondary Infertility – Suspected Male Factor',
+    specialty: 'General Outpatient',
+    subSpecialty: 'General Practice Clinic',
+    condition: 'Secondary Infertility',
+    symptoms: [
+      'Inability to achieve conception with spouse x 2 years',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-15',
+    summary: 'A 38-year-old male presenting with secondary infertility after two years of regular, unprotected sexual intercourse with his 32-year-old wife. The couple previously had a child together five years ago and have not used contraception since. He has no significant history of genitourinary infection, scrotal trauma, or surgery. Examination reveals normal male secondary sexual characteristics, bilaterally descended testes of normal volume, palpable vas deferens, and no clinically detectable varicocele. Suspected male-factor infertility. Differentials include oligoasthenozoospermia, chronic prostatitis or asymptomatic genitourinary infection, subclinical varicocele, and secondary hypogonadism.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 38-year-old male civil servant who resides in Dutse, Jigawa State. He is of the Hausa ethnic group and is currently in a monogamous marriage.
+  
+  PRESENTING COMPLAINT
+  
+  1. Inability to achieve conception with spouse x 2 years.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until two years ago when he and his spouse started trying to conceive. Despite regular, unprotected sexual intercourse occurring at least 3–4 times per week, his spouse has not achieved pregnancy.
+  
+  The patient fathered a child previously with the same partner about five years ago. The child was delivered via spontaneous vaginal delivery at term. Since then, they have not used any form of contraception.
+  
+  There is no history of erectile dysfunction or loss of libido. He denies any history of premature or delayed ejaculation. There is no history of urethral discharge, dysuria, or scrotal pain. No history of scrotal swelling or heaviness is noted. There is no history of high-grade fever or parotid swelling (mumps) in adulthood. He denies any history of groin trauma or previous surgery for hernias or undescended testes. He has no chronic cough or history suggestive of tuberculosis.
+  
+  PAST MEDICAL HISTORY
+  
+  No known history of hypertension, diabetes mellitus, or sickle cell disease. No previous hospitalisations or blood transfusions. No history of inguinal or scrotal surgeries.
+  
+  DRUG AND SOCIAL HISTORY
+  
+  He does not smoke cigarettes but drinks alcohol socially (approximately two bottles of beer weekly). No history of using herbal preparations (agbo) or anabolic steroids. He is a civil servant but often travels long distances for work, spending long hours driving.
+  
+  FAMILY HISTORY
+  
+  He is in a monogamous marriage. His spouse is 32 years old with regular menstrual cycles. No family history of infertility or genetic disorders.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headaches or visual field defects.
+  RS: No cough or chest pain.
+  CVS: No palpitations or orthopnoea.
+  GIT: Normal appetite and bowel habits.
+  MSS: No bone pain or joint swellings.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An adult male, not acutely ill and not in any respiratory or painful distress.
+  Afebrile, T: 36.7°C.
+  Not pale, anicteric, no pedal oedema, and no peripheral lymphadenopathy.
+  Weight: 84 kg.
+  Height: 1.75 m.
+  BMI: 27.4 kg/m² (Overweight).
+  Normal male secondary sexual characteristics, with normal male hair distribution and absence of gynaecomastia.
+  
+  VITAL SIGNS
+  
+  PR: 78 bpm, regular, normal volume.
+  BP: 130/80 mmHg.
+  RR: 16 cpm.
+  SpO₂: 98% on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  ABDOMEN
+  
+  Flat and moves with respiration. No surgical scars.
+  Soft, non-tender, with no palpable masses or organomegaly.
+  Bowel sounds present and normal.
+  
+  GENITOURINARY EXAMINATION
+  
+  Penis: Normal size, circumcised, urethral meatus centrally located, and no discharge.
+  
+  Scrotum: Normal skin, with no visible swellings.
+  
+  Testes: Both testes descended, firm, and of normal volume (approximately 20 mL bilaterally). No tenderness.
+  
+  Epididymis: Non-tender, with no palpable cysts.
+  
+  Vas deferens: Palpable bilaterally.
+  
+  Varicocele: No palpable varicocele in the supine position or with Valsalva manoeuvre.
+  
+  ASSESSMENT
+  
+  Secondary infertility, with suspected male factor.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Chronic prostatitis or asymptomatic genitourinary infection.
+  2. Oligoasthenozoospermia, possibly associated with lifestyle or occupational heat exposure.
+  3. Subclinical varicocele.
+  4. Secondary hypogonadism.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Seminal Fluid Analysis (SFA): To be performed after 3–5 days of abstinence. Two samples collected 2–4 weeks apart are required for assessment.
+  2. Scrotal Ultrasound with Doppler: To assess testicular volume and evaluate for varicocele.
+  3. Urinalysis and Urine Culture/Sensitivity: To investigate possible urinary tract infection.
+  4. Hormonal Profile: Serum testosterone, FSH, LH, and prolactin.
+  5. Partner evaluation: Referral for appropriate gynaecological assessment, including pelvic ultrasound and other investigations as clinically indicated.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Counselling: Detailed counselling of the couple on the definition of infertility, the importance of timing intercourse around the fertile window, and the need for joint evaluation.
+  2. Lifestyle Modification: Advice on smoking and alcohol cessation, where applicable, and avoidance of excessive heat exposure, including taking regular breaks during long-distance driving and avoiding prolonged exposure to high-temperature environments.
+  3. Empirical Treatment: Consider a course of antibiotics, such as Tab. Ciprofloxacin 500 mg twice daily for 10 days, only if supported by clinical evidence of infection and appropriate investigation results, such as a positive urine culture or confirmed infection.
+  4. Supplements: Consider antioxidant supplementation (e.g. Vitamin E, zinc, and L-carnitine) after discussing the limited evidence supporting their effectiveness in improving fertility outcomes.
+  5. Follow-up: Review with SFA results for further assessment and possible referral to a Urologist/Andrologist or Assisted Reproductive Technology (ART) specialist if semen parameters are significantly deranged.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'gopd-64',
+    title: 'Primary Male Infertility with Left-Sided Varicocele',
+    specialty: 'General Outpatient',
+    subSpecialty: 'General Outpatient Clinic',
+    condition: 'Primary Male Infertility',
+    symptoms: [
+      'Inability to achieve pregnancy with partner x 2 years',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-15',
+    summary: 'A 34-year-old male presenting with primary infertility after two years of regular, unprotected sexual intercourse with his 27-year-old wife. He has no significant history of genitourinary infection, testicular trauma, or surgery. Examination reveals bilaterally palpable testes with mildly reduced estimated volumes and a Grade II left-sided varicocele. Primary male infertility, possibly associated with varicocele, is suspected. Differentials include oligozoospermia, idiopathic male infertility, occupational heat exposure, and obstructive azoospermia.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 34-year-old male civil servant who resides in Ogbomosho, Oyo State. He is of the Yoruba ethnic group and is currently in a monogamous marriage.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Inability to achieve pregnancy with partner x 2 years.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until two years ago when he and his wife started trying to conceive. He has been married for two years and has cohabited with his spouse throughout this period. They report having regular, unprotected sexual intercourse at least 3–4 times per week, with appropriate timing around the mid-cycle.
+  
+  There is no history of erectile dysfunction, loss of libido, or premature ejaculation. He has no history of previous children from other relationships. He denies any history of urethral discharge, dysuria, or orchitis (testicular pain and swelling). There is no history of mumps during childhood. He also denies any history of scrotal trauma or previous surgeries in the groin or scrotal area. He has no history of chronic cough or features suggestive of chronic respiratory infections.
+  
+  His wife is 27 years old, has regular menstrual periods, and has no history of previous pregnancies or known gynaecological issues.
+  
+  PAST MEDICAL HISTORY
+  
+  No known history of diabetes mellitus or hypertension. No history of undescended testes in childhood. No history of inguinal hernia or previous herniorrhaphy. No history of surgery for testicular torsion.
+  
+  DRUG HISTORY
+  
+  Not on any routine medications. No history of anabolic steroid use. He admits to occasional use of herbal concoctions (agbo) for "libido enhancement" over the last six months. No known drug allergies.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  He is a long-distance commercial driver, often spending 8–10 hours daily behind the wheel. Non-smoker. Occasional social drinker of alcohol (mostly beer, 1–2 bottles per week). No family history of infertility or cystic fibrosis.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: No headache or visual disturbances.
+  CVS: No palpitations or orthopnoea.
+  RS: No cough or chest pain.
+  GIT: No abdominal pain or change in bowel habits.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  A young man, comfortable and not acutely ill.
+  Not pale, anicteric, not dehydrated, and no peripheral oedema.
+  No gynaecomastia. Normal male hair distribution (axillary, pubic, and facial hair).
+  BMI: 25.8 kg/m² (Overweight).
+  
+  VITAL SIGNS
+  
+  PR: 76 bpm, regular, normal volume.
+  BP: 124/82 mmHg.
+  RR: 18 cpm.
+  T: 36.5°C.
+  SpO₂: 98% on room air.
+  
+  SYSTEMIC EXAMINATION
+  
+  Abdomen: Flat and moves with respiration. No surgical scars or palpable organomegaly. No cough impulse in the inguinal regions.
+  
+  UROGENITAL EXAMINATION
+  
+  Penis: Normal male circumcised penis. Urethral meatus is centrally located at the tip of the glans. No discharge.
+  
+  Scrotum: Both testes are palpable in the scrotum. Right testis measures approximately 15 mL, while the left measures approximately 12 mL (using a Prader orchidometer estimate). Both are firm in consistency and non-tender.
+  
+  Epididymis: Both palpable and non-tender.
+  
+  Vas deferens: Both present and palpable.
+  
+  Varicocele: Grade II varicocele noted on the left side, with visible and palpable veins that become more prominent upon Valsalva manoeuvre.
+  
+  ASSESSMENT
+  
+  Primary male infertility, likely associated with a Grade II left-sided varicocele.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Oligozoospermia secondary to varicocele.
+  2. Idiopathic male infertility.
+  3. Chronic heat-induced spermatogenic failure (occupational).
+  4. Obstructive azoospermia.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Seminal Fluid Analysis (SFA): Two separate samples collected 2–4 weeks apart after 3–5 days of abstinence.
+  2. Scrotal Ultrasound with Doppler: To confirm varicocele and assess testicular volume.
+  3. Hormonal Profile: Serum FSH, LH, testosterone, and prolactin levels.
+  4. Urinalysis and midstream urine for microscopy, culture, and sensitivity (to rule out subclinical infection).
+  5. Partner evaluation: Referral to Gynaecology for basic fertility workup (pelvic ultrasound and hysterosalpingography).
+  
+  INITIAL MANAGEMENT PLAN
+  
+  1. Patient counselling on the nature of infertility and the role of both partners in evaluation.
+  2. Advice on lifestyle modifications: Avoidance of tight-fitting underwear, reducing prolonged periods of sitting, and stopping herbal supplements.
+  3. Commence antioxidant therapy: Tab. Vitamin E 400 mg daily and Tab. Zinc 20 mg daily for 3 months.
+  4. Schedule a follow-up appointment to review SFA and ultrasound results.
+  5. Surgical consultation: Refer to Urology for consideration of varicocelectomy if SFA shows significant abnormalities.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
     {
         id: 'gopd-63',
         title: 'Angular Cheilitis',

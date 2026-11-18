@@ -2,6 +2,346 @@ import { Template } from '../../types';
 
 export const OB_GYN_TEMPLATES: Template[] = [
 
+
+  
+  {
+    id: 'ob-100',
+    title: 'Preeclampsia with Severe Features',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Clinic',
+    condition: 'Preeclampsia with Severe Features',
+    symptoms: [
+      'Persistent headache',
+      'Blurred vision and photopsia',
+      'Bilateral pedal oedema',
+      'Epigastric pain',
+      'Severe hypertension',
+      'Proteinuria',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-17',
+    summary: 'A 30-year-old G2P1+0 woman at 36 weeks and 4 days of gestation who presented with one week of progressive bilateral pedal oedema, two days of persistent headache, one day of blurred vision and photopsia, and epigastric pain. Examination revealed severe-range hypertension (175/115 mmHg), bilateral pitting pedal oedema, hyperreflexia and 3+ proteinuria on urinalysis. Assessed as preeclampsia with severe features. Differential diagnoses include chronic hypertension with superimposed preeclampsia, gestational hypertension and impending eclampsia.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 30-year-old female trader who resides in Ogbomosho, Oyo State. She is a Yoruba woman, G2 P1+0 (one previous term delivery, one living child) at 36 weeks and 4 days EGA.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Headache x 2/7
+  2. Blurred vision x 1/7
+  3. Swelling of feet x 1/52
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  The patient was apparently well until one week ago when she noticed progressively increasing swelling of both feet, which was more prominent at the end of the day and worsened despite rest. Two days prior to presentation, she developed a persistent, throbbing frontal headache that was poorly relieved by oral paracetamol. Yesterday, she started experiencing blurred vision and occasional flashes of light (photopsia). She also reports a dull, aching pain in the epigastric region of about six hours' duration.
+  
+  There is no history of seizures, loss of consciousness or focal weakness. No history of vaginal bleeding or drainage of liquor. Fetal movements are reported to be adequate.
+  
+  PAST OBSTETRIC HISTORY
+  
+  G1: Three years ago, delivered a live male infant at term via SVD at a private facility. Pregnancy was reportedly uneventful, with no history of hypertension.
+  
+  GYNAECOLOGICAL HISTORY
+  
+  LMP: January 15th, 2024
+  EDD: October 22nd, 2024
+  EGA: 36 weeks and 4 days
+  
+  Booking status: Booked at 16 weeks EGA at a General Hospital. Has had 6 ANC visits. Routine medications (FeSO4, folic acid, IPTp) taken. Last PCV documented was 34%.
+  
+  PAST MEDICAL AND SURGICAL HISTORY
+  
+  Not a known hypertensive or diabetic prior to this pregnancy. No previous surgeries.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Mother is hypertensive and on medication. Married in a monogamous setting. Does not smoke or drink alcohol. High salt intake reported in diet.
+  
+  REVIEW OF SYSTEMS
+  
+  CNS: Positive for headache and visual disturbances. Negative for tremors.
+  
+  CVS: Negative for orthopnoea or paroxysmal nocturnal dyspnoea.
+  
+  GIT: Positive for epigastric pain. Negative for nausea or vomiting.
+  
+  Respiratory: Negative for cough or dyspnoea.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  An adult female, conscious and alert, in mild painful distress. Not pale, not icteric, not cyanosed. Significant bilateral pitting pedal oedema up to the mid-shins.
+  
+  VITAL SIGNS
+  
+  BP: 175/115 mmHg (measured sitting, right arm; repeat check after 15 minutes confirmed 170/110 mmHg)
+  
+  PR: 88 bpm, regular, full volume.
+  
+  RR: 20 cpm.
+  
+  Temp: 36.7°C.
+  
+  SpO2: 98% on room air.
+  
+  ABDOMINAL (OBSTETRIC) EXAMINATION
+  
+  Inspection: Gravid enlargement consistent with EGA. No surgical scars.
+  
+  Palpation: SFH: 35 cm. Lie: Longitudinal. Presentation: Cephalic. Fetus is not engaged.
+  
+  Auscultation: Fetal heart rate: 144 bpm, regular.
+  
+  No uterine contractions palpable.
+  
+  NEUROLOGICAL EXAMINATION
+  
+  Hyperreflexia noted on knee jerk (3+). No ankle clonus.
+  
+  URINALYSIS (POINT OF CARE)
+  
+  Protein: 3+
+  Sugar: Negative
+  Nitrites: Negative
+  
+  ASSESSMENT
+  
+  Preeclampsia with severe features in a G2 P1+0 woman at 36 weeks and 4 days EGA.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Chronic hypertension with superimposed preeclampsia.
+  2. Gestational hypertension.
+  3. Impending eclampsia.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To check haematocrit and platelet count (rule out thrombocytopenia).
+  
+  2. Liver Function Tests (LFTs): Check AST, ALT and bilirubin to assess for hepatic involvement and HELLP syndrome.
+  
+  3. Kidney Function Tests (E/U/Cr): Check serum creatinine and uric acid.
+  
+  4. Urine protein-creatinine ratio or 24-hour urine protein for quantification, if required. Quantification should not delay treatment or delivery.
+  
+  5. Obstetric Ultrasound: Assess fetal growth, wellbeing, liquor volume (AFI) and placental site.
+  
+  6. Cardiotocography (CTG): For fetal heart rate monitoring and assessment of fetal wellbeing.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  GENERAL MEASURES
+  
+  1. Urgent admission to the Labour Ward or High Dependency Unit for close monitoring and senior obstetric review.
+  
+  2. Maintain a calm environment and minimise unnecessary stimulation. Encourage mobilisation as clinically appropriate rather than routine absolute bed rest.
+  
+  3. Strict fluid balance: Carefully monitor and restrict total fluid intake, including IV and oral fluids, to approximately 80 mL/hour or 1 mL/kg/hour, subject to clinical assessment and local protocol. Avoid unnecessary fluid boluses because of the risk of pulmonary oedema.
+  
+  4. Insert an indwelling Foley catheter for hourly urine output monitoring.
+  
+  SEIZURE PROPHYLAXIS (MAGNESIUM SULPHATE - PRITCHARD REGIMEN)
+  
+  1. Loading Dose: 4 g of 20% MgSO4 IV slowly over 10–15 minutes PLUS 10 g of 50% MgSO4 IM (5 g in each buttock via deep IM injection).
+  
+  2. Maintenance Dose: 5 g of 50% MgSO4 IM every 4 hours in alternating buttocks for 24 hours after delivery or after the last seizure.
+  
+  3. Mandatory monitoring before each maintenance dose:
+     - Respiratory rate must be at least 16 cpm.
+     - Patellar reflex must be present.
+     - Urine output must be at least 30 mL/hour or 100 mL in 4 hours.
+  
+  4. Antidote: Keep 10 mL of 10% calcium gluconate at the bedside for slow IV administration in case of magnesium toxicity.
+  
+  ANTIHYPERTENSIVE THERAPY (FOR ACUTE CONTROL)
+  
+  1. Hydralazine: 5 mg IV slowly every 15–20 minutes, with repeated BP assessment and dose adjustment according to the institutional protocol, until BP is below the severe range. Maximum total dose of 20 mg as specified in the protocol.
+  
+  2. Alternative: Labetalol 20 mg IV bolus over 2 minutes. May repeat with 40–80 mg at 10-minute intervals according to response. Maximum cumulative dose of 300 mg.
+  
+  3. Oral maintenance: Nifedipine retard 20 mg BD or another appropriate maintenance antihypertensive regimen, titrated to BP response. Methyldopa 500 mg TDS may be considered where appropriate but should not replace prompt treatment of acute severe hypertension.
+  
+  FETAL CARE
+  
+  1. Consider antenatal corticosteroids if delivery is anticipated before 37 weeks and there is no previous completed course, in accordance with local protocol. Dexamethasone 6 mg IM every 12 hours for 4 doses may be used. Administration must not delay indicated delivery.
+  
+  DEFINITIVE MANAGEMENT
+  
+  1. Stabilisation of the maternal condition, including prompt control of severe hypertension and seizure prophylaxis.
+  
+  2. Delivery is the definitive treatment. At 36 weeks and 4 days with preeclampsia with severe features, plan delivery after maternal stabilisation rather than routinely waiting 24 hours. The mode of delivery (induction of labour versus Caesarean section) should be determined by obstetric assessment, cervical Bishop score, fetal status and other maternal or fetal indications.
+  
+  3. Continuous or frequent monitoring of maternal vital signs and fetal heart rate during the acute phase, with BP reassessment every 15–30 minutes during initial stabilisation.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  {
+    id: 'ob-99',
+    title: 'Preeclampsia Without Severe Features at 34 Weeks Gestation',
+    specialty: 'Obstetrics and Gynecology',
+    subSpecialty: 'Antenatal Clinic',
+    condition: 'Preeclampsia',
+    symptoms: [
+      'Elevated blood pressure x 1 day',
+      'Bilateral leg swelling x 2 weeks',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-17',
+    summary: 'A 28-year-old primigravida at 34 weeks and 3 days gestation presenting with newly elevated blood pressure and bilateral pedal oedema. Blood pressure readings are 150/95 mmHg and 152/96 mmHg, with 1+ proteinuria on urine dipstick. She has no reported symptoms suggestive of severe preeclampsia. Obstetric examination reveals a symphysiofundal height of 34 cm, cephalic presentation, and reassuring fetal heart rate of 144 bpm. Suspected preeclampsia without severe features, pending quantitative assessment of proteinuria and evaluation for maternal end-organ involvement.',
+    content: `
+  PATIENT IDENTIFICATION
+  
+  A 28-year-old female trader who resides in Ogbomosho, Oyo State. She is a Yoruba woman, G1 P0, currently at an estimated gestational age of 34 weeks.
+  
+  PRESENTING COMPLAINTS
+  
+  1. Elevated blood pressure x 1 day.
+  2. Bilateral leg swelling x 2 weeks.
+  
+  HISTORY OF PRESENTING COMPLAINT
+  
+  She was apparently well until her routine antenatal clinic visit one day ago, when she was noted to have a blood pressure of 150/95 mmHg. She had previously been normotensive during earlier visits.
+  
+  She reports bilateral leg swelling, which started two weeks ago. It was initially noticed in the evenings after standing for long periods but now persists throughout the day.
+  
+  She denies any severe frontal or throbbing headache. There is no history of visual blurring, flashes of light, or double vision. She denies epigastric pain, right upper quadrant pain, nausea, or vomiting. No history of sudden facial puffiness or hand swelling.
+  
+  Fetal movements have been well perceived and are active. There is no history of vaginal bleeding or drainage of liquor per vaginam.
+  
+  OBSTETRIC HISTORY
+  
+  LMP: 10/05/2023.
+  EDD: 17/02/2024.
+  EGA: 34 weeks + 3 days.
+  Booking Status: Booked at 14 weeks EGA at a General Hospital.
+  
+  Index Pregnancy: Registered and has attended six ANC visits. Routine medications (iron, folic acid, and vitamin C) and tetanus toxoid received. Routine tests (HIV, HBsAg, and VDRL) were negative.
+  
+  PAST MEDICAL HISTORY
+  
+  No history of hypertension prior to this pregnancy. No history of diabetes mellitus, chronic renal disease, or bronchial asthma. No known drug allergies.
+  
+  DRUG HISTORY
+  
+  Currently on routine ANC supplements:
+  - Ferrous sulphate 200 mg daily.
+  - Folic acid 5 mg daily.
+  
+  No use of herbal concoctions or unprescribed medications.
+  
+  FAMILY AND SOCIAL HISTORY
+  
+  Married in a monogamous setting. Husband is a civil servant. No family history of hypertension or twinning. Non-smoker and does not consume alcohol.
+  
+  REVIEW OF SYSTEMS
+  
+  RS: No cough or shortness of breath.
+  CVS: No palpitations or orthopnoea.
+  GIT: Normal bowel habits, no jaundice.
+  CNS: No history of seizures or loss of consciousness.
+  
+  PHYSICAL EXAMINATION
+  
+  GENERAL EXAMINATION
+  
+  Conscious and alert. Not in any obvious respiratory or painful distress.
+  
+  Acutely ill-looking: No.
+  Pallor: Absent.
+  Jaundice: Absent.
+  Pedal oedema: Bilateral pitting oedema extending up to the mid-shin level.
+  
+  VITAL SIGNS
+  
+  BP: 152/96 mmHg (right arm, sitting, repeated after 4 hours).
+  PR: 88 bpm, regular, normal volume.
+  RR: 18 cpm.
+  Temperature: 36.6°C.
+  SpO₂: 98% on room air.
+  
+  ABDOMINAL EXAMINATION (OBSTETRIC)
+  
+  Inspection: Gravid enlargement, striae gravidarum present, and linea nigra seen. No surgical scars.
+  
+  Palpation: SFH is 34 cm, consistent with EGA. Fetus is in longitudinal lie, cephalic presentation.
+  
+  Auscultation: Fetal heart rate is 144 bpm, regular.
+  
+  PELVIC EXAMINATION
+  
+  Vaginal examination not indicated at this time. No history or clinical evidence of vaginal bleeding or drainage of liquor.
+  
+  URINALYSIS
+  
+  Protein: 1+ (on dipstick).
+  Glucose: Negative.
+  Nitrites: Negative.
+  
+  ASSESSMENT
+  
+  Suspected preeclampsia without severe features at 34 weeks + 3 days gestation in a primigravida.
+  
+  DIFFERENTIAL DIAGNOSES
+  
+  1. Gestational hypertension (if significant proteinuria and other features of preeclampsia are not demonstrated).
+  2. Chronic hypertension with superimposed preeclampsia.
+  3. Previously undiagnosed essential hypertension.
+  
+  INITIAL INVESTIGATION PLAN
+  
+  1. Full Blood Count (FBC): To assess haemoglobin/haematocrit and platelet count, particularly to identify thrombocytopenia.
+  2. Liver Function Tests (LFT): Specifically AST, ALT, and bilirubin to assess for hepatic involvement.
+  3. Renal Function Tests (U/E/Cr): To assess renal function, particularly serum creatinine and electrolytes. Uric acid may be measured but is not diagnostic of preeclampsia.
+  4. Urine Protein Assessment: Spot urine protein-to-creatinine ratio or 24-hour urine protein estimation to quantify proteinuria.
+  5. Obstetric Ultrasound Scan: To assess fetal growth, estimated fetal weight, amniotic fluid volume, and placental appearance.
+  6. Fetal Surveillance: Cardiotocography (CTG) as clinically indicated. Biophysical profile and umbilical artery Doppler may be considered if there are concerns about fetal growth restriction or fetal compromise.
+  
+  INITIAL MANAGEMENT PLAN
+  
+  GENERAL MEASURES
+  
+  1. Admission for initial maternal assessment, stabilization, and investigation.
+  2. Regular monitoring of blood pressure, initially 4–6-hourly while admitted, with more frequent monitoring if clinically indicated.
+  3. Monitor for symptoms and signs of severe preeclampsia, including persistent headache, visual disturbances, epigastric or right upper quadrant pain, breathlessness, and reduced urine output.
+  4. Monitor maternal fluid balance and urine output.
+  5. Daily assessment of fetal movements and appropriate fetal surveillance.
+  6. Encourage mobilisation as tolerated. Strict bed rest is not routinely recommended.
+  7. Monitor maternal weight and oedema as part of the overall clinical assessment.
+  
+  PHARMACOLOGICAL MANAGEMENT (ANTIHYPERTENSIVES)
+  
+  1. Methyldopa: Start at 250 mg orally three times daily. The dose may be adjusted according to blood pressure response, up to a maximum of 3 g/day, if required.
+  2. Alternative: Labetalol 100 mg orally twice daily, with dose adjustment according to blood pressure response and clinical assessment.
+  
+  The choice of antihypertensive and treatment target should follow the local obstetric protocol. Labetalol is commonly used as a first-line option, with methyldopa or nifedipine as alternatives where appropriate.
+  
+  FLUID MANAGEMENT
+  
+  1. Encourage normal oral fluid intake, provided there are no contraindications.
+  2. Avoid unnecessary intravenous fluid administration and fluid overload.
+  3. If IV fluids are required, prescribe according to clinical assessment, urine output, renal function, and ongoing losses. Fluid restriction may be necessary in severe preeclampsia or when there is concern about pulmonary oedema.
+  
+  PLAN FOR DELIVERY
+  
+  1. If maternal and fetal conditions remain stable and no severe features develop, plan delivery at 37 weeks gestation.
+  2. If severe features develop, including persistent severe hypertension (BP ≥160/110 mmHg), persistent neurological symptoms, pulmonary oedema, worsening renal or hepatic function, or significant thrombocytopenia, initiate urgent maternal stabilization.
+  3. Magnesium sulphate should be administered for seizure prophylaxis when indicated in severe preeclampsia or according to the institutional protocol.
+  4. Plan delivery after maternal stabilization when severe features develop, regardless of gestational age, following senior obstetric review.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
   {
     id: 'ob-98',
     title: 'Emesis Gravidarum',

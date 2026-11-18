@@ -10108,8 +10108,8 @@ export const SYMPTOM_CLERKING_CONTENT: LearningModule[] = [
     <title>Symptom Clerking: Poor Weight Gain in a Child</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      body { font-family: Georgia, 'Times New Roman', serif; }
-      .sans { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
       .font-brand { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
       .quote { border-left-width: 3px; border-left-style: solid; }
       summary::-webkit-details-marker { display: none; }
@@ -10676,7 +10676,7 @@ export const SYMPTOM_CLERKING_CONTENT: LearningModule[] = [
     },
 
     {
-      id: 'history-taking-poor-weight-gain-adult',
+      id: 'symptoms-clerking-poor-weight-gain-adult',
       title: 'Poor Weight Gain and Weight Loss in an Adult',
       category: 'Symptom Clerking',
       subCategory: 'General Constitutional Symptoms',
@@ -10688,8 +10688,8 @@ export const SYMPTOM_CLERKING_CONTENT: LearningModule[] = [
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    body { font-family: Georgia, 'Times New Roman', serif; }
-    .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+      .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
     .font-brand { font-family: Georgia, 'Times New Roman', serif; }
     .quote { border-left-width: 3px; border-left-style: solid; }
   </style>
@@ -11107,6 +11107,381 @@ export const SYMPTOM_CLERKING_CONTENT: LearningModule[] = [
   </html>
       `
   },
+
+  {
+    id: 'symptom-clerking-chest-pain',
+    title: 'Chest Pain',
+    category: 'Symptom Clerking',
+    subCategory: 'Pain',
+    content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
+  .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+  .quote { border-left-width: 3px; }
+  .sans th, .sans td { padding: 0.5rem 0.75rem 0.5rem 0; vertical-align: top; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+  <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+  <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+  <div class="relative p-6 sm:p-8">
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">History Taking &middot; Symptom Clerking</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Chest Pain</h1>
+    <p class="text-sm text-indigo-200">Chest pain is one of the commonest reasons for emergency and outpatient visits in Nigeria, and the cause ranges from a pulled intercostal muscle to a myocardial infarction. In our setting the list is wider than in textbooks written for high-income countries: pneumonia, tuberculosis, pericardial disease, sickle cell disease, rheumatic valve disease and hypertension-related heart disease all compete with coronary disease. This guide shows how to take a focused history, sort patients quickly into dangerous and less dangerous groups, and decide what to request next when troponin or echocardiography may not be available.</p>
+  </div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+  <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+  <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+    <li><a href="#stabilise-first-clerk-second" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Stabilise First, Clerk Second</span></a></li>
+    <li><a href="#biodata-and-presenting-complaint" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Biodata and Presenting Complaint</span></a></li>
+    <li><a href="#history-of-the-presenting-complaint-characterising-the-pain" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>History of the Presenting Complaint: Characterising the Pain</span></a></li>
+    <li><a href="#cause-directed-questions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Cause-Directed Questions</span></a></li>
+    <li><a href="#associated-symptoms" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Associated Symptoms</span></a></li>
+    <li><a href="#past-medical-drug-family-and-social-history" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Past Medical, Drug, Family and Social History</span></a></li>
+    <li><a href="#review-of-systems" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Review of Systems</span></a></li>
+    <li><a href="#putting-it-together-risk-stratification-and-the-next-step" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Putting It Together: Risk Stratification and the Next Step</span></a></li>
+    <li><a href="#pitfalls-and-practices-to-avoid" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Pitfalls and Practices to Avoid</span></a></li>
+    <li><a href="#summary-and-worked-example" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Summary and Worked Example</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stabilise-first-clerk-second" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+  Stabilise First, Clerk Second
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Pain severity does not tell you how dangerous the cause is. Current guidelines tell clinicians to start by excluding acute coronary syndrome, aortic dissection and pulmonary embolism, and they stress that these are often not signalled by how bad the pain feels. Look at the patient before you open the notes.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">In the first minutes (before the full history)</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Check airway, breathing and circulation: pulse, blood pressure (both arms if dissection is possible), respiratory rate, temperature, SpO&#8322; and random blood glucose (diabetics and the elderly may present with sweating or confusion).</li>
+      <li><strong>Obtain a 12-lead ECG within 10 minutes of arrival</strong> in any patient with acute chest pain, in the clinic or the emergency room, and have a doctor read it for ST-elevation. Do not wait for the clerking to be finished. If the first ECG is non-diagnostic and suspicion stays high, symptoms persist or the patient worsens, repeat it. Up to 6% of patients with myocardial ischaemia are sent home after a single normal ECG.</li>
+      <li>Put the patient on a monitor if one exists, secure IV access (use the arm not needed for repeated sampling), and keep the patient lying or semi-recumbent, not walking to the laboratory.</li>
+      <li>If troponin is available, send it with the first blood sample; also send FBC, electrolytes/urea/creatinine and glucose. In a known sickle cell patient add PCV/haemoglobin and a chest X-ray.</li>
+      <li>If acute coronary syndrome is likely and there is no suspicion of aortic dissection, no active bleeding and no true aspirin allergy, give aspirin 300 mg chewed. Give oxygen only if SpO&#8322; is below 90%.</li>
+      <li>Sublingual glyceryl trinitrate may be used for ongoing ischaemic-type pain if systolic BP is above 90 mmHg. Do not give it if the patient has taken sildenafil or similar drugs in the last 24 hours (tadalafil 48 hours), which is a real question to ask Nigerian men, or if an inferior or right ventricular infarct is suspected. <strong>Relief with GTN, or with an antacid, does not confirm or exclude a cardiac cause.</strong></li>
+      <li>Avoid intramuscular injections (diclofenac, pentazocine and similar) in suspected ACS, because they complicate thrombolysis if it is needed.</li>
+    </ul>
+  </div>
+  <p class="text-sm">Patients who need ongoing treatment for STEMI, dissection or massive PE go to the highest level of care you can reach, with the ECG and a short handover note travelling with them.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="biodata-and-presenting-complaint" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+  Biodata and Presenting Complaint
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Biodata that changes the differential</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Age and sex.</strong> Young adult with sudden pleuritic pain: pneumothorax, pericarditis, pneumonia, PE. Older adult, hypertensive or diabetic: ACS, dissection, heart failure. Child or adolescent: think rheumatic carditis, pneumonia, sickle cell crisis, costochondritis.</li>
+      <li><strong>Haemoglobin genotype</strong> (AA, AS, SS, SC). Chest pain in HbSS or HbSC is acute chest syndrome until proven otherwise.</li>
+      <li><strong>Pregnancy or postpartum state, and hormonal contraception.</strong> Raises PE risk; peripartum cardiomyopathy and aortic dissection also occur in this period.</li>
+      <li><strong>Occupation and lifestyle.</strong> Long-distance drivers and bus passengers (immobility), traders and civil servants under heavy stress, farmers (exertion, snakebite, chemical exposure), sedentary work.</li>
+      <li><strong>How and when the patient arrived.</strong> Hours since onset decide eligibility for time-dependent treatment, so record it clearly.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Recording the presenting complaint</strong>
+    <p class="text-sm">Write the complaint in the patient's own words with its duration, for example: "pressure in the chest for 2 hours". Patients use many descriptions: "heaviness", "tightness", "a load on my chest", "burning", "fire in the chest", "gas", "heart pain", "my heart is jumping". "Gas" and "ulcer" are common lay labels for central chest or upper abdominal discomfort and should never close the clerking. Ask the patient to point to the pain with one finger or to show with a hand or a fist.</p>
+  </div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="history-of-the-presenting-complaint-characterising-the-pain" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+  History of the Presenting Complaint: Characterising the Pain
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm mb-3">Take the pain through the SOCRATES frame, then link it to the cause-directed questions in the next section. Use the patient's own words first and closed questions second.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th>Domain</th><th>Ask</th><th>What it points to</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="font-semibold">Onset</td><td>Sudden or gradual? What were you doing? Was it maximal from the start?</td><td>Abrupt and maximal at onset: aortic dissection, PE, pneumothorax, oesophageal rupture. Builds over minutes with exertion: angina. Hours to days, with fever: pneumonia, pericarditis.</td></tr>
+        <tr><td class="font-semibold">Site</td><td>Where exactly? Central, left, right? One spot or spread out?</td><td>Diffuse retrosternal or across the chest: ischaemia. Fingertip-sized spot: musculoskeletal or pleural. Right-sided with upper abdominal tenderness: gallbladder, liver, basal pneumonia.</td></tr>
+        <tr><td class="font-semibold">Character</td><td>Pressure, squeezing, heaviness, burning, sharp, stabbing, tearing, tearing through to the back?</td><td>Pressure or heaviness: ischaemia. Tearing or ripping: dissection. Sharp and worse on breathing: pleural or pericardial. Burning after meals: reflux or ulcer, which can still mimic ACS.</td></tr>
+        <tr><td class="font-semibold">Radiation</td><td>To the arm (which, or both), jaw, neck, back, between the shoulder blades, shoulder tip?</td><td>Arm(s), jaw or neck: ischaemia. Both arms raises the likelihood further. Interscapular or travelling downwards: dissection. Shoulder tip: diaphragmatic irritation (pleurisy, amoebic liver abscess, subphrenic collection).</td></tr>
+        <tr><td class="font-semibold">Associated symptoms</td><td>Sweating, nausea or vomiting, breathlessness, faintness, palpitations, cough?</td><td>See section 5.</td></tr>
+        <tr><td class="font-semibold">Timing</td><td>How long does an attack last? How many episodes? Is it constant now?</td><td>Angina: usually minutes and settles with rest. Pain lasting more than 20 minutes at rest suggests ACS. Seconds-long stabs: usually benign. Pain constant for days: musculoskeletal, pericardial, infective.</td></tr>
+        <tr><td class="font-semibold">Exacerbating and relieving factors</td><td>Exertion, emotion, deep breath, cough, lying flat, leaning forward, swallowing, meals, movement of the arm or trunk, pressing on the spot?</td><td>Exertion and rest-relief: angina. Worse on inspiration: pleural or pericardial. Eased by sitting forward: pericarditis. Worse lying flat and after meals: reflux. Reproduced by pressure: musculoskeletal, but this does not exclude ACS.</td></tr>
+        <tr><td class="font-semibold">Severity</td><td>Score out of 10. Is it the worst you have ever had?</td><td>Does not predict how dangerous the cause is. Record it and the trend over time.</td></tr>
+        <tr><td class="font-semibold">Previous episodes</td><td>First time? Earlier similar pain? Investigated before? Any treatment given?</td><td>Crescendo pattern, new onset or pain at rest raises the concern for unstable angina.</td></tr>
+        <tr><td class="font-semibold">What has been tried</td><td>Antacids, painkillers, herbal mixtures, prayers, patent medicine store visits?</td><td>Delays are common and should be recorded without judgement. They affect treatment windows and may add drug effects (for example NSAID-induced ulcer or kidney injury).</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="text-sm mt-3">The 2021 AHA/ACC guideline avoids the word "atypical" for chest pain, because it is read as meaning harmless. Describe the pain as cardiac, possibly cardiac, or non-cardiac, and say why. Women, older adults and people with diabetes may present with breathlessness, fatigue, epigastric discomfort, nausea or jaw and back pain instead of the classic central pressure; ask about each of these specifically.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cause-directed-questions" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+  Cause-Directed Questions
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm mb-3">After the pain is characterised, run through the life-threatening causes first, then the common ones. In African emergency-department series the single commonest group of causes is respiratory (pneumonia leads), followed by musculoskeletal pain and cardiovascular disease, so do not stop after excluding the heart.</p>
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th>Cause</th><th>History clues</th><th>Nigerian context</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="font-semibold">Acute coronary syndrome / angina</td><td>Pressure or heaviness, exertional, radiates to arm or jaw, sweating, nausea, dyspnoea, rest pain over 20 minutes; risk factors present.</td><td>Hypertension and diabetes with poor control or defaulted drugs, smoking, abdominal obesity. Patients often come late after prayer or herbal treatment. Older diabetics may have little or no pain.</td></tr>
+        <tr><td class="font-semibold">Acute pericarditis / pericardial effusion</td><td>Sharp pain worse on inspiration or lying flat, eased by leaning forward, preceding viral illness, fever, breathlessness, ankle swelling, abdominal swelling in chronic cases.</td><td>Tuberculous pericarditis is a leading cause of pericardial disease in sub-Saharan Africa: ask about cough, night sweats, weight loss, TB contact, HIV status. Uraemic pericarditis in CKD.</td></tr>
+        <tr><td class="font-semibold">Aortic dissection</td><td>Abrupt, maximal, tearing pain in chest, back or between the shoulder blades, migrating; syncope; stroke-like or limb symptoms; long-standing severe hypertension.</td><td>Uncontrolled hypertension is the leading predisposing factor locally. Do not anticoagulate or thrombolyse until considered.</td></tr>
+        <tr><td class="font-semibold">Pulmonary embolism</td><td>Sudden dyspnoea with pleuritic pain, haemoptysis, leg pain or swelling, recent surgery, bed rest, long journey, pregnancy or postpartum, combined oral contraceptive or other oestrogen, previous clot, cancer.</td><td>Long road and air travel, postpartum and post-caesarean patients, cancer patients, prolonged immobility after fractures.</td></tr>
+        <tr><td class="font-semibold">Pneumothorax</td><td>Sudden one-sided sharp pain and breathlessness, often at rest; tall thin young man, smoker, known lung disease; severe distress and shock suggest tension.</td><td>Previous or current TB, COPD or old cavities, asthma.</td></tr>
+        <tr><td class="font-semibold">Pneumonia, pleurisy, empyema, TB pleural disease</td><td>Fever, productive cough, rust-coloured or purulent sputum, pleuritic pain, rigors; weight loss and night sweats in TB.</td><td>The commonest identified cause of acute chest pain in several African ED series. Always ask TB contact and HIV status; check for cough of 2 weeks or more.</td></tr>
+        <tr><td class="font-semibold">Sickle cell acute chest syndrome / vaso-occlusive crisis</td><td>Known HbSS or HbSC; chest, rib or sternal pain with fever, cough, dyspnoea and low SpO&#8322;; recent bone-pain crisis or surgery.</td><td>High burden. A medical emergency: needs oxygen, careful fluids and analgesia, and early specialist input. Ask about hydroxyurea use and past admissions.</td></tr>
+        <tr><td class="font-semibold">Reflux, oesophagitis, peptic ulcer, pill oesophagitis</td><td>Burning, related to meals or lying flat, acid taste, relief with antacids; pain on swallowing after tablets (doxycycline, NSAIDs, potassium).</td><td>Very common and a frequent label for cardiac pain. Antacid brands (Gelusil, Maalox, Gaviscon) and PPIs are often taken before presentation. Relief does not exclude ACS.</td></tr>
+        <tr><td class="font-semibold">Upper abdominal and diaphragmatic causes</td><td>Right upper quadrant pain referred to the right shoulder, fever, jaundice or tender liver; severe epigastric pain radiating to the back after alcohol or gallstones.</td><td>Amoebic liver abscess, cholecystitis and pancreatitis can all present as lower chest pain.</td></tr>
+        <tr><td class="font-semibold">Musculoskeletal (costochondritis, muscle strain, rib fracture)</td><td>Localised, reproducible on palpation or movement, after lifting or coughing, trauma, or heavy farm work.</td><td>A diagnosis of exclusion in anyone with cardiac risk factors or abnormal ECG. Point tenderness does not exclude ACS.</td></tr>
+        <tr><td class="font-semibold">Herpes zoster (before the rash)</td><td>Unilateral band-like burning pain in one dermatome, rash appears 1-3 days later.</td><td>More frequent in HIV; ask about HIV status and look again at the skin next day.</td></tr>
+        <tr><td class="font-semibold">Other cardiac causes</td><td>Heart failure and pulmonary oedema, hypertensive emergency, myocarditis, mitral stenosis with pulmonary hypertension, peripartum cardiomyopathy, arrhythmia.</td><td>Rheumatic heart disease and hypertensive heart disease are common local causes of heart failure; peripartum cardiomyopathy is reported especially in northern Nigeria. Ask about past rheumatic fever, sore throats, joint pains and prior murmurs.</td></tr>
+        <tr><td class="font-semibold">Anxiety and panic</td><td>Episodic pain with breathlessness, tingling around the mouth and hands, fear of dying, trigger events.</td><td>A diagnosis of exclusion; do not make it until cardiac and respiratory causes are excluded. Ask about stress, grief, financial strain.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="associated-symptoms" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+  Associated Symptoms
+</h2>
+<div class="p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div class="overflow-x-auto">
+    <table class="w-full text-xs sans border-collapse">
+      <thead>
+        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+          <th>Symptom</th><th>Think of</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+        <tr><td class="font-semibold">Sweating (cold, drenching), nausea, vomiting</td><td>ACS (especially inferior MI), also PE and dissection.</td></tr>
+        <tr><td class="font-semibold">Breathlessness at rest, orthopnoea, paroxysmal nocturnal dyspnoea</td><td>Heart failure, PE, pneumothorax, pneumonia, ACS, sickle cell ACS.</td></tr>
+        <tr><td class="font-semibold">Syncope or near-syncope</td><td>Massive PE, dissection, arrhythmia, severe aortic stenosis, large MI. Treat as high risk.</td></tr>
+        <tr><td class="font-semibold">Palpitations</td><td>Atrial fibrillation (rheumatic mitral disease, hypertensive heart disease, thyrotoxicosis), ventricular arrhythmia, anxiety, anaemia.</td></tr>
+        <tr><td class="font-semibold">Cough, sputum, haemoptysis</td><td>Pneumonia, TB, PE, mitral stenosis, lung cancer.</td></tr>
+        <tr><td class="font-semibold">Fever, rigors, night sweats, weight loss</td><td>Pneumonia, TB (lung, pleura, pericardium), empyema, abscess, malaria and typhoid co-infection, endocarditis.</td></tr>
+        <tr><td class="font-semibold">Leg pain or swelling (usually one leg)</td><td>DVT with PE. Bilateral swelling with a raised JVP suggests heart failure or pericardial disease.</td></tr>
+        <tr><td class="font-semibold">Dysphagia, regurgitation, acid taste, pain on swallowing</td><td>Reflux, oesophagitis, oesophageal spasm or stricture, pill oesophagitis.</td></tr>
+        <tr><td class="font-semibold">Focal weakness, speech or vision change, limb numbness</td><td>Aortic dissection involving carotid or spinal vessels. Stroke or TIA with AF. Do not give aspirin or anticoagulants until dissection is considered.</td></tr>
+        <tr><td class="font-semibold">Rash, vesicles, skin burning</td><td>Herpes zoster.</td></tr>
+        <tr><td class="font-semibold">Abdominal pain, jaundice, vomiting</td><td>Biliary, hepatic and pancreatic causes; abdominal pain may also be the only symptom of an inferior MI.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="past-medical-drug-family-and-social-history" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+  Past Medical, Drug, Family and Social History
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Past medical and surgical history</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Cardiovascular risk:</strong> hypertension (how long, which drugs, last BP reading, whether the drugs were taken in the last week), diabetes, high cholesterol, chronic kidney disease, previous heart attack, angina, heart failure, stroke.</li>
+      <li><strong>Valve and pericardial disease:</strong> past rheumatic fever, repeated sore throats or joint pains in childhood, known murmur, monthly benzathine penicillin injections, past heart operations.</li>
+      <li><strong>Sickle cell disease:</strong> genotype, crisis frequency, previous acute chest syndrome, transfusion history.</li>
+      <li><strong>Infections:</strong> TB (treated or contact), HIV, recent chest infection, malaria, typhoid, hepatitis B.</li>
+      <li><strong>Clotting risk:</strong> previous DVT or PE, recent surgery, fracture or bed rest, long travel, cancer, pregnancy, childbirth, caesarean section in the last 6 weeks, oestrogen-containing contraceptive.</li>
+      <li><strong>Gastro-oesophageal:</strong> ulcer disease, reflux, H. pylori treatment, gallstones.</li>
+      <li><strong>Lung:</strong> asthma, COPD, previous pneumothorax, lung cancer.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drug and substance history</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Prescribed drugs (antihypertensives, aspirin, statins, anticoagulants, insulin or tablets for diabetes), and whether the patient actually takes them. Ask about missed doses and stock-outs.</li>
+      <li>Self-medication: NSAIDs (diclofenac, ibuprofen, piroxicam), steroids, tramadol, antacids and PPIs, "pain killers" bought from patent medicine stores.</li>
+      <li>Herbal remedies and "agbo" (ask without judgement; some contain compounds that affect the kidneys, liver, heart rate or blood pressure).</li>
+      <li>Phosphodiesterase-5 inhibitors (sildenafil, tadalafil, local aphrodisiacs) because of the nitrate interaction.</li>
+      <li>Smoking, alcohol, cannabis and other stimulants. Record pack-years.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Family and social history</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>Family history of early heart disease (male relative under 55 or female relative under 65), sudden unexplained death, hypertension, diabetes, sickle cell disease, Marfan syndrome or other aortic disease.</li>
+      <li>Diet (high salt, palm oil and fried food intake), physical activity, body weight, work stress, recent bereavement or financial crisis.</li>
+      <li>Distance from the nearest facility, cost barriers, who decides on care in the family, previous experience with delayed or refused care. These affect what investigations are realistic and what the patient will accept.</li>
+    </ul>
+  </div>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="review-of-systems" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+  Review of Systems
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Cardiovascular:</strong> exertional breathlessness or chest pain before this episode, ankle swelling, nocturnal dyspnoea, palpitations, fainting, leg pain on walking.</li>
+    <li><strong>Respiratory:</strong> cough, sputum, haemoptysis, wheeze, night sweats, weight loss.</li>
+    <li><strong>Gastrointestinal:</strong> dyspepsia, dysphagia, vomiting blood, black stools, abdominal pain, jaundice.</li>
+    <li><strong>Neurological:</strong> weakness, speech change, visual loss, severe headache.</li>
+    <li><strong>Musculoskeletal and skin:</strong> joint pain, trauma, recent exercise or lifting, rash.</li>
+    <li><strong>Psychiatric:</strong> anxiety, low mood, panic attacks, recent stress.</li>
+  </ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="putting-it-together-risk-stratification-and-the-next-step" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Putting It Together: Risk Stratification and the Next Step
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Physical examination has its own guide. What the history gives you is a probability. Use it with the ECG and, where available, troponin to decide who is high, intermediate or low risk. The tests below are the minimum that follow from the history.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Core investigations</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>ECG:</strong> within 10 minutes; repeat if suspicion stays high or pain returns. If the ECG is non-diagnostic and suspicion of ACS is intermediate to high, record posterior leads V7 to V9 to look for a posterior infarct.</li>
+      <li><strong>Troponin:</strong> high-sensitivity troponin is the preferred test. After the first sample, repeat at 1 to 3 hours for high-sensitivity assays and at 3 to 6 hours for conventional assays. CK-MB and myoglobin do not add value for diagnosis or prognosis.</li>
+      <li><strong>Chest X-ray:</strong> pneumonia, pneumothorax, effusion, widened mediastinum, cardiomegaly, TB.</li>
+      <li><strong>Echocardiography</strong> where available: pericardial effusion, wall motion, valves, right heart strain. Request it urgently if tamponade, dissection or massive PE is suspected.</li>
+      <li><strong>Other bloods:</strong> FBC, electrolytes/urea/creatinine, glucose, and genotype or PCV in sickle cell patients; D-dimer only when PE probability is low or intermediate.</li>
+    </ul>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">HEART score for suspected ACS</strong>
+    <div class="overflow-x-auto">
+      <table class="w-full text-xs sans border-collapse">
+        <thead>
+          <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+            <th>Component</th><th>0 points</th><th>1 point</th><th>2 points</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+          <tr><td class="font-semibold">History</td><td>Slightly suspicious</td><td>Moderately suspicious</td><td>Highly suspicious</td></tr>
+          <tr><td class="font-semibold">ECG</td><td>Normal</td><td>Non-specific repolarisation changes</td><td>Significant ST deviation</td></tr>
+          <tr><td class="font-semibold">Age</td><td>&lt; 45</td><td>45 &ndash; 64</td><td>&ge; 65</td></tr>
+          <tr><td class="font-semibold">Risk factors</td><td>None known</td><td>1 &ndash; 2</td><td>&ge; 3, or known atherosclerotic disease</td></tr>
+          <tr><td class="font-semibold">Troponin</td><td>Normal</td><td>1 &ndash; 3 &times; normal limit</td><td>&gt; 3 &times; normal limit</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="text-sm mt-2">Total 0 to 3 is low risk, 4 to 6 intermediate, 7 to 10 high. A low score together with negative serial troponins identifies patients who can usually go home with early follow-up, but about 1 to 2% of low-score patients still have an event within 6 weeks, and the score says nothing about dissection or PE. Risk factors for scoring are hypertension, diabetes, high cholesterol, smoking and obesity. <strong>The score cannot be completed or trusted without a troponin result.</strong> Without a troponin, use the ECG, serial ECGs, clinical observation and referral rather than discharge on the history alone.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Wells and PERC for suspected pulmonary embolism</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Two-tier Wells score:</strong> clinical signs of DVT 3; PE as likely as or more likely than another diagnosis 3; heart rate over 100 1.5; immobilisation over 3 days or surgery in the last 4 weeks 1.5; previous DVT or PE 1.5; haemoptysis 1; active cancer or treated within 6 months or palliative 1. A score of 4 or less is "PE unlikely" and above 4 is "PE likely".</li>
+      <li>"PE unlikely": check D-dimer; a negative result effectively excludes PE and a positive one needs imaging. "PE likely": go straight to CT pulmonary angiography (or V/Q scan where available), not D-dimer. For patients over 50 the age-adjusted D-dimer cutoff is age &times; 10 (in &micro;g/L).</li>
+      <li><strong>PERC</strong> may be applied only when your clinical estimate is already low. All eight must be absent to skip D-dimer: age 50 or over, heart rate 100 or more, SpO&#8322; below 95% on air, unilateral leg swelling, haemoptysis, recent surgery or trauma, previous DVT or PE, oestrogen use. It was derived in North American emergency departments; high rates of anaemia, TB, sickle cell disease and chest infection locally can limit its usefulness, so use clinical judgement.</li>
+      <li>Where CT angiography, V/Q scanning or D-dimer is unavailable, manage on probability: if PE is likely and there is no contraindication, start treatment while arranging transfer, and discuss with a senior.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+  <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+  <p class="text-sm">The 2021 AHA/ACC chest pain guideline and the 2022 ACC decision pathway assume that high-sensitivity troponin, serial ECGs, echocardiography, CT angiography and cardiac catheterisation are available. Many Nigerian facilities have only conventional or point-of-care troponin, or none, and a single ECG machine. No national chest pain guideline was identified; international pathways must be adapted to local resources. When hs-troponin is not available, a negative conventional troponin or a normal single ECG is not reassuring in a patient with a high-risk history. Observe, repeat the ECG, repeat troponin at 3 to 6 hours, and refer early if the history is suggestive. CK-MB and myoglobin are not recommended by the guideline, but where they are all that exists they do not replace repeat ECG and observation.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="pitfalls-and-practices-to-avoid" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+  Pitfalls and Practices to Avoid
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><strong>Labelling the pain as "gas", "ulcer" or "gastritis" without an ECG.</strong> Burning epigastric or lower chest pain is a classic presentation of inferior MI.</li>
+    <li><strong>Relying on antacid or GTN response</strong> as a diagnostic test. Both can relieve pain from many causes.</li>
+    <li><strong>Discharging after a single normal ECG</strong> or a single troponin drawn too early. Repeat when the history is suggestive.</li>
+    <li><strong>Calling it musculoskeletal because the chest wall is tender.</strong> Reproducible tenderness does not exclude ACS in someone with risk factors.</li>
+    <li><strong>Giving NSAID injections (diclofenac, ketorolac) for chest pain</strong> before the cause is known. They raise cardiovascular and bleeding risk and can worsen kidney injury or ulcers.</li>
+    <li><strong>Giving aspirin, heparin or thrombolytics when dissection has not been considered.</strong> Check for a blood pressure difference between arms, tearing pain, new murmur or focal neurology.</li>
+    <li><strong>Treating every fever with chest pain as malaria or typhoid</strong> without looking for pneumonia, TB, pericarditis or endocarditis. Co-infections are common, but they are not the only cause.</li>
+    <li><strong>Missing sickle cell acute chest syndrome</strong> by treating as simple bone-pain crisis with opioids and large volumes of IV fluid. Fluids and opioids both need care here.</li>
+    <li><strong>Missing PE in a postpartum, post-operative or bed-bound patient</strong> because the chest X-ray is normal.</li>
+    <li><strong>Sending the patient to the laboratory or X-ray unaccompanied</strong> when the ECG is abnormal or the patient is unstable.</li>
+    <li><strong>Accepting the patient's or relatives' spiritual explanation without completing the assessment.</strong> Respect belief, but the clinical work-up comes first.</li>
+  </ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <strong class="block font-semibold text-rose-900 dark:text-rose-300 pb-2 mb-2 border-b border-rose-200 dark:border-rose-700">Findings That Must Not Be Missed</strong>
+  <ul class="space-y-2 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>ST-elevation, new left bundle branch block, or ST depression</strong> on any ECG with ischaemic-type pain: treat as ACS, arrange urgent reperfusion or transfer, aspirin as above.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Sudden tearing pain with a pulse or blood pressure difference, new aortic murmur, or neurological signs:</strong> suspect aortic dissection and call for senior help before giving antithrombotics.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Syncope, hypotension, severe tachycardia or low SpO&#8322;</strong> with pleuritic pain or leg swelling: massive pulmonary embolism.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Severe breathlessness with tracheal shift, absent breath sounds and shock:</strong> tension pneumothorax is a clinical diagnosis; decompress without waiting for an X-ray.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Hypotension, raised JVP and muffled heart sounds:</strong> cardiac tamponade (including tuberculous or uraemic effusions); needs urgent echocardiography and drainage.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Chest pain in a patient with HbSS or HbSC plus fever, cough or SpO&#8322; falling:</strong> acute chest syndrome.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Severe chest pain after forceful vomiting, with surgical emphysema or sepsis:</strong> oesophageal rupture.</span></li>
+  </ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="summary-and-worked-example" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+  Summary and Worked Example
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">End the clerking with a one-paragraph summary that states the pain, the risk factors, the red flags, the leading diagnosis and the two or three alternatives you are still worried about.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Example</strong>
+    <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">Mr A.B., a 58-year-old male trader, presented with 3 hours of central, crushing chest pain radiating to the left arm and jaw, with profuse sweating and vomiting, started while he was carrying goods and did not ease with rest or with two sachets of Gelusil. He is a known hypertensive for 10 years on amlodipine, which he takes irregularly, and a diabetic for 6 years on metformin. He smokes about 10 sticks a day and has a brother who had a heart attack at 52. He has no recent travel, leg swelling, cough, fever or tearing back pain. He reported no recent sildenafil use. Impression: probable acute coronary syndrome with high-risk features (history highly suspicious, three or more risk factors, age 58). Differential: aortic dissection (less likely, no blood pressure difference to be confirmed on examination), pulmonary embolism, reflux. Plan: ECG now, monitor, aspirin 300 mg chewed, IV access, troponin and repeat, urgent senior review and transfer for reperfusion if ST-elevation is present.</p>
+  </div>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
+  <strong class="block font-semibold text-indigo-950 dark:text-indigo-200 pb-2 mb-2 border-b border-indigo-200 dark:border-indigo-700">Key Clinical Takeaways</strong>
+  <ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-200">
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Get a 12-lead ECG within 10 minutes of arrival, before the history is complete.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Exclude ACS, aortic dissection and PE first; pain severity does not reflect danger.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Characterise the pain by onset, site, character, radiation, timing, triggers and relievers, then ask the cause-directed questions.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>In Nigeria keep pneumonia, TB, tuberculous pericarditis, sickle cell acute chest syndrome, rheumatic heart disease and uncontrolled hypertension on the list alongside coronary disease.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not rely on antacid or GTN response, chest wall tenderness or a single normal ECG to rule out a cardiac cause.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>The HEART score needs a troponin; where there is none, observe, repeat ECGs and refer rather than discharge on history alone.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Use Wells first for PE; apply PERC only when the clinical probability is already low.</span></li>
+  </ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+  <summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">
+    References
+    <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  </summary>
+  <div class="px-4 pb-4 space-y-1">
+    <p class="text-[10px] leading-snug text-stone-500">1. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain. J Am Coll Cardiol 2021.</p>
+    <p class="text-[10px] leading-snug text-stone-500">2. 2022 ACC Expert Consensus Decision Pathway on the Evaluation and Disposition of Acute Chest Pain in the Emergency Department. J Am Coll Cardiol 2022.</p>
+    <p class="text-[10px] leading-snug text-stone-500">3. European Society of Cardiology 2020 guideline for acute coronary syndromes without persistent ST-segment elevation (0/1-hour and 0/2-hour troponin pathways).</p>
+    <p class="text-[10px] leading-snug text-stone-500">4. HEART score derivation and validation studies (Netherlands, 2008 and 2013) and the HEART Pathway randomised trial (2015).</p>
+    <p class="text-[10px] leading-snug text-stone-500">5. Wells criteria and Pulmonary Embolism Rule-out Criteria (PERC); American College of Physicians guidance on the diagnosis of pulmonary embolism.</p>
+    <p class="text-[10px] leading-snug text-stone-500">6. European Society of Cardiology guideline on acute pulmonary embolism, and ESC guidelines on pericardial diseases and aortic disease.</p>
+    <p class="text-[10px] leading-snug text-stone-500">7. Published African emergency-department series on the causes of acute chest pain, and Nigerian multicentre and hospital-based studies of heart disease, pericardial disease and sickle cell acute chest syndrome.</p>
+  </div>
+</details>
+
+</div>
+</body>
+</html>
+    `
+},
 
 
 ];

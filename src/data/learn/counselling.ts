@@ -2119,359 +2119,378 @@ export const COUNSELLING_CONTENT: LearningModule[] = [
         `
       },
 
-{
-    id: 'lab-peripheral-blood-film',
-    title: 'Peripheral Blood Film',
-    category: 'Laboratory Interpretation',
-    subCategory: 'Hematology',
+
+
+  {
+    id: 'counselling-erectile-dysfunction',
+    title: 'Erectile Dysfunction',
+    category: 'Counselling',
+    subCategory: 'Sexual Health',
     content: `
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Interpreting the Peripheral Blood Film</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
   body { font-family: Georgia, 'Iowan Old Style', 'Palatino Linotype', serif; }
   .sans { font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+  .quote { border-left-width: 3px; }
 </style>
 </head>
-<body class="bg-white text-slate-800 max-w-3xl mx-auto px-6 py-12 leading-relaxed">
+<body class="bg-white dark:bg-slate-950 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
 
-<!-- Hero -->
 <div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
   <div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
   <div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
   <div class="relative p-6 sm:p-8">
-    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Laboratory Interpretation</span>
-    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Interpreting the Peripheral Blood Film</h1>
-    <p class="text-sm text-indigo-200">The film is the cheapest test in the haematology laboratory and the most underrequested. It takes a stained slide and a trained pair of eyes, needs no analyser, and answers questions the FBC cannot: which malaria species and how many parasites, whether the red cells are sickled, targeted, fragmented or bitten, whether the white cells are reactive or leukaemic, and whether a low platelet count is real. Where CRP, flow cytometry and haemoglobin electrophoresis are out of reach, the film is often the only morphological investigation available at the point of decision.</p>
+    <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">Counselling &middot; Sexual Health</span>
+    <h1 class="font-brand text-3xl font-bold mb-3 text-white">Counselling a Patient with Erectile Dysfunction</h1>
+    <p class="text-sm text-indigo-200">Erectile dysfunction (ED) is common in Nigerian men, especially those with hypertension and diabetes, yet most never raise it, and many doctors never ask. Men often go first to patent medicine stores, roadside sellers or traditional healers, and some stop their blood pressure drugs because they blame them. This guide shows how to open the conversation, explain the problem in plain words, correct common beliefs, check the heart, start treatment safely and keep the patient coming back.</p>
   </div>
 </div>
 
-<!-- 1. When a film changes management -->
 
 <nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
   <p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
   <ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
-    <li>
-      <a href="#when-a-film-changes-management" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span>
-        <span>When a Film Changes Management</span>
-      </a>
-    </li>
-    <li>
-      <a href="#making-and-reading-a-good-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span>
-        <span>Making and Reading a Good Film</span>
-      </a>
-    </li>
-    <li>
-      <a href="#red-cells-size-colour-shape-inclusions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span>
-        <span>Red Cells: Size, Colour, Shape, Inclusions</span>
-      </a>
-    </li>
-    <li>
-      <a href="#sickle-cell-disease-and-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span>
-        <span>Sickle Cell Disease and the Film</span>
-      </a>
-    </li>
-    <li>
-      <a href="#white-cells-reactive-malignant-or-just-busy" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span>
-        <span>White Cells: Reactive, Malignant, or Just Busy</span>
-      </a>
-    </li>
-    <li>
-      <a href="#platelets-on-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span>
-        <span>Platelets on the Film</span>
-      </a>
-    </li>
-    <li>
-      <a href="#parasites-and-organisms-on-the-film" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span>
-        <span>Parasites and Organisms on the Film</span>
-      </a>
-    </li>
-    <li>
-      <a href="#reading-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span>
-        <span>Reading Order</span>
-      </a>
-    </li>
-    <li>
-      <a href="#common-pitfalls" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
-        <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span>
-        <span>Common Pitfalls</span>
-      </a>
-    </li>
-  </ul>
+    <li><a href="#opening-the-conversation" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Opening the Conversation</span></a></li>
+    <li><a href="#explaining-ed-in-plain-words" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Explaining ED in Plain Words</span></a></li>
+    <li><a href="#common-beliefs-and-direct-responses" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Common Beliefs and Direct Responses</span></a></li>
+    <li><a href="#causes-and-risk-factors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Causes and Risk Factors</span></a></li>
+    <li><a href="#why-your-heart-matters-ed-as-a-warning-sign" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Why Your Heart Matters: ED as a Warning Sign</span></a></li>
+    <li><a href="#grading-severity-and-investigations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Grading Severity and Investigations</span></a></li>
+    <li><a href="#lifestyle-and-everyday-advice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Lifestyle and Everyday Advice</span></a></li>
+    <li><a href="#counselling-on-tablets-pde5-inhibitors" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Counselling on Tablets (PDE5 Inhibitors)</span></a></li>
+    <li><a href="#if-tablets-are-not-suitable-or-do-not-work" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>If Tablets Are Not Suitable or Do Not Work</span></a></li>
+    <li><a href="#barriers-to-treatment-and-how-to-handle-them" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Barriers to Treatment and How to Handle Them</span></a></li>
+    <li><a href="#warning-signs-when-to-come-back-immediately" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Warning Signs: When to Come Back Immediately</span></a></li>
+    <li><a href="#follow-up" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Follow-Up</span></a></li>
+    <li><a href="#closing-teach-back" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+      <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Closing: Teach-Back</span></a></li></ul>
 </nav>
 
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="when-a-film-changes-management" style="scroll-margin-top:1.5rem;">
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="opening-the-conversation" style="scroll-margin-top:1.5rem;">
   <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
-  When a Film Changes Management
+  Opening the Conversation
 </h2>
-
 <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-  <p class="text-sm">An automated FBC gives numbers; the film gives the reason for them. Request a film, with a one-line clinical question on the form, in any of these situations:</p>
-  <ul class="list-disc pl-5 space-y-1 text-sm">
-    <li>Fever in a patient from a malaria-endemic area, especially with anaemia, jaundice, low platelets, or any feature of severity.</li>
-    <li>Anaemia that is unexplained, severe, or does not fit the MCV - and every known or suspected sickle cell disease patient who presents unwell.</li>
-    <li>Suspected haemolysis: jaundice with pallor, dark urine, a rising reticulocyte count, or anaemia after starting a new drug.</li>
-    <li>Pancytopenia, bicytopenia, or any unexplained leucocytosis or leucopenia.</li>
-    <li>Thrombocytopenia, to confirm the count is real before anyone treats it.</li>
-    <li>A child with pallor, bruising or bone pain; an adult with massive splenomegaly or generalised lymphadenopathy - to look for blasts or a leukaemic picture.</li>
-    <li>Any analyser flag: blasts, immature granulocytes, atypical lymphocytes, nucleated red cells, platelet clumps, a high RDW with a normal MCV, or counts that contradict the clinical picture.</li>
-  </ul>
-  <p class="text-sm">In practice, the film is requested most often after an abnormal count has already been reported. Asking for it alongside the FBC from the start changes management more often than the haemoglobin value alone.</p>
+  <p class="text-sm">Embarrassment is the biggest barrier. A community survey of men aged 30 to 80 in south-western Nigeria found ED in about 59% of the men, and a separate Nigerian report found that most primary care clinicians would not take a sexual history unless the patient raised it. Most men will not raise it. Ask every man with hypertension, diabetes, heart disease, prostate symptoms or low mood, and any man who has stopped his tablets.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Set the scene</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li>See him alone, in a private room with the door closed and the curtain drawn. Say that what he tells you stays between you.</li>
+      <li>Use plain words he understands. Many men say "weak erection", "my manhood is not rising", "I cannot perform", "my body is not responding". Mirror his words, then name the condition once: "erectile dysfunction".</li>
+      <li>Begin from a medical angle, then ask directly. Do not whisper, joke or look away.</li>
+    </ul>
+    <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Many men with high blood pressure or sugar have trouble with erections. Because it is so common, I ask all my patients. Have you noticed any change?"</p>
+    <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"This is a medical problem, not a weakness. It is treatable, and often it tells us something about your general health that we should look at."</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Ask what he is worried about, and who else is involved</strong>
+    <p class="text-sm">Ask whether he is married or in a relationship, whether the partner knows, whether he is trying for children, and what he has already done about it. Guidelines from the American Urological Association advise shared decision-making and inviting the partner into the discussion whenever the man agrees. If he has more than one partner, ask about each, and about condom use: erection tablets bought for casual sex raise the risk of HIV and other infections.</p>
+  </div>
 </div>
 
-<!-- 2. Making and reading a good film -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="making-and-reading-a-good-film" style="scroll-margin-top:1.5rem;">
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="explaining-ed-in-plain-words" style="scroll-margin-top:1.5rem;">
   <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
-  Making and Reading a Good Film
+  Explaining ED in Plain Words
 </h2>
-
 <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-  <p class="text-sm">A poor film produces confident-sounding wrong answers, so the first interpretive step is judging the slide itself.</p>
-  <ul class="list-disc pl-5 space-y-2 text-sm">
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">Fresh sample.</span> Make the film from EDTA blood within about two to three hours, or from a finger-prick drop. Blood left standing in EDTA, particularly in a hot room, produces crenated red cells, vacuolated neutrophils, distorted platelets, and malaria parasites that no longer look like themselves.</li>
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">Spread and stain.</span> A good thin film has a smooth, feathered tail and is read in the monolayer, where red cells lie side by side without overlapping and without being so thinly spread that they flatten. Giemsa, Leishman or May-Grünwald-Giemsa are all acceptable; buffered Giemsa at the right pH is what brings out Schüffner's dots and Maurer's clefts. Stain deposit, dust and debris are common mimics of parasites in rural and primary-care laboratories.</li>
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">Where to look.</span> Scan at low power to check cell distribution and spot clumps, then read the monolayer under the oil-immersion lens. Never judge red cell morphology from the thick head of the film, where cells pile up and appear sickled, crenated or rouleaux when they are not.</li>
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">Thick and thin for malaria.</span> The thick film concentrates parasites and is more sensitive for finding them; the thin film is used for species identification, staging, counting high densities and judging pigment in white cells.</li>
-  </ul>
+  <p class="text-sm">ED means that a man cannot get, or cannot keep, an erection that is firm enough for satisfactory sex. It is usually diagnosed when this has been going on for about three months or more. A bad night after heavy drinking, stress or tiredness is normal and is not ED.</p>
+  <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"An erection is a blood-flow event. When a man is aroused, nerves tell the blood vessels in the penis to open, blood rushes in and the penis firms up. Anything that damages the nerves, narrows the blood vessels, lowers the male hormone or fills the mind with worry can interfere. In most men there is more than one cause."</p>
+  <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"The small blood vessels of the penis are narrower than those of the heart. That is why erection trouble can show up first, sometimes several years before heart or stroke problems appear. So we treat the erection and also check your heart."</p>
+  <p class="text-sm">ED is not the same as loss of desire, ejaculation problems, or infertility. Ask separately about desire, early or delayed ejaculation, whether he still wakes with erections, and whether he can get hard when alone or with masturbation. These answers help sort physical from mainly psychological causes (see section 4).</p>
 </div>
 
-<!-- 3. Red cells -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="red-cells-size-colour-shape-inclusions" style="scroll-margin-top:1.5rem;">
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-beliefs-and-direct-responses" style="scroll-margin-top:1.5rem;">
   <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
-  Red Cells: Size, Colour, Shape, Inclusions
+  Common Beliefs and Direct Responses
 </h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-  <p class="text-sm">Read the red cells in a fixed order: size (anisocytosis, macro- or microcytes), haemoglobinisation (hypochromia, polychromasia), shape (poikilocytes), then inclusions. Look for one population or two - a dimorphic film, with a population of normal cells alongside hypochromic microcytes, points to mixed deficiency (iron plus folate is common in pregnancy and malnutrition) or a recent transfusion.</p>
-  <div class="overflow-x-auto">
-    <table class="w-full text-xs sans border-collapse">
-      <thead>
-        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-          <th class="py-2 pr-3 font-medium">Finding</th>
-          <th class="py-2 pr-3 font-medium">What it points to</th>
-          <th class="py-2 font-medium">In Nigerian practice</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-        <tr><td class="py-2 pr-3">Hypochromic microcytes, pencil cells</td><td class="py-2 pr-3">Iron deficiency</td><td class="py-2">Hookworm, pregnancy, poor diet. Thalassaemia trait gives small cells with target cells and stippling but a normal or high red cell count (see the Mentzer Index in the FBC guide)</td></tr>
-        <tr><td class="py-2 pr-3">Target cells</td><td class="py-2 pr-3">HbSS, HbSC, HbC disease, thalassaemia, liver disease, hyposplenism, iron deficiency</td><td class="py-2">Many target cells with few or no sickle cells in a haemolysing child should raise HbSC; genotype confirms</td></tr>
-        <tr><td class="py-2 pr-3">Sickle cells</td><td class="py-2 pr-3">HbSS, HbSC, HbS-beta thalassaemia</td><td class="py-2">Absent in sickle cell trait, whose film is normal. See Section 4</td></tr>
-        <tr><td class="py-2 pr-3">Howell-Jolly bodies</td><td class="py-2 pr-3">Hyposplenism or asplenia (also megaloblastic anaemia)</td><td class="py-2">Functional asplenia is the rule in HbSS from early childhood; infection risk is high and prophylaxis matters</td></tr>
-        <tr><td class="py-2 pr-3">Polychromasia, nucleated red cells</td><td class="py-2 pr-3">Active marrow response: haemolysis, haemorrhage, recovery</td><td class="py-2">Common in SCD crisis and severe malaria. With immature white cells too (leukoerythroblastic) think marrow infiltration, TB, myelofibrosis, metastases</td></tr>
-        <tr><td class="py-2 pr-3">Spherocytes</td><td class="py-2 pr-3">Autoimmune haemolytic anaemia, hereditary spherocytosis, ABO incompatibility in the newborn</td><td class="py-2">Spherocytes with a positive direct antiglobulin test settle AIHA; HIV and lymphoproliferative disease are recognised triggers</td></tr>
-        <tr><td class="py-2 pr-3">Bite cells, blister cells (Heinz bodies need a supravital stain)</td><td class="py-2 pr-3">G6PD deficiency in acute haemolysis</td><td class="py-2">Roughly one in five Nigerian males is G6PD deficient. Triggers: infection, fava beans, naphthalene, and drugs such as sulfonamides, dapsone, primaquine, nitrofurantoin. Between attacks the film may be normal</td></tr>
-        <tr><td class="py-2 pr-3">Schistocytes (fragments, helmet cells) with low platelets</td><td class="py-2 pr-3">Microangiopathic haemolysis: DIC, TTP or HUS, HELLP and severe pre-eclampsia, malignant hypertension</td><td class="py-2">Severe malaria and sepsis can cause DIC. About 1% or more schistocytes in the right clinical setting supports a thrombotic microangiopathy (ICSH)</td></tr>
-        <tr><td class="py-2 pr-3">Teardrop cells</td><td class="py-2 pr-3">Myelofibrosis, marrow infiltration, thalassaemia</td><td class="py-2">Read with the white cells and splenic size</td></tr>
-        <tr><td class="py-2 pr-3">Oval macrocytes</td><td class="py-2 pr-3">Megaloblastic anaemia, with hypersegmented neutrophils</td><td class="py-2">Folate deficiency is the usual cause; chronic haemolysis (SCD) and pregnancy consume folate</td></tr>
-        <tr><td class="py-2 pr-3">Rouleaux</td><td class="py-2 pr-3">Raised globulins or fibrinogen</td><td class="py-2">Chronic infection (TB, HIV, malaria), myeloma. Look in the thin area; rouleaux in the thick head is artefact</td></tr>
-        <tr><td class="py-2 pr-3">Basophilic stippling</td><td class="py-2 pr-3">Lead poisoning, thalassaemia, megaloblastic anaemia</td><td class="py-2">Lead exposure from informal battery recycling and artisanal mining is a documented cause of poisoning in Nigeria</td></tr>
-      </tbody>
-    </table>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Ask what he thinks has caused it before correcting anything. Listen, acknowledge the belief, then answer directly.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"It is part of getting old, so nothing can be done."</strong>
+    <p class="text-sm">ED becomes more common with age, but it is not an inevitable part of ageing. Most of it is linked to treatable illness, and many men in their 60s and 70s respond well to treatment.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"Someone has done something to me" or "it is spiritual."</strong>
+    <p class="text-sm">Respect the belief and do not argue it. Say that you will treat the body side while he and his family do what their faith requires. Most men with this complaint have a physical cause that tests and tablets can find and help, and a clinic visit does not stop prayer.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"My blood pressure drugs have spoiled my manhood, so I stopped them."</strong>
+    <p class="text-sm">Some drugs do contribute, notably thiazide diuretics and older beta-blockers, but untreated hypertension and diabetes damage the blood vessels and nerves and cause ED themselves, and they cause stroke, heart attack and kidney failure. Ask him never to stop on his own. Tell him that other choices are available (for example, switching to a drug less likely to affect erections) and that you can adjust the regimen. Ask whether he has already stopped or skipped his tablets, without blame.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"Masturbation in my youth caused this."</strong>
+    <p class="text-sm">There is no good evidence that masturbation damages the penis or causes ED later in life. Guilt about it can add to anxiety, which is the real problem.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"Herbal mixtures and strong bitters will cure it."</strong>
+    <p class="text-sm">Ask what he is taking, how much, and for how long, without judging. There is no strong evidence that most local mixtures work. Some are expensive, some harm the liver and kidneys, and products sold as natural sex boosters can contain undisclosed sildenafil-type drugs, which is dangerous in a man who also takes nitrates or has heart disease. Ask him to stop unregistered mixtures and to bring the bottle or sachet to the clinic so the ingredients can be checked, and to look for a valid NAFDAC registration number on any product.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"The blue tablet is for any man and is harmless, so I can just buy it."</strong>
+    <p class="text-sm">Sildenafil-type tablets are widely sold without a prescription. They are safe in most men when used correctly, but they must never be taken with nitrate heart drugs, they need a dose adjustment with some other drugs, and counterfeit pills are common. A short check of his heart and drugs is needed first.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"Having sex will strain my heart and kill me."</strong>
+    <p class="text-sm">Sex is a light to moderate effort, about like climbing two flights of stairs. Men with stable, controlled heart disease can usually have sex safely. A doctor must decide this for men with unstable or severe disease (see section 5).</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">"If the tablet works, I will need it forever, or it will damage me."</strong>
+    <p class="text-sm">There is no evidence that correct use damages the penis. For many men, improving diabetes and blood pressure, weight loss, stopping smoking and treating anxiety restore some natural function, and some stop needing tablets.</p>
   </div>
 </div>
 
-<!-- 4. SCD and the film -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="sickle-cell-disease-and-the-film" style="scroll-margin-top:1.5rem;">
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="causes-and-risk-factors" style="scroll-margin-top:1.5rem;">
   <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
-  Sickle Cell Disease and the Film
+  Causes and Risk Factors
 </h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-  <p class="text-sm">With a sickle trait carrier frequency near a quarter of the population and HbSS affecting a few percent of births, a doctor in Nigeria meets the sickle film constantly, and it repays careful reading.</p>
-  <ul class="list-disc pl-5 space-y-2 text-sm">
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">What the film can and cannot do.</span> Sickle cells on a film in a patient with haemolytic anaemia strongly suggest sickle cell disease, but the film does not give the genotype. HbSS, HbSC and HbS-beta thalassaemia differ in severity and in management, and electrophoresis or HPLC settles which. A film with no sickle cells does not exclude disease: HbSC can show few sickle cells and many target cells.</li>
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">Steady state versus crisis.</span> A patient's baseline film shows sickle cells, target cells, polychromasia, nucleated red cells and Howell-Jolly bodies. During a crisis, look for what has changed. A sharp fall in haemoglobin with a high reticulocyte count and many nucleated cells fits a haemolytic or sequestration crisis. A fall in haemoglobin with polychromasia disappearing and reticulocytes near zero fits an aplastic crisis, classically after parvovirus infection, and these patients need urgent transfusion.</li>
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">Howell-Jolly bodies are a treatment signal, not just a finding.</span> They tell you the spleen is no longer functioning, which is why a febrile child with HbSS needs urgent assessment for bacteraemia, and why penicillin prophylaxis and pneumococcal immunisation matter.</li>
-    <li><span class="font-medium text-slate-800 dark:text-slate-200">Malaria in SCD.</span> A sickle patient with fever should have a malaria film every time. Malaria triggers crisis and drives profound anaemia, and parasite density can be underestimated if the film is only glanced at.</li>
-  </ul>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Most men have more than one cause. Explain this so that he does not search for a single culprit or a single "cure".</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Blood vessel disease</strong>
+    <p class="text-sm">Hypertension, diabetes, high cholesterol, smoking, obesity and established heart disease narrow the arteries that supply the penis. In the Nigerian community survey above, diabetes was the factor that remained significant after adjustment, and ED was more frequent with hypertension and heart disease.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Nerve damage</strong>
+    <p class="text-sm">Diabetic neuropathy, spinal injury or surgery, stroke, multiple sclerosis, and pelvic or prostate surgery. Ask about burning or numb feet, since this often travels with ED in diabetes.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Hormones</strong>
+    <p class="text-sm">Low testosterone (testicular failure, mumps or injury, pituitary disease, obesity, diabetes, chronic illness, opioids), high prolactin and thyroid disease. Low desire together with ED points toward a hormone cause.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Drugs and substances</strong>
+    <p class="text-sm">Thiazide diuretics and spironolactone, older beta-blockers, some antidepressants (SSRIs), antipsychotics, cimetidine, long-term opioids including tramadol, anabolic steroids, alcohol in excess, cannabis and tobacco. Ask about tramadol, "Colorado", codeine cough syrup and other drugs taken for stamina or to work long hours.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Other illness</strong>
+    <p class="text-sm">Chronic kidney disease, chronic liver disease, HIV, sickle cell disease (including a history of priapism), prostate problems and their treatment, Peyronie disease, depression and anxiety. Ask about urinary symptoms such as a weak stream or getting up at night, since prostate enlargement and ED often occur together.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Psychological and relationship causes</strong>
+    <p class="text-sm">Performance anxiety, stress about money or work, fear of failing to father a child, depression, grief, conflict with a partner, guilt about outside relationships, and past sexual or religious shame. These are very common and can sit on top of a physical cause. Clues that point to a mainly psychological cause: sudden onset, a clear trigger, normal erections when alone, with masturbation or on waking, and problems only with some partners. Ask about low mood and loss of interest in other activities, and take it seriously if he mentions hopelessness.</p>
+  </div>
 </div>
 
-<!-- 5. White cells -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="white-cells-reactive-malignant-or-just-busy" style="scroll-margin-top:1.5rem;">
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-your-heart-matters-ed-as-a-warning-sign" style="scroll-margin-top:1.5rem;">
   <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
-  White Cells: Reactive, Malignant, or Just Busy
+  Why Your Heart Matters: ED as a Warning Sign
 </h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-  <p class="text-sm">A manual differential on a good film is more reliable than the analyser whenever the count is abnormal or flagged, and it is the only way to see blasts, toxic change and abnormal lymphocytes. Remember the age-appropriate pattern first: young children are physiologically lymphocyte-predominant (see the FBC guide), so a lymphocyte-rich film in a well two-year-old is normal.</p>
-  <div class="overflow-x-auto">
-    <table class="w-full text-xs sans border-collapse">
-      <thead>
-        <tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
-          <th class="py-2 pr-3 font-medium">Finding</th>
-          <th class="py-2 font-medium">What it points to</th>
-        </tr>
-      </thead>
-      <tbody class="divide-y divide-slate-200 dark:divide-slate-700">
-        <tr><td class="py-2 pr-3">Toxic granulation, Döhle bodies, vacuolated neutrophils, left shift</td><td class="py-2">Bacterial sepsis or severe inflammation. A neutrophilia without these changes in a febrile patient should still prompt a malaria film, since malaria alone raises the neutrophil count</td></tr>
-        <tr><td class="py-2 pr-3">Hypersegmented neutrophils (five or more lobes in at least 5% of neutrophils, or any with six)</td><td class="py-2">Megaloblastic anaemia, often before the anaemia is obvious</td></tr>
-        <tr><td class="py-2 pr-3">Reactive (atypical) lymphocytes</td><td class="py-2">Viral infection including EBV, CMV and HIV seroconversion. Variable cell sizes with abundant cytoplasm are typical; a monotonous population of similar cells is not</td></tr>
-        <tr><td class="py-2 pr-3">Eosinophilia</td><td class="py-2">Helminths first (hookworm, ascaris, strongyloides, schistosomiasis, filariasis), then drug reaction and atopy. Check the thick film for microfilariae</td></tr>
-        <tr><td class="py-2 pr-3">Left shift with myelocytes and promyelocytes, basophilia, often eosinophilia, with splenomegaly</td><td class="py-2">Chronic myeloid leukaemia - a leading cause of massive splenomegaly in adults, alongside tropical splenomegaly. A leukaemoid reaction to infection shows toxic change without basophilia</td></tr>
-        <tr><td class="py-2 pr-3">Mature lymphocytosis with smudge cells in an older adult</td><td class="py-2">Chronic lymphocytic leukaemia</td></tr>
-        <tr><td class="py-2 pr-3">Blasts, with or without Auer rods</td><td class="py-2">Acute leukaemia until proven otherwise (see below)</td></tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div>
-    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Blast Cells</strong>
-    <p class="text-sm">Blasts are large cells with a high nuclear-to-cytoplasmic ratio, fine open chromatin, visible nucleoli and little or no granulation. Auer rods, which are needle-like red-pink inclusions, confirm a myeloid origin. Classically, acute leukaemia is diagnosed at 20% or more blasts in blood or marrow, although newer classifications accept lower counts for some genetically defined subtypes, and the film is a screening tool, not a final diagnosis: confirmation needs marrow examination, flow cytometry and cytogenetics, which means early referral.</p>
-    <p class="text-sm mt-2">A child with pallor, fever, bleeding or bone pain and any circulating blasts needs urgent referral to a centre with Pediatric oncology services. Do not give corticosteroids first. Steroids can partly treat acute lymphoblastic leukaemia and make the later marrow harder to interpret.</p>
-    <p class="text-sm mt-2">Burkitt lymphoma is common in Nigerian children. Leukaemic spill into the blood is uncommon, but lymphoma cells with deeply basophilic, vacuolated cytoplasm on the film of a child with a jaw or abdominal mass should be reported and acted on the same day.</p>
-  </div>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">The Princeton IV consensus (2024) treats ED as a marker of cardiovascular disease and as a risk-enhancing factor, independent of age and other risk factors. ED can come several years before a heart attack or stroke. Every man with ED therefore needs a blood pressure check, blood sugar and cholesterol checks, a look at his smoking and weight, and an overall heart risk assessment.</p>
+  <p class="text-sm">Before treatment, decide whether sex is safe for his heart. The consensus divides men into three groups.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Lower risk, treat for ED:</strong> controlled hypertension, mild heart failure symptoms (NYHA class I to II), successfully treated coronary disease, mild valve disease, or able to exercise well without symptoms.</li>
+    <li><strong>Intermediate risk, assess first:</strong> moderate angina, recent heart attack without intervention, NYHA class III heart failure, previous stroke or TIA, peripheral artery disease. These men need review by a doctor, with an ECG and an exercise tolerance test or echocardiogram, before treatment.</li>
+    <li><strong>High risk, treat the heart first and delay sex until stable:</strong> unstable or refractory angina, uncontrolled hypertension, NYHA class IV heart failure, a recent heart attack that has not been treated, or dangerous arrhythmia. Refer to a cardiologist.</li>
+  </ul>
+  <p class="text-sm">Ask directly: "Do you get chest pain, breathlessness or dizziness when you climb stairs or walk fast? Do you take any heart tablet or spray under the tongue, such as glyceryl trinitrate or isosorbide?" If he can climb two flights of stairs without symptoms, his heart can generally cope with sex.</p>
 </div>
 
-<!-- 6. Platelets -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="platelets-on-the-film" style="scroll-margin-top:1.5rem;">
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="grading-severity-and-investigations" style="scroll-margin-top:1.5rem;">
   <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
-  Platelets on the Film
+  Grading Severity and Investigations
 </h2>
-
 <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-  <p class="text-sm">Scan the feathered edge and the body of the film for clumps before accepting any low platelet count. EDTA can make platelets clump or stick around neutrophils (satellitism), so the analyser reports a falsely low count. If clumps are present, the count is unreliable; repeat in a citrate tube before anyone worries about bleeding or withholds a procedure.</p>
-  <p class="text-sm">Platelet size is informative too. Giant platelets alongside a low count suggest peripheral destruction (immune thrombocytopenia) or a marrow disorder; small platelets are seen in some inherited conditions. In febrile patients, a truly low count with malaria parasites on the film fits malaria thrombocytopenia, which usually recovers with treatment. A platelet lying on top of a red cell can look like a parasite ring, so confirm parasites by their nucleus and cytoplasm, not by position alone.</p>
+  <p class="text-sm">The IIEF-5 (five questions on erection over the last six months) gives a score of 5 to 25. A score of 22 to 25 is no ED, 17 to 21 mild, 12 to 16 mild to moderate, 8 to 11 moderate and 5 to 7 severe. Fill it in with him; this also lets you track progress. It can be read aloud if he cannot read.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">What to check and why</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Examination:</strong> blood pressure, pulse, weight and waist, breast tissue, hair pattern, testis size and consistency, penis (curvature, plaques), femoral and foot pulses, foot sensation, and a digital rectal examination in men with urinary symptoms or age over 50.</li>
+      <li><strong>Blood sugar:</strong> fasting glucose or HbA1c. Remember that HbA1c can be falsely low in sickle cell disease and may be unreliable in sickle trait, depending on the method.</li>
+      <li><strong>Lipids:</strong> non-fasting samples are acceptable.</li>
+      <li><strong>Testosterone:</strong> the AUA advises measuring testosterone in men with ED. Take a morning sample, and confirm a low value on a second morning sample with symptoms present. A total testosterone below about 264 ng/dL (Endocrine Society) to 300 ng/dL (AUA) with symptoms is low. If it is low, check LH and prolactin. Do not prescribe testosterone for men planning children, because it suppresses sperm production, and it is only considered after the prostate has been assessed.</li>
+      <li><strong>Others, if indicated:</strong> kidney function, liver tests, thyroid function, PSA after counselling in men for whom screening is appropriate, ECG, and HIV test when he agrees or has a risk.</li>
+    </ul>
+  </div>
+  <p class="text-sm">Where hormone tests or an ECG are not affordable, start with the history, examination, blood pressure, blood sugar and a nitrate check. These cost little and decide most of the safety questions.</p>
 </div>
 
-<!-- 7. Parasites -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="parasites-and-organisms-on-the-film" style="scroll-margin-top:1.5rem;">
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="lifestyle-and-everyday-advice" style="scroll-margin-top:1.5rem;">
   <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
-  Parasites and Organisms on the Film
+  Lifestyle and Everyday Advice
 </h2>
-
-<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-3 text-slate-700 dark:text-slate-300">
-  <div>
-    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Malaria: Species</strong>
-    <ul class="list-disc pl-5 space-y-2 text-sm">
-      <li><span class="font-medium text-slate-800 dark:text-slate-200">Plasmodium falciparum</span> causes most malaria in Nigeria. Small delicate ring forms, often several rings in one red cell and accolé forms at the cell edge, with normal-sized red cells. Banana-shaped gametocytes are diagnostic. In an ordinary infection only rings and gametocytes appear in the blood, because the older stages sequester in the microvasculature.</li>
-      <li><span class="font-medium text-slate-800 dark:text-slate-200">P. malariae</span> shows compact trophozoites, band forms across the cell, and rosette-shaped schizonts. It causes quartan fever and is the species linked to nephrotic syndrome in children.</li>
-      <li><span class="font-medium text-slate-800 dark:text-slate-200">P. ovale</span> has oval, fimbriated infected cells with Schüffner's dots. <span class="font-medium text-slate-800 dark:text-slate-200">P. vivax</span> is uncommon in West Africa because most people are Duffy-negative, so a vivax-like parasite in a Nigerian patient should be re-examined carefully and considered ovale first.</li>
-      <li>Mixed infections are common, particularly falciparum with malariae. Report every species seen, not only the commonest.</li>
-    </ul>
-  </div>
-  <div>
-    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Malaria: Density</strong>
-    <p class="text-sm"><span class="font-medium text-slate-800 dark:text-slate-200">Thick film.</span> Count asexual parasites against white cells (200 white cells; count against 500 if there are fewer than 10 parasites). Where the patient's own white cell count is not available, the WHO convention is to assume 8,000 per microlitre.</p>
-    <p class="text-sm bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 p-3 sans mt-2">Parasites per &micro;L = (parasites counted &divide; white cells counted) &times; 8,000</p>
-    <p class="text-sm mt-2">Worked example: 150 parasites against 200 white cells gives (150 &divide; 200) &times; 8,000 = 6,000 parasites per microlitre. If the patient's measured white count is 12,000, using it instead of 8,000 gives 9,000, and the difference matters in anaemic or leucocytotic patients.</p>
-    <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">Thin film.</span> Once the thick film becomes too dense to count, use the thin film and report the percentage of red cells parasitised. As a rough conversion at a normal red count of about 5 million per microlitre, 1% parasitaemia is about 50,000 per microlitre.</p>
-    <p class="text-sm mt-2"><span class="font-medium text-slate-800 dark:text-slate-200">A negative film.</span> Examine at least 100 high-power fields of a well-stained thick film before reporting no parasites seen. If malaria is still suspected, repeat at 6 to 12 hourly intervals over 24 to 48 hours rather than accepting a single negative result.</p>
-  </div>
-  <div>
-    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Malaria: Severity Markers on the Film</strong>
-    <p class="text-sm">Parasite density is a risk indicator, not a definition of severe malaria. In high-transmission settings, semi-immune children can carry high counts and look well, and others die at lower counts, so the clinical features decide severity. The thresholds also depend on the era and the transmission setting: the 2010 WHO definition used more than 5% (250,000 per microlitre) in high-transmission areas, while the formal criterion in current WHO severe malaria definitions is hyperparasitaemia above 10%, with 4 to 10% regarded as uncomplicated hyperparasitaemia that warrants close observation.</p>
-    <p class="text-sm mt-2">The film adds markers that density alone misses, and these are worth stating on the report:</p>
-    <ul class="list-disc pl-5 space-y-1 text-sm mt-1">
-      <li>Mature trophozoites or schizonts in the peripheral blood, which should be sequestered. Their presence signals a large hidden parasite burden.</li>
-      <li>Malaria pigment (haemozoin) in at least 5% of neutrophils. In African children the proportion of pigment-containing neutrophils helps separate severe malaria from other life-threatening febrile illness, and adds prognostic information beyond the parasite count.</li>
-      <li>Parasite density rising on repeat films despite treatment, or parasites still present at 72 hours. Check adherence, vomiting and dosing first, and discuss with the treating team.</li>
-    </ul>
-  </div>
-  <div>
-    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700 mt-3">Other Organisms</strong>
-    <ul class="list-disc pl-5 space-y-2 text-sm">
-      <li><span class="font-medium text-slate-800 dark:text-slate-200">Microfilariae.</span> Mansonella perstans is widespread in Nigeria and is a common incidental finding on thick films, often with eosinophilia and usually of little clinical consequence. Loa loa, found in some southern forest areas, is sheathed and appears by day, and a high loa microfilarial load matters because it raises the risk of serious reactions to ivermectin; refer rather than treat blindly. Wuchereria bancrofti circulates at night, so a daytime sample can miss it.</li>
-      <li><span class="font-medium text-slate-800 dark:text-slate-200">Trypanosomes.</span> Rarely seen, and most likely in patients from known endemic foci with chronic fever, lymphadenopathy and neurological change. They are easy to miss unless looked for.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- 8. Reading order -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="reading-order" style="scroll-margin-top:1.5rem;">
-  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
-  Reading Order
-</h2>
-
 <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
-  <ol class="list-decimal pl-5 space-y-1 text-sm">
-    <li>Judge the film first: fresh sample, even spread, correct stain, and reading in the monolayer. Reject a poor film instead of interpreting it.</li>
-    <li>Read it against the clinical question and the FBC numbers - age, sex, pregnancy, known genotype, drugs, fever.</li>
-    <li>Look for parasites and organisms first (thick film for sensitivity, thin film for species, stage and density), because they are the most urgent and the most treatable finding.</li>
-    <li>Red cells: size, colour, shape, inclusions, and whether there are one or two populations.</li>
-    <li>White cells: a manual differential, toxic change, abnormal lymphocytes, and above all any blasts.</li>
-    <li>Platelets: confirm the count, look for clumps and giant forms.</li>
-    <li>Write a short synthesis, not a list of adjectives: for example "hypochromic microcytic anaemia with pencil cells, consistent with iron deficiency; no parasites seen." State the species, stage and density in every positive malaria report.</li>
-  </ol>
-</div>
-
-<!-- Must not miss -->
-<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
-  <h3 class="font-brand text-lg font-semibold text-rose-800 dark:text-rose-300 mb-3 pb-2 border-b border-rose-200 dark:border-rose-700">Findings That Must Not Be Missed</h3>
-  <ul class="space-y-2.5 text-sm text-rose-900 dark:text-rose-300">
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Blast cells</span> in the blood of a pale, bruising or febrile patient: acute leukaemia until proven otherwise. Refer urgently and avoid steroids first.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Schizonts or mature trophozoites, or pigment in 5% or more of neutrophils</span>, on a malaria film: treat as severe malaria regardless of how the patient looks in the first hour.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Schistocytes with thrombocytopenia</span> and a falling haemoglobin: microangiopathic haemolysis. Consider DIC, TTP, HELLP and malignant hypertension and act the same day.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Howell-Jolly bodies in a febrile child with sickle cell disease</span>: functional asplenia, with a real risk of pneumococcal sepsis.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Bite cells and blister cells after a new drug</span>: stop the suspected oxidant and manage for G6PD-related haemolysis.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.1" fill="#fff"/></svg><span><span class="font-medium">Platelet clumps</span> behind a "critical" low platelet count: do not treat the number before repeating it in citrate.</span></li>
+  <p class="text-sm">These measures help the blood vessels and often improve erections, and they should accompany any tablet.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Stop smoking.</strong> Offer help. Reduce alcohol, and avoid heavy drinking before sex.</li>
+    <li><strong>Move more.</strong> About 150 minutes a week of brisk walking, cycling or football with friends. Walking to the market or to work counts.</li>
+    <li><strong>Lose weight</strong> if overweight, especially around the waist. Cut down on fried foods and fatty meat, including heavy portions of suya, fried plantain, and meals cooked in a lot of palm oil or groundnut oil.</li>
+    <li><strong>Eat in a heart-friendly way.</strong> More vegetables (efo, ugu, okra, bitterleaf), beans, fish, unpolished grains, fruit; smaller portions of swallows (eba, fufu, pounded yam, amala) and white rice; less salt, seasoning cubes and sugary drinks and sweetened bitters.</li>
+    <li><strong>Control diabetes and blood pressure,</strong> and take the tablets every day.</li>
+    <li><strong>Sleep and stress.</strong> Seven to eight hours of sleep, and a plan for stress at work and at home. Men who work night shifts or drive long distances need extra attention to this.</li>
+    <li><strong>Avoid tramadol, anabolic steroids and other drugs taken for stamina.</strong></li>
+    <li><strong>Talk to your partner.</strong> Say that the problem is medical, take the pressure off intercourse, and spend time on touching and intimacy while treatment starts.</li>
   </ul>
 </div>
 
-<!-- Pitfalls -->
-<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="common-pitfalls" style="scroll-margin-top:1.5rem;">
-  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
-  Common Pitfalls
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="counselling-on-tablets-pde5-inhibitors" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+  Counselling on Tablets (PDE5 Inhibitors)
 </h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Tablets in this class (sildenafil, tadalafil, vardenafil, avanafil) improve blood flow to the penis, but only when he is sexually aroused. They do not cause an erection on their own, they do not raise desire, and they are not aphrodisiacs.</p>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Typical choices and doses</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Sildenafil:</strong> 50 mg about 30 to 60 minutes before sex, adjusted between 25 and 100 mg, no more than once in 24 hours. Start with 25 mg in men over 65, with liver or severe kidney disease, or on strong CYP3A4 inhibitors. A heavy fatty meal delays the effect. Lasts around 4 hours.</li>
+      <li><strong>Tadalafil:</strong> 10 mg on demand, up to 20 mg, taken at least 30 minutes before sex; can work for up to 36 hours, so it suits couples who prefer less planning. Alternatively 2.5 to 5 mg once daily, which also helps urinary symptoms from prostate enlargement. Food does not affect it.</li>
+      <li><strong>Vardenafil:</strong> 10 mg about 30 to 60 minutes before sex, range 5 to 20 mg. A fatty meal reduces the effect.</li>
+      <li><strong>Avanafil</strong> (where available): 100 mg about 30 minutes before sex, range 50 to 200 mg.</li>
+    </ul>
+    <p class="text-sm mt-2">Tell him to try the first dose when relaxed, with enough sexual stimulation, and to try at least 6 to 8 times at the same dose, at different times, before judging that it has failed. Many men fail the first time because of anxiety, too little stimulation, a heavy meal or too much alcohol. If it fails after proper trials, return to the clinic for a dose change or another option, not to buy a stronger tablet from a roadside seller.</p>
+  </div>
+  <div>
+    <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Safety counselling that must be given every time</strong>
+    <ul class="list-disc pl-5 space-y-1 text-sm">
+      <li><strong>Never with nitrates</strong> (glyceryl trinitrate tablets or spray, isosorbide mononitrate or dinitrate) or riociguat; the blood pressure can fall dangerously low. If he has had a PDE5 inhibitor, nitrates should wait 24 hours after sildenafil or vardenafil, 48 hours after tadalafil and 12 hours after avanafil. A man who takes a nitrate regularly should not use these tablets at all unless a cardiologist has changed the plan. Teach him to tell any emergency team that he took one.</li>
+      <li><strong>Blood pressure drugs and alpha-blockers</strong> (tamsulosin, doxazosin, alfuzosin) add to the fall in blood pressure. Combine only on a doctor's advice, starting at the lowest dose once the alpha-blocker is stable. Advise standing up slowly.</li>
+      <li><strong>Interacting drugs.</strong> Ketoconazole, itraconazole, erythromycin, clarithromycin, cimetidine and ritonavir- or cobicistat-boosted antiretrovirals raise tablet levels, so use lower doses and wider spacing (for example, sildenafil not more than 25 mg in 48 hours and tadalafil 10 mg not more often than every 72 hours with ritonavir). Rifampicin lowers levels and may make the usual dose less effective. Check with a pharmacist or the HIV or TB clinic.</li>
+      <li><strong>Common side effects:</strong> headache, facial flushing, blocked nose, indigestion, muscle or back ache (especially tadalafil), and a blue tinge to vision with sildenafil. They are usually mild and short.</li>
+      <li><strong>Stop and get help urgently</strong> for sudden loss of vision in one eye, sudden hearing loss or ringing, chest pain, fainting, or an erection lasting four hours or more.</li>
+      <li><strong>Sickle cell disease and other conditions that favour priapism:</strong> use extra caution, start low, and see the doctor immediately for any prolonged erection.</li>
+      <li><strong>Buy from a registered pharmacy.</strong> Counterfeit and unregistered tablets are widespread. Do not use pills of unknown dose, do not share them, and do not take more than one tablet or mix two brands in a day.</li>
+      <li><strong>Alcohol.</strong> A small amount is fine, but heavy drinking reduces both the tablet effect and the erection.</li>
+    </ul>
+  </div>
+</div>
 
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="if-tablets-are-not-suitable-or-do-not-work" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+  If Tablets Are Not Suitable or Do Not Work
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Guidelines from the American Urological Association present PDE5 inhibitors as one of several options and advise choosing together with the patient, without a rigid order. The patient should know about every option, including those you cannot offer.</p>
+  <ul class="list-disc pl-5 space-y-1 text-sm">
+    <li><strong>Psychosexual counselling and sex therapy,</strong> alone or with tablets, for performance anxiety, relationship problems and mood. Include the partner where possible.</li>
+    <li><strong>Vacuum erection device:</strong> a plastic cylinder and a constriction ring. It is cheap, has no drug effects and suits men who cannot take tablets, but it can be awkward and the penis may feel cold.</li>
+    <li><strong>Intraurethral alprostadil and intracavernosal injections</strong> (second line). Injections require teaching in a clinic. Warn about pain, bruising, scarring and a painful erection lasting four hours or more, which needs emergency care.</li>
+    <li><strong>Penile prosthesis</strong> (third line) for men who fail other treatments. This needs a urologist and is expensive; refer early if he wants this.</li>
+    <li><strong>Low-intensity shockwave therapy and herbal or "stem cell" products</strong> are not established treatments. Advise against paying for them outside a research setting.</li>
+    <li><strong>Hormone treatment</strong> only for confirmed low testosterone with symptoms, after the heart, prostate and fertility questions have been addressed.</li>
+    <li><strong>Treat the cause:</strong> better diabetes and blood pressure control, review of drugs that contribute, treatment of depression, and management of prostate symptoms.</li>
+  </ul>
+  <p class="text-sm">Specialist services for injections, shockwave and implants are limited and mostly in teaching hospitals and private urology centres. Say so frankly, and tell him what will be possible near his home.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="barriers-to-treatment-and-how-to-handle-them" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+  Barriers to Treatment and How to Handle Them
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <ul class="list-disc pl-5 space-y-2 text-sm">
+    <li><strong>Cost.</strong> Branded tablets are expensive and are usually paid for out of pocket, because most health insurance schemes do not cover them. Generic sildenafil from a registered pharmacy is cheaper; ask which strength he can afford, and do not let him split doses without advice. Warn him that cheap tablets from hawkers are often fake.</li>
+    <li><strong>Shame and secrecy.</strong> Reassure him about privacy. If he refuses to involve his partner, work with him alone and revisit later. Offer to speak to his wife with his permission, and give him simple words to use at home.</li>
+    <li><strong>Distance and follow-up.</strong> Offer one clear review date and a phone number if the service can take calls. A combined visit with his diabetes or hypertension clinic day avoids an extra trip.</li>
+    <li><strong>Stopping blood pressure or diabetes drugs because of ED.</strong> Ask about this at every visit and offer to adjust the treatment rather than stop it.</li>
+    <li><strong>Over-reliance on tablets taken for casual sex,</strong> or sharing tablets with friends. Ask directly and counsel on condoms and HIV testing.</li>
+    <li><strong>Pressure to father children.</strong> Explain that ED is different from infertility and that sperm testing and fertility advice are available. Avoid testosterone if conception is the aim.</li>
+    <li><strong>Religious or spiritual objections.</strong> Do not dismiss them. Find what he is willing to accept and agree a plan around it.</li>
+  </ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300">
+  <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+  <p class="text-sm">The AUA guideline stresses shared decision-making and informing the patient about all options, not a fixed first-line drug, while many clinical pathways still start with a PDE5 inhibitor after the heart has been assessed. The Princeton IV consensus on ED and cardiovascular risk is a consensus statement, and the observational links between PDE5 inhibitors and fewer cardiovascular events are subject to indication bias; do not tell patients these tablets protect the heart. No Nigerian national guideline on ED was identified. Injection therapy, shockwave, vacuum devices and implants are not widely available outside tertiary centres, and PDE5 inhibitors are often outside insurance cover. Adapt the pathway to what the patient can reach and afford.</p>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="warning-signs-when-to-come-back-immediately" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+  Warning Signs: When to Come Back Immediately
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6">
+  <ul class="space-y-2 text-sm text-rose-900 dark:text-rose-300">
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>An erection lasting four hours or more</strong> (with tablets or injections), or a painful erection: go to an emergency unit at once; do not wait for it to go down.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Chest pain, severe breathlessness, fainting or palpitations</strong> during or after sex or after taking a tablet. Do not take glyceryl trinitrate on your own if you used a PDE5 inhibitor recently; call for help and tell the team what you took.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Sudden loss or blurring of vision in one eye, or sudden hearing loss:</strong> stop the tablet and seek urgent care.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>New leg weakness, numbness in the groin or legs, or loss of bladder or bowel control with back pain:</strong> possible spinal cord or nerve compression, needs urgent assessment.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Penile injury, a sudden "pop" with a bent, swollen penis,</strong> or blood in the urine after sex.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Hopelessness, thoughts of ending your life, or severe low mood:</strong> tell someone close to you and come to the clinic or an emergency unit right away. These feelings are treatable.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#fff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#fff"/></svg><span><strong>Rash, swelling of the face or lips, or difficulty breathing</strong> after a tablet: stop it and get urgent care.</span></li>
+  </ul>
+</div>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="follow-up" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+  Follow-Up
+</h2>
 <div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
   <ul class="list-disc pl-5 space-y-1 text-sm">
-    <li>Requesting a film with no clinical question. A report that says "normocytic anaemia" helps no one; "fever, anaemia, known HbSS" tells the reader where to look.</li>
-    <li>Interpreting a poor or old film: crenated cells, over-thick areas, stain deposit and distorted parasites generate false positives and false negatives.</li>
-    <li>Relying on a rapid test alone for malaria. HRP2 antigen can remain positive for weeks after parasites have cleared, and the film is what shows the species, density and stage.</li>
-    <li>Reporting "malaria parasites seen" with no species, stage or density, which strips the report of its prognostic value.</li>
-    <li>Calling sickle trait or sickle disease from a film alone, without a genotype.</li>
-    <li>Assuming a normal film excludes G6PD deficiency or a haemoglobinopathy. Between haemolytic episodes the film can look normal.</li>
-    <li>Treating a "low platelet count" without looking at the film for clumps.</li>
-    <li>Missing a second pathology because the first was found: malaria on a film does not exclude sepsis, iron deficiency, or a haemoglobinopathy, and the film often shows several of these at once.</li>
+    <li>Review after 4 to 6 weeks: how many attempts, which dose, what happened, side effects, and the repeat IIEF-5 score. Adjust the dose or switch the tablet if there was no benefit after proper trials.</li>
+    <li>Recheck blood pressure, glucose or HbA1c, weight, smoking and drug adherence at every visit. ED treatment is also a way to bring men back to care for their heart and diabetes.</li>
+    <li>If the first line fails after correct use, offer referral for second-line options, further hormone tests or psychosexual therapy, and tell him that no single failed tablet closes the door.</li>
+    <li>If testosterone was low, repeat it as advised and decide with the patient whether to treat.</li>
+    <li>After heart events, new drugs (especially nitrates) or new alpha-blockers, repeat the safety counselling before the next tablet.</li>
+    <li>Annual review once stable, with a heart risk check.</li>
   </ul>
 </div>
 
-<!-- Key Clinical Takeaways -->
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="closing-teach-back" style="scroll-margin-top:1.5rem;">
+  <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+  Closing: Teach-Back
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+  <p class="text-sm">Ask him to explain it back in his own words. Correct gently and repeat. Do not ask "Do you understand?", because he will say yes.</p>
+  <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"I want to be sure I explained it well. Tell me, in your own words, what is causing your erection problem and what you will do about it."</p>
+  <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"How will you take the tablet, and what would you do if the tablet does not work the first time?"</p>
+  <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"Which medicines must you never take with it? What would make you stop and rush to the hospital?"</p>
+  <p class="text-sm quote border-indigo-300 dark:border-indigo-600 pl-4 italic">"What will you say to your wife, and what will you do about your blood pressure or sugar tablets?"</p>
+  <p class="text-sm">Confirm that he can name the nitrate rule, the four-hour rule, the warning signs, the follow-up date and what to do if he is tempted to buy tablets from a hawker.</p>
+</div>
+
 <div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6">
-  <h3 class="font-brand text-lg font-semibold text-indigo-800 dark:text-indigo-200 mb-3 pb-2 border-b border-indigo-200 dark:border-indigo-600">Key Clinical Takeaways</h3>
-  <ul class="space-y-2.5 text-sm text-indigo-900 dark:text-indigo-300">
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Request the film with the FBC, not after it, and write the clinical question on the form.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A malaria report is incomplete without species, stage and density. Schizonts or heavy pigment in neutrophils matter more than the count itself.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Sickle cells suggest sickle cell disease but do not give the genotype; Howell-Jolly bodies in a sickle patient mean the spleen has stopped working.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Blasts mean urgent referral; the film screens, and marrow and flow cytometry confirm.</span></li>
-    <li class="flex gap-2.5 items-start"><svg class="w-4 h-4 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="11" fill="#4338ca"/><path d="M7 12.5l3 3 7-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Confirm any critical platelet count on the film before treating it.</span></li>
+  <strong class="block font-semibold text-indigo-950 dark:text-indigo-200 pb-2 mb-2 border-b border-indigo-200 dark:border-indigo-700">Key Take-Home Points for the Patient</strong>
+  <ul class="space-y-2 text-sm text-indigo-950 dark:text-indigo-200">
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Erection problems are common, medical and treatable. They are not a weakness or a curse.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>It can be an early warning of heart and blood vessel disease, so your blood pressure, sugar and heart need checking.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never stop your blood pressure or diabetes tablets on your own because of this problem. Tell your doctor and the drug can be changed.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Never take erection tablets with nitrate heart medicines such as glyceryl trinitrate or isosorbide.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Take the tablet before sex, as advised, and try it several times before deciding it has failed. You need sexual stimulation for it to work.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>An erection lasting four hours or more, chest pain, fainting, or sudden loss of vision or hearing need emergency care.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not buy tablets or mixtures from hawkers; they may be fake or contain hidden drugs. Use a registered pharmacy.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Quit smoking, drink less, walk daily, lose weight and eat less fried food. These help the blood vessels and improve erections.</span></li>
+    <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7.5 12.5l3 3 6-6.5" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Talk to your partner. Share the load, and consider coming to the clinic together. Use condoms with any partner whose HIV status you do not know.</span></li>
   </ul>
 </div>
 
-<!-- References -->
-<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
-  <summary class="flex items-center justify-between cursor-pointer px-4 py-2 select-none">
-    <h3 class="font-brand text-sm font-semibold text-stone-600 dark:text-stone-300">References</h3>
-    <svg class="w-4 h-4 text-stone-400 dark:text-stone-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-    </svg>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+  <summary class="flex items-center justify-between cursor-pointer p-4 font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">
+    References
+    <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
   </summary>
-  <div class="px-4 sm:px-6 pb-4 sm:pb-6 pt-2 border-t border-stone-200 dark:border-stone-700">
-    <ul class="space-y-1 text-[10px] leading-snug text-stone-500 dark:text-stone-400">
-      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Guidelines for Malaria, including the severe malaria case definition.</li>
-      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Malaria Microscopy Quality Assurance Manual.</li>
-      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>World Health Organization - Classification of Haematolymphoid Tumours, 5th Edition.</li>
-      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>International Council for Standardization in Haematology - Recommendations on the Identification of Schistocytes and on Peripheral Blood Cell Morphology.</li>
-      <li class="pl-4 -indent-4"><span aria-hidden="true">&bull;&nbsp;&nbsp;</span>Federal Ministry of Health, Nigeria - Standard Treatment Guidelines and National Malaria Treatment Guidelines.</li>
-    </ul>
+  <div class="px-4 pb-4 space-y-1">
+    <p class="text-[10px] leading-snug text-stone-500">1. American Urological Association. Erectile Dysfunction: AUA Guideline (2018).</p>
+    <p class="text-[10px] leading-snug text-stone-500">2. Princeton IV Consensus Guidelines: PDE5 inhibitors and cardiac health, and erectile dysfunction as an ASCVD risk-enhancing factor (2024).</p>
+    <p class="text-[10px] leading-snug text-stone-500">3. Product labelling for sildenafil, tadalafil, vardenafil and avanafil: dosing, nitrate washout intervals and CYP3A4 interactions.</p>
+    <p class="text-[10px] leading-snug text-stone-500">4. Endocrine Society and American Urological Association guidance on the diagnosis of male hypogonadism (testosterone thresholds).</p>
+    <p class="text-[10px] leading-snug text-stone-500">5. International Index of Erectile Function (IIEF-5) and its severity categories.</p>
+    <p class="text-[10px] leading-snug text-stone-500">6. Nigerian community and hospital-based surveys of erectile dysfunction prevalence, risk factors and help-seeking, and Nigerian primary care studies of clinicians' sexual history taking.</p>
+    <p class="text-[10px] leading-snug text-stone-500">7. National Agency for Food and Drug Administration and Control (NAFDAC), advice on registered medicines.</p>
   </div>
 </details>
 
+</div>
 </body>
 </html>
     `
-  },
+},
 
 
 ];

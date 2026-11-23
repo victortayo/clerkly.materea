@@ -1,6 +1,170 @@
 import { Template } from '../../types';
 
 export const SURGERY_TEMPLATES: Template[] = [
+
+  {
+    id: 'surg-88',
+    title: 'Ludwig’s Angina Secondary to Odontogenic Infection',
+    specialty: 'Surgery',
+    subSpecialty: 'Ear, Nose and Throat (ENT)',
+    condition: 'Ludwig’s Angina',
+    symptoms: [
+      'Submandibular swelling',
+      'Submental swelling',
+      'Fever',
+      'Chills and rigors',
+      'Difficulty swallowing (Dysphagia)',
+      'Difficulty breathing (Dyspnoea)',
+      'Drooling',
+      'Muffled voice',
+      'Trismus',
+      'Stridor',
+      'Toothache',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-23',
+    summary: '42-year-old male carpenter presenting with rapidly progressive bilateral submandibular and submental swelling, fever, dysphagia, drooling, muffled voice and respiratory distress following a history of right lower molar toothache. Examination revealed brawny submandibular swelling, elevated floor of the mouth, posterior displacement of the tongue, trismus and stridor, suggestive of Ludwig’s angina complicated by impending airway obstruction.',
+    content: `SURGICAL / ENT EMERGENCY
+  
+  Patient Seen
+  A 42-year-old male carpenter who resides in Ogbomosho, Oyo State. He is Yoruba by tribe and a Christian.
+  
+  PC:
+  Submandibular swelling × 5/7
+  Fever and chills × 4/7
+  Difficulty swallowing × 3/7
+  Difficulty breathing × 1/7
+  
+  HPC:
+  He was apparently well until 5 days ago when he developed a painful swelling under his chin and lower jaw. The swelling was initially small but rapidly increased in size over the last 3 days to involve the entire submandibular and submental regions. He describes the pain as severe, throbbing, and radiating to the ears.
+  
+  There is an associated history of a painful lower right molar tooth for about 2 weeks prior to the onset of the swelling. He reported to a local chemist where he was given unknown tablets with no significant relief.
+  
+  He developed high-grade fever 4 days ago, which was associated with chills and rigors. Over the last 3 days, he has had significant difficulty swallowing even his own saliva, leading to drooling. He also notes a muffled voice (hot potato voice) and finds it difficult to open his mouth or protrude his tongue.
+  
+  He developed progressive shortness of breath and noisy breathing about 24 hours prior to presentation, which is worse when lying supine. There is no history of facial trauma or previous neck surgery.
+  
+  Past Medical History:
+  Known hypertensive diagnosed 3 years ago, fairly compliant with Amlodipine 5 mg daily. No known history of Diabetes Mellitus or Asthma. No previous history of similar neck swelling.
+  
+  Drug History:
+  Tab Amlodipine 5 mg daily.
+  Used Ibuprofen and Paracetamol from a chemist for the toothache.
+  No known drug allergies (NKDA).
+  
+  Family and Social History:
+  Married in a monogamous setting with four children. He does not smoke or drink alcohol. He lives in a 3-bedroom bungalow with adequate ventilation.
+  
+  Review of Systems:
+  CNS: Occasional headache, no seizures, no loss of consciousness.
+  RS: As in HPC. No cough, no hemoptysis.
+  CVS: No palpitations, no chest pain.
+  GIT: No abdominal pain, no change in bowel habits.
+  MSS: Generalized body weakness and malaise.
+  
+  O/E:
+  
+  General Examination:
+  Patient is acutely ill-looking, in obvious respiratory and painful distress. He is sitting upright and leaning forward (tripod position). He is febrile (Temp 38.8°C), not pale, mildly icteric, and dehydrated. No pedal edema.
+  
+  Vital Signs:
+  PR: 112 bpm (regular, full volume).
+  BP: 140/90 mmHg.
+  RR: 28 cpm (labored, with audible stridor).
+  SpO₂: 92 percent on room air.
+  
+  Local Examination (Head and Neck):
+  There is a massive, diffuse, bilateral submandibular and submental swelling.
+  
+  Skin over the swelling is erythematous and tense.
+  
+  On palpation, the area is exquisitely tender and has a firm, woody/brawny consistency.
+  
+  There is no fluctuance (brawny edema).
+  
+  There is significant trismus (inter-incisor gap less than 2 cm).
+  
+  Intra-orally: The floor of the mouth is elevated and erythematous. The tongue is displaced posteriorly and superiorly. Malodorous breath noted. Grossly carious right lower 2nd and 3rd molars.
+  
+  Respiratory System:
+  Tachypnea, use of accessory muscles of respiration. Trachea appears central but difficult to palpate due to neck swelling. Breath sounds are vesicular but transmitted upper airway noise is heard.
+  
+  CVS:
+  S1 S2 only. Tachycardia.
+  
+  Abdomen:
+  Full, soft, non-tender. Liver and spleen not enlarged.
+  
+  CNS:
+  Conscious and alert. No focal neurological deficits.
+  
+  ASS:
+  Ludwig’s Angina (Deep Neck Space Infection) secondary to Odontogenic infection.
+  
+  Complication: Impending airway obstruction.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Submandibular Space Abscess
+  2. Peritonsillar Abscess (Quinsy)
+  3. Parapharyngeal Space Infection
+  4. Submandibular Sialadenitis
+  
+  INVESTIGATIONS:
+  1. Urgent Full Blood Count (FBC): Expecting leucocytosis with neutrophilia.
+  2. Blood Culture and Sensitivity.
+  3. Random Blood Sugar (RBS) to rule out underlying DM.
+  4. Serum Electrolytes, Urea, and Creatinine (E/U/Cr).
+  5. Lateral Soft Tissue Neck X-ray: To look for pre-vertebral soft tissue thickening and airway narrowing.
+  6. Urgent Neck Ultrasound: To look for collection and guide aspiration.
+  7. HIV Screening (as part of routine for severe infections).
+  
+  PLAN:
+  
+  EMERGENCY AIRWAY MANAGEMENT:
+  1. Admit to Intensive Care Unit (ICU) or High Dependency Unit (HDU) for close monitoring.
+  2. Maintain patient in a comfortable upright position.
+  3. Supplemental Oxygen via face mask at 5-10 L/min.
+  4. Keep emergency tracheostomy set and difficult intubation trolley at bedside.
+  5. Urgent ENT and Anesthesia consultation for definitive airway management (Fiberoptic intubation or awake tracheostomy if respiratory distress worsens).
+  
+  FLUID RESUSCITATION AND NUTRITION:
+  1. Keep Nil Per Os (NPO) due to aspiration risk and impending surgery.
+  2. IV Normal Saline 1 L 8 hourly (adjust based on hydration status and BP).
+  3. Monitor urine output.
+  
+  PHARMACOTHERAPY:
+  
+  1. Empirical IV Antibiotics (Triple therapy or broad spectrum):
+  - IV Ceftriaxone 2 g 12 hourly.
+  - IV Metronidazole 500 mg 8 hourly.
+  - IV Clindamycin 600 mg 8 hourly (added for excellent anaerobic and bone penetration).
+  
+  2. Analgesia and Antipyretics:
+  - IV Paracetamol 1 g 8 hourly.
+  - IV Tramadol 50 mg 8 hourly (cautiously, to avoid respiratory depression).
+  
+  3. Steroids:
+  - IV Dexamethasone 8 mg stat, then 4 mg 8 hourly (to reduce edema and improve airway).
+  
+  SURGICAL INTERVENTION:
+  1. Urgent Incision and Drainage (I&D) under local anesthesia or general anesthesia (if airway is secure).
+  2. Decompression of the submandibular and submental spaces via a wide collar incision.
+  3. Sending of pus/tissue for microscopy, culture, and sensitivity (m/c/s).
+  4. Dental extraction of the offending carious teeth once the acute phase is stabilized.
+  
+  NURSING CARE:
+  1. Hourly monitoring of vital signs (PR, RR, BP, SpO₂).
+  2. Frequent suctioning of oropharyngeal secretions.
+  3. Wound dressing post-I&D.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
   {
     id: 'surg-87',
     title: 'Right Breast Fibroadenoma',

@@ -9001,5 +9001,394 @@ Key Takeaways and References
   `
 },
 
+{
+  id: 'procedure-nebulisation',
+  title: 'Nebulisation',
+  category: 'Procedures',
+  subCategory: 'Respiratory',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nebulisation</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, serif; }
+.sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+details > summary::-webkit-details-marker { display: none; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">PROCEDURES &middot; RESPIRATORY MEDICINE AND EMERGENCY CARE</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Nebulisation</h1>
+  <p class="text-sm text-indigo-200">A wheezing child on the paediatric ward, a woman with an acute asthma attack in the emergency room, an older man with a COPD exacerbation who goes drowsy after high-flow oxygen: nebulised bronchodilators are among the commonest treatments a Nigerian house officer orders and a nurse gives. They are also often given badly: the wrong driving gas, a loose mask, a blow-by held in front of a crying child, a dirty chamber used on the next patient, a nebuliser used when a spacer would do. This guide covers when to nebulise and when a spacer works as well, doses by age, the equipment, the technique step by step, oxygen versus air as the driving gas, children, aftercare, cleaning, and the complications.</p>
+</div>
+</div>
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#why-this-procedure-matters-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>Why This Procedure Matters in Nigerian Practice</span></a></li>
+  <li><a href="#indications-when-to-nebulise-and-when-a-spacer-will-do" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Indications: When to Nebulise and When a Spacer Will Do</span></a></li>
+  <li><a href="#stop-signs-and-cautions" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Stop Signs and Cautions</span></a></li>
+  <li><a href="#drugs-doses-and-dilution" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Drugs, Doses and Dilution</span></a></li>
+  <li><a href="#equipment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Equipment</span></a></li>
+  <li><a href="#technique-setting-up-and-giving-the-treatment" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Technique: Setting Up and Giving the Treatment</span></a></li>
+  <li><a href="#driving-gas-oxygen-or-air-and-copd" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Driving Gas: Oxygen or Air, and COPD</span></a></li>
+  <li><a href="#children-and-infants" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Children and Infants</span></a></li>
+  <li><a href="#the-spacer-as-an-alternative-and-a-bottle-spacer-when-you-have-none" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>The Spacer as an Alternative (and a Bottle Spacer When You Have None)</span></a></li>
+  <li><a href="#after-nebulisation-reassessment-step-down-and-discharge" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>After Nebulisation: Reassessment, Step-Down and Discharge</span></a></li>
+  <li><a href="#cleaning-infection-control-and-maintenance" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Cleaning, Infection Control and Maintenance</span></a></li>
+  <li><a href="#complications-and-warning-signs" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Complications and Warning Signs</span></a></li>
+  <li><a href="#special-situations" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">13</span><span>Special Situations</span></a></li>
+  <li><a href="#videos-and-learning-resources" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">14</span><span>Videos and Learning Resources</span></a></li>
+  <li><a href="#key-clinical-takeaways" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">15</span><span>Key Clinical Takeaways</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="why-this-procedure-matters-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+Why This Procedure Matters in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Common conditions.</strong> Acute asthma in children and adults, wheezy lower respiratory infections in infants, COPD exacerbations, croup and sickle cell chest syndrome with wheeze are everyday reasons to nebulise. The treatment is simple, but the choice of drug, dose and driving gas decides whether it helps or harms.</li>
+<li><strong>A spacer often does the same job.</strong> A South African primary care guideline states that giving salbutamol through a spacer is as effective as, and cheaper than, a nebuliser. Ten puffs of salbutamol 100 micrograms through a spacer (1 mg) give an equivalent or better effect than one 2.5 mg nebulisation. A Cochrane review of six trials in 658 children found no significant difference in hospital admission, oxygen saturation or peak flow between home-made and commercial spacers. A 500 mL plastic bottle with the inhaler sealed into the base worked as well as a commercial spacer in children with acute asthma, in a trial in Cape Town.</li>
+<li><strong>The nebuliser needs a driver.</strong> A jet nebuliser needs an oxygen cylinder, an oxygen concentrator or a compressor, and a reliable power source. In many facilities a power cut or an empty cylinder halts treatment. Know what your driver can deliver, and have a spacer ready as the backup.</li>
+<li><strong>Supply is limited.</strong> Nebuliser solutions, masks and tubing may be scarce, and equipment is shared. Reserve nebulisers for severe attacks, for patients who cannot use a spacer, and for the first treatments in acute severe asthma, then step down.</li>
+<li><strong>The wrong gas can harm.</strong> In COPD, a nebuliser driven by oxygen can raise carbon dioxide and cause drowsiness. Give the bronchodilator driven by air, and give oxygen separately by nasal cannula if the patient needs it.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="indications-when-to-nebulise-and-when-a-spacer-will-do" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Indications: When to Nebulise and When a Spacer Will Do
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Condition</th><th class="py-2 pr-3 font-semibold">Nebuliser?</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Acute severe or life-threatening asthma (adult or child)</td><td class="py-2 pr-3">Yes. Oxygen-driven, first-line, with ipratropium added if the response is poor.</td><td class="py-2 pr-3">Give oxygen, steroids early, repeat bronchodilators every 20 to 30 minutes in the first hour, and call for help if there is no improvement. Switch to a spacer as the patient improves.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Moderate asthma</td><td class="py-2 pr-3">A spacer works as well. Use a nebuliser if the patient cannot use a spacer or responds poorly.</td><td class="py-2 pr-3">A pMDI with spacer, one puff at a time, tidal breathing, repeated every 30 to 60 seconds up to 10 puffs, then reassess.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">COPD exacerbation</td><td class="py-2 pr-3">Yes, but air-driven (not oxygen), with controlled oxygen by nasal cannula.</td><td class="py-2 pr-3">See Section 7. Oxygen at 2 L/min by nasal prongs to reach about 90 to 93 per cent in one protocol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Severe croup</td><td class="py-2 pr-3">Nebulised adrenaline or budesonide, with oral or IM dexamethasone.</td><td class="py-2 pr-3">A child with stridor at rest needs senior help. Follow your paediatric protocol for the dose.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Wheezy infant (bronchiolitis)</td><td class="py-2 pr-3">Not routinely. A bronchodilator trial is used only in selected children and stopped if no response.</td><td class="py-2 pr-3">Supportive care with oxygen and feeds is the mainstay. Follow your protocol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Anaphylaxis with bronchospasm</td><td class="py-2 pr-3">An adjunct only. Intramuscular adrenaline comes first.</td><td class="py-2 pr-3">Salbutamol nebuliser for refractory bronchospasm after adrenaline.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Other drugs</td><td class="py-2 pr-3">Cystic fibrosis antibiotics and mucolytics and some other agents.</td><td class="py-2 pr-3">Used in specialist settings.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="stop-signs-and-cautions" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Stop Signs and Cautions
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Pause and Think If</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A patient with COPD or a risk of hypercapnia.</strong> Do not drive the nebuliser with oxygen at high flow. Use air, and add oxygen by nasal cannula if needed. Check the gas if the patient becomes drowsy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Piped medical air through a flowmeter.</strong> NHS England issued a national patient safety alert about the inadvertent use of piped medical air through a flowmeter to drive nebulised medication, because the flowmeter outlet delivers a different pressure and flow. Use the right device for the gas.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A patient in severe or life-threatening asthma</strong> (silent chest, cyanosis, exhaustion, confusion, SpO2 below 92 per cent): treat urgently, call for senior help, and do not delay treatment while hunting for equipment. A patient with SpO2 below 92 per cent is at higher risk of hypercapnia and needs a blood gas.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Tachycardia, tremor, palpitations or arrhythmia</strong> from salbutamol: reduce the dose or the frequency, and check the potassium.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Angle-closure glaucoma, or ipratropium with a face mask:</strong> mist can reach the eyes, causing mydriasis and in a susceptible person an attack of glaucoma. Use a mouthpiece if possible, or protect the eyes.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A crying or struggling child:</strong> little drug reaches the lungs. Calm the child, use a well-fitted mask, and consider a spacer.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No pulse oximeter.</strong> Respiratory rate, heart rate, work of breathing and colour are your monitors.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Contaminated equipment.</strong> Never use a chamber or mask that has not been cleaned since the last patient.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="drugs-doses-and-dilution" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Drugs, Doses and Dilution
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Doses below follow the BTS/SIGN asthma guideline, the South African primary care guideline and Oxford and Australian emergency protocols. Check your national or hospital protocol.</p>
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Drug and patient</th><th class="py-2 pr-3 font-semibold">Dose per nebulisation</th><th class="py-2 pr-3 font-semibold">Notes</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Salbutamol, adult or child over 5 years</td><td class="py-2 pr-3">5 mg (a South African guideline gives 2.5 to 5 mg, as 0.5 to 1 mL of the 5 mg/mL solution)</td><td class="py-2 pr-3">Dilute the respiratory solution to a total of 4 mL with sodium chloride 0.9 per cent. Repeat every 20 to 30 minutes in the first hour in acute attacks. In severe asthma, some protocols repeat every 5 minutes or run it continuously.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Salbutamol, child 1 month to 5 years</td><td class="py-2 pr-3">2.5 mg</td><td class="py-2 pr-3">Oxygen-driven at 6 to 8 L/min. Repeat according to response.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ipratropium bromide, adult</td><td class="py-2 pr-3">0.25 mg (South African guideline) to 0.5 mg (Australian and UK protocols)</td><td class="py-2 pr-3">Add to salbutamol in acute severe asthma and COPD when the response is poor. In a South African guideline: 0.25 mg with salbutamol 2.5 mg made up to 4 mL, every 20 to 30 minutes for 4 doses over 2 hours.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ipratropium bromide, child 1 to 12 months</td><td class="py-2 pr-3">125 micrograms (an Oxford protocol)</td><td class="py-2 pr-3">Do not repeat within 4 hours in that protocol. Other protocols repeat every 20 minutes for 2 hours.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Ipratropium bromide, child 12 months to 12 years</td><td class="py-2 pr-3">250 micrograms</td><td class="py-2 pr-3">BTS/SIGN: 0.25 mg added to every nebulised bronchodilator, repeated every 20 minutes for 2 hours according to response.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Diluent</td><td class="py-2 pr-3">Sodium chloride 0.9 per cent to a total volume of about 4 mL for a standard jet nebuliser, or use a unit-dose vial of 2.5 mL.</td><td class="py-2 pr-3">Never use plain water. Some devices need a different minimum fill: check the manufacturer&rsquo;s instructions.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Driving flow</td><td class="py-2 pr-3">6 to 8 L/min for most jet nebulisers (8 L/min in some protocols).</td><td class="py-2 pr-3">Check the flowmeter and the minimum flow your device needs.</td></tr>
+</tbody></table></div>
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li>Unit-dose vials are convenient. In a shortage, a salbutamol shortage alert advised reserving nebuliser liquid for acute severe asthma and COPD, refractory anaphylaxis, and patients who cannot use a pMDI.</li>
+<li>A nebulisation takes about 5 to 10 minutes in acute asthma. Geeky Medics suggests about 10 minutes, until the chamber sputters.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: ipratropium repeat intervals and salbutamol dose</p>
+<p class="text-sm">Protocols disagree on ipratropium frequency. BTS/SIGN and a South African guideline repeat it every 20 to 30 minutes for 4 doses (or 2 hours) in severe attacks, while an Oxford infant protocol says not to repeat within 4 hours. Adult salbutamol is 5 mg in UK protocols, and 2.5 to 5 mg in South African guidance. Choose the protocol of your unit, write the dose in the notes, and monitor for tachycardia and tremor.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="equipment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Equipment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Item</th><th class="py-2 pr-3 font-semibold">Specification</th><th class="py-2 pr-3 font-semibold">If it is not available</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">Nebuliser chamber (cup)</td><td class="py-2 pr-3">Single-patient jet nebuliser with a lid, designed for 4 to 6 mL fill.</td><td class="py-2 pr-3">Do not share a cup between patients. Wash and dry between uses on the same patient.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Mask or mouthpiece</td><td class="py-2 pr-3">A tight-fitting face mask for children under about 5 years and for those who cannot use a mouthpiece; a mouthpiece for cooperative older children and adults.</td><td class="py-2 pr-3">A mouthpiece is better in adults because it lowers loss to the eyes and face.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Tubing</td><td class="py-2 pr-3">Oxygen or compressor tubing, free of kinks.</td><td class="py-2 pr-3">Replace tubing that is cracked or discoloured.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Driving source</td><td class="py-2 pr-3">Oxygen cylinder or oxygen concentrator with a flowmeter that can run at 6 to 8 L/min, or an electric compressor that delivers air.</td><td class="py-2 pr-3">A spacer with a pMDI, if there is no working driver.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drugs and diluent</td><td class="py-2 pr-3">Salbutamol and ipratropium nebuliser solutions, sodium chloride 0.9 per cent.</td><td class="py-2 pr-3">A spacer and pMDI of salbutamol.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Monitoring</td><td class="py-2 pr-3">Pulse oximeter, stethoscope, watch.</td><td class="py-2 pr-3">A trained person watching the patient.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Spacer</td><td class="py-2 pr-3">A commercial valved holding chamber, or a 500 mL plastic bottle spacer.</td><td class="py-2 pr-3">See Section 9.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Cleaning materials</td><td class="py-2 pr-3">Warm water, mild detergent, clean drying space, disinfectant as advised by the manufacturer.</td><td class="py-2 pr-3">Do not store wet parts in a bag.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="technique-setting-up-and-giving-the-treatment" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Technique: Setting Up and Giving the Treatment
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ol class="list-decimal pl-5 space-y-1.5 text-sm">
+<li><strong>Assess first.</strong> Record the respiratory rate, heart rate, SpO2, work of breathing, and peak flow in older children and adults. Decide how severe the attack is, and whether a nebuliser or a spacer is right.</li>
+<li><strong>Check the order and the seven rights:</strong> right patient, drug, dose, route, time, documentation and the patient&rsquo;s right to refuse. Check allergies.</li>
+<li><strong>Explain</strong> to the patient or parent what will happen: a mist to breathe, a mask on the face, noise from the machine, and that it takes about 10 minutes.</li>
+<li><strong>Wash your hands.</strong> Use a clean chamber and mask.</li>
+<li><strong>Prepare the medicine.</strong> Pour the correct dose into the nebuliser cup and dilute with sodium chloride 0.9 per cent to the volume your device needs (usually about 4 mL). Close the lid.</li>
+<li><strong>Attach the mask or mouthpiece</strong> to the chamber, and connect the tubing to the driving source.</li>
+<li><strong>Choose the driver:</strong> oxygen at 6 to 8 L/min for acute asthma, or air from a compressor for COPD (Section 7). Turn on the flow and check that a fine mist is rising from the chamber.</li>
+<li><strong>Position the patient</strong> sitting upright, or held upright on a parent&rsquo;s lap for a child, with the chamber held upright (a tilted chamber spills the medicine).</li>
+<li><strong>Apply the mask</strong> snugly over the nose and mouth, with no gaps, or ask the patient to seal the lips around the mouthpiece. Ask for slow, calm, tidal breaths with an occasional deeper breath. Do not hold the mask a few centimetres from the face (blow-by): it wastes most of the drug.</li>
+<li><strong>Stay with the patient.</strong> Watch the pulse, breathing and colour, and ask about palpitations and tremor. Stop if the heart rate climbs above your protocol limit or the patient becomes distressed.</li>
+<li><strong>Tap the chamber</strong> towards the end to release droplets from the sides. The treatment is complete when the chamber sputters and little mist remains, usually after 5 to 10 minutes.</li>
+<li><strong>Switch off the flow</strong> and remove the mask. Wipe the face (especially after ipratropium or steroids) and wash the face of a child.</li>
+<li><strong>Reassess</strong> within 15 to 30 minutes: respiratory rate, heart rate, SpO2, wheeze, and peak flow. Decide whether to repeat.</li>
+<li><strong>Document</strong> the drug, dose, driver and flow, duration, response and any side effects.</li>
+<li><strong>Clean the equipment</strong> (Section 11).</li>
+</ol>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="driving-gas-oxygen-or-air-and-copd" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Driving Gas: Oxygen or Air, and COPD
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Acute asthma:</strong> drive the nebuliser with oxygen at 6 to 8 L/min. Beta-agonists can worsen arterial hypoxaemia, so oxygen is helpful. If no oxygen is available, do not delay treatment: use air or a spacer.</li>
+<li><strong>COPD and anyone at risk of hypercapnia:</strong> oxygen can be dangerous, so the nebuliser should be driven by air. If the patient also needs oxygen, give it at the same time by nasal cannula. An Australian emergency protocol suggests oxygen at 2 L/min by nasal prongs to reach saturation of 90 to 93 per cent, with bronchodilators driven by high-flow air.</li>
+<li><strong>If only oxygen is available for the driver in a COPD patient,</strong> keep the nebulisation short (about 6 minutes or less), monitor for drowsiness, and take a blood gas afterwards if you can.</li>
+<li><strong>Oxygen targets in asthma:</strong> aim for 94 to 98 per cent in children (BTS/SIGN), and 93 to 95 per cent in a South African primary care guideline for severe attacks.</li>
+<li><strong>Fire and safety:</strong> no smoking or open flame near oxygen. Secure cylinders.</li>
+<li><strong>Flowmeter outlets:</strong> check that the flowmeter you use is the one intended for the nebuliser. The NHS England alert is a reminder to use the correct outlet.</li>
+</ul>
+</div>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 mb-6 text-amber-900 dark:text-amber-300 space-y-2">
+<p class="font-brand text-sm font-semibold">Guideline Watch: oxygen saturation targets</p>
+<p class="text-sm">Acute asthma targets range from 93 to 95 per cent in a South African guideline to 94 to 98 per cent in BTS/SIGN for children. For COPD, one Australian protocol aims for 90 to 93 per cent, and other national guidelines aim for 88 to 92 per cent. Use your local target, and check a blood gas in any patient who becomes drowsy on oxygen.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="children-and-infants" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Children and Infants
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Mask for children under about 5 years</strong>, and for any child who cannot use a mouthpiece. Use a mask that fits the face, with no gaps. Hold the child upright on a parent&rsquo;s lap.</li>
+<li><strong>A crying child inhales little drug.</strong> Calm the child, let a parent hold or soothe, and offer a distraction. Treat a sleeping child without waking them if possible, but keep the mask in place.</li>
+<li><strong>Do not use blow-by</strong> (holding the mask or tube near the face), which is very inefficient.</li>
+<li><strong>Doses by age:</strong> salbutamol 2.5 mg for 1 month to 5 years, 5 mg above 5 years. Ipratropium 125 micrograms for 1 to 12 months, 250 micrograms for 12 months to 12 years (Oxford protocol). Check your own protocol.</li>
+<li><strong>Moderate asthma in a child:</strong> a spacer with a mask (under 3 years) or mouthpiece works as well as a nebuliser, and avoids the tachycardia and delay of a nebuliser. Use a nebuliser if the response is poor.</li>
+<li><strong>Infants with wheeze or bronchiolitis:</strong> treatment is mainly supportive. A bronchodilator trial is not routine.</li>
+<li><strong>Croup:</strong> nebulised adrenaline or budesonide for severe cases. Keep the child calm, and stay with a child who has stridor at rest. Monitor for rebound.</li>
+<li><strong>Home nebulisers</strong> for acute asthma in children should only be started by a specialist: a UK guideline warns against giving families nebulised rescue medication for home use unless under specialist supervision, because they can delay seeking care.</li>
+<li><strong>Watch for salbutamol toxicity</strong> in children: tachycardia, tachypnoea and a fine tremor.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="the-spacer-as-an-alternative-and-a-bottle-spacer-when-you-have-none" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+The Spacer as an Alternative (and a Bottle Spacer When You Have None)
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Evidence:</strong> pMDI plus spacer is as effective as a nebuliser for moderate asthma in children and adults, and cheaper. Ten puffs of salbutamol 100 micrograms (1 mg) are equivalent or better than 2.5 mg by nebuliser. BTS/SIGN and a South African primary care guideline both support it.</li>
+<li><strong>Technique (BTS/SIGN):</strong> shake the inhaler, fit it to the spacer, give one puff at a time, and let the patient breathe it in with 4 to 6 tidal breaths (or one deep breath and hold). Repeat every 30 to 60 seconds up to 10 puffs (up to 5 puffs in children 1 to 4 years in one protocol), then reassess. In a child under 3 years, use a mask on the spacer.</li>
+<li><strong>Bottle spacer:</strong> a 500 mL plastic cold-drink bottle with a hole cut in the base that fits the inhaler mouthpiece snugly (sealed with tape or glue), and the neck used as a mouthpiece, gives a low-cost spacer. In a Cape Town trial, a sealed bottle spacer was as effective as a conventional spacer in children with acute asthma, and a randomised trial in children aged 2 months to 5 years used a modified 500 mL bottle with a mask for children under 3 years. A Cochrane review of six trials found no significant difference from commercial spacers.</li>
+<li><strong>Care:</strong> wash the spacer in detergent and let it air-dry. A dry spacer holds the medicine better than a wiped one.</li>
+<li><strong>When a spacer is not enough:</strong> the patient is too breathless, too young or too drowsy to use it, or the response is poor. Move to an oxygen-driven nebuliser.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="after-nebulisation-reassessment-step-down-and-discharge" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+After Nebulisation: Reassessment, Step-Down and Discharge
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>Reassess at 15 to 30 minutes</strong> after each treatment: respiratory rate, heart rate, work of breathing, SpO2, wheeze and peak flow.</li>
+<li><strong>Poor response:</strong> repeat the nebuliser, add ipratropium, give steroids, consider IV access and further drugs, and call for senior help. Consider a blood gas if SpO2 is below 92 per cent or the patient is drowsy.</li>
+<li><strong>Steroids early:</strong> give oral prednisolone (or IV hydrocortisone if vomiting) as part of the same assessment.</li>
+<li><strong>Once improving on 2- to 4-hourly salbutamol,</strong> change to a pMDI and spacer as tolerated.</li>
+<li><strong>Discharge only when stable.</strong> Check inhaler and spacer technique, give a written plan, arrange follow-up, and explain when to return. Ensure the patient has a reliever and, for persistent asthma, a preventer.</li>
+<li><strong>Admit</strong> children and adults with previous severe attacks, poor response, high-risk features, or SpO2 below 92 per cent.</li>
+<li><strong>Document</strong> the response and the plan.</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cleaning-infection-control-and-maintenance" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Cleaning, Infection Control and Maintenance
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-1.5 text-sm">
+<li><strong>One patient, one set.</strong> Do not share chambers, masks, mouthpieces or tubing between patients. If one nebuliser must be used by more than one person on a ward, use a new chamber and mask for each, and clean the machine between patients.</li>
+<li><strong>After each use:</strong> wash the cup and the mask or mouthpiece with warm water and mild soap, rinse, shake off the water and let the parts air-dry on a clean towel. Do not store wet parts.</li>
+<li><strong>Disinfect</strong> as the manufacturer instructs, to kill germs. Store the dry parts in a clean, dry bag labelled with the patient&rsquo;s name.</li>
+<li><strong>Tubing and compressor:</strong> do not wash the tubing unless the manufacturer says so. Wipe the machine with a clean damp cloth and replace the filter as advised.</li>
+<li><strong>Replace</strong> cups, masks, tubing and filters when worn, cracked or discoloured.</li>
+<li><strong>Medicines:</strong> use unit-dose vials, discard leftovers, and never top up an old dose. Wash the face afterward.</li>
+<li><strong>Hand hygiene</strong> before and after. Put on gloves if there is a risk of contact with secretions.</li>
+<li><strong>Spacers:</strong> wash in detergent and air-dry (monthly, or after each patient in a ward).</li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="complications-and-warning-signs" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Complications and Warning Signs
+</h2>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand text-sm font-semibold mb-3">Problems to Recognise Early</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>No improvement or worsening bronchospasm:</strong> escalate to senior help, repeat the nebuliser with ipratropium, give steroids and consider IV treatment. A silent chest is a late sign of life-threatening asthma.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Salbutamol toxicity:</strong> tachycardia, palpitations, tremor and tachypnoea. Check the potassium with large doses. Reduce frequency or switch to a spacer when the patient improves.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hypercapnia and drowsiness</strong> in COPD patients given oxygen-driven nebulisers or high-flow oxygen. Switch to air-driven nebulisation and controlled oxygen, and take a blood gas.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Paradoxical bronchospasm</strong> after the drug, rare. Stop and reassess.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Eye irritation and glaucoma</strong> with ipratropium via a mask. Use a mouthpiece, protect the eyes and wash the face.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Hospital infection from contaminated equipment.</strong> Clean and dry the equipment, never share.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>Oxygen fire risk and gas mix-ups:</strong> keep flames away, and use the correct flowmeter.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span><strong>A child who stops improving or tires:</strong> bradycardia and poor respiratory effort mean imminent collapse. Call for senior and resuscitation help at once.</span></li>
+</ul>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="special-situations" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">13</span>
+Special Situations
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div class="overflow-x-auto"><table class="w-full text-xs sans border-collapse">
+<thead><tr class="border-b border-slate-300 dark:border-slate-600 text-left text-slate-500 dark:text-slate-400">
+<th class="py-2 pr-3 font-semibold">Situation</th><th class="py-2 pr-3 font-semibold">What to do</th>
+</tr></thead>
+<tbody class="divide-y divide-slate-200 dark:divide-slate-700">
+<tr class="align-top"><td class="py-2 pr-3">COPD exacerbation</td><td class="py-2 pr-3">Air-driven nebuliser with salbutamol and ipratropium, oxygen by nasal cannula to the local target, steroids and antibiotics as indicated. Check a gas if drowsy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Sickle cell acute chest syndrome with wheeze</td><td class="py-2 pr-3">Bronchodilators help if there is wheeze. Treat the chest syndrome per its own guide, with careful fluids and oxygen.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Severe croup</td><td class="py-2 pr-3">Nebulised adrenaline with dexamethasone, in a calm environment and with senior support. Observe after treatment.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Infant with bronchiolitis</td><td class="py-2 pr-3">Supportive care. A bronchodilator is not routine.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Pregnancy</td><td class="py-2 pr-3">Treat asthma attacks as usual. Salbutamol and ipratropium are used in acute asthma in pregnancy.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Arrhythmia or cardiac disease</td><td class="py-2 pr-3">Use the lowest effective dose of salbutamol, monitor the pulse and ECG, and check the potassium.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Patient who cannot use a mouthpiece or mask</td><td class="py-2 pr-3">Use a well-fitted mask. For a very sick patient, nebulise through a mask on oxygen while preparing other treatments.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Power cut or no driver</td><td class="py-2 pr-3">Use a pMDI with spacer (or bottle spacer). In severe asthma, give salbutamol by repeated puffs, give steroids and oxygen, and arrange transfer.</td></tr>
+<tr class="align-top"><td class="py-2 pr-3">Drug shortage</td><td class="py-2 pr-3">Reserve nebuliser solutions for acute severe attacks, refractory anaphylaxis and those who cannot use a pMDI. Use spacers elsewhere.</td></tr>
+</tbody></table></div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="videos-and-learning-resources" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">14</span>
+Videos and Learning Resources
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Technique videos</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=u9igDduAmzs" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Global Health Media Project: How to Give a Nebulizer Treatment (Emergency Care Series)</a> &ndash; a video made for low-resource settings showing how to give a nebuliser to a child, in an emergency care series.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://youtube.com/watch?pp=0gcJCfcAhR29_xXO&v=tDcuZapIMF8" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Giving a Nebulizer Treatment</a> &ndash; a mouthpiece, mask or tee adapter demonstration, with cleaning of the supplies.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.youtube.com/watch?v=ckzB-tdCblQ" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to Load Medicine in a Nebulizer</a> &ndash; loading a single dose into the chamber.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128249; <a href="https://www.nationaljewish.org/education/health-information/multimedia/devices-to-inhale-medication/how-to-use-a-nebulizer" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">How to Use a Nebulizer (National Jewish Health video and transcript)</a> &ndash; a short nurse-led video with a transcript: mask for children 5 and under, upright position, tapping and cleaning.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/administering-nebulised-medication-osce-guide/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Administering nebulised medication, OSCE guide</a> &ndash; step-by-step setup, the seven rights, 10-minute duration and monitoring.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://geekymedics.com/wp-content/uploads/2025/02/Administering-Nebulised-Medication-OSCE-Checklist-Geeky-Medics.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Geeky Medics: Nebulised medication OSCE checklist (PDF)</a> &ndash; a printable checklist.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.healingcarehospice.com/how-to-use-a-nebulizer/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Hospice caregiver tutorial: How to use a nebulizer</a> &ndash; a video and written steps for a home setting.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Clinical guidelines and protocols</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rightdecisions.scot.nhs.uk/asthma-pathway-bts-nice-sign-sign-244/managing-acute-asthma/management-of-acute-asthma-in-children/asthma-management-algorithms-for-children/management-of-acute-asthma-in-children-in-emergency-department/age-5-years-management-of-acute-asthma-in-children-in-emergency-department" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BTS/SIGN asthma pathway: children over 5 years in the emergency department</a> &ndash; moderate and severe asthma pathway with spacer or nebuliser.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rightdecisions.scot.nhs.uk/asthma-pathway-bts-nice-sign-sign-244/managing-acute-asthma/management-of-acute-asthma-in-children/asthma-management-algorithms-for-children/management-of-acute-asthma-in-children-in-emergency-department/age-2-5-years-management-of-acute-asthma-in-children-in-emergency-department" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">BTS/SIGN asthma pathway: children aged 2 to 5 years</a> &ndash; salbutamol 2.5 mg, ipratropium 0.25 mg and oxygen targets.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.health.gov.za/wp-content/uploads/2025/12/Primary-Healthcare-Chapter-17-Respiratory-Conditions-V1.0-4C-27-November-2025.docx" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">South African primary healthcare guideline, respiratory conditions (2025)</a> &ndash; nebuliser doses, dilution to 4 mL at 8 L/min, and the statement that a spacer is as effective and cheaper.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.oxstar.ox.ac.uk/files/projects/311childacutesevereasthma.docx" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Oxford checklist: child with acute severe asthma (2025)</a> &ndash; doses of salbutamol and ipratropium by age and when to use a spacer.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.rch.org.au/clinicalguide/guideline_index/Acute_asthma/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Royal Children&rsquo;s Hospital Melbourne: Acute asthma</a> &ndash; severity assessment, mask and spacer over nasal prongs, and salbutamol toxicity.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.racgp.org.au/getattachment/ad11dda3-0838-46f9-83a9-a9347a4a676e/attachment.aspx" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">RACGP emergency drug protocol: asthma, COPD and croup</a> &ndash; controlled oxygen and air-driven nebulisers in COPD, and adrenaline for severe upper airway obstruction.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://patient.info/doctor/respiratory-medicine/which-device-in-asthma" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Which device in asthma? (clinical reference)</a> &ndash; jet nebuliser flow rates of 6 to 8 L/min, air versus oxygen in COPD, and indications for nebulised drugs.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.publications.scot.nhs.uk/files/dc20240226salbutamol.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHS safety alert: shortage of salbutamol nebuliser liquid (2024)</a> &ndash; prioritising nebuliser liquid, and the switch to a pMDI and spacer when improving.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Spacers and low-cost devices</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005536.pub2/references" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Cochrane review: commercial versus home-made spacers in acute asthma in children</a> &ndash; six trials, 658 children: no significant difference in admissions, SpO2 or peak flow.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2083341" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Trial: 500 mL plastic bottle spacer versus conventional spacer in young children (Cape Town)</a> &ndash; how the bottle spacer was built and tested in children under 5 years.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC1071107" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Home-made spacers for children with acute asthma: randomised trial summary</a> &ndash; sealed cold-drink bottle spacers as effective as conventional spacers.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://open.uct.ac.za/bitstreams/8d54a7e7-b45e-4c3f-99f7-dd5ccca3ac02/download" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Treating childhood asthma (South African Family Practice review)</a> &ndash; bottle spacers where commercial ones are unaffordable, and the 10-puff equivalence to a nebulisation.</div>
+</div>
+<strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Equipment care</strong>
+<div class="space-y-2">
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://www.nhlbi.nih.gov/sites/default/files/publications/How-to-Use-a-Nebulizer-21-HL-8163.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">NHLBI: How to use a nebulizer (patient handout)</a> &ndash; assembly, use, cleaning and storage, with advice for shared devices.</div>
+<div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">&#128214; <a href="https://gloucestershire.gov.uk/media/snsh4sns/care_competencies_17_nebuliser_final_version-45514.pdf" target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 underline">Community competency: supporting a patient self-administering a nebuliser</a> &ndash; a competency checklist covering assembly, 10 minutes of treatment and cleaning.</div>
+</div>
+<p class="text-sm">Video quality varies. Start with the Global Health Media Project video and the Geeky Medics guide, then use the protocols to check doses. None replaces supervised practice.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="key-clinical-takeaways" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">15</span>
+Key Clinical Takeaways
+</h2>
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-100">
+<p class="font-brand text-sm font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2">
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A spacer with an inhaler works as well as a nebuliser in moderate asthma and costs less. Use the nebuliser for severe attacks and for patients who cannot use a spacer, then step down.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Acute asthma: oxygen-driven nebuliser at 6 to 8 L/min, salbutamol 2.5 mg (1 month to 5 years) or 5 mg (over 5 years and adults), repeated every 20 to 30 minutes, with ipratropium added if the response is poor. Give steroids early.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>COPD: drive the nebuliser with air, and give oxygen separately by nasal cannula to the local target. Check a gas if the patient becomes drowsy.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Dilute to about 4 mL with 0.9 per cent saline. Never use water. Hold the chamber upright and run it for 5 to 10 minutes until it sputters.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Seal the mask. No blow-by. Calm the child. A crying child inhales almost nothing.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Monitor the pulse, breathing and SpO2, and reassess within 15 to 30 minutes after each treatment.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Watch for salbutamol toxicity (tachycardia, tremor, tachypnoea, low potassium), and protect the eyes from ipratropium.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Where there is no driver or the power is off, use a pMDI with a spacer, or a 500 mL bottle spacer sealed to the inhaler.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>One patient, one set. Wash the cup and mask in warm soapy water, rinse, air-dry and store dry.</span></li>
+<li class="flex gap-2 text-sm"><svg class="w-5 h-5 shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M8 12.5l3 3 5-6" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Do not send home a patient who is not improving, and do not give home nebulisers for acute attacks unless a specialist advises.</span></li>
+</ul>
+</div>
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700 mb-6">
+<summary class="flex items-center justify-between cursor-pointer p-4 sm:p-5 list-none">
+  <span class="font-brand text-sm font-semibold text-stone-700 dark:text-stone-300">References</span>
+  <svg class="w-4 h-4 text-stone-500 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+</summary>
+<div class="px-4 sm:px-5 pb-4 sm:pb-5 space-y-1.5">
+  <p class="text-[10px] leading-snug text-stone-500">1. British Thoracic Society and Scottish Intercollegiate Guidelines Network. SIGN 158: British guideline on the management of asthma. 2019 (and the BTS/NICE/SIGN joint asthma guideline 2024).</p>
+  <p class="text-[10px] leading-snug text-stone-500">2. National Department of Health, South Africa. Primary healthcare standard treatment guidelines and essential medicines list, Chapter 17: Respiratory conditions. 2025.</p>
+  <p class="text-[10px] leading-snug text-stone-500">3. Oxford University Hospitals and Oxford Primary Care. Child: acute severe asthma checklist 3-11, version 1.0. November 2025.</p>
+  <p class="text-[10px] leading-snug text-stone-500">4. Royal Children&rsquo;s Hospital Melbourne. Clinical practice guideline: Acute asthma.</p>
+  <p class="text-[10px] leading-snug text-stone-500">5. Royal Australian College of General Practitioners. Emergency drug doses and protocols: acute asthma, COPD and croup.</p>
+  <p class="text-[10px] leading-snug text-stone-500">6. NHS England and NHS Improvement. National Patient Safety Alert: inadvertent use of piped medical air via a flowmeter to drive nebulised medication; and Department of Health and Social Care national patient safety alert NatPSA/2024/003: shortage of salbutamol 2.5 mg/2.5 mL and 5 mg/2.5 mL nebuliser liquid.</p>
+  <p class="text-[10px] leading-snug text-stone-500">7. Which device in asthma? Patient.info professional reference (jet nebulisers, flow rates, air versus oxygen in COPD).</p>
+  <p class="text-[10px] leading-snug text-stone-500">8. Zar HJ, Streun S, Levin M, et al. Randomised controlled trial of the efficacy of a metered dose inhaler with bottle spacer for bronchodilator treatment in acute lower airway obstruction in children under 5 years of age. Arch Dis Child 2007;92:142-146.</p>
+  <p class="text-[10px] leading-snug text-stone-500">9. Zar HJ, Brown G, Donson H, et al. Home-made spacers for bronchodilator therapy in children with acute asthma: a randomised trial. Lancet 1999;354:979-982.</p>
+  <p class="text-[10px] leading-snug text-stone-500">10. Cochrane review: commercial versus home-made spacers in delivering bronchodilator therapy for acute therapy in children. Cochrane Database Syst Rev 2013 (CD005536).</p>
+  <p class="text-[10px] leading-snug text-stone-500">11. Levin M. Treating childhood asthma. S Afr Fam Pract 2011;53(Suppl 6).</p>
+  <p class="text-[10px] leading-snug text-stone-500">12. National Heart, Lung, and Blood Institute. How to use a nebulizer (patient information). National Jewish Health. How to use a nebulizer video.</p>
+  <p class="text-[10px] leading-snug text-stone-500">13. Global Health Media Project. How to give a nebulizer treatment (Emergency Care Series). Geeky Medics. Administering nebulised medication OSCE guide.</p>
+</div>
+</details>
+</div>
+</body>
+</html>
+  `
+},
 
 ];

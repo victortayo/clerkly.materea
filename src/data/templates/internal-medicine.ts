@@ -3,6 +3,295 @@ import { Template } from '../../types';
 export const INTERNAL_MEDICINE_TEMPLATES: Template[] = [
 
   {
+    id: 'im-131',
+    title: 'Sepsis Secondary to Community-Acquired Pneumonia and Infected Sacral Pressure Ulcer',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'General Medical Ward',
+    condition: 'Sepsis',
+    symptoms: [
+      'Fever',
+      'Altered sensorium',
+      'Generalized body weakness',
+      'Loss of appetite',
+      'Productive cough',
+      'Sacral pressure ulcer',
+      'Foul-smelling wound discharge',
+      'Urinary incontinence',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-23',
+    summary: '78-year-old hypertensive male with a history of ischemic stroke and residual left-sided hemiplegia, presenting with fever, altered sensorium, productive cough and an infected stage 3 sacral pressure ulcer, with clinical features suggestive of sepsis secondary to community-acquired pneumonia and infected pressure ulcer.',
+    content: `MEDICAL WARD
+  
+  Patient Seen
+  A 78-year-old male retired civil servant who resides in Surulere, Lagos State. He is a Yoruba man and is currently being cared for by his daughter.
+  
+  PC:
+  Fever × 5/7
+  Altered sensorium × 1/7
+  Sacral wound × 3/52
+  
+  HPC:
+  The patient was apparently well until 5 days ago when he developed fever which was high grade, intermittent, and associated with chills and rigors. There was associated generalized body weakness and loss of appetite. Three days prior to presentation, he developed a cough which was productive of thick, yellowish sputum but no hemoptysis.
+  
+  One day ago, the caregiver noticed he became increasingly drowsy, was not responding appropriately to questions, and had episodes of urinary incontinence.
+  
+  The sacral wound was first noticed 3 weeks ago as a reddish patch which subsequently broke down to form an open sore. It has progressively increased in size and has started discharging foul-smelling, purulent matter. He has been largely bedbound for the past 4 months following a previous stroke.
+  
+  Past Medical History:
+  Known hypertensive × 15 years, fairly controlled on Tab Amlodipine 10 mg daily and Tab Lisinopril 10 mg daily.
+  
+  Diagnosed with Ischemic Stroke 4 months ago with residual left-sided hemiplegia.
+  
+  No known history of Diabetes Mellitus or Asthma.
+  
+  Drug History:
+  Currently on antihypertensives as stated above.
+  Daily Aspirin 75 mg.
+  Tab Atorvastatin 20 mg nocte.
+  No known drug allergies.
+  
+  Family and Social History:
+  Married in a monogamous setting with four children.
+  Non-smoker, non-alcohol consumer.
+  Resides in a well-ventilated 3-bedroom bungalow.
+  Daughter is the primary caregiver.
+  
+  Review of Systems:
+  CNS: GCS of 12/15 (E4, V3, M5). No seizures.
+  CVS: No chest pain or palpitations.
+  RS: As in HPC. No orthopnea or PND.
+  GIT: No vomiting or diarrhea. Constipated × 3/7.
+  GUS: Incontinent of urine. No hematuria.
+  
+  O/E:
+  
+  General Examination:
+  Acutely ill-looking elderly man, obtunded, febrile (Temp 38.8°C), mildly pale, anicteric, dehydrated, not cyanosed. No significant peripheral lymphadenopathy. Pitting pedal edema (grade 1) up to the ankles.
+  
+  Vital Signs:
+  PR: 112 bpm, regular, moderate volume.
+  BP: 95/60 mmHg.
+  RR: 28 cpm, in respiratory distress.
+  SpO₂: 91% on room air.
+  
+  CNS:
+  Obtunded with GCS 12/15.
+  Pupils 3 mm, briskly reactive to light.
+  Neck stiffness absent.
+  Power: 3/5 on the right, 1/5 on the left (residual deficit).
+  Generalized hypotonia and diminished deep tendon reflexes.
+  
+  Respiratory System:
+  Trachea central.
+  Tachypneic with use of accessory muscles of respiration.
+  Percussion note resonant bilaterally.
+  Auscultation: Coarse crepitations at the right lung base.
+  
+  CVS:
+  Pulse as noted.
+  Apex beat at 6th LICS, MCL.
+  S1 S2 only. No murmurs.
+  
+  Abdomen:
+  Flat, moves with respiration.
+  Soft, non-tender.
+  Liver and Spleen not enlarged.
+  Kidneys not ballotable.
+  Bowel sounds present.
+  
+  Musculoskeletal System (Pressure Ulcer Assessment):
+  A deep, oval-shaped ulcer over the sacral region measuring approximately 12 cm × 10 cm.
+  
+  Stage 3 pressure ulcer (full-thickness skin loss involving damage to subcutaneous tissue).
+  
+  Slough present at the base, foul-smelling purulent discharge noted.
+  
+  Surrounding skin is erythematous, warm, and indurated.
+  
+  No visible bone or tendon exposure.
+  
+  ASS:
+  1. Sepsis secondary to Community-Acquired Pneumonia and Infected Grade 3 Pressure Ulcer.
+  2. Left-sided hemiplegia secondary to previous Ischemic Stroke.
+  3. Hypertension.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Urosepsis (given urinary incontinence and altered mental state).
+  2. Meningitis.
+  3. Pulmonary Embolism (risk factor of immobility).
+  
+  INVESTIGATIONS:
+  1. Full Blood Count (FBC): Expected leucocytosis with left shift.
+  2. Blood Culture and Sensitivity: To guide antibiotic therapy.
+  3. Wound Swab for m/c/s.
+  4. Urinalysis and Urine m/c/s.
+  5. Serum Urea, Electrolytes, and Creatinine: To assess renal function and hydration status.
+  6. Random Blood Sugar: To rule out glycemic derangements.
+  7. Chest X-ray (AP view): To confirm pneumonia.
+  8. Wound biopsy or debridement tissue culture if no improvement.
+  
+  PLAN:
+  
+  Emergency Care and Sepsis Management:
+  1. Resuscitation: IV fluids (0.9 percent Normal Saline) 1 L stat, then titrate to maintain MAP > 65 mmHg and adequate urine output.
+  2. Oxygen Therapy: Administer via nasal cannulae at 3-5 L/min to maintain SpO₂ > 94 percent.
+  3. Empirical Antibiotics: Start IV Ceftriaxone 2 g daily + IV Metronidazole 500 mg 8-hourly (to cover aerobes and anaerobes). Adjust based on culture results.
+  4. Fever Control: IV Paracetamol 1 g 8-hourly.
+  5. Monitoring: Hourly vitals, input-output chart, GCS monitoring.
+  
+  Specific Management of Pressure Ulcer (Bed Sores):
+  1. Debridement: Surgical or sharp debridement of necrotic tissue and slough to promote healing.
+  2. Wound Cleansing: Irrigate with Normal Saline at each dressing change. Avoid cytotoxic agents like hydrogen peroxide or povidone-iodine inside the wound bed as they inhibit granulation.
+  3. Wound Dressing: Use moist wound healing principles. Apply honey-impregnated gauze (if available) or hydrocolloid dressings. Change dressings daily or when soaked.
+  4. Pressure Relief:
+  - Implement a 2-hourly turning schedule (lateral, supine, lateral).
+  - Use an air-pressure mattress or water bed to redistribute pressure.
+  - Use pillows to bridge bony prominences (e.g., knees, ankles).
+  - Ensure the patient is not positioned directly on the ulcer.
+  5. Nutritional Support: High-protein, high-calorie diet (e.g., soy-based meals, eggs, fish) plus Vitamin C and Zinc supplements to aid tissue repair.
+  6. Skin Care: Keep the surrounding skin clean and dry. Use barrier creams to prevent moisture lesions from incontinence.
+  
+  Follow-up and Rehabilitation:
+  1. Physiotherapy: Passive limb exercises to prevent contractures and DVT.
+  2. Caregiver Counseling: Education on turning techniques, skin inspection, and hygiene.
+  3. Neurology review for optimization of stroke recovery.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'im-130',
+    title: 'Acute Decompensated Heart Failure Secondary to Suspected Rheumatic Heart Disease',
+    specialty: 'Internal Medicine',
+    subSpecialty: 'Cardiology',
+    condition: 'Congestive Cardiac Failure',
+    symptoms: [
+      'Shortness of breath',
+      'Cough',
+      'Orthopnoea',
+      'Paroxysmal nocturnal dyspnoea',
+      'Wheezing',
+      'Chest tightness',
+      'Frothy pinkish sputum',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-23',
+    summary: '26-year-old female fashion designer presenting with acute progressive shortness of breath, orthopnoea, paroxysmal nocturnal dyspnoea and frothy pinkish sputum, with clinical features suggestive of acute decompensated heart failure secondary to suspected chronic rheumatic valvular heart disease (mitral regurgitation).',
+    content: `MEDICAL EMERGENCY / CARDIOLOGY
+  
+  Patient Seen
+  A 26-year-old female fashion designer who resides in Surulere, Lagos State. She is of Igbo ethnicity.
+  
+  PC:
+  Shortness of breath × 2/7
+  Cough × 2/7
+  Orthopnoea × 2/7
+  
+  HPC:
+  She was apparently well until 2 days ago when she developed sudden onset shortness of breath which was initially noted on exertion but rapidly progressed to occurring at rest. The breathlessness is worse when lying flat, requiring her to use three pillows to sleep, and she has had several episodes of waking up suddenly at night gasping for air.
+  
+  There is an associated cough which is productive of frothy, slightly pinkish sputum. She also reports associated wheezing and chest tightness. There is no history of fever, chest pain, or leg swelling.
+  
+  She gives a history of recurrent sore throats and migratory joint pains during her early teenage years, for which she received no formal medical treatment.
+  
+  She has no prior history of bronchial asthma or known allergies.
+  
+  Past Medical History:
+  No previous hospitalizations for similar symptoms. No history of hypertension or diabetes mellitus.
+  
+  Drug History:
+  She has been using a Salbutamol inhaler obtained from a local pharmacy over the last 24 hours with no relief. No known drug allergies.
+  
+  Family and Social History:
+  She is the second of five children in a monogamous family setting. Non-smoker and does not consume alcohol. No family history of asthma or early sudden cardiac death.
+  
+  Review of Systems:
+  CNS: No headache or loss of consciousness.
+  GIT: No abdominal pain or nausea.
+  MSS: No current joint pains or swelling.
+  
+  O/E:
+  
+  General Examination:
+  Acutely distressed young lady, orthopnoeic, in obvious respiratory distress with flaring of alae nasi and use of accessory muscles of respiration.
+  
+  Not pale, anicteric, no cyanosis, no significant lymphadenopathy. No pedal edema.
+  
+  Vital Signs:
+  PR: 112 bpm, regular, normal volume
+  BP: 105/70 mmHg
+  RR: 34 cpm
+  SpO₂: 89% on room air
+  Temperature: 36.8°C
+  
+  CVS:
+  Jugular venous pressure is elevated (5 cm H₂O).
+  
+  Apex beat is displaced to the 6th left intercostal space, anterior axillary line, heaving in character.
+  
+  S1, S2 heard. A grade 3/6 pansystolic murmur is heard at the apex, radiating to the axilla.
+  
+  Respiratory System:
+  Trachea is central.
+  Reduced chest expansion bilaterally.
+  Percussion note is resonant.
+  Auscultation reveals widespread expiratory wheeze and fine bilateral basal crepitations.
+  
+  Abdominal Examination:
+  Abdomen is flat and moves with respiration.
+  No hepatomegaly or splenomegaly.
+  Bowel sounds are present and normal.
+  
+  ASS:
+  Congestive Cardiac Failure (NYHA Class IV) secondary to Valvular Heart Disease (likely Chronic Rheumatic Heart Disease - Mitral Regurgitation) precipitated by Acute Pulmonary Edema.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Bronchial Asthma
+  2. Community-Acquired Pneumonia
+  3. Acute Pulmonary Embolism
+  
+  INVESTIGATIONS:
+  1. Pulse Oximetry: To monitor oxygen saturation.
+  2. Chest X-ray (AP/Lateral): Look for cardiomegaly, Kerley B lines, and upper lobe diversion.
+  3. Electrocardiogram (ECG): Check for left ventricular hypertrophy (LVH), left atrial enlargement, or arrhythmias.
+  4. Echocardiography: To confirm valvular lesion, assess ejection fraction and chamber dimensions.
+  5. Full Blood Count (FBC): To rule out anaemia or infection as a precipitant.
+  6. Urea, Electrolytes, and Creatinine: Baseline renal function before starting diuretics.
+  
+  PLAN:
+  
+  Urgent Stabilization:
+  1. Propped up position at 45 to 90 degrees.
+  2. High-flow Oxygen therapy via nasal cannulae or face mask to maintain SpO₂ above 94 percent.
+  3. Intravenous access and fluid restriction.
+  
+  Pharmacotherapy:
+  1. IV Furosemide 40 mg - 80 mg stat to promote diuresis and reduce preload.
+  2. IV Morphine 2.5 mg - 5 mg slowly (if available) to reduce anxiety and produce venodilation.
+  3. Consider Nitrate therapy (e.g., Sublingual Glyceryl Trinitrate) if systolic BP remains above 100 mmHg to reduce afterload.
+  4. Discontinue use of Salbutamol as it may worsen tachycardia.
+  
+  Follow-up:
+  1. Strict monitoring of Input/Output (Fluid chart).
+  2. Monitor Vitals (BP, PR, RR, SpO₂) every 15-30 minutes until stable.
+  3. Once stable, commence oral ACE inhibitors (e.g., Lisinopril) and long-term anticoagulation if there is evidence of atrial fibrillation or severe mitral valve disease.
+  4. Referral to Cardiology for definitive management of valvular heart disease.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
     id: 'im-129',
     title: 'Symptomatic Iron Deficiency Anaemia Secondary to Menorrhagia',
     specialty: 'Internal Medicine',

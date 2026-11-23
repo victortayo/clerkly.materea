@@ -3,10 +3,292 @@ import { Template } from '../../types';
 export const PEDIATRICS_TEMPLATES: Template[] = [
 
   {
+    id: 'peds-148',
+    title: 'Retropharyngeal Abscess',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Surgery',
+    condition: 'Retropharyngeal Abscess',
+    symptoms: [
+      'Fever',
+      'Difficulty swallowing (Dysphagia)',
+      'Painful swallowing (Odynophagia)',
+      'Neck stiffness',
+      'Drooling',
+      'Muffled voice',
+      'Torticollis',
+      'Posterior pharyngeal wall swelling',
+      'Poor appetite',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-23',
+    summary: '4-year-old male presenting with a 3-day history of high-grade fever, 2-day history of progressive odynophagia and drooling, and 1-day history of neck stiffness and torticollis. Examination revealed tender anterior cervical lymphadenopathy and a bulge in the posterior pharyngeal wall, suggestive of retropharyngeal abscess.',
+    content: `PAEDIATRIC SURGICAL / ENT EMERGENCY
+  
+  Patient Seen
+  Master O.A., a 4-year-old male residing in Dutse, Jigawa State. Hausa, Islam. Informant: Mother (Reliable).
+  
+  PC:
+  Fever × 3/7
+  Difficulty swallowing × 2/7
+  Neck stiffness and drooling × 1/7
+  
+  HPC:
+  The patient was apparently well until 3 days ago when he developed a high-grade fever. The fever was intermittent, associated with chills but no rigors, and showed temporary response to paracetamol.
+  
+  2 days prior to presentation, he started having significant difficulty swallowing (odynophagia) both solids and liquids. This was accompanied by excessive drooling of saliva as he was unable to swallow his secretions. The mother also noticed a change in his voice, which became muffled, sounding like he had a hot potato in his mouth.
+  
+  Yesterday, he developed neck stiffness and started keeping his head in a fixed, slightly extended position (torticollis). There is no history of cough, noisy breathing (stridor), or history of a swallowed foreign body like a fish bone or toy. No history of recent dental procedures or trauma to the throat.
+  
+  Past Medical History:
+  No similar previous episodes. No history of recurrent tonsillitis.
+  
+  Not a known patient with Sickle Cell Disease (HbAA).
+  
+  No known drug allergies.
+  
+  Birth, Developmental, and Immunization History:
+  
+  Birth History:
+  Pregnancy was supervised at a Primary Health Care center. Delivered at term via SVD. Birth weight was 3.1 kg. Neonatal period was uneventful.
+  
+  Developmental History:
+  Developmental milestones are appropriate for age.
+  
+  Immunization History:
+  Immunization is up to date for age according to the National Programme on Immunization (NPI) schedule. BCG scar is present.
+  
+  Dietary and Social History:
+  He is on family meals. Appetite has been very poor since the onset of symptoms.
+  
+  Lives in a bungalow with parents and three siblings. Water source is a communal borehole.
+  
+  O/E:
+  
+  General Examination:
+  An acutely ill-looking child, febrile (Temp 38.7°C), mildly dehydrated, not pale, no jaundice, no peripheral lymphadenopathy.
+  
+  Anthropometry:
+  Weight: 16 kg
+  Height: 102 cm
+  
+  Vital Signs:
+  PR: 124 bpm (Tachycardic)
+  RR: 28 cpm (No distress)
+  SpO₂: 98 percent on room air
+  
+  Oropharynx/Neck:
+  Neck: Restricted range of motion with tenderness over the anterior cervical region. Torticollis present. Bilateral submandibular lymphadenopathy noted.
+  
+  Oropharynx: Inspection reveals a visible bulge in the posterior pharyngeal wall, more prominent on the right side. The overlying mucosa is erythematous. Tonsils are pushed forward but do not show significant exudates.
+  
+  Respiratory System:
+  Trachea is central. No stridor or stertor heard at rest. Chest is clinically clear with good air entry bilaterally. Vesicular breath sounds.
+  
+  CVS:
+  Pulse is rapid but regular. S1 and S2 heart sounds heard. No murmurs.
+  
+  Abdomen:
+  Flat, soft, non-tender. Liver and spleen are not palpable. Bowel sounds are normal.
+  
+  CNS:
+  Conscious and alert. No signs of meningeal irritation.
+  
+  SUMMARY:
+  A 4-year-old male child, fully immunized, who presents with a 3-day history of high-grade fever, progressive odynophagia, drooling, and neck stiffness. Examination shows a toxic-looking child with posterior pharyngeal wall bulging and tender cervical lymphadenopathy.
+  
+  ASS:
+  Retropharyngeal Abscess.
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Peritonsillar Abscess (Quinsy).
+  2. Parapharyngeal Abscess.
+  3. Acute Epiglottitis.
+  4. Cervical Lymphadenitis.
+  
+  INVESTIGATIONS:
+  1. FBC: Expect leucocytosis with neutrophilia.
+  2. Soft tissue lateral neck X-ray (taken in extension during inspiration): Look for widening of the prevertebral soft tissue space (width >7 mm at C2 or >14 mm at C6 in children).
+  3. Blood Culture and Sensitivity.
+  4. Serum Electrolytes, Urea, and Creatinine: To assess hydration and renal function given poor oral intake.
+  5. Pus swab for microscopy, culture, and sensitivity (to be taken intraoperatively).
+  
+  PLAN:
+  1. Emergency admission with close monitoring of the airway. Keep the child in a comfortable position, usually supine with the head of the bed slightly elevated. Avoid unnecessary agitation.
+  2. Maintain NPO (Nothing by mouth) in view of possible surgical intervention.
+  3. IV Fluids: 5 percent Dextrose in 0.45 percent Normal Saline at 50 ml/hr to maintain hydration and correct deficits.
+  4. IV Ceftriaxone 800 mg (50 mg/kg) 24 hourly.
+  5. IV Metronidazole 120 mg (7.5 mg/kg) 8 hourly.
+  6. IV Paracetamol 240 mg (15 mg/kg) 6 hourly for analgesia and fever.
+  7. Urgent ENT Consultation: For surgical Incision and Drainage (I&D) under general anesthesia with a cuffed endotracheal tube to prevent aspiration of pus.
+  8. If any signs of airway obstruction (stridor, retractions) develop, move for emergency airway management (intubation or tracheostomy).
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
+    id: 'peds-147',
+    title: 'Suspected Chronic Hepatitis B Infection',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Paediatric Gastroenterology',
+    condition: 'Hepatitis B Infection',
+    symptoms: [
+      'Jaundice',
+      'Right upper quadrant abdominal pain',
+      'Fever',
+      'Hepatomegaly',
+      'Icteric sclera',
+      'Reduced appetite',
+    ],
+    contributor: 'Admin',
+    lastModified: '2026-11-23',
+    summary: '6-year-old male presenting with a 2-week history of progressive jaundice and 1-week history of right upper quadrant abdominal pain and fever. Examination revealed scleral icterus and firm hepatomegaly. Maternal HBsAg status at birth was unknown, raising suspicion of chronic hepatitis B infection.',
+    content: `PAEDIATRIC GASTROENTEROLOGY
+  
+  Patient Seen
+  Master Chidi Okoro, a 6-year-old male, residing in Ogbomosho, Oyo State. Igbo, Christian. Informant: Mother (Reliable).
+  
+  PC:
+  Yellowness of eyes × 2/52
+  Right-sided abdominal pain × 1/52
+  Low-grade fever × 1/52
+  
+  HPC:
+  The patient was apparently well until 2 weeks ago when the mother noticed yellowish discoloration of the sclera. The jaundice was described as progressive, not associated with dark-colored urine or pale stools. There is no history of preceding prodromal symptoms like excessive vomiting or diarrhea.
+  
+  One week prior to presentation, he developed right upper quadrant abdominal pain. The pain is dull, non-radiating, with no specific relieving or aggravating factors. He also had an associated low-grade, intermittent fever which was partially relieved by paracetamol.
+  
+  There is no history of easy bruisability, epistaxis, or hematemesis. No history of abdominal swelling or leg swelling. No history of recent blood transfusion, traditional scarification marks, or use of shared needles.
+  
+  Past Medical History:
+  Not a known patient with Sickle Cell Disease (SCD). No previous history of prolonged hospitalizations or surgical procedures. No history of known drug allergies.
+  
+  Birth History:
+  
+  Antenatal:
+  Mother was booked at a private clinic in Ogbomosho. Pregnancy was term. No history of maternal febrile illness or jaundice during pregnancy. Maternal HBsAg status was not known or screened at the time.
+  
+  Natal:
+  Delivered via spontaneous vaginal delivery (SVD) at a maternity home. Cried immediately at birth. Birth weight was 3.2 kg.
+  
+  Post-natal:
+  No history of neonatal jaundice or respiratory distress.
+  
+  Immunization History:
+  Immunized according to the National Programme on Immunization (NPI) schedule as per mother's report (card not available). Received BCG, OPV, and Pentavalent vaccines. BCG scar is present on the left deltoid.
+  
+  Dietary History:
+  Exclusively breastfed for 6 months. Complementary feeding started at 6 months with fortified pap and family diet. Currently on family diet consisting of carbohydrates, proteins, and vitamins. Appetite is currently fair.
+  
+  Developmental History:
+  Achieved age-appropriate milestones. Currently in Primary 1 and performing well academically.
+  
+  Family and Social History:
+  3rd child in a monogamous family setting. Parents are traders. They live in a 2-bedroom apartment with adequate ventilation. Source of water is a protected well. Refuse disposal is via the local government waste system. No history of similar symptoms among siblings.
+  
+  O/E:
+  
+  General Examination:
+  Acutely ill-looking, conscious, and alert. Not in any obvious respiratory or painful distress.
+  
+  Icteric (scleral jaundice present).
+  
+  Not pale, acyanosed, and well-hydrated.
+  
+  No significant peripheral lymphadenopathy. No pedal edema.
+  
+  Anthropometry:
+  Weight: 20 kg (Expected for age).
+  Height: 115 cm.
+  MUAC: 15.5 cm.
+  
+  Abdomen:
+  Full, moves with respiration. No visible scars or dilated veins.
+  
+  Soft, mild tenderness at the right upper quadrant.
+  
+  Liver: Enlarged 3 cm below the right costal margin. Surface is smooth, firm in consistency, with a sharp edge.
+  
+  Spleen: Not palpable.
+  Kidneys: Not ballottable.
+  No signs of ascites (no shifting dullness).
+  Bowel sounds: Present and normal.
+  
+  Respiratory System:
+  RR 24 cpm. Trachea central. Percussion notes resonant. Vesicular breath sounds. No added sounds.
+  
+  CVS:
+  PR 90 bpm, rhythmic, full volume.
+  BP 95/60 mmHg.
+  Apex beat at 4th left intercostal space, midclavicular line. S1 S2 heard, no murmurs.
+  
+  Neurological System:
+  Oriented in time, place, and person. Pupils 2 mm, briskly reactive to light. No focal neurological deficits.
+  
+  SUMMARY:
+  Master Chidi, a 6-year-old male, presented with a 2-week history of jaundice and 1-week history of RUQ pain and fever. Examination revealed significant icterus and firm, tender hepatomegaly (3 cm). Maternal HBsAg status at birth was unknown.
+  
+  ASS:
+  Chronic Hepatitis B infection (likely perinatally acquired).
+  
+  DIFFERENTIAL DIAGNOSES:
+  1. Chronic Hepatitis C infection.
+  2. Autoimmune Hepatitis.
+  3. Wilson's Disease.
+  
+  INVESTIGATIONS:
+  1. Hepatitis B Profile: HBsAg (to confirm chronicity if positive >6 months), HBeAg, Anti-HBe, Anti-HBc IgM and IgG.
+  2. HBV DNA Quantification (Viral Load).
+  3. Liver Function Tests (LFTs): Check ALT/AST levels and Albumin/Bilirubin.
+  4. Full Blood Count (FBC) and Platelet count: Assess for hypersplenism or infection.
+  5. PT/INR: To assess liver synthetic function.
+  6. Abdominal Ultrasound Scan: To evaluate liver parenchymal echoes and check for signs of cirrhosis or portal hypertension.
+  7. Screening of family members (Parents and siblings) for HBsAg.
+  
+  PLAN:
+  
+  GENERAL AND COUNSELING:
+  - Counsel parents on the chronicity of the condition and the necessity of long-term follow-up.
+  - Explain the routes of transmission and the importance of screening household members.
+  - Vaccinate all HBsAg-negative household members.
+  - Nutritional support: Maintain high-calorie, high-protein diet.
+  - Avoid hepatotoxic substances: Advise against herbal concoctions, NSAIDs, and excessive paracetamol.
+  
+  MEDICAL MANAGEMENT (ANTIVIRAL THERAPY):
+  Antiviral treatment in children is generally indicated if ALT is persistently elevated (>2x Upper Limit of Normal) for at least 6 months and HBV DNA is high (>20,000 IU/mL for HBeAg positive).
+  
+  1. Tenofovir Disoproxil Fumarate (TDF):
+  - Indicated for children aged >= 2 years and weighing >= 10 kg.
+  - Dosage: 8 mg/kg once daily.
+  - For this 20 kg child, the dose is 160 mg orally once daily. (Note: 300 mg is the standard adult dose; pediatric strengths or precise splitting may be required).
+  
+  2. Entecavir (Alternative):
+  - For children >= 2 years.
+  - Dosage for 20 kg child: 0.3 mg to 0.5 mg orally once daily (refer to weight-based dosing chart).
+  
+  MONITORING:
+  - Review in clinic every 3 months.
+  - Serial LFTs and HBV DNA every 3-6 months.
+  - Monitor growth parameters and renal function (especially if on TDF).
+  - Periodic screening for Hepatocellular Carcinoma (HCC) via alpha-fetoprotein and ultrasound every 6-12 months.
+  `,
+    documentation: `
+  <div class="space-y-6">
+  Not yet available
+  </div>
+  `,
+    bookmarkCount: 0
+  },
+  
+  {
     id: 'peds-146',
     title: 'Infantile Hypertrophic Pyloric Stenosis with Dehydration',
-    specialty: 'Paediatrics',
-    subSpecialty: 'Paediatric Surgery',
+    specialty: 'Pediatrics',
+    subSpecialty: 'Pediatric Surgery',
     condition: 'Infantile Hypertrophic Pyloric Stenosis',
     symptoms: [
       'Projectile non-bilious vomiting',

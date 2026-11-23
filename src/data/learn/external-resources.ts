@@ -2089,5 +2089,273 @@ Suggested Viewing Order
   `
 },
 
+{
+  id: 'resources-ultrasonography-course-collection',
+  title: 'Ultrasonography Course Collection',
+  category: 'External Resources',
+  subCategory: 'Radiology',
+  content: `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+body { font-family: Georgia, 'Times New Roman', serif; }
+.sans, .font-brand { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+.quote { border-left-width: 3px; border-left-style: solid; }
+</style>
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-700 dark:text-slate-300">
+<div class="max-w-3xl mx-auto p-4 sm:p-6">
+
+<div class="relative overflow-hidden rounded-3xl border border-indigo-900/50 shadow-xl mb-8 bg-indigo-950 dark:bg-slate-900">
+<div class="absolute -top-16 -right-16 w-64 h-64 rounded-full bg-indigo-500/20 blur-3xl"></div>
+<div class="absolute -bottom-12 -left-12 w-48 h-48 rounded-full bg-blue-500/10 blur-2xl"></div>
+<div class="relative p-6 sm:p-8">
+  <span class="inline-block px-3 py-1 mb-4 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-xs font-medium text-indigo-200">RESOURCES &middot; RADIOLOGY</span>
+  <h1 class="font-brand text-3xl font-bold mb-3 text-white">Ultrasonography Course Collection</h1>
+  <p class="text-sm text-indigo-200">A curated list of 35 resources for learning ultrasound, arranged from physics and probe handling through eFAST, cardiac, lung and obstetric scanning, procedures and low-resource references. In Nigerian practice a bedside scan is often the only imaging a patient can afford or reach in time, so being able to scan well matters. Use this list to learn technique, then practise under supervision on real patients.</p>
+</div>
+</div>
+
+
+<nav aria-label="Table of contents" class="mb-8 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700">
+<p class="font-brand text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400 mb-3">On this page</p>
+<ul class="space-y-0.5 sans" style="list-style:none;padding-left:0;margin:0;">
+  <li><a href="#about-this-collection" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">1</span><span>About This Collection</span></a></li>
+  <li><a href="#ultrasound-in-nigerian-practice" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">2</span><span>Ultrasound in Nigerian Practice</span></a></li>
+  <li><a href="#start-here-physics-probes-and-knobology" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">3</span><span>Start Here: Physics, Probes and Knobology</span></a></li>
+  <li><a href="#structured-courses-and-video-libraries" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">4</span><span>Structured Courses and Video Libraries</span></a></li>
+  <li><a href="#trauma-and-the-efast-exam" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">5</span><span>Trauma and the eFAST Exam</span></a></li>
+  <li><a href="#cardiac-ultrasound-and-the-ivc" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">6</span><span>Cardiac Ultrasound and the IVC</span></a></li>
+  <li><a href="#lung-ultrasound" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">7</span><span>Lung Ultrasound</span></a></li>
+  <li><a href="#obstetric-and-gynaecological-ultrasound" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">8</span><span>Obstetric and Gynaecological Ultrasound</span></a></li>
+  <li><a href="#ultrasound-guided-procedures" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">9</span><span>Ultrasound-Guided Procedures</span></a></li>
+  <li><a href="#low-resource-settings" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">10</span><span>Low-Resource Settings</span></a></li>
+  <li><a href="#paid-courses-to-know-about" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">11</span><span>Paid Courses to Know About</span></a></li>
+  <li><a href="#suggested-viewing-order" class="flex items-center gap-2 py-1.5 px-2 rounded-lg text-sm text-slate-700 dark:text-slate-300 hover:bg-indigo-50 dark:hover:bg-indigo-900/20 hover:text-indigo-700 dark:hover:text-indigo-300 transition-colors no-underline">
+    <span class="bg-indigo-950 dark:bg-indigo-900 text-white w-5 h-5 rounded-md inline-flex items-center justify-center text-[10px] shrink-0 sans">12</span><span>Suggested Viewing Order</span></a></li></ul>
+</nav>
+
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="about-this-collection" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">1</span>
+About This Collection
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">The links come from searches and from the source pages opened while this list was compiled, in November 2026. Each link was returned by a search or listed on an opened page. The individual videos were not played, so the type of footage (real patient, volunteer or manikin) is not confirmed unless a card says so. Items marked 📖 are written guides rather than video.</p>
+<p class="text-sm">Truly free, complete ultrasound courses are rare. Many of the best are paid, so a short section near the end lists them for comparison. Cards say when a page needs a login or a subscription, or when I could not tell. A few pages would not open, and those are marked.</p>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="ultrasound-in-nigerian-practice" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">2</span>
+Ultrasound in Nigerian Practice
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<ul class="list-disc pl-5 space-y-2 text-sm">
+  <li><strong>Scan to answer a question.</strong> Point-of-care ultrasound answers a focused question at the bedside, such as free fluid, pericardial effusion, pneumothorax, or fetal heart activity. It does not replace a formal scan by a trained sonographer or radiologist.</li>
+  <li><strong>Know your scope.</strong> Local rules on who may perform and report scans differ between professions and facilities. Ask your department what you are permitted to do, and record what you scan.</li>
+  <li><strong>Supervised practice matters.</strong> Videos teach the views, but skill comes from scanning many patients with feedback. Log your scans and ask a senior to review images.</li>
+  <li><strong>Machines vary.</strong> Many units have a single older machine, or a handheld probe. Learn the controls on the machine you actually have.</li>
+  <li><strong>Common uses here.</strong> Trauma and road-crash injuries, pregnancy complications such as bleeding and malpresentation, dyspnoea from heart failure, effusions and pneumonia, and abdominal pain.</li>
+  <li><strong>Cost and referral.</strong> Because formal imaging is costly, a good bedside scan can speed referral decisions. Tell the patient clearly what you did and did not exclude.</li>
+</ul>
+<div class="p-4 sm:p-6 bg-amber-50 dark:bg-amber-900/20 rounded-xl border border-amber-200 dark:border-amber-700 text-amber-900 dark:text-amber-300">
+  <strong class="block font-semibold pb-2 mb-2 border-b border-amber-200 dark:border-amber-700">Guideline Watch</strong>
+  <p class="text-sm">Most of these courses come from the United States, Europe and Australia and assume a machine, a trained teacher and referral CT. Scope of practice, indications, timing of antenatal scans and what to do with an abnormal finding can differ from WHO guidance, FMOH guidance and your hospital&rsquo;s protocol. Where they differ, follow the local protocol and ask your senior.</p>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="start-here-physics-probes-and-knobology" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">3</span>
+Start Here: Physics, Probes and Knobology
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Learn what the machine is doing before you scan. Choose the right probe, hold it correctly, and use depth, gain and focus. Most poor images come from skipping this.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://geekymedics.com/a-beginners-guide-to-ultrasound/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">A beginner&rsquo;s guide to ultrasound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Geeky Medics. Indications, probe choice, probe movements, B-mode, M-mode and Doppler, depth, gain and focus, and a quick-start checklist. Images and text only, with no embedded video.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://images.radiopaedia.org/courses/imaging-physics-lectures" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Introduction to ultrasound physics (25-minute lecture)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Radiopaedia imaging physics lecture collection, presented by Amy Barnes. The page says free access is available to people in low- and middle-income regions, subject to eligibility. Otherwise it needs a paid pass.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.med.upenn.edu/POCUS/knobology/physics.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Knobology, Physics and Probes</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Penn point-of-care ultrasound education. Five embedded videos. The page notes one of them (POCUS Pearls) is free on the university network only, so it may not open for you.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://litfl.com/pocus-made-easy/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">POCUS Made Easy (11 short videos)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Life in the Fast Lane, by Dr Fahad Yousif. The page describes 11 teaching videos of 2 to 8 minutes plus pages on eFAST and basic principles. The video list did not load when I opened it. Pricing is not stated.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.acep.org/sonoguide/basic/ultrasound-physics-and-technical-facts-for-the-beginner" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound physics and technical facts for the beginner</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ACEP Sonoguide. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://litfl.com/point-of-care-ultrasound-essentials/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">LITFL Point-of-Care Ultrasound Essentials</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Life in the Fast Lane. Appeared in search results. Page not opened. The page would not open when I tried it.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="structured-courses-and-video-libraries" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">4</span>
+Structured Courses and Video Libraries
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Broader collections you can work through in order. Most were built for emergency and critical care teams.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.vumc.org/emergencymedicine/node/13" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Critical Care Ultrasound (CCUS) curriculum</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Vanderbilt emergency medicine. Lists video modules with run times: physics and knobology (3 videos, 32 min), cardiac, lung, FAST, aorta, bowel, IVC, DVT, and ultrasound-guided IV and central lines. The page gives no per-video links and does not state pricing.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://emergencymedicinecases.com/videos/pocus-cases/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">POCUS Cases (10 videos)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Emergency Medicine Cases, led by Dr Robert Simard. Case-based videos on pulmonary embolism, pneumothorax, ocular ultrasound, distal radius fracture, small bowel obstruction, pericardial effusion, IVC, LV dysfunction, free fluid and aortic aneurysm. Access terms are not stated.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://coreultrasound.com/category/5-minute-sono/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">5 Minute Sono</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Core Ultrasound. Short topic posts, such as IVC (2024) and pyloric stenosis, so it also helps with the IVC. Pricing not stated. Some Core Ultrasound courses are paid.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://societyofpointofcareultrasound.wildapricot.org/FOAMED" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">FOAMed ultrasound resource directory</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Society of Point of Care Ultrasound. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://litfl.com/ultrasound-library/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">LITFL Ultrasound Library</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Life in the Fast Lane. Index of basics, lung, cardiac, renal, ocular and airway modules, procedures and the Top 100 cases. Links to some Medmastery material that may be paid. One peripheral IV course is labelled free.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="trauma-and-the-efast-exam" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">5</span>
+Trauma and the eFAST Exam
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Free fluid in the abdomen, chest and pericardium, and pneumothorax. This is the scan that changes decisions in a hypotensive trauma patient.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.acep.org/sonoguide/FAST.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Extended FAST (eFAST) in Sonoguide</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ACEP Sonoguide, by Andrea Rowland-Fisher and Robert Reardon. Text, 15 figures, and 27 video clips of normal anatomy, free fluid, pleural effusion and lung sliding. Access terms not stated.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://jetem.org/efastems/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">eFAST curriculum for prehospital clinicians</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Journal of Education and Teaching in Emergency Medicine, open access under CC BY 4.0. Penn State and WellSpan authors. About 2.5 hours of lectures and a hands-on workshop plan. Video archives are downloadable. Built for EMS staff but useful for any teacher.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.jove.com/v/65066" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">FAST Exam: Image Acquisition</a><span class="block mt-1 text-slate-500 dark:text-slate-400">JoVE. Appeared in search results. Page not opened. JoVE usually needs an institutional subscription.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://coreultrasound.com/?p=9038" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Abdominal FAST in 5 Minute Sono (2024)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Core Ultrasound. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="cardiac-ultrasound-and-the-ivc" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">6</span>
+Cardiac Ultrasound and the IVC
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Focused cardiac views to look for pericardial effusion, gross LV function and RV size, and the IVC for volume status.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://medicine.yale.edu/media-player/focus" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Focused Cardiac Ultrasound (Yale)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Yale School of Medicine. At least 16 minutes. Probe placement and the five standard views (parasternal long and short axis, apical four-chamber, subxiphoid, IVC). Normal and abnormal clips are from patients of various ages, including children and a newborn. The page does not name the presenter.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://jomi.com/article/322" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Introduction to Bedside Cardiac Ultrasound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Journal of Medical Insight. Appeared in search results. Page not opened. JoMI is usually subscription-based.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://litfl.com/echo-pericardial-effusion/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Echo: pericardial effusion</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Life in the Fast Lane. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="lung-ultrasound" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">7</span>
+Lung Ultrasound
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Pleural sliding, B-lines, consolidation and effusion. Useful in dyspnoea, pneumonia, heart failure and trauma, and it needs no radiation.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://stanfordmedicine25.stanford.edu/the25/lung-ultrasound.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Comprehensive Guide to Lung Ultrasound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Stanford Medicine 25. A video presented by Dr John Kugler plus the POCUS playlist. The page is public, with no login or fee mentioned. Footage type not stated.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://medicine.yale.edu/media-player/lus-part-1-pocus/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Lung Ultrasound (LUS) Part 1</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Yale. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://medicine.yale.edu/media-player/lus-part-2-pocus" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Lung Ultrasound (LUS) Part 2</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Yale. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="obstetric-and-gynaecological-ultrasound" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">8</span>
+Obstetric and Gynaecological Ultrasound
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">For midwives, doctors and sonographers. Start with the film and lectures, then use the outreach curriculum to see what a basic competency list looks like.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.isuog.org/resource/the-basic-steps-of-an-obstetric-ultrasound-film.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The Basic Steps of an Obstetric Ultrasound</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ISUOG with Medical Aid Films, 2019. A film on doing an efficient second- and third-trimester scan. Embedded as a Vimeo video. Length, languages and cost are not stated.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.isuog.org/education/basic-training1/basic-training-online-resources/basic-training-online-module-new.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">ISUOG Basic Training Online (30 lectures)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ISUOG. Physics and safety, transducers, Doppler, early pregnancy at 4 to 14 weeks, biometry, placenta and fluid, fetal anatomy, growth and gynaecological ultrasound. Licensed CC BY-NC-ND 4.0. The page has a login link and does not state a price or whether login is needed.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.isuog.org/education/basic-training.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">ISUOG basic training films</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ISUOG. Names a first film, The Principles of Ultrasound, made with Medical Aid Films. No video link or pricing on the page.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.isuog.org/education/outreach/outreach-resources/isuog-outreach-training.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">ISUOG Outreach training programme</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ISUOG. A three-phase course for basic obstetric and gynaecological ultrasound where sonographers are scarce. It links a curriculum outline and a scanning skills checklist. The page says it is not a comprehensive course and does not state cost.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://medicalaidfilms.org/watch/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Medical Aid Films: watch library</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Medical Aid Films says its 300-plus films are free to view and download in 25 languages. I did not confirm which ones cover ultrasound.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://clarius.com/fr/?p=14909" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Clarius Ultrasound Education for Obstetrics</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Clarius, a scanner manufacturer. Appeared in search results. Page not opened. The link opens the French site version.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="ultrasound-guided-procedures" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">9</span>
+Ultrasound-Guided Procedures
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Needle guidance for lines, blocks and drainage. Learn the diagnostic views first.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.acep.org/sonoguide/abscess.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Abscess in Sonoguide</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ACEP Sonoguide. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.acep.org/sonoguide/nerve_block.html" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Nerve block in Sonoguide</a><span class="block mt-1 text-slate-500 dark:text-slate-400">ACEP Sonoguide. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="low-resource-settings" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">10</span>
+Low-Resource Settings
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Written references that assume you may have one machine and little back-up.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.who.int/publications/i/item/9789241547451" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">WHO Manual of Diagnostic Ultrasound, 2nd edition, Volume 1</a><span class="block mt-1 text-slate-500 dark:text-slate-400">World Health Organization. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://www.who.int/publications/i/item/9789241548540" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">WHO Manual of Diagnostic Ultrasound, 2nd edition, Volume 2</a><span class="block mt-1 text-slate-500 dark:text-slate-400">World Health Organization. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="paid-courses-to-know-about" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">11</span>
+Paid Courses to Know About
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<p class="text-sm">Listed so you can compare. A Life in the Fast Lane review (page opened) rated these providers and gave the prices, which change often.</p>
+<div class="space-y-2">
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📖 <a href="https://litfl.com/best-online-ultrasound-course-providers/" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">The 18 Best Online Ultrasound Course Providers</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Life in the Fast Lane. Compares Medmastery, 123sonography, Gulf Coast Ultrasound Institute, Core Ultrasound, SonoSim, IAME, Aeyr, RSNA, ASUM and Sonoskills. It also lists a few free items.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.medmastery.com/course/point-care-ultrasound-essentials" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Point-of-Care Ultrasound Essentials (Medmastery)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Medmastery. Paid, with some free first chapters per the review. Appeared in search results. Page not opened.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://www.medcram.com/courses/clinical-bedside-ultrasound" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Ultrasound Made Easy (MedCram)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">MedCram. Appeared in search results. Page not opened. Likely paid.</span></div>
+  <div class="p-3 bg-white dark:bg-slate-900 rounded-lg border border-slate-200 dark:border-slate-700 text-xs sans">📹 <a href="https://courses.coreultrasound.com/courses/fundamentals-primary-care" target="_blank" rel="noopener" class="text-indigo-600 dark:text-indigo-400 underline">Fundamentals of Primary Care Ultrasound (Core Ultrasound)</a><span class="block mt-1 text-slate-500 dark:text-slate-400">Core Ultrasound. Paid per the review. Appeared in search results. Page not opened.</span></div>
+</div>
+</div>
+<h2 class="font-brand flex items-start gap-2 text-indigo-950 dark:text-white text-lg font-semibold mt-8 mb-3" id="suggested-viewing-order" style="scroll-margin-top:1.5rem;">
+<span class="bg-indigo-950 dark:bg-indigo-900 text-white w-6 h-6 rounded-md inline-flex items-center justify-center text-xs shrink-0 font-sans mt-0.5">12</span>
+Suggested Viewing Order
+</h2>
+<div class="space-y-4 p-4 sm:p-6 bg-slate-50 dark:bg-slate-800/50 rounded-xl border border-slate-200 dark:border-slate-700 mb-6 text-slate-700 dark:text-slate-300">
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Week 1: the machine</strong>
+  <p class="text-sm">The Geeky Medics beginner&rsquo;s guide, the physics lecture, and the Knobology, Physics and Probes videos. Practise holding the probe and adjusting depth and gain on a colleague.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Weeks 2 to 4: emergency views</strong>
+  <p class="text-sm">The eFAST guide and curriculum, then POCUS Cases and the lung ultrasound videos. Scan under supervision and log each scan.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Cardiac and IVC</strong>
+  <p class="text-sm">Yale Focused Cardiac Ultrasound, then the IVC and pericardial effusion material.</p>
+</div>
+<div>
+  <strong class="block font-semibold text-slate-800 dark:text-slate-200 pb-2 mb-2 border-b border-slate-200 dark:border-slate-700">Obstetrics</strong>
+  <p class="text-sm">The Basic Steps film, then the ISUOG lectures, with the outreach checklist as your target list of skills.</p>
+</div>
+</div>
+<div class="p-4 sm:p-6 bg-rose-50 dark:bg-rose-900/20 rounded-xl border border-rose-200 dark:border-rose-700 mb-6 text-rose-900 dark:text-rose-200">
+<p class="font-brand font-semibold mb-3">Findings That Must Not Be Missed</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Free fluid in a hypotensive trauma patient, which usually means urgent surgical review and not further scanning.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Pericardial effusion with a collapsed right heart or a plethoric IVC in a shocked patient, which suggests tamponade.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Absent lung sliding in a patient with breathlessness or chest trauma, which suggests pneumothorax.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>No intrauterine pregnancy with free fluid or pain in an early pregnancy, which raises concern for an ectopic pregnancy.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#e11d48"/><path d="M12 7v6" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="16.5" r="1.2" fill="#ffffff"/></svg><span>Bleeding in late pregnancy: a low-lying or covering placenta is a reason to avoid a digital vaginal examination and to refer.</span></li>
+</ul>
+</div>
+
+<div class="p-4 sm:p-6 bg-indigo-50 dark:bg-indigo-900/20 rounded-xl border border-indigo-200 dark:border-indigo-700 mb-6 text-indigo-950 dark:text-indigo-200">
+<p class="font-brand font-semibold mb-3">Key Clinical Takeaways</p>
+<ul class="space-y-2 text-sm">
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Ask one clear question before you scan, and answer only that question.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Get the image right first: the right probe, depth, gain and a stable view.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>A negative or limited scan does not rule out disease. Repeat it, or use other tests, if the patient does not fit.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Treat the patient, not the picture. Combine findings with history and examination.</span></li>
+  <li class="flex items-start gap-2"><svg class="w-4 h-4 shrink-0 mt-0.5" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="#4338ca"/><path d="M7 12.5l3.2 3.2L17 9" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Skill comes from supervised scanning and review, not from videos alone.</span></li>
+</ul>
+</div>
+
+<details class="group bg-stone-50 dark:bg-stone-800/40 rounded-xl border border-stone-200 dark:border-stone-700">
+<summary class="flex items-center justify-between cursor-pointer p-4 font-brand font-semibold text-slate-800 dark:text-slate-200 list-none">
+  <span>References</span>
+  <svg class="w-4 h-4 transition-transform group-open:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</summary>
+<div class="px-4 pb-4 space-y-2">
+  <p class="text-[10px] leading-snug text-stone-500">International Society of Ultrasound in Obstetrics and Gynecology. Basic Training, Outreach programme and educational films. https://www.isuog.org/</p>
+  <p class="text-[10px] leading-snug text-stone-500">American College of Emergency Physicians. Sonoguide. https://www.acep.org/sonoguide</p>
+  <p class="text-[10px] leading-snug text-stone-500">World Health Organization. Manual of diagnostic ultrasound, 2nd edition. https://www.who.int/publications/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Journal of Education and Teaching in Emergency Medicine. eFAST curriculum for prehospital clinicians. https://jetem.org/efastems/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Radiopaedia. Imaging physics lectures. https://images.radiopaedia.org/courses/imaging-physics-lectures</p>
+  <p class="text-[10px] leading-snug text-stone-500">Life in the Fast Lane. Ultrasound library and review of online ultrasound course providers. https://litfl.com/</p>
+  <p class="text-[10px] leading-snug text-stone-500">Links were collected in November 2026 from search results and the source pages. The individual videos were not played, so the type of footage is not confirmed unless a card says so. Some items (journals, university sites, paid providers) may need a login or payment. Sites may move or remove videos.</p>
+</div>
+</details>
+
+</div>
+</body>
+</html>
+  `
+},
 
 ];

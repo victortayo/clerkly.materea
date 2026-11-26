@@ -1,7 +1,8 @@
 
 import { useState, useMemo, useEffect, useCallback } from 'react';
-import { User, onAuthStateChanged } from 'firebase/auth';
-import { auth } from './firebase';
+import { onAuthStateChanged } from 'firebase/auth';
+import { doc, getDoc } from 'firebase/firestore';
+import { auth, db } from './firebase';
 import { Layout } from './components/Layout';
 import { Hero } from './components/Hero';
 import { TemplateList } from './components/TemplateList';
@@ -12,7 +13,7 @@ import { ClerklyLearn } from './components/ClerklyLearn';
 import ClerklyCalculator from './components/ClerklyCalculator';
 import { Modal } from './components/Modal';
 import { useBookmarks } from './hooks/useBookmarks';
-import { Template, Specialty } from './types';
+import { Template, Specialty, AppUser, UserProfile } from './types';
 import StartingLoader from './components/StartingLoader';
 import ErrorBoundary from './components/ErrorBoundary';
 import { SpecialtyAccordion } from './components/SpecialtyAccordion';
@@ -26,8 +27,8 @@ const TEMPLATES_PER_PAGE = 12;
 type NavigationMode = 'list' | 'accordion' | 'symptoms';
 
 export default function App() {
-    // New Auth State
-    const [user, setUser] = useState<User | null>(null);
+    // Auth State
+    const [user, setUser] = useState<AppUser | null>(null);
     const [isAuthLoading, setIsAuthLoading] = useState(true);
     const [authView, setAuthView] = useState<'signIn' | 'signUp'>('signIn');
 
@@ -52,12 +53,25 @@ export default function App() {
 
     // Auth listener
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-            setUser(currentUser);
+        const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+            if (currentUser) {
+                // Fetch user profile from Firestore
+                const userDocRef = doc(db, "users", currentUser.uid);
+                const userDoc = await getDoc(userDocRef);
+
+                if (userDoc.exists()) {
+                    const userProfile = userDoc.data() as UserProfile;
+                    setUser({ ...currentUser, ...userProfile });
+                } else {
+                    // Handle case where user exists in Auth but not in Firestore
+                    setUser(currentUser as AppUser); // Or handle this as an error
+                }
+            } else {
+                setUser(null);
+            }
             setIsAuthLoading(false);
         });
 
-        // Cleanup subscription on unmount
         return () => unsubscribe();
     }, []);
 
@@ -73,7 +87,6 @@ export default function App() {
 
             fetchTemplates();
         } else {
-            // If user logs out or is not verified, clear data
             setTemplates([]);
             setIsLoading(true);
         }
@@ -208,14 +221,10 @@ export default function App() {
       { icon: 'fa-user-doctor', label: 'Specialty Clinics', ex: 'e.g. cardiology' },
     ];
 
-    // --- Render Logic ---
-
-    // 1. While Firebase is checking auth state, show a global loader
     if (isAuthLoading) {
         return <StartingLoader />;
     }
 
-    // 2. If no user, show Sign In or Sign Up pages
     if (!user) {
         return authView === 'signIn' ? (
             <SignIn onGoToSignUp={() => setAuthView('signUp')} />
@@ -224,23 +233,21 @@ export default function App() {
         );
     }
 
-    // 3. If user exists but email is not verified, show the verification page
     if (!user.emailVerified) {
         return <VerifyEmail />;
     }
     
-    // 4. If a user is logged in and verified, but templates are loading, show loader
     if (isLoading) {
         return <StartingLoader />;
     }
 
-    // 5. If a user is logged in, verified, and templates are loaded, show the app
     const hasFilters = searchQuery || selectedSpecialty !== 'All' || showBookmarks;
     const noResults = filteredTemplates.length === 0 && hasFilters;
 
     return (
         <ErrorBoundary>
             <Layout 
+                user={user}
                 onReset={handleReset}
                 onOpenHelp={() => setActiveModal('help')}
                 onOpenAbout={() => setActiveModal('about')}

@@ -1,3 +1,5 @@
+import { User as FirebaseUser } from 'firebase/auth';
+
 export type Specialty = 
   | 'Pediatrics'
   | 'Internal Medicine'
@@ -21,3 +23,11 @@ export interface Template {
   bookmarkCount: number;
   imageUrls?: string[];
 }
+
+export interface UserProfile {
+    uid: string;
+    role: string;
+    specialty: Specialty | 'N/A';
+}
+
+export type AppUser = FirebaseUser & UserProfile;

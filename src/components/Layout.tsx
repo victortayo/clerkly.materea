@@ -1,45 +1,55 @@
-import { ReactNode } from 'react';
 import { Header } from './Header';
 import { Footer } from './Footer';
-import { ToastProvider } from '../context/ToastContext';
-import { BackToTopButton } from './BackToTopButton';
+import { BackToTopButton as BackToTop } from './BackToTopButton';
+import { AppUser } from '../types';
 
 interface LayoutProps {
-  children: ReactNode;
+  user: AppUser | null;
+  children: React.ReactNode;
+  hero?: React.ReactNode;
   onReset: () => void;
-  onShowBookmarks: () => void;
   onOpenHelp: () => void;
   onOpenAbout: () => void;
   onOpenDisclaimer: () => void;
-  hero?: ReactNode;
+  onShowBookmarks: () => void;
   showBackToTop?: boolean;
 }
 
-export function Layout({ 
+export const Layout = ({ 
+  user, 
   children, 
   hero, 
-  showBackToTop, 
   onReset, 
-  onShowBookmarks, 
   onOpenHelp, 
-  onOpenAbout, 
-  onOpenDisclaimer 
-}: LayoutProps) {
+  onOpenAbout,
+  onOpenDisclaimer,
+  onShowBookmarks,
+  showBackToTop = true
+}: LayoutProps) => {
   return (
-    <ToastProvider>
-      <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-slate-950 transition-colors duration-300 font-sans">
-        <Header onReset={onReset} onShowBookmarks={onShowBookmarks} />
-        {hero}
-        <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-24">
-          {children}
-        </main>
-        <Footer 
-          onOpenHelp={onOpenHelp} 
-          onOpenAbout={onOpenAbout} 
-          onOpenDisclaimer={onOpenDisclaimer} 
-        />
-        {showBackToTop && <BackToTopButton />}
-      </div>
-    </ToastProvider>
+    <div className="flex flex-col min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-600 dark:text-slate-300 transition-colors duration-300">
+      <Header 
+        user={user}
+        onReset={onReset} 
+        onShowBookmarks={onShowBookmarks}
+      />
+      
+      {hero && (
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+          {hero}
+        </div>
+      )}
+
+      <main className="flex-grow w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        {children}
+      </main>
+      
+      <Footer 
+        onOpenHelp={onOpenHelp}
+        onOpenAbout={onOpenAbout}
+        onOpenDisclaimer={onOpenDisclaimer}
+      />
+      {showBackToTop && <BackToTop />}
+    </div>
   );
-}
+};
